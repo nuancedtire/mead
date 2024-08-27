@@ -4,8 +4,18 @@ import pandas as pd
 import os
 import logging
 
+# Define paths for the CSV and log files
+csv_folder = 'databases'
+log_folder = 'logs'
+csv_file_path = os.path.join(csv_folder, 'healthtech.csv')
+log_file_path = os.path.join(log_folder, 'script.log')
+
+# Ensure directories exist
+os.makedirs(csv_folder, exist_ok=True)
+os.makedirs(log_folder, exist_ok=True)
+
 # Set up logging
-logging.basicConfig(filename='sifted.log', level=logging.INFO, 
+logging.basicConfig(filename=log_file_path, level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 logging.info('Script started.')
@@ -61,9 +71,6 @@ new_data = pd.DataFrame({
     "Date": dates,
     "Link": links
 })
-
-# Path to the CSV file
-csv_file_path = 'sifted.csv'
 
 # Check if the CSV file already exists
 try:
