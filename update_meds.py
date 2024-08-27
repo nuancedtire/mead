@@ -96,7 +96,6 @@ def write_data_to_csv(data, csv_file):
                     "Image URL": image_url,
                     "Image URL Derived": image_url_derived,
                 })
-                logging.info(f"Successfully wrote article '{title}' to CSV.")
             except Exception as e:
                 logging.error(f"Error processing article: {e}")
 
