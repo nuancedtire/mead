@@ -98,6 +98,7 @@ def write_data_to_csv(data, csv_file):
                 })
             except Exception as e:
                 logging.error(f"Error processing article: {e}")
+        logging.info(f"Successfully updated CSV.")
 
 # Check if CSV file exists and write header if not
 if not os.path.exists(csv_file_path):
