@@ -18,7 +18,7 @@ os.makedirs(log_folder, exist_ok=True)
 logging.basicConfig(filename=log_file_path, level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-logging.info('Script started.')
+logging.info('Sifted script started.')
 
 url = 'https://r.jina.ai/sifted.eu/sector/healthtech/'
 
@@ -92,4 +92,4 @@ try:
 except Exception as e:
     logging.error(f"Error processing or saving the CSV file: {e}")
 
-logging.info('Script completed.')
+logging.info('Sifted script completed.')
