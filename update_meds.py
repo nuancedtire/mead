@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 csv_folder = 'databases'
 log_folder = 'logs'
 csv_file_path = os.path.join(csv_folder, 'meds.csv')
-log_file_path = os.path.join(log_folder, 'script.log')
+log_file_path = os.path.join(log_folder, 'meds.log')
 
 # Ensure directories exist
 os.makedirs(csv_folder, exist_ok=True)
