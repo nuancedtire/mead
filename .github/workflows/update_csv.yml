@@ -35,16 +35,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run the script
+      - name: Run the Sifted script
         run: |
           python update_sifted.py
+
+      - name: Run the Meds script
+        run: |
           python update_meds.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add databases/healthtech.csv logs/script.log
+          git add databases/sifted.csv databases/meds.csv logs/meds_script.log logs/sifted_script.log
           git commit -m "Updated CSV file and log"
           git push
         env:
