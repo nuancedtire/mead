@@ -7,7 +7,7 @@ import logging
 # Define paths for the CSV and log files
 csv_folder = 'databases'
 log_folder = 'logs'
-csv_file_path = os.path.join(csv_folder, 'healthtech.csv')
+csv_file_path = os.path.join(csv_folder, 'sifted.csv')
 log_file_path = os.path.join(log_folder, 'sifted.log')
 
 # Ensure directories exist
