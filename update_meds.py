@@ -53,8 +53,8 @@ except requests.exceptions.RequestException as e:
     data = None
 
 # Define CSV headers
-headers = ["Title", "Image URL", "Source Name", "Source URL",
-           "Publish Timestamp", "Article Text", "Image URL Derived"]
+headers = ["Title", "Time", "Link",  "Image URL", "Source Name",
+           "Article Text", "Image URL Derived"]
 
 # Function to parse bodyHTML and extract derived fields
 def parse_body_html(body_html):
@@ -88,12 +88,12 @@ def write_data_to_csv(data, csv_file):
 
                 # Write the data as a row in the CSV
                 writer.writerow({
+                    "Time": publish_timestamp,
                     "Title": title,
-                    "Image URL": image_url,
+                    "Link": source_url,
                     "Source Name": source_name,
-                    "Source URL": source_url,
-                    "Publish Timestamp": publish_timestamp,
                     "Article Text": article_text,
+                    "Image URL": image_url,
                     "Image URL Derived": image_url_derived,
                 })
                 logging.info(f"Successfully wrote article '{title}' to CSV.")
