@@ -5,7 +5,7 @@ import os
 import logging
 
 # Set up logging
-logging.basicConfig(filename='script.log', level=logging.INFO, 
+logging.basicConfig(filename='sifted.log', level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 logging.info('Script started.')
