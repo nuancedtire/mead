@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
   workflow_dispatch:  # Allows manual triggering
 
+permissions:
+  contents: write  # Grants the necessary permissions to push changes
+
 jobs:
   update_csv:
     runs-on: ubuntu-latest
