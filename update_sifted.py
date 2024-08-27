@@ -68,7 +68,7 @@ links = links[:min_length]
 # Create a DataFrame with the new data
 new_data = pd.DataFrame({
     "Title": titles,
-    "Date": dates,
+    "Time": dates,
     "Link": links
 })
 
