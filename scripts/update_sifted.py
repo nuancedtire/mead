@@ -44,7 +44,7 @@ search_phrase = "Sifted Daily"
 # Find the position of the search phrase and trim everything before it
 start_index = webpage_content.find(search_phrase)
 
-if start_index != -1:
+if (start_index != -1):
     trimmed_content = webpage_content[start_index:]
     logging.info('Search phrase found and content trimmed.')
 else:
@@ -79,8 +79,11 @@ try:
         existing_data = pd.read_csv(csv_file_path)
         logging.info('Existing CSV file loaded.')
 
-        # Concatenate the old and new data
-        combined_data = pd.concat([existing_data, new_data]).drop_duplicates(subset=["Title", "Date", "Link"])
+        # Concatenate the old and new data, ensuring no duplicates
+        combined_data = pd.concat([new_data, existing_data]).drop_duplicates(subset=["Title", "Time", "Link"])
+
+        # Sort by time to ensure the latest entries are at the top
+        combined_data.sort_values(by="Time", ascending=False, inplace=True)
     else:
         # If the CSV does not exist, use the new data as the combined data
         combined_data = new_data
