@@ -42,13 +42,17 @@ jobs:
       - name: Run the Meds script
         run: |
           python update_meds.py
+          
+      - name: Run the LLM script
+        run: |
+          python llm.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add databases/sifted.csv databases/meds.csv logs/meds.log logs/sifted.log
-          git commit -m "Updated CSV file and log"
+          git add databases/sifted.csv databases/meds.csv databases/llm.csv config.ini logs/llm.log logs/meds.log logs/sifted.log
+          git commit -m "Updated databases and log"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
