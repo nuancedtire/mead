@@ -241,3 +241,143 @@
 2024-08-28 03:52:22,117 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/ovom-ai-pregnancy-raise-news/
 2024-08-28 03:52:22,215 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/daniel-eks-body-scanning-neko-health-is-expanding-to-the-uk-news/
 2024-08-28 03:52:22,326 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/joint-academy-startup-expansion/
+2024-08-28 03:56:51,412 - INFO - Loaded 10 links from databases/meds.csv.
+2024-08-28 03:56:51,414 - INFO - Loaded 24 links from databases/sifted.csv.
+2024-08-28 03:56:51,414 - WARNING - databases/llm.csv does not exist, skipping...
+2024-08-28 03:56:51,414 - INFO - Total unique links to process: 34
+2024-08-28 03:56:52,336 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 03:56:52,361 - INFO - Retrying request to /chat/completions in 0.893632 seconds
+2024-08-28 03:56:53,276 - INFO - Retrying request to /chat/completions in 1.600028 seconds
+2024-08-28 03:56:54,893 - ERROR - Error generating post: Connection error.
+2024-08-28 03:56:58,101 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 03:56:58,123 - INFO - Retrying request to /chat/completions in 0.904063 seconds
+2024-08-28 03:56:59,052 - INFO - Retrying request to /chat/completions in 1.963415 seconds
+2024-08-28 03:57:01,034 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:02,493 - INFO - Successfully fetched data from http://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma.
+2024-08-28 03:57:02,512 - INFO - Retrying request to /chat/completions in 0.902703 seconds
+2024-08-28 03:57:03,431 - INFO - Retrying request to /chat/completions in 1.775868 seconds
+2024-08-28 03:57:05,229 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:07,890 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005.
+2024-08-28 03:57:07,913 - INFO - Retrying request to /chat/completions in 0.752734 seconds
+2024-08-28 03:57:08,685 - INFO - Retrying request to /chat/completions in 1.650819 seconds
+2024-08-28 03:57:10,358 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:11,503 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html.
+2024-08-28 03:57:11,523 - INFO - Retrying request to /chat/completions in 0.846153 seconds
+2024-08-28 03:57:12,387 - INFO - Retrying request to /chat/completions in 1.520781 seconds
+2024-08-28 03:57:13,925 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:14,854 - INFO - Successfully fetched data from http://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting.
+2024-08-28 03:57:14,876 - INFO - Retrying request to /chat/completions in 0.755980 seconds
+2024-08-28 03:57:15,653 - INFO - Retrying request to /chat/completions in 1.929441 seconds
+2024-08-28 03:57:17,599 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:20,031 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html.
+2024-08-28 03:57:20,052 - INFO - Retrying request to /chat/completions in 0.951069 seconds
+2024-08-28 03:57:21,025 - INFO - Retrying request to /chat/completions in 1.727441 seconds
+2024-08-28 03:57:22,775 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:23,817 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/leqembi-lecanemab-authorized-for-early-alzheimers-disease-in-great-britain-302228485.html.
+2024-08-28 03:57:23,839 - INFO - Retrying request to /chat/completions in 0.948933 seconds
+2024-08-28 03:57:24,805 - INFO - Retrying request to /chat/completions in 1.591133 seconds
+2024-08-28 03:57:26,421 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:31,377 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc.
+2024-08-28 03:57:31,399 - INFO - Retrying request to /chat/completions in 0.858017 seconds
+2024-08-28 03:57:32,278 - INFO - Retrying request to /chat/completions in 1.569953 seconds
+2024-08-28 03:57:33,865 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:34,975 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation.
+2024-08-28 03:57:34,995 - INFO - Retrying request to /chat/completions in 0.993450 seconds
+2024-08-28 03:57:36,006 - INFO - Retrying request to /chat/completions in 1.891398 seconds
+2024-08-28 03:57:37,921 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:39,153 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/resilience-cancer-health-raise-news/.
+2024-08-28 03:57:39,175 - INFO - Retrying request to /chat/completions in 0.933451 seconds
+2024-08-28 03:57:40,126 - INFO - Retrying request to /chat/completions in 1.763870 seconds
+2024-08-28 03:57:41,908 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:43,044 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/labgenius-atomico-biotech-raise-news/.
+2024-08-28 03:57:43,072 - INFO - Retrying request to /chat/completions in 0.851075 seconds
+2024-08-28 03:57:43,941 - INFO - Retrying request to /chat/completions in 1.647450 seconds
+2024-08-28 03:57:45,607 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:46,791 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/numan-supplements-health-unlawful/.
+2024-08-28 03:57:46,813 - INFO - Retrying request to /chat/completions in 0.808330 seconds
+2024-08-28 03:57:47,638 - INFO - Retrying request to /chat/completions in 1.824466 seconds
+2024-08-28 03:57:49,481 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:54,194 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/esper-bionics-raise-news/.
+2024-08-28 03:57:54,219 - INFO - Retrying request to /chat/completions in 0.862934 seconds
+2024-08-28 03:57:55,102 - INFO - Retrying request to /chat/completions in 1.800057 seconds
+2024-08-28 03:57:56,919 - ERROR - Error generating post: Connection error.
+2024-08-28 03:57:58,074 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ai-startups-clinical-trials-cancer-big-pharma-brnd/.
+2024-08-28 03:57:58,094 - INFO - Retrying request to /chat/completions in 0.898771 seconds
+2024-08-28 03:57:59,010 - INFO - Retrying request to /chat/completions in 1.999675 seconds
+2024-08-28 03:58:01,031 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:02,223 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/polari-sextech-raise-news/.
+2024-08-28 03:58:02,244 - INFO - Retrying request to /chat/completions in 0.767437 seconds
+2024-08-28 03:58:03,028 - INFO - Retrying request to /chat/completions in 1.555180 seconds
+2024-08-28 03:58:04,602 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:05,774 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/sava-raise-balderton/.
+2024-08-28 03:58:05,795 - INFO - Retrying request to /chat/completions in 0.762649 seconds
+2024-08-28 03:58:06,577 - INFO - Retrying request to /chat/completions in 1.687237 seconds
+2024-08-28 03:58:08,284 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:09,540 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/europe-digital-health-unicorn-hlth/.
+2024-08-28 03:58:09,560 - INFO - Retrying request to /chat/completions in 0.885788 seconds
+2024-08-28 03:58:10,464 - INFO - Retrying request to /chat/completions in 1.840659 seconds
+2024-08-28 03:58:12,327 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:14,054 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ai-startup-tandem-round-northzone-news/.
+2024-08-28 03:58:14,075 - INFO - Retrying request to /chat/completions in 0.947745 seconds
+2024-08-28 03:58:15,039 - INFO - Retrying request to /chat/completions in 1.505897 seconds
+2024-08-28 03:58:16,564 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:18,370 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/aware-amsterdam-lakestar-healthtech-news/.
+2024-08-28 03:58:18,395 - INFO - Retrying request to /chat/completions in 0.762328 seconds
+2024-08-28 03:58:19,175 - INFO - Retrying request to /chat/completions in 1.819299 seconds
+2024-08-28 03:58:21,012 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:22,439 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/healthtech-1-raise-monzo-alumni-news/.
+2024-08-28 03:58:22,460 - INFO - Retrying request to /chat/completions in 0.782248 seconds
+2024-08-28 03:58:23,260 - INFO - Retrying request to /chat/completions in 1.936747 seconds
+2024-08-28 03:58:25,218 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:26,517 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/zoe-raise-15m-us-expansion-news/.
+2024-08-28 03:58:26,537 - INFO - Retrying request to /chat/completions in 0.935473 seconds
+2024-08-28 03:58:27,498 - INFO - Retrying request to /chat/completions in 1.968770 seconds
+2024-08-28 03:58:29,486 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:30,846 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/flo-health-unicorn-raise-news/.
+2024-08-28 03:58:30,870 - INFO - Retrying request to /chat/completions in 0.810261 seconds
+2024-08-28 03:58:31,698 - INFO - Retrying request to /chat/completions in 1.511254 seconds
+2024-08-28 03:58:33,226 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:43,202 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/digital-health-unicorn-kry-gen-ai-news/.
+2024-08-28 03:58:43,223 - INFO - Retrying request to /chat/completions in 0.772583 seconds
+2024-08-28 03:58:44,015 - INFO - Retrying request to /chat/completions in 1.964165 seconds
+2024-08-28 03:58:45,999 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:47,326 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/vc-healthtech-ideas/.
+2024-08-28 03:58:47,350 - INFO - Retrying request to /chat/completions in 0.838755 seconds
+2024-08-28 03:58:48,205 - INFO - Retrying request to /chat/completions in 1.627870 seconds
+2024-08-28 03:58:49,850 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:51,347 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/kry-founders-factory/.
+2024-08-28 03:58:51,367 - INFO - Retrying request to /chat/completions in 0.949185 seconds
+2024-08-28 03:58:52,333 - INFO - Retrying request to /chat/completions in 1.536016 seconds
+2024-08-28 03:58:53,890 - ERROR - Error generating post: Connection error.
+2024-08-28 03:58:58,210 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/huma-startup-raise-layoffs-news/.
+2024-08-28 03:58:58,231 - INFO - Retrying request to /chat/completions in 0.815828 seconds
+2024-08-28 03:58:59,067 - INFO - Retrying request to /chat/completions in 1.772223 seconds
+2024-08-28 03:59:00,857 - ERROR - Error generating post: Connection error.
+2024-08-28 03:59:01,259 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-28 03:59:01,279 - INFO - Retrying request to /chat/completions in 0.816370 seconds
+2024-08-28 03:59:02,114 - INFO - Retrying request to /chat/completions in 1.756231 seconds
+2024-08-28 03:59:04,189 - ERROR - Error generating post: Connection error.
+2024-08-28 03:59:05,439 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/.
+2024-08-28 03:59:05,464 - INFO - Retrying request to /chat/completions in 0.945148 seconds
+2024-08-28 03:59:06,426 - INFO - Retrying request to /chat/completions in 1.744408 seconds
+2024-08-28 03:59:08,189 - ERROR - Error generating post: Connection error.
+2024-08-28 03:59:09,592 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-28 03:59:09,617 - INFO - Retrying request to /chat/completions in 0.754693 seconds
+2024-08-28 03:59:10,388 - INFO - Retrying request to /chat/completions in 1.741550 seconds
+2024-08-28 03:59:12,152 - ERROR - Error generating post: Connection error.
+2024-08-28 03:59:13,479 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-28 03:59:13,500 - INFO - Retrying request to /chat/completions in 0.819178 seconds
+2024-08-28 03:59:14,337 - INFO - Retrying request to /chat/completions in 1.765666 seconds
+2024-08-28 03:59:16,120 - ERROR - Error generating post: Connection error.
+2024-08-28 03:59:17,845 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ovom-ai-pregnancy-raise-news/.
+2024-08-28 03:59:17,870 - INFO - Retrying request to /chat/completions in 0.872233 seconds
+2024-08-28 03:59:18,759 - INFO - Retrying request to /chat/completions in 1.559612 seconds
+2024-08-28 03:59:20,337 - ERROR - Error generating post: Connection error.
+2024-08-28 03:59:22,143 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/daniel-eks-body-scanning-neko-health-is-expanding-to-the-uk-news/.
+2024-08-28 03:59:22,164 - INFO - Retrying request to /chat/completions in 0.877618 seconds
+2024-08-28 03:59:23,063 - INFO - Retrying request to /chat/completions in 1.904877 seconds
+2024-08-28 03:59:24,985 - ERROR - Error generating post: Connection error.
+2024-08-28 03:59:26,760 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/joint-academy-startup-expansion/.
+2024-08-28 03:59:26,782 - INFO - Retrying request to /chat/completions in 0.810389 seconds
+2024-08-28 03:59:27,610 - INFO - Retrying request to /chat/completions in 1.709264 seconds
+2024-08-28 03:59:29,341 - ERROR - Error generating post: Connection error.
