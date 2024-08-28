@@ -2,10 +2,10 @@ import os
 import csv
 import logging
 import requests
-import configparser
 import pandas as pd
 from datetime import datetime
 from openai import OpenAI
+import config
 
 # Set up logging
 log_file_path = "logs/llm.log"
@@ -14,10 +14,8 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Load configuration
-config = configparser.ConfigParser()
-config.read('config.ini')
-model_name = config['llm']['model_name']
-system_prompt = config['llm']['system_prompt']
+model_name = config.llm_config['model_name']
+system_prompt = config.llm_config['system_prompt']
 
 # Retrieve the API key from the environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
