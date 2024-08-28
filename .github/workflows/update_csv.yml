@@ -37,15 +37,15 @@ jobs:
 
       - name: Run the Sifted script
         run: |
-          python update_sifted.py
+          python scripts/update_sifted.py
 
       - name: Run the Meds script
         run: |
-          python update_meds.py
+          python scripts/update_meds.py
           
       - name: Run the LLM script
         run: |
-          python llm.py
+          python scripts/llm.py
 
       - name: Commit and push changes
         run: |
