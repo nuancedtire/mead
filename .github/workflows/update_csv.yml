@@ -50,11 +50,18 @@ jobs:
           printenv
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      - name: Run the LLM processing script
+
+      - name: Test OpenAI API Key
         run: |
-          python scripts/llm.py
+          python -c "import os; print('OpenAI API Key:', os.getenv('OPENAI_API_KEY'))"
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      
+      # - name: Run the LLM processing script
+      #   run: |
+      #     python scripts/llm.py
+      #   env:
+      #     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       - name: Commit and push changes
         run: |
