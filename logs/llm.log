@@ -718,3 +718,39 @@
 2024-08-28 06:08:16,380 - INFO - Retrying request to /chat/completions in 0.830942 seconds
 2024-08-28 06:08:17,220 - INFO - Retrying request to /chat/completions in 1.603702 seconds
 2024-08-28 06:08:18,848 - ERROR - Error generating post: RetryError[<Future at 0x7fb03279dd90 state=finished raised APIConnectionError>]
+2024-08-28 06:19:31,727 - INFO - Loaded 2 links from databases/meds.csv.
+2024-08-28 06:19:31,728 - INFO - Loaded 2 links from databases/sifted.csv.
+2024-08-28 06:19:31,728 - WARNING - databases/llm.csv does not exist, skipping...
+2024-08-28 06:19:31,728 - INFO - Total unique links to process: 4
+2024-08-28 06:19:33,228 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/polari-sextech-raise-news/.
+2024-08-28 06:19:33,249 - INFO - Retrying request to /chat/completions in 0.763294 seconds
+2024-08-28 06:19:34,023 - INFO - Retrying request to /chat/completions in 1.858944 seconds
+2024-08-28 06:19:36,907 - INFO - Retrying request to /chat/completions in 0.903119 seconds
+2024-08-28 06:19:37,822 - INFO - Retrying request to /chat/completions in 1.530094 seconds
+2024-08-28 06:19:41,237 - INFO - Retrying request to /chat/completions in 0.766122 seconds
+2024-08-28 06:19:42,016 - INFO - Retrying request to /chat/completions in 1.519886 seconds
+2024-08-28 06:19:43,554 - ERROR - Error generating post: RetryError[<Future at 0x7f0c3683c2c0 state=finished raised APIConnectionError>]
+2024-08-28 06:19:44,767 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation.
+2024-08-28 06:19:44,782 - INFO - Retrying request to /chat/completions in 0.786736 seconds
+2024-08-28 06:19:45,581 - INFO - Retrying request to /chat/completions in 1.835583 seconds
+2024-08-28 06:19:48,443 - INFO - Retrying request to /chat/completions in 0.759730 seconds
+2024-08-28 06:19:49,215 - INFO - Retrying request to /chat/completions in 1.680891 seconds
+2024-08-28 06:19:52,124 - INFO - Retrying request to /chat/completions in 0.825304 seconds
+2024-08-28 06:19:52,960 - INFO - Retrying request to /chat/completions in 1.947057 seconds
+2024-08-28 06:19:54,919 - ERROR - Error generating post: RetryError[<Future at 0x7f0c36857230 state=finished raised APIConnectionError>]
+2024-08-28 06:19:56,741 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/sava-raise-balderton/.
+2024-08-28 06:19:56,757 - INFO - Retrying request to /chat/completions in 0.923853 seconds
+2024-08-28 06:19:57,690 - INFO - Retrying request to /chat/completions in 1.984256 seconds
+2024-08-28 06:20:00,710 - INFO - Retrying request to /chat/completions in 0.811940 seconds
+2024-08-28 06:20:01,533 - INFO - Retrying request to /chat/completions in 1.764592 seconds
+2024-08-28 06:20:04,763 - INFO - Retrying request to /chat/completions in 0.912601 seconds
+2024-08-28 06:20:05,687 - INFO - Retrying request to /chat/completions in 1.822189 seconds
+2024-08-28 06:20:07,522 - ERROR - Error generating post: RetryError[<Future at 0x7f0c36675460 state=finished raised APIConnectionError>]
+2024-08-28 06:20:10,230 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc.
+2024-08-28 06:20:10,245 - INFO - Retrying request to /chat/completions in 0.981186 seconds
+2024-08-28 06:20:11,238 - INFO - Retrying request to /chat/completions in 1.650546 seconds
+2024-08-28 06:20:13,914 - INFO - Retrying request to /chat/completions in 0.924278 seconds
+2024-08-28 06:20:14,849 - INFO - Retrying request to /chat/completions in 1.521945 seconds
+2024-08-28 06:20:17,732 - INFO - Retrying request to /chat/completions in 0.804165 seconds
+2024-08-28 06:20:18,548 - INFO - Retrying request to /chat/completions in 1.918263 seconds
+2024-08-28 06:20:20,477 - ERROR - Error generating post: RetryError[<Future at 0x7f0c3683d190 state=finished raised APIConnectionError>]
