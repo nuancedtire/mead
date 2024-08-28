@@ -49,7 +49,7 @@ jobs:
         run: |
           python scripts/llm.py
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.MY_OPENAI_API_KEY }}
 
       - name: Commit and push changes
         run: |
