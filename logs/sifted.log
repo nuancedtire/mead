@@ -4,3 +4,9 @@
 2024-08-27 23:48:46,631 - INFO - No existing CSV file found. Creating new CSV.
 2024-08-27 23:48:46,632 - INFO - Data saved to databases/sifted.csv
 2024-08-27 23:48:46,632 - INFO - Sifted script completed.
+2024-08-28 01:09:50,831 - INFO - Sifted script started.
+2024-08-28 01:09:52,709 - INFO - Successfully fetched data from URL.
+2024-08-28 01:09:52,710 - WARNING - Search phrase not found. Using original content.
+2024-08-28 01:09:52,713 - INFO - Existing CSV file loaded.
+2024-08-28 01:09:52,713 - ERROR - Error processing or saving the CSV file: Index(['Date'], dtype='object')
+2024-08-28 01:09:52,713 - INFO - Sifted script completed.
