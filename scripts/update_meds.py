@@ -23,7 +23,7 @@ logging.info('Meds Script started.')
 # API request setup
 url = 'https://sentry.azurewebsites.net/api/Feed/anonymous'
 params = {
-    'pageSize': 20,
+    'pageSize': 10,
     'pageNumber': 1
 }
 
@@ -65,12 +65,26 @@ def parse_body_html(body_html):
     source_link = soup.find('a', id='sourceURI')['href'] if soup.find('a', id='sourceURI') else ''
     return publish_timestamp, article_text, image_url, source_link
 
+# Function to load existing data from CSV
+def load_existing_data(csv_file):
+    existing_entries = set()
+    if os.path.exists(csv_file):
+        with open(csv_file, mode='r', newline='', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                # Create a tuple of fields that uniquely identify a row
+                entry_key = (row["Title"], row["Link"])
+                existing_entries.add(entry_key)
+    return existing_entries
+
 # Function to write data to the CSV
 def write_data_to_csv(data, csv_file):
     if not data:
         logging.warning("No data to write to CSV.")
         return
     
+    existing_entries = load_existing_data(csv_file)
+
     with open(csv_file, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=headers)
 
@@ -86,16 +100,21 @@ def write_data_to_csv(data, csv_file):
                 body_html = item['itemData']['news']['bodyHTML']
                 publish_timestamp, article_text, image_url_derived, source_link = parse_body_html(body_html)
 
-                # Write the data as a row in the CSV
-                writer.writerow({
-                    "Time": publish_timestamp,
-                    "Title": title,
-                    "Link": source_url,
-                    "Source Name": source_name,
-                    "Article Text": article_text,
-                    "Image URL": image_url,
-                    "Image URL Derived": image_url_derived,
-                })
+                # Create a tuple that uniquely identifies the row
+                entry_key = (title, source_url)
+
+                # Only write the row if it's not a duplicate
+                if entry_key not in existing_entries:
+                    writer.writerow({
+                        "Time": publish_timestamp,
+                        "Title": title,
+                        "Link": source_url,
+                        "Source Name": source_name,
+                        "Article Text": article_text,
+                        "Image URL": image_url,
+                        "Image URL Derived": image_url_derived,
+                    })
+                    existing_entries.add(entry_key)
             except Exception as e:
                 logging.error(f"Error processing article: {e}")
         logging.info(f"Successfully updated CSV.")
