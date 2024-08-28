@@ -2,3 +2,91 @@
 2024-08-28 03:24:59,119 - WARNING - sifted.csv does not exist, skipping...
 2024-08-28 03:24:59,119 - WARNING - llm.csv does not exist, skipping...
 2024-08-28 03:24:59,119 - INFO - No unique links to process. Exiting gracefully.
+2024-08-28 03:28:02,421 - INFO - Loaded 42 links from databases/meds.csv.
+2024-08-28 03:28:02,422 - INFO - Loaded 3 links from databases/sifted.csv.
+2024-08-28 03:28:02,422 - WARNING - databases/llm.csv does not exist, skipping...
+2024-08-28 03:28:02,422 - INFO - Total unique links to process: 45
+2024-08-28 03:28:05,336 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 03:28:05,336 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:07,605 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 03:28:07,605 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:10,160 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 03:28:10,161 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:11,822 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 03:28:11,822 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:14,309 - INFO - Successfully fetched data from http://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma.
+2024-08-28 03:28:14,309 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:23,864 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005.
+2024-08-28 03:28:23,864 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:25,164 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html.
+2024-08-28 03:28:25,164 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:28,844 - INFO - Successfully fetched data from http://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting.
+2024-08-28 03:28:28,844 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:31,102 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html.
+2024-08-28 03:28:31,103 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:32,799 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/leqembi-lecanemab-authorized-for-early-alzheimers-disease-in-great-britain-302228485.html.
+2024-08-28 03:28:32,799 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:35,360 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc.
+2024-08-28 03:28:35,360 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:38,113 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation.
+2024-08-28 03:28:38,113 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:42,036 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-iron-metabolism-aggressive-cancer.html.
+2024-08-28 03:28:42,036 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:44,243 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/diabetes-dialogue-sotagliflozin-for-t1d-and-other-adces-2024-highlights.
+2024-08-28 03:28:44,243 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:46,800 - INFO - Successfully fetched data from http://r.jina.ai/https://endpts.com/ftc-backs-fda-plan-to-remove-switching-study-requirement-for-interchangeable-biosimilars/.
+2024-08-28 03:28:46,800 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:48,564 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-20-2024-302226711.html.
+2024-08-28 03:28:48,564 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:50,569 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/ema-validates-type-ii-application-for-liso-cel-in-r-r-follicular-lymphoma.
+2024-08-28 03:28:50,569 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:53,007 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/serum-uric-acid-may-be-biomarker-for-bipolar-affective-disorder.
+2024-08-28 03:28:53,007 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:28:55,448 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.7326/M23-3028.
+2024-08-28 03:28:55,448 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:19,424 - ERROR - HTTP Error: 408 Client Error: Request Timeout for url: https://r.jina.ai/https://www.targetedonc.com/view/new-ai-tool-offers-detailed-cancer-prognosis-and-recurrence-predictions
+2024-08-28 03:30:21,652 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-16-2024-302224498.html.
+2024-08-28 03:30:21,653 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:25,435 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-rare-diseases-metabolism-immunity.html.
+2024-08-28 03:30:25,435 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:26,165 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 03:30:26,165 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:27,904 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 03:30:27,904 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:28,979 - INFO - Successfully fetched data from http://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma.
+2024-08-28 03:30:28,979 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:41,017 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005.
+2024-08-28 03:30:41,017 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:42,103 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html.
+2024-08-28 03:30:42,103 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:43,068 - INFO - Successfully fetched data from http://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting.
+2024-08-28 03:30:43,068 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:44,283 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html.
+2024-08-28 03:30:44,283 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:45,829 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/leqembi-lecanemab-authorized-for-early-alzheimers-disease-in-great-britain-302228485.html.
+2024-08-28 03:30:45,830 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:49,411 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc.
+2024-08-28 03:30:49,411 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:51,496 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation.
+2024-08-28 03:30:51,496 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:53,760 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-iron-metabolism-aggressive-cancer.html.
+2024-08-28 03:30:53,760 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:54,708 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/diabetes-dialogue-sotagliflozin-for-t1d-and-other-adces-2024-highlights.
+2024-08-28 03:30:54,708 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:56,598 - INFO - Successfully fetched data from http://r.jina.ai/https://endpts.com/ftc-backs-fda-plan-to-remove-switching-study-requirement-for-interchangeable-biosimilars/.
+2024-08-28 03:30:56,598 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:57,853 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-20-2024-302226711.html.
+2024-08-28 03:30:57,853 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:30:59,724 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/ema-validates-type-ii-application-for-liso-cel-in-r-r-follicular-lymphoma.
+2024-08-28 03:30:59,724 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:31:01,756 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/serum-uric-acid-may-be-biomarker-for-bipolar-affective-disorder.
+2024-08-28 03:31:01,756 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:31:03,607 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.7326/M23-3028.
+2024-08-28 03:31:03,607 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:31:08,200 - INFO - Successfully fetched data from http://r.jina.ai/https://www.targetedonc.com/view/new-ai-tool-offers-detailed-cancer-prognosis-and-recurrence-predictions.
+2024-08-28 03:31:08,200 - ERROR - Error generating post: name 'model' is not defined
+2024-08-28 03:31:08,451 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-16-2024-302224498.html
+2024-08-28 03:31:08,693 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-rare-diseases-metabolism-immunity.html
+2024-08-28 03:31:08,941 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/
+2024-08-28 03:31:09,105 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/
+2024-08-28 03:31:09,244 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/

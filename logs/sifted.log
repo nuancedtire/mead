@@ -16,3 +16,9 @@
 2024-08-28 03:24:54,927 - INFO - Existing CSV file loaded.
 2024-08-28 03:24:54,927 - ERROR - Error processing or saving the CSV file: Index(['Date'], dtype='object')
 2024-08-28 03:24:54,927 - INFO - Sifted script completed.
+2024-08-28 03:27:57,332 - INFO - Sifted script started.
+2024-08-28 03:27:59,380 - INFO - Successfully fetched data from URL.
+2024-08-28 03:27:59,380 - INFO - Search phrase found and content trimmed.
+2024-08-28 03:27:59,383 - INFO - Existing CSV file loaded.
+2024-08-28 03:27:59,384 - ERROR - Error processing or saving the CSV file: Index(['Date'], dtype='object')
+2024-08-28 03:27:59,384 - INFO - Sifted script completed.
