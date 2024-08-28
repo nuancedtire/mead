@@ -43,8 +43,9 @@ jobs:
         run: |
           python scripts/update_meds.py
           
-      - name: Run the LLM script
+      - name: Run the LLM processing script
         run: |
+          export PYTHONPATH="$PYTHONPATH:$(pwd)"
           python scripts/llm.py
 
       - name: Commit and push changes
