@@ -810,3 +810,163 @@
 2024-08-28 07:02:19,822 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-08-28 07:02:19,823 - INFO - Generated post for link https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation.
 2024-08-28 07:02:19,834 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:05:56,191 - INFO - Loaded 12 links from databases/meds.csv.
+2024-08-28 07:05:56,192 - INFO - Loaded 24 links from databases/sifted.csv.
+2024-08-28 07:05:56,197 - INFO - Loaded 4 links from databases/llm.csv.
+2024-08-28 07:05:56,197 - INFO - Total unique links to process: 32
+2024-08-28 07:05:57,990 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-28 07:06:03,356 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:06:03,359 - INFO - Generated post for link https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-28 07:06:03,371 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:06:04,878 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-27-2024-302232046.html.
+2024-08-28 07:06:10,457 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:06:10,458 - INFO - Generated post for link https://www.prnewswire.com/news-releases/fda-roundup-august-27-2024-302232046.html.
+2024-08-28 07:06:10,470 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:06:12,673 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/aware-amsterdam-lakestar-healthtech-news/.
+2024-08-28 07:06:17,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:06:17,699 - INFO - Generated post for link https://sifted.eu/articles/aware-amsterdam-lakestar-healthtech-news/.
+2024-08-28 07:06:17,713 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:06:20,777 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/numan-supplements-health-unlawful/.
+2024-08-28 07:06:26,474 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:06:26,475 - INFO - Generated post for link https://sifted.eu/articles/numan-supplements-health-unlawful/.
+2024-08-28 07:06:26,490 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:06:28,513 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/vc-healthtech-ideas/.
+2024-08-28 07:06:28,585 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:06:28,586 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:06:54,772 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:06:54,773 - INFO - Generated post for link https://sifted.eu/articles/vc-healthtech-ideas/.
+2024-08-28 07:06:54,788 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:07:13,634 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/flo-health-unicorn-raise-news/.
+2024-08-28 07:07:22,210 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:07:22,211 - INFO - Generated post for link https://sifted.eu/articles/flo-health-unicorn-raise-news/.
+2024-08-28 07:07:22,228 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:07:24,287 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 07:07:29,406 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:07:29,407 - INFO - Generated post for link https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 07:07:29,425 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:07:32,523 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/glycine-glutamine-may-reduce-risk-hospitalized-gout.
+2024-08-28 07:07:32,591 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:07:32,592 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:07:58,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:07:58,012 - INFO - Generated post for link https://www.hcplive.com/view/glycine-glutamine-may-reduce-risk-hospitalized-gout.
+2024-08-28 07:07:58,031 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:08:02,415 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005.
+2024-08-28 07:08:07,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:08:07,581 - INFO - Generated post for link http://dx.doi.org/10.1117/1.JBO.29.8.086005.
+2024-08-28 07:08:07,601 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:08:10,096 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/.
+2024-08-28 07:08:10,155 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:08:10,155 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:08:39,344 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:08:39,345 - INFO - Generated post for link https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/.
+2024-08-28 07:08:39,367 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:08:41,437 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-28 07:08:46,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:08:46,474 - INFO - Generated post for link https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-28 07:08:46,495 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:08:48,946 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/daniel-eks-body-scanning-neko-health-is-expanding-to-the-uk-news/.
+2024-08-28 07:08:49,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:08:49,011 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:09:11,826 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:09:11,827 - INFO - Generated post for link https://sifted.eu/articles/daniel-eks-body-scanning-neko-health-is-expanding-to-the-uk-news/.
+2024-08-28 07:09:11,849 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:09:15,176 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/labgenius-atomico-biotech-raise-news/.
+2024-08-28 07:09:15,244 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:09:15,244 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:09:43,596 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:09:43,597 - INFO - Generated post for link https://sifted.eu/articles/labgenius-atomico-biotech-raise-news/.
+2024-08-28 07:09:43,619 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:09:45,990 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/huma-startup-raise-layoffs-news/.
+2024-08-28 07:09:51,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:09:51,662 - INFO - Generated post for link https://sifted.eu/articles/huma-startup-raise-layoffs-news/.
+2024-08-28 07:09:51,684 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:10:00,087 - INFO - Successfully fetched data from http://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting.
+2024-08-28 07:10:03,613 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:10:03,614 - INFO - Generated post for link https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting.
+2024-08-28 07:10:03,635 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:10:04,893 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html.
+2024-08-28 07:10:04,981 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:10:04,981 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:10:40,407 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:10:40,408 - INFO - Generated post for link https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html.
+2024-08-28 07:10:40,431 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:10:43,211 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ai-startups-clinical-trials-cancer-big-pharma-brnd/.
+2024-08-28 07:10:49,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:10:49,350 - INFO - Generated post for link https://sifted.eu/articles/ai-startups-clinical-trials-cancer-big-pharma-brnd/.
+2024-08-28 07:10:49,374 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:10:52,790 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-28 07:10:52,857 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:10:52,857 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:11:18,455 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:11:18,455 - INFO - Generated post for link https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-28 07:11:18,481 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:11:21,053 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/healthtech-1-raise-monzo-alumni-news/.
+2024-08-28 07:11:25,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:11:25,130 - INFO - Generated post for link https://sifted.eu/articles/healthtech-1-raise-monzo-alumni-news/.
+2024-08-28 07:11:25,154 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:11:26,787 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/esper-bionics-raise-news/.
+2024-08-28 07:11:26,854 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:11:26,854 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:11:51,971 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:11:51,972 - INFO - Generated post for link https://sifted.eu/articles/esper-bionics-raise-news/.
+2024-08-28 07:11:51,997 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:12:01,499 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/resilience-cancer-health-raise-news/.
+2024-08-28 07:12:09,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:12:09,758 - INFO - Generated post for link https://sifted.eu/articles/resilience-cancer-health-raise-news/.
+2024-08-28 07:12:09,787 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:12:15,134 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/europe-digital-health-unicorn-hlth/.
+2024-08-28 07:12:15,219 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:12:15,219 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:12:41,093 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:12:41,094 - INFO - Generated post for link https://sifted.eu/articles/europe-digital-health-unicorn-hlth/.
+2024-08-28 07:12:41,124 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:12:43,006 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ai-startup-tandem-round-northzone-news/.
+2024-08-28 07:12:46,775 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:12:46,779 - INFO - Generated post for link https://sifted.eu/articles/ai-startup-tandem-round-northzone-news/.
+2024-08-28 07:12:46,810 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:12:49,401 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html.
+2024-08-28 07:12:49,478 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:12:49,478 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:13:21,405 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:13:21,406 - INFO - Generated post for link https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html.
+2024-08-28 07:13:21,438 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:13:23,711 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/digital-health-unicorn-kry-gen-ai-news/.
+2024-08-28 07:13:29,853 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:13:29,854 - INFO - Generated post for link https://sifted.eu/articles/digital-health-unicorn-kry-gen-ai-news/.
+2024-08-28 07:13:29,887 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:13:32,192 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/zoe-raise-15m-us-expansion-news/.
+2024-08-28 07:13:32,264 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:13:32,264 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:13:58,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:13:58,460 - INFO - Generated post for link https://sifted.eu/articles/zoe-raise-15m-us-expansion-news/.
+2024-08-28 07:13:58,492 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:14:03,263 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/joint-academy-startup-expansion/.
+2024-08-28 07:14:08,221 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:14:08,223 - INFO - Generated post for link https://sifted.eu/articles/joint-academy-startup-expansion/.
+2024-08-28 07:14:08,256 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:14:11,764 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/kry-founders-factory/.
+2024-08-28 07:14:11,831 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:14:11,831 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:14:41,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:14:41,119 - INFO - Generated post for link https://sifted.eu/articles/kry-founders-factory/.
+2024-08-28 07:14:41,152 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:14:42,843 - INFO - Successfully fetched data from http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/08/27/ms-patients-less-likely-alzheimers-study/.
+2024-08-28 07:14:50,641 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:14:50,642 - INFO - Generated post for link https://multiplesclerosisnewstoday.com/news-posts/2024/08/27/ms-patients-less-likely-alzheimers-study/.
+2024-08-28 07:14:50,677 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:14:52,335 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ovom-ai-pregnancy-raise-news/.
+2024-08-28 07:14:52,402 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:14:52,402 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:15:18,275 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:15:18,276 - INFO - Generated post for link https://sifted.eu/articles/ovom-ai-pregnancy-raise-news/.
+2024-08-28 07:15:18,310 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:15:20,515 - INFO - Successfully fetched data from http://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma.
+2024-08-28 07:15:26,594 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:15:26,595 - INFO - Generated post for link https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma.
+2024-08-28 07:15:26,629 - INFO - Logged data to databases/llm.csv.
+2024-08-28 07:15:28,055 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 07:15:28,139 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-28 07:15:28,140 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-28 07:15:55,092 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-28 07:15:55,093 - INFO - Generated post for link https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 07:15:55,130 - INFO - Logged data to databases/llm.csv.
