@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 from openai import OpenAI
-from config import config
+import config
 
 # Set up logging
 log_file_path = "logs/llm.log"
