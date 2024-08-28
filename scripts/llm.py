@@ -120,9 +120,9 @@ def log_to_csv(log_entry, file_name="llm.csv"):
 
 # Main function to process all new links
 def main():
-    meds_links = extract_links_from_csv('meds.csv')
-    sifted_links = extract_links_from_csv('sifted.csv')
-    llm_links = extract_links_from_csv('llm.csv')
+    meds_links = extract_links_from_csv('databases/meds.csv')
+    sifted_links = extract_links_from_csv('databases/sifted.csv')
+    llm_links = extract_links_from_csv('databases/llm.csv')
     combined_links = meds_links + sifted_links
     final_links = [link for link in combined_links if link not in llm_links]
 
