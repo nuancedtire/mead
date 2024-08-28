@@ -25,6 +25,17 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # Initialize OpenAI client
 client = OpenAI()
 
+
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential,
+)  # for exponential backoff
+ 
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+def completion_with_backoff(**kwargs):
+    return client.chat.completions.create(**kwargs)
+
 # Function to extract links from a CSV file using pandas
 def extract_links_from_csv_pandas(file_path):
     try:
@@ -69,7 +80,7 @@ def process_link(link):
 # Function to generate post content using OpenAI
 def generate_post(webpage_content, link):
     try:
-        response = client.chat.completions.create(
+        response = completion_with_backoff(
             model=model_name,
             messages=[
                 {"role": "system", "content": system_message},
