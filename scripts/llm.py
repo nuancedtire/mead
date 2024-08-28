@@ -32,7 +32,7 @@ from tenacity import (
     wait_random_exponential,
 )  # for exponential backoff
  
-@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(3))
 def completion_with_backoff(**kwargs):
     return client.chat.completions.create(**kwargs)
 
