@@ -46,6 +46,8 @@ jobs:
       - name: Run the LLM processing script
         run: |
           python scripts/llm.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       - name: Commit and push changes
         run: |
@@ -56,4 +58,3 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
