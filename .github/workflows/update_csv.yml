@@ -45,7 +45,6 @@ jobs:
           
       - name: Run the LLM processing script
         run: |
-          export PYTHONPATH="$PYTHONPATH:$(pwd)"
           python scripts/llm.py
 
       - name: Commit and push changes
