@@ -1,7 +1,7 @@
 import requests
-import csv
 import os
 import logging
+import pandas as pd
 from bs4 import BeautifulSoup
 
 # Set up paths for CSV and log files
@@ -65,68 +65,68 @@ def parse_body_html(body_html):
     source_link = soup.find('a', id='sourceURI')['href'] if soup.find('a', id='sourceURI') else ''
     return publish_timestamp, article_text, image_url, source_link
 
-# Function to load existing data from CSV
-def load_existing_data(csv_file):
-    existing_entries = set()
+# Function to load existing data from CSV using pandas
+def load_existing_data_pandas(csv_file):
     if os.path.exists(csv_file):
-        with open(csv_file, mode='r', newline='', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                # Create a tuple of fields that uniquely identify a row
-                entry_key = (row["Title"], row["Link"])
-                existing_entries.add(entry_key)
-    return existing_entries
+        df = pd.read_csv(csv_file)
+        existing_entries = set(zip(df["Title"], df["Link"]))
+        logging.info(f"Loaded {len(existing_entries)} existing entries from {csv_file}.")
+        return existing_entries
+    else:
+        logging.info(f"No existing data found in {csv_file}.")
+        return set()
 
-# Function to write data to the CSV
-def write_data_to_csv(data, csv_file):
+# Function to write data to the CSV using pandas
+def write_data_to_csv_pandas(data, csv_file):
     if not data:
         logging.warning("No data to write to CSV.")
         return
     
-    existing_entries = load_existing_data(csv_file)
+    existing_entries = load_existing_data_pandas(csv_file)
 
-    with open(csv_file, mode='a', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(file, fieldnames=headers)
+    new_rows = []
+    for item in data.get('data', []):
+        try:
+            title = item['itemData']['news']['headline']
+            image_url = str(item['itemData']['news']['imageUri'])[:-9]
+            source_name = item['itemData']['news']['sources']['name'][0]
+            source_url = item['itemData']['news']['sources']['uri'][0]
 
-        # Iterate over each item in the data
-        for item in data.get('data', []):
-            try:
-                title = item['itemData']['news']['headline']
-                image_url = str(item['itemData']['news']['imageUri'])[:-9]
-                source_name = item['itemData']['news']['sources']['name'][0]
-                source_url = item['itemData']['news']['sources']['uri'][0]
+            # Parse bodyHTML for derived data
+            body_html = item['itemData']['news']['bodyHTML']
+            publish_timestamp, article_text, image_url_derived, source_link = parse_body_html(body_html)
 
-                # Parse bodyHTML for derived data
-                body_html = item['itemData']['news']['bodyHTML']
-                publish_timestamp, article_text, image_url_derived, source_link = parse_body_html(body_html)
+            entry_key = (title, source_url)
 
-                # Create a tuple that uniquely identifies the row
-                entry_key = (title, source_url)
+            # Only add the row if it's not a duplicate
+            if entry_key not in existing_entries:
+                new_rows.append({
+                    "Time": publish_timestamp,
+                    "Title": title,
+                    "Link": source_url,
+                    "Source Name": source_name,
+                    "Article Text": article_text,
+                    "Image URL": image_url,
+                    "Image URL Derived": image_url_derived,
+                })
+                existing_entries.add(entry_key)
+        except Exception as e:
+            logging.error(f"Error processing article: {e}")
 
-                # Only write the row if it's not a duplicate
-                if entry_key not in existing_entries:
-                    writer.writerow({
-                        "Time": publish_timestamp,
-                        "Title": title,
-                        "Link": source_url,
-                        "Source Name": source_name,
-                        "Article Text": article_text,
-                        "Image URL": image_url,
-                        "Image URL Derived": image_url_derived,
-                    })
-                    existing_entries.add(entry_key)
-            except Exception as e:
-                logging.error(f"Error processing article: {e}")
-        logging.info(f"Successfully updated CSV.")
+    if new_rows:
+        df_new = pd.DataFrame(new_rows)
+        if os.path.exists(csv_file):
+            df_existing = pd.read_csv(csv_file)
+            df_combined = pd.concat([df_existing, df_new]).drop_duplicates(subset=["Title", "Link"])
+        else:
+            df_combined = df_new
 
-# Check if CSV file exists and write header if not
-if not os.path.exists(csv_file_path):
-    with open(csv_file_path, mode='w', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(file, fieldnames=headers)
-        writer.writeheader()
-        logging.info('CSV header written.')
+        df_combined.to_csv(csv_file, index=False)
+        logging.info(f"Successfully updated {csv_file} with new data.")
+    else:
+        logging.info("No new data to update.")
 
 # Write data to CSV
-write_data_to_csv(data, csv_file_path)
+write_data_to_csv_pandas(data, csv_file_path)
 
 logging.info('Meds script completed successfully.')
