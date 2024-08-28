@@ -90,3 +90,91 @@
 2024-08-28 03:31:08,941 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/
 2024-08-28 03:31:09,105 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/
 2024-08-28 03:31:09,244 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/
+2024-08-28 03:38:28,177 - INFO - Loaded 62 links from databases/meds.csv.
+2024-08-28 03:38:28,178 - INFO - Loaded 3 links from databases/sifted.csv.
+2024-08-28 03:38:28,178 - WARNING - databases/llm.csv does not exist, skipping...
+2024-08-28 03:38:28,178 - INFO - Total unique links to process: 65
+2024-08-28 03:38:29,025 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 03:38:29,026 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:31,383 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 03:38:31,384 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:31,874 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 03:38:31,874 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:33,337 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 03:38:33,337 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:34,139 - INFO - Successfully fetched data from http://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma.
+2024-08-28 03:38:34,139 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:36,356 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005.
+2024-08-28 03:38:36,357 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:37,629 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html.
+2024-08-28 03:38:37,629 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:38,405 - INFO - Successfully fetched data from http://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting.
+2024-08-28 03:38:38,405 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:40,085 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html.
+2024-08-28 03:38:40,085 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:41,465 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/leqembi-lecanemab-authorized-for-early-alzheimers-disease-in-great-britain-302228485.html.
+2024-08-28 03:38:41,466 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:46,694 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc.
+2024-08-28 03:38:46,694 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:48,498 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation.
+2024-08-28 03:38:48,498 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:49,559 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-iron-metabolism-aggressive-cancer.html.
+2024-08-28 03:38:49,559 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:49,985 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/diabetes-dialogue-sotagliflozin-for-t1d-and-other-adces-2024-highlights.
+2024-08-28 03:38:49,985 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:50,883 - INFO - Successfully fetched data from http://r.jina.ai/https://endpts.com/ftc-backs-fda-plan-to-remove-switching-study-requirement-for-interchangeable-biosimilars/.
+2024-08-28 03:38:50,883 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:53,001 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-20-2024-302226711.html.
+2024-08-28 03:38:53,001 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:55,216 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/ema-validates-type-ii-application-for-liso-cel-in-r-r-follicular-lymphoma.
+2024-08-28 03:38:55,216 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:56,467 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/serum-uric-acid-may-be-biomarker-for-bipolar-affective-disorder.
+2024-08-28 03:38:56,467 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:56,956 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.7326/M23-3028.
+2024-08-28 03:38:56,956 - ERROR - Error generating post: name 'system_message' is not defined
+2024-08-28 03:38:57,041 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.targetedonc.com/view/new-ai-tool-offers-detailed-cancer-prognosis-and-recurrence-predictions
+2024-08-28 03:38:57,132 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-16-2024-302224498.html
+2024-08-28 03:38:57,202 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-rare-diseases-metabolism-immunity.html
+2024-08-28 03:38:57,281 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.eurekalert.org/news-releases/1055729
+2024-08-28 03:38:57,358 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html
+2024-08-28 03:38:57,442 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma
+2024-08-28 03:38:57,547 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005
+2024-08-28 03:38:57,642 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html
+2024-08-28 03:38:57,734 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting
+2024-08-28 03:38:57,816 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html
+2024-08-28 03:38:57,919 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/leqembi-lecanemab-authorized-for-early-alzheimers-disease-in-great-britain-302228485.html
+2024-08-28 03:38:57,997 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc
+2024-08-28 03:38:58,080 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation
+2024-08-28 03:38:58,172 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-iron-metabolism-aggressive-cancer.html
+2024-08-28 03:38:58,257 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.hcplive.com/view/diabetes-dialogue-sotagliflozin-for-t1d-and-other-adces-2024-highlights
+2024-08-28 03:38:58,353 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://endpts.com/ftc-backs-fda-plan-to-remove-switching-study-requirement-for-interchangeable-biosimilars/
+2024-08-28 03:38:58,460 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-20-2024-302226711.html
+2024-08-28 03:38:58,552 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.cancernetwork.com/view/ema-validates-type-ii-application-for-liso-cel-in-r-r-follicular-lymphoma
+2024-08-28 03:38:58,618 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.hcplive.com/view/serum-uric-acid-may-be-biomarker-for-bipolar-affective-disorder
+2024-08-28 03:38:58,691 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/http://dx.doi.org/10.7326/M23-3028
+2024-08-28 03:38:58,772 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.targetedonc.com/view/new-ai-tool-offers-detailed-cancer-prognosis-and-recurrence-predictions
+2024-08-28 03:38:58,855 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-16-2024-302224498.html
+2024-08-28 03:38:58,949 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-rare-diseases-metabolism-immunity.html
+2024-08-28 03:38:59,044 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.eurekalert.org/news-releases/1055729
+2024-08-28 03:38:59,127 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html
+2024-08-28 03:38:59,213 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma
+2024-08-28 03:38:59,286 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005
+2024-08-28 03:38:59,378 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html
+2024-08-28 03:38:59,495 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting
+2024-08-28 03:38:59,587 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html
+2024-08-28 03:38:59,673 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/leqembi-lecanemab-authorized-for-early-alzheimers-disease-in-great-britain-302228485.html
+2024-08-28 03:38:59,758 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc
+2024-08-28 03:38:59,854 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation
+2024-08-28 03:38:59,944 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-iron-metabolism-aggressive-cancer.html
+2024-08-28 03:39:00,015 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.hcplive.com/view/diabetes-dialogue-sotagliflozin-for-t1d-and-other-adces-2024-highlights
+2024-08-28 03:39:00,100 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://endpts.com/ftc-backs-fda-plan-to-remove-switching-study-requirement-for-interchangeable-biosimilars/
+2024-08-28 03:39:00,189 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-20-2024-302226711.html
+2024-08-28 03:39:00,285 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.cancernetwork.com/view/ema-validates-type-ii-application-for-liso-cel-in-r-r-follicular-lymphoma
+2024-08-28 03:39:00,370 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.hcplive.com/view/serum-uric-acid-may-be-biomarker-for-bipolar-affective-disorder
+2024-08-28 03:39:00,462 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/http://dx.doi.org/10.7326/M23-3028
+2024-08-28 03:39:00,557 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.targetedonc.com/view/new-ai-tool-offers-detailed-cancer-prognosis-and-recurrence-predictions
+2024-08-28 03:39:00,645 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-16-2024-302224498.html
+2024-08-28 03:39:00,726 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-rare-diseases-metabolism-immunity.html
+2024-08-28 03:39:00,821 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/
+2024-08-28 03:39:00,915 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/
+2024-08-28 03:39:00,985 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/
