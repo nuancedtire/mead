@@ -16,7 +16,7 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO,
 
 # Load configuration
 model_name = config.llm_config['model_name']
-system_prompt = config.llm_config['system_prompt']
+system_message = config.llm_config['system_prompt']
 
 # Retrieve the API key from the environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
