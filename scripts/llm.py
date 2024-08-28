@@ -6,6 +6,7 @@ import pandas as pd
 from datetime import datetime
 from openai import OpenAI
 import config
+import openai
 
 # Set up logging
 log_file_path = "logs/llm.log"
