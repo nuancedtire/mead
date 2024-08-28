@@ -178,3 +178,66 @@
 2024-08-28 03:39:00,821 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/
 2024-08-28 03:39:00,915 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/
 2024-08-28 03:39:00,985 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/
+2024-08-28 03:50:54,844 - INFO - Loaded 10 links from databases/meds.csv.
+2024-08-28 03:50:54,845 - INFO - Loaded 24 links from databases/sifted.csv.
+2024-08-28 03:50:54,846 - WARNING - databases/llm.csv does not exist, skipping...
+2024-08-28 03:50:54,846 - INFO - Total unique links to process: 34
+2024-08-28 03:50:55,495 - INFO - Successfully fetched data from http://r.jina.ai/https://www.eurekalert.org/news-releases/1055729.
+2024-08-28 03:50:55,495 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:50:56,470 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-clears-first-device-to-enable-automated-insulin-dosing-for-individuals-with-type-2-diabetes-302230838.html.
+2024-08-28 03:50:56,471 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:50:57,418 - INFO - Successfully fetched data from http://r.jina.ai/https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-opaganib-in-neuroblastoma.
+2024-08-28 03:50:57,419 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:50:59,619 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1117/1.JBO.29.8.086005.
+2024-08-28 03:50:59,619 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:00,411 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/fda-roundup-august-23-2024-302229743.html.
+2024-08-28 03:51:00,411 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:03,012 - INFO - Successfully fetched data from http://r.jina.ai/https://www.ajmc.com/view/new-car-t-trial-in-mm-aims-for-triple-receptor-targeting.
+2024-08-28 03:51:03,012 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:38,552 - ERROR - HTTP Error: 503 Server Error: Service Unavailable for url: https://r.jina.ai/https://medicalxpress.com/news/2024-08-validates-personalized-cancer-immunotherapy.html
+2024-08-28 03:51:39,584 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/leqembi-lecanemab-authorized-for-early-alzheimers-disease-in-great-britain-302228485.html.
+2024-08-28 03:51:39,585 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:41,792 - INFO - Successfully fetched data from http://r.jina.ai/https://www.cancernetwork.com/view/fulzerasib-receives-approval-in-china-for-advanced-kras-g12c-nsclc.
+2024-08-28 03:51:41,792 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:42,835 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/cardiovascular-event-risk-increases-in-year-after-statin-discontinuation.
+2024-08-28 03:51:42,835 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:46,097 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/resilience-cancer-health-raise-news/.
+2024-08-28 03:51:46,097 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:48,054 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/labgenius-atomico-biotech-raise-news/.
+2024-08-28 03:51:48,054 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:49,695 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/numan-supplements-health-unlawful/.
+2024-08-28 03:51:49,695 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:52,259 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/esper-bionics-raise-news/.
+2024-08-28 03:51:52,259 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:54,058 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ai-startups-clinical-trials-cancer-big-pharma-brnd/.
+2024-08-28 03:51:54,058 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:55,771 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/polari-sextech-raise-news/.
+2024-08-28 03:51:55,772 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:51:58,036 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/sava-raise-balderton/.
+2024-08-28 03:51:58,036 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:00,268 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/europe-digital-health-unicorn-hlth/.
+2024-08-28 03:52:00,269 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:03,002 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/ai-startup-tandem-round-northzone-news/.
+2024-08-28 03:52:03,003 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:05,218 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/aware-amsterdam-lakestar-healthtech-news/.
+2024-08-28 03:52:05,218 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:08,001 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/healthtech-1-raise-monzo-alumni-news/.
+2024-08-28 03:52:08,001 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:09,988 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/zoe-raise-15m-us-expansion-news/.
+2024-08-28 03:52:09,988 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:14,654 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/flo-health-unicorn-raise-news/.
+2024-08-28 03:52:14,654 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:16,641 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/digital-health-unicorn-kry-gen-ai-news/.
+2024-08-28 03:52:16,641 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:18,519 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/vc-healthtech-ideas/.
+2024-08-28 03:52:18,519 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:20,075 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/kry-founders-factory/.
+2024-08-28 03:52:20,075 - ERROR - Error generating post: name 'user_message' is not defined
+2024-08-28 03:52:20,237 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/huma-startup-raise-layoffs-news/
+2024-08-28 03:52:20,423 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/
+2024-08-28 03:52:20,586 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/
+2024-08-28 03:52:21,918 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/
+2024-08-28 03:52:22,018 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/
+2024-08-28 03:52:22,117 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/ovom-ai-pregnancy-raise-news/
+2024-08-28 03:52:22,215 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/daniel-eks-body-scanning-neko-health-is-expanding-to-the-uk-news/
+2024-08-28 03:52:22,326 - ERROR - HTTP Error: 429 Client Error: Too Many Requests for url: https://r.jina.ai/https://sifted.eu/articles/joint-academy-startup-expansion/
