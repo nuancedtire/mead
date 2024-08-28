@@ -106,7 +106,7 @@ def generate_post(webpage_content, link):
         return None
 
 # Function to log results to a CSV file
-def log_to_csv(log_entry, file_name="llm.csv"):
+def log_to_csv(log_entry, file_name="databases/llm.csv"):
     try:
         file_exists = os.path.isfile(file_name)
         with open(file_name, "a", newline='') as csv_file:
