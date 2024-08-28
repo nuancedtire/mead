@@ -51,7 +51,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add databases/sifted.csv databases/meds.csv databases/llm.csv config.ini logs/llm.log logs/meds.log logs/sifted.log
+          git add .
           git commit -m "Updated databases and log"
           git push
         env:
