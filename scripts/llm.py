@@ -65,7 +65,7 @@ def process_link(link):
 def generate_post(webpage_content, link):
     try:
         response = client.chat.completions.create(
-            model=model,
+            model=model_name,
             messages=[
                 {"role": "system", "content": system_message},
                 {"role": "user", "content": user_message}
