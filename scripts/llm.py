@@ -68,7 +68,7 @@ def generate_post(webpage_content, link):
             model=model_name,
             messages=[
                 {"role": "system", "content": system_message},
-                {"role": "user", "content": user_message}
+                {"role": "user", "content": webpage_content}
                 ],
             response_format={
                 "type": "json_schema",
@@ -98,7 +98,7 @@ def generate_post(webpage_content, link):
         data = json.loads(full_response)
         post = data['post_content']
         image = data['thumbnail_image_url']
-        log_entry = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), post, image, link, system_prompt, webpage_content]
+        log_entry = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), post, image, link, system_message, webpage_content]
         logging.info(f"Generated post for link {link}.")
         return log_entry
     except Exception as e:
