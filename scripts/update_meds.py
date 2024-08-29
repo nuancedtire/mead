@@ -3,6 +3,7 @@ import os
 import logging
 import pandas as pd
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 # Set up paths for CSV and log files
 csv_folder = 'databases'
@@ -18,7 +19,7 @@ os.makedirs(log_folder, exist_ok=True)
 logging.basicConfig(filename=log_file_path, level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-logging.info('Meds Script started.')
+logging.info('Scape Script started.')
 
 # API request setup
 url = 'https://sentry.azurewebsites.net/api/Feed/anonymous'
@@ -52,9 +53,8 @@ except requests.exceptions.RequestException as e:
     logging.error(f"Failed to retrieve data: {e}")
     data = None
 
-# Define CSV headers
-headers = ["Title", "Time", "Link",  "Image URL", "Source Name",
-           "Article Text", "Image URL Derived"]
+# Define CSV headers without "Image URL Derived"
+headers = ["Title", "Time", "Link", "Image URL", "Source Name", "Article Text"]
 
 # Function to parse bodyHTML and extract derived fields
 def parse_body_html(body_html):
@@ -64,6 +64,21 @@ def parse_body_html(body_html):
     image_url = soup.find('img', id='imageUri')['src'] if soup.find('img', id='imageUri') else ''
     source_link = soup.find('a', id='sourceURI')['href'] if soup.find('a', id='sourceURI') else ''
     return publish_timestamp, article_text, image_url, source_link
+
+def standardize_time(time_str):
+    try:
+        # Try parsing the format 'YYYY-MM-DDTHH:MM:SSZ'
+        dt = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        try:
+            # Try parsing the format 'Aug 26, 2024, 06:50 AM'
+            dt = datetime.strptime(time_str, "%b %d, %Y, %I:%M %p")
+        except ValueError:
+            logging.warning(f"Failed to standardize time format for {time_str}")
+            return time_str  # Return the original string if parsing fails
+    
+    # Return the standardized format 'YYYY-MM-DD HH:MM:SS'
+    return dt.strftime("%Y-%m-%d %H:%M:%S")
 
 # Function to load existing data from CSV using pandas
 def load_existing_data_pandas(csv_file):
@@ -94,20 +109,22 @@ def write_data_to_csv_pandas(data, csv_file):
 
             # Parse bodyHTML for derived data
             body_html = item['itemData']['news']['bodyHTML']
-            publish_timestamp, article_text, image_url_derived, source_link = parse_body_html(body_html)
+            publish_timestamp, article_text, _, source_link = parse_body_html(body_html)
+
+            # Standardize the publish timestamp
+            publish_timestamp = standardize_time(publish_timestamp)
 
             entry_key = (title, source_url)
 
             # Only add the row if it's not a duplicate
             if entry_key not in existing_entries:
                 new_rows.append({
-                    "Time": publish_timestamp,
                     "Title": title,
+                    "Time": publish_timestamp,
                     "Link": source_url,
-                    "Source Name": source_name,
-                    "Article Text": article_text,
                     "Image URL": image_url,
-                    "Image URL Derived": image_url_derived,
+                    "Teaser": article_text,
+                    "Source Name": source_name,
                 })
                 existing_entries.add(entry_key)
         except Exception as e:
