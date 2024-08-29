@@ -44,13 +44,17 @@ jobs:
       - name: Run the Meds script
         run: |
           python scripts/update_meds.py
+
+      - name: Run the Scape script
+        run: |
+          python scripts/update_scape.py
       
       - name: Run the LLM processing script
         run: |
           python scripts/llm.py
         env:
           OPENAI_API_KEY: ${{ secrets.MY_OPENAI_API_KEY }}
-
+      
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"

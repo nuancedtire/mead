@@ -4,10 +4,11 @@ import logging
 import requests
 import pandas as pd
 from datetime import datetime
-from openai import OpenAI
 import config
 import openai
+from openai import OpenAI
 import json
+from tenacity import retry, stop_after_attempt, wait_random_exponential
 
 # Set up logging
 log_file_path = "logs/llm.log"
@@ -22,22 +23,27 @@ system_message = config.llm_config['system_prompt']
 # Retrieve the API key from the environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# Initialize OpenAI client
 client = OpenAI()
 
-
-from tenacity import (
-    retry,
-    stop_after_attempt,
-    wait_random_exponential,
-)  # for exponential backoff
- 
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(3))
 def completion_with_backoff(**kwargs):
+    """
+    This function makes a request to the OpenAI API with exponential backoff 
+    in case of failures. It retries the request up to 3 times.
+    """
     return client.chat.completions.create(**kwargs)
 
-# Function to extract links and image URLs from a CSV file using pandas
 def extract_links_from_csv_pandas(file_path):
+    """
+    Extracts links and associated timestamps from a CSV file.
+    
+    Args:
+        file_path (str): Path to the CSV file.
+        
+    Returns:
+        list: A list of dictionaries, each containing 'Link', 'Time', 
+              and optionally 'Image URL'.
+    """
     try:
         if not os.path.exists(file_path):
             logging.warning(f"{file_path} does not exist, skipping...")
@@ -45,11 +51,17 @@ def extract_links_from_csv_pandas(file_path):
             return []
         df = pd.read_csv(file_path)
         
-        # Check if 'Image URL' column exists
+        # Check if required columns exist
+        if 'Link' not in df.columns or 'Time' not in df.columns:
+            logging.warning(f"{file_path} does not contain 'Link' or 'Time' column.")
+            print(f"{file_path} does not contain 'Link' or 'Time' column.")
+            return []
+
+        # Extract relevant columns
         if 'Image URL' in df.columns:
-            links_with_images = df[['Link', 'Image URL']].dropna(subset=['Link']).to_dict('records')
+            links_with_images = df[['Link', 'Time', 'Image URL']].dropna(subset=['Link']).to_dict('records')
         else:
-            links_with_images = df[['Link']].dropna().to_dict('records')
+            links_with_images = df[['Link', 'Time']].dropna().to_dict('records')
 
         logging.info(f"Loaded {len(links_with_images)} links from {file_path}.")
         print(f"Loaded {len(links_with_images)} links from {file_path}.")
@@ -59,10 +71,21 @@ def extract_links_from_csv_pandas(file_path):
         print(f"Error reading {file_path}: {e}")
         return []
 
-# Function to process each link
 def process_link(link_info):
+    """
+    Processes a link by fetching its content and generating a post using OpenAI.
+    
+    Args:
+        link_info (dict): A dictionary containing 'Link', 'Time', 
+                          and optionally 'Image URL'.
+                          
+    Returns:
+        list: A log entry containing timestamps, generated post content, 
+              image URL, and other metadata, or None if an error occurred.
+    """
     try:
         link = link_info.get('Link')
+        original_timestamp = link_info.get('Time')
         image_url = link_info.get('Image URL')
         
         url = f'http://r.jina.ai/{link}'
@@ -71,7 +94,7 @@ def process_link(link_info):
         webpage_content = response.text
 
         if image_url:
-            webpage_content = f'Thumbnail image URL: {image_url} {webpage_content}'
+            webpage_content = f'Thumbnail image URL: {image_url} \n\n{webpage_content}'
         
         logging.info(f"Successfully fetched data from {url}.")
         print(f"Successfully fetched data from {url}.")
@@ -88,10 +111,22 @@ def process_link(link_info):
         logging.error(f"Unexpected Error: {err}")
         return None
 
-    return generate_post(webpage_content, link)
+    return generate_post(webpage_content, link, original_timestamp)
 
-# Function to generate post content using OpenAI
-def generate_post(webpage_content, link):
+def generate_post(webpage_content, link, original_timestamp):
+    """
+    Generates post content using the OpenAI API and formats it with the 
+    original and current timestamps.
+    
+    Args:
+        webpage_content (str): The content of the webpage to generate a post from.
+        link (str): The link associated with the webpage.
+        original_timestamp (str): The timestamp when the link was first recorded.
+        
+    Returns:
+        list: A log entry including the original and LLM timestamps, 
+              generated post content, and image URL, or None if an error occurred.
+    """
     try:
         response = completion_with_backoff(
             model=model_name,
@@ -127,7 +162,9 @@ def generate_post(webpage_content, link):
         data = json.loads(full_response)
         post = data['post_content']
         image = data['thumbnail_image_url']
-        log_entry = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), post, image, link, system_message, webpage_content]
+        llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        
+        log_entry = [original_timestamp, llm_timestamp, post, image, link, system_message, webpage_content]
         logging.info(f"Generated post for link {link}.")
         print(f"Generated post for link {link}.")
         return log_entry
@@ -136,10 +173,16 @@ def generate_post(webpage_content, link):
         print(f"Error generating post: {e}")
         return None
 
-# Function to log results to a CSV file using pandas
 def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
+    """
+    Logs the generated post information to a CSV file.
+    
+    Args:
+        log_entry (list): A list containing the log details.
+        file_name (str): The name of the CSV file to log the entry to.
+    """
     try:
-        df_new = pd.DataFrame([log_entry], columns=["Timestamp", "Post", "Image", "Link", "Prompt", "Input"])
+        df_new = pd.DataFrame([log_entry], columns=["Original Timestamp", "LLM Timestamp", "Post", "Image", "Link", "Prompt", "Input"])
         if os.path.exists(file_name):
             df_existing = pd.read_csv(file_name)
             df_combined = pd.concat([df_existing, df_new]).drop_duplicates()
@@ -153,11 +196,16 @@ def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
         logging.error(f"Error logging data to CSV: {e}")
 
 def main():
+    """
+    Main function that orchestrates the link processing by extracting links 
+    from multiple CSV files, filtering unique links, and logging the results.
+    """
     meds_links = extract_links_from_csv_pandas('databases/meds.csv')
     sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
+    scape_links = extract_links_from_csv_pandas('databases/scape.csv')
     llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm.csv')]
     
-    combined_links = [link for link in meds_links + sifted_links if link['Link'] not in llm_links]
+    combined_links = [link for link in meds_links + sifted_links + scape_links if link['Link'] not in llm_links]
 
     if not combined_links:
         logging.info("No unique links to process. Exiting gracefully.")

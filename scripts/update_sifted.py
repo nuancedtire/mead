@@ -3,6 +3,7 @@ import re
 import pandas as pd
 import os
 import logging
+from datetime import datetime
 
 # Define paths for the CSV and log files
 csv_folder = 'databases'
@@ -58,6 +59,19 @@ dates = re.findall(r"\w+ \d{1,2}, \d{4}", trimmed_content)
 
 if not titles or not links or not dates:
     logging.warning("No titles, links, or dates found in the content. Possible webpage structure change.")
+
+# Function to standardize time format
+def standardize_time(time_str):
+    try:
+        # Parse the format 'Month DD, YYYY' and standardize it to 'YYYY-MM-DD 00:00:00'
+        dt = datetime.strptime(time_str, "%B %d, %Y")
+        return dt.strftime("%Y-%m-%d 00:00:00")
+    except ValueError:
+        logging.warning(f"Failed to standardize time format for {time_str}")
+        return time_str  # Return the original string if parsing fails
+
+# Standardize all dates
+dates = [standardize_time(date) for date in dates]
 
 # Ensure all lists have the same length - trim to the shortest length
 min_length = min(len(titles), len(dates), len(links))
