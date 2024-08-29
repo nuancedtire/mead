@@ -36,7 +36,7 @@ from tenacity import (
 def completion_with_backoff(**kwargs):
     return client.chat.completions.create(**kwargs)
 
-# Function to extract links from a CSV file using pandas
+# Function to extract links and image URLs from a CSV file using pandas
 def extract_links_from_csv_pandas(file_path):
     try:
         if not os.path.exists(file_path):
@@ -44,22 +44,35 @@ def extract_links_from_csv_pandas(file_path):
             print(f"{file_path} does not exist, skipping...")
             return []
         df = pd.read_csv(file_path)
-        links = df['Link'].dropna().tolist()
-        logging.info(f"Loaded {len(links)} links from {file_path}.")
-        print(f"Loaded {len(links)} links from {file_path}.")
-        return links
+        
+        # Check if 'Image URL' column exists
+        if 'Image URL' in df.columns:
+            links_with_images = df[['Link', 'Image URL']].dropna(subset=['Link']).to_dict('records')
+        else:
+            links_with_images = df[['Link']].dropna().to_dict('records')
+
+        logging.info(f"Loaded {len(links_with_images)} links from {file_path}.")
+        print(f"Loaded {len(links_with_images)} links from {file_path}.")
+        return links_with_images
     except Exception as e:
         logging.error(f"Error reading {file_path}: {e}")
         print(f"Error reading {file_path}: {e}")
         return []
 
 # Function to process each link
-def process_link(link):
+def process_link(link_info):
     try:
+        link = link_info.get('Link')
+        image_url = link_info.get('Image URL')
+        
         url = f'http://r.jina.ai/{link}'
         response = requests.get(url)
         response.raise_for_status()
         webpage_content = response.text
+
+        if image_url:
+            webpage_content = f'Thumbnail image URL: {image_url} {webpage_content}'
+        
         logging.info(f"Successfully fetched data from {url}.")
         print(f"Successfully fetched data from {url}.")
     except requests.exceptions.HTTPError as errh:
@@ -140,22 +153,23 @@ def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
         logging.error(f"Error logging data to CSV: {e}")
 
 def main():
-  meds_links = extract_links_from_csv_pandas('databases/meds.csv')
-  sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
-  llm_links = extract_links_from_csv_pandas('databases/llm.csv')
-  combined_links = set(meds_links + sifted_links) - set(llm_links)
+    meds_links = extract_links_from_csv_pandas('databases/meds.csv')
+    sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
+    llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm.csv')]
+    
+    combined_links = [link for link in meds_links + sifted_links if link['Link'] not in llm_links]
 
-  if not combined_links:
-    logging.info("No unique links to process. Exiting gracefully.")
-    print("No unique links to process. Exiting gracefully.")
-    return
+    if not combined_links:
+        logging.info("No unique links to process. Exiting gracefully.")
+        print("No unique links to process. Exiting gracefully.")
+        return
 
-  logging.info(f"Total unique links to process: {len(combined_links)}")
+    logging.info(f"Total unique links to process: {len(combined_links)}")
 
-  for link in combined_links:
-    log_entry = process_link(link)
-    if log_entry:
-        log_to_csv_pandas(log_entry)
+    for link_info in combined_links:
+        log_entry = process_link(link_info)
+        if log_entry:
+            log_to_csv_pandas(log_entry)
 
 if __name__ == "__main__":
     main()
