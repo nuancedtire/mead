@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Load the data
-data = pd.read_csv('databases/llm.csv')
+data = pd.read_csv('databases/backup/llm-1.csv')
 
 # Convert the Timestamp to datetime
 data['Original Timestamp'] = pd.to_datetime(data['Original Timestamp'])
@@ -55,10 +55,9 @@ st.sidebar.markdown(f"**Latest Post:** {latest_post_time}")
 
 # Sidebar description
 st.sidebar.header("About This App")
-st.sidebar.markdown("""
-Hello Team Peerr!
+st.sidebar.markdown("""Hello Team Peerr!
 
-This app is a draft frontend for displaying a feed of posts as they get updated. 
+This app is a demo frontend for displaying a feed of posts as they get updated. 
 The main section shows the latest posts, with each post displaying the publish time, 
 an image (with a fallback if none is provided), and a snippet of the content.
 You can expand each post to view the full content and see the source link.
