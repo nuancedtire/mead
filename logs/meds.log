@@ -77,3 +77,8 @@
 2024-08-29 08:13:20,270 - INFO - Loaded 12 existing entries from databases/meds.csv.
 2024-08-29 08:13:20,278 - INFO - No new data to update.
 2024-08-29 08:13:20,278 - INFO - Meds script completed successfully.
+2024-08-29 12:18:13,550 - INFO - Meds Script started.
+2024-08-29 12:18:14,205 - INFO - Data fetched successfully from API.
+2024-08-29 12:18:14,207 - INFO - Loaded 12 existing entries from databases/meds.csv.
+2024-08-29 12:18:14,220 - INFO - Successfully updated databases/meds.csv with new data.
+2024-08-29 12:18:14,220 - INFO - Meds script completed successfully.
