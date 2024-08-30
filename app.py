@@ -13,38 +13,54 @@ data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
 data = data.sort_values(by='Original Timestamp', ascending=False)
 
 # Define the fallback image URL
-fallback_image_url = "https://peerr.io/images/logo.svg"
+fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-SVG format
 
 # Function to validate if the URL is an image URL
 def is_valid_image_url(url):
+    if not isinstance(url, str) or not url:
+        return False  # If url is not a string or is empty, return False
     valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg")
-    return isinstance(url, str) and url.lower().endswith(valid_extensions)
+    # Strip any query parameters to validate just the file extension
+    url_without_query = url.split('?')[0]
+    return url_without_query.lower().endswith(valid_extensions)
 
 # Function to create a post
 def create_post(timestamp, llm_timestamp, image_url, content):
-    # Validate image URL and use fallback if necessary
-    if not is_valid_image_url(image_url):
-        image_url = fallback_image_url
-    
     # Create two columns for the thumbnail and the published time
-    col1, col2 = st.columns([2, 5])
+    col1, col2 = st.columns([3, 4])
     
     with col1:
-        st.image(image_url, width=200)
+        try:
+            if is_valid_image_url(image_url):
+                st.image(image_url)
+        except Exception as e:
+            st.image(fallback_image_url)
     
     with col2:
         st.error(f"**Published at** {timestamp}  \n**Generated at** {llm_timestamp}")
         
     # Extract the first line of the content
-    first_line, rest_of_content = content.split('\n', 1)
+    if '\n' in content:
+        first_line, rest_of_content = content.split('\n', 1)
+    else:
+        first_line = content[:40]
+        rest_of_content = content
     
     # Use the first line in the expander and display the rest of the content inside the expander
     with st.expander(f"{first_line}"):
-        st.write(rest_of_content)
-        # st.write(f"Generated from: {link}")
-    st.markdown("")
+        st.write(rest_of_content)        # st.write(f"Generated from: {link}")
+    st.markdown("""
+    <style>
+    .stMarkdown hr {
+        margin-top: -12px;
+        margin-bottom: -6px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    st.markdown("---")
 
 # Streamlit UI
+st.set_page_config()
 st.title("Thoughts Feed Demo")
 
 # Statistics Section
