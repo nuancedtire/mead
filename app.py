@@ -77,5 +77,5 @@ for _, row in data.iterrows():
         image_url=row['Image'],
         content=row['Post'],
         link=row['Link']
-        prompt=row['Prompt]
+        prompt=row['Prompt']
     )
