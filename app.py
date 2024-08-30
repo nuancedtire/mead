@@ -21,7 +21,7 @@ def is_valid_image_url(url):
     return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content, link, prmopt):
+def create_post(timestamp, llm_timestamp, image_url, content, link, prompt):
     # Validate image URL and use fallback if necessary
     if not is_valid_image_url(image_url):
         image_url = fallback_image_url
