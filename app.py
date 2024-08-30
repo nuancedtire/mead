@@ -30,7 +30,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, link):
     col1, col2 = st.columns([1, 5])
     
     with col1:
-        st.image(image_url, width=100)
+        st.image(image_url, width=200)
     
     with col2:
         st.write(f"**Publish Time:** {timestamp}")
