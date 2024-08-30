@@ -18,7 +18,7 @@ fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-
 def is_valid_image_url(url):
     valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg")
     # Strip any query parameters to validate just the file extension
-    url_without_query = url.split('?')[0]
+    url_without_query = f"{url}".split('?')[0]
     return url_without_query.lower().endswith(valid_extensions)
 
 # Function to create a post
