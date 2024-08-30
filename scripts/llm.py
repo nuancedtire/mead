@@ -204,11 +204,11 @@ def main():
     from multiple CSV files, filtering unique links, and logging the results.
     """
     meds_links = extract_links_from_csv_pandas('databases/meds.csv')
-    sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
+    # sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
     scape_links = extract_links_from_csv_pandas('databases/scape.csv')
     llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm.csv')]
     
-    combined_links = [link for link in meds_links + sifted_links + scape_links if link['Link'] not in llm_links]
+    combined_links = [link for link in meds_links + scape_links if link['Link'] not in llm_links]
 
     if not combined_links:
         logging.info("No unique links to process. Exiting gracefully.")

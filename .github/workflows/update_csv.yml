@@ -37,9 +37,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Run the Sifted script
-        run: |
-          python scripts/update_sifted.py
+      # - name: Run the Sifted script
+      #   run: |
+      #     python scripts/update_sifted.py
           
       - name: Run the Meds script
         run: |
