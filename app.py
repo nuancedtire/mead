@@ -43,7 +43,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, link):
         st.write(rest_of_content)
         # st.write(f"Generated from: {link}")
 
-    # st.markdown("---")
+    st.write("---")
 
 # Streamlit UI
 st.title("Thoughts Feed Demo")
