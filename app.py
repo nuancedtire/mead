@@ -3,14 +3,13 @@ import pandas as pd
 from datetime import datetime
 
 # Load the data
-data = pd.read_csv('databases/backup/llm-1.csv')
+data = pd.read_csv('databases/llm.csv')
 
 # Convert the Timestamp to datetime
 data['Original Timestamp'] = pd.to_datetime(data['Original Timestamp'])
 
 # Sort the data by Timestamp, latest at the top
-# data = data.sort_values(by='Original Timestamp', ascending=False)
-data = data.sort_values(by='Timestamp', ascending=False)
+data = data.sort_values(by='Original Timestamp', ascending=False)
 
 # Define the fallback image URL
 fallback_image_url = "https://peerr.io/images/logo.svg"
