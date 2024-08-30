@@ -5,11 +5,11 @@ import pandas as pd
 data = pd.read_csv('databases/llm.csv')
 
 # Convert the Timestamp to datetime
-data['Original Timestamp'] = pd.to_datetime(data['Original Timestamp'])
+data['Time'] = pd.to_datetime(data['Time'])
 data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
 
 # Sort the data by Timestamp, latest at the top
-data = data.sort_values(by='Original Timestamp', ascending=False)
+data = data.sort_values(by='Time', ascending=False)
 
 # Define the fallback image URL
 fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-SVG format
@@ -29,7 +29,7 @@ def is_valid_image_url(url):
    # return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content):
+def create_post(timestamp, llm_timestamp, image_url, content, model):
     image_url = is_valid_image_url(image_url)
     if not image_url:
         print("Fallback image used")
@@ -42,7 +42,7 @@ def create_post(timestamp, llm_timestamp, image_url, content):
         st.image(image_url, use_column_width=True)
     
     with col2:
-        st.warning(f"**Published at** {timestamp}  \n**Generated at** {llm_timestamp}")
+        st.warning(f"**Published at** {timestamp}  \n**Generated at** {llm_timestamp}  \n**By** *{model}*")
         
     # Extract the first line of the content
     if '\n' in content:
@@ -96,8 +96,9 @@ You can expand each post to view the full content.
 # Create a scrolling feed
 for _, row in data.iterrows():
     create_post(
-        timestamp=row['Original Timestamp'].strftime("%H:%M on %d-%m-%Y"),
+        timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
         llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
         image_url=row['Image'],
         content=row['Post'],
+        model=row['Model']
     )
