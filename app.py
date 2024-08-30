@@ -59,7 +59,12 @@ def create_post(timestamp, llm_timestamp, image_url, content):
     st.markdown("---")
 
 # Streamlit UI
-st.set_page_config()
+st.set_page_config(
+    page_title="Peerr Thoughts",
+    page_icon="💭",
+    layout="wide",
+    )
+
 st.title("Thoughts Feed Demo")
 
 # Statistics Section
