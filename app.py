@@ -33,9 +33,11 @@ def create_post(timestamp, image_url, content, link):
     
     with col2:
         st.markdown(f"**Publish Time:** {timestamp}")
+    # Extract the first line of the content
+    first_line = content.split('\n', 1)[0]
     
-    # Expander for full article content
-    with st.expander(f"Read more..."):
+    # Use the first line in the expander"
+    with st.expander(f"{first_line}"):
         st.write(content)
         st.markdown(f"Generated from: {link}")
 
