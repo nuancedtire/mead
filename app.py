@@ -44,15 +44,15 @@ def create_post(timestamp, llm_timestamp, image_url, content):
     with st.expander(f"{first_line}"):
         st.write(rest_of_content)        
        # st.write(f"Generated from: {link}")
-    
-   st.markdown("""
-    <style>
-    .stMarkdown hr {
-        margin-top: -12px;
-        margin-bottom: -6px;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+    st.markdown("""
+      <style>
+      .stMarkdown hr {
+      margin-top: -12px;
+      margin-bottom: -6px;
+      }
+      </style>
+      """, unsafe_allow_html=True)
+
     st.markdown("---")
 
 # Streamlit UI
