@@ -33,7 +33,7 @@ def create_post(timestamp, image_url, content, link):
     
     with col2:
         st.markdown(f"**Publish Time:** {timestamp}")
-        st.markdown(f"{content[:40]}...")
+        # st.markdown(f"{content[:40]}...")
     
     # Expander for full article content
     with st.expander(f"Read more"):
