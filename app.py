@@ -7,6 +7,7 @@ data = pd.read_csv('databases/llm.csv')
 
 # Convert the Timestamp to datetime
 data['Original Timestamp'] = pd.to_datetime(data['Original Timestamp'])
+data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
 
 # Sort the data by Timestamp, latest at the top
 data = data.sort_values(by='Original Timestamp', ascending=False)
@@ -20,7 +21,7 @@ def is_valid_image_url(url):
     return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to create a post
-def create_post(timestamp, image_url, content, link):
+def create_post(timestamp, llm_timestamp, image_url, content, link):
     # Validate image URL and use fallback if necessary
     if not is_valid_image_url(image_url):
         image_url = fallback_image_url
@@ -33,6 +34,7 @@ def create_post(timestamp, image_url, content, link):
     
     with col2:
         st.markdown(f"**Publish Time:** {timestamp}")
+        st.markdown(f"**Generation Time:** {llm_timestamp}")
         
     # Extract the first line of the content
     first_line, rest_of_content = content.split('\n', 1)
@@ -69,6 +71,7 @@ You can expand each post to view the full content and see the source link.
 for _, row in data.iterrows():
     create_post(
         timestamp=row['Original Timestamp'].strftime("%Y-%m-%d %H:%M:%S"),
+        llm_timestamp=row['LLM Timestamp'].strftime("%Y-%m-%d %H:%M:%S"),
         image_url=row['Image'],
         content=row['Post'],
         link=row['Link']
