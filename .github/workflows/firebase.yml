@@ -38,4 +38,4 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
           echo $FIREBASE_SERVICE_ACCOUNT > firebase_creds.json
-          python3 scripts/upload_to_firebase.py llm.csv
+          python3 scripts/upload_to_firebase.py databases/llm.csv
