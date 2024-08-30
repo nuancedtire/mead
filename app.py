@@ -35,11 +35,11 @@ def create_post(timestamp, image_url, content, link):
         st.markdown(f"**Publish Time:** {timestamp}")
     
     # Expander for full article content
-    with st.expander(f"👇Read more..."):
+    with st.expander(f"Read more..."):
         st.write(content)
         st.markdown(f"Generated from: {link}")
 
-    # st.markdown("---")
+    st.markdown("---")
 
 # Streamlit UI
 st.title("Thoughts Feed Demo")
