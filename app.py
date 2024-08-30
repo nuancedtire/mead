@@ -17,18 +17,18 @@ fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-
 # Function to validate if the URL is an image URL
 def is_valid_image_url(url):
     valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg")
-     # Strip any query parameters to validate just the file extension
-    url_without_query = url.split('?')[0]
     return isinstance(url, str) and url_without_query.lower().endswith(valid_extensions)
 
 # Function to create a post
 def create_post(timestamp, llm_timestamp, image_url, content):
+    if not is_valid_image_url(image_url):
+        image_url = fallback_image_url
+        
     # Create two columns for the thumbnail and the published time
     col1, col2 = st.columns([3, 4])
     
     with col1:
-        if is_valid_image_url(image_url):
-            st.image(image_url)
+        st.image(image_url)
     
     with col2:
         st.warning(f"**Published at** {timestamp}  \n**Generated at** {llm_timestamp}")
