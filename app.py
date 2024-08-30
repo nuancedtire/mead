@@ -21,7 +21,7 @@ def is_valid_image_url(url):
     return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content, link, prompt):
+def create_post(timestamp, llm_timestamp, image_url, content, link):
     # Validate image URL and use fallback if necessary
     if not is_valid_image_url(image_url):
         image_url = fallback_image_url
@@ -42,8 +42,6 @@ def create_post(timestamp, llm_timestamp, image_url, content, link, prompt):
     # Use the first line in the expander and display the rest of the content inside the expander
     with st.expander(f"{first_line}"):
         st.write(rest_of_content)
-        with st.expander("Prompt Used"):
-            st.write(prompt)
         # st.write(f"Generated from: {link}")
 
     st.markdown("---")
@@ -77,5 +75,4 @@ for _, row in data.iterrows():
         image_url=row['Image'],
         content=row['Post'],
         link=row['Link'],
-        prompt=row['Prompt']
     )
