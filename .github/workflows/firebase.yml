@@ -1,0 +1,41 @@
+name: Update Firebase on File Change
+
+on:
+  schedule:
+    - cron: '0 */4 * * *' # Runs every 4 hours
+  push:
+    paths:
+      - databases/llm.csv # Trigger on file changes (replace with your file path)
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Check if the file has changed
+        id: file_changed
+        run: |
+          git fetch origin main
+          git diff --name-only origin/main | grep "databases/llm.csv" > /dev/null
+          echo "file_changed=$?" >> $GITHUB_ENV
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install firebase-admin
+
+      - name: Upload to Firebase if changed
+        if: ${{ env.file_changed == '0' }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          echo $FIREBASE_SERVICE_ACCOUNT > firebase_creds.json
+          python3 scripts/upload_to_firebase.py llm.csv
