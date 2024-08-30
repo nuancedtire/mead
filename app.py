@@ -8,9 +8,6 @@ data = pd.read_csv('databases/llm.csv')
 data['Original Timestamp'] = pd.to_datetime(data['Original Timestamp'])
 data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
 
-# Clean the data
-data['Image'] = data['Image'].fillna('')  # Replace NaN with an empty string
-
 # Sort the data by Timestamp, latest at the top
 data = data.sort_values(by='Original Timestamp', ascending=False)
 
@@ -19,15 +16,15 @@ fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-
 
 # Function to validate if the URL is an image URL
 def is_valid_image_url(url):
-   if not isinstance(url, str):
-      return False
-   valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg")
+    if not isinstance(url, str):
+        return False
+    valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg")
     # Strip any query parameters to validate just the file extension
-   url_without_query = url.split('?')[0]
+    url_without_query = url.split('?')[0]
     # Check if the URL ends with a valid extension
-   if url_without_query.lower().endswith(valid_extensions):
-       return url_without_query  # Return the cleaned URL without query parameters
-   return False
+    if url_without_query.lower().endswith(valid_extensions):
+        return url_without_query  # Return the cleaned URL without query parameters
+    return False
    # return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to create a post
@@ -69,10 +66,10 @@ def create_post(timestamp, llm_timestamp, image_url, content):
 
 # Streamlit UI
 st.set_page_config(
-    page_title="Peerr Thoughts",
-    page_icon="💭",
-    layout="wide",
-    )
+   page_title="Peerr Thoughts",
+   page_icon="💭",
+   layout="wide",
+)
 
 st.title("Thoughts Feed Demo")
 
