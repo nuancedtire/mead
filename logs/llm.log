@@ -1633,3 +1633,8 @@
 2024-08-30 14:09:43,779 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-08-30 14:09:43,783 - INFO - Generated post for link https://www.medscape.co.uk/viewarticle/gps-encouraged-test-treat-latent-tb-immigrants-2024a1000fpa.
 2024-08-30 14:09:43,828 - INFO - Logged data to databases/llm.csv.
+2024-08-30 16:12:12,923 - INFO - Loaded 13 links from databases/meds.csv.
+2024-08-30 16:12:12,955 - INFO - Loaded 24 links from databases/sifted.csv.
+2024-08-30 16:12:12,958 - INFO - Loaded 9 links from databases/scape.csv.
+2024-08-30 16:12:12,977 - INFO - Loaded 51 links from databases/llm.csv.
+2024-08-30 16:12:12,977 - INFO - No unique links to process. Exiting gracefully.
