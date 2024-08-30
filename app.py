@@ -35,7 +35,7 @@ def create_post(timestamp, image_url, content, link):
         st.markdown(f"**Publish Time:** {timestamp}")
     
     # Expander for full article content
-    with st.expander(f"{content[:40]}..."):
+    with st.expander(f"{content[:50]}..."):
         st.write(content)
         st.markdown(f"Generated from: {link}")
 
