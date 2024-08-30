@@ -25,7 +25,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI()
 
-@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(3))
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
 def completion_with_backoff(**kwargs):
     """
     This function makes a request to the OpenAI API with exponential backoff 
