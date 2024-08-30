@@ -23,6 +23,7 @@ def is_valid_image_url(url):
     url_without_query = url.split('?')[0]
     # Check if the URL ends with a valid extension
     if url_without_query.lower().endswith(valid_extensions):
+        print("URL cleaned")
         return url_without_query  # Return the cleaned URL without query parameters
     return False
    # return isinstance(url, str) and url.lower().endswith(valid_extensions)
@@ -31,6 +32,7 @@ def is_valid_image_url(url):
 def create_post(timestamp, llm_timestamp, image_url, content):
     image_url = is_valid_image_url(image_url)
     if not image_url:
+        print("Fallback image used")
         image_url = fallback_image_url
         
     # Create two columns for the thumbnail and the published time
