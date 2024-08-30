@@ -47,8 +47,6 @@ def create_post(timestamp, image_url, content, link):
 # Streamlit UI
 st.title("Thoughts Feed Demo")
 
-st.markdown("The following posts are updated every 4 hours ")
-
 # Statistics Section
 st.sidebar.header("Statistics")
 total_posts = len(data)
