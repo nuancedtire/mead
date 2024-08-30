@@ -1178,3 +1178,125 @@
 2024-08-30 07:18:10,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2024-08-30 07:18:11,389 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2024-08-30 07:18:11,390 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:26:25,572 - INFO - Loaded 10 links from databases/meds.csv.
+2024-08-30 07:26:25,598 - INFO - Loaded 24 links from databases/sifted.csv.
+2024-08-30 07:26:25,600 - INFO - Loaded 12 links from databases/scape.csv.
+2024-08-30 07:26:25,615 - INFO - Loaded 36 links from databases/llm.csv.
+2024-08-30 07:26:25,615 - INFO - Total unique links to process: 10
+2024-08-30 07:26:26,759 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/joint-academy-startup-expansion/.
+2024-08-30 07:26:30,581 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-30 07:26:30,583 - INFO - Generated post for link https://sifted.eu/articles/joint-academy-startup-expansion/.
+2024-08-30 07:26:30,614 - INFO - Logged data to databases/llm.csv.
+2024-08-30 07:28:10,760 - ERROR - HTTP Error: 524 Server Error:  for url: https://r.jina.ai/https://www.medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu
+2024-08-30 07:28:12,328 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/recurrent-uti-undercultured-overtreated-despite-resistance-2024a1000fni.
+2024-08-30 07:28:16,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-30 07:28:16,720 - INFO - Generated post for link https://www.medscape.co.uk/viewarticle/recurrent-uti-undercultured-overtreated-despite-resistance-2024a1000fni.
+2024-08-30 07:28:16,749 - INFO - Logged data to databases/llm.csv.
+2024-08-30 07:28:20,793 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.com/viewarticle/high-dose-psilocybin-shows-promising-results-depression-2024a1000fqw.
+2024-08-30 07:28:20,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:28:20,869 - INFO - Retrying request to /chat/completions in 0.916063 seconds
+2024-08-30 07:28:21,846 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:28:21,846 - INFO - Retrying request to /chat/completions in 1.838651 seconds
+2024-08-30 07:28:23,760 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:28:24,660 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:28:24,660 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:28:44,747 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:28:44,748 - INFO - Retrying request to /chat/completions in 1.743645 seconds
+2024-08-30 07:28:46,556 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:28:47,326 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:28:47,327 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:29:07,416 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:07,417 - INFO - Retrying request to /chat/completions in 1.909716 seconds
+2024-08-30 07:29:09,400 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:09,400 - ERROR - Error generating post: RetryError[<Future at 0x7fecc43dc830 state=finished raised RateLimitError>]
+2024-08-30 07:29:10,518 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/female-doctors-suicide-rates-alarmingly-higher-vs-general-2024a1000fqs.
+2024-08-30 07:29:10,599 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:10,599 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:29:30,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:30,701 - INFO - Retrying request to /chat/completions in 1.503096 seconds
+2024-08-30 07:29:32,281 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:32,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:32,701 - INFO - Retrying request to /chat/completions in 0.825300 seconds
+2024-08-30 07:29:33,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:33,605 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:29:53,700 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:54,098 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:29:54,098 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:30:14,201 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:30:14,201 - INFO - Retrying request to /chat/completions in 1.773096 seconds
+2024-08-30 07:30:16,062 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:30:16,063 - ERROR - Error generating post: RetryError[<Future at 0x7fecc44044d0 state=finished raised RateLimitError>]
+2024-08-30 07:30:17,221 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/continuous-glucose-monitor-benefits-all-ages-diabetes-2024a1000fhy.
+2024-08-30 07:30:17,318 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:30:17,319 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:30:37,424 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:30:37,424 - INFO - Retrying request to /chat/completions in 1.963190 seconds
+2024-08-30 07:30:39,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:30:40,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:30:40,505 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:31:00,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:00,624 - INFO - Retrying request to /chat/completions in 1.713659 seconds
+2024-08-30 07:31:02,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:03,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:03,869 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:31:23,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:23,972 - INFO - Retrying request to /chat/completions in 1.955439 seconds
+2024-08-30 07:31:26,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:26,005 - ERROR - Error generating post: RetryError[<Future at 0x7fecc4201250 state=finished raised RateLimitError>]
+2024-08-30 07:31:28,017 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/hot-flashes-night-sweats-linked-subclinical-heart-disease-2024a1000fl0.
+2024-08-30 07:31:28,098 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:28,098 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:31:48,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:48,184 - INFO - Retrying request to /chat/completions in 1.628553 seconds
+2024-08-30 07:31:49,892 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:50,726 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:31:50,726 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:32:10,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:32:10,823 - INFO - Retrying request to /chat/completions in 1.737602 seconds
+2024-08-30 07:32:12,639 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:32:13,505 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:32:13,505 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:32:33,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:32:33,608 - INFO - Retrying request to /chat/completions in 1.735323 seconds
+2024-08-30 07:32:35,409 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:32:35,409 - ERROR - Error generating post: RetryError[<Future at 0x7fecc4221220 state=finished raised RateLimitError>]
+2024-08-30 07:32:36,653 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/key-learning-points-early-breast-cancer-2024a1000fb4.
+2024-08-30 07:32:36,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:32:36,734 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:33:00,319 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-30 07:33:00,322 - INFO - Generated post for link https://www.medscape.co.uk/viewarticle/key-learning-points-early-breast-cancer-2024a1000fb4.
+2024-08-30 07:33:00,356 - INFO - Logged data to databases/llm.csv.
+2024-08-30 07:33:02,312 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.com/viewarticle/covid-19-booster-vaccine-shortens-menstrual-cycles-teens-2024a1000fo8.
+2024-08-30 07:33:02,395 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:33:02,396 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:33:22,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:33:22,487 - INFO - Retrying request to /chat/completions in 1.768085 seconds
+2024-08-30 07:33:24,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:33:25,060 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:33:25,061 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:33:45,159 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:33:45,159 - INFO - Retrying request to /chat/completions in 1.637098 seconds
+2024-08-30 07:33:46,877 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:33:47,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:33:47,785 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:34:07,874 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:07,875 - INFO - Retrying request to /chat/completions in 1.844087 seconds
+2024-08-30 07:34:09,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:09,798 - ERROR - Error generating post: RetryError[<Future at 0x7fecc4200890 state=finished raised RateLimitError>]
+2024-08-30 07:34:10,865 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/list-biomarkers-could-help-inform-pcos-management-2024a1000fcp.
+2024-08-30 07:34:10,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:10,944 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:34:31,040 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:31,041 - INFO - Retrying request to /chat/completions in 1.556919 seconds
+2024-08-30 07:34:32,682 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:33,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:33,184 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:34:53,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:53,289 - INFO - Retrying request to /chat/completions in 1.600100 seconds
+2024-08-30 07:34:54,955 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:55,508 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:34:55,508 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-30 07:35:15,598 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:35:15,599 - INFO - Retrying request to /chat/completions in 1.628070 seconds
+2024-08-30 07:35:17,295 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-30 07:35:17,295 - ERROR - Error generating post: RetryError[<Future at 0x7fecc4404c80 state=finished raised RateLimitError>]
