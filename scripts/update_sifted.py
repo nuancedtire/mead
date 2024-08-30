@@ -40,7 +40,7 @@ except requests.exceptions.RequestException as err:
     webpage_content = ""
 
 # Phrase to search for
-search_phrase = "Sifted Daily"
+search_phrase = "Open navigation menu"
 
 # Find the position of the search phrase and trim everything before it
 start_index = webpage_content.find(search_phrase)
