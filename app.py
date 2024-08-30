@@ -78,7 +78,7 @@ st.title("Thoughts Feed Demo")
 # Statistics Section
 st.sidebar.header("Statistics")
 total_posts = len(data)
-last_post_time = data['Original Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
+last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
 last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
 st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**Last Gen:** *{last_gen_time}*")
