@@ -37,8 +37,8 @@ def create_post(timestamp, image_url, content, link):
     
     # Expander for full article content
     with st.expander(f"Read more"):
-        st.markdown(f"Generated from: {link}")
         st.write(content)
+        st.markdown(f"Generated from: {link}")
 
     st.markdown("---")
 
