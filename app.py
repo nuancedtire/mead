@@ -16,8 +16,6 @@ fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-
 
 # Function to validate if the URL is an image URL
 def is_valid_image_url(url):
-    if not isinstance(url, str) or not url:
-        return False  # If url is not a string or is empty, return False
     valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg")
     # Strip any query parameters to validate just the file extension
     url_without_query = url.split('?')[0]
