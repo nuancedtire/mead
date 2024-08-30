@@ -127,6 +127,9 @@ def generate_post(webpage_content, link, original_timestamp):
         list: A log entry including the original and LLM timestamps, 
               generated post content, and image URL, or None if an error occurred.
     """
+    if "Open navigation menu" in webpage_content:
+      start_index = webpage_content.find("Open navigation menu")
+      webpage_content = webpage_content[start_index:]
     try:
         response = completion_with_backoff(
             model=model_name,
