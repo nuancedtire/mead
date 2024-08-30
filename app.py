@@ -21,7 +21,7 @@ def is_valid_image_url(url):
     return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content, link):
+def create_post(timestamp, llm_timestamp, image_url, content, link, prmopt):
     # Validate image URL and use fallback if necessary
     if not is_valid_image_url(image_url):
         image_url = fallback_image_url
@@ -42,7 +42,9 @@ def create_post(timestamp, llm_timestamp, image_url, content, link):
     # Use the first line in the expander and display the rest of the content inside the expander
     with st.expander(f"{first_line}"):
         st.write(rest_of_content)
-        st.write(f"Generated from: {link}")
+        with st.expander("Prompt Used"):
+            st.write(prompt)
+        # st.write(f"Generated from: {link}")
 
     st.markdown("---")
 
@@ -64,7 +66,7 @@ st.sidebar.markdown("""Hello Team Peerr!
 This app is a demo frontend for displaying a feed of posts as they get updated. 
 The main section shows the latest posts, with each post displaying the publish time, 
 an image (with a fallback if none is provided), and a snippet of the content.
-You can expand each post to view the full content and see the source link.
+You can expand each post to view the full content and see the prompt.
 """)
 
 # Create a scrolling feed
@@ -75,4 +77,5 @@ for _, row in data.iterrows():
         image_url=row['Image'],
         content=row['Post'],
         link=row['Link']
+        prompt=row['Prompt]
     )
