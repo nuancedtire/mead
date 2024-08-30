@@ -43,7 +43,9 @@ def create_post(timestamp, image_url, content, link):
     st.markdown("---")
 
 # Streamlit UI
-st.title("Latest Posts Feed")
+st.title("Thoughts Feed Demo")
+
+st.markdown("The following posts are updated every 4 hours ")
 
 # Statistics Section
 st.sidebar.header("Statistics")
