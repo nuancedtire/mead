@@ -21,7 +21,7 @@ def is_valid_image_url(url):
     return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content, link):
+def create_post(timestamp, llm_timestamp, image_url, content):
     # Validate image URL and use fallback if necessary
     if not is_valid_image_url(image_url):
         image_url = fallback_image_url
@@ -30,10 +30,10 @@ def create_post(timestamp, llm_timestamp, image_url, content, link):
     col1, col2 = st.columns([2, 5])
     
     with col1:
-        st.image(image_url, width=180)
+        st.image(image_url, width=200)
     
     with col2:
-        st.write(f"**Publish Time:** {timestamp}  \n**Generation Time:** {llm_timestamp}")
+        st.error(f"**Published at** {timestamp}  \n**Generated at** {llm_timestamp}")
         
     # Extract the first line of the content
     first_line, rest_of_content = content.split('\n', 1)
@@ -42,8 +42,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, link):
     with st.expander(f"{first_line}"):
         st.write(rest_of_content)
         # st.write(f"Generated from: {link}")
-
-    st.write("---")
+    st.markdown("")
 
 # Streamlit UI
 st.title("Thoughts Feed Demo")
@@ -51,10 +50,10 @@ st.title("Thoughts Feed Demo")
 # Statistics Section
 st.sidebar.header("Statistics")
 total_posts = len(data)
-last_post_time = data['Original Timestamp'].max().strftime("%Y-%m-%d %H:%M:%S")
-last_gen_time = data['LLM Timestamp'].max().strftime("%Y-%m-%d %H:%M:%S")
+last_post_time = data['Original Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
+last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
-st.sidebar.markdown(f"**Total Posts:** {total_posts}  \n**Last Post:** {last_post_time}  \n**Last Gen:** {last_gen_time}")
+st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**Last Gen:** *{last_gen_time}*")
 
 # Sidebar description
 st.sidebar.header("About This App")
@@ -69,9 +68,8 @@ You can expand each post to view the full content.
 # Create a scrolling feed
 for _, row in data.iterrows():
     create_post(
-        timestamp=row['Original Timestamp'].strftime("%Y-%m-%d %H:%M:%S"),
-        llm_timestamp=row['LLM Timestamp'].strftime("%Y-%m-%d %H:%M:%S"),
+        timestamp=row['Original Timestamp'].strftime("%H:%M on %d-%m-%Y"),
+        llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
         image_url=row['Image'],
         content=row['Post'],
-        link=row['Link'],
     )
