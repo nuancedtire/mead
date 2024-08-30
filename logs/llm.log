@@ -1610,3 +1610,8 @@
 2024-08-30 10:12:40,597 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-08-30 10:12:40,598 - INFO - Generated post for link https://www.medscape.co.uk/viewarticle/hot-flashes-night-sweats-linked-subclinical-heart-disease-2024a1000fl0.
 2024-08-30 10:12:40,639 - INFO - Logged data to databases/llm.csv.
+2024-08-30 10:40:09,141 - INFO - Loaded 13 links from databases/meds.csv.
+2024-08-30 10:40:09,172 - INFO - Loaded 24 links from databases/sifted.csv.
+2024-08-30 10:40:09,174 - INFO - Loaded 10 links from databases/scape.csv.
+2024-08-30 10:40:09,193 - INFO - Loaded 49 links from databases/llm.csv.
+2024-08-30 10:40:09,193 - INFO - No unique links to process. Exiting gracefully.
