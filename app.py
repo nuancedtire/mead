@@ -8,6 +8,9 @@ data = pd.read_csv('databases/llm.csv')
 data['Original Timestamp'] = pd.to_datetime(data['Original Timestamp'])
 data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
 
+# Clean the data
+data['Image'] = data['Image'].fillna('')  # Replace NaN with an empty string
+
 # Sort the data by Timestamp, latest at the top
 data = data.sort_values(by='Original Timestamp', ascending=False)
 
