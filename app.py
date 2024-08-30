@@ -23,13 +23,12 @@ def is_valid_image_url(url):
 
 # Function to create a post
 def create_post(timestamp, llm_timestamp, image_url, content):
-    if not is_valid_image_url(image_url):
-        image_url = fallback_image_url
     # Create two columns for the thumbnail and the published time
     col1, col2 = st.columns([3, 4])
     
     with col1:
-        st.image(image_url)
+        if is_valid_image_url(image_url):
+            st.image(image_url)
     
     with col2:
         st.warning(f"**Published at** {timestamp}  \n**Generated at** {llm_timestamp}")
