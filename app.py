@@ -31,7 +31,7 @@ def is_valid_image_url(url):
 def create_post(timestamp, llm_timestamp, image_url, content):
     image_url = is_valid_image_url(image_url)
     if not image_url:
-       image_url = fallback_image_url
+        image_url = fallback_image_url
         
     # Create two columns for the thumbnail and the published time
     col1, col2 = st.columns([3, 4])
