@@ -3,6 +3,7 @@ name: Update Firebase on File Change
 on:
   schedule:
     - cron: '0 */4 * * *' # Runs every 4 hours
+  workflow_dispatch:  # Allows manual triggering
   push:
     paths:
       - databases/llm.csv # Trigger on file changes (replace with your file path)
