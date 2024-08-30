@@ -1620,3 +1620,16 @@
 2024-08-30 12:18:23,375 - INFO - Loaded 10 links from databases/scape.csv.
 2024-08-30 12:18:23,393 - INFO - Loaded 49 links from databases/llm.csv.
 2024-08-30 12:18:23,393 - INFO - No unique links to process. Exiting gracefully.
+2024-08-30 14:09:27,134 - INFO - Loaded 13 links from databases/meds.csv.
+2024-08-30 14:09:27,181 - INFO - Loaded 24 links from databases/sifted.csv.
+2024-08-30 14:09:27,184 - INFO - Loaded 11 links from databases/scape.csv.
+2024-08-30 14:09:27,204 - INFO - Loaded 49 links from databases/llm.csv.
+2024-08-30 14:09:27,204 - INFO - Total unique links to process: 2
+2024-08-30 14:09:30,014 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/mothers-vascular-skin-lesions-increase-risk-offspring-2024a1000fq5.
+2024-08-30 14:09:35,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-30 14:09:35,937 - INFO - Generated post for link https://www.medscape.co.uk/viewarticle/mothers-vascular-skin-lesions-increase-risk-offspring-2024a1000fq5.
+2024-08-30 14:09:35,979 - INFO - Logged data to databases/llm.csv.
+2024-08-30 14:09:38,658 - INFO - Successfully fetched data from http://r.jina.ai/https://www.medscape.co.uk/viewarticle/gps-encouraged-test-treat-latent-tb-immigrants-2024a1000fpa.
+2024-08-30 14:09:43,779 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-30 14:09:43,783 - INFO - Generated post for link https://www.medscape.co.uk/viewarticle/gps-encouraged-test-treat-latent-tb-immigrants-2024a1000fpa.
+2024-08-30 14:09:43,828 - INFO - Logged data to databases/llm.csv.
