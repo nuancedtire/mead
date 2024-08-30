@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from datetime import datetime
 
 # Load the data
 data = pd.read_csv('databases/llm.csv')
