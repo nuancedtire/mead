@@ -45,19 +45,23 @@ search_phrase = "Open navigation menu"
 # Find the position of the search phrase and trim everything before it
 start_index = webpage_content.find(search_phrase)
 
-if (start_index != -1):
+if start_index != -1:
     trimmed_content = webpage_content[start_index:]
     logging.info('Search phrase found and content trimmed.')
 else:
     trimmed_content = webpage_content  # If the phrase is not found, keep the original content
     logging.warning('Search phrase not found. Using original content.')
 
-# Regex to find all titles, dates, and links
-titles = re.findall(r"\*   \[(.*?)\]\(", trimmed_content)
-links = re.findall(r"\*   \[.*?\]\((.*?)\)", trimmed_content)
-dates = re.findall(r"\w+ \d{1,2}, \d{4}", trimmed_content)
+# Regular expression patterns to match the titles, links, and dates
+link_pattern = re.compile(r'\[(.*?)\]\((https://sifted\.eu/articles/.*?)\)')
+date_pattern = re.compile(r'(\w+\s\d{1,2},\s\d{4})')
 
-if not titles or not links or not dates:
+# Find all matches for links and titles
+links_titles = link_pattern.findall(trimmed_content)
+# Find all matches for dates
+dates = date_pattern.findall(trimmed_content)
+
+if not links_titles or not dates:
     logging.warning("No titles, links, or dates found in the content. Possible webpage structure change.")
 
 # Function to standardize time format
@@ -74,10 +78,13 @@ def standardize_time(time_str):
 dates = [standardize_time(date) for date in dates]
 
 # Ensure all lists have the same length - trim to the shortest length
-min_length = min(len(titles), len(dates), len(links))
-titles = titles[:min_length]
+min_length = min(len(links_titles), len(dates))
+links_titles = links_titles[:min_length]
 dates = dates[:min_length]
-links = links[:min_length]
+
+# Prepare data for DataFrame
+titles = [title for title, link in links_titles]
+links = [link for title, link in links_titles]
 
 # Create a DataFrame with the new data
 new_data = pd.DataFrame({
