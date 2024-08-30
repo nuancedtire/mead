@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - databases/llm.csv # Trigger on file changes (replace with your file path)
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   check-and-update:
