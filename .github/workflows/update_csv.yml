@@ -1,4 +1,4 @@
-name: Update every 2 hours
+name: Scrape Time
 
 on:
   schedule:
