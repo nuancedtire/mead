@@ -4,6 +4,11 @@ import pandas as pd
 # Load the data
 data = pd.read_csv('databases/llm.csv')
 
+# Load the additional CSV files
+meds = pd.read_csv('databases/meds.csv')
+sifted = pd.read_csv('databases/sifted.csv')
+scape = pd.read_csv('databases/scape.csv')
+
 # Convert the Timestamp to datetime
 data['Time'] = pd.to_datetime(data['Time'])
 data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
@@ -27,11 +32,23 @@ def is_valid_image_url(url):
     return False
    # return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
+# Function to determine the source
+def determine_source(link):
+    if link in meds['Link'].values:
+        return "Medsii"
+    elif link in sifted['Link'].values:
+        return "Sifted"
+    elif link in scape['Link'].values:
+        return "Medscape"
+    else:
+        return "Unknown Source"
+
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content, model):
+def create_post(timestamp, llm_timestamp, image_url, content, model, link):
     image_url = is_valid_image_url(image_url)
     if not image_url:
         image_url = fallback_image_url
+    source = determine_source(link)
         
     # Create two columns for the thumbnail and the published time
     col1, col2 = st.columns([3, 5])
@@ -40,7 +57,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, model):
         st.image(image_url, use_column_width=True)
     
     with col2:
-        st.warning(f"**Published at** {timestamp}  \n**Generated at** {llm_timestamp}  \n**By** *{model}*")
+        st.warning(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**By:** *{model}*. \n**From:**{source}")
         
     # Extract the first line of the content
     if '\n' in content:
@@ -51,8 +68,9 @@ def create_post(timestamp, llm_timestamp, image_url, content, model):
     
     # Use the first line in the expander and display the rest of the content inside the expander
     with st.expander(f"{first_line}"):
-        st.write(rest_of_content)        
-       # st.write(f"Generated from: {link}")
+        st.write(rest_of_content)
+        # st.write(f"Generated from: {link}")
+        
     st.markdown("""
       <style>
       .stMarkdown hr {
@@ -107,5 +125,6 @@ else:
             llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
             image_url=row['Image'],
             content=row['Post'],
-            model=row['Model']
+            model=row['Model'],
+            link=row['Link']
         )
