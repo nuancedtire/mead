@@ -76,6 +76,6 @@ for _, row in data.iterrows():
         llm_timestamp=row['LLM Timestamp'].strftime("%Y-%m-%d %H:%M:%S"),
         image_url=row['Image'],
         content=row['Post'],
-        link=row['Link']
+        link=row['Link'],
         prompt=row['Prompt']
     )
