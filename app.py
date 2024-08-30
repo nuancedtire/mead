@@ -33,8 +33,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, link):
         st.image(image_url, width=180)
     
     with col2:
-        st.write(f"**Publish Time:** {timestamp}")
-        st.write(f"**Generation Time:** {llm_timestamp}")
+        st.write(f"**Publish Time:** {timestamp}  \n**Generation Time:** {llm_timestamp}")
         
     # Extract the first line of the content
     first_line, rest_of_content = content.split('\n', 1)
@@ -54,8 +53,7 @@ st.sidebar.header("Statistics")
 total_posts = len(data)
 latest_post_time = data['Original Timestamp'].max().strftime("%Y-%m-%d %H:%M:%S")
 
-st.sidebar.markdown(f"**Total Posts:** {total_posts}")
-st.sidebar.markdown(f"**Latest Post:** {latest_post_time}")
+st.sidebar.markdown(f"**Total Posts:** {total_posts}  \n**Latest Post:** {latest_post_time}")
 
 # Sidebar description
 st.sidebar.header("About This App")
