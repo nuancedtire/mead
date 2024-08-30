@@ -167,7 +167,7 @@ def generate_post(webpage_content, link, original_timestamp):
         image = data['thumbnail_image_url']
         llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
-        log_entry = [original_timestamp, llm_timestamp, post, image, link, system_message, webpage_content]
+        log_entry = [original_timestamp, llm_timestamp, post, image, link, system_message, webpage_content, model_name]
         logging.info(f"Generated post for link {link}.")
         print(f"Generated post for link {link}.")
         return log_entry
@@ -185,7 +185,7 @@ def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
         file_name (str): The name of the CSV file to log the entry to.
     """
     try:
-        df_new = pd.DataFrame([log_entry], columns=["Original Timestamp", "LLM Timestamp", "Post", "Image", "Link", "Prompt", "Input"])
+        df_new = pd.DataFrame([log_entry], columns=["Time", "LLM Timestamp", "Post", "Image", "Link", "Prompt", "Input", "Model"])
         if os.path.exists(file_name):
             df_existing = pd.read_csv(file_name)
             df_combined = pd.concat([df_existing, df_new]).drop_duplicates()
