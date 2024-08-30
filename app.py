@@ -57,7 +57,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, model, link):
         st.image(image_url, use_column_width=True)
     
     with col2:
-        st.warning(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**By:** *{model}*  \n**From:**{source}")
+        st.warning(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**By:** *{model}*  \n**From:** {source}")
         
     # Extract the first line of the content
     if '\n' in content:
