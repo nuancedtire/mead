@@ -2,6 +2,7 @@ import csv
 import firebase_admin
 from firebase_admin import credentials, firestore
 import os
+import sys
 
 # Initialize the Firebase Admin SDK using the credentials file
 cred = credentials.Certificate("firebase_creds.json")
