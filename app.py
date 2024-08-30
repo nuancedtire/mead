@@ -52,8 +52,9 @@ st.title("Thoughts Feed Demo")
 st.sidebar.header("Statistics")
 total_posts = len(data)
 latest_post_time = data['Original Timestamp'].max().strftime("%Y-%m-%d %H:%M:%S")
+last_post_time = data['LLM Timestamp'].max().strftime("%Y-%m-%d %H:%M:%S")
 
-st.sidebar.markdown(f"**Total Posts:** {total_posts}  \n**Latest Post:** {latest_post_time}")
+st.sidebar.markdown(f"**Total Posts:** {total_posts}  \n**Latest Post:** {latest_post_time}  \n**Last Gen:** {last_post_time}")
 
 # Sidebar description
 st.sidebar.header("About This App")
