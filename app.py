@@ -25,7 +25,7 @@ def create_post(timestamp, llm_timestamp, image_url, content):
         image_url = fallback_image_url
         
     # Create two columns for the thumbnail and the published time
-    col1, col2 = st.columns([3, 4])
+    col1, col2 = st.columns([2, 5])
     
     with col1:
         st.image(image_url)
@@ -57,7 +57,7 @@ def create_post(timestamp, llm_timestamp, image_url, content):
 st.set_page_config(
     page_title="Peerr Thoughts",
     page_icon="💭",
-    layout="wide",
+    # layout="wide",
     )
 
 st.title("Thoughts Feed Demo")
