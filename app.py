@@ -28,12 +28,14 @@ if st.session_state['source'] == 'data':
     meds = pd.read_csv('databases/meds.csv')
     sifted = pd.read_csv('databases/sifted.csv')
     scape = pd.read_csv('databases/scape.csv')
+    feed = 'Feed 2.0'
 else:
     data = pd.read_csv('databases/backup/llm-2.csv')
     # Load the additional CSV files
     meds = pd.read_csv('databases/backup/meds-2.csv')
     sifted = pd.read_csv('databases/backup/sifted-2.csv')
     scape = pd.read_csv('databases/backup/scape-1.csv')    
+    feed = 'Feed 1.0'
 
 # Convert the Timestamp to datetime
 data['Time'] = pd.to_datetime(data['Time'])
@@ -120,21 +122,23 @@ st.set_page_config(
 
 st.title("Feed")
 
-on = st.toggle("Toggle Between Old & New")
+with st.sidebar:
 
-if on and st.session_state['source'] != 'data':
-    st.write("Its a old one")
-    st.session_state['source'] = 'data'
-elif st.session_state['source'] == 'data':
-    st.write("Its a new one")
-    st.session_state['source'] = 'not data'
+    # Statistics Section
+    total_posts = len(data)
+    last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
+    last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
-# Statistics Section
-total_posts = len(data)
-last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
-last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
+    st.sidebar.success(f"**{feed}**  \n**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**Last Gen:** *{last_gen_time}*")
 
-st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**Last Gen:** *{last_gen_time}*")
+    on = st.toggle("Toggle between 1.0 & 2.0")
+
+    if on and st.session_state['source'] != 'data':
+        feed = 'Feed 1.0'
+        st.session_state['source'] = 'data'
+    elif st.session_state['source'] == 'data':
+        feed = 'Feed 2.0'
+        st.session_state['source'] = 'not data'
 
 # Sidebar description
 st.sidebar.markdown("""Hello Team Peerr!
