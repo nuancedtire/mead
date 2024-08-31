@@ -79,7 +79,8 @@ except Exception as e:
 # Function to standardize time format
 def standardize_time(time_str):
     try:
-        dt = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ")
+        # Parse the time string, which automatically handles various formats including timezones
+        dt = parser.parse(time_str)
         return dt.strftime("%Y-%m-%d %H:%M:%S")
     except ValueError:
         logging.warning(f"Failed to standardize time format for {time_str}")
@@ -94,7 +95,7 @@ def call_openai_with_backoff(client, webpage_content):
             messages=[
                 {
                     "role": "system",
-                    "content": "You are an expert researcher. You will be given the web scraping of an article and you have to find the original source other than Medscape from which the article was written. Reply only with link. Reply 'None' if no link or error with input.",
+                    "content": "You are an expert researcher. You will be given the web scraping of an article and you have to find the original source other than Medscape from which the article was written. Reply only with link. Reply with the medscape link if no other link or error with input.",
                 },
                 {
                     "role": "user",
