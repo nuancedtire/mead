@@ -85,7 +85,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, model, link, promp
         st.image(image_url, use_column_width=True)
     
     with col2:
-        st.warning(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
+        st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
         with st.expander(f"*{model}*"):
             st.write(f"{prompt}")
         
