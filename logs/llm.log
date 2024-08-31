@@ -392,3 +392,8 @@
 2024-08-31 05:13:48,691 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-08-31 05:13:48,692 - INFO - Generated post for link https://www.bmj.com/content/386/bmj-2023-078607.
 2024-08-31 05:13:48,712 - INFO - Logged data to databases/llm.csv.
+2024-08-31 08:12:30,386 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 08:12:30,388 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 08:12:30,390 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 08:12:30,399 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 08:12:30,399 - INFO - No unique links to process. Exiting gracefully.

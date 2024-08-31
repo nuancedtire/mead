@@ -46,3 +46,11 @@
 2024-08-31 03:40:59,542 - INFO - Attempt 1 succeeded with link: https://www.bmj.com/content/386/bmj-2023-078607
 2024-08-31 03:40:59,544 - INFO - CSV file updated with new data.
 2024-08-31 03:40:59,544 - INFO - Medscape script completed.
+2024-08-31 08:12:28,992 - INFO - Medscape script started.
+2024-08-31 08:12:28,993 - INFO - Connection to Medscape established.
+2024-08-31 08:12:29,105 - INFO - Request sent to Medscape API.
+2024-08-31 08:12:29,328 - INFO - Response received from Medscape API.
+2024-08-31 08:12:29,328 - INFO - Response data decoded into dictionary.
+2024-08-31 08:12:29,330 - INFO - Existing CSV file loaded.
+2024-08-31 08:12:29,330 - INFO - No new links found, CSV file is up to date.
+2024-08-31 08:12:29,330 - INFO - Medscape script completed.
