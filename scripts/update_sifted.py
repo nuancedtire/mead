@@ -93,6 +93,8 @@ new_data = pd.DataFrame({
     "Link": links
 })
 
+new_data = new_data[:5]
+
 # Check if the CSV file already exists
 try:
     if os.path.exists(csv_file_path):
