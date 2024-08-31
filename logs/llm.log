@@ -351,3 +351,44 @@
 2024-08-31 04:13:12,520 - INFO - Retrying request to /chat/completions in 1.776472 seconds
 2024-08-31 04:13:14,367 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2024-08-31 04:13:14,368 - ERROR - Error generating post: RetryError[<Future at 0x7f246d311be0 state=finished raised RateLimitError>]
+2024-08-31 05:12:29,440 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 05:12:29,442 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 05:12:29,444 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 05:12:29,451 - INFO - Loaded 7 links from databases/llm.csv.
+2024-08-31 05:12:29,451 - INFO - Total unique links to process: 9
+2024-08-31 05:12:34,712 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-08-31 05:12:39,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:12:39,665 - INFO - Generated post for link https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-08-31 05:12:39,680 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:12:42,599 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-31 05:12:45,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:12:45,460 - INFO - Generated post for link https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-31 05:12:45,474 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:12:47,268 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-31 05:12:52,475 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:12:52,476 - INFO - Generated post for link https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-31 05:12:52,491 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:12:55,354 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-31 05:13:00,323 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:00,324 - INFO - Generated post for link https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-31 05:13:00,339 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:02,559 - INFO - Successfully fetched data from http://r.jina.ai/https://link.springer.com/article/10.1007/s00403-024-03247-y.
+2024-08-31 05:13:07,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:07,112 - INFO - Generated post for link https://link.springer.com/article/10.1007/s00403-024-03247-y.
+2024-08-31 05:13:07,128 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:14,639 - INFO - Successfully fetched data from http://r.jina.ai/https://erj.ersjournals.com/content/early/2024/08/08/13993003.01733-2023.long.
+2024-08-31 05:13:18,964 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:18,965 - INFO - Generated post for link https://erj.ersjournals.com/content/early/2024/08/08/13993003.01733-2023.long.
+2024-08-31 05:13:18,991 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:23,038 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu.
+2024-08-31 05:13:26,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:26,894 - INFO - Generated post for link http://medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu.
+2024-08-31 05:13:26,916 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:32,173 - INFO - Successfully fetched data from http://r.jina.ai/https://bjgp.org/content/early/2024/08/19/BJGP.2024.0015.long.
+2024-08-31 05:13:37,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:37,255 - INFO - Generated post for link https://bjgp.org/content/early/2024/08/19/BJGP.2024.0015.long.
+2024-08-31 05:13:37,275 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:43,462 - INFO - Successfully fetched data from http://r.jina.ai/https://www.bmj.com/content/386/bmj-2023-078607.
+2024-08-31 05:13:48,691 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:48,692 - INFO - Generated post for link https://www.bmj.com/content/386/bmj-2023-078607.
+2024-08-31 05:13:48,712 - INFO - Logged data to databases/llm.csv.

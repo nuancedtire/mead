@@ -1,23 +1,39 @@
 import streamlit as st
 import pandas as pd
 
-# Load the data
-try:
-    # Attempt to read the primary CSV file
+# # Load the data when resetting
+# try:
+#     # Attempt to read the primary CSV file
+#     data = pd.read_csv('databases/llm.csv')
+#     # Load the additional CSV files
+#     meds = pd.read_csv('databases/meds.csv')
+#     sifted = pd.read_csv('databases/sifted.csv')
+#     scape = pd.read_csv('databases/scape.csv')
+#     print("Loaded 'llm.csv' successfully.")
+# except FileNotFoundError:
+#     # If the primary file is not found, fall back to the backup file
+#     print("CSV not found. Loading' from backups.")
+#     data = pd.read_csv('databases/backup/llm-2.csv')
+#     # Load the additional CSV files
+#     meds = pd.read_csv('databases/backup/meds-2.csv')
+#     sifted = pd.read_csv('databases/backup/sifted-2.csv')
+#     scape = pd.read_csv('databases/backup/scape-1.csv')
+
+if 'source' not in st.session_state:
+    st.session_state['source'] = 'data'
+
+if st.session_state['source'] == 'data':
     data = pd.read_csv('databases/llm.csv')
     # Load the additional CSV files
     meds = pd.read_csv('databases/meds.csv')
     sifted = pd.read_csv('databases/sifted.csv')
     scape = pd.read_csv('databases/scape.csv')
-    print("Loaded 'llm.csv' successfully.")
-except FileNotFoundError:
-    # If the primary file is not found, fall back to the backup file
-    print("CSV not found. Loading' from backups.")
+else:
     data = pd.read_csv('databases/backup/llm-2.csv')
     # Load the additional CSV files
     meds = pd.read_csv('databases/backup/meds-2.csv')
     sifted = pd.read_csv('databases/backup/sifted-2.csv')
-    scape = pd.read_csv('databases/backup/scape-1.csv')
+    scape = pd.read_csv('databases/backup/scape-1.csv')    
 
 # Convert the Timestamp to datetime
 data['Time'] = pd.to_datetime(data['Time'])
@@ -54,7 +70,7 @@ def determine_source(link):
         return "Unknown Source"
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content, model, link):
+def create_post(timestamp, llm_timestamp, image_url, content, model, link, prompt):
     image_url = is_valid_image_url(image_url)
     if not image_url:
         image_url = fallback_image_url
@@ -67,7 +83,9 @@ def create_post(timestamp, llm_timestamp, image_url, content, model, link):
         st.image(image_url, use_column_width=True)
     
     with col2:
-        st.warning(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**By:** *{model}*  \n**From:** {source}")
+        st.warning(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
+        with st.expander(f"*{model}*"):
+            st.write(f"{prompt}")
         
     # Extract the first line of the content
     if '\n' in content:
@@ -80,6 +98,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, model, link):
     with st.expander(f"{first_line}"):
         st.write(rest_of_content)
         # st.write(f"Generated from: {link}")
+    
 
     st.markdown("""
       <style>
@@ -100,6 +119,15 @@ st.set_page_config(
 )
 
 st.title("Feed")
+
+on = st.toggle("Toggle Between Old & New")
+
+if on and st.session_state['source'] != 'data':
+    st.write("Its a old one")
+    st.session_state['source'] = 'data'
+elif st.session_state['source'] == 'data':
+    st.write("Its a new one")
+    st.session_state['source'] = 'not data'
 
 # Statistics Section
 total_posts = len(data)
@@ -136,5 +164,6 @@ else:
             image_url=row['Image'],
             content=row['Post'],
             model=row['Model'],
-            link=row['Link']
+            link=row['Link'],
+            prompt=row['Prompt']
         )
