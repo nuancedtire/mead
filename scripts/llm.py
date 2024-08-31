@@ -25,7 +25,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI()
 
-@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+@retry(wait=wait_random_exponential(min=20, max=60), stop=stop_after_attempt(6))
 def completion_with_backoff(**kwargs):
     """
     This function makes a request to the OpenAI API with exponential backoff 
@@ -94,7 +94,7 @@ def process_link(link_info):
         webpage_content = response.text
 
         if image_url:
-            webpage_content = f'Thumbnail image URL: {image_url} \n\n{webpage_content}'
+            webpage_content = f'Thumbnail image URL: {image_url}  \n{webpage_content}'
         
         logging.info(f"Successfully fetched data from {url}.")
         print(f"Successfully fetched data from {url}.")
