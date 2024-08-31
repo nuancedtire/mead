@@ -14,6 +14,7 @@ from tenacity import (
 )  # for exponential backoff
 import time
 import logging
+from dateutil import parser
 
 # Define paths for the CSV and log files
 csv_folder = 'databases'
