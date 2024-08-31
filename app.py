@@ -17,7 +17,7 @@ except FileNotFoundError:
     # Load the additional CSV files
     meds = pd.read_csv('databases/backup/meds-2.csv')
     sifted = pd.read_csv('databases/backup/sifted-2.csv')
-    scape = pd.read_csv('databases/backup/scape-2.csv')
+    scape = pd.read_csv('databases/backup/scape-1.csv')
 
 # Convert the Timestamp to datetime
 data['Time'] = pd.to_datetime(data['Time'])
