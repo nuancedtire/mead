@@ -2,7 +2,14 @@ import streamlit as st
 import pandas as pd
 
 # Load the data
-data = pd.read_csv('databases/llm.csv')
+try:
+    # Attempt to read the primary CSV file
+    data = pd.read_csv('databases/llm.csv')
+    print("Loaded 'llm.csv' successfully.")
+except FileNotFoundError:
+    # If the primary file is not found, fall back to the backup file
+    print("'llm.csv' not found. Loading 'llm-2.csv' from backups.")
+    data = pd.read_csv('databases/backups/llm-2.csv')
 
 # Load the additional CSV files
 meds = pd.read_csv('databases/meds.csv')
