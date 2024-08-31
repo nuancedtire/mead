@@ -9,7 +9,7 @@ try:
 except FileNotFoundError:
     # If the primary file is not found, fall back to the backup file
     print("'llm.csv' not found. Loading 'llm-2.csv' from backups.")
-    data = pd.read_csv('databases/backups/llm-2.csv')
+    data = pd.read_csv('databases/backup/llm-2.csv')
 
 # Load the additional CSV files
 meds = pd.read_csv('databases/meds.csv')
