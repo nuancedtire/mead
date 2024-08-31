@@ -24,7 +24,7 @@ logging.info('Scape Script started.')
 # API request setup
 url = 'https://sentry.azurewebsites.net/api/Feed/anonymous'
 params = {
-    'pageSize': 10,
+    'pageSize': 5,
     'pageNumber': 1
 }
 
@@ -49,8 +49,10 @@ try:
     response.raise_for_status()
     data = response.json()
     logging.info('Data fetched successfully from API.')
+    print('Data fetched successfully from API.')
 except requests.exceptions.RequestException as e:
     logging.error(f"Failed to retrieve data: {e}")
+    lprint(f"Failed to retrieve data: {e}")
     data = None
 
 # Define CSV headers without "Image URL Derived"
@@ -75,6 +77,7 @@ def standardize_time(time_str):
             dt = datetime.strptime(time_str, "%b %d, %Y, %I:%M %p")
         except ValueError:
             logging.warning(f"Failed to standardize time format for {time_str}")
+            logprint(f"Failed to standardize time format for {time_str}")
             return time_str  # Return the original string if parsing fails
     
     # Return the standardized format 'YYYY-MM-DD HH:MM:SS'
@@ -86,15 +89,18 @@ def load_existing_data_pandas(csv_file):
         df = pd.read_csv(csv_file)
         existing_entries = set(zip(df["Title"], df["Link"]))
         logging.info(f"Loaded {len(existing_entries)} existing entries from {csv_file}.")
+        print(f"Loaded {len(existing_entries)} existing entries from {csv_file}.")
         return existing_entries
     else:
         logging.info(f"No existing data found in {csv_file}.")
+        print(f"No existing data found in {csv_file}.")
         return set()
 
 # Function to write data to the CSV using pandas
 def write_data_to_csv_pandas(data, csv_file):
     if not data:
         logging.warning("No data to write to CSV.")
+        logprint("No data to write to CSV.")
         return
     
     existing_entries = load_existing_data_pandas(csv_file)
@@ -129,6 +135,7 @@ def write_data_to_csv_pandas(data, csv_file):
                 existing_entries.add(entry_key)
         except Exception as e:
             logging.error(f"Error processing article: {e}")
+            lprint(f"Error processing article: {e}")
 
     if new_rows:
         df_new = pd.DataFrame(new_rows)
@@ -140,8 +147,10 @@ def write_data_to_csv_pandas(data, csv_file):
 
         df_combined.to_csv(csv_file, index=False)
         logging.info(f"Successfully updated {csv_file} with new data.")
+        print(f"Successfully updated {csv_file} with new data.")
     else:
         logging.info("No new data to update.")
+        print("No new data to update.")
 
 # Write data to CSV
 write_data_to_csv_pandas(data, csv_file_path)
