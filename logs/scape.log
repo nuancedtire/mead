@@ -1,0 +1,48 @@
+2024-08-31 03:39:54,760 - INFO - Medscape script started.
+2024-08-31 03:39:54,761 - INFO - Connection to Medscape established.
+2024-08-31 03:39:54,868 - INFO - Request sent to Medscape API.
+2024-08-31 03:39:55,222 - INFO - Response received from Medscape API.
+2024-08-31 03:39:55,223 - INFO - Response data decoded into dictionary.
+2024-08-31 03:39:55,224 - INFO - No existing CSV file found. Creating new data structure.
+2024-08-31 03:39:55,224 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/mothers-vascular-skin-lesions-increase-risk-offspring-2024a1000fq5
+2024-08-31 03:39:55,224 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/mothers-vascular-skin-lesions-increase-risk-offspring-2024a1000fq5
+2024-08-31 03:39:56,450 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/mothers-vascular-skin-lesions-increase-risk-offspring-2024a1000fq5.
+2024-08-31 03:39:57,402 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:39:57,430 - INFO - Received response from OpenAI API.
+2024-08-31 03:39:57,430 - INFO - Attempt 1 succeeded with link: https://link.springer.com/article/10.1007/s00403-024-03247-y
+2024-08-31 03:39:57,431 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/gps-encouraged-test-treat-latent-tb-immigrants-2024a1000fpa
+2024-08-31 03:39:57,431 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/gps-encouraged-test-treat-latent-tb-immigrants-2024a1000fpa
+2024-08-31 03:39:58,441 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/gps-encouraged-test-treat-latent-tb-immigrants-2024a1000fpa.
+2024-08-31 03:39:59,362 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:39:59,363 - INFO - Received response from OpenAI API.
+2024-08-31 03:39:59,363 - INFO - Attempt 1 succeeded with link: https://erj.ersjournals.com/content/early/2024/08/08/13993003.01733-2023.long
+2024-08-31 03:39:59,364 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/key-learning-points-bashh-anogenital-warts-2024a1000esn
+2024-08-31 03:39:59,364 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/key-learning-points-bashh-anogenital-warts-2024a1000esn
+2024-08-31 03:40:01,045 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/key-learning-points-bashh-anogenital-warts-2024a1000esn.
+2024-08-31 03:40:02,186 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:40:02,187 - INFO - Received response from OpenAI API.
+2024-08-31 03:40:02,187 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/key-learning-points-bashh-anogenital-warts-2024a1000esn
+2024-08-31 03:40:02,188 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu
+2024-08-31 03:40:02,188 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu
+2024-08-31 03:40:05,952 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu.
+2024-08-31 03:40:06,078 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:40:06,078 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:40:26,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:40:26,740 - INFO - Received response from OpenAI API.
+2024-08-31 03:40:26,740 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu
+2024-08-31 03:40:26,741 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/recurrent-uti-undercultured-overtreated-despite-resistance-2024a1000fni
+2024-08-31 03:40:26,741 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/recurrent-uti-undercultured-overtreated-despite-resistance-2024a1000fni
+2024-08-31 03:40:35,815 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/recurrent-uti-undercultured-overtreated-despite-resistance-2024a1000fni.
+2024-08-31 03:40:35,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:40:35,942 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:40:56,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:40:56,825 - INFO - Received response from OpenAI API.
+2024-08-31 03:40:56,825 - INFO - Attempt 1 succeeded with link: https://bjgp.org/content/early/2024/08/19/BJGP.2024.0015.long
+2024-08-31 03:40:56,826 - INFO - Processing new item: https://www.medscape.com/viewarticle/high-dose-psilocybin-shows-promising-results-depression-2024a1000fqw
+2024-08-31 03:40:56,826 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/high-dose-psilocybin-shows-promising-results-depression-2024a1000fqw
+2024-08-31 03:40:58,832 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/high-dose-psilocybin-shows-promising-results-depression-2024a1000fqw.
+2024-08-31 03:40:59,541 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:40:59,542 - INFO - Received response from OpenAI API.
+2024-08-31 03:40:59,542 - INFO - Attempt 1 succeeded with link: https://www.bmj.com/content/386/bmj-2023-078607
+2024-08-31 03:40:59,544 - INFO - CSV file updated with new data.
+2024-08-31 03:40:59,544 - INFO - Medscape script completed.
