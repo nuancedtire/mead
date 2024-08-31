@@ -5,16 +5,19 @@ import pandas as pd
 try:
     # Attempt to read the primary CSV file
     data = pd.read_csv('databases/llm.csv')
+    # Load the additional CSV files
+    meds = pd.read_csv('databases/meds.csv')
+    sifted = pd.read_csv('databases/sifted.csv')
+    scape = pd.read_csv('databases/scape.csv')
     print("Loaded 'llm.csv' successfully.")
 except FileNotFoundError:
     # If the primary file is not found, fall back to the backup file
-    print("'llm.csv' not found. Loading 'llm-2.csv' from backups.")
+    print("CSV not found. Loading' from backups.")
     data = pd.read_csv('databases/backup/llm-2.csv')
-
-# Load the additional CSV files
-meds = pd.read_csv('databases/meds.csv')
-sifted = pd.read_csv('databases/sifted.csv')
-scape = pd.read_csv('databases/scape.csv')
+    # Load the additional CSV files
+    meds = pd.read_csv('databases/backup/meds-2.csv')
+    sifted = pd.read_csv('databases/backup/sifted-2.csv')
+    scape = pd.read_csv('databases/backup/scape-2.csv')
 
 # Convert the Timestamp to datetime
 data['Time'] = pd.to_datetime(data['Time'])
