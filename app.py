@@ -86,8 +86,8 @@ def create_post(timestamp, llm_timestamp, image_url, content, model, link, promp
     
     with col2:
         st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
-        with st.expander(f"*{model}*"):
-            st.write(f"{prompt}")
+#        with st.expander(f"*{model}*"):
+#            st.write(f"{prompt}")
         
     # Extract the first line of the content
     if '\n' in content:
