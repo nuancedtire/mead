@@ -297,3 +297,23 @@
 2024-09-02 14:10:44,417 - INFO - Attempt 1 succeeded with link: https://onlinelibrary.wiley.com/doi/10.1111/andr.13741
 2024-09-02 14:10:44,419 - INFO - CSV file updated with new data.
 2024-09-02 14:10:44,419 - INFO - Medscape script completed.
+2024-09-02 16:13:02,070 - INFO - Medscape script started.
+2024-09-02 16:13:02,070 - INFO - Connection to Medscape established.
+2024-09-02 16:13:02,125 - INFO - Request sent to Medscape API.
+2024-09-02 16:13:02,550 - INFO - Response received from Medscape API.
+2024-09-02 16:13:02,550 - INFO - Response data decoded into dictionary.
+2024-09-02 16:13:02,552 - INFO - Existing CSV file loaded.
+2024-09-02 16:13:02,552 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-02 16:13:02,552 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-02 16:13:05,595 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8.
+2024-09-02 16:13:06,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 16:13:06,494 - INFO - Received response from OpenAI API.
+2024-09-02 16:13:06,494 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20
+2024-09-02 16:13:06,494 - INFO - Processing new item: https://www.medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh
+2024-09-02 16:13:06,494 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh
+2024-09-02 16:13:08,947 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh.
+2024-09-02 16:13:09,788 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 16:13:09,789 - INFO - Received response from OpenAI API.
+2024-09-02 16:13:09,789 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849
+2024-09-02 16:13:09,792 - INFO - CSV file updated with new data.
+2024-09-02 16:13:09,792 - INFO - Medscape script completed.
