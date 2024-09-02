@@ -530,3 +530,30 @@
 2024-09-02 08:15:15,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-02 08:15:15,244 - INFO - Generated post for link https://www.healio.com/news/dermatology/20240823/phase-3-study-of-tmb001-for-treatment-of-congenital-ichthyosis-fails-to-meet-endpoints.
 2024-09-02 08:15:15,264 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:11:39,926 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 10:11:39,928 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 10:11:39,930 - INFO - Loaded 8 links from databases/scape.csv.
+2024-09-02 10:11:39,941 - INFO - Loaded 19 links from databases/llm.csv.
+2024-09-02 10:11:39,941 - INFO - Total unique links to process: 5
+2024-09-02 10:11:42,505 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-02 10:11:46,233 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:11:46,236 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-02 10:11:46,258 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:12:03,381 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240828/New-study-develops-enhanced-mortality-prediction-model-for-COPD-patients.aspx.
+2024-09-02 10:12:09,261 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:12:09,262 - INFO - Generated post for link https://www.news-medical.net/news/20240828/New-study-develops-enhanced-mortality-prediction-model-for-COPD-patients.aspx.
+2024-09-02 10:12:09,284 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:12:11,503 - INFO - Successfully fetched data from http://r.jina.ai/https://www.clinicaltrialsarena.com/news/fda-grants-fast-track-designation-to-life-molecular-imaging-tau-pet-diagnostic/.
+2024-09-02 10:12:11,572 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-02 10:12:11,573 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-02 10:12:35,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:12:35,955 - INFO - Generated post for link https://www.clinicaltrialsarena.com/news/fda-grants-fast-track-designation-to-life-molecular-imaging-tau-pet-diagnostic/.
+2024-09-02 10:12:35,978 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:13:08,788 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884.
+2024-09-02 10:13:11,470 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:13:11,471 - INFO - Generated post for link https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884.
+2024-09-02 10:13:11,495 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:13:21,145 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-02 10:13:23,463 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:13:23,463 - INFO - Generated post for link http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-02 10:13:23,488 - INFO - Logged data to databases/llm.csv.

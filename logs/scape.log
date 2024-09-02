@@ -246,3 +246,23 @@
 2024-09-02 08:14:20,048 - INFO - Existing CSV file loaded.
 2024-09-02 08:14:20,048 - INFO - No new links found, CSV file is up to date.
 2024-09-02 08:14:20,048 - INFO - Medscape script completed.
+2024-09-02 10:11:30,010 - INFO - Medscape script started.
+2024-09-02 10:11:30,010 - INFO - Connection to Medscape established.
+2024-09-02 10:11:30,054 - INFO - Request sent to Medscape API.
+2024-09-02 10:11:30,389 - INFO - Response received from Medscape API.
+2024-09-02 10:11:30,389 - INFO - Response data decoded into dictionary.
+2024-09-02 10:11:30,392 - INFO - Existing CSV file loaded.
+2024-09-02 10:11:30,392 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1
+2024-09-02 10:11:30,392 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1
+2024-09-02 10:11:34,682 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1.
+2024-09-02 10:11:35,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:11:35,746 - INFO - Received response from OpenAI API.
+2024-09-02 10:11:35,746 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884
+2024-09-02 10:11:35,746 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-02 10:11:35,746 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-02 10:11:38,243 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-02 10:11:38,774 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:11:38,775 - INFO - Received response from OpenAI API.
+2024-09-02 10:11:38,775 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-02 10:11:38,777 - INFO - CSV file updated with new data.
+2024-09-02 10:11:38,777 - INFO - Medscape script completed.
