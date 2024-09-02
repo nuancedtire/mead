@@ -557,3 +557,12 @@
 2024-09-02 10:13:23,463 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-02 10:13:23,463 - INFO - Generated post for link http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
 2024-09-02 10:13:23,488 - INFO - Logged data to databases/llm.csv.
+2024-09-02 12:20:41,342 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 12:20:41,345 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 12:20:41,347 - INFO - Loaded 9 links from databases/scape.csv.
+2024-09-02 12:20:41,361 - INFO - Loaded 24 links from databases/llm.csv.
+2024-09-02 12:20:41,361 - INFO - Total unique links to process: 1
+2024-09-02 12:20:42,477 - INFO - Successfully fetched data from http://r.jina.ai/https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478.
+2024-09-02 12:20:44,671 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 12:20:44,673 - INFO - Generated post for link https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478.
+2024-09-02 12:20:44,700 - INFO - Logged data to databases/llm.csv.

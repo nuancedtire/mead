@@ -266,3 +266,17 @@
 2024-09-02 10:11:38,775 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
 2024-09-02 10:11:38,777 - INFO - CSV file updated with new data.
 2024-09-02 10:11:38,777 - INFO - Medscape script completed.
+2024-09-02 12:20:33,081 - INFO - Medscape script started.
+2024-09-02 12:20:33,082 - INFO - Connection to Medscape established.
+2024-09-02 12:20:33,184 - INFO - Request sent to Medscape API.
+2024-09-02 12:20:33,810 - INFO - Response received from Medscape API.
+2024-09-02 12:20:33,810 - INFO - Response data decoded into dictionary.
+2024-09-02 12:20:33,812 - INFO - Existing CSV file loaded.
+2024-09-02 12:20:33,812 - INFO - Processing new item: https://www.medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq
+2024-09-02 12:20:33,813 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq
+2024-09-02 12:20:37,543 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq.
+2024-09-02 12:20:40,037 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 12:20:40,082 - INFO - Received response from OpenAI API.
+2024-09-02 12:20:40,082 - INFO - Attempt 1 succeeded with link: https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478
+2024-09-02 12:20:40,085 - INFO - CSV file updated with new data.
+2024-09-02 12:20:40,085 - INFO - Medscape script completed.
