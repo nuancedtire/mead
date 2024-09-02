@@ -566,3 +566,12 @@
 2024-09-02 12:20:44,671 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-02 12:20:44,673 - INFO - Generated post for link https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478.
 2024-09-02 12:20:44,700 - INFO - Logged data to databases/llm.csv.
+2024-09-02 14:10:45,487 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 14:10:45,489 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 14:10:45,491 - INFO - Loaded 10 links from databases/scape.csv.
+2024-09-02 14:10:45,504 - INFO - Loaded 25 links from databases/llm.csv.
+2024-09-02 14:10:45,504 - INFO - Total unique links to process: 1
+2024-09-02 14:10:47,255 - INFO - Successfully fetched data from http://r.jina.ai/https://onlinelibrary.wiley.com/doi/10.1111/andr.13741.
+2024-09-02 14:10:50,742 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 14:10:50,744 - INFO - Generated post for link https://onlinelibrary.wiley.com/doi/10.1111/andr.13741.
+2024-09-02 14:10:50,770 - INFO - Logged data to databases/llm.csv.
