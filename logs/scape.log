@@ -317,3 +317,11 @@
 2024-09-02 16:13:09,789 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849
 2024-09-02 16:13:09,792 - INFO - CSV file updated with new data.
 2024-09-02 16:13:09,792 - INFO - Medscape script completed.
+2024-09-02 18:13:30,333 - INFO - Medscape script started.
+2024-09-02 18:13:30,334 - INFO - Connection to Medscape established.
+2024-09-02 18:13:30,449 - INFO - Request sent to Medscape API.
+2024-09-02 18:13:30,858 - INFO - Response received from Medscape API.
+2024-09-02 18:13:30,859 - INFO - Response data decoded into dictionary.
+2024-09-02 18:13:30,861 - INFO - Existing CSV file loaded.
+2024-09-02 18:13:30,861 - INFO - No new links found, CSV file is up to date.
+2024-09-02 18:13:30,861 - INFO - Medscape script completed.

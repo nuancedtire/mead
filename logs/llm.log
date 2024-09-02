@@ -590,3 +590,8 @@
 2024-09-02 16:13:42,101 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-02 16:13:42,102 - INFO - Generated post for link https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849.
 2024-09-02 16:13:42,128 - INFO - Logged data to databases/llm.csv.
+2024-09-02 18:13:31,995 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 18:13:31,998 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 18:13:32,000 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-02 18:13:32,014 - INFO - Loaded 28 links from databases/llm.csv.
+2024-09-02 18:13:32,014 - INFO - No unique links to process. Exiting gracefully.
