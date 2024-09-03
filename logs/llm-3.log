@@ -928,3 +928,683 @@
 2024-09-03 02:13:02,927 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
 2024-09-03 02:13:03,112 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2024-09-03 02:13:03,113 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+
+2024-08-31 03:41:00,622 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 03:41:00,624 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 03:41:00,627 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 03:41:00,627 - WARNING - databases/llm.csv does not exist, skipping...
+2024-08-31 03:41:00,627 - INFO - Total unique links to process: 16
+2024-08-31 03:41:03,860 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-08-31 03:41:03,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:41:03,954 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:41:27,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:41:27,783 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-08-31 03:41:27,785 - INFO - Logged data to databases/llm.csv.
+2024-08-31 03:41:32,430 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-08-31 03:41:32,518 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:41:32,519 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:41:58,565 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:41:58,566 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-08-31 03:41:58,572 - INFO - Logged data to databases/llm.csv.
+2024-08-31 03:42:00,959 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-08-31 03:42:05,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:42:05,826 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-08-31 03:42:05,834 - INFO - Logged data to databases/llm.csv.
+2024-08-31 03:42:10,492 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-08-31 03:42:10,555 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:42:10,556 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:42:34,092 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:42:34,092 - INFO - Generated post for link https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-08-31 03:42:34,102 - INFO - Logged data to databases/llm.csv.
+2024-08-31 03:42:38,038 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-08-31 03:42:38,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:42:38,107 - INFO - Retrying request to /chat/completions in 0.806873 seconds
+2024-08-31 03:42:38,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:42:38,988 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:42:59,081 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:43:12,832 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:43:12,832 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:43:32,950 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:43:32,950 - INFO - Retrying request to /chat/completions in 1.839505 seconds
+2024-08-31 03:43:34,862 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:43:46,067 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:43:46,067 - INFO - Retrying request to /chat/completions in 0.956860 seconds
+2024-08-31 03:43:47,089 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:43:47,089 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:44:07,190 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:44:21,462 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:44:21,463 - INFO - Retrying request to /chat/completions in 0.821512 seconds
+2024-08-31 03:44:22,356 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:44:22,356 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:44:42,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:44:43,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:44:43,718 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:45:03,808 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:45:03,809 - INFO - Retrying request to /chat/completions in 1.502087 seconds
+2024-08-31 03:45:05,375 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:45:24,712 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:45:24,712 - INFO - Retrying request to /chat/completions in 0.774346 seconds
+2024-08-31 03:45:25,556 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:45:25,557 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:45:45,647 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:45:45,647 - ERROR - Error generating post: RetryError[<Future at 0x7f246d44eea0 state=finished raised RateLimitError>]
+2024-08-31 03:45:47,998 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-31 03:45:48,078 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:45:48,078 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:46:08,160 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:46:08,161 - INFO - Retrying request to /chat/completions in 1.634224 seconds
+2024-08-31 03:46:09,859 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:46:18,741 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:46:18,741 - INFO - Retrying request to /chat/completions in 0.770220 seconds
+2024-08-31 03:46:19,578 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:46:19,578 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:46:39,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:46:40,006 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:46:40,007 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:47:00,110 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:47:00,110 - INFO - Retrying request to /chat/completions in 1.757454 seconds
+2024-08-31 03:47:01,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:47:20,460 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:47:20,460 - INFO - Retrying request to /chat/completions in 0.810721 seconds
+2024-08-31 03:47:21,337 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:47:21,337 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:47:41,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:47:44,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:47:44,329 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:48:04,427 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:48:04,427 - INFO - Retrying request to /chat/completions in 1.880854 seconds
+2024-08-31 03:48:06,386 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:48:24,413 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:48:24,413 - INFO - Retrying request to /chat/completions in 0.878177 seconds
+2024-08-31 03:48:25,361 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:48:25,361 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:48:45,446 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:48:45,446 - ERROR - Error generating post: RetryError[<Future at 0x7f246d479550 state=finished raised RateLimitError>]
+2024-08-31 03:48:47,960 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/.
+2024-08-31 03:48:48,039 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:48:48,039 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:49:08,144 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:49:08,145 - INFO - Retrying request to /chat/completions in 1.877869 seconds
+2024-08-31 03:49:10,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:49:14,897 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:49:14,897 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:49:34,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:49:34,972 - INFO - Retrying request to /chat/completions in 1.786427 seconds
+2024-08-31 03:49:39,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:49:39,565 - INFO - Generated post for link https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/.
+2024-08-31 03:49:39,575 - INFO - Logged data to databases/llm.csv.
+2024-08-31 03:49:41,441 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-31 03:49:41,501 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:49:41,501 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:50:01,583 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:50:01,584 - INFO - Retrying request to /chat/completions in 1.722141 seconds
+2024-08-31 03:50:03,374 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:50:18,850 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:50:18,850 - INFO - Retrying request to /chat/completions in 0.938573 seconds
+2024-08-31 03:50:19,859 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:50:19,859 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:50:39,958 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:50:43,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:50:43,036 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:51:03,126 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:51:03,126 - INFO - Retrying request to /chat/completions in 1.820394 seconds
+2024-08-31 03:51:05,014 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:51:06,533 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:51:06,534 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:51:26,631 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:51:26,632 - INFO - Retrying request to /chat/completions in 1.980506 seconds
+2024-08-31 03:51:28,694 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:51:43,150 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:51:43,151 - INFO - Retrying request to /chat/completions in 0.784541 seconds
+2024-08-31 03:51:44,004 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:51:44,004 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:52:04,090 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:52:04,454 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:52:04,454 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:52:24,540 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:52:24,541 - INFO - Retrying request to /chat/completions in 1.549079 seconds
+2024-08-31 03:52:26,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:52:26,153 - ERROR - Error generating post: RetryError[<Future at 0x7f246d492ed0 state=finished raised RateLimitError>]
+2024-08-31 03:52:28,141 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-31 03:52:28,199 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:52:28,200 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:52:48,290 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:52:48,290 - INFO - Retrying request to /chat/completions in 1.939905 seconds
+2024-08-31 03:52:50,292 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:53:07,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:53:07,097 - INFO - Retrying request to /chat/completions in 0.852711 seconds
+2024-08-31 03:53:08,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:53:08,005 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:53:28,096 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:53:43,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:53:43,852 - INFO - Retrying request to /chat/completions in 0.919027 seconds
+2024-08-31 03:53:44,837 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:53:44,837 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:54:04,921 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:54:08,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:54:08,044 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:54:28,126 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:54:28,126 - INFO - Retrying request to /chat/completions in 1.515654 seconds
+2024-08-31 03:54:29,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:54:45,450 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:54:45,450 - INFO - Retrying request to /chat/completions in 0.948264 seconds
+2024-08-31 03:54:46,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:54:46,464 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:55:06,556 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:55:23,017 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:55:23,017 - INFO - Retrying request to /chat/completions in 0.835703 seconds
+2024-08-31 03:55:23,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:55:23,915 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:55:43,996 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:55:43,997 - ERROR - Error generating post: RetryError[<Future at 0x7f246d2d5340 state=finished raised RateLimitError>]
+2024-08-31 03:55:45,568 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/flo-health-unicorn-raise-news/.
+2024-08-31 03:55:45,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:55:45,628 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:56:05,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:56:05,711 - INFO - Retrying request to /chat/completions in 1.828395 seconds
+2024-08-31 03:56:07,602 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:56:23,687 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:56:23,688 - INFO - Retrying request to /chat/completions in 0.809006 seconds
+2024-08-31 03:56:24,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:56:24,564 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:56:44,645 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:57:06,746 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 03:57:06,747 - INFO - Generated post for link https://sifted.eu/articles/flo-health-unicorn-raise-news/.
+2024-08-31 03:57:06,756 - INFO - Logged data to databases/llm.csv.
+2024-08-31 03:57:08,977 - INFO - Successfully fetched data from http://r.jina.ai/https://link.springer.com/article/10.1007/s00403-024-03247-y.
+2024-08-31 03:57:09,046 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:57:09,046 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:57:29,134 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:57:29,135 - INFO - Retrying request to /chat/completions in 1.869311 seconds
+2024-08-31 03:57:31,077 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:57:31,242 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:57:31,242 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:57:51,330 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:57:51,330 - INFO - Retrying request to /chat/completions in 1.952069 seconds
+2024-08-31 03:57:53,350 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:58:02,924 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:58:02,924 - INFO - Retrying request to /chat/completions in 0.759405 seconds
+2024-08-31 03:58:03,752 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:58:03,752 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:58:23,837 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:58:37,836 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:58:37,836 - INFO - Retrying request to /chat/completions in 0.989772 seconds
+2024-08-31 03:58:38,889 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:58:38,889 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:58:58,993 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:59:13,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:59:13,111 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:59:33,203 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:59:33,203 - INFO - Retrying request to /chat/completions in 1.793270 seconds
+2024-08-31 03:59:35,065 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:59:36,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:59:36,973 - INFO - Retrying request to /chat/completions in 0.858498 seconds
+2024-08-31 03:59:37,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:59:37,903 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 03:59:57,988 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 03:59:57,989 - ERROR - Error generating post: RetryError[<Future at 0x7f246d2c68a0 state=finished raised RateLimitError>]
+2024-08-31 04:00:09,915 - INFO - Successfully fetched data from http://r.jina.ai/https://erj.ersjournals.com/content/early/2024/08/08/13993003.01733-2023.long.
+2024-08-31 04:00:10,014 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:00:10,015 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:00:30,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:00:30,106 - INFO - Retrying request to /chat/completions in 1.593170 seconds
+2024-08-31 04:00:31,765 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:00:47,062 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:00:47,062 - INFO - Retrying request to /chat/completions in 0.888593 seconds
+2024-08-31 04:00:48,018 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:00:48,018 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:01:08,117 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:01:11,795 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:01:11,795 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:01:31,895 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:01:31,895 - INFO - Retrying request to /chat/completions in 1.518530 seconds
+2024-08-31 04:01:33,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:01:48,069 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:01:48,069 - INFO - Retrying request to /chat/completions in 0.975346 seconds
+2024-08-31 04:01:49,120 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:01:49,120 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:02:09,200 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:02:24,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:02:24,296 - INFO - Retrying request to /chat/completions in 0.816283 seconds
+2024-08-31 04:02:25,272 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:02:25,273 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:02:45,391 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:01,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:01,431 - INFO - Retrying request to /chat/completions in 0.862759 seconds
+2024-08-31 04:03:02,365 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:02,365 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:03:22,447 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:22,448 - ERROR - Error generating post: RetryError[<Future at 0x7f246d40e810 state=finished raised RateLimitError>]
+2024-08-31 04:03:23,656 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/key-learning-points-bashh-anogenital-warts-2024a1000esn.
+2024-08-31 04:03:23,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:23,732 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:03:43,826 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:43,826 - INFO - Retrying request to /chat/completions in 1.520879 seconds
+2024-08-31 04:03:45,451 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:46,536 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:03:46,536 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:04:09,473 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 04:04:09,474 - INFO - Generated post for link http://medscape.co.uk/viewarticle/key-learning-points-bashh-anogenital-warts-2024a1000esn.
+2024-08-31 04:04:09,485 - INFO - Logged data to databases/llm.csv.
+2024-08-31 04:04:12,290 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu.
+2024-08-31 04:04:12,376 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:04:12,376 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:04:32,466 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:04:32,467 - INFO - Retrying request to /chat/completions in 1.802032 seconds
+2024-08-31 04:04:34,336 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:04:49,921 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:04:49,922 - INFO - Retrying request to /chat/completions in 0.980347 seconds
+2024-08-31 04:04:51,020 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:04:51,021 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:05:11,123 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:05:13,598 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:05:13,599 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:05:33,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:05:33,699 - INFO - Retrying request to /chat/completions in 1.836642 seconds
+2024-08-31 04:05:35,612 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:05:49,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:05:49,581 - INFO - Retrying request to /chat/completions in 0.912544 seconds
+2024-08-31 04:05:50,561 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:05:50,561 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:06:10,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:06:17,632 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:06:17,632 - INFO - Retrying request to /chat/completions in 0.788649 seconds
+2024-08-31 04:06:18,500 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:06:18,500 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:06:38,585 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:06:43,986 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:06:43,987 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:07:04,077 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:07:04,078 - INFO - Retrying request to /chat/completions in 1.998967 seconds
+2024-08-31 04:07:06,142 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:07:06,143 - ERROR - Error generating post: RetryError[<Future at 0x7f246d2d43e0 state=finished raised RateLimitError>]
+2024-08-31 04:07:11,179 - INFO - Successfully fetched data from http://r.jina.ai/https://bjgp.org/content/early/2024/08/19/BJGP.2024.0015.long.
+2024-08-31 04:07:11,286 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:07:11,287 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:07:31,403 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:07:31,403 - INFO - Retrying request to /chat/completions in 1.616335 seconds
+2024-08-31 04:07:33,109 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:07:45,774 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:07:45,774 - INFO - Retrying request to /chat/completions in 0.764730 seconds
+2024-08-31 04:07:46,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:07:46,628 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:08:06,726 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:08:19,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:08:19,848 - INFO - Retrying request to /chat/completions in 0.948592 seconds
+2024-08-31 04:08:20,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:08:20,891 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:08:40,997 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:08:49,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:08:49,521 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:09:09,619 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:09:09,619 - INFO - Retrying request to /chat/completions in 1.608007 seconds
+2024-08-31 04:09:11,318 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:09:28,647 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:09:28,647 - INFO - Retrying request to /chat/completions in 0.841024 seconds
+2024-08-31 04:09:29,560 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:09:29,561 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:09:49,659 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:09:51,110 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:09:51,110 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:10:11,207 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:10:11,207 - INFO - Retrying request to /chat/completions in 1.793318 seconds
+2024-08-31 04:10:13,087 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:10:13,087 - ERROR - Error generating post: RetryError[<Future at 0x7f246d2c4890 state=finished raised RateLimitError>]
+2024-08-31 04:10:17,901 - INFO - Successfully fetched data from http://r.jina.ai/https://www.bmj.com/content/386/bmj-2023-078607.
+2024-08-31 04:10:17,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:10:17,981 - INFO - Retrying request to /chat/completions in 0.858826 seconds
+2024-08-31 04:10:18,925 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:10:18,926 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:10:39,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:10:49,406 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:10:49,406 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:11:09,498 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:11:09,499 - INFO - Retrying request to /chat/completions in 1.549677 seconds
+2024-08-31 04:11:11,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:11:13,901 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:11:13,901 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:11:34,008 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:11:34,009 - INFO - Retrying request to /chat/completions in 1.779032 seconds
+2024-08-31 04:11:35,861 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:11:38,894 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:11:38,894 - INFO - Retrying request to /chat/completions in 8.225000 seconds
+2024-08-31 04:11:47,230 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:11:47,230 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:12:07,335 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:12:14,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:12:14,107 - INFO - Retrying request to /chat/completions in 0.241000 seconds
+2024-08-31 04:12:14,424 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:12:14,424 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:12:34,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:12:52,407 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:12:52,407 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-08-31 04:13:12,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:13:12,520 - INFO - Retrying request to /chat/completions in 1.776472 seconds
+2024-08-31 04:13:14,367 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-08-31 04:13:14,368 - ERROR - Error generating post: RetryError[<Future at 0x7f246d311be0 state=finished raised RateLimitError>]
+2024-08-31 05:12:29,440 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 05:12:29,442 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 05:12:29,444 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 05:12:29,451 - INFO - Loaded 7 links from databases/llm.csv.
+2024-08-31 05:12:29,451 - INFO - Total unique links to process: 9
+2024-08-31 05:12:34,712 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-08-31 05:12:39,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:12:39,665 - INFO - Generated post for link https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-08-31 05:12:39,680 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:12:42,599 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-31 05:12:45,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:12:45,460 - INFO - Generated post for link https://sifted.eu/articles/medtech-startup-vc-trends/.
+2024-08-31 05:12:45,474 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:12:47,268 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-31 05:12:52,475 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:12:52,476 - INFO - Generated post for link https://sifted.eu/articles/startups-wegovy-ozempic-shift/.
+2024-08-31 05:12:52,491 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:12:55,354 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-31 05:13:00,323 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:00,324 - INFO - Generated post for link https://sifted.eu/articles/male-founded-startup-europes-first-femtech-unicorn/.
+2024-08-31 05:13:00,339 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:02,559 - INFO - Successfully fetched data from http://r.jina.ai/https://link.springer.com/article/10.1007/s00403-024-03247-y.
+2024-08-31 05:13:07,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:07,112 - INFO - Generated post for link https://link.springer.com/article/10.1007/s00403-024-03247-y.
+2024-08-31 05:13:07,128 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:14,639 - INFO - Successfully fetched data from http://r.jina.ai/https://erj.ersjournals.com/content/early/2024/08/08/13993003.01733-2023.long.
+2024-08-31 05:13:18,964 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:18,965 - INFO - Generated post for link https://erj.ersjournals.com/content/early/2024/08/08/13993003.01733-2023.long.
+2024-08-31 05:13:18,991 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:23,038 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu.
+2024-08-31 05:13:26,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:26,894 - INFO - Generated post for link http://medscape.co.uk/viewarticle/alternate-insomnia-therapy-has-good-showing-2024a1000fnu.
+2024-08-31 05:13:26,916 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:32,173 - INFO - Successfully fetched data from http://r.jina.ai/https://bjgp.org/content/early/2024/08/19/BJGP.2024.0015.long.
+2024-08-31 05:13:37,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:37,255 - INFO - Generated post for link https://bjgp.org/content/early/2024/08/19/BJGP.2024.0015.long.
+2024-08-31 05:13:37,275 - INFO - Logged data to databases/llm.csv.
+2024-08-31 05:13:43,462 - INFO - Successfully fetched data from http://r.jina.ai/https://www.bmj.com/content/386/bmj-2023-078607.
+2024-08-31 05:13:48,691 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-08-31 05:13:48,692 - INFO - Generated post for link https://www.bmj.com/content/386/bmj-2023-078607.
+2024-08-31 05:13:48,712 - INFO - Logged data to databases/llm.csv.
+2024-08-31 08:12:30,386 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 08:12:30,388 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 08:12:30,390 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 08:12:30,399 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 08:12:30,399 - INFO - No unique links to process. Exiting gracefully.
+2024-08-31 10:09:59,442 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 10:09:59,444 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 10:09:59,446 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 10:09:59,455 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 10:09:59,455 - INFO - No unique links to process. Exiting gracefully.
+2024-08-31 12:17:07,954 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 12:17:07,956 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 12:17:07,959 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 12:17:07,968 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 12:17:07,968 - INFO - No unique links to process. Exiting gracefully.
+2024-08-31 14:08:32,860 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 14:08:32,862 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 14:08:32,864 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 14:08:32,874 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 14:08:32,874 - INFO - No unique links to process. Exiting gracefully.
+2024-08-31 16:12:19,012 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 16:12:19,014 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 16:12:19,016 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 16:12:19,025 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 16:12:19,025 - INFO - No unique links to process. Exiting gracefully.
+2024-08-31 18:12:04,854 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 18:12:04,856 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 18:12:04,858 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 18:12:04,868 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 18:12:04,868 - INFO - No unique links to process. Exiting gracefully.
+2024-08-31 20:11:11,418 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 20:11:11,421 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 20:11:11,423 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 20:11:11,432 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 20:11:11,433 - INFO - No unique links to process. Exiting gracefully.
+2024-08-31 22:10:55,811 - INFO - Loaded 5 links from databases/meds.csv.
+2024-08-31 22:10:55,813 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-08-31 22:10:55,815 - INFO - Loaded 6 links from databases/scape.csv.
+2024-08-31 22:10:55,825 - INFO - Loaded 16 links from databases/llm.csv.
+2024-08-31 22:10:55,825 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 00:56:21,367 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 00:56:21,369 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 00:56:21,371 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 00:56:21,381 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 00:56:21,381 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 02:48:14,803 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 02:48:14,805 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 02:48:14,808 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 02:48:14,817 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 02:48:14,817 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 04:13:08,247 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 04:13:08,249 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 04:13:08,251 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 04:13:08,262 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 04:13:08,262 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 06:14:42,356 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 06:14:42,358 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 06:14:42,360 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 06:14:42,369 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 06:14:42,369 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 08:12:46,007 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 08:12:46,009 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 08:12:46,011 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 08:12:46,021 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 08:12:46,021 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 10:09:55,427 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 10:09:55,429 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 10:09:55,432 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 10:09:55,441 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 10:09:55,441 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 12:17:17,132 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 12:17:17,134 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 12:17:17,136 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 12:17:17,145 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 12:17:17,145 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 14:08:29,612 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 14:08:29,615 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 14:08:29,617 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 14:08:29,626 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 14:08:29,626 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 16:11:37,575 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 16:11:37,577 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 16:11:37,579 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 16:11:37,589 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 16:11:37,589 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 18:12:27,888 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 18:12:27,890 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 18:12:27,892 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 18:12:27,901 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 18:12:27,902 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 20:11:24,771 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 20:11:24,773 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 20:11:24,775 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 20:11:24,785 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 20:11:24,785 - INFO - No unique links to process. Exiting gracefully.
+2024-09-01 22:10:33,695 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-01 22:10:33,697 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-01 22:10:33,700 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-01 22:10:33,709 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-01 22:10:33,709 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 00:49:07,808 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-02 00:49:07,810 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 00:49:07,813 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-02 00:49:07,822 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-02 00:49:07,822 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 02:40:10,093 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-02 02:40:10,095 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 02:40:10,098 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-02 02:40:10,107 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-02 02:40:10,107 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 04:13:00,957 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-02 04:13:00,959 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 04:13:00,961 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-02 04:13:00,971 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-02 04:13:00,971 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 06:15:21,053 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-02 06:15:21,055 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 06:15:21,057 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-02 06:15:21,066 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-02 06:15:21,066 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 08:14:21,140 - INFO - Loaded 9 links from databases/meds.csv.
+2024-09-02 08:14:21,143 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 08:14:21,145 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-02 08:14:21,154 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-02 08:14:21,154 - INFO - Total unique links to process: 4
+2024-09-02 08:14:25,493 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-02 08:14:29,465 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 08:14:29,468 - INFO - Generated post for link https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-02 08:14:29,487 - INFO - Logged data to databases/llm.csv.
+2024-09-02 08:15:00,804 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development
+2024-09-02 08:15:03,876 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/cardiology/20240901/finerenone-improves-outcomes-in-patients-with-mildly-reduced-preserved-ejection-fraction.
+2024-09-02 08:15:09,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 08:15:09,020 - INFO - Generated post for link https://www.healio.com/news/cardiology/20240901/finerenone-improves-outcomes-in-patients-with-mildly-reduced-preserved-ejection-fraction.
+2024-09-02 08:15:09,040 - INFO - Logged data to databases/llm.csv.
+2024-09-02 08:15:12,659 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/dermatology/20240823/phase-3-study-of-tmb001-for-treatment-of-congenital-ichthyosis-fails-to-meet-endpoints.
+2024-09-02 08:15:15,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 08:15:15,244 - INFO - Generated post for link https://www.healio.com/news/dermatology/20240823/phase-3-study-of-tmb001-for-treatment-of-congenital-ichthyosis-fails-to-meet-endpoints.
+2024-09-02 08:15:15,264 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:11:39,926 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 10:11:39,928 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 10:11:39,930 - INFO - Loaded 8 links from databases/scape.csv.
+2024-09-02 10:11:39,941 - INFO - Loaded 19 links from databases/llm.csv.
+2024-09-02 10:11:39,941 - INFO - Total unique links to process: 5
+2024-09-02 10:11:42,505 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-02 10:11:46,233 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:11:46,236 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-02 10:11:46,258 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:12:03,381 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240828/New-study-develops-enhanced-mortality-prediction-model-for-COPD-patients.aspx.
+2024-09-02 10:12:09,261 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:12:09,262 - INFO - Generated post for link https://www.news-medical.net/news/20240828/New-study-develops-enhanced-mortality-prediction-model-for-COPD-patients.aspx.
+2024-09-02 10:12:09,284 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:12:11,503 - INFO - Successfully fetched data from http://r.jina.ai/https://www.clinicaltrialsarena.com/news/fda-grants-fast-track-designation-to-life-molecular-imaging-tau-pet-diagnostic/.
+2024-09-02 10:12:11,572 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-02 10:12:11,573 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-02 10:12:35,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:12:35,955 - INFO - Generated post for link https://www.clinicaltrialsarena.com/news/fda-grants-fast-track-designation-to-life-molecular-imaging-tau-pet-diagnostic/.
+2024-09-02 10:12:35,978 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:13:08,788 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884.
+2024-09-02 10:13:11,470 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:13:11,471 - INFO - Generated post for link https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884.
+2024-09-02 10:13:11,495 - INFO - Logged data to databases/llm.csv.
+2024-09-02 10:13:21,145 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-02 10:13:23,463 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 10:13:23,463 - INFO - Generated post for link http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-02 10:13:23,488 - INFO - Logged data to databases/llm.csv.
+2024-09-02 12:20:41,342 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 12:20:41,345 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 12:20:41,347 - INFO - Loaded 9 links from databases/scape.csv.
+2024-09-02 12:20:41,361 - INFO - Loaded 24 links from databases/llm.csv.
+2024-09-02 12:20:41,361 - INFO - Total unique links to process: 1
+2024-09-02 12:20:42,477 - INFO - Successfully fetched data from http://r.jina.ai/https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478.
+2024-09-02 12:20:44,671 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 12:20:44,673 - INFO - Generated post for link https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478.
+2024-09-02 12:20:44,700 - INFO - Logged data to databases/llm.csv.
+2024-09-02 14:10:45,487 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 14:10:45,489 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 14:10:45,491 - INFO - Loaded 10 links from databases/scape.csv.
+2024-09-02 14:10:45,504 - INFO - Loaded 25 links from databases/llm.csv.
+2024-09-02 14:10:45,504 - INFO - Total unique links to process: 1
+2024-09-02 14:10:47,255 - INFO - Successfully fetched data from http://r.jina.ai/https://onlinelibrary.wiley.com/doi/10.1111/andr.13741.
+2024-09-02 14:10:50,742 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 14:10:50,744 - INFO - Generated post for link https://onlinelibrary.wiley.com/doi/10.1111/andr.13741.
+2024-09-02 14:10:50,770 - INFO - Logged data to databases/llm.csv.
+2024-09-02 16:13:10,890 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 16:13:10,892 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 16:13:10,894 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-02 16:13:10,908 - INFO - Loaded 26 links from databases/llm.csv.
+2024-09-02 16:13:10,908 - INFO - Total unique links to process: 2
+2024-09-02 16:13:11,784 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-02 16:13:14,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 16:13:14,431 - INFO - Generated post for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-02 16:13:14,457 - INFO - Logged data to databases/llm.csv.
+2024-09-02 16:13:19,285 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849.
+2024-09-02 16:13:19,365 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-02 16:13:19,366 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-02 16:13:42,101 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-02 16:13:42,102 - INFO - Generated post for link https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849.
+2024-09-02 16:13:42,128 - INFO - Logged data to databases/llm.csv.
+2024-09-02 18:13:31,995 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 18:13:31,998 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 18:13:32,000 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-02 18:13:32,014 - INFO - Loaded 28 links from databases/llm.csv.
+2024-09-02 18:13:32,014 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 20:11:10,600 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 20:11:10,602 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 20:11:10,604 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-02 20:11:10,618 - INFO - Loaded 28 links from databases/llm.csv.
+2024-09-02 20:11:10,619 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 22:09:37,101 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 22:09:37,103 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 22:09:37,106 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-02 22:09:37,120 - INFO - Loaded 28 links from databases/llm.csv.
+2024-09-02 22:09:37,120 - INFO - No unique links to process. Exiting gracefully.
+2024-09-02 22:44:12,760 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-02 22:44:12,762 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-02 22:44:12,764 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-02 22:44:12,778 - INFO - Loaded 28 links from databases/llm.csv.
+2024-09-02 22:44:12,779 - INFO - No unique links to process. Exiting gracefully.
+2024-09-03 00:47:46,590 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 00:47:46,592 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 00:47:46,594 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-03 00:47:46,604 - INFO - Loaded 16 links from databases/llm.csv.
+2024-09-03 00:47:46,604 - INFO - Total unique links to process: 12
+2024-09-03 00:47:50,474 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 00:47:52,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:47:52,657 - INFO - Generated post for link https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 00:47:52,676 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:47:55,150 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-03 00:47:55,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:47:55,225 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:48:17,673 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:48:17,674 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-03 00:48:17,694 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:48:38,803 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/cardiology/20240901/finerenone-improves-outcomes-in-patients-with-mildly-reduced-preserved-ejection-fraction.
+2024-09-03 00:48:42,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:48:42,173 - INFO - Generated post for link https://www.healio.com/news/cardiology/20240901/finerenone-improves-outcomes-in-patients-with-mildly-reduced-preserved-ejection-fraction.
+2024-09-03 00:48:42,193 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:48:46,702 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/dermatology/20240823/phase-3-study-of-tmb001-for-treatment-of-congenital-ichthyosis-fails-to-meet-endpoints.
+2024-09-03 00:48:50,366 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:48:50,367 - INFO - Generated post for link https://www.healio.com/news/dermatology/20240823/phase-3-study-of-tmb001-for-treatment-of-congenital-ichthyosis-fails-to-meet-endpoints.
+2024-09-03 00:48:50,389 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:48:51,609 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240828/New-study-develops-enhanced-mortality-prediction-model-for-COPD-patients.aspx.
+2024-09-03 00:48:51,709 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:48:51,709 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:49:15,711 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:49:15,712 - INFO - Generated post for link https://www.news-medical.net/news/20240828/New-study-develops-enhanced-mortality-prediction-model-for-COPD-patients.aspx.
+2024-09-03 00:49:15,737 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:49:18,067 - INFO - Successfully fetched data from http://r.jina.ai/https://www.clinicaltrialsarena.com/news/fda-grants-fast-track-designation-to-life-molecular-imaging-tau-pet-diagnostic/.
+2024-09-03 00:49:18,145 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:49:18,145 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:49:41,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:49:41,364 - INFO - Generated post for link https://www.clinicaltrialsarena.com/news/fda-grants-fast-track-designation-to-life-molecular-imaging-tau-pet-diagnostic/.
+2024-09-03 00:49:41,390 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:49:43,447 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-03 00:49:43,524 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:49:43,524 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:50:06,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:50:06,077 - INFO - Generated post for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-03 00:50:06,103 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:50:07,021 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn.
+2024-09-03 00:50:09,922 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:50:09,923 - INFO - Generated post for link http://medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn.
+2024-09-03 00:50:09,949 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:50:14,086 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849.
+2024-09-03 00:50:14,161 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:50:14,161 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:50:37,259 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:50:37,260 - INFO - Generated post for link https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849.
+2024-09-03 00:50:37,286 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:50:41,961 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884.
+2024-09-03 00:50:42,039 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:50:42,040 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:51:06,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:51:06,989 - INFO - Generated post for link https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884.
+2024-09-03 00:51:07,015 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:51:07,801 - INFO - Successfully fetched data from http://r.jina.ai/https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478.
+2024-09-03 00:51:09,787 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:51:09,788 - INFO - Generated post for link https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478.
+2024-09-03 00:51:09,816 - INFO - Logged data to databases/llm.csv.
+2024-09-03 00:51:10,880 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-03 00:51:10,970 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:51:10,971 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:51:35,218 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:51:35,219 - INFO - Generated post for link http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-03 00:51:35,247 - INFO - Logged data to databases/llm.csv.
