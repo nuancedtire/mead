@@ -349,3 +349,53 @@
 2024-09-02 22:44:11,663 - INFO - Existing CSV file loaded.
 2024-09-02 22:44:11,663 - INFO - No new links found, CSV file is up to date.
 2024-09-02 22:44:11,663 - INFO - Medscape script completed.
+2024-09-03 00:46:22,742 - INFO - Medscape script started.
+2024-09-03 00:46:22,742 - INFO - Connection to Medscape established.
+2024-09-03 00:46:22,810 - INFO - Request sent to Medscape API.
+2024-09-03 00:46:23,060 - INFO - Response received from Medscape API.
+2024-09-03 00:46:23,061 - INFO - Response data decoded into dictionary.
+2024-09-03 00:46:23,063 - INFO - Existing CSV file loaded.
+2024-09-03 00:46:23,063 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-03 00:46:23,063 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-03 00:46:25,966 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8.
+2024-09-03 00:46:26,751 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:46:26,778 - INFO - Received response from OpenAI API.
+2024-09-03 00:46:26,778 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20
+2024-09-03 00:46:26,779 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-03 00:46:26,779 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-03 00:46:29,907 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn.
+2024-09-03 00:46:30,641 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:46:30,641 - INFO - Received response from OpenAI API.
+2024-09-03 00:46:30,642 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-03 00:46:30,642 - INFO - Processing new item: https://www.medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh
+2024-09-03 00:46:30,642 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh
+2024-09-03 00:46:32,969 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh.
+2024-09-03 00:46:33,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:46:33,771 - INFO - Received response from OpenAI API.
+2024-09-03 00:46:33,771 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849
+2024-09-03 00:46:33,772 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1
+2024-09-03 00:46:33,772 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1
+2024-09-03 00:46:37,410 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1.
+2024-09-03 00:46:37,523 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:46:37,524 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:46:58,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:46:58,129 - INFO - Received response from OpenAI API.
+2024-09-03 00:46:58,129 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884
+2024-09-03 00:46:58,129 - INFO - Processing new item: https://www.medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq
+2024-09-03 00:46:58,129 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq
+2024-09-03 00:47:00,514 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq.
+2024-09-03 00:47:00,633 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:47:00,633 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:47:21,330 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:47:21,331 - INFO - Received response from OpenAI API.
+2024-09-03 00:47:21,331 - INFO - Attempt 1 succeeded with link: https://www.tandfonline.com/doi/full/10.1080/23744235.2024.2389478
+2024-09-03 00:47:21,332 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-03 00:47:21,332 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-03 00:47:24,824 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-03 00:47:24,934 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 00:47:24,934 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 00:47:45,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 00:47:45,513 - INFO - Received response from OpenAI API.
+2024-09-03 00:47:45,513 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-03 00:47:45,516 - INFO - CSV file updated with new data.
+2024-09-03 00:47:45,516 - INFO - Medscape script completed.
