@@ -28,13 +28,14 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI()
 
-@retry(wait=wait_random_exponential(min=20, max=60), stop=stop_after_attempt(6))
+@retry(wait=wait_random_exponential(min=40, max=120), stop=stop_after_attempt(6))
 def completion_with_backoff(**kwargs):
-    """
-    This function makes a request to the OpenAI API with exponential backoff 
-    in case of failures. It retries the request up to 3 times.
-    """
-    return client.chat.completions.create(**kwargs)
+    try:
+        return client.chat.completions.create(**kwargs)
+    except RateLimitError as e:
+        logging.warning(f"Rate limit exceeded. Waiting before retry: {e}")
+        time.sleep(60)  # Wait for 60 seconds before retrying
+        raise
 
 def extract_links_from_csv_pandas(file_path):
     """
