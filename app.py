@@ -73,7 +73,7 @@ def determine_source(link):
 
 # Function to create a post
 def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt):
-    image_url = is_valid_image_url(image_url)
+    # image_url = is_valid_image_url(image_url)
     if not image_url:
         image_url = fallback_image_url
     source = determine_source(link)
@@ -86,8 +86,8 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     
     with col2:
         st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
-#        with st.expander(f"*{model}*"):
-#            st.write(f"{prompt}")
+        with st.expander(f"*{model}*"):
+           st.write(f"{prompt}")
         
     # Extract the first line of the content
     if '\n' in content:
@@ -165,7 +165,7 @@ else:
         create_post(
             timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
             llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
-            image_url='',
+            image_url=row['Image'],
             hashtags=row['Hashtags'],
             content=row['Post'],
             model=row['Model'],

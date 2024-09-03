@@ -845,3 +845,86 @@
 2024-09-03 01:34:34,786 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
 2024-09-03 01:34:34,926 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2024-09-03 01:34:34,927 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:58:16,843 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:58:16,845 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:58:16,847 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:58:16,848 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:58:16,848 - INFO - Total unique links to process: 22
+2024-09-03 01:58:19,656 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:58:26,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:58:27,326 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:58:27,612 - ERROR - Error generating post: 'dict' object has no attribute 'post_content'
+2024-09-03 01:58:28,861 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:58:39,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:58:39,400 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:58:39,400 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 02:00:29,446 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 02:00:29,449 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 02:00:29,451 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 02:00:29,451 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 02:00:29,451 - INFO - Total unique links to process: 22
+2024-09-03 02:00:35,474 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 02:00:38,141 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:00:38,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:00:39,302 - ERROR - Error generating post: 'dict' object has no attribute 'post_content'
+2024-09-03 02:00:41,481 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 02:09:03,544 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 02:09:03,546 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 02:09:03,549 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 02:09:03,549 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 02:09:03,549 - INFO - Total unique links to process: 22
+2024-09-03 02:09:06,639 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 02:09:10,237 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:09:10,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:09:10,917 - ERROR - Error generating post: 'dict' object has no attribute 'post_content'
+2024-09-03 02:09:12,125 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 02:09:46,701 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 02:09:46,703 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 02:09:46,706 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 02:09:46,706 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 02:09:46,706 - INFO - Total unique links to process: 22
+2024-09-03 02:09:48,518 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 02:09:52,964 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:09:53,389 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:09:53,657 - ERROR - Error generating post: 'dict' object has no attribute 'post_content'
+2024-09-03 02:09:54,890 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 02:09:55,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 02:09:55,185 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 02:10:23,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:10:23,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 02:10:23,792 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 02:10:59,259 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 02:10:59,261 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 02:10:59,263 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 02:10:59,264 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 02:10:59,264 - INFO - Total unique links to process: 22
+2024-09-03 02:11:04,705 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 02:11:09,045 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:11:09,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:11:55,674 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 02:11:55,677 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 02:11:55,679 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 02:11:55,679 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 02:11:55,679 - INFO - Total unique links to process: 22
+2024-09-03 02:11:57,977 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 02:12:01,602 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:12:01,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:12:02,278 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 02:12:02,281 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 02:12:07,108 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 02:12:14,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:12:15,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 02:12:15,006 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 02:12:35,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:12:35,742 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 02:12:35,745 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 02:12:38,091 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 02:12:40,320 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:12:40,461 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 02:12:40,461 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 02:13:00,832 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 02:13:01,223 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 02:13:01,225 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 02:13:02,927 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 02:13:03,112 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 02:13:03,113 - INFO - Retrying request to /chat/completions in 20.000000 seconds

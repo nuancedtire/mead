@@ -9,6 +9,8 @@ import openai
 from openai import OpenAI
 import json
 from tenacity import retry, stop_after_attempt, wait_random_exponential
+from pydantic import BaseModel, Field
+from typing import List
 
 # Set up logging
 log_file_path = "logs/llm.log"
@@ -114,8 +116,6 @@ def process_link(link_info):
 
     return generate_post(webpage_content, link, original_timestamp)
 
-from pydantic import BaseModel, Field
-from typing import List
 
 # Define the data structure using Pydantic
 class PostResponse(BaseModel):
@@ -140,53 +140,83 @@ def generate_post(webpage_content, link, original_timestamp):
     if "Open navigation menu" in webpage_content:
       start_index = webpage_content.find("Open navigation menu")
       webpage_content = webpage_content[start_index:]
-    try:
-        response = completion_with_backoff(
-            model=model_name,
-            messages=[
-                {"role": "system", "content": system_message},
-                {"role": "user", "content": webpage_content}
-                ],
-            response_format={
-                "type": "json_schema",
-                "json_schema": {
-                    "name": "post_with_hashtags",
-                    "schema": {
-                        "type": "object",
-                        "properties": {
-                            "post_content": {
+
+    response = completion_with_backoff(
+        model=model_name,
+        messages=[
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": webpage_content}
+            ],
+        response_format={
+            "type": "json_schema",
+            "json_schema": {
+                "name": "post_with_hashtags",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "post_content": {
+                            "type": "string",
+                            "description": "The final generated post content based on the article in plain text and emoji."
+                            },
+                        "hashtags": {
+                            "type": "array",
+                            "items": {
                                 "type": "string",
-                                "description": "The final generated post content based on the article. Ensure it is the post only and does not include any hashtags or images"
-                                },
-                            "hashtags": {
-                                "type": "array",
-                                "items": {
-                                    "type": "string",
-                                    "enum": hashtags
-                                },
-                                "description": "A list of relevant hashtags for the post."
-                            }
-                        },
-                        "required": [
-                            "post_content",
-                            "hashtags"
-                        ]
-                    }
+                                "enum": hashtags
+                            },
+                            "description": "A list of relevant hashtags for the post."
+                        }
+                    },
+                    "required": [
+                        "post_content",
+                        "hashtags"
+                    ]
                 }
             }
-        )
-        full_response = response.choices[0].message.content
-        data = PostResponse.parse_raw(full_response)
-        llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
-        log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, link, system_message, webpage_content, model_name]
-        logging.info(f"Generated post for link {link}.")
-        print(f"Generated post for link {link}.")
-        return log_entry
-    except Exception as e:
-        logging.error(f"Error generating post: {e}")
-        print(f"Error generating post: {e}")
-        return None
+        }
+    )
+    full_response = response.choices[0].message.content
+    data = PostResponse.parse_raw(full_response)
+    llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    keywords = completion_with_backoff(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": "Analyze the following social media post to identify its main topic and content. Based on this analysis, generate a specific search keyword that is more targeted than broad terms like ‘machine learning’ or ‘healthcare’. This keyword is to be used to find an appropriate thumbnail image from Pexels stock image library that aligns well with the post's content and overall tone. Reply with search terms only"},
+            {"role": "user", "content": data.post_content}
+        ]
+    )
+    # Set your API key
+    api_key = "fp8Urerp0HYAsM2UmutJhXbhuSOeXEu75TJvzmIEYOVQ51ckelerwvPk"
+    image_query = keywords.choices[0].message.content
+
+    # Set the headers
+    headers = {
+        "Authorization": api_key
+    }
+
+    # Define the endpoint and parameters
+    url = "https://api.pexels.com/v1/search"
+    params = {
+        "query": image_query,
+        "per_page": 1,
+        "page": 2
+    }
+
+    # Make the GET request
+    image_response = requests.get(url, headers=headers, params=params)
+
+    # Check if the request was successful
+    if image_response.status_code == 200:
+        # Parse the JSON response
+        img_data = image_response.json()
+        image_link = img_data['photos'][0]['src']['large']
+        print(f"Image Link: {image_link}")
+
+    log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, image_link, link, system_message, webpage_content, model_name]
+    logging.info(f"Generated post for link {link}.")
+    print(f"Generated post for link {link}.")
+    return log_entry
+
 def log_to_csv_pandas(log_entry, file_name="databases/llm-test.csv"):
     """
     Logs the generated post information to a CSV file.
@@ -196,7 +226,7 @@ def log_to_csv_pandas(log_entry, file_name="databases/llm-test.csv"):
         file_name (str): The name of the CSV file to log the entry to.
     """
     try:
-        df_new = pd.DataFrame([log_entry], columns=["Time", "LLM Timestamp", "Post", "Hashtags", "Link", "Prompt", "Input", "Model"])
+        df_new = pd.DataFrame([log_entry], columns=["Time", "LLM Timestamp", "Post", "Hashtags", "Image", "Link", "Prompt", "Input", "Model"])
 
         if not os.path.exists(file_name):
             # If the file doesn't exist, write with header
