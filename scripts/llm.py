@@ -217,7 +217,7 @@ def generate_post(webpage_content, link, original_timestamp):
     print(f"Generated post for link {link}.")
     return log_entry
 
-def log_to_csv_pandas(log_entry, file_name="databases/llm-test.csv"):
+def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
     """
     Logs the generated post information to a CSV file.
 
@@ -248,7 +248,7 @@ def main():
     meds_links = extract_links_from_csv_pandas('databases/meds.csv')
     sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
     scape_links = extract_links_from_csv_pandas('databases/scape.csv')
-    llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm-test.csv')]
+    llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm.csv')]
     
     combined_links = [link for link in meds_links + sifted_links + scape_links if link['Link'] not in llm_links]
 
