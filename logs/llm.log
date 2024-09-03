@@ -610,3 +610,238 @@
 2024-09-02 22:44:12,764 - INFO - Loaded 12 links from databases/scape.csv.
 2024-09-02 22:44:12,778 - INFO - Loaded 28 links from databases/llm.csv.
 2024-09-02 22:44:12,779 - INFO - No unique links to process. Exiting gracefully.
+2024-09-03 00:57:30,617 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 00:57:30,619 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 00:57:30,623 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 00:57:30,623 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 00:57:30,623 - INFO - Total unique links to process: 22
+2024-09-03 00:57:32,954 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 00:58:21,963 - ERROR - Error generating post: RetryError[<Future at 0x7484b3b87d10 state=finished raised TypeError>]
+2024-09-03 00:58:27,127 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 00:59:17,093 - ERROR - Error generating post: RetryError[<Future at 0x7484b3a3b5f0 state=finished raised TypeError>]
+2024-09-03 00:59:18,261 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 00:59:34,276 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 00:59:34,278 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 00:59:34,280 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 00:59:34,281 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 00:59:34,281 - INFO - Total unique links to process: 22
+2024-09-03 00:59:36,046 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:00:09,621 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:00:09,623 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:00:09,625 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:00:09,626 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:00:09,626 - INFO - Total unique links to process: 22
+2024-09-03 01:00:14,988 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:01:11,123 - ERROR - Error generating post: RetryError[<Future at 0x729dbdea2750 state=finished raised TypeError>]
+2024-09-03 01:01:16,641 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:02:54,259 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:02:54,261 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:02:54,263 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:02:54,263 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:02:54,264 - INFO - Total unique links to process: 22
+2024-09-03 01:02:55,623 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:03:38,465 - ERROR - Error generating post: RetryError[<Future at 0x70491872b2c0 state=finished raised TypeError>]
+2024-09-03 01:03:44,015 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:03:46,547 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:03:46,549 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:03:46,552 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:03:46,552 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:03:46,552 - INFO - Total unique links to process: 22
+2024-09-03 01:03:47,847 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:04:30,267 - ERROR - Error generating post: RetryError[<Future at 0x71d4fa076ed0 state=finished raised TypeError>]
+2024-09-03 01:04:34,087 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:06:12,881 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:06:12,883 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:06:12,885 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:06:12,886 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:06:12,886 - INFO - Total unique links to process: 22
+2024-09-03 01:06:14,883 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:06:19,689 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:06:19,692 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:06:19,695 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:06:23,206 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:09:21,963 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:09:21,966 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:09:21,969 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:09:21,977 - INFO - Loaded 1 links from databases/llm-test.csv.
+2024-09-03 01:09:21,977 - INFO - Total unique links to process: 21
+2024-09-03 01:09:26,539 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:09:36,081 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:09:36,084 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:09:36,086 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:09:36,086 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:09:36,086 - INFO - Total unique links to process: 22
+2024-09-03 01:09:37,550 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:09:42,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:09:42,607 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:09:42,607 - ERROR - Error logging data to CSV: 9 columns passed, passed data had 8 columns
+2024-09-03 01:09:46,547 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:09:53,841 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:09:53,843 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:09:53,843 - ERROR - Error logging data to CSV: 9 columns passed, passed data had 8 columns
+2024-09-03 01:09:54,572 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:10:36,826 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:10:36,828 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:10:36,831 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:10:36,831 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:10:36,831 - INFO - Total unique links to process: 22
+2024-09-03 01:10:38,426 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:10:41,589 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:10:41,592 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:10:41,595 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:10:46,200 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:10:54,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:10:54,137 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:10:54,140 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:10:55,606 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:10:58,912 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:10:58,913 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:10:58,915 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:11:01,239 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:11:01,383 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:11:01,383 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:11:25,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:11:25,035 - INFO - Generated post for link https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:11:25,038 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:12:05,881 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:12:08,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:12:08,601 - INFO - Generated post for link https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:12:08,604 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:12:12,328 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 01:12:15,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:12:15,774 - INFO - Generated post for link https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 01:12:15,777 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:21:44,628 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:21:44,630 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:21:44,632 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:21:44,633 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:21:44,633 - INFO - Total unique links to process: 22
+2024-09-03 01:21:46,401 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:21:51,681 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:21:51,687 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:21:51,692 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:21:53,407 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:22:00,842 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:22:00,843 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:22:00,846 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:22:01,424 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:22:04,137 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:22:04,140 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:22:04,143 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:22:07,646 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:22:11,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:22:11,343 - INFO - Generated post for link https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:22:11,346 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:22:14,939 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:22:15,094 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:22:15,095 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:22:38,711 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:22:38,712 - INFO - Generated post for link https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:22:38,715 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:22:42,396 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 01:22:42,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:22:42,573 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:23:46,988 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:23:46,990 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:23:46,993 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:23:46,996 - INFO - Loaded 1 links from databases/llm-test.csv.
+2024-09-03 01:23:46,996 - INFO - Total unique links to process: 21
+2024-09-03 01:23:55,282 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:24:03,354 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:24:03,357 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:24:03,360 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:24:03,979 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:24:06,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:24:06,732 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:24:06,735 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:24:08,936 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:24:11,572 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:24:11,573 - INFO - Generated post for link https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:24:11,576 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:24:14,985 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:24:15,133 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:24:15,134 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:24:38,790 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:24:38,791 - INFO - Generated post for link https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:24:38,795 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:24:42,426 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 01:24:45,267 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:24:45,269 - INFO - Generated post for link https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 01:24:45,272 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:24:48,348 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-03 01:24:48,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:24:48,528 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:25:12,514 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:25:12,515 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/hiv-roundtable-examining-aging-with-hiv-multidrug-resistance-and-vaccine-development.
+2024-09-03 01:25:12,518 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:25:17,071 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/cardiology/20240901/finerenone-improves-outcomes-in-patients-with-mildly-reduced-preserved-ejection-fraction.
+2024-09-03 01:25:20,860 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:25:20,861 - INFO - Generated post for link https://www.healio.com/news/cardiology/20240901/finerenone-improves-outcomes-in-patients-with-mildly-reduced-preserved-ejection-fraction.
+2024-09-03 01:25:20,864 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:25:24,337 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/dermatology/20240823/phase-3-study-of-tmb001-for-treatment-of-congenital-ichthyosis-fails-to-meet-endpoints.
+2024-09-03 01:25:24,499 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:25:24,499 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:27:07,598 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:27:07,600 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:27:07,602 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:27:07,605 - INFO - Loaded 1 links from databases/llm-test.csv.
+2024-09-03 01:27:07,605 - INFO - Total unique links to process: 21
+2024-09-03 01:27:08,944 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:27:17,644 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:27:17,647 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:27:17,650 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:27:18,127 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:27:20,585 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:27:20,586 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:27:20,589 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:27:22,537 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:27:39,480 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:27:39,482 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:27:39,485 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:27:39,485 - WARNING - databases/llm-test.csv does not exist, skipping...
+2024-09-03 01:27:39,485 - INFO - Total unique links to process: 22
+2024-09-03 01:27:42,459 - INFO - Successfully fetched data from http://r.jina.ai/https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:27:47,885 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:27:47,890 - INFO - Generated post for link https://www.contemporarypediatrics.com/view/priority-review-given-to-mirdametinib-to-treat-nf1-pn-in-children-adults.
+2024-09-03 01:27:47,893 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:27:50,198 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:27:58,226 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:27:58,227 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:27:58,231 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:27:58,752 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:27:58,897 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:27:58,897 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:28:21,760 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:28:21,761 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:28:21,764 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:28:23,216 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:28:23,366 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:28:23,366 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 01:28:47,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:28:47,012 - INFO - Generated post for link https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:28:47,015 - ERROR - Error logging data to CSV: unhashable type: 'list'
+2024-09-03 01:28:50,222 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:34:04,042 - INFO - Loaded 11 links from databases/meds.csv.
+2024-09-03 01:34:04,045 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 01:34:04,048 - INFO - Loaded 6 links from databases/scape.csv.
+2024-09-03 01:34:04,052 - INFO - Loaded 1 links from databases/llm-test.csv.
+2024-09-03 01:34:04,052 - INFO - Total unique links to process: 21
+2024-09-03 01:34:05,700 - INFO - Successfully fetched data from http://r.jina.ai/http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:34:12,340 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:34:12,343 - INFO - Generated post for link http://dx.doi.org/10.1371/journal.pmed.1004377.
+2024-09-03 01:34:12,347 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:34:13,047 - INFO - Successfully fetched data from http://r.jina.ai/https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:34:15,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:34:15,264 - INFO - Generated post for link https://www.nejm.org/doi/full/10.1056/NEJMoa2403769.
+2024-09-03 01:34:15,265 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:34:16,811 - INFO - Successfully fetched data from http://r.jina.ai/https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:34:20,358 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:34:20,359 - INFO - Generated post for link https://www.drugdiscoverynews.com/velcro-like-antibiotic-may-inform-new-antibiotic-design-16028.
+2024-09-03 01:34:20,362 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:34:27,397 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:34:31,223 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 01:34:31,224 - INFO - Generated post for link https://www.healio.com/news/ophthalmology/20240828/european-commission-grants-marketing-authorization-to-akantior-for-acanthamoeba-keratitis.
+2024-09-03 01:34:31,225 - INFO - Logged data to databases/llm-test.csv.
+2024-09-03 01:34:34,786 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/hematology-oncology/20240813/video-study-investigates-novel-therapy-for-penetration-of-pediatric-brain-tumors.
+2024-09-03 01:34:34,926 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 01:34:34,927 - INFO - Retrying request to /chat/completions in 20.000000 seconds

@@ -19,6 +19,7 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO,
 # Load configuration
 model_name = config.llm_config['model_name']
 system_message = config.llm_config['system_prompt']
+hashtags = config.llm_config['hashtags']
 
 # Retrieve the API key from the environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -93,9 +94,9 @@ def process_link(link_info):
         response.raise_for_status()
         webpage_content = response.text
 
-        if image_url:
-            webpage_content = f'Thumbnail image URL: {image_url}  \n{webpage_content}'
-        
+        # if image_url:
+        #     webpage_content = f'Thumbnail image URL: {image_url}  \n{webpage_content}'
+
         logging.info(f"Successfully fetched data from {url}.")
         print(f"Successfully fetched data from {url}.")
     except requests.exceptions.HTTPError as errh:
@@ -113,6 +114,15 @@ def process_link(link_info):
 
     return generate_post(webpage_content, link, original_timestamp)
 
+from pydantic import BaseModel, Field
+from typing import List
+
+# Define the data structure using Pydantic
+class PostResponse(BaseModel):
+    post_content: str = Field(..., description="The final generated post content based on the article.")
+    hashtags: List[str] = Field(..., description="A list of relevant hashtags for the post.")
+
+# Function definition
 def generate_post(webpage_content, link, original_timestamp):
     """
     Generates post content using the OpenAI API and formats it with the 
@@ -125,7 +135,7 @@ def generate_post(webpage_content, link, original_timestamp):
         
     Returns:
         list: A log entry including the original and LLM timestamps, 
-              generated post content, and image URL, or None if an error occurred.
+              generated post content, and hashtags, or None if an error occurred.
     """
     if "Open navigation menu" in webpage_content:
       start_index = webpage_content.find("Open navigation menu")
@@ -140,34 +150,36 @@ def generate_post(webpage_content, link, original_timestamp):
             response_format={
                 "type": "json_schema",
                 "json_schema": {
-                    "name": "post_with_thumbnail",
+                    "name": "post_with_hashtags",
                     "schema": {
                         "type": "object",
                         "properties": {
                             "post_content": {
                                 "type": "string",
-                                "description": "The final generated post content based on the article."
+                                "description": "The final generated post content based on the article. Ensure it is the post only and does not include any hashtags or images"
                                 },
-                            "thumbnail_image_url": {
-                                "type": "string",
-                                "description": "The final URL of a relevant image from the article ready to be used as a thumbnail. If no image then reply None"
-                                }
-                            },
-                    "required": [
-                        "post_content",
-                        "thumbnail_image_url"
-                        ],
-                        }
+                            "hashtags": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "enum": hashtags
+                                },
+                                "description": "A list of relevant hashtags for the post."
+                            }
+                        },
+                        "required": [
+                            "post_content",
+                            "hashtags"
+                        ]
                     }
                 }
-            )
+            }
+        )
         full_response = response.choices[0].message.content
-        data = json.loads(full_response)
-        post = data['post_content']
-        image = data['thumbnail_image_url']
+        data = PostResponse.parse_raw(full_response)
         llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
-        log_entry = [original_timestamp, llm_timestamp, post, image, link, system_message, webpage_content, model_name]
+        log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, link, system_message, webpage_content, model_name]
         logging.info(f"Generated post for link {link}.")
         print(f"Generated post for link {link}.")
         return log_entry
@@ -175,24 +187,24 @@ def generate_post(webpage_content, link, original_timestamp):
         logging.error(f"Error generating post: {e}")
         print(f"Error generating post: {e}")
         return None
-
-def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
+def log_to_csv_pandas(log_entry, file_name="databases/llm-test.csv"):
     """
     Logs the generated post information to a CSV file.
-    
+
     Args:
         log_entry (list): A list containing the log details.
         file_name (str): The name of the CSV file to log the entry to.
     """
     try:
-        df_new = pd.DataFrame([log_entry], columns=["Time", "LLM Timestamp", "Post", "Image", "Link", "Prompt", "Input", "Model"])
-        if os.path.exists(file_name):
-            df_existing = pd.read_csv(file_name)
-            df_combined = pd.concat([df_existing, df_new]).drop_duplicates()
-        else:
-            df_combined = df_new
+        df_new = pd.DataFrame([log_entry], columns=["Time", "LLM Timestamp", "Post", "Hashtags", "Link", "Prompt", "Input", "Model"])
 
-        df_combined.to_csv(file_name, index=False)
+        if not os.path.exists(file_name):
+            # If the file doesn't exist, write with header
+            df_new.to_csv(file_name, index=False)
+        else:
+            # If the file exists, append without writing the header again
+            df_new.to_csv(file_name, mode='a', index=False, header=False)
+
         logging.info(f"Logged data to {file_name}.")
         print(f"Logged data to {file_name}.")
     except Exception as e:
@@ -206,7 +218,7 @@ def main():
     meds_links = extract_links_from_csv_pandas('databases/meds.csv')
     sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
     scape_links = extract_links_from_csv_pandas('databases/scape.csv')
-    llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm.csv')]
+    llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm-test.csv')]
     
     combined_links = [link for link in meds_links + sifted_links + scape_links if link['Link'] not in llm_links]
 

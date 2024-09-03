@@ -96,7 +96,7 @@ def call_openai_with_backoff(client, webpage_content):
             messages=[
                 {
                     "role": "system",
-                    "content": "You are an expert researcher. You will be given the web scraping of an article and you have to find the original source other than Medscape from which the article was written. Reply only with link. Reply with the medscape link itself if no appropriate link could be found.",
+                    "content": "You are an expert researcher. You will be given the web scraping of an article and you have to find the original source other than Medscape from which the article was written. Reply with the medscape link itself if no appropriate link could be found. Please remember to reply only with link. ",
                 },
                 {
                     "role": "user",

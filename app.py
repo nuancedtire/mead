@@ -23,7 +23,7 @@ if 'source' not in st.session_state:
     st.session_state['source'] = 'data'
 
 if st.session_state['source'] == 'data':
-    data = pd.read_csv('databases/llm.csv')
+    data = pd.read_csv('databases/llm-test.csv')
     # Load the additional CSV files
     meds = pd.read_csv('databases/meds.csv')
     sifted = pd.read_csv('databases/sifted.csv')
@@ -72,7 +72,7 @@ def determine_source(link):
         return "Unknown Source"
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, image_url, content, model, link, prompt):
+def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt):
     image_url = is_valid_image_url(image_url)
     if not image_url:
         image_url = fallback_image_url
@@ -99,7 +99,7 @@ def create_post(timestamp, llm_timestamp, image_url, content, model, link, promp
     # Use the first line in the expander and display the rest of the content inside the expander
     with st.expander(f"{first_line}"):
         st.write(rest_of_content)
-        # st.write(f"Generated from: {link}")
+        st.write(f"Generated hashtags: {hashtags}")
     
 
     st.markdown("""
@@ -165,7 +165,8 @@ else:
         create_post(
             timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
             llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
-            image_url=row['Image'],
+            image_url='',
+            hashtags=row['Hashtags'],
             content=row['Post'],
             model=row['Model'],
             link=row['Link'],
