@@ -1,0 +1,126 @@
+2024-09-03 18:10:46,537 - WARNING - databases/meds.csv does not exist, skipping...
+2024-09-03 18:10:46,537 - WARNING - databases/sifted.csv does not exist, skipping...
+2024-09-03 18:10:46,541 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 18:10:46,541 - WARNING - databases/llm.csv does not exist, skipping...
+2024-09-03 18:10:46,541 - INFO - Total unique links to process: 7
+2024-09-03 18:10:49,702 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-03 18:10:53,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:10:53,940 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:10:54,655 - INFO - Generated post for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-03 18:10:54,657 - INFO - Logged data to databases/llm.csv.
+2024-09-03 18:10:57,077 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9.
+2024-09-03 18:11:02,187 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:11:02,328 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:11:02,329 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:11:22,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:11:23,203 - INFO - Generated post for link http://medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9.
+2024-09-03 18:11:23,205 - INFO - Logged data to databases/llm.csv.
+2024-09-03 18:11:26,652 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn.
+2024-09-03 18:11:26,806 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:11:26,806 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:11:51,811 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:11:51,967 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:11:51,968 - INFO - Retrying request to /chat/completions in 0.815167 seconds
+2024-09-03 18:11:52,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:11:52,930 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:12:13,078 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:12:41,969 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:12:41,970 - INFO - Retrying request to /chat/completions in 0.789845 seconds
+2024-09-03 18:12:42,894 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:12:42,895 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:13:03,061 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:13:05,173 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:13:05,173 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:13:25,328 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:13:25,329 - INFO - Retrying request to /chat/completions in 1.807670 seconds
+2024-09-03 18:13:27,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:13:55,678 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:13:55,679 - INFO - Retrying request to /chat/completions in 0.791574 seconds
+2024-09-03 18:13:56,621 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:13:56,621 - INFO - Retrying request to /chat/completions in 1.975892 seconds
+2024-09-03 18:13:58,748 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:14:03,852 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:14:03,852 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:14:24,024 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:14:24,025 - INFO - Retrying request to /chat/completions in 1.749477 seconds
+2024-09-03 18:14:25,913 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:14:34,864 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:14:34,864 - INFO - Retrying request to /chat/completions in 0.857763 seconds
+2024-09-03 18:14:35,866 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:14:35,866 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:14:56,024 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:46:57,469 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-03 22:46:57,473 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 22:46:57,476 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 22:46:57,480 - INFO - Loaded 2 links from databases/llm.csv.
+2024-09-03 22:46:57,480 - INFO - Total unique links to process: 15
+2024-09-03 22:46:59,829 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240829/Acute-kidney-injury-doubles-dementia-risk-study-finds.aspx.
+2024-09-03 22:47:04,333 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 22:47:05,182 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 22:47:05,755 - INFO - Generated post for link https://www.news-medical.net/news/20240829/Acute-kidney-injury-doubles-dementia-risk-study-finds.aspx.
+2024-09-03 22:47:05,762 - INFO - Logged data to databases/llm.csv.
+2024-09-03 22:47:07,006 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240828/Study-confirms-the-link-between-blood-glucose-levels-and-voice-pitch-in-people-with-Type-2-diabetes.aspx.
+2024-09-03 22:47:11,880 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 22:47:12,012 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:47:12,012 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:47:32,159 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:47:32,161 - INFO - Retrying request to /chat/completions in 1.628026 seconds
+2024-09-03 22:47:33,925 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:47:57,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:47:57,930 - INFO - Retrying request to /chat/completions in 0.904469 seconds
+2024-09-03 22:47:58,984 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:47:58,985 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:48:19,149 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:48:45,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:48:45,143 - INFO - Retrying request to /chat/completions in 0.756120 seconds
+2024-09-03 22:48:46,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:48:46,033 - INFO - Retrying request to /chat/completions in 1.695406 seconds
+2024-09-03 22:48:47,865 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:49:25,244 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:49:25,245 - INFO - Retrying request to /chat/completions in 0.945221 seconds
+2024-09-03 22:49:26,330 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:49:26,330 - INFO - Retrying request to /chat/completions in 1.742394 seconds
+2024-09-03 22:49:28,212 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:49:53,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:49:53,020 - INFO - Retrying request to /chat/completions in 0.819852 seconds
+2024-09-03 22:49:53,971 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:49:53,971 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:50:14,120 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:50:33,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:50:33,769 - INFO - Retrying request to /chat/completions in 0.818645 seconds
+2024-09-03 22:50:34,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:50:34,733 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:50:55,071 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 22:50:55,416 - INFO - Generated post for link https://www.news-medical.net/news/20240828/Study-confirms-the-link-between-blood-glucose-levels-and-voice-pitch-in-people-with-Type-2-diabetes.aspx.
+2024-09-03 22:50:55,418 - INFO - Logged data to databases/llm.csv.
+2024-09-03 22:51:01,213 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 22:51:01,393 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:51:01,393 - INFO - Retrying request to /chat/completions in 0.959872 seconds
+2024-09-03 22:51:02,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:51:02,504 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:51:22,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:51:30,389 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:51:30,389 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:51:50,562 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:51:50,563 - INFO - Retrying request to /chat/completions in 1.797373 seconds
+2024-09-03 22:51:52,513 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:52:26,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:52:26,100 - INFO - Retrying request to /chat/completions in 0.839072 seconds
+2024-09-03 22:52:27,098 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:52:27,099 - INFO - Retrying request to /chat/completions in 1.877385 seconds
+2024-09-03 22:52:29,121 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:07,088 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:07,088 - INFO - Retrying request to /chat/completions in 0.963030 seconds
+2024-09-03 22:53:08,235 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:08,236 - INFO - Retrying request to /chat/completions in 1.808320 seconds
+2024-09-03 22:53:10,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:23,940 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:23,940 - INFO - Retrying request to /chat/completions in 0.929992 seconds
+2024-09-03 22:53:25,025 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:25,026 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:53:45,188 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:55,965 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:53:55,966 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 22:54:16,133 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 22:54:16,133 - INFO - Retrying request to /chat/completions in 1.631266 seconds
+2024-09-03 22:54:18,057 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

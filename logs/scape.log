@@ -1,0 +1,60 @@
+2024-09-03 18:05:01,754 - INFO - Medscape script started.
+2024-09-03 18:05:01,754 - INFO - Connection to Medscape established.
+2024-09-03 18:05:01,797 - INFO - Request sent to Medscape API.
+2024-09-03 18:05:02,244 - INFO - Response received from Medscape API.
+2024-09-03 18:05:02,244 - INFO - Response data decoded into dictionary.
+2024-09-03 18:05:02,245 - INFO - No existing CSV file found. Creating new data structure.
+2024-09-03 18:05:02,245 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/early-home-care-second-trimester-medical-abortion-safe-cuts-2024a1000ftt
+2024-09-03 18:05:02,245 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/early-home-care-second-trimester-medical-abortion-safe-cuts-2024a1000ftt
+2024-09-03 18:05:10,311 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/early-home-care-second-trimester-medical-abortion-safe-cuts-2024a1000ftt.
+2024-09-03 18:05:11,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:05:11,514 - INFO - Received response from OpenAI API.
+2024-09-03 18:05:11,515 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext
+2024-09-03 18:05:11,515 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-03 18:05:11,515 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-03 18:05:17,661 - ERROR - Error fetching data from http://r.jina.ai/medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw: 503 Server Error: Service Unavailable for url: https://r.jina.ai/medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-03 18:05:17,661 - INFO - Processing new item: https://www.medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9
+2024-09-03 18:05:17,661 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9
+2024-09-03 18:05:21,055 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9.
+2024-09-03 18:05:21,929 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:05:21,930 - INFO - Received response from OpenAI API.
+2024-09-03 18:05:21,930 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9
+2024-09-03 18:05:21,931 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-03 18:05:21,931 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-03 18:07:02,129 - ERROR - Error fetching data from http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8: 524 Server Error:  for url: https://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-03 18:07:02,130 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-03 18:07:02,130 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-03 18:07:07,636 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn.
+2024-09-03 18:07:08,443 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:07:08,446 - INFO - Received response from OpenAI API.
+2024-09-03 18:07:08,446 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-03 18:07:08,446 - INFO - Processing new item: https://www.medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh
+2024-09-03 18:07:08,446 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh
+2024-09-03 18:07:11,512 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/prenatal-fish-oil-supplementation-and-ad-risk-children-tied-2024a1000fwh.
+2024-09-03 18:07:12,290 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:07:12,291 - INFO - Received response from OpenAI API.
+2024-09-03 18:07:12,291 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jama/fullarticle/10.1001/jamadermatol.2024.2849
+2024-09-03 18:07:12,292 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1
+2024-09-03 18:07:12,292 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1
+2024-09-03 18:07:16,180 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/uks-hereditary-cardiac-amyloidosis-rates-higher-than-2024a1000fw1.
+2024-09-03 18:07:16,925 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:07:16,925 - INFO - Received response from OpenAI API.
+2024-09-03 18:07:16,926 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamacardiology/fullarticle/2822884
+2024-09-03 18:07:16,926 - INFO - Processing new item: https://www.medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq
+2024-09-03 18:07:16,926 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq
+2024-09-03 18:07:19,653 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq.
+2024-09-03 18:07:19,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:07:19,828 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:07:40,586 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:07:40,587 - INFO - Received response from OpenAI API.
+2024-09-03 18:07:40,588 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/gram-stain-doesnt-improve-uti-diagnosis-ed-2024a1000fqq
+2024-09-03 18:07:40,588 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-03 18:07:40,588 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-03 18:07:43,893 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
+2024-09-03 18:07:44,066 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 18:07:44,066 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 18:08:05,665 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 18:08:05,666 - INFO - Received response from OpenAI API.
+2024-09-03 18:08:05,667 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
+2024-09-03 18:08:05,670 - INFO - CSV file updated with new data.
+2024-09-03 18:08:05,670 - INFO - Medscape script completed.

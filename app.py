@@ -45,12 +45,12 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         with st.expander(f"*{model}*"):
         #    st.write(f"{prompt}")
         
-    # Extract the first line of the content
-    if '\n' in content:
-        first_line, rest_of_content = content.split('\n', 1)
-    else:
-        first_line = content[:40]
-        rest_of_content = content
+            # Extract the first line of the content
+            if "\n" in content:
+                first_line, rest_of_content = content.split('\n', 1)
+            else:
+                first_line = content[:40]
+                rest_of_content = content
     
     # Use the first line in the expander and display the rest of the content inside the expander
     with st.expander(f"{first_line}"):

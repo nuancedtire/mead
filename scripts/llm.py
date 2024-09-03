@@ -33,8 +33,16 @@ def completion_with_backoff(**kwargs):
     try:
         return client.chat.completions.create(**kwargs)
     except RateLimitError as e:
-        logging.warning(f"Rate limit exceeded. Waiting before retry: {e}")
-        time.sleep(60)  # Wait for 60 seconds before retrying
+        wait_time = 60  # 3 minutes
+        if 'Requested 1' in str(e) and 'Try again in' in str(e):
+            # Extract wait time from error message if available
+            try:
+                wait_time = int(str(e).split('Try again in')[1].split('s')[0].strip()) + 60
+            except:
+                pass
+
+        logging.warning(f"Rate limit exceeded. Waiting for {wait_time} seconds before retry: {e}")
+        time.sleep(wait_time)
         raise
 
 def extract_links_from_csv_pandas(file_path):
@@ -157,7 +165,7 @@ def generate_post(webpage_content, link, original_timestamp):
                     "properties": {
                         "post_content": {
                             "type": "string",
-                            "description": "The final generated post content based on the article in plain text and emoji."
+                            "description": "The final generated post content based on the article in plain text and emoji. Do not include hashtags here"
                             },
                         "hashtags": {
                             "type": "array",
@@ -182,7 +190,7 @@ def generate_post(webpage_content, link, original_timestamp):
     keywords = completion_with_backoff(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "Analyze the following social media post to identify its main topic and content. Based on this analysis, generate a specific search keyword that is more targeted than broad terms like ‘machine learning’ or ‘healthcare’. This keyword is to be used to find an appropriate thumbnail image from Pexels stock image library that aligns well with the post's content and overall tone. Reply with search terms only"},
+            {"role": "system", "content": "Analyze the social media post provided to determine its main topic and key content elements. Based on this analysis, generate a precise and relevant search term suitable for querying a stock image library. The search term should be specific enough to accurately reflect the post’s content while avoiding overly broad terms like ‘machine learning’ or ‘healthcare.’ This keyword will be used to find a fitting thumbnail image from the Pexels stock image library that matches the post’s message and tone. Respond only with the search term."},
             {"role": "user", "content": data.post_content}
         ]
     )
