@@ -1,41 +1,11 @@
 import streamlit as st
 import pandas as pd
 
-# # Load the data when resetting
-# try:
-#     # Attempt to read the primary CSV file
-#     data = pd.read_csv('databases/llm.csv')
-#     # Load the additional CSV files
-#     meds = pd.read_csv('databases/meds.csv')
-#     sifted = pd.read_csv('databases/sifted.csv')
-#     scape = pd.read_csv('databases/scape.csv')
-#     print("Loaded 'llm.csv' successfully.")
-# except FileNotFoundError:
-#     # If the primary file is not found, fall back to the backup file
-#     print("CSV not found. Loading' from backups.")
-#     data = pd.read_csv('databases/backup/llm-2.csv')
-#     # Load the additional CSV files
-#     meds = pd.read_csv('databases/backup/meds-2.csv')
-#     sifted = pd.read_csv('databases/backup/sifted-2.csv')
-#     scape = pd.read_csv('databases/backup/scape-1.csv')
-
-if 'source' not in st.session_state:
-    st.session_state['source'] = 'data'
-
-if st.session_state['source'] == 'data':
-    data = pd.read_csv('databases/llm-test.csv')
-    # Load the additional CSV files
-    meds = pd.read_csv('databases/meds.csv')
-    sifted = pd.read_csv('databases/sifted.csv')
-    scape = pd.read_csv('databases/scape.csv')
-    feed = 'Feed 2.0'
-else:
-    data = pd.read_csv('databases/backup/llm-2.csv')
-    # Load the additional CSV files
-    meds = pd.read_csv('databases/backup/meds-2.csv')
-    sifted = pd.read_csv('databases/backup/sifted-2.csv')
-    scape = pd.read_csv('databases/backup/scape-1.csv')    
-    feed = 'Feed 1.0'
+data = pd.read_csv('databases/llm.csv')
+# Load the additional CSV files
+meds = pd.read_csv('databases/meds.csv')
+sifted = pd.read_csv('databases/sifted.csv')
+scape = pd.read_csv('databases/scape.csv')
 
 # Convert the Timestamp to datetime
 data['Time'] = pd.to_datetime(data['Time'])
@@ -46,19 +16,6 @@ data = data.sort_values(by='Time', ascending=False)
 
 # Define the fallback image URL
 fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-SVG format
-
-# Function to validate if the URL is an image URL
-def is_valid_image_url(url):
-    if not isinstance(url, str):
-        return False
-    valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg")
-    # Strip any query parameters to validate just the file extension
-    url_without_query = url.split('?')[0]
-    # Check if the URL ends with a valid extension
-    if url_without_query.lower().endswith(valid_extensions):
-        return url_without_query  # Return the cleaned URL without query parameters
-    return False
-   # return isinstance(url, str) and url.lower().endswith(valid_extensions)
 
 # Function to determine the source
 def determine_source(link):
@@ -73,7 +30,6 @@ def determine_source(link):
 
 # Function to create a post
 def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt):
-    # image_url = is_valid_image_url(image_url)
     if not image_url:
         image_url = fallback_image_url
     source = determine_source(link)
@@ -129,16 +85,7 @@ with st.sidebar:
     last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
     last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
-    st.sidebar.success(f"**{feed}**  \n**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**Last Gen:** *{last_gen_time}*")
-
-    on = st.toggle("Toggle between 1.0 & 2.0")
-
-    if on and st.session_state['source'] != 'data':
-        feed = 'Feed 1.0'
-        st.session_state['source'] = 'data'
-    elif st.session_state['source'] == 'data':
-        feed = 'Feed 2.0'
-        st.session_state['source'] = 'not data'
+    st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**Last Gen:** *{last_gen_time}*")
 
 # Sidebar description
 st.sidebar.markdown("""Hello Team Peerr!
