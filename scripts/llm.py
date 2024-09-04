@@ -19,7 +19,8 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Load configuration
-model_name = config.llm_config['model_name']
+small_model = config.llm_config['small_model']
+large_model = config.llm_config['large_model']
 system_message = config.llm_config['system_prompt']
 hashtags = config.llm_config['hashtags']
 
@@ -128,7 +129,7 @@ def process_link(link_info):
 
 # Define the data structure using Pydantic
 class PostResponse(BaseModel):
-    post_content: str = Field(..., description="The final generated post content based on the article.")
+    post_content: str = Field(..., description="The final generated post content based on the article in plain text and emoji. Do not use Markdown formatting")
     hashtags: List[str] = Field(..., description="A list of relevant hashtags for the post.")
 
 # Function definition
@@ -146,15 +147,28 @@ def generate_post(webpage_content, link, original_timestamp):
         list: A log entry including the original and LLM timestamps, 
               generated post content, and hashtags, or None if an error occurred.
     """
-    if "Open navigation menu" in webpage_content:
-      start_index = webpage_content.find("Open navigation menu")
-      webpage_content = webpage_content[start_index:]
+    # Check if the webpage contains a valid article
+    check = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": "Determine if the provided webpage contains a full article. If it does not, respond with ‘None.’ If the webpage contains an article, convert the entire content into plain text, preserving the original text without summarization, additions, or omissions."},
+            {"role": "user", "content": webpage_content}
+        ]
+    )
+    
+    # If the check returns 'None', exit the function
+    if check.choices[0].message.content == 'None':
+        logging.info(f"No valid article found for link {link}.")
+        return None
+    
+    # Use the validated article content for further processing
+    formatted_content = check.choices[0].message.content
 
     response = completion_with_backoff(
-        model=model_name,
+        model=large_model,
         messages=[
             {"role": "system", "content": system_message},
-            {"role": "user", "content": webpage_content}
+            {"role": "user", "content": formatted_content}
             ],
         response_format={
             "type": "json_schema",
@@ -165,7 +179,7 @@ def generate_post(webpage_content, link, original_timestamp):
                     "properties": {
                         "post_content": {
                             "type": "string",
-                            "description": "The final generated post content based on the article in plain text and emoji. Do not include hashtags here"
+                            "description": "The final generated post content based on the article in plain text and emoji. Do not use Markdown formatting"
                             },
                         "hashtags": {
                             "type": "array",
@@ -188,7 +202,7 @@ def generate_post(webpage_content, link, original_timestamp):
     data = PostResponse.parse_raw(full_response)
     llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     keywords = completion_with_backoff(
-        model="gpt-4o-mini",
+        model=small_model,
         messages=[
             {"role": "system", "content": "Analyze the social media post provided to determine its main topic and key content elements. Based on this analysis, generate a precise and relevant search term suitable for querying a stock image library. The search term should be specific enough to accurately reflect the post’s content while avoiding overly broad terms like ‘machine learning’ or ‘healthcare.’ This keyword will be used to find a fitting thumbnail image from the Pexels stock image library that matches the post’s message and tone. Respond only with the search term."},
             {"role": "user", "content": data.post_content}
@@ -221,7 +235,7 @@ def generate_post(webpage_content, link, original_timestamp):
         image_link = img_data['photos'][0]['src']['large']
         print(f"Image Link: {image_link}")
 
-    log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, image_link, link, system_message, webpage_content, model_name]
+    log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, image_link, link, system_message, webpage_content, large_model]
     logging.info(f"Generated post for link {link}.")
     print(f"Generated post for link {link}.")
     return log_entry

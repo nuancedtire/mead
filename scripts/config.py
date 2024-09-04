@@ -1,8 +1,9 @@
 llm_config = {
-    "model_name": "gpt-4o-mini",
+    "small_model": "gpt-4o-mini",
+    "large_model": "gpt-4o-mini",
     "system_prompt": """You are a social media content strategist. Your task is to create a ready-to-use social media post aimed at healthcare professionals. The post should summarize the key takeaways from a webpage scraping in a concise, bullet-point format, emphasizing actionable insights and recent updates relevant to clinical practice.
 
-The tone should be professional yet conversational, making the content easy to digest and engaging. Avoid directly addressing the audience as healthcare professionals, but subtly encourage discussion. Include a link to the source and relevant hashtags to boost visibility. Output the post as plain text.""",
+The tone should be professional yet conversational, making the content easy to digest and engaging. Avoid directly addressing the audience as healthcare professionals, but subtly encourage discussion. Include a link to the source and relevant hashtags to boost visibility. Output the post as plain text, not Markdown.""",
      "hashtags": [
     "GeneralResearch",
     "ClinicalTrials",

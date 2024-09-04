@@ -124,3 +124,132 @@
 2024-09-03 22:54:16,133 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2024-09-03 22:54:16,133 - INFO - Retrying request to /chat/completions in 1.631266 seconds
 2024-09-03 22:54:18,057 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:19:11,874 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-03 23:19:11,876 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 23:19:11,879 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 23:19:11,886 - INFO - Loaded 3 links from databases/llm.csv.
+2024-09-03 23:19:11,886 - INFO - Total unique links to process: 14
+2024-09-03 23:19:37,567 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 23:19:37,817 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:19:41,668 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:19:41,669 - INFO - Retrying request to /chat/completions in 3.048000 seconds
+2024-09-03 23:19:44,976 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:20:03,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:20:03,019 - INFO - Retrying request to /chat/completions in 15.126000 seconds
+2024-09-03 23:20:18,359 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:20:38,150 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:20:38,150 - INFO - Retrying request to /chat/completions in 13.464000 seconds
+2024-09-03 23:20:51,779 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:20:51,779 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 23:21:11,932 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:21:45,221 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:22:17,733 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:24:46,863 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-03 23:24:46,865 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 23:24:46,867 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 23:24:46,872 - INFO - Loaded 3 links from databases/llm.csv.
+2024-09-03 23:24:46,872 - INFO - Total unique links to process: 14
+2024-09-03 23:24:48,117 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 23:24:48,441 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:25:10,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:25:37,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:25:46,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:26:13,665 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-03 23:26:13,667 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 23:26:13,670 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 23:26:13,674 - INFO - Loaded 3 links from databases/llm.csv.
+2024-09-03 23:26:13,674 - INFO - Total unique links to process: 14
+2024-09-03 23:26:14,873 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 23:26:15,119 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:26:33,887 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:26:47,501 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:26:47,502 - INFO - Retrying request to /chat/completions in 7.962000 seconds
+2024-09-03 23:26:55,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:27:32,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:27:44,871 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:27:44,871 - INFO - Retrying request to /chat/completions in 17.526000 seconds
+2024-09-03 23:28:02,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:28:37,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:29:36,341 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-03 23:29:36,343 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 23:29:36,346 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 23:29:36,351 - INFO - Loaded 3 links from databases/llm.csv.
+2024-09-03 23:29:36,351 - INFO - Total unique links to process: 14
+2024-09-03 23:29:38,031 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 23:29:38,278 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:30:03,614 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:30:36,708 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:31:16,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:31:23,753 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:31:23,753 - INFO - Retrying request to /chat/completions in 1.800000 seconds
+2024-09-03 23:31:25,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:31:26,058 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:31:26,059 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 23:31:46,287 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:31:46,288 - INFO - Retrying request to /chat/completions in 12.738000 seconds
+2024-09-03 23:31:59,266 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-03 23:48:59,020 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-03 23:48:59,022 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 23:48:59,025 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 23:48:59,029 - INFO - Loaded 3 links from databases/llm.csv.
+2024-09-03 23:48:59,029 - INFO - Total unique links to process: 14
+2024-09-03 23:49:00,803 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 23:49:04,568 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 23:51:10,820 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-03 23:51:10,823 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-03 23:51:10,825 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-03 23:51:10,830 - INFO - Loaded 3 links from databases/llm.csv.
+2024-09-03 23:51:10,830 - INFO - Total unique links to process: 14
+2024-09-03 23:51:12,014 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 23:51:15,547 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 23:51:15,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 23:51:16,209 - INFO - Generated post for link https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-03 23:51:16,212 - INFO - Logged data to databases/llm.csv.
+2024-09-03 23:51:19,568 - INFO - Successfully fetched data from http://r.jina.ai/https://pharmaphorum.com/news/jjs-balversa-first-pan-fgfr-bladder-cancer-drug-eu.
+2024-09-03 23:51:24,065 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 23:51:24,202 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:51:24,202 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 23:51:44,352 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:51:44,353 - INFO - Retrying request to /chat/completions in 1.946394 seconds
+2024-09-03 23:51:46,437 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:52:25,807 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:52:25,807 - INFO - Retrying request to /chat/completions in 0.836049 seconds
+2024-09-03 23:52:26,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:52:26,774 - INFO - Retrying request to /chat/completions in 1.860648 seconds
+2024-09-03 23:52:28,767 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:52:57,959 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:52:57,960 - INFO - Retrying request to /chat/completions in 0.951478 seconds
+2024-09-03 23:52:59,044 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:52:59,044 - INFO - Retrying request to /chat/completions in 1.551382 seconds
+2024-09-03 23:53:00,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:53:05,124 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:53:05,124 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-03 23:53:25,264 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:53:25,264 - INFO - Retrying request to /chat/completions in 1.663716 seconds
+2024-09-03 23:53:27,065 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:54:01,682 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:54:01,683 - INFO - Retrying request to /chat/completions in 0.942566 seconds
+2024-09-03 23:54:02,759 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:54:02,759 - INFO - Retrying request to /chat/completions in 1.826696 seconds
+2024-09-03 23:54:04,727 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:54:33,373 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:54:33,373 - INFO - Retrying request to /chat/completions in 0.968010 seconds
+2024-09-03 23:54:34,479 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-03 23:54:34,480 - INFO - Retrying request to /chat/completions in 1.526456 seconds
+2024-09-03 23:54:36,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 01:42:47,323 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 01:42:47,326 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 01:42:47,328 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 01:42:47,328 - WARNING - databases/llm.csv does not exist, skipping...
+2024-09-04 01:42:47,328 - INFO - Total unique links to process: 17
+2024-09-04 01:42:50,465 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240829/Acute-kidney-injury-doubles-dementia-risk-study-finds.aspx.
+2024-09-04 01:43:08,859 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 01:43:12,426 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 01:43:12,934 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 01:43:13,509 - INFO - Generated post for link https://www.news-medical.net/news/20240829/Acute-kidney-injury-doubles-dementia-risk-study-finds.aspx.
+2024-09-04 01:43:13,521 - INFO - Logged data to databases/llm.csv.
+2024-09-04 01:43:15,057 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240828/Study-confirms-the-link-between-blood-glucose-levels-and-voice-pitch-in-people-with-Type-2-diabetes.aspx.
+2024-09-04 01:43:15,228 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 01:43:15,229 - INFO - Retrying request to /chat/completions in 0.809115 seconds
+2024-09-04 01:43:16,214 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 01:43:16,214 - INFO - Retrying request to /chat/completions in 20.000000 seconds
