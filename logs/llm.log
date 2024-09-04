@@ -253,3 +253,222 @@
 2024-09-04 01:43:15,229 - INFO - Retrying request to /chat/completions in 0.809115 seconds
 2024-09-04 01:43:16,214 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
 2024-09-04 01:43:16,214 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:10:57,562 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 02:10:57,564 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 02:10:57,567 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 02:10:57,570 - INFO - Loaded 1 links from databases/llm.csv.
+2024-09-04 02:10:57,570 - INFO - Total unique links to process: 16
+2024-09-04 02:10:58,832 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240828/Study-confirms-the-link-between-blood-glucose-levels-and-voice-pitch-in-people-with-Type-2-diabetes.aspx.
+2024-09-04 02:11:08,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:11:11,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:18:34,370 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 02:18:34,372 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 02:18:34,374 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 02:18:34,378 - INFO - Loaded 1 links from databases/llm.csv.
+2024-09-04 02:18:34,378 - INFO - Total unique links to process: 16
+2024-09-04 02:18:35,987 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240828/Study-confirms-the-link-between-blood-glucose-levels-and-voice-pitch-in-people-with-Type-2-diabetes.aspx.
+2024-09-04 02:18:43,889 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:18:46,857 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:18:47,260 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:18:47,647 - INFO - Generated post for link https://www.news-medical.net/news/20240828/Study-confirms-the-link-between-blood-glucose-levels-and-voice-pitch-in-people-with-Type-2-diabetes.aspx.
+2024-09-04 02:18:47,649 - INFO - Logged data to databases/llm.csv.
+2024-09-04 02:18:49,531 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-04 02:18:49,689 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:18:49,689 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:19:09,855 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:19:09,855 - INFO - Retrying request to /chat/completions in 1.695693 seconds
+2024-09-04 02:19:11,709 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:19:57,149 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 02:19:57,152 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 02:19:57,154 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 02:19:57,157 - INFO - Loaded 2 links from databases/llm.csv.
+2024-09-04 02:19:57,157 - INFO - Total unique links to process: 15
+2024-09-04 02:19:58,308 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-04 02:20:04,764 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:20:04,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:20:04,906 - INFO - Retrying request to /chat/completions in 0.949849 seconds
+2024-09-04 02:20:05,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:20:05,998 - INFO - Retrying request to /chat/completions in 1.846517 seconds
+2024-09-04 02:20:07,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:20:22,472 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:20:22,473 - INFO - Retrying request to /chat/completions in 0.784751 seconds
+2024-09-04 02:20:23,398 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:20:23,399 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:20:43,551 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:21:02,735 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:21:02,736 - INFO - Retrying request to /chat/completions in 0.806565 seconds
+2024-09-04 02:21:03,679 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:21:03,680 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:21:23,830 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:21:55,802 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:21:55,803 - INFO - Retrying request to /chat/completions in 0.983908 seconds
+2024-09-04 02:21:56,922 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:21:56,923 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:22:17,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:22:23,045 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:22:23,046 - INFO - Retrying request to /chat/completions in 0.956334 seconds
+2024-09-04 02:22:24,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:22:24,144 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:22:44,299 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:23:19,889 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:23:19,890 - INFO - Retrying request to /chat/completions in 0.752403 seconds
+2024-09-04 02:23:20,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:23:20,781 - INFO - Retrying request to /chat/completions in 1.522190 seconds
+2024-09-04 02:23:22,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:35:53,884 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 02:35:53,887 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 02:35:53,889 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 02:35:53,892 - INFO - Loaded 2 links from databases/llm.csv.
+2024-09-04 02:35:53,892 - INFO - Total unique links to process: 15
+2024-09-04 02:35:57,362 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-04 02:36:02,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:36:04,946 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:43:53,735 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 02:43:53,737 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 02:43:53,740 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 02:43:53,743 - INFO - Loaded 2 links from databases/llm.csv.
+2024-09-04 02:43:53,743 - INFO - Total unique links to process: 15
+2024-09-04 02:43:55,412 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-04 02:43:55,591 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:43:55,592 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:44:15,747 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:44:15,748 - INFO - Retrying request to /chat/completions in 1.988016 seconds
+2024-09-04 02:44:17,884 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:44:17,885 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:44:34,631 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:44:34,631 - INFO - Retrying request to /chat/completions in 0.978971 seconds
+2024-09-04 02:44:35,755 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:44:35,756 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:44:55,914 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:44:55,915 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:45:27,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:45:27,076 - INFO - Retrying request to /chat/completions in 0.983258 seconds
+2024-09-04 02:45:28,211 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:45:28,211 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:45:48,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:45:48,364 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:46:25,985 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:46:25,986 - INFO - Retrying request to /chat/completions in 0.980161 seconds
+2024-09-04 02:46:27,122 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:46:27,123 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:46:47,267 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:46:47,268 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:47:25,248 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:47:25,249 - INFO - Retrying request to /chat/completions in 0.992029 seconds
+2024-09-04 02:47:26,384 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:47:26,384 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:47:46,536 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:47:46,537 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:48:06,398 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:48:06,399 - INFO - Retrying request to /chat/completions in 0.777761 seconds
+2024-09-04 02:48:07,320 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:48:07,320 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:48:34,228 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:48:34,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:48:34,363 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:48:54,507 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:48:54,508 - INFO - Retrying request to /chat/completions in 1.526094 seconds
+2024-09-04 02:48:56,170 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:48:56,171 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:49:08,658 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:49:08,659 - INFO - Retrying request to /chat/completions in 0.807067 seconds
+2024-09-04 02:49:09,599 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:49:09,599 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:49:29,747 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:49:29,748 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:49:55,020 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:49:55,021 - INFO - Retrying request to /chat/completions in 0.765844 seconds
+2024-09-04 02:49:55,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:49:55,935 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:50:16,084 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:50:16,084 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:50:38,658 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:50:38,658 - INFO - Retrying request to /chat/completions in 0.792418 seconds
+2024-09-04 02:50:39,585 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:50:39,586 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:50:59,744 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:50:59,744 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:51:27,305 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:51:27,306 - INFO - Retrying request to /chat/completions in 0.865321 seconds
+2024-09-04 02:51:28,309 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:51:28,309 - INFO - Retrying request to /chat/completions in 1.893021 seconds
+2024-09-04 02:51:30,345 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:51:30,345 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:52:01,322 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:52:01,322 - INFO - Retrying request to /chat/completions in 0.775521 seconds
+2024-09-04 02:52:02,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:52:02,276 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 02:52:22,425 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:52:22,426 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:53:18,420 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 02:53:18,423 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 02:53:18,425 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 02:53:18,429 - INFO - Loaded 2 links from databases/llm.csv.
+2024-09-04 02:53:18,429 - INFO - Total unique links to process: 15
+2024-09-04 02:53:19,888 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-04 02:53:20,054 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:53:20,055 - INFO - Retrying request to /chat/completions in 0.868694 seconds
+2024-09-04 02:53:21,078 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:53:21,079 - INFO - Retrying request to /chat/completions in 1.504968 seconds
+2024-09-04 02:53:22,733 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:53:22,734 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 02:56:48,799 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 02:56:48,937 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:56:48,937 - INFO - Retrying request to /chat/completions in 0.872494 seconds
+2024-09-04 02:56:49,943 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:56:49,944 - INFO - Retrying request to /chat/completions in 1.985439 seconds
+2024-09-04 02:56:52,069 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 02:56:52,069 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 03:00:08,841 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 03:00:08,841 - INFO - Retrying request to /chat/completions in 0.774235 seconds
+2024-09-04 03:00:09,746 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 03:00:09,747 - INFO - Retrying request to /chat/completions in 1.668780 seconds
+2024-09-04 03:00:11,552 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 03:00:11,553 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 03:03:14,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:03:14,615 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 03:03:14,616 - INFO - Retrying request to /chat/completions in 0.804269 seconds
+2024-09-04 03:03:15,557 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 03:03:15,557 - INFO - Retrying request to /chat/completions in 1.503968 seconds
+2024-09-04 03:03:17,197 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 03:03:17,198 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 03:05:43,142 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 03:05:43,144 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 03:05:43,146 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 03:05:43,150 - INFO - Loaded 2 links from databases/llm.csv.
+2024-09-04 03:05:43,150 - INFO - Total unique links to process: 15
+2024-09-04 03:05:46,701 - INFO - Successfully fetched data from http://r.jina.ai/https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-04 03:05:53,275 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:05:57,868 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:05:58,295 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:05:58,895 - INFO - Generated post for link https://medicalxpress.com/news/2024-08-eu-moderna-rsv-vaccine-60s.html.
+2024-09-04 03:05:58,897 - INFO - Logged data to databases/llm.csv.
+2024-09-04 03:06:01,627 - INFO - Successfully fetched data from http://r.jina.ai/https://pharmaphorum.com/news/jjs-balversa-first-pan-fgfr-bladder-cancer-drug-eu.
+2024-09-04 03:06:06,051 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:09,481 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:09,921 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:10,416 - INFO - Generated post for link https://pharmaphorum.com/news/jjs-balversa-first-pan-fgfr-bladder-cancer-drug-eu.
+2024-09-04 03:06:10,418 - INFO - Logged data to databases/llm.csv.
+2024-09-04 03:06:13,514 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 03:06:23,736 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:26,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:27,256 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:27,525 - INFO - Generated post for link https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 03:06:27,527 - INFO - Logged data to databases/llm.csv.
+2024-09-04 03:06:29,902 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/doccla-raises-a-35m-series-b-news/.
+2024-09-04 03:06:41,360 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:44,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:44,681 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:06:45,043 - INFO - Generated post for link https://sifted.eu/articles/doccla-raises-a-35m-series-b-news/.
+2024-09-04 03:06:45,045 - INFO - Logged data to databases/llm.csv.
+2024-09-04 03:10:13,362 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 03:10:13,364 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 03:10:13,366 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 03:10:13,370 - INFO - Loaded 3 links from databases/llm.csv.
+2024-09-04 03:10:13,370 - INFO - Total unique links to process: 14
+2024-09-04 03:10:17,578 - INFO - Successfully fetched data from http://r.jina.ai/https://pharmaphorum.com/news/jjs-balversa-first-pan-fgfr-bladder-cancer-drug-eu.
+2024-09-04 03:10:18,048 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:10:19,910 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:10:20,933 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 03:10:21,244 - INFO - Generated post for link https://pharmaphorum.com/news/jjs-balversa-first-pan-fgfr-bladder-cancer-drug-eu.
+2024-09-04 03:10:21,246 - INFO - Logged data to databases/llm.csv.

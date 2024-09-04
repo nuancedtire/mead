@@ -11,6 +11,9 @@ import json
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 from pydantic import BaseModel, Field
 from typing import List
+from openai import RateLimitError
+from pydantic import ValidationError
+import time
 
 # Set up logging
 log_file_path = "logs/llm.log"
@@ -34,7 +37,7 @@ def completion_with_backoff(**kwargs):
     try:
         return client.chat.completions.create(**kwargs)
     except RateLimitError as e:
-        wait_time = 60  # 3 minutes
+        wait_time = 180  # 3 minutes
         if 'Requested 1' in str(e) and 'Try again in' in str(e):
             # Extract wait time from error message if available
             try:
@@ -132,7 +135,6 @@ class PostResponse(BaseModel):
     post_content: str = Field(..., description="The final generated post content based on the article in plain text and emoji. Do not use Markdown formatting")
     hashtags: List[str] = Field(..., description="A list of relevant hashtags for the post.")
 
-# Function definition
 def generate_post(webpage_content, link, original_timestamp):
     """
     Generates post content using the OpenAI API and formats it with the 
@@ -147,8 +149,7 @@ def generate_post(webpage_content, link, original_timestamp):
         list: A log entry including the original and LLM timestamps, 
               generated post content, and hashtags, or None if an error occurred.
     """
-    # Check if the webpage contains a valid article
-    check = client.chat.completions.create(
+    check = completion_with_backoff(
         model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "Determine if the provided webpage contains a full article. If it does not, respond with ‘None.’ If the webpage contains an article, convert the entire content into plain text, preserving the original text without summarization, additions, or omissions."},
@@ -157,7 +158,7 @@ def generate_post(webpage_content, link, original_timestamp):
     )
     
     # If the check returns 'None', exit the function
-    if check.choices[0].message.content == 'None':
+    if check.choices[0].message.content.strip().lower() == 'none':
         logging.info(f"No valid article found for link {link}.")
         return None
     
@@ -168,7 +169,7 @@ def generate_post(webpage_content, link, original_timestamp):
         model=large_model,
         messages=[
             {"role": "system", "content": system_message},
-            {"role": "user", "content": formatted_content}
+            {"role": "user", "content": f"Source: {link}  \n{formatted_content}"}
             ],
         response_format={
             "type": "json_schema",
@@ -198,8 +199,18 @@ def generate_post(webpage_content, link, original_timestamp):
             }
         }
     )
+    
     full_response = response.choices[0].message.content
-    data = PostResponse.parse_raw(full_response)
+
+    try:
+        data = PostResponse.parse_raw(full_response)
+    except ValidationError as e:
+        logging.error(f"Validation error when parsing response: {e}")
+        print(f"Validation error: {e}")
+        
+        # Return None or handle as needed
+        return None
+
     llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     keywords = completion_with_backoff(
         model=small_model,
@@ -208,6 +219,7 @@ def generate_post(webpage_content, link, original_timestamp):
             {"role": "user", "content": data.post_content}
         ]
     )
+
     # Set your API key
     api_key = "fp8Urerp0HYAsM2UmutJhXbhuSOeXEu75TJvzmIEYOVQ51ckelerwvPk"
     image_query = keywords.choices[0].message.content
@@ -232,7 +244,7 @@ def generate_post(webpage_content, link, original_timestamp):
     if image_response.status_code == 200:
         # Parse the JSON response
         img_data = image_response.json()
-        image_link = img_data['photos'][0]['src']['large']
+        image_link = img_data['photos'][0]['src']['original']
         print(f"Image Link: {image_link}")
 
     log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, image_link, link, system_message, formatted_content, large_model]
