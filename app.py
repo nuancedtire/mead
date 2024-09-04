@@ -4,13 +4,25 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 from datetime import datetime
 import re
+import requests
+import json
+import time
 
 # Define the fallback image URL
 fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-SVG format
+
 # You can keep loading the additional CSV files as they are
 meds = pd.read_csv('databases/meds.csv')
 sifted = pd.read_csv('databases/sifted.csv')
 scape = pd.read_csv('databases/scape.csv')
+
+# Constants
+api_key = 'AIzaSyAkJ8VVEHG7IAqwnUg9UuN8Hf_vttdMj2Y'
+project_id = "peerr-cea41"
+database_url = f"https://firestore.googleapis.com/v1/projects/{project_id}/databases/(default)/documents"
+collection = "thoughts"
+default_email = 'fazeennasser@gmail.com'
+default_password = 'cowQiq-guzzas-buxse9'
 
 def load_firebase():
     # Check if the Firebase app is already initialized
@@ -39,7 +51,7 @@ def load_firebase():
 
     # Convert the Timestamp to datetime
     data['Time'] = pd.to_datetime(data['Time'])
-    data['Document ID'] = data['LLM Timestamp']
+    data['Faz ID'] = data['LLM Timestamp']
     data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
 
     # Sort the data by Timestamp, latest at the top
@@ -80,7 +92,8 @@ def clean_hashtags(hashtag_string):
     # Strip any extra whitespace around the hashtags
     return [f"#{tag.strip()}" for tag in hashtags]
 
-def update_upload_status(source_id, status):
+# Function to update Faz Firebase with Upload Status and Document ID
+def update_upload_status(source_id, peerr_document_id, status):
     """
     Updates the upload status in the second Firestore database.
 
@@ -99,24 +112,147 @@ def update_upload_status(source_id, status):
 
     # Initialize Firestore client
     db = firestore.client()
+
     # Fetch data from Firestore collection "scraper-04-11-24"
     scraper_collection = db.collection('scraper-04-11-24')
-
     status_data = {
-        "upload_status": status
+        "upload_status": status,
+        "peerr_document_id": peerr_document_id,
     }
 
     try:
-        # Update the document in Faz Firestore database
+        # Update the document in the second Firestore database
         scraper_collection.document(source_id).set(status_data, merge=True)
-        print(f"Upload status successfully updated to {status} for document {source_id} in Faz Firestore database!")
+        print(f"Upload status successfully updated to {status} for document {source_id} in the second Firestore database!")
         return True
     except Exception as e:
-        print(f"Failed to update upload status for document {source_id} in Faz Firestore database: {str(e)}")
+        print(f"Failed to update upload status for document {source_id} in the second Firestore database: {str(e)}")
         return False
 
+def sign_in(email, password):
+    """
+    Authenticates the user with Firebase using email and password.
+
+    Parameters:
+        email (str): The user's email address.
+        password (str): The user's password.
+
+    Returns:
+        tuple: A tuple containing the bearer token and the local ID of the user.
+
+    Raises:
+        Exception: If the sign-in fails, an exception is raised with the error message.
+    """
+    url = f'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={api_key}'
+    headers = {
+        'accept': '*/*',
+        'content-type': 'application/json',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
+    }
+    data = {
+        "returnSecureToken": True,
+        "email": email,
+        "password": password
+    }
+    response = requests.post(url, headers=headers, data=json.dumps(data))
+    if response.status_code == 200:
+        tokens = response.json()
+        return tokens.get('idToken'), tokens.get('localId')
+    else:
+        raise Exception(f"Failed to sign in: {response.status_code}, {response.text}")
+
+def remove_markdown_formatting(text):
+    """
+    Removes markdown formatting from the provided text.
+
+    Parameters:
+        text (str): The input text with markdown formatting.
+
+    Returns:
+        str: The text with markdown formatting removed.
+    """
+    text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
+    text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
+    text = re.sub(r'\*(.*?)\*', r'\1', text)
+    text = re.sub(r'_(.*?)_', r'\1', text)
+    text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
+    return text
+
+def post_to_firestore(source_id, post, image, email=None, password=None, localId=None, posted=None, updated=None, status="live"):
+    email = email or default_email
+    password = password or default_password
+    
+    bearer_token, user_local_id = sign_in(email, password)
+    local_id = localId or user_local_id
+
+    post = remove_markdown_formatting(post)
+    postedTs = posted or int(time.time())
+    updatedTs = updated or int(time.time())
+
+    post_data = {
+        "fields": {
+            "body": {"stringValue": post},
+            "imageUrl": {"stringValue": f"{image}?auto=compress&cs=tinysrgb&fit=crop&h=360&w=640"},
+            "isPinned": {"booleanValue": False},
+            "status": {"stringValue": status},
+            "postedTs": {"integerValue": postedTs},
+            "updatedTs": {"integerValue": updatedTs},
+            "userName": {"stringValue": "Fazeen"},
+            "userPhoto": {"nullValue": None},
+            "userId": {"stringValue": local_id},
+            "likes": {"arrayValue": {"values": []}},
+            "audience": {"stringValue": "General"},
+            "parentItem": {"mapValue": {"fields": {}}},
+            "parentItemType": {"stringValue": ""},
+            "priority": {"integerValue": 100}
+        }
+    }
+
+    headers = {
+        "Authorization": f"Bearer {bearer_token}",
+        "Content-Type": "application/json"
+    }
+
+    response = requests.post(f"{database_url}/{collection}", headers=headers, data=json.dumps(post_data))
+
+    if response.status_code in [200, 201]:
+        peerr_document_id = response.json()['name'].split('/')[-1]
+        print("Post successfully added to Firestore!")
+        
+        # Update upload status in the second database
+        update_upload_status(source_id, peerr_document_id, True)
+        
+        return peerr_document_id
+    else:
+        print("Failed to add post to Firestore!")
+        return response.text
+
+def delete_from_firestore(source_id, document_id, email=None, password=None):
+    email = email or default_email
+    password = password or default_password
+    
+    bearer_token, _ = sign_in(email, password)
+    
+    # Update upload status to False in the second database before deleting the document
+    update_upload_status(source_id, document_id, False)
+    
+    headers = {
+        "Authorization": f"Bearer {bearer_token}",
+        "Content-Type": "application/json"
+    }
+    
+    url = f"{database_url}/{collection}/{document_id}"
+    response = requests.delete(url, headers=headers)
+
+    if response.status_code == 200:
+        print("Document successfully deleted from Firestore!")
+        return True
+    else:
+        print("Failed to delete document from Firestore!")
+        return response.text
+
 # Function to create a post
-def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt, upload_status, document_id):
+def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt, upload_status, peerr_document_id, source_id):
     if not image_url:
         image_url = fallback_image_url
     source = determine_source(link)
@@ -130,14 +266,16 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     with col2:
         st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
         if upload_status == True:
-            st.write(f'🟢 Live on Peerr')
-            if st.button("Delete from Peerr", key=document_id):
-                update_upload_status(document_id, False)
+            st.write(f'🟢 Live on Peerr | ID: {peerr_document_id}')
+            if st.button("Delete from Peerr", key=source_id):
+                delete_from_firestore(source_id, peerr_document_id)
+                update_upload_status(source_id, peerr_document_id, False)
                 st.rerun()
         else:
             st.write(f'🔴 Not on Peerr')
-            if st.button("Post to Peerr", key=document_id):
-                update_upload_status(document_id, True)
+            if st.button("Post to Peerr", key=source_id):
+                new_peerr_document_id = post_to_firestore(source_id, content, image_url)  # Correct function for posting
+                update_upload_status(source_id, new_peerr_document_id, True)
                 st.rerun()
     # Extract the first line of the content
     if "\n" in content:
@@ -188,11 +326,6 @@ an image (with a fallback if none is provided), and a snippet of the content.
 You can expand each post to view the full content. You can also filter by date below.
 """)
 
-# Date Filter in Sidebar
-st.sidebar.header("Filter by Date")
-start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())
-end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
-
 # Hashtag Filter in Sidebar
 st.sidebar.header("Filter by Hashtags")
 
@@ -204,6 +337,11 @@ unique_hashtags = set(sum(data['Hashtags'].tolist(), []))
 
 # Create a multi-select widget
 selected_hashtags = st.sidebar.multiselect("Select Hashtags", options=list(unique_hashtags))
+
+# Date Filter in Sidebar
+st.sidebar.header("Filter by Date")
+start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())
+end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
 
 # Filter data based on the selected date range
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
@@ -226,6 +364,7 @@ else:
             model=row['Model'],
             link=row['Link'],
             prompt=row['Prompt'],
-            upload_status=row['upload_status'],
-            document_id=row['Document ID']
+            upload_status=False if 'upload_status' not in row or pd.isna(row['upload_status']) else row['upload_status'],
+            source_id=row['Faz ID'],
+            peerr_document_id=None if 'peerr_document_id' not in row or pd.isna(row['peerr_document_id']) else row['peerr_document_id']
         )
