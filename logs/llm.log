@@ -754,3 +754,14 @@
 2024-09-04 20:16:52,578 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/None
 2024-09-04 20:17:22,859 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/None
 2024-09-04 20:17:53,563 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/None
+2024-09-04 22:09:40,203 - INFO - Loaded 10 links from databases/meds.csv.
+2024-09-04 22:09:40,205 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 22:09:40,208 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-04 22:09:40,214 - INFO - Loaded 25 links from databases/llm.csv.
+2024-09-04 22:09:40,214 - INFO - Total unique links to process: 2
+2024-09-04 22:09:44,303 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-04 22:09:44,603 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 22:09:44,605 - INFO - No valid article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-04 22:09:51,299 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
+2024-09-04 22:09:51,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 22:09:51,740 - INFO - No valid article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
