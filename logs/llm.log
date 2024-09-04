@@ -635,3 +635,77 @@
 2024-09-04 09:33:48,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-04 09:33:49,137 - INFO - Generated post for link http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i.
 2024-09-04 09:33:49,140 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:24:07,886 - INFO - Loaded 10 links from databases/meds.csv.
+2024-09-04 16:24:07,888 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 16:24:07,891 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-04 16:24:07,896 - INFO - Loaded 15 links from databases/llm.csv.
+2024-09-04 16:24:07,896 - INFO - Total unique links to process: 12
+2024-09-04 16:24:10,851 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 16:24:23,223 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:24:26,088 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:24:26,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:24:26,939 - INFO - Generated post for link https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 16:24:26,941 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:24:29,388 - INFO - Successfully fetched data from http://r.jina.ai/https://www.hcplive.com/view/non-invasive-tests-predict-liver-cancer-risk-in-hepatitis-c-patients-after-svr.
+2024-09-04 16:24:54,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:24:59,471 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:25:00,054 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:25:00,241 - INFO - Generated post for link https://www.hcplive.com/view/non-invasive-tests-predict-liver-cancer-risk-in-hepatitis-c-patients-after-svr.
+2024-09-04 16:25:00,243 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:25:24,750 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/endocrinology/20240903/providers-should-assess-hba1c-and-cgm-metrics-in-diabetes-management.
+2024-09-04 16:25:43,347 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:25:49,022 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:25:49,357 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:25:49,821 - INFO - Generated post for link https://www.healio.com/news/endocrinology/20240903/providers-should-assess-hba1c-and-cgm-metrics-in-diabetes-management.
+2024-09-04 16:25:49,823 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:25:54,557 - INFO - Successfully fetched data from http://r.jina.ai/https://www.healio.com/news/pulmonology/20240903/clinicians-chat-betablockers-dupilumab-ensifentrine-for-copd-on-x-in-first-half-of-2024.
+2024-09-04 16:26:13,936 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:26:19,913 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:26:20,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:26:20,647 - INFO - Generated post for link https://www.healio.com/news/pulmonology/20240903/clinicians-chat-betablockers-dupilumab-ensifentrine-for-copd-on-x-in-first-half-of-2024.
+2024-09-04 16:26:20,648 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:26:23,418 - INFO - Successfully fetched data from http://r.jina.ai/https://www.news-medical.net/news/20240903/Major-trial-to-test-multiple-drugs-for-progressive-supranuclear-palsy.aspx.
+2024-09-04 16:26:43,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:26:46,391 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:26:46,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:26:47,017 - INFO - Generated post for link https://www.news-medical.net/news/20240903/Major-trial-to-test-multiple-drugs-for-progressive-supranuclear-palsy.aspx.
+2024-09-04 16:26:47,018 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:26:48,351 - INFO - Successfully fetched data from http://r.jina.ai/https://www.prnewswire.com/news-releases/skyline-therapeutics-novel-gene-therapy-skg1108-receives-fda-orphan-drug-designation-for-retinitis-pigmentosa-302236346.html.
+2024-09-04 16:27:03,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:27:07,606 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:27:08,058 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:27:08,215 - INFO - Generated post for link https://www.prnewswire.com/news-releases/skyline-therapeutics-novel-gene-therapy-skg1108-receives-fda-orphan-drug-designation-for-retinitis-pigmentosa-302236346.html.
+2024-09-04 16:27:08,216 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:27:12,700 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-04 16:27:13,272 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:27:13,273 - INFO - No valid article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-04 16:27:17,389 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
+2024-09-04 16:30:51,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:30:56,406 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:30:56,735 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:30:56,901 - INFO - Generated post for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
+2024-09-04 16:30:56,903 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:30:59,779 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2823083?guestAccessKey=2dc15077-db5b-45cf-b2f1-f1fcf6020c5c&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090324.
+2024-09-04 16:32:00,480 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:32:06,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:32:07,134 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:32:07,330 - INFO - Generated post for link https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2823083?guestAccessKey=2dc15077-db5b-45cf-b2f1-f1fcf6020c5c&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090324.
+2024-09-04 16:32:07,331 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:32:09,709 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822454#:~:text=In%20this%20cross%2Dsectional%20study%2C%20approximately%2050%25%20of%20cancer,disadvantaged%2C%20and%20had%20advanced%20disease.
+2024-09-04 16:32:35,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:32:38,093 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:32:38,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:32:38,834 - INFO - Generated post for link https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822454#:~:text=In%20this%20cross%2Dsectional%20study%2C%20approximately%2050%25%20of%20cancer,disadvantaged%2C%20and%20had%20advanced%20disease.
+2024-09-04 16:32:38,835 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:32:42,121 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e.
+2024-09-04 16:33:16,703 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:33:19,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:33:20,023 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:33:20,307 - INFO - Generated post for link http://medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e.
+2024-09-04 16:33:20,308 - INFO - Logged data to databases/llm.csv.
+2024-09-04 16:33:21,916 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw.
+2024-09-04 16:33:27,251 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:33:29,904 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:33:30,304 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:33:30,444 - INFO - Generated post for link http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw.
+2024-09-04 16:33:30,445 - INFO - Logged data to databases/llm.csv.

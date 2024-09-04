@@ -58,3 +58,41 @@
 2024-09-03 18:08:05,667 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/how-can-primary-care-teams-collaborate-more-effectively-2024a1000f0i
 2024-09-03 18:08:05,670 - INFO - CSV file updated with new data.
 2024-09-03 18:08:05,670 - INFO - Medscape script completed.
+2024-09-04 16:23:47,100 - INFO - Medscape script started.
+2024-09-04 16:23:47,100 - INFO - Connection to Medscape established.
+2024-09-04 16:23:47,225 - INFO - Request sent to Medscape API.
+2024-09-04 16:23:47,498 - INFO - Response received from Medscape API.
+2024-09-04 16:23:47,498 - INFO - Response data decoded into dictionary.
+2024-09-04 16:23:47,501 - INFO - Existing CSV file loaded.
+2024-09-04 16:23:47,501 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/meat-consumption-tied-higher-type-2-diabetes-risk-2024a1000fiz
+2024-09-04 16:23:47,501 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/meat-consumption-tied-higher-type-2-diabetes-risk-2024a1000fiz
+2024-09-04 16:23:48,300 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/meat-consumption-tied-higher-type-2-diabetes-risk-2024a1000fiz.
+2024-09-04 16:23:49,216 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:23:49,247 - INFO - Received response from OpenAI API.
+2024-09-04 16:23:49,247 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext
+2024-09-04 16:23:49,247 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g
+2024-09-04 16:23:49,247 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g
+2024-09-04 16:23:52,541 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g.
+2024-09-04 16:23:53,858 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:23:53,859 - INFO - Received response from OpenAI API.
+2024-09-04 16:23:53,859 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2823083?guestAccessKey=2dc15077-db5b-45cf-b2f1-f1fcf6020c5c&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090324
+2024-09-04 16:23:53,860 - INFO - Processing new item: https://www.medscape.com/viewarticle/nearly-45-cancer-survivors-report-financial-struggle-2024a1000g05
+2024-09-04 16:23:53,860 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/nearly-45-cancer-survivors-report-financial-struggle-2024a1000g05
+2024-09-04 16:23:56,391 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/nearly-45-cancer-survivors-report-financial-struggle-2024a1000g05.
+2024-09-04 16:23:57,696 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:23:57,697 - INFO - Received response from OpenAI API.
+2024-09-04 16:23:57,697 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822454#:~:text=In%20this%20cross%2Dsectional%20study%2C%20approximately%2050%25%20of%20cancer,disadvantaged%2C%20and%20had%20advanced%20disease
+2024-09-04 16:23:57,697 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e
+2024-09-04 16:23:57,697 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e
+2024-09-04 16:24:01,445 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e.
+2024-09-04 16:24:02,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:24:02,333 - INFO - Received response from OpenAI API.
+2024-09-04 16:24:02,333 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e
+2024-09-04 16:24:02,333 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-04 16:24:02,333 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-04 16:24:05,845 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw.
+2024-09-04 16:24:06,754 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 16:24:06,755 - INFO - Received response from OpenAI API.
+2024-09-04 16:24:06,755 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-04 16:24:06,757 - INFO - CSV file updated with new data.
+2024-09-04 16:24:06,757 - INFO - Medscape script completed.
