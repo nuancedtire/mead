@@ -152,7 +152,7 @@ def generate_post(webpage_content, link, original_timestamp, combined_links):
     check = completion_with_backoff(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": "Determine if the provided webpage contains a full article. If it does not, respond with ‘None.’ If the webpage contains an article, convert the entire content into plain text, preserving the original text without summarization, additions, or omissions."},
+            {"role": "system", "content": "Determine if the provided webpage contains a full article. If it does not contain an article, reply None. If the webpage contains an article, convert the entire content into plain text, preserving the original text without summarization, additions, or omissions."},
             {"role": "user", "content": webpage_content}
         ]
     )
@@ -160,10 +160,16 @@ def generate_post(webpage_content, link, original_timestamp, combined_links):
     # If the check returns 'None', exit the function
     if check.choices[0].message.content.strip().lower() == 'none':
         logging.info(f"No valid article found for link {link}.")
+        print(f"No valid article found for link {link}.")
         return None
     
     # Use the validated article content for further processing
     formatted_content = check.choices[0].message.content
+
+    # Check if formatted_content is None or empty, and return early if it is
+    if not formatted_content.strip():
+        logging.info(f"Formatted content is empty for link {link}. Exiting function.")
+        return None
 
     response = completion_with_backoff(
         model=large_model,
