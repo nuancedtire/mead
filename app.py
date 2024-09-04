@@ -274,6 +274,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     
     with col1:
         st.image(f"{image_url}?auto=compress&cs=tinysrgb&fit=crop&h=360&w=640", use_column_width=True)
+        st.caption(f"[Image courtesy: Pexels]({image_url})")
     
     with col2:
         st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
