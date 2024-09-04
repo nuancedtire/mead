@@ -23,12 +23,24 @@ database_url = f"https://firestore.googleapis.com/v1/projects/{project_id}/datab
 collection = "thoughts"
 default_email = 'fazeennasser@gmail.com'
 default_password = 'cowQiq-guzzas-buxse9'
-
+# Fetch the firebase credentials from st.secrets
+firebase_credentials = {
+    "type": st.secrets["firebase"]["type"],
+    "project_id": st.secrets["firebase"]["project_id"],
+    "private_key_id": st.secrets["firebase"]["private_key_id"],
+    "private_key": st.secrets["firebase"]["private_key"].replace("\\n", "\n"),  # Convert the newline characters
+    "client_email": st.secrets["firebase"]["client_email"],
+    "client_id": st.secrets["firebase"]["client_id"],
+    "auth_uri": st.secrets["firebase"]["auth_uri"],
+    "token_uri": st.secrets["firebase"]["token_uri"],
+    "auth_provider_x509_cert_url": st.secrets["firebase"]["auth_provider_x509_cert_url"],
+    "client_x509_cert_url": st.secrets["firebase"]["client_x509_cert_url"]
+}
 def load_firebase():
     # Check if the Firebase app is already initialized
     if not firebase_admin._apps:
         # Initialize the Firebase Admin SDK using the credentials file
-        cred = credentials.Certificate("firebase_creds.json")
+        cred = credentials.Certificate(firebase_credentials)
         firebase_admin.initialize_app(cred)
 
     # Initialize Firestore client
