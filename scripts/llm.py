@@ -235,7 +235,7 @@ def generate_post(webpage_content, link, original_timestamp):
         image_link = img_data['photos'][0]['src']['large']
         print(f"Image Link: {image_link}")
 
-    log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, image_link, link, system_message, webpage_content, large_model]
+    log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, image_link, link, system_message, formatted_content, large_model]
     logging.info(f"Generated post for link {link}.")
     print(f"Generated post for link {link}.")
     return log_entry

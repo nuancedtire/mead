@@ -11,7 +11,7 @@ firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 def upload_csv_to_firebase(csv_file_path):
-    collection_name = "scrapegen"  # Replace with your Firestore collection name
+    collection_name = "scraper-04-11-24"  # Replace with your Firestore collection name
     with open(csv_file_path, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
