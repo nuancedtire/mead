@@ -334,8 +334,8 @@ st.sidebar.markdown("""Hello Team Peerr!
 
 This app is a demo frontend for displaying a feed of posts as they get updated. 
 The main section shows the latest posts, with each post displaying the publish time, 
-an image (with a fallback if none is provided), and a snippet of the content.
-You can expand each post to view the full content. You can also filter by date below.
+an image (open source), and a snippet of the content.
+You can expand each post to view the full content. You can also filter by date or tags below.
 """)
 
 # Hashtag Filter in Sidebar
