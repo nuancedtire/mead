@@ -472,3 +472,70 @@
 2024-09-04 03:10:20,933 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-04 03:10:21,244 - INFO - Generated post for link https://pharmaphorum.com/news/jjs-balversa-first-pan-fgfr-bladder-cancer-drug-eu.
 2024-09-04 03:10:21,246 - INFO - Logged data to databases/llm.csv.
+2024-09-04 07:38:08,192 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 07:38:08,195 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 07:38:08,197 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 07:38:08,200 - INFO - Loaded 4 links from databases/llm.csv.
+2024-09-04 07:38:08,201 - INFO - Total unique links to process: 13
+2024-09-04 07:38:11,094 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:38:31,273 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 07:38:31,275 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 07:38:31,277 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 07:38:31,281 - INFO - Loaded 4 links from databases/llm.csv.
+2024-09-04 07:38:31,281 - INFO - Total unique links to process: 13
+2024-09-04 07:38:32,437 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:38:43,805 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:38:47,565 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:38:47,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:38:48,135 - INFO - Generated post for link https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:38:48,138 - INFO - Logged data to databases/llm.csv.
+2024-09-04 07:38:50,124 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/doccla-raises-a-35m-series-b-news/.
+2024-09-04 07:38:50,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:38:50,297 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 07:39:53,397 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 07:39:53,399 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 07:39:53,402 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 07:39:53,405 - INFO - Loaded 4 links from databases/llm.csv.
+2024-09-04 07:39:53,405 - INFO - Total unique links to process: 13
+2024-09-04 07:39:54,401 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:39:54,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:39:54,582 - INFO - Retrying request to /chat/completions in 0.771880 seconds
+2024-09-04 07:39:55,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:39:55,518 - INFO - Retrying request to /chat/completions in 1.753191 seconds
+2024-09-04 07:39:57,422 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:39:57,423 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 07:43:28,110 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:43:28,111 - INFO - Retrying request to /chat/completions in 0.887907 seconds
+2024-09-04 07:43:29,145 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:43:29,146 - INFO - Retrying request to /chat/completions in 1.996870 seconds
+2024-09-04 07:43:47,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:43:47,178 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:43:47,179 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 07:44:07,324 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:44:07,324 - INFO - Retrying request to /chat/completions in 1.529752 seconds
+2024-09-04 07:44:08,992 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 07:44:08,993 - WARNING - Rate limit exceeded. Waiting for 180 seconds before retry: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-Ke333U5Ti5HoGQxK7GgKVK3b on requests per day (RPD): Limit 200, Used 200, Requested 1. Please try again in 7m12s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+2024-09-04 07:45:51,267 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 07:45:51,269 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 07:45:51,272 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 07:45:51,276 - INFO - Loaded 4 links from databases/llm.csv.
+2024-09-04 07:45:51,277 - INFO - Total unique links to process: 13
+2024-09-04 07:45:55,179 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:48:21,838 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 07:48:21,843 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 07:48:21,848 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 07:48:21,854 - INFO - Loaded 4 links from databases/llm.csv.
+2024-09-04 07:48:21,856 - INFO - Total unique links to process: 13
+2024-09-04 07:48:23,506 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:48:43,528 - INFO - Loaded 5 links from databases/meds.csv.
+2024-09-04 07:48:43,530 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 07:48:43,532 - INFO - Loaded 7 links from databases/scape.csv.
+2024-09-04 07:48:43,535 - INFO - Loaded 4 links from databases/llm.csv.
+2024-09-04 07:48:43,536 - INFO - Total unique links to process: 13
+2024-09-04 07:48:45,143 - INFO - Successfully fetched data from http://r.jina.ai/https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:48:53,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:48:57,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:48:58,406 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:48:58,853 - INFO - Generated post for link https://www.onclive.com/view/fda-grants-orphan-drug-designation-to-nxp800-for-arid1a-deficient-ovarian-cancers.
+2024-09-04 07:48:58,855 - INFO - Logged data to databases/llm.csv.
+2024-09-04 07:49:00,666 - INFO - Successfully fetched data from http://r.jina.ai/https://sifted.eu/articles/doccla-raises-a-35m-series-b-news/.
