@@ -7,6 +7,8 @@ import re
 import requests
 import json
 import time
+from PIL import Image, ImageOps
+from io import BytesIO
 
 # Define the fallback image URL
 fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-SVG format
@@ -83,6 +85,35 @@ def remove_markdown_formatting(text):
     text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
     
     return text
+
+def crop_to_fit(image_url, target_size=(640, 360)):
+    """
+    Downloads the image from the URL, resizes it while maintaining the aspect ratio, 
+    and crops the excess parts to fit the target size.
+
+    Args:
+        image_url (str): The URL of the image to download and crop.
+        target_size (tuple): The desired output size (width, height).
+    
+    Returns:
+        Image: The resized and cropped image object.
+    """
+    try:
+        # Download the image
+        response = requests.get(image_url)
+        if response.status_code == 200:
+            img = Image.open(BytesIO(response.content))
+
+            # Resize the image while maintaining aspect ratio, and center-crop to fit the target size
+            img = ImageOps.fit(img, target_size, method=Image.LANCZOS)
+
+            return img
+        else:
+            st.error(f"Failed to load image: {response.status_code}")
+            return None
+    except Exception as e:
+        st.error(f"Error while downloading or processing the image: {str(e)}")
+        return None
 
 # Function to determine the source
 def determine_source(link):
@@ -273,8 +304,13 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     col1, col2 = st.columns([3, 5])
     
     with col1:
-        st.image(f"{image_url}?auto=compress&cs=tinysrgb&fit=crop&h=360&w=640", use_column_width=True)
-        st.caption(f"[Image courtesy: Pexels]({image_url})")
+        # Crop the image to a specific size (left, upper, right, lower)
+        cropped_image = crop_to_fit(image_url, target_size=(640, 360))
+        if cropped_image:
+            st.image(cropped_image)
+            st.caption(f"Image courtesy [Pexels]({image_url})")
+        else:
+            st.error("Could not display the image.")
     
     with col2:
         st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
