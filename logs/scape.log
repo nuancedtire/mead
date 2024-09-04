@@ -96,3 +96,11 @@
 2024-09-04 16:24:06,755 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
 2024-09-04 16:24:06,757 - INFO - CSV file updated with new data.
 2024-09-04 16:24:06,757 - INFO - Medscape script completed.
+2024-09-04 20:11:24,511 - INFO - Medscape script started.
+2024-09-04 20:11:24,512 - INFO - Connection to Medscape established.
+2024-09-04 20:11:24,604 - INFO - Request sent to Medscape API.
+2024-09-04 20:11:24,896 - INFO - Response received from Medscape API.
+2024-09-04 20:11:24,896 - INFO - Response data decoded into dictionary.
+2024-09-04 20:11:24,899 - INFO - Existing CSV file loaded.
+2024-09-04 20:11:24,899 - INFO - No new links found, CSV file is up to date.
+2024-09-04 20:11:24,899 - INFO - Medscape script completed.

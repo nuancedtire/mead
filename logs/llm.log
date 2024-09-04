@@ -709,3 +709,48 @@
 2024-09-04 16:33:30,304 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-04 16:33:30,444 - INFO - Generated post for link http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw.
 2024-09-04 16:33:30,445 - INFO - Logged data to databases/llm.csv.
+2024-09-04 20:11:25,957 - INFO - Loaded 10 links from databases/meds.csv.
+2024-09-04 20:11:25,959 - INFO - Loaded 5 links from databases/sifted.csv.
+2024-09-04 20:11:25,962 - INFO - Loaded 12 links from databases/scape.csv.
+2024-09-04 20:11:25,968 - INFO - Loaded 21 links from databases/llm.csv.
+2024-09-04 20:11:25,968 - INFO - Total unique links to process: 6
+2024-09-04 20:11:28,101 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-04 20:11:28,692 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:11:28,694 - INFO - No valid article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-04 20:11:29,844 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
+2024-09-04 20:11:30,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:11:30,107 - INFO - No valid article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
+2024-09-04 20:11:32,565 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2823083?guestAccessKey=2dc15077-db5b-45cf-b2f1-f1fcf6020c5c&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090324.
+2024-09-04 20:11:58,507 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:12:04,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:12:04,696 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 20:12:04,696 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 20:12:25,509 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:12:25,791 - INFO - Generated post for link https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2823083?guestAccessKey=2dc15077-db5b-45cf-b2f1-f1fcf6020c5c&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090324.
+2024-09-04 20:12:25,793 - INFO - Logged data to databases/llm.csv.
+2024-09-04 20:12:29,936 - INFO - Successfully fetched data from http://r.jina.ai/https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822454#:~:text=In%20this%20cross%2Dsectional%20study%2C%20approximately%2050%25%20of%20cancer,disadvantaged%2C%20and%20had%20advanced%20disease.
+2024-09-04 20:13:00,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:13:08,939 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:13:09,356 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:13:09,532 - INFO - Generated post for link https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822454#:~:text=In%20this%20cross%2Dsectional%20study%2C%20approximately%2050%25%20of%20cancer,disadvantaged%2C%20and%20had%20advanced%20disease.
+2024-09-04 20:13:09,534 - INFO - Logged data to databases/llm.csv.
+2024-09-04 20:13:19,691 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e.
+2024-09-04 20:13:19,810 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 20:13:19,810 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 20:14:55,706 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:15:06,356 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:15:06,733 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:15:07,009 - INFO - Generated post for link http://medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e.
+2024-09-04 20:15:07,011 - INFO - Logged data to databases/llm.csv.
+2024-09-04 20:15:10,892 - INFO - Successfully fetched data from http://r.jina.ai/http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw.
+2024-09-04 20:15:18,653 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:15:28,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:15:28,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-04 20:15:28,758 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-04 20:15:49,417 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 20:15:49,564 - INFO - Generated post for link http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw.
+2024-09-04 20:15:49,566 - INFO - Logged data to databases/llm.csv.
+2024-09-04 20:16:22,230 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/None
+2024-09-04 20:16:52,578 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/None
+2024-09-04 20:17:22,859 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/None
+2024-09-04 20:17:53,563 - ERROR - HTTP Error: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/None
