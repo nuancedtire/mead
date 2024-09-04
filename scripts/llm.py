@@ -135,6 +135,53 @@ class PostResponse(BaseModel):
     post_content: str = Field(..., description="The final generated post content based on the article in plain text and emoji. Do not use Markdown formatting")
     hashtags: List[str] = Field(..., description="A list of relevant hashtags for the post.")
 
+def get_unique_image(api_key, image_query, combined_links):
+    """
+    Fetch up to 10 images from Pexels API based on the query and return the first unique image
+    that has not been used before (not present in combined_links).
+
+    Args:
+        api_key (str): Pexels API key.
+        image_query (str): Search term for the Pexels API.
+        combined_links (list): List of previously used image links to check for duplicates.
+
+    Returns:
+        str: The URL of the first unique image, or None if no unique image is found.
+    """
+
+    headers = {
+        "Authorization": api_key
+    }
+    url = "https://api.pexels.com/v1/search"
+    params = {
+        "query": image_query,
+        "per_page": 10,
+        "page": 1
+    }
+
+    response = requests.get(url, headers=headers, params=params)
+
+    if response.status_code == 200:
+        data = response.json()
+
+        if data.get('photos'):
+            for photo in data['photos']:
+                potential_image_link = photo['src']['original']
+
+                # Normalize the potential image link and check against combined_links
+                if not any(normalize_url(link_info.get('Image')) == normalize_url(potential_image_link) 
+                           for link_info in combined_links if link_info.get('Image')):
+                    return potential_image_link
+
+            print(f"No unique image found for query '{image_query}'.")
+            return None
+        else:
+            print(f"No photos returned from Pexels for query '{image_query}'.")
+            return None
+    else:
+        print(f"Image request failed with status code {response.status_code} for query '{image_query}'.")
+        return None
+
 def generate_post(webpage_content, link, original_timestamp, combined_links):
     """
     Generates post content using the OpenAI API and formats it with the 
@@ -225,60 +272,28 @@ def generate_post(webpage_content, link, original_timestamp, combined_links):
             {"role": "user", "content": data.post_content}
         ]
     )
-    # Set your API key
-    api_key = "fp8Urerp0HYAsM2UmutJhXbhuSOeXEu75TJvzmIEYOVQ51ckelerwvPk"
+    
+    # Get the generated keyword for the image query
     image_query = keywords.choices[0].message.content
 
-    # Set the headers
-    headers = {
-        "Authorization": api_key
-    }
+    # Set your Pexels API key
+    api_key = "fp8Urerp0HYAsM2UmutJhXbhuSOeXEu75TJvzmIEYOVQ51ckelerwvPk"
 
-    # Define the endpoint and initial parameters
-    url = "https://api.pexels.com/v1/search"
-    page_number = 1  # Start with the first page
-    image_link = None
+    # Fetch the unique image from Pexels API
+    image_link = get_unique_image(api_key, image_query, combined_links)
 
-    # Loop to keep trying until a unique image is found
-    while True:
-        # Define the API request parameters
-        params = {
-            "query": image_query,
-            "per_page": 1,
-            "page": page_number
-        }
+    if image_link is None:
+        logging.error(f"No unique image found for link {link}.")
+        return None
 
-        # Make the GET request
-        image_response = requests.get(url, headers=headers, params=params)
-
-        # Check if the request was successful
-        if image_response.status_code == 200:
-            # Parse the JSON response
-            img_data = image_response.json()
-
-            # Check if there are any photos returned
-            if img_data.get('photos'):
-                potential_image_link = img_data['photos'][0]['src']['original']
-
-                # Check if the image is already in any of the previously processed links
-                if not any(link_info.get('Image') == potential_image_link for link_info in combined_links):
-                    image_link = potential_image_link
-                    break
-                else:
-                    # If the image already exists, increment the page number and try again
-                    page_number += 1
-            else:
-                logging.error(f"No photos returned from Pexels for query '{image_query}'.")
-                return None
-        else:
-            logging.error(f"Image request failed with status code {image_response.status_code} for link {link}.")
-            return None
+    # Append the new image to combined_links to ensure no future duplicates
+    combined_links.append({"Image": image_link})
 
     log_entry = [original_timestamp, llm_timestamp, data.post_content, data.hashtags, image_link, link, system_message, formatted_content, large_model]
     logging.info(f"Generated post for link {link}.")
     print(f"Generated post for link {link}.")
     return log_entry
-
+    
 def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
     """
     Logs the generated post information to a CSV file.
@@ -302,17 +317,22 @@ def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
     except Exception as e:
         logging.error(f"Error logging data to CSV: {e}")
 
+def normalize_url(url):
+    if not url:  # If the URL is None or empty, return None directly
+        return None
+    return url.strip().rstrip('/').lower()
+
 def main():
-    """
-    Main function that orchestrates the link processing by extracting links 
-    from multiple CSV files, filtering unique links, and logging the results.
-    """
     meds_links = extract_links_from_csv_pandas('databases/meds.csv')
     sifted_links = extract_links_from_csv_pandas('databases/sifted.csv')
     scape_links = extract_links_from_csv_pandas('databases/scape.csv')
-    llm_links = [entry['Link'] for entry in extract_links_from_csv_pandas('databases/llm.csv')]
-    
-    combined_links = [link for link in meds_links + sifted_links + scape_links if link['Link'] not in llm_links]
+    llm_links = [normalize_url(entry['Link']) for entry in extract_links_from_csv_pandas('databases/llm.csv')]
+
+    # Create a unique set of links, filtering out those already in llm_links
+    combined_links = []
+    all_links = meds_links + sifted_links + scape_links
+    unique_links = {normalize_url(link['Link']): link for link in all_links if normalize_url(link['Link']) not in llm_links}
+    combined_links = list(unique_links.values())
 
     if not combined_links:
         logging.info("No unique links to process. Exiting gracefully.")
