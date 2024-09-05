@@ -200,3 +200,11 @@
 2024-09-05 14:10:35,229 - INFO - Attempt 1 succeeded with link: https://www.nejm.org/doi/full/10.1056/NEJMoa2407791
 2024-09-05 14:10:35,232 - INFO - CSV file updated with new data.
 2024-09-05 14:10:35,232 - INFO - Medscape script completed.
+2024-09-05 16:12:58,178 - INFO - Medscape script started.
+2024-09-05 16:12:58,178 - INFO - Connection to Medscape established.
+2024-09-05 16:12:58,292 - INFO - Request sent to Medscape API.
+2024-09-05 16:12:58,673 - INFO - Response received from Medscape API.
+2024-09-05 16:12:58,673 - INFO - Response data decoded into dictionary.
+2024-09-05 16:12:58,676 - INFO - Existing CSV file loaded.
+2024-09-05 16:12:58,676 - INFO - No new links found, CSV file is up to date.
+2024-09-05 16:12:58,676 - INFO - Medscape script completed.
