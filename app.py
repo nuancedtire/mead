@@ -342,8 +342,8 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     with tab2:
         st.write(content)
         st.write(hashtags)
-        st.write("---")
-        st.write("## Prompt")
+        st.write(link)
+        st.write("### Prompt")
         st.write(prompt)
     
     st.markdown("""
