@@ -334,13 +334,16 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         first_line = content[:40]
         rest_of_content = content
 
-    tab1, tab2 = st.tabs(["Article", "Prompt"])
+    tab1, tab2 = st.tabs(["Article", "More"])
     
     with tab1:
         with st.expander(f"{first_line}"):
             st.write(rest_of_content)
     with tab2:
-        st.header("Prompt")
+        st.write(content)
+        st.write(hashtags)
+        st.write("---")
+        st.write("## Prompt")
         st.write(prompt)
     
     st.markdown("""
