@@ -389,7 +389,9 @@ selected_hashtags = st.sidebar.multiselect("Select Hashtags", options=list(uniqu
 
 # Date Filter in Sidebar
 st.sidebar.header("Filter by Date")
-start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())
+# start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())
+# Set the start date to 5th September 2024
+start_date = st.sidebar.date_input("Start Date", value=datetime.date(2024, 9, 5))
 end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
 
 # Filter data based on the selected date range
