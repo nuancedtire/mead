@@ -296,7 +296,7 @@ def delete_from_firestore(source_id, document_id, email=None, password=None):
         return response.text
 
 # Function to create a post
-def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt, upload_status, peerr_document_id, source_id):
+def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt, upload_status, peerr_document_id, source_id, input):
     if not image_url:
         image_url = fallback_image_url
     source = determine_source(link)
@@ -343,8 +343,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         st.write(content)
         st.write(hashtags)
         st.write(link)
-        st.write("### Prompt")
-        st.write(prompt)
+        st.write(input)
     
     st.markdown("""
       <style>
@@ -428,5 +427,6 @@ else:
             prompt=row['Prompt'],
             upload_status=False if 'upload_status' not in row or pd.isna(row['upload_status']) else row['upload_status'],
             source_id=row['Faz ID'],
-            peerr_document_id=None if 'peerr_document_id' not in row or pd.isna(row['peerr_document_id']) else row['peerr_document_id']
+            peerr_document_id=None if 'peerr_document_id' not in row or pd.isna(row['peerr_document_id']) else row['peerr_document_id'],
+            input=row['Input']
         )
