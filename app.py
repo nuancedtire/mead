@@ -363,9 +363,10 @@ with st.sidebar:
     # Statistics Section
     total_posts = len(data)
     last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
+    first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
     last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
-    st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**Last Gen:** *{last_gen_time}*")
+    st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**First Post:** *{first_post_time}*  \nLast Gen:** *{last_gen_time}*")
 
 # Sidebar description
 st.sidebar.markdown("""Hello Team Peerr!
@@ -391,8 +392,8 @@ selected_hashtags = st.sidebar.multiselect("Select Hashtags", options=list(uniqu
 # Date Filter in Sidebar
 st.sidebar.header("Filter by Date")
 # start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())
-# Set the start date to 5th September 2024
-start_date = st.sidebar.date_input("Start Date", value=datetime.date(2024, 9, 5))
+# Set the start date to 4th September 2024
+start_date = st.sidebar.date_input("Start Date", value=datetime.date(2024, 9, 4))
 end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
 
 # Filter data based on the selected date range
