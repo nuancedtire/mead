@@ -152,3 +152,17 @@
 2024-09-05 10:11:34,543 - INFO - Existing CSV file loaded.
 2024-09-05 10:11:34,543 - INFO - No new links found, CSV file is up to date.
 2024-09-05 10:11:34,544 - INFO - Medscape script completed.
+2024-09-05 12:19:35,601 - INFO - Medscape script started.
+2024-09-05 12:19:35,602 - INFO - Connection to Medscape established.
+2024-09-05 12:19:35,632 - INFO - Request sent to Medscape API.
+2024-09-05 12:19:36,211 - INFO - Response received from Medscape API.
+2024-09-05 12:19:36,212 - INFO - Response data decoded into dictionary.
+2024-09-05 12:19:36,214 - INFO - Existing CSV file loaded.
+2024-09-05 12:19:36,214 - INFO - Processing new item: https://www.medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s
+2024-09-05 12:19:36,214 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s
+2024-09-05 12:19:41,558 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s.
+2024-09-05 12:19:42,640 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 12:19:42,671 - INFO - Received response from OpenAI API.
+2024-09-05 12:19:42,671 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s
+2024-09-05 12:19:42,673 - INFO - CSV file updated with new data.
+2024-09-05 12:19:42,673 - INFO - Medscape script completed.
