@@ -807,3 +807,47 @@
 2024-09-05 06:14:49,990 - INFO - Logging setup complete.
 2024-09-05 06:14:52,051 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-05 06:14:52,054 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-05 08:14:07,456 - INFO - Logging setup complete.
+2024-09-05 08:14:21,153 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:14:26,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:14:27,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:14:27,391 - INFO - Logged data to databases/llm.csv.
+2024-09-05 08:14:29,258 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:14:29,258 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:14:59,077 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:15:04,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:15:04,360 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:15:04,361 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:15:24,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:15:25,389 - INFO - Logged data to databases/llm.csv.
+2024-09-05 08:15:27,460 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:15:27,461 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:16:00,618 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:16:05,155 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:16:05,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:16:05,225 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:16:25,647 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:16:26,000 - INFO - Logged data to databases/llm.csv.
+2024-09-05 08:16:28,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:16:28,628 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:17:08,224 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:17:14,318 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:17:14,625 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:17:14,900 - INFO - Logged data to databases/llm.csv.
+2024-09-05 08:17:18,335 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:17:18,335 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:17:47,247 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:17:47,315 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:17:47,315 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:18:19,266 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:18:19,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:18:20,083 - INFO - Logged data to databases/llm.csv.
+2024-09-05 08:18:22,583 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 08:18:22,584 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 08:18:43,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 08:18:43,076 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-05 08:18:43,076 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7045614/pexels-photo-7045614.jpeg'}
+2024-09-05 08:18:43,076 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7723397/pexels-photo-7723397.jpeg'}
+2024-09-05 08:18:43,076 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/3944752/pexels-photo-3944752.jpeg'}
+2024-09-05 08:18:43,076 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7722869/pexels-photo-7722869.jpeg'}
+2024-09-05 08:18:43,076 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7723582/pexels-photo-7723582.jpeg'}
