@@ -343,7 +343,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         st.write(content)
         st.write(hashtags)
         st.write(link)
-        st.write(input)
+        st.write(f"Input:  \n{remove_markdown_formatting(input)}")
     
     st.markdown("""
       <style>
