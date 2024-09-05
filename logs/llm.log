@@ -801,3 +801,6 @@
 2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5702161/pexels-photo-5702161.jpeg'}
 2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7230178/pexels-photo-7230178.jpeg'}
 2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/4553611/pexels-photo-4553611.jpeg'}
+2024-09-05 04:13:02,875 - INFO - Logging setup complete.
+2024-09-05 04:13:07,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 04:13:07,978 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
