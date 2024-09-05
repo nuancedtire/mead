@@ -166,3 +166,37 @@
 2024-09-05 12:19:42,671 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s
 2024-09-05 12:19:42,673 - INFO - CSV file updated with new data.
 2024-09-05 12:19:42,673 - INFO - Medscape script completed.
+2024-09-05 14:09:57,252 - INFO - Medscape script started.
+2024-09-05 14:09:57,253 - INFO - Connection to Medscape established.
+2024-09-05 14:09:57,365 - INFO - Request sent to Medscape API.
+2024-09-05 14:09:57,672 - INFO - Response received from Medscape API.
+2024-09-05 14:09:57,673 - INFO - Response data decoded into dictionary.
+2024-09-05 14:09:57,675 - INFO - Existing CSV file loaded.
+2024-09-05 14:09:57,675 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/8-minutes-screen-cognitive-impairment-primary-care-2024a1000fze
+2024-09-05 14:09:57,675 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/8-minutes-screen-cognitive-impairment-primary-care-2024a1000fze
+2024-09-05 14:10:02,127 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/8-minutes-screen-cognitive-impairment-primary-care-2024a1000fze.
+2024-09-05 14:10:02,853 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 14:10:02,885 - INFO - Received response from OpenAI API.
+2024-09-05 14:10:02,885 - INFO - Attempt 1 succeeded with link: https://bjgpopen.org/content/early/2024/08/20/BJGPO.2024.0039.long
+2024-09-05 14:10:02,885 - INFO - Processing new item: https://www.medscape.com/viewarticle/are-dental-extractions-post-radiation-head-and-neck-cancer-2024a1000g44
+2024-09-05 14:10:02,885 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/are-dental-extractions-post-radiation-head-and-neck-cancer-2024a1000g44
+2024-09-05 14:10:04,773 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/are-dental-extractions-post-radiation-head-and-neck-cancer-2024a1000g44.
+2024-09-05 14:10:05,482 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 14:10:05,482 - INFO - Received response from OpenAI API.
+2024-09-05 14:10:05,483 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamaotolaryngology/article-abstract/2822270
+2024-09-05 14:10:05,483 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/food-allergies-plateau-gps-need-more-tools-2024a1000fxx
+2024-09-05 14:10:05,483 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/food-allergies-plateau-gps-need-more-tools-2024a1000fxx
+2024-09-05 14:10:09,683 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/food-allergies-plateau-gps-need-more-tools-2024a1000fxx.
+2024-09-05 14:10:10,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 14:10:10,565 - INFO - Received response from OpenAI API.
+2024-09-05 14:10:10,565 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext
+2024-09-05 14:10:10,565 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/invasive-strategy-may-not-save-lives-older-patients-nstemi-2024a1000fx4
+2024-09-05 14:10:10,565 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/invasive-strategy-may-not-save-lives-older-patients-nstemi-2024a1000fx4
+2024-09-05 14:10:14,359 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/invasive-strategy-may-not-save-lives-older-patients-nstemi-2024a1000fx4.
+2024-09-05 14:10:14,491 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 14:10:14,491 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 14:10:35,229 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 14:10:35,229 - INFO - Received response from OpenAI API.
+2024-09-05 14:10:35,229 - INFO - Attempt 1 succeeded with link: https://www.nejm.org/doi/full/10.1056/NEJMoa2407791
+2024-09-05 14:10:35,232 - INFO - CSV file updated with new data.
+2024-09-05 14:10:35,232 - INFO - Medscape script completed.
