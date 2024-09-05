@@ -902,3 +902,10 @@
 2024-09-05 16:13:14,080 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
 2024-09-05 16:13:15,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-05 16:13:15,153 - INFO - No article found for link https://www.nejm.org/doi/full/10.1056/NEJMoa2407791.
+2024-09-05 18:12:57,482 - INFO - Logging setup complete.
+2024-09-05 18:13:02,047 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 18:13:02,049 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-05 18:13:04,843 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 18:13:04,844 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-05 18:13:06,189 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 18:13:06,190 - INFO - No article found for link https://www.nejm.org/doi/full/10.1056/NEJMoa2407791.
