@@ -366,7 +366,7 @@ with st.sidebar:
     first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
     last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
-    st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**First Post:** *{first_post_time}*  \nLast Gen:** *{last_gen_time}*")
+    st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**First Post:** *{first_post_time}*  \n**Last Gen:** *{last_gen_time}*")
 
 # Sidebar description
 st.sidebar.markdown("""Hello Team Peerr!
