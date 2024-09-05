@@ -765,3 +765,39 @@
 2024-09-04 22:09:51,299 - INFO - Successfully fetched data from http://r.jina.ai/https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
 2024-09-04 22:09:51,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-04 22:09:51,740 - INFO - No valid article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00179-7/fulltext.
+2024-09-05 02:43:48,298 - INFO - Logging setup complete.
+2024-09-05 02:43:49,419 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:43:49,422 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-05 02:45:13,560 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:45:19,713 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:45:20,109 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:45:20,475 - INFO - Logged data to databases/llm.csv.
+2024-09-05 02:46:29,352 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:46:34,647 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:46:35,079 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:46:35,394 - INFO - Logged data to databases/llm.csv.
+2024-09-05 02:47:09,383 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:47:15,330 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:47:15,610 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:47:15,880 - INFO - Logged data to databases/llm.csv.
+2024-09-05 02:47:19,937 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 02:47:19,938 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 02:48:03,804 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:48:11,500 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:48:11,863 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:48:12,288 - INFO - Logged data to databases/llm.csv.
+2024-09-05 02:48:16,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 02:48:16,252 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 02:48:42,619 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:48:42,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 02:48:42,698 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 02:49:07,373 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:49:07,437 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-09-05 02:49:07,438 - INFO - Retrying request to /chat/completions in 20.000000 seconds
+2024-09-05 02:49:27,833 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-05 02:49:28,134 - INFO - Logged data to databases/llm.csv.
+2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5862313/pexels-photo-5862313.jpeg'}
+2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/9574420/pexels-photo-9574420.jpeg'}
+2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5702161/pexels-photo-5702161.jpeg'}
+2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7230178/pexels-photo-7230178.jpeg'}
+2024-09-05 02:49:28,134 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/4553611/pexels-photo-4553611.jpeg'}
