@@ -26,7 +26,7 @@ As treatment options evolve, should we be prioritizing patient quality of life o
 
 For more details, read the full study here: https://www.nejm.org/doi/full/10.1056/NEJMoa2407791
 
-#Cardiology #NSTEMI #MedicalResearch #ElderCare #ClinicalPractice #HeartHealth""",
+#Cardiology #NSTEMI #MedicalResearch #ElderCare #ClinicalPractice""",
      "hashtags": [
     "GeneralResearch",
     "ClinicalTrials",
