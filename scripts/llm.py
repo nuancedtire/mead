@@ -122,6 +122,7 @@ def extract_links(df):
         return links[['Link', 'Time', 'Image']].to_dict('records')
     return links[['Link', 'Time']].to_dict('records')
 
+
 def extract_image_links(df):
     """
     Extracts image links from a pandas DataFrame.
@@ -132,6 +133,10 @@ def extract_image_links(df):
     Returns:
         list: A list of image links.
     """
+    if 'Image' not in df.columns:
+        logging.warning("Image column not found in the CSV file.")
+        return []  # Return an empty list if 'Image' column is not found
+
     return df['Image'].tolist()
 
 
@@ -423,11 +428,16 @@ def main():
     csv_files = ['databases/meds.csv', 'databases/sifted.csv', 'databases/scape.csv']
 
     # Extract links that have already been processed
-    llm_links = [normalize_url(entry['Link']) for entry in extract_links(read_csv('databases/llm.csv'))]
+    llm_file_path = 'databases/llm.csv'
+    if os.path.exists(llm_file_path):
+        llm_links = [normalize_url(entry['Link']) for entry in extract_links(read_csv(llm_file_path))]
+        image_links = extract_image_links(read_csv(llm_file_path))
+    else:
+        llm_links = []
+        image_links = []  # Initialize empty image links list if file doesn't exist
 
     # Get unique links from the CSV files that haven't been processed yet
     combined_links = list(get_unique_links(csv_files, llm_links))
-    image_links = extract_image_links(read_csv('databases/llm.csv'))
 
     if not combined_links:
         logging.info("No unique links to process.")

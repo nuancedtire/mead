@@ -1,0 +1,44 @@
+2024-09-06 04:24:59,487 - INFO - Medscape script started.
+2024-09-06 04:24:59,487 - INFO - Connection to Medscape established.
+2024-09-06 04:24:59,516 - INFO - Request sent to Medscape API.
+2024-09-06 04:25:00,078 - INFO - Response received from Medscape API.
+2024-09-06 04:25:00,079 - INFO - Response data decoded into dictionary.
+2024-09-06 04:25:00,080 - INFO - No existing CSV file found. Creating new data structure.
+2024-09-06 04:25:00,080 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/8-minutes-screen-cognitive-impairment-primary-care-2024a1000fze
+2024-09-06 04:25:00,080 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/8-minutes-screen-cognitive-impairment-primary-care-2024a1000fze
+2024-09-06 04:25:01,631 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/8-minutes-screen-cognitive-impairment-primary-care-2024a1000fze.
+2024-09-06 04:25:02,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:25:02,669 - INFO - Received response from OpenAI API.
+2024-09-06 04:25:02,669 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/8-minutes-screen-cognitive-impairment-primary-care-2024a1000fze
+2024-09-06 04:25:02,670 - INFO - Processing new item: https://www.medscape.com/viewarticle/are-dental-extractions-post-radiation-head-and-neck-cancer-2024a1000g44
+2024-09-06 04:25:02,670 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/are-dental-extractions-post-radiation-head-and-neck-cancer-2024a1000g44
+2024-09-06 04:25:04,209 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/are-dental-extractions-post-radiation-head-and-neck-cancer-2024a1000g44.
+2024-09-06 04:25:05,192 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:25:05,193 - INFO - Received response from OpenAI API.
+2024-09-06 04:25:05,193 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/are-dental-extractions-post-radiation-head-and-neck-cancer-2024a1000g44
+2024-09-06 04:25:05,194 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/food-allergies-plateau-gps-need-more-tools-2024a1000fxx
+2024-09-06 04:25:05,194 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/food-allergies-plateau-gps-need-more-tools-2024a1000fxx
+2024-09-06 04:25:10,635 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/food-allergies-plateau-gps-need-more-tools-2024a1000fxx.
+2024-09-06 04:25:11,405 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:25:11,406 - INFO - Received response from OpenAI API.
+2024-09-06 04:25:11,406 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext
+2024-09-06 04:25:11,406 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/invasive-strategy-may-not-save-lives-older-patients-nstemi-2024a1000fx4
+2024-09-06 04:25:11,407 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/invasive-strategy-may-not-save-lives-older-patients-nstemi-2024a1000fx4
+2024-09-06 04:25:13,151 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/invasive-strategy-may-not-save-lives-older-patients-nstemi-2024a1000fx4.
+2024-09-06 04:25:14,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:25:14,197 - INFO - Received response from OpenAI API.
+2024-09-06 04:25:14,198 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/invasive-strategy-may-not-save-lives-older-patients-nstemi-2024a1000fx4
+2024-09-06 04:25:14,199 - INFO - Processing new item: https://www.medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s
+2024-09-06 04:25:14,199 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s
+2024-09-06 04:25:16,535 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s.
+2024-09-06 04:25:17,551 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:25:17,552 - INFO - Received response from OpenAI API.
+2024-09-06 04:25:17,552 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/parkinsons-risk-women-and-history-migraine-new-data-2024a1000g2s
+2024-09-06 04:25:17,552 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/meat-consumption-tied-higher-type-2-diabetes-risk-2024a1000fiz
+2024-09-06 04:25:17,553 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/meat-consumption-tied-higher-type-2-diabetes-risk-2024a1000fiz
+2024-09-06 04:25:21,100 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/meat-consumption-tied-higher-type-2-diabetes-risk-2024a1000fiz.
+2024-09-06 04:25:22,050 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:25:22,051 - INFO - Received response from OpenAI API.
+2024-09-06 04:25:22,051 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext
+2024-09-06 04:25:22,054 - INFO - CSV file updated with new data.
+2024-09-06 04:25:22,054 - INFO - Medscape script completed.
