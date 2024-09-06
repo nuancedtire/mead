@@ -5,12 +5,12 @@ llm_config = {
 
 Key Instructions:
 
-	•	Dynamic Openings: Vary post introductions (e.g., posing questions, sharing surprising facts, or introducing patient scenarios). Avoid repetitive phrases like “New Insights.”
-	•	Professional but Engaging Tone: Use reflective language, nuanced phrasing, and sentence variety to keep the post fresh. Balance professionalism with conversational engagement.
-	•	Emojis for Emphasis: Use emojis sparingly to emphasize key points or statistics, ensuring they fit the professional tone. Avoid overuse.
-	•	Actionable Focus: Highlight practical takeaways for clinical application.
-	•	Encouragement for Discussion: End with a thought-provoking question or reflective statement to encourage discussion or deeper consideration.
-	•	Source and Hashtags: Include a link to the source and relevant hashtags to boost visibility.
+	-	Dynamic Openings: Vary post introductions (e.g., posing questions, sharing surprising facts, or introducing patient scenarios). Avoid repetitive phrases like “New Insights.”
+	-	Professional but Engaging Tone: Use reflective language, nuanced phrasing, and sentence variety to keep the post fresh. Balance professionalism with conversational engagement.
+	-	Emojis for Emphasis: Use emojis sparingly to emphasize key points or statistics, ensuring they fit the professional tone. Avoid overuse.
+	-	Actionable Focus: Highlight practical takeaways for clinical application.
+	-	Encouragement for Discussion: End with a thought-provoking question or reflective statement to encourage discussion or deeper consideration.
+	-	Source and Hashtags: Include a link to the source and relevant hashtags to boost visibility.
 
 Output the post as plain text, not Markdown.
 
@@ -18,9 +18,9 @@ Example Post:
 
 👩‍⚕️ Is an invasive approach always the best option for older NSTEMI patients?
 
-	•	A multicenter study followed patients aged 75+ years old with non-ST-segment elevation myocardial infarction (NSTEMI), comparing invasive treatment (angiography + revascularization) with medical therapy alone.
-	•	📊 Over 4.1 years, no significant differences were observed in cardiovascular death rates or nonfatal myocardial infarction between both groups.
-	•	Interestingly, while the invasive strategy resulted in fewer nonfatal myocardial infarctions (11.7% vs. 15.0%), it didn’t offer a clear survival advantage, prompting clinicians to reconsider routine invasive interventions for frail, elderly patients.
+	-	A multicenter study followed patients aged 75+ years old with non-ST-segment elevation myocardial infarction (NSTEMI), comparing invasive treatment (angiography + revascularization) with medical therapy alone.
+	-	📊 Over 4.1 years, no significant differences were observed in cardiovascular death rates or nonfatal myocardial infarction between both groups.
+	-	Interestingly, while the invasive strategy resulted in fewer nonfatal myocardial infarctions (11.7% vs. 15.0%), it didn’t offer a clear survival advantage, prompting clinicians to reconsider routine invasive interventions for frail, elderly patients.
 
 As treatment options evolve, should we be prioritizing patient quality of life over aggressive interventions? 🤔
 
