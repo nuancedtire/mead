@@ -50,7 +50,7 @@ def load_firebase():
     db = firestore.client()
 
     # Fetch data from Firestore collection "scraper-04-11-24"
-    scraper_collection = db.collection('scraper-04-11-24')
+    scraper_collection = db.collection('scraper-06-11-24')
 
     # Convert Firestore data to a Pandas DataFrame
     docs = scraper_collection.stream()
