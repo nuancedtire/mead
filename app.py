@@ -336,9 +336,16 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
 
     tab1, tab2 = st.tabs(["Article", "More"])
     
+    # Remove all hashtags from rest_of_content
+    cleaned_content = re.sub(r"#\w+", "", rest_of_content)
+
+    # Join the generated hashtags into a single string
+    hashtags_str = " ".join(hashtags)
+
     with tab1:
         with st.expander(f"{first_line}"):
-            st.write(rest_of_content)
+            st.write(cleaned_content)
+            st.write(f"**Generated Hashtags:** {hashtags_str}")
     with tab2:
         st.write(content)
         st.write(hashtags)
