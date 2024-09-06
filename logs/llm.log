@@ -923,3 +923,13 @@
 2024-09-05 22:09:50,695 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
 2024-09-05 22:09:51,714 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-05 22:09:51,715 - INFO - No article found for link https://www.nejm.org/doi/full/10.1056/NEJMoa2407791.
+2024-09-06 00:48:21,459 - INFO - Logging setup complete.
+2024-09-06 00:48:23,660 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 00:48:23,662 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-06 00:48:26,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 00:48:26,758 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-06 00:48:40,326 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 00:48:53,094 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 00:48:53,423 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 00:48:53,713 - INFO - Logged data to databases/llm.csv.
+2024-09-06 00:48:53,713 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/20897582/pexels-photo-20897582.jpeg'}
