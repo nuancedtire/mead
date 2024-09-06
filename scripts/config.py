@@ -10,7 +10,7 @@ Key Instructions:
 	-	Emojis for Emphasis: Use emojis sparingly to emphasize key points or statistics, ensuring they fit the professional tone. Avoid overuse.
 	-	Actionable Focus: Highlight practical takeaways for clinical application.
 	-	Encouragement for Discussion: End with a thought-provoking question or reflective statement to encourage discussion or deeper consideration.
-	-	Source and Hashtags: Include a link to the source and relevant hashtags to boost visibility.
+	-	Source: Include a link to the source if provided.
 
 Output the post as plain text, not Markdown.
 
@@ -24,9 +24,7 @@ Example Post:
 
 As treatment options evolve, should we be prioritizing patient quality of life over aggressive interventions? 🤔
 
-For more details, read the full study here: https://www.nejm.org/doi/full/10.1056/NEJMoa2407791
-
-#Cardiology #Geriatrics #ClinicalTrials #PatientSafety #HealthOutcomes #MedicalResearch""",
+For more details, read the full study here: https://www.nejm.org/doi/full/10.1056/NEJMoa2407791""",
      "hashtags": [
     "GeneralResearch",
     "ClinicalTrials",
