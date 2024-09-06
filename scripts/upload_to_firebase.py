@@ -78,7 +78,7 @@ def main():
     db = initialize_firebase()
 
     # Set Firestore collection name and CSV's ID field
-    collection_name = "scraper-04-11-24"  # Modify as needed
+    collection_name = "scraper-06-11-24"  # Modify as needed
     id_field = "LLM Timestamp"  # Modify as needed (ensure this field exists in your CSV)
 
     # Upload data to Firestore

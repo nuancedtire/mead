@@ -1,4 +1,4 @@
-name: Two-hourly scraping
+name: Scrape and Update Firestore
 
 on:
   schedule:
@@ -56,7 +56,14 @@ jobs:
           python scripts/llm.py
         env:
           OPENAI_API_KEY: ${{ secrets.MY_OPENAI_API_KEY }}
-      
+
+      - name: Upload to Firebase
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          echo $FIREBASE_SERVICE_ACCOUNT > firebase_creds.json
+          python3 scripts/upload_to_firebase.py databases/llm.csv
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
