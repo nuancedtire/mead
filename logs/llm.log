@@ -2,3 +2,24 @@
 2024-09-06 04:25:42,295 - WARNING - databases/llm.csv does not exist, skipping...
 2024-09-06 04:25:42,296 - WARNING - Missing required columns in the CSV.
 2024-09-06 04:25:42,307 - WARNING - databases/llm.csv does not exist, skipping...
+2024-09-06 04:30:18,775 - INFO - Logging setup complete.
+2024-09-06 04:30:37,376 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:30:50,238 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:30:50,803 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:30:51,145 - INFO - Logged data to databases/llm.csv.
+2024-09-06 04:31:06,429 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:10,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:10,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:11,319 - INFO - Logged data to databases/llm.csv.
+2024-09-06 04:31:21,865 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:26,543 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:26,949 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:27,244 - INFO - Logged data to databases/llm.csv.
+2024-09-06 04:31:44,843 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:48,066 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:48,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:31:48,802 - INFO - Logged data to databases/llm.csv.
+2024-09-06 04:32:00,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:32:05,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:32:08,139 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-06 04:32:08,439 - INFO - Logged data to databases/llm.csv.
