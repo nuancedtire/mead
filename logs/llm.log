@@ -178,3 +178,104 @@
 2024-09-09 13:35:26,532 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
 2024-09-09 13:35:27,522 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-09 13:35:27,523 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-09 14:02:05,519 - INFO - Logging setup complete.
+2024-09-09 14:02:05,535 - INFO - Unique links to process: 17
+2024-09-09 14:02:10,246 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:15,828 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:16,141 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:16,142 - INFO - Image query: translucent cranial implant neurosurgery technology
+2024-09-09 14:02:16,355 - INFO - Unique image link: https://images.pexels.com/photos/7722538/pexels-photo-7722538.jpeg
+2024-09-09 14:02:16,357 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:02:25,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:29,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:29,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:29,574 - INFO - Image query: mRNA vaccine development for mpox outbreak
+2024-09-09 14:02:29,768 - INFO - Unique image link: https://images.pexels.com/photos/5863280/pexels-photo-5863280.jpeg
+2024-09-09 14:02:29,769 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:02:31,886 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:31,886 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-09 14:02:40,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:43,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:44,409 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:02:44,409 - INFO - Image query: "Nucala COPD treatment trial results"
+2024-09-09 14:02:44,546 - INFO - Unique image link: https://images.pexels.com/photos/5863328/pexels-photo-5863328.jpeg
+2024-09-09 14:02:44,548 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:03:13,858 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:22,283 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:22,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:22,779 - INFO - Image query: "chronic lymphocytic leukemia treatment strategies"
+2024-09-09 14:03:22,948 - INFO - Unique image link: https://images.pexels.com/photos/6191559/pexels-photo-6191559.jpeg
+2024-09-09 14:03:22,949 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:03:37,324 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:41,003 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:41,774 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:41,775 - INFO - Image query: "luxury preventive health check-up"
+2024-09-09 14:03:42,339 - INFO - Unique image link: https://images.pexels.com/photos/27271454/pexels-photo-27271454.jpeg
+2024-09-09 14:03:42,340 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:03:43,393 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:43,394 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-09 14:03:44,168 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:03:44,169 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-09 14:04:58,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:03,904 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:04,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:04,454 - INFO - Image query: "AI breast cancer screening strategy"
+2024-09-09 14:05:04,694 - INFO - Unique image link: https://images.pexels.com/photos/5701081/pexels-photo-5701081.jpeg
+2024-09-09 14:05:04,696 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:05:13,729 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:16,714 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:17,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:17,033 - INFO - Image query: "cardiac surgery access disparities"
+2024-09-09 14:05:17,223 - INFO - Unique image link: https://images.pexels.com/photos/27469354/pexels-photo-27469354.jpeg
+2024-09-09 14:05:17,224 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:05:25,608 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:30,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:30,473 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:30,474 - INFO - Image query: "monthly semaglutide injection hydrogel"
+2024-09-09 14:05:30,645 - INFO - Unique image link: https://images.pexels.com/photos/7231426/pexels-photo-7231426.jpeg
+2024-09-09 14:05:30,646 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:05:49,123 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:53,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:53,507 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:05:53,507 - INFO - Image query: "women's health primary care conference"
+2024-09-09 14:05:54,408 - INFO - Unique image link: https://images.pexels.com/photos/6981024/pexels-photo-6981024.jpeg
+2024-09-09 14:05:54,409 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:06:05,010 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:08,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:08,834 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:08,840 - INFO - Image query: "ultra-processed food and rheumatoid arthritis"
+2024-09-09 14:06:09,282 - INFO - Unique image link: https://images.pexels.com/photos/7552330/pexels-photo-7552330.jpeg
+2024-09-09 14:06:09,284 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:06:18,989 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:27,415 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:27,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:27,836 - INFO - Image query: "Bariatric surgery pregnancy outcomes"
+2024-09-09 14:06:28,085 - INFO - Unique image link: https://images.pexels.com/photos/27951963/pexels-photo-27951963.jpeg
+2024-09-09 14:06:28,086 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:06:35,264 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:38,879 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:39,188 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:39,189 - INFO - Image query: "antibiotic prescribing practices respiratory infections"
+2024-09-09 14:06:39,370 - INFO - Unique image link: https://images.pexels.com/photos/5816421/pexels-photo-5816421.jpeg
+2024-09-09 14:06:39,371 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:06:40,165 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:06:40,166 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
+2024-09-09 14:07:48,727 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:07:54,148 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:07:54,438 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 14:07:54,439 - INFO - Image query: "vitamin D supplementation guidelines"
+2024-09-09 14:07:54,601 - INFO - Unique image link: https://images.pexels.com/photos/14433532/pexels-photo-14433532.jpeg
+2024-09-09 14:07:54,602 - INFO - Logged data to databases/llm.csv.
+2024-09-09 14:07:54,602 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7722538/pexels-photo-7722538.jpeg'}
+2024-09-09 14:07:54,602 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5863280/pexels-photo-5863280.jpeg'}
+2024-09-09 14:07:54,602 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5863328/pexels-photo-5863328.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6191559/pexels-photo-6191559.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27271454/pexels-photo-27271454.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5701081/pexels-photo-5701081.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27469354/pexels-photo-27469354.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7231426/pexels-photo-7231426.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6981024/pexels-photo-6981024.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7552330/pexels-photo-7552330.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27951963/pexels-photo-27951963.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5816421/pexels-photo-5816421.jpeg'}
+2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/14433532/pexels-photo-14433532.jpeg'}
