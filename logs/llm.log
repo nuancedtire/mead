@@ -279,3 +279,13 @@
 2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27951963/pexels-photo-27951963.jpeg'}
 2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5816421/pexels-photo-5816421.jpeg'}
 2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/14433532/pexels-photo-14433532.jpeg'}
+2024-09-09 16:17:35,934 - INFO - Logging setup complete.
+2024-09-09 16:17:35,955 - INFO - Unique links to process: 4
+2024-09-09 16:17:39,051 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:17:39,053 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-09 16:17:40,223 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:17:40,224 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-09 16:17:41,632 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:17:41,633 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-09 16:17:43,261 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:17:43,262 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
