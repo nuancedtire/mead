@@ -360,3 +360,17 @@
 2024-09-09 20:15:16,203 - INFO - Existing CSV file loaded.
 2024-09-09 20:15:16,203 - INFO - No new links found, CSV file is up to date.
 2024-09-09 20:15:16,203 - INFO - Medscape script completed.
+2024-09-09 22:12:55,432 - INFO - Medscape script started.
+2024-09-09 22:12:55,433 - INFO - Connection to Medscape established.
+2024-09-09 22:12:55,548 - INFO - Request sent to Medscape API.
+2024-09-09 22:12:55,951 - INFO - Response received from Medscape API.
+2024-09-09 22:12:55,951 - INFO - Response data decoded into dictionary.
+2024-09-09 22:12:55,954 - INFO - Existing CSV file loaded.
+2024-09-09 22:12:55,954 - INFO - Processing new item: https://www.medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-09 22:12:55,954 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-09 22:12:57,978 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n.
+2024-09-09 22:12:58,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 22:12:58,550 - INFO - Received response from OpenAI API.
+2024-09-09 22:12:58,551 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-09 22:12:58,553 - INFO - CSV file updated with new data.
+2024-09-09 22:12:58,553 - INFO - Medscape script completed.
