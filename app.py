@@ -3,13 +3,47 @@ import streamlit as st
 import pandas as pd
 import firebase_admin
 from firebase_admin import credentials, firestore
-from datetime import datetime
 import re
 import requests
 import json
 import time
 from PIL import Image, ImageOps
 from io import BytesIO
+import datetime
+from dateutil.relativedelta import relativedelta
+
+def convert_to_datetime(dt):
+    """Converts a string or other formats to a datetime object if necessary."""
+    if isinstance(dt, str):
+        try:
+            # Assuming the string is in the format '09:00 on 09-09-2024'
+            return datetime.datetime.strptime(dt, '%H:%M on %d-%m-%Y')
+        except ValueError:
+            # Handle different or unexpected formats here
+            raise ValueError(f"Timestamp format is incorrect: {dt}")
+    elif isinstance(dt, datetime.datetime):
+        return dt
+    else:
+        raise TypeError("Timestamp should be either a string or datetime object")
+
+def relative_time(past_time):
+    """Returns a human-readable relative time string like '2 hours ago'."""
+    now = datetime.datetime.now()
+    past_time = convert_to_datetime(past_time)  # Ensure it's a datetime object
+    diff = relativedelta(now, past_time)
+
+    if diff.years > 0:
+        return f"{diff.years} years ago"
+    elif diff.months > 0:
+        return f"{diff.months} months ago"
+    elif diff.days > 0:
+        return f"{diff.days} days ago"
+    elif diff.hours > 0:
+        return f"{diff.hours} hours ago"
+    elif diff.minutes > 0:
+        return f"{diff.minutes} minutes ago"
+    else:
+        return "just now"
 
 # Fallback image in case the provided image URL is invalid or missing
 fallback_image_url = "https://peerr.io/images/logo.svg"  # Note: SVG might not be ideal for image display. Consider using a PNG or JPEG.
@@ -349,41 +383,44 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
             st.caption(f"Image courtesy [Pexels]({image_url})")
         else:
             st.error("Could not display the image.")
-    
     with col2:
-        st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
-        if upload_status == True:
-            st.write(f'🟢 Live on Peerr | ID: {peerr_document_id}')
-            if st.button("Delete from Peerr", key=source_id):
-                delete_from_firestore(source_id, peerr_document_id)
-                update_upload_status(source_id, peerr_document_id, False)
-                st.rerun()  # Refresh the page after deletion
-        else:
-            st.write(f'🔴 Not on Peerr')
-            if st.button("Post to Peerr", key=source_id):
-                new_peerr_document_id = post_to_firestore(source_id, content, image_url)
-                update_upload_status(source_id, new_peerr_document_id, True)
-                st.rerun()  # Refresh the page after posting
+        # st.info(f"**Published at:** {timestamp}  \n**Generated at:** {llm_timestamp}  \n**From:** {source}")
+        # if upload_status == True:
+        #     st.write(f'🟢 Live on Peerr | ID: {peerr_document_id}')
+        #     if st.button("Delete from Peerr", key=source_id):
+        #         delete_from_firestore(source_id, peerr_document_id)
+        #         update_upload_status(source_id, peerr_document_id, False)
+        #         st.rerun()  # Refresh the page after deletion
+        # else:
+        #     st.write(f'🔴 Not on Peerr')
+        #     if st.button("Post to Peerr", key=source_id):
+        #         new_peerr_document_id = post_to_firestore(source_id, content, image_url)
+        #         update_upload_status(source_id, new_peerr_document_id, True)
+        #         st.rerun()  # Refresh the page after posting
     
-    # Create tabs for article content and more details
-    first_line = content.split("\n")[0] if "\n" in content else content[:40]
-    # Extract rest of the content, skipping the first line
-    rest_of_content = "\n".join(content.split("\n")[1:]) 
-    cleaned_content = re.sub(r"#\w+", "", rest_of_content)
-    hashtags_str = " ".join(hashtags)
+        # Create tabs for article content and more details
+        first_line = content.split("\n")[0] if "\n" in content else content[:40]
+        # Extract rest of the content, skipping the first line
+        rest_of_content = "\n".join(content.split("\n")[1:]) 
+        cleaned_content = re.sub(r"#\w+", "", rest_of_content)
+        hashtags_str = " ".join(hashtags)
 
-    tab1, tab2 = st.tabs(["Article", "More"])
-    
-    with tab1:
-        with st.expander(f"{first_line}"):
-            st.write(cleaned_content)
-            st.write(f"**Generated Hashtags:** {hashtags_str}")
-    with tab2:
-        st.write(content)
-        st.write(hashtags)
-        st.write(link)
-        st.write(f"Input:  \n{remove_markdown_formatting(input)}")
-    
+        tab1, tab2 = st.tabs(["Article", "More"])
+        
+        with tab1:
+            with st.expander(f"{first_line}"):
+                st.write(cleaned_content)
+                st.write(f"**Generated Hashtags:** {hashtags_str}")
+            # Display the relative times
+            st.info(f"**Published** {relative_time(timestamp)}  \n"
+                    # f"**Generated at:** {relative_time(llm_timestamp)}  \n"
+                    f"**From:** {source}")   
+        with tab2:
+            st.write(content)
+            st.write(hashtags)
+            st.write(link)
+            st.write(f"Input:  \n{remove_markdown_formatting(input)}")
+        
     # Add a horizontal line between posts
     st.markdown("---")
 
