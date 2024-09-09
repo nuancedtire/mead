@@ -96,8 +96,8 @@ def read_csv(file_path):
     """
     if not os.path.exists(file_path):
         logging.warning(f"{file_path} does not exist, skipping...")
-        print(f"{file_path} does not exist, skipping...")
         return pd.DataFrame()  # Return empty dataframe to avoid errors later
+    print(f"Reading {file_path}...")
     return pd.read_csv(file_path)
 
 
@@ -118,8 +118,6 @@ def extract_links(df):
         return []
 
     links = df.dropna(subset=['Link'])  # Drop rows where 'Link' is null
-    if 'Image' in df.columns:
-        return links[['Link', 'Time', 'Image']].to_dict('records')
     return links[['Link', 'Time']].to_dict('records')
 
 
@@ -135,8 +133,8 @@ def extract_image_links(df):
     """
     if 'Image' not in df.columns:
         logging.warning("Image column not found in the CSV file.")
+        print("Image column not found in the CSV file.")
         return []  # Return an empty list if 'Image' column is not found
-
     return df['Image'].tolist()
 
 
@@ -175,6 +173,7 @@ def process_link(link_info, combined_links, image_links):
         link = link_info.get('Link')
         if link is None:  # Check if the link is None
             logging.warning(f"Invalid link found in link_info: {link_info}")
+            print(f"Invalid link found in link_info: {link_info}")
             return None
         url = f"http://r.jina.ai/{link}"
         content = fetch_url_content(url)
@@ -183,6 +182,7 @@ def process_link(link_info, combined_links, image_links):
         print(f"Error fetching {url}: {e}")
         return None
 
+    print(f"Processing link: {url}")
     return generate_post(content, link_info.get('Link'), link_info.get('Time'), combined_links, image_links)
 
 
@@ -277,6 +277,7 @@ def generate_post(webpage_content, link, original_timestamp, combined_links, ima
 
     # Generate a query to search for images related to the post content
     image_query = get_image_query(data.post_content, small_model)
+    logging.info(f"Image query: {image_query}")
 
     # Fetch a unique image from Pexels API based on the query
     image_link = get_unique_image(api_key=pexels_api_key, image_query=image_query, image_links=image_links)
@@ -287,6 +288,7 @@ def generate_post(webpage_content, link, original_timestamp, combined_links, ima
         return None
 
     combined_links.append({"Image": image_link})
+    logging.info(f"Unique image link: {image_link}")
     return [original_timestamp, llm_timestamp, data.post_content, [hashtag.value for hashtag in data.hashtags], image_link, link, system_message, content, large_model]
 
 def get_image_query(post_content, model):
@@ -438,6 +440,8 @@ def main():
 
     # Get unique links from the CSV files that haven't been processed yet
     combined_links = list(get_unique_links(csv_files, llm_links))
+    logging.info(f"Unique links to process: {len(combined_links)}")
+    print(f"Unique links to process: {len(combined_links)}")
 
     if not combined_links:
         logging.info("No unique links to process.")

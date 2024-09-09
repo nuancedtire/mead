@@ -4,3 +4,9 @@
 2024-09-06 04:25:32,020 - INFO - No existing CSV file found. Creating new CSV.
 2024-09-06 04:25:32,022 - INFO - Data saved to databases/sifted.csv
 2024-09-06 04:25:32,022 - INFO - Sifted script completed.
+2024-09-09 13:30:08,585 - INFO - Sifted script started.
+2024-09-09 13:30:11,888 - INFO - Successfully fetched data from URL.
+2024-09-09 13:30:11,888 - WARNING - Search phrase not found. Using original content.
+2024-09-09 13:30:11,896 - INFO - Existing CSV file loaded.
+2024-09-09 13:30:11,900 - INFO - Data saved to databases/sifted.csv
+2024-09-09 13:30:11,900 - INFO - Sifted script completed.

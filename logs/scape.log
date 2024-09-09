@@ -42,3 +42,74 @@
 2024-09-06 04:25:22,051 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext
 2024-09-06 04:25:22,054 - INFO - CSV file updated with new data.
 2024-09-06 04:25:22,054 - INFO - Medscape script completed.
+2024-09-09 13:31:13,633 - INFO - Medscape script started.
+2024-09-09 13:31:13,634 - INFO - Connection to Medscape established.
+2024-09-09 13:31:13,675 - INFO - Request sent to Medscape API.
+2024-09-09 13:31:14,286 - INFO - Response received from Medscape API.
+2024-09-09 13:31:14,287 - INFO - Response data decoded into dictionary.
+2024-09-09 13:31:14,289 - INFO - Existing CSV file loaded.
+2024-09-09 13:31:14,289 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49
+2024-09-09 13:31:14,289 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49
+2024-09-09 13:31:19,352 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49.
+2024-09-09 13:31:51,158 - INFO - Medscape script started.
+2024-09-09 13:31:51,158 - INFO - Connection to Medscape established.
+2024-09-09 13:31:51,193 - INFO - Request sent to Medscape API.
+2024-09-09 13:31:52,046 - INFO - Response received from Medscape API.
+2024-09-09 13:31:52,047 - INFO - Response data decoded into dictionary.
+2024-09-09 13:31:52,049 - INFO - Existing CSV file loaded.
+2024-09-09 13:31:52,049 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49
+2024-09-09 13:31:52,049 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49
+2024-09-09 13:31:53,549 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49.
+2024-09-09 13:31:55,073 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:31:55,076 - INFO - Received response from OpenAI API.
+2024-09-09 13:31:55,076 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.31715?guestAccessKey=5fccf768-e956-418c-863e-a26f2d537653&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090524
+2024-09-09 13:31:55,077 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z
+2024-09-09 13:31:55,078 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z
+2024-09-09 13:31:57,802 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z.
+2024-09-09 13:31:58,566 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:31:58,567 - INFO - Received response from OpenAI API.
+2024-09-09 13:31:58,567 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z
+2024-09-09 13:31:58,568 - INFO - Processing new item: https://www.medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u
+2024-09-09 13:31:58,568 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u
+2024-09-09 13:32:01,448 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u.
+2024-09-09 13:32:02,364 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:32:02,365 - INFO - Received response from OpenAI API.
+2024-09-09 13:32:02,365 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u
+2024-09-09 13:32:02,366 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0
+2024-09-09 13:32:02,366 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0
+2024-09-09 13:32:05,681 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0.
+2024-09-09 13:32:06,550 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:32:06,553 - INFO - Received response from OpenAI API.
+2024-09-09 13:32:06,553 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0
+2024-09-09 13:32:06,554 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29
+2024-09-09 13:32:06,554 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29
+2024-09-09 13:32:09,860 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29.
+2024-09-09 13:32:11,002 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:32:11,003 - INFO - Received response from OpenAI API.
+2024-09-09 13:32:11,003 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29
+2024-09-09 13:32:11,004 - INFO - Processing new item: https://www.medscape.com/viewarticle/weight-loss-surgery-before-pregnancy-tied-smaller-and-2024a1000g64
+2024-09-09 13:32:11,004 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/weight-loss-surgery-before-pregnancy-tied-smaller-and-2024a1000g64
+2024-09-09 13:32:14,346 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/weight-loss-surgery-before-pregnancy-tied-smaller-and-2024a1000g64.
+2024-09-09 13:32:15,351 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:32:15,352 - INFO - Received response from OpenAI API.
+2024-09-09 13:32:15,352 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/weight-loss-surgery-before-pregnancy-tied-smaller-and-2024a1000g64
+2024-09-09 13:32:15,353 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/gp-respiratory-consults-overcome-perfect-storm-2024a1000g0q
+2024-09-09 13:32:15,353 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/gp-respiratory-consults-overcome-perfect-storm-2024a1000g0q
+2024-09-09 13:32:22,093 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/gp-respiratory-consults-overcome-perfect-storm-2024a1000g0q.
+2024-09-09 13:32:23,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:32:23,075 - INFO - Received response from OpenAI API.
+2024-09-09 13:32:23,076 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/gp-respiratory-consults-overcome-perfect-storm-2024a1000g0q
+2024-09-09 13:32:23,076 - INFO - Processing new item: https://www.medscape.com/viewarticle/high-temperatures-also-exacerbate-raynaud-study-suggests-2024a1000g5j
+2024-09-09 13:32:23,076 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/high-temperatures-also-exacerbate-raynaud-study-suggests-2024a1000g5j
+2024-09-09 13:32:25,397 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/high-temperatures-also-exacerbate-raynaud-study-suggests-2024a1000g5j.
+2024-09-09 13:32:26,205 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:32:26,207 - INFO - Received response from OpenAI API.
+2024-09-09 13:32:26,207 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract
+2024-09-09 13:32:26,208 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/vitamin-d-testing-and-supplementation-healthy-people-what-2024a1000f8a
+2024-09-09 13:32:26,208 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/vitamin-d-testing-and-supplementation-healthy-people-what-2024a1000f8a
+2024-09-09 13:32:29,632 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/vitamin-d-testing-and-supplementation-healthy-people-what-2024a1000f8a.
+2024-09-09 13:32:31,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:32:31,006 - INFO - Received response from OpenAI API.
+2024-09-09 13:32:31,007 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/vitamin-d-testing-and-supplementation-healthy-people-what-2024a1000f8a
+2024-09-09 13:32:31,009 - INFO - CSV file updated with new data.
+2024-09-09 13:32:31,009 - INFO - Medscape script completed.
