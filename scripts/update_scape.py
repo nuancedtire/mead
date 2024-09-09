@@ -2,9 +2,7 @@ import http.client
 import json
 import os
 import pandas as pd
-from datetime import datetime
 import requests
-import openai
 from openai import OpenAI
 from urllib.parse import urlparse
 from tenacity import (
@@ -12,7 +10,6 @@ from tenacity import (
     stop_after_attempt,
     wait_random_exponential,
 )  # for exponential backoff
-import time
 import logging
 from dateutil import parser
 

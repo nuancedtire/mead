@@ -52,7 +52,7 @@ try:
     print('Data fetched successfully from API.')
 except requests.exceptions.RequestException as e:
     logging.error(f"Failed to retrieve data: {e}")
-    lprint(f"Failed to retrieve data: {e}")
+    print(f"Failed to retrieve data: {e}")
     data = None
 
 # Define CSV headers without "Image URL Derived"
@@ -77,7 +77,7 @@ def standardize_time(time_str):
             dt = datetime.strptime(time_str, "%b %d, %Y, %I:%M %p")
         except ValueError:
             logging.warning(f"Failed to standardize time format for {time_str}")
-            logprint(f"Failed to standardize time format for {time_str}")
+            print(f"Failed to standardize time format for {time_str}")
             return time_str  # Return the original string if parsing fails
     
     # Return the standardized format 'YYYY-MM-DD HH:MM:SS'
@@ -100,7 +100,7 @@ def load_existing_data_pandas(csv_file):
 def write_data_to_csv_pandas(data, csv_file):
     if not data:
         logging.warning("No data to write to CSV.")
-        logprint("No data to write to CSV.")
+        print("No data to write to CSV.")
         return
     
     existing_entries = load_existing_data_pandas(csv_file)
@@ -135,7 +135,7 @@ def write_data_to_csv_pandas(data, csv_file):
                 existing_entries.add(entry_key)
         except Exception as e:
             logging.error(f"Error processing article: {e}")
-            lprint(f"Error processing article: {e}")
+            print(f"Error processing article: {e}")
 
     if new_rows:
         df_new = pd.DataFrame(new_rows)

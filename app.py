@@ -1,3 +1,4 @@
+# Import necessary libraries
 import streamlit as st
 import pandas as pd
 import firebase_admin
@@ -9,29 +10,29 @@ import json
 import time
 from PIL import Image, ImageOps
 from io import BytesIO
-import datetime
 
-# Define the fallback image URL
-fallback_image_url = "https://peerr.io/images/logo.svg"  # Consider using a non-SVG format
+# Fallback image in case the provided image URL is invalid or missing
+fallback_image_url = "https://peerr.io/images/logo.svg"  # Note: SVG might not be ideal for image display. Consider using a PNG or JPEG.
 
-# You can keep loading the additional CSV files as they are
-meds = pd.read_csv('databases/meds.csv')
-sifted = pd.read_csv('databases/sifted.csv')
-scape = pd.read_csv('databases/scape.csv')
+# Load CSV files containing data sources
+meds = pd.read_csv('databases/meds.csv')   # Medsii data
+sifted = pd.read_csv('databases/sifted.csv')  # Sifted data
+scape = pd.read_csv('databases/scape.csv')  # Medscape data
 
-# Constants
-api_key = 'AIzaSyAkJ8VVEHG7IAqwnUg9UuN8Hf_vttdMj2Y'
+# Firebase and API configurations
+api_key = 'AIzaSyAkJ8VVEHG7IAqwnUg9UuN8Hf_vttdMj2Y'  # Consider hiding this in st.secrets
 project_id = "peerr-cea41"
 database_url = f"https://firestore.googleapis.com/v1/projects/{project_id}/databases/(default)/documents"
 collection = "thoughts"
-default_email = 'fazeennasser@gmail.com'
+default_email = 'fazeennasser@gmail.com'  # Store sensitive data like this in `st.secrets` for security
 default_password = 'cowQiq-guzzas-buxse9'
-# Fetch the firebase credentials from st.secrets
+
+# Load Firebase credentials from Streamlit secrets
 firebase_credentials = {
     "type": st.secrets["firebase"]["type"],
     "project_id": st.secrets["firebase"]["project_id"],
     "private_key_id": st.secrets["firebase"]["private_key_id"],
-    "private_key": st.secrets["firebase"]["private_key"].replace("\\n", "\n"),  # Convert the newline characters
+    "private_key": st.secrets["firebase"]["private_key"].replace("\\n", "\n"),  # Convert escaped newline characters to actual newlines
     "client_email": st.secrets["firebase"]["client_email"],
     "client_id": st.secrets["firebase"]["client_id"],
     "auth_uri": st.secrets["firebase"]["auth_uri"],
@@ -39,85 +40,88 @@ firebase_credentials = {
     "auth_provider_x509_cert_url": st.secrets["firebase"]["auth_provider_x509_cert_url"],
     "client_x509_cert_url": st.secrets["firebase"]["client_x509_cert_url"]
 }
-def load_firebase():
-    # Check if the Firebase app is already initialized
+
+# Centralized Firebase Initialization Function
+def initialize_firebase():
+    """
+    Initialize the Firebase Admin SDK if it's not already initialized.
+    This function is used to avoid redundant Firebase initialization checks.
+    """
     if not firebase_admin._apps:
-        # Initialize the Firebase Admin SDK using the credentials file
         cred = credentials.Certificate(firebase_credentials)
         firebase_admin.initialize_app(cred)
 
-    # Initialize Firestore client
+# Modified Firebase Initialization in Functions
+def load_firebase():
+    """
+    Load data from Firestore and return it as a Pandas DataFrame.
+    """
+    initialize_firebase()  # Call centralized Firebase initialization
     db = firestore.client()
-
-    # Fetch data from Firestore collection "scraper-04-11-24"
-    scraper_collection = db.collection('scraper-06-11-24')
-
-    # Convert Firestore data to a Pandas DataFrame
+    scraper_collection = db.collection('scraper-09-11-24')
     docs = scraper_collection.stream()
-    data_list = []
-
-    # Iterate over the generator to access document data
-    for doc in docs:
-        doc_dict = doc.to_dict()  # Convert Firestore document to dictionary
-        data_list.append(doc_dict)
-
-    # Create a DataFrame from the collected documents
+    data_list = [doc.to_dict() for doc in docs]
+    
+    # Convert to DataFrame and process timestamps
     data = pd.DataFrame(data_list)
-
-    # Convert the Timestamp to datetime
     data['Time'] = pd.to_datetime(data['Time'])
-    data['Faz ID'] = data['LLM Timestamp']
-    data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
-
-    # Sort the data by Timestamp, latest at the top
+    data['LLM_Timestamp'] = pd.to_datetime(data['LLM_Timestamp'])
     data = data.sort_values(by='Time', ascending=False)
     return data
 
+# Function to remove markdown formatting from text
 def remove_markdown_formatting(text):
-    # Replace bold (** or __) with uppercase
+    # Convert bold text (**) to uppercase
     text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
     text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
     
-    # Remove italics (* or _)
+    # Remove italics formatting
     text = re.sub(r'\*(.*?)\*', r'\1', text)
     text = re.sub(r'_(.*?)_', r'\1', text)
     
-    # Removing headings
+    # Remove markdown headings (#)
     text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
     
     return text
 
+# Function to download, resize, and crop an image to fit the target size
 def crop_to_fit(image_url, target_size=(640, 360)):
     """
-    Downloads the image from the URL, resizes it while maintaining the aspect ratio, 
-    and crops the excess parts to fit the target size.
+    Download the image from the URL, resize and crop to fit the specified size.
 
     Args:
-        image_url (str): The URL of the image to download and crop.
-        target_size (tuple): The desired output size (width, height).
-    
+        image_url (str): The URL of the image.
+        target_size (tuple): Desired image size in (width, height).
+
     Returns:
-        Image: The resized and cropped image object.
+        Image: Cropped and resized image object, or None in case of an error.
     """
     try:
-        # Download the image
         response = requests.get(image_url)
         if response.status_code == 200:
             img = Image.open(BytesIO(response.content))
 
-            # Resize the image while maintaining aspect ratio, and center-crop to fit the target size
+            # Resize while maintaining aspect ratio and crop to fit target size
             img = ImageOps.fit(img, target_size, method=Image.LANCZOS)
-
             return img
         else:
             st.error(f"Failed to load image: {response.status_code}")
             return None
     except Exception as e:
-        st.error(f"Error while downloading or processing the image: {str(e)}")
+        st.error(f"Error while processing the image: {str(e)}")
         return None
 
-# Function to determine the source
+# Function to identify the source of a post based on the link
 def determine_source(link):
+    """
+    Identifies the source of the article based on the provided link.
+    
+    Args:
+        link (str): The URL link of the article.
+    
+    Returns:
+        str: Source of the article.
+    """
     if link in meds['Link'].values:
         return "Medsii"
     elif link in sifted['Link'].values:
@@ -127,112 +131,113 @@ def determine_source(link):
     else:
         return "Unknown Source"
 
-# Function to clean and split hashtags properly
+# Improved Hashtag Cleaning Function to Handle Array Inputs
 def clean_hashtags(hashtag_string):
-    if pd.isna(hashtag_string):
+    """
+    Clean and format hashtags, handling cases where hashtags might already be an array.
+    
+    Args:
+        hashtag_string (str or list): A string or list of hashtags.
+    
+    Returns:
+        list: A list of cleaned hashtags, properly formatted with #.
+    """
+    if isinstance(hashtag_string, list):  # If it's already an array, return it directly
+        return [f"#{tag.strip()}" for tag in hashtag_string]
+    
+    if pd.isna(hashtag_string):  # Handle NaN cases
         return []
-    # Remove unwanted characters like brackets or extra spaces, then split by commas
+
+    # If it's a string, remove unwanted characters and split by commas
     hashtags = hashtag_string.replace("[", "").replace("]", "").replace("'", "").split(',')
-    # Strip any extra whitespace around the hashtags
     return [f"#{tag.strip()}" for tag in hashtags]
 
-# Function to update Faz Firebase with Upload Status and Document ID
+# Update upload status for a document in Firestore
 def update_upload_status(source_id, peerr_document_id, status):
     """
-    Updates the upload status in the second Firestore database.
+    Updates the upload status of a document in Firestore.
 
-    Parameters:
-        source_id (str): The ID of the document in the second Firestore database to update.
-        status (bool): The upload status (True or False).
+    Args:
+        source_id (str): The ID of the document in Firestore.
+        peerr_document_id (str): Document ID in Firestore.
+        status (bool): Upload status (True or False).
 
     Returns:
-        bool: True if the status is successfully updated, False otherwise.
+        bool: True if successfully updated, False otherwise.
     """
-    # Check if the Firebase app is already initialized
-    if not firebase_admin._apps:
-        # Initialize the Firebase Admin SDK using the credentials file
-        cred = credentials.Certificate("firebase_creds.json")
-        firebase_admin.initialize_app(cred)
-
-    # Initialize Firestore client
-    db = firestore.client()
-
-    # Fetch data from Firestore collection "scraper-04-11-24"
-    scraper_collection = db.collection('scraper-04-11-24')
-    status_data = {
-        "upload_status": status,
-        "peerr_document_id": peerr_document_id,
-    }
-
     try:
-        # Update the document in the second Firestore database
+        initialize_firebase()  # Centralized Firebase initialization
+        db = firestore.client()
+        scraper_collection = db.collection('scraper-09-11-24')
+        status_data = {
+            "upload_status": status,
+            "peerr_document_id": peerr_document_id,
+        }
         scraper_collection.document(source_id).set(status_data, merge=True)
-        print(f"Upload status successfully updated to {status} for document {source_id} in the second Firestore database!")
+        st.success(f"Upload status successfully updated for document {source_id}.")
         return True
     except Exception as e:
-        print(f"Failed to update upload status for document {source_id} in the second Firestore database: {str(e)}")
+        st.error(f"Failed to update status for document {source_id}: {str(e)}")
         return False
 
+# Function to sign in to Firebase
 def sign_in(email, password):
     """
-    Authenticates the user with Firebase using email and password.
+    Sign in a user to Firebase using email and password.
 
-    Parameters:
-        email (str): The user's email address.
+    Args:
+        email (str): The user's email.
         password (str): The user's password.
 
     Returns:
-        tuple: A tuple containing the bearer token and the local ID of the user.
-
-    Raises:
-        Exception: If the sign-in fails, an exception is raised with the error message.
+        tuple: Bearer token and local user ID from Firebase.
     """
     url = f'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={api_key}'
-    headers = {
-        'accept': '*/*',
-        'content-type': 'application/json',
-        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
-    }
     data = {
         "returnSecureToken": True,
         "email": email,
         "password": password
     }
-    response = requests.post(url, headers=headers, data=json.dumps(data))
+    response = requests.post(url, data=json.dumps(data))
+    
     if response.status_code == 200:
         tokens = response.json()
         return tokens.get('idToken'), tokens.get('localId')
     else:
         raise Exception(f"Failed to sign in: {response.status_code}, {response.text}")
 
-def remove_markdown_formatting(text):
+# Function to post content to Firestore
+def post_to_firestore(source_id, post, image, email=None, password=None, localId=None, posted=None, updated=None, status="live"):
     """
-    Removes markdown formatting from the provided text.
+    Upload a new post to Firestore with the given content and metadata.
 
-    Parameters:
-        text (str): The input text with markdown formatting.
+    Args:
+        source_id (str): ID of the source document.
+        post (str): The content of the post.
+        image (str): Image URL for the post.
+        email (str): User email for Firebase authentication.
+        password (str): User password for Firebase authentication.
+        localId (str): User's local ID in Firebase.
+        posted (int): Timestamp of when the post was created.
+        updated (int): Timestamp of when the post was last updated.
+        status (str): Post status (e.g., "live").
 
     Returns:
-        str: The text with markdown formatting removed.
+        str: Document ID of the newly created post in Firestore, or an error message.
     """
-    text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
-    text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
-    text = re.sub(r'\*(.*?)\*', r'\1', text)
-    text = re.sub(r'_(.*?)_', r'\1', text)
-    text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
-    return text
-
-def post_to_firestore(source_id, post, image, email=None, password=None, localId=None, posted=None, updated=None, status="live"):
     email = email or default_email
     password = password or default_password
-    
+
+    # Authenticate user
     bearer_token, user_local_id = sign_in(email, password)
     local_id = localId or user_local_id
 
+    # Clean and format post content
     post = remove_markdown_formatting(post)
     postedTs = posted or int(time.time())
     updatedTs = updated or int(time.time())
 
+    # Prepare post data for Firestore
     post_data = {
         "fields": {
             "body": {"stringValue": post},
@@ -246,12 +251,11 @@ def post_to_firestore(source_id, post, image, email=None, password=None, localId
             "userId": {"stringValue": local_id},
             "likes": {"arrayValue": {"values": []}},
             "audience": {"stringValue": "General"},
-            "parentItem": {"mapValue": {"fields": {}}},
-            "parentItemType": {"stringValue": ""},
             "priority": {"integerValue": 100}
         }
     }
 
+    # Send the post request to Firestore
     headers = {
         "Authorization": f"Bearer {bearer_token}",
         "Content-Type": "application/json"
@@ -263,7 +267,7 @@ def post_to_firestore(source_id, post, image, email=None, password=None, localId
         peerr_document_id = response.json()['name'].split('/')[-1]
         print("Post successfully added to Firestore!")
         
-        # Update upload status in the second database
+        # Update upload status in the second Firestore collection
         update_upload_status(source_id, peerr_document_id, True)
         
         return peerr_document_id
@@ -271,15 +275,30 @@ def post_to_firestore(source_id, post, image, email=None, password=None, localId
         print("Failed to add post to Firestore!")
         return response.text
 
+# Function to delete a post from Firestore
 def delete_from_firestore(source_id, document_id, email=None, password=None):
+    """
+    Delete a post from Firestore and update its upload status.
+
+    Args:
+        source_id (str): ID of the source document.
+        document_id (str): Document ID to be deleted from Firestore.
+        email (str): User email for Firebase authentication.
+        password (str): User password for Firebase authentication.
+
+    Returns:
+        bool: True if deletion was successful, False otherwise.
+    """
     email = email or default_email
     password = password or default_password
     
+    # Authenticate user
     bearer_token, _ = sign_in(email, password)
     
-    # Update upload status to False in the second database before deleting the document
+    # Update upload status to False before deletion
     update_upload_status(source_id, document_id, False)
     
+    # Send delete request to Firestore
     headers = {
         "Authorization": f"Bearer {bearer_token}",
         "Content-Type": "application/json"
@@ -295,17 +314,35 @@ def delete_from_firestore(source_id, document_id, email=None, password=None):
         print("Failed to delete document from Firestore!")
         return response.text
 
-# Function to create a post
+# Function to create a post in the UI
 def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt, upload_status, peerr_document_id, source_id, input):
+    """
+    Renders a single post in the Streamlit feed with associated metadata and content.
+
+    Args:
+        timestamp (str): Time when the post was published.
+        llm_timestamp (str): Time when the post was generated by the LLM.
+        hashtags (list): List of hashtags associated with the post.
+        image_url (str): URL of the image to display with the post.
+        content (str): Main content of the post.
+        model (str): Model used to generate the post.
+        link (str): Link to the original article.
+        prompt (str): Input prompt used for generating the post.
+        upload_status (bool): Upload status to indicate if the post is live.
+        peerr_document_id (str): Document ID in Firestore (if already uploaded).
+        source_id (str): ID of the source document.
+        input (str): Original input text for the post generation.
+    """
+    # Use fallback image if no image URL is provided
     if not image_url:
         image_url = fallback_image_url
     source = determine_source(link)
-        
-    # Create two columns for the thumbnail and the published time
+    
+    # Create two columns: one for the image and one for post metadata
     col1, col2 = st.columns([3, 5])
     
     with col1:
-        # Crop the image to a specific size (left, upper, right, lower)
+        # Display the image after cropping to the desired size
         cropped_image = crop_to_fit(image_url, target_size=(640, 360))
         if cropped_image:
             st.image(cropped_image)
@@ -320,28 +357,23 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
             if st.button("Delete from Peerr", key=source_id):
                 delete_from_firestore(source_id, peerr_document_id)
                 update_upload_status(source_id, peerr_document_id, False)
-                st.rerun()
+                st.rerun()  # Refresh the page after deletion
         else:
             st.write(f'🔴 Not on Peerr')
             if st.button("Post to Peerr", key=source_id):
-                new_peerr_document_id = post_to_firestore(source_id, content, image_url)  # Correct function for posting
+                new_peerr_document_id = post_to_firestore(source_id, content, image_url)
                 update_upload_status(source_id, new_peerr_document_id, True)
-                st.rerun()
-    # Extract the first line of the content
-    if "\n" in content:
-        first_line, rest_of_content = content.split('\n', 1)
-    else:
-        first_line = content[:40]
-        rest_of_content = content
+                st.rerun()  # Refresh the page after posting
+    
+    # Create tabs for article content and more details
+    first_line = content.split("\n")[0] if "\n" in content else content[:40]
+    # Extract rest of the content, skipping the first line
+    rest_of_content = "\n".join(content.split("\n")[1:]) 
+    cleaned_content = re.sub(r"#\w+", "", rest_of_content)
+    hashtags_str = " ".join(hashtags)
 
     tab1, tab2 = st.tabs(["Article", "More"])
     
-    # Remove all hashtags from rest_of_content
-    cleaned_content = re.sub(r"#\w+", "", rest_of_content)
-
-    # Join the generated hashtags into a single string
-    hashtags_str = " ".join(hashtags)
-
     with tab1:
         with st.expander(f"{first_line}"):
             st.write(cleaned_content)
@@ -352,18 +384,10 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         st.write(link)
         st.write(f"Input:  \n{remove_markdown_formatting(input)}")
     
-    st.markdown("""
-      <style>
-      .stMarkdown hr {
-      margin-top: -12px;
-      margin-bottom: -6px;
-      }
-      </style>
-      """, unsafe_allow_html=True)
-
+    # Add a horizontal line between posts
     st.markdown("---")
 
-# Streamlit UI
+# Streamlit UI configuration
 st.set_page_config(
    page_title="Peerr Thoughts",
    page_icon="💭",
@@ -373,13 +397,14 @@ st.set_page_config(
 st.title("Feed")
 data = load_firebase()
 
+# Sidebar with various filters and statistics
 with st.sidebar:
 
-    # Statistics Section
+    # Display statistics
     total_posts = len(data)
     last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
     first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
-    last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
+    last_gen_time = data['LLM_Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
     st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**First Post:** *{first_post_time}*  \n**Last Gen:** *{last_gen_time}*")
 
@@ -392,48 +417,43 @@ an image (open source), and a snippet of the content.
 You can expand each post to view the full content. You can also filter by date or tags below.
 """)
 
-# Hashtag Filter in Sidebar
+# Hashtag filter in the sidebar
 st.sidebar.header("Filter by Hashtags")
 
-# Apply the cleaning function to the Hashtags column
+# Apply cleaning function to 'Hashtags' column
 data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
 
-# Extract unique hashtags
+# Extract unique hashtags and create a multi-select widget
 unique_hashtags = set(sum(data['Hashtags'].tolist(), []))
-
-# Create a multi-select widget
 selected_hashtags = st.sidebar.multiselect("Select Hashtags", options=list(unique_hashtags))
 
-# Date Filter in Sidebar
+# Handle dynamic start date
 st.sidebar.header("Filter by Date")
-# start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())
-# Set the start date to 4th September 2024
-start_date = st.sidebar.date_input("Start Date", value=datetime.date(2024, 9, 4))
+start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())  # Dynamic start date from data
 end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
 
-# Filter data based on the selected date range
+# Filter data by date range and selected hashtags
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
 
-# Filter data based on the selected hashtags
 if selected_hashtags:
     filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: any(hashtag in x for hashtag in selected_hashtags))]
 
-# Create a scrolling feed
+# Display posts in a scrolling feed
 if filtered_data.empty:
     st.write("No posts found for the selected date range and hashtags.")
 else:
     for _, row in filtered_data.iterrows():
         create_post(
             timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
-            llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
+            llm_timestamp=row['LLM_Timestamp'].strftime("%H:%M on %d-%m-%Y"),
             image_url=row['Image'],
-            hashtags=row['Hashtags'],  # Pass raw hashtags here, processing happens inside create_post
+            hashtags=row['Hashtags'],
             content=remove_markdown_formatting(row['Post']),
             model=row['Model'],
             link=row['Link'],
             prompt=row['Prompt'],
             upload_status=False if 'upload_status' not in row or pd.isna(row['upload_status']) else row['upload_status'],
-            source_id=row['Faz ID'],
+            source_id=row['Encoded_Link'],
             peerr_document_id=None if 'peerr_document_id' not in row or pd.isna(row['peerr_document_id']) else row['peerr_document_id'],
             input=row['Input']
         )
