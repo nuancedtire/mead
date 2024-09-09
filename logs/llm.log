@@ -382,3 +382,24 @@
 2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7500131/pexels-photo-7500131.jpeg'}
 2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/4021358/pexels-photo-4021358.jpeg'}
 2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5700926/pexels-photo-5700926.jpeg'}
+2024-09-09 18:19:14,086 - INFO - Logging setup complete.
+2024-09-09 18:19:14,110 - INFO - Unique links to process: 7
+2024-09-09 18:19:16,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:16,198 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-09 18:19:37,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:40,956 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:41,229 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:41,230 - INFO - Image query: RSV vaccination cost-effectiveness older adults
+2024-09-09 18:19:41,584 - INFO - Unique image link: https://images.pexels.com/photos/8830472/pexels-photo-8830472.jpeg
+2024-09-09 18:19:41,586 - INFO - Logged data to databases/llm.csv.
+2024-09-09 18:19:42,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:42,209 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-09 18:19:42,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:42,996 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-09 18:19:43,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:43,724 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
+2024-09-09 18:19:44,554 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:44,555 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-09 18:19:45,813 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 18:19:45,814 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-09 18:19:45,814 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/8830472/pexels-photo-8830472.jpeg'}
