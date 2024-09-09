@@ -239,3 +239,100 @@
 2024-09-09 16:17:34,818 - INFO - Existing CSV file loaded.
 2024-09-09 16:17:34,818 - INFO - No new links found, CSV file is up to date.
 2024-09-09 16:17:34,818 - INFO - Medscape script completed.
+2024-09-09 16:37:49,537 - INFO - Medscape script started.
+2024-09-09 16:37:49,537 - INFO - Connection to Medscape established.
+2024-09-09 16:37:49,572 - INFO - Request sent to Medscape API.
+2024-09-09 16:37:49,953 - INFO - Response received from Medscape API.
+2024-09-09 16:37:49,954 - INFO - Response data decoded into dictionary.
+2024-09-09 16:37:49,957 - INFO - Existing CSV file loaded.
+2024-09-09 16:37:49,957 - INFO - No new links found, CSV file is up to date.
+2024-09-09 16:37:49,957 - INFO - Medscape script completed.
+2024-09-09 16:38:09,081 - INFO - Medscape script started.
+2024-09-09 16:38:09,082 - INFO - Connection to Medscape established.
+2024-09-09 16:38:09,113 - INFO - Request sent to Medscape API.
+2024-09-09 16:38:09,473 - INFO - Response received from Medscape API.
+2024-09-09 16:38:09,473 - INFO - Response data decoded into dictionary.
+2024-09-09 16:38:09,477 - INFO - Existing CSV file loaded.
+2024-09-09 16:38:09,477 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g
+2024-09-09 16:38:09,477 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g
+2024-09-09 16:38:12,801 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g.
+2024-09-09 16:38:23,322 - INFO - Medscape script started.
+2024-09-09 16:38:23,322 - INFO - Connection to Medscape established.
+2024-09-09 16:38:23,340 - INFO - Request sent to Medscape API.
+2024-09-09 16:38:23,696 - INFO - Response received from Medscape API.
+2024-09-09 16:38:23,696 - INFO - Response data decoded into dictionary.
+2024-09-09 16:38:23,700 - INFO - Existing CSV file loaded.
+2024-09-09 16:38:23,700 - INFO - No new links found, CSV file is up to date.
+2024-09-09 16:38:23,701 - INFO - Medscape script completed.
+2024-09-09 16:38:53,035 - INFO - Medscape script started.
+2024-09-09 16:38:53,035 - INFO - Connection to Medscape established.
+2024-09-09 16:38:53,050 - INFO - Request sent to Medscape API.
+2024-09-09 16:38:53,434 - INFO - Response received from Medscape API.
+2024-09-09 16:38:53,435 - INFO - Response data decoded into dictionary.
+2024-09-09 16:38:53,438 - INFO - Existing CSV file loaded.
+2024-09-09 16:38:53,438 - INFO - No new links found, CSV file is up to date.
+2024-09-09 16:38:53,438 - INFO - Medscape script completed.
+2024-09-09 16:39:23,009 - INFO - Medscape script started.
+2024-09-09 16:39:23,009 - INFO - Connection to Medscape established.
+2024-09-09 16:39:23,045 - INFO - Request sent to Medscape API.
+2024-09-09 16:39:23,394 - INFO - Response received from Medscape API.
+2024-09-09 16:39:23,394 - INFO - Response data decoded into dictionary.
+2024-09-09 16:39:23,398 - INFO - Existing CSV file loaded.
+2024-09-09 16:39:23,398 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g
+2024-09-09 16:39:23,398 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g
+2024-09-09 16:39:24,244 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/no-mental-health-concerns-glp-1-receptor-agonist-use-2024a1000g0g.
+2024-09-09 16:39:25,581 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:39:25,583 - INFO - Received response from OpenAI API.
+2024-09-09 16:39:25,584 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2823083?guestAccessKey=2dc15077-db5b-45cf-b2f1-f1fcf6020c5c&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090324
+2024-09-09 16:39:25,584 - INFO - Processing new item: https://www.medscape.com/viewarticle/nearly-45-cancer-survivors-report-financial-struggle-2024a1000g05
+2024-09-09 16:39:25,584 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/nearly-45-cancer-survivors-report-financial-struggle-2024a1000g05
+2024-09-09 16:39:29,318 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/nearly-45-cancer-survivors-report-financial-struggle-2024a1000g05.
+2024-09-09 16:39:30,263 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:39:30,264 - INFO - Received response from OpenAI API.
+2024-09-09 16:39:30,264 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2822454#:~:text=In%20this%20cross%2Dsectional%20study%2C%20approximately%2050%25%20of%20cancer,disadvantaged%2C%20and%20had%20advanced%20disease
+2024-09-09 16:39:30,265 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e
+2024-09-09 16:39:30,265 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e
+2024-09-09 16:39:33,522 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e.
+2024-09-09 16:39:34,378 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:39:34,379 - INFO - Received response from OpenAI API.
+2024-09-09 16:39:34,379 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/guidelines-going-digital-2025-2024a1000d7e
+2024-09-09 16:39:34,379 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/early-home-care-second-trimester-medical-abortion-safe-cuts-2024a1000ftt
+2024-09-09 16:39:34,379 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/early-home-care-second-trimester-medical-abortion-safe-cuts-2024a1000ftt
+2024-09-09 16:39:38,058 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/early-home-care-second-trimester-medical-abortion-safe-cuts-2024a1000ftt.
+2024-09-09 16:39:39,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:39:39,173 - INFO - Received response from OpenAI API.
+2024-09-09 16:39:39,173 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext
+2024-09-09 16:39:39,174 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-09 16:39:39,174 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-09 16:39:47,682 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw.
+2024-09-09 16:39:48,515 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:39:48,515 - INFO - Received response from OpenAI API.
+2024-09-09 16:39:48,516 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/should-dentists-play-role-battle-against-obesity-2024a1000fiw
+2024-09-09 16:39:48,516 - INFO - Processing new item: https://www.medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9
+2024-09-09 16:39:48,516 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9
+2024-09-09 16:39:51,997 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9.
+2024-09-09 16:39:52,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:39:52,824 - INFO - Received response from OpenAI API.
+2024-09-09 16:39:52,824 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/boosting-thiazide-dosage-can-reduce-kidney-stone-risk-2024a1000fx9
+2024-09-09 16:39:52,825 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-09 16:39:52,825 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8
+2024-09-09 16:39:58,737 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/earlier-sleep-apnoea-detection-benefits-babies-down-syndrome-2024a1000fl8.
+2024-09-09 16:39:59,589 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:39:59,590 - INFO - Received response from OpenAI API.
+2024-09-09 16:39:59,590 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20
+2024-09-09 16:39:59,591 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-09 16:39:59,591 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-09 16:40:02,699 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn.
+2024-09-09 16:40:03,610 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 16:40:03,611 - INFO - Received response from OpenAI API.
+2024-09-09 16:40:03,611 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/first-meta-analysis-infertility-prevalence-after-testicular-2024a1000frn
+2024-09-09 16:40:03,614 - INFO - CSV file updated with new data.
+2024-09-09 16:40:03,614 - INFO - Medscape script completed.
+2024-09-09 16:41:19,532 - INFO - Medscape script started.
+2024-09-09 16:41:19,533 - INFO - Connection to Medscape established.
+2024-09-09 16:41:19,550 - INFO - Request sent to Medscape API.
+2024-09-09 16:41:19,917 - INFO - Response received from Medscape API.
+2024-09-09 16:41:19,917 - INFO - Response data decoded into dictionary.
+2024-09-09 16:41:19,921 - INFO - Existing CSV file loaded.
+2024-09-09 16:41:19,921 - INFO - No new links found, CSV file is up to date.
+2024-09-09 16:41:19,921 - INFO - Medscape script completed.

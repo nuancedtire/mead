@@ -19,12 +19,12 @@ os.makedirs(log_folder, exist_ok=True)
 logging.basicConfig(filename=log_file_path, level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-logging.info('Scape Script started.')
+logging.info('Medsii Script started.')
 
 # API request setup
 url = 'https://sentry.azurewebsites.net/api/Feed/anonymous'
 params = {
-    'pageSize': 5,
+    'pageSize': 10,
     'pageNumber': 1
 }
 
@@ -155,4 +155,4 @@ def write_data_to_csv_pandas(data, csv_file):
 # Write data to CSV
 write_data_to_csv_pandas(data, csv_file_path)
 
-logging.info('Meds script completed successfully.')
+logging.info('Medsii script completed successfully.')
