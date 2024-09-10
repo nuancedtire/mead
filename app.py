@@ -410,7 +410,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         with tab1:
             with st.expander(f"{first_line}"):
                 st.write(cleaned_content)
-                st.write(f"**Generated Hashtags:** {hashtags_str}")
+                st.write(f"**Hashtags:** {hashtags_str}")
             # Display the relative times
             st.info(f"**Published** {relative_time(timestamp)}  \n"
                     # f"**Generated at:** {relative_time(llm_timestamp)}  \n"

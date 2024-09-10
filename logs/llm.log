@@ -1,561 +1,516 @@
-2024-09-06 04:25:42,295 - INFO - Logging setup complete.
-2024-09-06 04:25:42,295 - WARNING - databases/llm.csv does not exist, skipping...
-2024-09-06 04:25:42,296 - WARNING - Missing required columns in the CSV.
-2024-09-06 04:25:42,307 - WARNING - databases/llm.csv does not exist, skipping...
-2024-09-06 04:30:18,775 - INFO - Logging setup complete.
-2024-09-06 04:30:37,376 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:30:50,238 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:30:50,803 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:30:51,145 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:31:06,429 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:10,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:10,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:11,319 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:31:21,865 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:26,543 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:26,949 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:27,244 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:31:44,843 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:48,066 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:48,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:31:48,802 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:32:00,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:32:05,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:32:08,139 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:32:08,439 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:32:32,846 - INFO - Logging setup complete.
-2024-09-06 04:32:47,992 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:32:52,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:32:52,706 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:32:53,037 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:37:40,416 - INFO - Logging setup complete.
-2024-09-06 04:37:59,762 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:38:03,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:38:04,053 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:38:04,410 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:39:03,955 - INFO - Logging setup complete.
-2024-09-06 04:39:22,550 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:39:27,274 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:39:27,656 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:39:28,242 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:40:35,196 - INFO - Logging setup complete.
-2024-09-06 04:40:53,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:40:59,288 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:40:59,631 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:41:00,027 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:41:38,366 - INFO - Logging setup complete.
-2024-09-06 04:41:48,759 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:41:53,493 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:41:53,961 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:41:54,476 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:42:07,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:14,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:14,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:14,804 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:42:32,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:38,078 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:38,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:38,807 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:42:48,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:52,442 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:52,828 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:42:53,186 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:43:07,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:43:10,550 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:43:11,015 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:43:11,393 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:46:10,736 - INFO - Logging setup complete.
-2024-09-06 04:46:25,902 - INFO - Logging setup complete.
-2024-09-06 04:46:39,527 - INFO - Logging setup complete.
-2024-09-06 04:47:00,346 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:47:06,093 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:47:06,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:47:07,051 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:48:52,854 - INFO - Logging setup complete.
-2024-09-06 04:49:08,450 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:49:11,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:49:11,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:49:12,280 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:49:41,431 - INFO - Logging setup complete.
-2024-09-06 04:49:55,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:49:59,083 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:49:59,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:00,127 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:50:09,644 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:13,622 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:13,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:14,336 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:50:31,922 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:35,334 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:35,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:36,124 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:50:48,263 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:50,811 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:51,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:50:51,709 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:51:05,889 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:09,400 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:09,756 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:10,056 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:51:20,611 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:26,048 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:26,416 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:26,933 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:51:35,342 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:39,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:40,162 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:51:40,515 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:51:57,377 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:01,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:02,089 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:02,424 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:52:12,108 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:15,761 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:16,174 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:17,203 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:52:23,521 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:26,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:27,235 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:27,701 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:52:38,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:42,211 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:42,639 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:42,973 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:52:45,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:45,796 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-06 04:52:52,971 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:55,571 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:56,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:52:56,777 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:53:06,630 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:53:10,307 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:53:10,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:53:12,282 - INFO - Logged data to databases/llm.csv.
-2024-09-06 04:53:13,501 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:53:13,502 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-06 04:53:13,502 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/19813728/pexels-photo-19813728.jpeg'}
-2024-09-06 04:53:13,502 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27925589/pexels-photo-27925589.jpeg'}
-2024-09-06 04:53:13,502 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5995160/pexels-photo-5995160.jpeg'}
-2024-09-06 04:53:13,502 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7723619/pexels-photo-7723619.jpeg'}
-2024-09-06 04:53:13,502 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6823605/pexels-photo-6823605.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/19386417/pexels-photo-19386417.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/20897581/pexels-photo-20897581.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7552373/pexels-photo-7552373.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6981174/pexels-photo-6981174.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6436284/pexels-photo-6436284.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6436250/pexels-photo-6436250.jpeg'}
-2024-09-06 04:53:13,503 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7231423/pexels-photo-7231423.jpeg'}
-2024-09-06 04:53:33,748 - INFO - Logging setup complete.
-2024-09-06 04:53:36,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:53:36,038 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-06 04:53:36,981 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-06 04:53:36,982 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 13:33:41,743 - INFO - Logging setup complete.
-2024-09-09 13:33:47,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:33:52,941 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:33:53,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:33:54,301 - INFO - Logged data to databases/llm.csv.
-2024-09-09 13:34:02,247 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:34:06,072 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:34:06,619 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:34:06,975 - INFO - Logged data to databases/llm.csv.
-2024-09-09 13:34:10,617 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:34:10,618 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-09 13:34:23,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:34:28,613 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:34:29,132 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:34:29,546 - INFO - Logged data to databases/llm.csv.
-2024-09-09 13:35:03,964 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:08,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:09,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:09,959 - INFO - Logged data to databases/llm.csv.
-2024-09-09 13:35:20,356 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:24,080 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:24,602 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:25,251 - INFO - Logged data to databases/llm.csv.
-2024-09-09 13:35:26,531 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:26,532 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-09 13:35:27,522 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 13:35:27,523 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 14:02:05,519 - INFO - Logging setup complete.
-2024-09-09 14:02:05,535 - INFO - Unique links to process: 17
-2024-09-09 14:02:10,246 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:15,828 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:16,141 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:16,142 - INFO - Image query: translucent cranial implant neurosurgery technology
-2024-09-09 14:02:16,355 - INFO - Unique image link: https://images.pexels.com/photos/7722538/pexels-photo-7722538.jpeg
-2024-09-09 14:02:16,357 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:02:25,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:29,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:29,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:29,574 - INFO - Image query: mRNA vaccine development for mpox outbreak
-2024-09-09 14:02:29,768 - INFO - Unique image link: https://images.pexels.com/photos/5863280/pexels-photo-5863280.jpeg
-2024-09-09 14:02:29,769 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:02:31,886 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:31,886 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-09 14:02:40,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:43,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:44,409 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:02:44,409 - INFO - Image query: "Nucala COPD treatment trial results"
-2024-09-09 14:02:44,546 - INFO - Unique image link: https://images.pexels.com/photos/5863328/pexels-photo-5863328.jpeg
-2024-09-09 14:02:44,548 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:03:13,858 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:22,283 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:22,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:22,779 - INFO - Image query: "chronic lymphocytic leukemia treatment strategies"
-2024-09-09 14:03:22,948 - INFO - Unique image link: https://images.pexels.com/photos/6191559/pexels-photo-6191559.jpeg
-2024-09-09 14:03:22,949 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:03:37,324 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:41,003 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:41,774 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:41,775 - INFO - Image query: "luxury preventive health check-up"
-2024-09-09 14:03:42,339 - INFO - Unique image link: https://images.pexels.com/photos/27271454/pexels-photo-27271454.jpeg
-2024-09-09 14:03:42,340 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:03:43,393 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:43,394 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-09 14:03:44,168 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:03:44,169 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 14:04:58,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:03,904 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:04,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:04,454 - INFO - Image query: "AI breast cancer screening strategy"
-2024-09-09 14:05:04,694 - INFO - Unique image link: https://images.pexels.com/photos/5701081/pexels-photo-5701081.jpeg
-2024-09-09 14:05:04,696 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:05:13,729 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:16,714 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:17,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:17,033 - INFO - Image query: "cardiac surgery access disparities"
-2024-09-09 14:05:17,223 - INFO - Unique image link: https://images.pexels.com/photos/27469354/pexels-photo-27469354.jpeg
-2024-09-09 14:05:17,224 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:05:25,608 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:30,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:30,473 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:30,474 - INFO - Image query: "monthly semaglutide injection hydrogel"
-2024-09-09 14:05:30,645 - INFO - Unique image link: https://images.pexels.com/photos/7231426/pexels-photo-7231426.jpeg
-2024-09-09 14:05:30,646 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:05:49,123 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:53,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:53,507 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:05:53,507 - INFO - Image query: "women's health primary care conference"
-2024-09-09 14:05:54,408 - INFO - Unique image link: https://images.pexels.com/photos/6981024/pexels-photo-6981024.jpeg
-2024-09-09 14:05:54,409 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:06:05,010 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:08,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:08,834 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:08,840 - INFO - Image query: "ultra-processed food and rheumatoid arthritis"
-2024-09-09 14:06:09,282 - INFO - Unique image link: https://images.pexels.com/photos/7552330/pexels-photo-7552330.jpeg
-2024-09-09 14:06:09,284 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:06:18,989 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:27,415 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:27,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:27,836 - INFO - Image query: "Bariatric surgery pregnancy outcomes"
-2024-09-09 14:06:28,085 - INFO - Unique image link: https://images.pexels.com/photos/27951963/pexels-photo-27951963.jpeg
-2024-09-09 14:06:28,086 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:06:35,264 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:38,879 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:39,188 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:39,189 - INFO - Image query: "antibiotic prescribing practices respiratory infections"
-2024-09-09 14:06:39,370 - INFO - Unique image link: https://images.pexels.com/photos/5816421/pexels-photo-5816421.jpeg
-2024-09-09 14:06:39,371 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:06:40,165 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:06:40,166 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-09 14:07:48,727 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:07:54,148 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:07:54,438 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 14:07:54,439 - INFO - Image query: "vitamin D supplementation guidelines"
-2024-09-09 14:07:54,601 - INFO - Unique image link: https://images.pexels.com/photos/14433532/pexels-photo-14433532.jpeg
-2024-09-09 14:07:54,602 - INFO - Logged data to databases/llm.csv.
-2024-09-09 14:07:54,602 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7722538/pexels-photo-7722538.jpeg'}
-2024-09-09 14:07:54,602 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5863280/pexels-photo-5863280.jpeg'}
-2024-09-09 14:07:54,602 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5863328/pexels-photo-5863328.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6191559/pexels-photo-6191559.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27271454/pexels-photo-27271454.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5701081/pexels-photo-5701081.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27469354/pexels-photo-27469354.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7231426/pexels-photo-7231426.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6981024/pexels-photo-6981024.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7552330/pexels-photo-7552330.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/27951963/pexels-photo-27951963.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5816421/pexels-photo-5816421.jpeg'}
-2024-09-09 14:07:54,603 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/14433532/pexels-photo-14433532.jpeg'}
-2024-09-09 16:17:35,934 - INFO - Logging setup complete.
-2024-09-09 16:17:35,955 - INFO - Unique links to process: 4
-2024-09-09 16:17:39,051 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:17:39,053 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-09 16:17:40,223 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:17:40,224 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-09 16:17:41,632 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:17:41,633 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 16:17:43,261 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:17:43,262 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-09 16:42:48,933 - INFO - Logging setup complete.
-2024-09-09 16:42:48,954 - INFO - Unique links to process: 17
-2024-09-09 16:42:49,941 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:42:49,943 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-09 16:43:02,549 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:43:06,147 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:43:06,454 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 16:43:06,455 - INFO - Image query: "glucocorticoids diabetes monitoring"
-2024-09-09 16:43:06,758 - INFO - Unique image link: https://images.pexels.com/photos/6823606/pexels-photo-6823606.jpeg
-2024-09-09 16:43:06,759 - INFO - Logged data to databases/llm.csv.
-2024-09-09 16:47:55,432 - INFO - Retrying request to /chat/completions in 0.826718 seconds
-2024-09-09 16:52:41,414 - INFO - Retrying request to /chat/completions in 1.662653 seconds
-2024-09-09 17:02:17,846 - INFO - Retrying request to /chat/completions in 0.970045 seconds
-2024-09-09 17:07:03,840 - INFO - Retrying request to /chat/completions in 1.931066 seconds
-2024-09-09 17:16:54,588 - INFO - Retrying request to /chat/completions in 0.782502 seconds
-2024-09-09 17:21:40,559 - INFO - Retrying request to /chat/completions in 1.604977 seconds
-2024-09-09 17:31:13,252 - INFO - Retrying request to /chat/completions in 0.849691 seconds
-2024-09-09 17:34:58,110 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:35:04,191 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:35:04,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:35:04,798 - INFO - Image query: "Therapeutic Drug Monitoring Parkinson's Disease"
-2024-09-09 17:35:05,064 - INFO - Unique image link: https://images.pexels.com/photos/6823613/pexels-photo-6823613.jpeg
-2024-09-09 17:35:05,066 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:35:26,259 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:35:29,521 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:35:29,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:35:29,928 - INFO - Image query: "gene therapy vision restoration"
-2024-09-09 17:35:30,132 - INFO - Unique image link: https://images.pexels.com/photos/6932015/pexels-photo-6932015.jpeg
-2024-09-09 17:35:30,133 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:35:50,280 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:36:03,555 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:36:03,920 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:36:03,921 - INFO - Image query: "stem cell therapy for type 1 diabetes"
-2024-09-09 17:36:04,149 - INFO - Unique image link: https://images.pexels.com/photos/19783687/pexels-photo-19783687.jpeg
-2024-09-09 17:36:04,150 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:36:10,599 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:36:10,599 - INFO - No article found for link http://dx.doi.org/10.1016/j.vaccine.2024.126294.
-2024-09-09 17:36:11,793 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:36:11,793 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-09 17:36:13,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:36:13,173 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 17:36:14,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:36:14,636 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-09 17:37:21,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:37:26,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:37:27,198 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:37:27,198 - INFO - Image query: "GLP-1 receptor agonists safety study"
-2024-09-09 17:37:27,388 - INFO - Unique image link: https://images.pexels.com/photos/7722873/pexels-photo-7722873.jpeg
-2024-09-09 17:37:27,390 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:37:56,943 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:38:01,401 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:38:01,828 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:38:01,829 - INFO - Image query: "financial hardship cancer survivors"
-2024-09-09 17:38:02,053 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
-2024-09-09 17:38:02,054 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:38:57,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:00,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:00,800 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:00,801 - INFO - Image query: "digital clinical guidelines access"
-2024-09-09 17:39:01,007 - INFO - Unique image link: https://images.pexels.com/photos/17043395/pexels-photo-17043395.jpeg
-2024-09-09 17:39:01,009 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:39:02,339 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:02,340 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-09 17:39:08,113 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:10,859 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:11,151 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:11,151 - INFO - Image query: "dental practice weight management"
-2024-09-09 17:39:11,416 - INFO - Unique image link: https://images.pexels.com/photos/7500131/pexels-photo-7500131.jpeg
-2024-09-09 17:39:11,417 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:39:24,581 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:29,521 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:29,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:29,836 - INFO - Image query: "thiazide dosage kidney stone prevention"
-2024-09-09 17:39:30,126 - INFO - Unique image link: https://images.pexels.com/photos/4021358/pexels-photo-4021358.jpeg
-2024-09-09 17:39:30,127 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:39:32,222 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:32,223 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-09 17:39:37,549 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:40,634 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:41,079 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 17:39:41,080 - INFO - Image query: "testicular cancer fertility impact"
-2024-09-09 17:39:41,351 - INFO - Unique image link: https://images.pexels.com/photos/5700926/pexels-photo-5700926.jpeg
-2024-09-09 17:39:41,352 - INFO - Logged data to databases/llm.csv.
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6823606/pexels-photo-6823606.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6823613/pexels-photo-6823613.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6932015/pexels-photo-6932015.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/19783687/pexels-photo-19783687.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7722873/pexels-photo-7722873.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/17043395/pexels-photo-17043395.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7500131/pexels-photo-7500131.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/4021358/pexels-photo-4021358.jpeg'}
-2024-09-09 17:39:41,352 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5700926/pexels-photo-5700926.jpeg'}
-2024-09-09 18:19:14,086 - INFO - Logging setup complete.
-2024-09-09 18:19:14,110 - INFO - Unique links to process: 7
-2024-09-09 18:19:16,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:16,198 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-09 18:19:37,128 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:40,956 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:41,229 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:41,230 - INFO - Image query: RSV vaccination cost-effectiveness older adults
-2024-09-09 18:19:41,584 - INFO - Unique image link: https://images.pexels.com/photos/8830472/pexels-photo-8830472.jpeg
-2024-09-09 18:19:41,586 - INFO - Logged data to databases/llm.csv.
-2024-09-09 18:19:42,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:42,209 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-09 18:19:42,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:42,996 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 18:19:43,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:43,724 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-09 18:19:44,554 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:44,555 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-09 18:19:45,813 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 18:19:45,814 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-09 18:19:45,814 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/8830472/pexels-photo-8830472.jpeg'}
-2024-09-09 20:15:17,336 - INFO - Logging setup complete.
-2024-09-09 20:15:17,362 - INFO - Unique links to process: 6
-2024-09-09 20:15:19,896 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 20:15:19,898 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-09 20:15:21,257 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 20:15:21,258 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-09 20:15:28,793 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 20:15:28,794 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 20:15:29,960 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 20:15:29,960 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-09 20:15:31,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 20:15:31,711 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-09 20:15:33,200 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 20:15:33,201 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-09 22:12:59,586 - INFO - Logging setup complete.
-2024-09-09 22:12:59,611 - INFO - Unique links to process: 7
-2024-09-09 22:13:01,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:01,287 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-09 22:13:02,892 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:02,893 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-09 22:13:05,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:05,440 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-09 22:13:06,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:06,623 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-09 22:13:07,926 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:07,927 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-09 22:13:09,802 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:09,803 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-09 22:13:18,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:23,271 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:23,897 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-09 22:13:23,898 - INFO - Image query: "diabetes heart rate monitoring"
-2024-09-09 22:13:24,119 - INFO - Unique image link: https://images.pexels.com/photos/6120249/pexels-photo-6120249.jpeg
-2024-09-09 22:13:24,120 - INFO - Logged data to databases/llm.csv.
-2024-09-09 22:13:24,120 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6120249/pexels-photo-6120249.jpeg'}
-2024-09-10 01:05:10,477 - INFO - Logging setup complete.
-2024-09-10 01:05:10,502 - INFO - Unique links to process: 6
-2024-09-10 01:05:41,775 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 01:05:41,777 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-10 01:05:46,061 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 01:05:46,062 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-10 01:05:47,291 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 01:05:47,292 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-10 01:05:48,634 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 01:05:48,634 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-10 01:05:49,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 01:05:49,741 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-10 01:05:51,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 01:05:51,031 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-10 02:40:59,638 - INFO - Logging setup complete.
-2024-09-10 02:40:59,662 - INFO - Unique links to process: 6
-2024-09-10 02:41:02,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 02:41:02,609 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-10 02:41:05,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 02:41:05,487 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-10 02:41:08,423 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 02:41:08,423 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-10 02:41:12,016 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 02:41:12,016 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-10 02:41:13,562 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 02:41:13,563 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-10 02:41:15,313 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 02:41:15,314 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-10 04:17:10,609 - INFO - Logging setup complete.
-2024-09-10 04:17:10,634 - INFO - Unique links to process: 6
-2024-09-10 04:17:12,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 04:17:12,455 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-10 04:17:14,250 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 04:17:14,251 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-10 04:17:15,333 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 04:17:15,334 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-10 04:17:16,519 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 04:17:16,519 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-10 04:17:17,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 04:17:17,535 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-10 04:17:18,542 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 04:17:18,543 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-10 06:20:07,897 - INFO - Logging setup complete.
-2024-09-10 06:20:07,922 - INFO - Unique links to process: 6
-2024-09-10 06:20:38,919 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 06:20:38,921 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-10 06:20:40,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 06:20:40,006 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-10 06:20:41,236 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 06:20:41,236 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-10 06:20:42,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 06:20:42,381 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-10 06:20:43,676 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 06:20:43,677 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-10 06:20:44,822 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 06:20:44,823 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-10 08:18:19,173 - INFO - Logging setup complete.
-2024-09-10 08:18:19,198 - INFO - Unique links to process: 6
-2024-09-10 08:18:21,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 08:18:21,196 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-10 08:18:23,307 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 08:18:23,308 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-10 08:18:24,324 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 08:18:24,325 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-10 08:18:25,670 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 08:18:25,672 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-10 08:18:26,691 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 08:18:26,692 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-10 08:18:28,031 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 08:18:28,032 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-10 10:15:19,973 - INFO - Logging setup complete.
-2024-09-10 10:15:19,998 - INFO - Unique links to process: 12
-2024-09-10 10:15:22,165 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:15:22,167 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
-2024-09-10 10:15:25,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:15:29,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:15:30,062 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:15:30,062 - INFO - Image query: "atezolizumab bevacizumab hepatocellular carcinoma treatment"
-2024-09-10 10:15:30,399 - INFO - Unique image link: https://images.pexels.com/photos/6724357/pexels-photo-6724357.jpeg
-2024-09-10 10:15:30,400 - INFO - Logged data to databases/llm.csv.
-2024-09-10 10:15:40,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:15:44,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:15:44,874 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:15:44,875 - INFO - Image query: "rubella vaccination autoimmune disease risk"
-2024-09-10 10:15:45,208 - INFO - Unique image link: https://images.pexels.com/photos/7230243/pexels-photo-7230243.jpeg
-2024-09-10 10:15:45,209 - INFO - Logged data to databases/llm.csv.
-2024-09-10 10:15:55,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:00,824 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:01,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:01,137 - INFO - Image query: "Parkinson's disease digital biomarkers"
-2024-09-10 10:16:01,444 - INFO - Unique image link: https://images.pexels.com/photos/8376285/pexels-photo-8376285.jpeg
-2024-09-10 10:16:01,445 - INFO - Logged data to databases/llm.csv.
-2024-09-10 10:16:15,887 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:20,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:20,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:20,702 - INFO - Image query: "Type 1 Diabetes immunotherapy"
-2024-09-10 10:16:21,069 - INFO - Unique image link: https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg
-2024-09-10 10:16:21,070 - INFO - Logged data to databases/llm.csv.
-2024-09-10 10:16:23,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:23,181 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
-2024-09-10 10:16:33,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:36,202 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:36,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:36,701 - INFO - Image query: "Welireg treatment for von Hippel-Lindau disease"
-2024-09-10 10:16:36,971 - INFO - Unique image link: https://images.pexels.com/photos/7231416/pexels-photo-7231416.jpeg
-2024-09-10 10:16:36,972 - INFO - Logged data to databases/llm.csv.
-2024-09-10 10:16:38,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:38,075 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
-2024-09-10 10:16:39,222 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:39,222 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
-2024-09-10 10:16:40,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:40,226 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
-2024-09-10 10:16:41,314 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:41,315 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
-2024-09-10 10:16:42,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-09-10 10:16:42,460 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
-2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6724357/pexels-photo-6724357.jpeg'}
-2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7230243/pexels-photo-7230243.jpeg'}
-2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/8376285/pexels-photo-8376285.jpeg'}
-2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg'}
-2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7231416/pexels-photo-7231416.jpeg'}
+2024-09-10 11:46:15,582 - INFO - Extracted 10 link records.
+2024-09-10 11:46:15,584 - INFO - Extracted 5 link records.
+2024-09-10 11:46:15,587 - INFO - Extracted 9 link records.
+2024-09-10 11:46:15,587 - INFO - Unique links to process: 24
+2024-09-10 11:46:15,587 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:46:17,989 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:46:19,578 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:46:28,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:46:29,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:46:29,132 - INFO - Image query: "hepatocellular carcinoma treatment options"
+2024-09-10 11:46:29,495 - INFO - Unique image link: https://images.pexels.com/photos/7659900/pexels-photo-7659900.jpeg
+2024-09-10 11:46:29,495 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:47:31,925 - INFO - Extracted 10 link records.
+2024-09-10 11:47:31,928 - INFO - Extracted 5 link records.
+2024-09-10 11:47:31,930 - INFO - Extracted 9 link records.
+2024-09-10 11:47:31,930 - INFO - Unique links to process: 24
+2024-09-10 11:47:31,930 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:47:33,932 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:47:35,892 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:47:39,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:47:40,018 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:47:40,019 - INFO - Image query: "advanced liver cancer treatment"
+2024-09-10 11:47:40,375 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 11:47:40,375 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:48:21,742 - INFO - Extracted 10 link records.
+2024-09-10 11:48:21,744 - INFO - Extracted 5 link records.
+2024-09-10 11:48:21,746 - INFO - Extracted 9 link records.
+2024-09-10 11:48:21,746 - INFO - Unique links to process: 24
+2024-09-10 11:48:21,746 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:48:23,690 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:48:25,024 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:48:27,281 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:48:27,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:48:27,662 - INFO - Image query: "oncology treatment for hepatocellular carcinoma"
+2024-09-10 11:48:27,986 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 11:48:27,986 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:48:37,361 - INFO - Extracted 10 link records.
+2024-09-10 11:48:37,363 - INFO - Extracted 5 link records.
+2024-09-10 11:48:37,366 - INFO - Extracted 9 link records.
+2024-09-10 11:48:37,366 - INFO - Unique links to process: 24
+2024-09-10 11:48:37,366 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:48:38,606 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:48:39,901 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:48:42,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:48:43,146 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:48:43,146 - INFO - Image query: "combination therapy for liver cancer"
+2024-09-10 11:48:43,448 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 11:48:43,448 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:50:58,386 - INFO - Extracted 10 link records.
+2024-09-10 11:50:58,388 - INFO - Extracted 5 link records.
+2024-09-10 11:50:58,391 - INFO - Extracted 9 link records.
+2024-09-10 11:50:58,391 - INFO - Unique links to process: 24
+2024-09-10 11:50:58,391 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:50:59,623 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:51:01,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:51:04,176 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:51:04,522 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:51:04,522 - INFO - Image query: "oncology combination therapy for liver cancer"
+2024-09-10 11:51:04,814 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 11:51:04,814 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:52:16,242 - INFO - Extracted 10 link records.
+2024-09-10 11:52:16,244 - INFO - Extracted 5 link records.
+2024-09-10 11:52:16,246 - INFO - Extracted 9 link records.
+2024-09-10 11:52:16,246 - INFO - Unique links to process: 24
+2024-09-10 11:52:16,246 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:52:19,781 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:52:21,219 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:52:23,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:52:24,102 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:52:24,103 - INFO - Image query: "advanced liver cancer treatment"
+2024-09-10 11:52:24,310 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 11:52:24,310 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:53:25,975 - INFO - Extracted 10 link records.
+2024-09-10 11:53:25,977 - INFO - Extracted 5 link records.
+2024-09-10 11:53:25,979 - INFO - Extracted 9 link records.
+2024-09-10 11:53:25,980 - INFO - Unique links to process: 24
+2024-09-10 11:53:25,980 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:53:28,422 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:53:29,785 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:53:33,383 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:53:33,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:53:33,794 - INFO - Image query: "immunotherapy for liver cancer"
+2024-09-10 11:53:34,124 - INFO - Unique image link: https://images.pexels.com/photos/27855214/pexels-photo-27855214.jpeg
+2024-09-10 11:53:34,124 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:55:50,266 - INFO - Extracted 10 link records.
+2024-09-10 11:55:50,268 - INFO - Extracted 5 link records.
+2024-09-10 11:55:50,270 - INFO - Extracted 9 link records.
+2024-09-10 11:55:50,271 - INFO - Unique links to process: 24
+2024-09-10 11:55:50,271 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:55:52,528 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:55:54,279 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:55:57,041 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:55:57,628 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:55:57,629 - INFO - Image query: “advanced liver cancer treatment strategies”
+2024-09-10 11:55:57,958 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 11:55:57,959 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:55:58,213 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:55:58,214 - ERROR - Error logging data to CSV: unsupported operand type(s) for +: 'dict' and 'list'
+2024-09-10 11:55:58,214 - INFO - Starting to process link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 11:56:00,125 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/, now generating post.
+2024-09-10 11:56:08,439 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:56:12,334 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:56:12,693 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:56:12,694 - INFO - Image query: "rubella vaccination and multiple sclerosis risk"
+2024-09-10 11:56:13,053 - INFO - Unique image link: https://images.pexels.com/photos/7230243/pexels-photo-7230243.jpeg
+2024-09-10 11:56:13,053 - INFO - Post generated successfully for link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 11:56:13,121 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:56:13,121 - ERROR - Error logging data to CSV: unsupported operand type(s) for +: 'dict' and 'list'
+2024-09-10 11:56:13,121 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 11:56:16,516 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study, now generating post.
+2024-09-10 11:56:21,932 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:56:26,269 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:56:26,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:56:26,655 - INFO - Image query: "digital health monitoring for Parkinson's disease"
+2024-09-10 11:56:27,203 - INFO - Unique image link: https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg
+2024-09-10 11:56:27,203 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 11:56:27,477 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:56:27,477 - ERROR - Error logging data to CSV: unsupported operand type(s) for +: 'dict' and 'list'
+2024-09-10 11:56:27,477 - INFO - Starting to process link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 11:57:20,740 - INFO - Extracted 10 link records.
+2024-09-10 11:57:20,742 - INFO - Extracted 5 link records.
+2024-09-10 11:57:20,745 - INFO - Extracted 9 link records.
+2024-09-10 11:57:20,745 - INFO - Unique links to process: 24
+2024-09-10 11:57:20,745 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:57:21,593 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:57:23,040 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:25,652 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:26,042 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:26,043 - INFO - Image query: "hepatocellular carcinoma treatment strategy"
+2024-09-10 11:57:26,766 - INFO - Unique image link: https://images.pexels.com/photos/7230916/pexels-photo-7230916.jpeg
+2024-09-10 11:57:26,766 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:57:27,039 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:57:27,041 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 11:57:27,041 - INFO - Starting to process link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 11:57:28,518 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/, now generating post.
+2024-09-10 11:57:40,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:42,692 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:43,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:43,035 - INFO - Image query: "rubella infection multiple sclerosis study"
+2024-09-10 11:57:43,624 - INFO - Unique image link: https://images.pexels.com/photos/27170969/pexels-photo-27170969.jpeg
+2024-09-10 11:57:43,624 - INFO - Post generated successfully for link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 11:57:43,687 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:57:43,688 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 11:57:43,688 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 11:57:46,299 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study, now generating post.
+2024-09-10 11:57:52,487 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:55,765 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:56,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:57:56,132 - INFO - Image query: "digital biomarkers for Parkinson's disease management"
+2024-09-10 11:57:56,497 - INFO - Unique image link: https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg
+2024-09-10 11:57:56,497 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 11:57:56,896 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:57:56,897 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 11:57:56,897 - INFO - Starting to process link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 11:57:57,880 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html, now generating post.
+2024-09-10 11:58:12,061 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:58:15,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:58:15,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:58:15,741 - INFO - Image query: "immunotherapy for Type 1 Diabetes"
+2024-09-10 11:58:16,073 - INFO - Unique image link: https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg
+2024-09-10 11:58:16,073 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 11:58:16,281 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:58:16,282 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 11:58:16,282 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 11:58:17,763 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/, now generating post.
+2024-09-10 11:58:18,325 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:58:18,326 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-10 11:58:18,326 - INFO - Post generated successfully for link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 11:59:11,919 - INFO - Extracted 10 link records.
+2024-09-10 11:59:11,923 - INFO - Extracted 5 link records.
+2024-09-10 11:59:11,928 - INFO - Extracted 9 link records.
+2024-09-10 11:59:11,928 - INFO - Unique links to process: 24
+2024-09-10 11:59:11,928 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:59:12,763 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 11:59:14,217 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:16,791 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:17,162 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:17,163 - INFO - Image query: "oncology treatment strategy for liver cancer"
+2024-09-10 11:59:17,619 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 11:59:17,619 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 11:59:17,672 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:59:17,674 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 11:59:17,674 - INFO - Starting to process link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 11:59:19,908 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/, now generating post.
+2024-09-10 11:59:28,331 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:32,284 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:32,816 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:32,817 - INFO - Image query: "vaccination and multiple sclerosis risk"
+2024-09-10 11:59:33,133 - INFO - Unique image link: https://images.pexels.com/photos/27409730/pexels-photo-27409730.jpeg
+2024-09-10 11:59:33,133 - INFO - Post generated successfully for link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 11:59:33,374 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:59:33,376 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 11:59:33,376 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 11:59:34,276 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study, now generating post.
+2024-09-10 11:59:40,900 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:43,408 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:43,801 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 11:59:43,802 - INFO - Image query: "technology in Parkinson's disease monitoring"
+2024-09-10 11:59:44,274 - INFO - Unique image link: https://images.pexels.com/photos/6823493/pexels-photo-6823493.jpeg
+2024-09-10 11:59:44,275 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 11:59:44,342 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 11:59:44,344 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 11:59:44,344 - INFO - Starting to process link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 11:59:45,469 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html, now generating post.
+2024-09-10 12:00:02,711 - INFO - Extracted 3 link records.
+2024-09-10 12:00:02,713 - INFO - Extracted 3 image links.
+2024-09-10 12:00:02,715 - INFO - Extracted 10 link records.
+2024-09-10 12:00:02,717 - INFO - Extracted 5 link records.
+2024-09-10 12:00:02,719 - INFO - Extracted 9 link records.
+2024-09-10 12:00:02,719 - INFO - Unique links to process: 21
+2024-09-10 12:00:02,719 - INFO - Starting to process link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 12:00:03,679 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html, now generating post.
+2024-09-10 12:00:18,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:00:22,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:00:22,519 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:00:22,521 - INFO - Image query: "Type 1 diabetes immunotherapy treatment"
+2024-09-10 12:00:22,866 - INFO - Unique image link: https://images.pexels.com/photos/6942030/pexels-photo-6942030.jpeg
+2024-09-10 12:00:22,866 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 12:00:23,091 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 12:00:23,093 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:00:23,093 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 12:01:25,788 - INFO - Extracted 4 link records.
+2024-09-10 12:01:25,790 - INFO - Extracted 4 image links.
+2024-09-10 12:01:25,792 - INFO - Extracted 10 link records.
+2024-09-10 12:01:25,794 - INFO - Extracted 5 link records.
+2024-09-10 12:01:25,796 - INFO - Extracted 9 link records.
+2024-09-10 12:01:25,796 - INFO - Unique links to process: 20
+2024-09-10 12:01:25,796 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 12:01:27,423 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/, now generating post.
+2024-09-10 12:01:27,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:01:27,946 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-10 12:01:27,946 - INFO - Post generated successfully for link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 12:04:17,245 - INFO - Extracted 10 link records.
+2024-09-10 12:04:17,247 - INFO - Extracted 5 link records.
+2024-09-10 12:04:17,249 - INFO - Extracted 9 link records.
+2024-09-10 12:04:17,250 - INFO - Unique links to process: 24
+2024-09-10 12:04:17,250 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 12:04:18,136 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 12:04:19,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:22,022 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:22,584 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:22,585 - INFO - Image query: “oncology treatment for liver cancer”
+2024-09-10 12:04:22,929 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 12:04:22,930 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 12:04:23,189 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 12:04:23,191 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:04:23,191 - INFO - Starting to process link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 12:04:25,160 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/, now generating post.
+2024-09-10 12:04:34,382 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:37,625 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:38,098 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:38,099 - INFO - Image query: "rubella virus and autoimmune disease link"
+2024-09-10 12:04:38,439 - INFO - Unique image link: https://images.pexels.com/photos/7231416/pexels-photo-7231416.jpeg
+2024-09-10 12:04:38,440 - INFO - Post generated successfully for link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 12:04:38,651 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 12:04:38,653 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:04:38,653 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 12:04:39,575 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study, now generating post.
+2024-09-10 12:04:51,929 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:54,482 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:54,864 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:04:54,865 - INFO - Image query: "Parkinson's disease digital monitoring trial"
+2024-09-10 12:04:55,201 - INFO - Unique image link: https://images.pexels.com/photos/6823602/pexels-photo-6823602.jpeg
+2024-09-10 12:04:55,201 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 12:04:55,443 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 12:04:55,445 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:04:55,445 - INFO - Starting to process link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 12:04:56,714 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html, now generating post.
+2024-09-10 12:05:10,815 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:15,298 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:15,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:15,668 - INFO - Image query: "precision medicine for Type 1 Diabetes"
+2024-09-10 12:05:16,078 - INFO - Unique image link: https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg
+2024-09-10 12:05:16,078 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 12:05:16,282 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 12:05:16,284 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:05:16,284 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 12:05:16,866 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/, now generating post.
+2024-09-10 12:05:17,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:17,344 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-10 12:05:17,344 - INFO - Post generated successfully for link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 12:05:17,344 - ERROR - No 'generated_post' found in log entry or 'generated_post' is None.
+2024-09-10 12:05:17,344 - ERROR - Error logging data to CSV: unsupported operand type(s) for +: 'NoneType' and 'list'
+2024-09-10 12:05:17,344 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/nice-clears-nhs-use-msds-welireg-genetic-disorder
+2024-09-10 12:05:21,136 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/nice-clears-nhs-use-msds-welireg-genetic-disorder, now generating post.
+2024-09-10 12:05:27,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:33,268 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:33,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:33,649 - INFO - Image query: "non-invasive treatment for von Hippel-Lindau disease"
+2024-09-10 12:05:33,987 - INFO - Unique image link: https://images.pexels.com/photos/7231416/pexels-photo-7231416.jpeg
+2024-09-10 12:05:33,987 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/nice-clears-nhs-use-msds-welireg-genetic-disorder
+2024-09-10 12:05:34,232 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 12:05:34,234 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:05:34,234 - INFO - Starting to process link: http://r.jina.ai/https://www.healio.com/news/neurology/20240816/longeviti-neuro-solutions-secures-us-patent-for-neurosurgical-cranial-implant
+2024-09-10 12:05:36,003 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.healio.com/news/neurology/20240816/longeviti-neuro-solutions-secures-us-patent-for-neurosurgical-cranial-implant, now generating post.
+2024-09-10 12:05:39,189 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:41,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:42,066 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:05:42,067 - INFO - Image query: "neurosurgery advancements"
+2024-09-10 12:05:42,366 - INFO - Unique image link: https://images.pexels.com/photos/6153362/pexels-photo-6153362.jpeg
+2024-09-10 12:05:42,366 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.healio.com/news/neurology/20240816/longeviti-neuro-solutions-secures-us-patent-for-neurosurgical-cranial-implant
+2024-09-10 12:05:42,628 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 500 characters."
+}
+
+2024-09-10 12:05:42,630 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:05:42,630 - INFO - Starting to process link: http://r.jina.ai/https://www.drugtargetreview.com/news/152646/mrna-vaccine-provides-enhanced-protection-against-mpox/
+2024-09-10 12:05:44,197 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.drugtargetreview.com/news/152646/mrna-vaccine-provides-enhanced-protection-against-mpox/, now generating post.
+2024-09-10 12:09:23,852 - INFO - Extracted 10 link records.
+2024-09-10 12:09:23,855 - INFO - Extracted 5 link records.
+2024-09-10 12:09:23,857 - INFO - Extracted 9 link records.
+2024-09-10 12:09:23,857 - INFO - Unique links to process: 24
+2024-09-10 12:09:23,857 - INFO - Starting to process link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 12:09:24,622 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice, now generating post.
+2024-09-10 12:09:26,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:28,539 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:28,960 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:28,960 - INFO - Image query: "combination therapy for liver cancer"
+2024-09-10 12:09:29,181 - INFO - Unique image link: https://images.pexels.com/photos/6436249/pexels-photo-6436249.jpeg
+2024-09-10 12:09:29,181 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.cancernetwork.com/view/using-atezolizumab-bevacizumab-in-practice
+2024-09-10 12:09:30,579 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'RhWeANFEBMJjAy4Vgbrj'}
+2024-09-10 12:09:30,581 - INFO - Logged data to databases/llm.csv with DocumentID: RhWeANFEBMJjAy4Vgbrj.
+2024-09-10 12:09:30,581 - INFO - Starting to process link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 12:09:31,912 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/, now generating post.
+2024-09-10 12:09:39,888 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:44,388 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:44,890 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:44,891 - INFO - Image query: "rubella vaccination and multiple sclerosis risk"
+2024-09-10 12:09:45,034 - INFO - Unique image link: https://images.pexels.com/photos/7230243/pexels-photo-7230243.jpeg
+2024-09-10 12:09:45,034 - INFO - Post generated successfully for link: http://r.jina.ai/https://multiplesclerosisnewstoday.com/news-posts/2024/09/09/ms-risk-unvaccinated-people-elevated-rubella-infection-study/
+2024-09-10 12:09:45,342 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': '1dBMuR4MrJSV5pkvi6EA'}
+2024-09-10 12:09:45,343 - INFO - Logged data to databases/llm.csv with DocumentID: 1dBMuR4MrJSV5pkvi6EA.
+2024-09-10 12:09:45,343 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 12:09:46,331 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study, now generating post.
+2024-09-10 12:09:53,400 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:55,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:56,415 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:09:56,416 - INFO - Image query: "digital biomarkers in Parkinson's disease research"
+2024-09-10 12:09:56,978 - INFO - Unique image link: https://images.pexels.com/photos/8376285/pexels-photo-8376285.jpeg
+2024-09-10 12:09:56,978 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/regeneron-joins-koneksa-parkinsons-digital-biomarker-study
+2024-09-10 12:09:57,288 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'q969HKgGWEfbrbXg1OPo'}
+2024-09-10 12:09:57,289 - INFO - Logged data to databases/llm.csv with DocumentID: q969HKgGWEfbrbXg1OPo.
+2024-09-10 12:09:57,289 - INFO - Starting to process link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 12:09:58,279 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html, now generating post.
+2024-09-10 12:10:12,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:10:16,317 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:10:16,692 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:10:16,693 - INFO - Image query: "Type 1 Diabetes immunotherapy"
+2024-09-10 12:10:17,138 - INFO - Unique image link: https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg
+2024-09-10 12:10:17,138 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.prnewswire.com/news-releases/diamyd-medical-to-pursue-accelerated-approval-pathway-for-type-1-diabetes-precision-medicine-302241751.html
+2024-09-10 12:10:17,252 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'j5JmMPx2lt0eXqShMWfx'}
+2024-09-10 12:10:17,253 - INFO - Logged data to databases/llm.csv with DocumentID: j5JmMPx2lt0eXqShMWfx.
+2024-09-10 12:10:17,253 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 12:10:17,948 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/, now generating post.
+2024-09-10 12:10:18,479 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:10:18,480 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-10 12:10:18,480 - INFO - Post generated successfully for link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-10 12:10:18,480 - ERROR - No 'generated_post' found in log entry or 'generated_post' is None.
+2024-09-10 12:10:18,480 - ERROR - Error logging data to CSV: unsupported operand type(s) for +: 'NoneType' and 'list'
+2024-09-10 12:10:18,480 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/nice-clears-nhs-use-msds-welireg-genetic-disorder
+2024-09-10 12:10:23,151 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/nice-clears-nhs-use-msds-welireg-genetic-disorder, now generating post.
+2024-09-10 12:10:23,516 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:10:23,517 - INFO - No article found for link https://pharmaphorum.com/news/nice-clears-nhs-use-msds-welireg-genetic-disorder.
+2024-09-10 12:10:23,517 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/nice-clears-nhs-use-msds-welireg-genetic-disorder
+2024-09-10 12:10:23,517 - ERROR - No 'generated_post' found in log entry or 'generated_post' is None.
+2024-09-10 12:10:23,517 - ERROR - Error logging data to CSV: unsupported operand type(s) for +: 'NoneType' and 'list'
+2024-09-10 12:10:23,518 - INFO - Starting to process link: http://r.jina.ai/https://www.healio.com/news/neurology/20240816/longeviti-neuro-solutions-secures-us-patent-for-neurosurgical-cranial-implant
+2024-09-10 12:10:25,181 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.healio.com/news/neurology/20240816/longeviti-neuro-solutions-secures-us-patent-for-neurosurgical-cranial-implant, now generating post.
+2024-09-10 12:11:58,282 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:01,689 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:02,157 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:02,158 - INFO - Image query: "neurosurgery innovation cranial implant"
+2024-09-10 12:12:02,483 - INFO - Unique image link: https://images.pexels.com/photos/7788367/pexels-photo-7788367.jpeg
+2024-09-10 12:12:02,483 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.healio.com/news/neurology/20240816/longeviti-neuro-solutions-secures-us-patent-for-neurosurgical-cranial-implant
+2024-09-10 12:12:02,771 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'vSs7zd3ZV1lU6ehSWEow'}
+2024-09-10 12:12:02,772 - INFO - Logged data to databases/llm.csv with DocumentID: vSs7zd3ZV1lU6ehSWEow.
+2024-09-10 12:12:02,772 - INFO - Starting to process link: http://r.jina.ai/https://www.drugtargetreview.com/news/152646/mrna-vaccine-provides-enhanced-protection-against-mpox/
+2024-09-10 12:12:03,764 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.drugtargetreview.com/news/152646/mrna-vaccine-provides-enhanced-protection-against-mpox/, now generating post.
+2024-09-10 12:12:09,711 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:12,395 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:12,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:12,824 - INFO - Image query: "mRNA vaccine technology for infectious diseases"
+2024-09-10 12:12:13,370 - INFO - Unique image link: https://images.pexels.com/photos/7230385/pexels-photo-7230385.jpeg
+2024-09-10 12:12:13,370 - INFO - Post generated successfully for link: http://r.jina.ai/https://www.drugtargetreview.com/news/152646/mrna-vaccine-provides-enhanced-protection-against-mpox/
+2024-09-10 12:12:13,689 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'r2RDfJyw6trIaN7RWGiG'}
+2024-09-10 12:12:13,690 - INFO - Logged data to databases/llm.csv with DocumentID: r2RDfJyw6trIaN7RWGiG.
+2024-09-10 12:12:13,690 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-10 12:12:15,196 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/, now generating post.
+2024-09-10 12:12:15,747 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:15,748 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-10 12:12:15,748 - INFO - Post generated successfully for link: http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-10 12:12:15,748 - ERROR - No 'generated_post' found in log entry or 'generated_post' is None.
+2024-09-10 12:12:15,748 - ERROR - Error logging data to CSV: unsupported operand type(s) for +: 'NoneType' and 'list'
+2024-09-10 12:12:15,748 - INFO - Starting to process link: http://r.jina.ai/https://pharmaphorum.com/news/gsk-says-nucala-hits-target-new-copd-trial
+2024-09-10 12:12:19,479 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://pharmaphorum.com/news/gsk-says-nucala-hits-target-new-copd-trial, now generating post.
+2024-09-10 12:12:27,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:30,646 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:31,139 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:31,140 - INFO - Image query: "COPD treatment advancements"
+2024-09-10 12:12:31,705 - INFO - Unique image link: https://images.pexels.com/photos/7230175/pexels-photo-7230175.jpeg
+2024-09-10 12:12:31,705 - INFO - Post generated successfully for link: http://r.jina.ai/https://pharmaphorum.com/news/gsk-says-nucala-hits-target-new-copd-trial
+2024-09-10 12:12:32,030 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'VK7eq2ulxZkPsHy8TF0I'}
+2024-09-10 12:12:32,031 - INFO - Logged data to databases/llm.csv with DocumentID: VK7eq2ulxZkPsHy8TF0I.
+2024-09-10 12:12:32,031 - INFO - Starting to process link: http://r.jina.ai/https://sifted.eu/articles/billionaires-body-scans/
+2024-09-10 12:12:33,928 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://sifted.eu/articles/billionaires-body-scans/, now generating post.
+2024-09-10 12:12:42,651 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:45,986 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:46,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:12:46,333 - INFO - Image query: "preventative healthcare technology"
+2024-09-10 12:12:46,732 - INFO - Unique image link: https://images.pexels.com/photos/6436256/pexels-photo-6436256.jpeg
+2024-09-10 12:12:46,732 - INFO - Post generated successfully for link: http://r.jina.ai/https://sifted.eu/articles/billionaires-body-scans/
+2024-09-10 12:12:46,992 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'mLYmYwRmPiND3iwwvI5E'}
+2024-09-10 12:12:46,993 - INFO - Logged data to databases/llm.csv with DocumentID: mLYmYwRmPiND3iwwvI5E.
+2024-09-10 12:12:46,993 - INFO - Starting to process link: http://r.jina.ai/https://sifted.eu/articles/doccla-raises-a-35m-series-b-news/
+2024-09-10 12:12:49,041 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://sifted.eu/articles/doccla-raises-a-35m-series-b-news/, now generating post.
+2024-09-10 12:12:59,084 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:02,100 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:02,502 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:02,503 - INFO - Image query: "virtual healthcare monitoring"
+2024-09-10 12:13:02,980 - INFO - Unique image link: https://images.pexels.com/photos/6823606/pexels-photo-6823606.jpeg
+2024-09-10 12:13:02,980 - INFO - Post generated successfully for link: http://r.jina.ai/https://sifted.eu/articles/doccla-raises-a-35m-series-b-news/
+2024-09-10 12:13:03,113 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'QYtRbNd0nE71y4z2Zvup'}
+2024-09-10 12:13:03,114 - INFO - Logged data to databases/llm.csv with DocumentID: QYtRbNd0nE71y4z2Zvup.
+2024-09-10 12:13:03,115 - INFO - Starting to process link: http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/
+2024-09-10 12:13:05,134 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/, now generating post.
+2024-09-10 12:13:19,156 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:22,519 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:22,884 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:22,885 - INFO - Image query: "medical technology innovations in surgery"
+2024-09-10 12:13:23,405 - INFO - Unique image link: https://images.pexels.com/photos/9574347/pexels-photo-9574347.jpeg
+2024-09-10 12:13:23,405 - INFO - Post generated successfully for link: http://r.jina.ai/https://sifted.eu/articles/medtech-startup-vc-trends/
+2024-09-10 12:13:23,467 - ERROR - Failed to send data to Firebase. Status code: 422, Response: {
+    "message": "Post content exceeds the allowed length of 1500 characters."
+}
+
+2024-09-10 12:13:23,468 - INFO - Logged data to databases/llm.csv with DocumentID: None.
+2024-09-10 12:13:23,468 - INFO - Starting to process link: http://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/
+2024-09-10 12:13:27,222 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/, now generating post.
+2024-09-10 12:13:37,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:41,123 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:41,509 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:13:41,510 - INFO - Image query: "surgical technology innovation"
+2024-09-10 12:13:41,849 - INFO - Unique image link: https://images.pexels.com/photos/4149034/pexels-photo-4149034.jpeg
+2024-09-10 12:13:41,850 - INFO - Post generated successfully for link: http://r.jina.ai/https://sifted.eu/articles/caresyntax-surgery-tech-raise-news/
+2024-09-10 12:13:41,934 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'inHuJxD5yCDeaeseAG8c'}
+2024-09-10 12:13:41,935 - INFO - Logged data to databases/llm.csv with DocumentID: inHuJxD5yCDeaeseAG8c.
+2024-09-10 12:13:41,935 - INFO - Starting to process link: http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/
+2024-09-10 12:13:43,906 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/, now generating post.
+2024-09-10 12:13:57,515 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:14:02,170 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:14:02,589 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:14:02,590 - INFO - Image query: "GLP-1 weight loss medications in healthcare"
+2024-09-10 12:14:03,036 - INFO - Unique image link: https://images.pexels.com/photos/6942039/pexels-photo-6942039.jpeg
+2024-09-10 12:14:03,036 - INFO - Post generated successfully for link: http://r.jina.ai/https://sifted.eu/articles/startups-wegovy-ozempic-shift/
+2024-09-10 12:14:03,136 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'qKO9eODeVkIGD1SfUQli'}
+2024-09-10 12:14:03,137 - INFO - Logged data to databases/llm.csv with DocumentID: qKO9eODeVkIGD1SfUQli.
+2024-09-10 12:14:03,137 - INFO - Starting to process link: http://r.jina.ai/http://medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-10 12:14:04,183 - INFO - Successfully fetched webpage content from http://r.jina.ai/http://medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n, now generating post.
+2024-09-10 12:14:12,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:14:15,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:14:15,818 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:14:15,819 - INFO - Image query: "diabetes heart rate monitoring"
+2024-09-10 12:14:16,283 - INFO - Unique image link: https://images.pexels.com/photos/6120249/pexels-photo-6120249.jpeg
+2024-09-10 12:14:16,283 - INFO - Post generated successfully for link: http://r.jina.ai/http://medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-10 12:14:16,371 - INFO - Successfully sent data to Firebase: {'message': 'Post created successfully', 'documentID': 'XR9pusMwaf85KoQsqV8Y'}
+2024-09-10 12:14:16,372 - INFO - Logged data to databases/llm.csv with DocumentID: XR9pusMwaf85KoQsqV8Y.
+2024-09-10 12:14:16,372 - INFO - Starting to process link: http://r.jina.ai/https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.31715?guestAccessKey=5fccf768-e956-418c-863e-a26f2d537653&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090524
+2024-09-10 12:14:19,824 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.31715?guestAccessKey=5fccf768-e956-418c-863e-a26f2d537653&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090524, now generating post.

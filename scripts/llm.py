@@ -9,9 +9,7 @@ from openai import OpenAI, RateLimitError
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 from pydantic import BaseModel, Field, ValidationError
 from typing import List
-import time
 from enum import Enum
-
 
 # =====================
 #  Logging Setup
@@ -30,8 +28,6 @@ def setup_logger(log_file_path="logs/llm.log"):
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
-    logging.info("Logging setup complete.")
-    print("Logging setup complete.")
 
 
 # =====================
@@ -43,8 +39,8 @@ small_model = config.llm_config['small_model']
 large_model = config.llm_config['large_model']
 system_message = config.llm_config['system_prompt']
 hashtags = config.llm_config['hashtags']
+category = config.llm_config['category']
 pexels_api_key = "fp8Urerp0HYAsM2UmutJhXbhuSOeXEu75TJvzmIEYOVQ51ckelerwvPk"
-
 
 # =====================
 #  OpenAI API Setup
@@ -75,7 +71,7 @@ def completion_with_backoff(**kwargs):
         else:
             return client.chat.completions.create(**kwargs)
     except RateLimitError as e:
-        # Handle rate limit errors with exponential backoff
+        logging.warning(f"RateLimitError: {e}. Retrying...")
         print(f"RateLimitError: {e}. Retrying...")
         raise
 
@@ -96,53 +92,86 @@ def read_csv(file_path):
     """
     if not os.path.exists(file_path):
         logging.warning(f"{file_path} does not exist, skipping...")
+        print(f"{file_path} does not exist, skipping...")
         return pd.DataFrame()  # Return empty dataframe to avoid errors later
-    print(f"Reading {file_path}...")
     return pd.read_csv(file_path)
 
 
-def extract_links(df):
+def extract_links(df, link_column='Link', time_column='Time'):
     """
     Extracts links and timestamps from a pandas DataFrame.
 
     Args:
-        df (pd.DataFrame): The DataFrame containing the CSV data.
+        df (pd.DataFrame): The DataFrame containing the data.
+        link_column (str): The name of the column containing links.
+        time_column (str): The name of the column containing timestamps.
 
     Returns:
-        list: A list of dictionaries, each containing 'Link', 'Time', and optionally 'Image'.
+        list: A list of dictionaries, each containing the specified link and time columns.
     """
-    required_columns = ['Link']
-    if not all(col in df.columns for col in required_columns):
-        logging.warning("Missing required columns in the CSV.")
-        print("Missing required columns in the CSV.")
+    try:
+        # Check if DataFrame is empty
+        if df.empty:
+            logging.warning("The DataFrame is empty.")
+            return []
+
+        # Ensure required columns exist
+        if link_column not in df.columns or time_column not in df.columns:
+            logging.warning(f"Missing required columns: {link_column} or {time_column}")
+            return []
+
+        # Drop rows where 'Link' is null and extract necessary columns
+        links = df.dropna(subset=[link_column])[['Link', 'Time']]
+        
+        # Convert to list of dictionaries
+        link_records = links.to_dict('records')
+        
+        logging.info(f"Extracted {len(link_records)} link records.")
+        return link_records
+
+    except Exception as e:
+        logging.error(f"Error extracting links: {str(e)}")
         return []
 
-    links = df.dropna(subset=['Link'])  # Drop rows where 'Link' is null
-    return links[['Link', 'Time']].to_dict('records')
 
-
-def extract_image_links(df):
+def extract_image_links(df, image_column='Image'):
     """
     Extracts image links from a pandas DataFrame.
 
     Args:
         df (pd.DataFrame): The DataFrame containing the CSV data.
+        image_column (str): The name of the column containing image links.
 
     Returns:
         list: A list of image links.
     """
-    if 'Image' not in df.columns:
-        logging.warning("Image column not found in the CSV file.")
-        print("Image column not found in the CSV file.")
-        return []  # Return an empty list if 'Image' column is not found
-    return df['Image'].tolist()
+    try:
+        # Check if DataFrame is empty
+        if df.empty:
+            logging.warning("The DataFrame is empty.")
+            return []
+
+        # Ensure 'Image' column exists
+        if image_column not in df.columns:
+            logging.warning(f"'{image_column}' column not found in the DataFrame.")
+            return []
+
+        # Extract the 'Image' column and convert to list
+        image_links = df[image_column].dropna().tolist()  # Drop any NaN values
+
+        logging.info(f"Extracted {len(image_links)} image links.")
+        return image_links
+
+    except Exception as e:
+        logging.error(f"Error extracting image links: {str(e)}")
+        return []
 
 
 # =====================
 #  Link Processing
 # =====================
 
-@retry(wait=wait_random_exponential(min=2, max=10), stop=stop_after_attempt(3))
+@retry(wait=wait_random_exponential(min=2, max=10), stop=stop_after_attempt(6))
 def fetch_url_content(url):
     """
     Fetch the content of a URL with retry logic.
@@ -165,39 +194,61 @@ def process_link(link_info, combined_links, image_links):
     Args:
         link_info (dict): A dictionary containing 'Link', 'Time', and optionally 'Image URL'.
         combined_links (list): A list of previously processed links for comparison.
+        image_links (list): A list of image links.
 
     Returns:
-        list: A log entry containing the generated post content and associated metadata, or None if an error occurred.
+        dict: A log entry containing the generated post content and associated metadata, or an error entry if an error occurred.
     """
     try:
+        # Step 1: Validate the Link
         link = link_info.get('Link')
         if link is None:  # Check if the link is None
-            logging.warning(f"Invalid link found in link_info: {link_info}")
-            print(f"Invalid link found in link_info: {link_info}")
-            return None
+            error_message = f"Invalid link found in link_info: {link_info}"
+            logging.warning(error_message)
+            return {"status": "error", "message": error_message, "link_info": link_info}
+
         url = f"http://r.jina.ai/{link}"
-        content = fetch_url_content(url)
+        logging.info(f"Starting to process link: {url}")
+
+        # Step 2: Fetch Content from the Link
+        webpage_content = fetch_url_content(url)
+
     except requests.exceptions.RequestException as e:
-        logging.error(f"Error fetching {url}: {e}")
-        print(f"Error fetching {url}: {e}")
-        return None
+        error_message = f"Error fetching {url}: {e}"
+        logging.error(error_message)
+        return {"status": "error", "message": error_message, "url": url}
 
-    print(f"Processing link: {url}")
-    return generate_post(content, link_info.get('Link'), link_info.get('Time'), combined_links, image_links)
+    try:
+        # Step 3: Generate Post
+        logging.info(f"Successfully fetched webpage content from {url}, now generating post.")
+        generated_post = generate_post(webpage_content, link_info.get('Link'), link_info.get('Time'), combined_links, image_links)
+        logging.info(f"Post generated successfully for link: {url}")
 
+        # Return the generated post data with a success status
+        return {"status": "success", "generated_post": generated_post, "link": link, "og_time": link_info.get('Time')}
+
+    except Exception as e:
+        error_message = f"Error generating post for {url}: {e}"
+        logging.error(error_message)
+        return {"status": "error", "message": error_message, "url": url}
 
 # =====================
 #  Pydantic Model for Response
 # =====================
 
+# Create an Enum for Hashtags
 HashtagEnum = Enum('HashtagEnum', {tag: tag for tag in hashtags})
+
+# Create an Enum for Categories
+CategoryEnum = Enum('CategoryEnum', {cat: cat for cat in category})
+
 class PostResponse(BaseModel):
     """
     Pydantic model for the structure of the post response generated by OpenAI.
     """
-    post_content: str = Field(..., description="The final generated post content without any hashtags")
+    post_content: str = Field(..., description="The final generated post content in plain text without any hashtags.")
     hashtags: List[HashtagEnum] = Field(..., description="A list of relevant hashtags for the post.")  # restrict hashtags to the dynamically created Enum
-
+    category: CategoryEnum = Field(..., description="The category for the post, restricted to four predefined categories.")  # restrict category to one of the four categories
 
 # =====================
 #  OpenAI API and Post Generation
@@ -287,9 +338,15 @@ def generate_post(webpage_content, link, original_timestamp, combined_links, ima
         print(f"No unique image found for link {link}.")
         return None
 
+    # Combine category and hashtags
+    combined_hashtags = [data.category.value] + [hashtag.value for hashtag in data.hashtags]
+
+    # Append the processed information to combined_links
     combined_links.append({"Image": image_link})
     logging.info(f"Unique image link: {image_link}")
-    return [original_timestamp, llm_timestamp, data.post_content, [hashtag.value for hashtag in data.hashtags], image_link, link, system_message, content, large_model]
+
+    # Return the log entry, including the combined hashtags
+    return [original_timestamp, llm_timestamp, data.post_content, combined_hashtags, image_link, link, system_message, content, large_model]
 
 def get_image_query(post_content, model):
     """
@@ -305,7 +362,16 @@ def get_image_query(post_content, model):
     query_response = call_openai(
         model=model,
         messages=[
-            {"role": "system", "content": "Analyze the social media post provided to determine its main topic and key content elements. Based on this analysis, generate a precise and relevant search term suitable for querying a stock image library. The search term should be specific enough to accurately reflect the post’s content while avoiding overly broad terms like ‘machine learning’ or ‘healthcare.’ This keyword will be used to find a fitting thumbnail image from the Pexels stock image library that matches the post’s message and tone. Respond only with the search term."},
+            {"role": "system", "content": """Your task is to analyze a given social media post related to medicine or healthcare and determine its core message, key content elements, and tone. Based on this analysis, generate a precise and highly relevant search term to query a stock image library (such as Pexels). The search term must adhere to the following guidelines:
+
+	1.	Medical Specificity: Ensure the search term accurately reflects the core medical content of the post. Focus on specific treatments, diseases, medical conditions, or healthcare themes, but avoid overly technical terms or drug names that might not be represented visually (e.g., “atezolizumab” or “bevazicumab”). Instead, translate these concepts into broader, more visually understandable terms (e.g., “immunotherapy for cancer” or “cancer treatment team”).
+	2.	Clinical Context and Relevance: Consider the clinical or healthcare setting described in the post. For example, if the post discusses treatment advancements, choose terms that evoke the appropriate environment, like “oncology consultation” or “medical research.” Ensure the search term aligns with the clinical tone of the post (e.g., serious, educational, inspiring).
+	3.	Avoiding Ambiguity: When faced with complex or abstract medical topics, distill the key message into clear, visually recognizable terms. For instance, instead of “multiple sclerosis,” consider “nervous system health” or “autoimmune disease diagnosis” depending on the post’s context.
+	4.	Handling Drug Trials and Studies: If the post focuses on clinical trials, treatment outcomes, or research findings, generate search terms that reflect these themes without being too abstract. For instance, “cancer treatment trial results” or “doctor analyzing study data.”
+	5.	Edge Cases in Medical Content: If the post is highly technical or doesn’t lend itself to obvious visual imagery, create a search term that captures a broader but still relevant healthcare-related concept. For example, if the post discusses molecular mimicry in autoimmune diseases, a suitable term might be “immune system illustration” or “doctor studying immune response.”
+	6.	Tone Sensitivity: Ensure the search term reflects the tone of the post, whether it’s informational, professional, or thought-provoking. Avoid search terms that are too casual or not aligned with the post’s seriousness.
+
+Output only the search term in your response, and make it concise yet comprehensive enough to guide the search effectively."""},
             {"role": "user", "content": post_content}
         ],
         max_tokens=1024
@@ -373,27 +439,82 @@ def normalize_url(url):
 #  Logging to CSV
 # =====================
 
-def log_to_csv_pandas(log_entry, file_name="databases/llm.csv"):
+def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
     """
-    Log the generated post content and metadata to a CSV file.
+    Log the generated post content, metadata, and document ID to a CSV file.
 
     Args:
         log_entry (list): The log entry data to be saved.
+        document_id (str): The document ID from Firebase.
         file_name (str): The path to the CSV file.
     """
     try:
-        df_new = pd.DataFrame([log_entry], columns=["Time", "LLM Timestamp", "Post", "Hashtags", "Image", "Link", "Prompt", "Input", "Model"])
+        # Append the document ID to the log entry
+        log_entry_with_id = log_entry['generated_post'] + [document_id]
 
+        # Define columns, adding 'DocumentID' as the new column
+        columns = ["Time", "LLM Timestamp", "Post", "Hashtags", "Image", "Link", "Prompt", "Input", "Model", "DocumentID"]
+
+        # Create a DataFrame for the new log entry
+        df_new = pd.DataFrame([log_entry_with_id], columns=columns)
+
+        # Save the log entry to the CSV file
         if not os.path.exists(file_name):
             df_new.to_csv(file_name, index=False)
         else:
             df_new.to_csv(file_name, mode='a', index=False, header=False)
 
-        logging.info(f"Logged data to {file_name}.")
-        print(f"Logged data to {file_name}.")
+        logging.info(f"Logged data to {file_name} with DocumentID: {document_id}.")
+        print(f"Logged {log_entry['generated_post'][5]} to {file_name} with DocumentID: {document_id}.")
     except Exception as e:
         logging.error(f"Error logging data to CSV: {e}")
         print(f"Error logging data to CSV: {e}")
+
+
+def send_to_firebase(log_entry, url="https://expert-doodle-5gggqrq5g764c9rg-8080.app.github.dev/post"):
+    """
+    Sends the log entry to the Firebase-connected Flask app and retrieves the documentID.
+
+    Args:
+        log_entry (dict): The log entry data to be sent to Firebase.
+
+    Returns:
+        str: The document ID from Firebase or an error message.
+    """
+    try:
+        # Ensure log_entry has the 'generated_post' key and is not None
+        if not log_entry.get('generated_post'):
+            logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+            return None
+
+        # Extract necessary data from the log_entry['generated_post']
+        post_data = {
+            'imageURL': log_entry['generated_post'][4],  # Image URL
+            'hashtags': log_entry['generated_post'][3],  # Hashtags (includes category + hashtags)
+            'source': log_entry['generated_post'][5],    # Source (link)
+            'post': log_entry['generated_post'][2]       # Post content
+        }
+
+        # Set up the headers including the API key
+        headers = {
+            'Content-Type': 'application/json',
+            'x-api-key': 'fazzu'  # API key for authentication
+        }
+
+        # Make a POST request to the Flask app
+        response = requests.post(url, json=post_data, headers=headers)
+
+        # Check if the response is successful
+        if response.status_code == 201:
+            result = response.json()
+            logging.info(f"Successfully sent data to Firebase: {result}")
+            return result.get('documentID', None)  # Return the documentID from the response
+        else:
+            logging.error(f"Failed to send data to Firebase. Status code: {response.status_code}, Response: {response.text}")
+            return None
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error sending data to Firebase: {e}")
+        return None
 
 
 # =====================
@@ -451,8 +572,16 @@ def main():
     # Process each link and log the results
     for link_info in combined_links:
         log_entry = process_link(link_info, combined_links, image_links)
-        if log_entry:
-            log_to_csv_pandas(log_entry)
+        
+        # Check if log_entry is valid before proceeding
+        if log_entry and log_entry.get('status') == 'success':
+            # Send the log entry to Firebase and get the documentID
+            document_id = send_to_firebase(log_entry)
+
+            # Log the entry to CSV along with the documentID
+            log_to_csv_pandas(log_entry, document_id)
+        else:
+            logging.warning(f"Skipping entry due to missing or invalid log entry for link: {link_info.get('Link')}")
 
 
 # Entry point for the script
