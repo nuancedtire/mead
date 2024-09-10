@@ -480,3 +480,17 @@
 2024-09-10 04:17:17,535 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
 2024-09-10 04:17:18,542 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-10 04:17:18,543 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-10 06:20:07,897 - INFO - Logging setup complete.
+2024-09-10 06:20:07,922 - INFO - Unique links to process: 6
+2024-09-10 06:20:38,919 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 06:20:38,921 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-10 06:20:40,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 06:20:40,006 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-10 06:20:41,236 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 06:20:41,236 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-10 06:20:42,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 06:20:42,381 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
+2024-09-10 06:20:43,676 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 06:20:43,677 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-10 06:20:44,822 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 06:20:44,823 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
