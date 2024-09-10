@@ -10,6 +10,7 @@ from tenacity import retry, stop_after_attempt, wait_random_exponential
 from pydantic import BaseModel, Field, ValidationError
 from typing import List
 from enum import Enum
+import re
 
 # =====================
 #  Logging Setup
@@ -171,6 +172,21 @@ def extract_image_links(df, image_column='Image'):
 #  Link Processing
 # =====================
 
+# Function to remove markdown formatting from text
+def remove_markdown_formatting(text):
+    # Convert bold text (**) to uppercase
+    text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
+    text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
+    
+    # Remove italics formatting
+    text = re.sub(r'\*(.*?)\*', r'\1', text)
+    text = re.sub(r'_(.*?)_', r'\1', text)
+    
+    # Remove markdown headings (#)
+    text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
+    
+    return text
+
 @retry(wait=wait_random_exponential(min=2, max=10), stop=stop_after_attempt(6))
 def fetch_url_content(url):
     """
@@ -197,15 +213,14 @@ def process_link(link_info, combined_links, image_links):
         image_links (list): A list of image links.
 
     Returns:
-        dict: A log entry containing the generated post content and associated metadata, or an error entry if an error occurred.
+        dict: A log entry containing the generated post content and associated metadata, or None if an error occurred.
     """
     try:
         # Step 1: Validate the Link
         link = link_info.get('Link')
-        if link is None:  # Check if the link is None
-            error_message = f"Invalid link found in link_info: {link_info}"
-            logging.warning(error_message)
-            return {"status": "error", "message": error_message, "link_info": link_info}
+        if link is None:
+            logging.warning(f"Invalid link found in link_info: {link_info}")
+            return None
 
         url = f"http://r.jina.ai/{link}"
         logging.info(f"Starting to process link: {url}")
@@ -214,23 +229,28 @@ def process_link(link_info, combined_links, image_links):
         webpage_content = fetch_url_content(url)
 
     except requests.exceptions.RequestException as e:
-        error_message = f"Error fetching {url}: {e}"
-        logging.error(error_message)
-        return {"status": "error", "message": error_message, "url": url}
+        logging.error(f"Error fetching {url}: {e}")
+        return None
 
     try:
         # Step 3: Generate Post
         logging.info(f"Successfully fetched webpage content from {url}, now generating post.")
         generated_post = generate_post(webpage_content, link_info.get('Link'), link_info.get('Time'), combined_links, image_links)
+
+        # Return None if no valid post was generated
+        if not generated_post:
+            logging.error(f"No valid post generated for {url}. Skipping.")
+            return None
+
         logging.info(f"Post generated successfully for link: {url}")
 
-        # Return the generated post data with a success status
-        return {"status": "success", "generated_post": generated_post, "link": link, "og_time": link_info.get('Time')}
+        # Return the log entry with status success
+        return {'status': 'success', 'generated_post': generated_post, 'link': link, 'og_time': link_info.get('Time')}
 
     except Exception as e:
-        error_message = f"Error generating post for {url}: {e}"
-        logging.error(error_message)
-        return {"status": "error", "message": error_message, "url": url}
+        logging.error(f"Error generating post for {url}: {e}")
+        return None
+
 
 # =====================
 #  Pydantic Model for Response
@@ -344,9 +364,11 @@ def generate_post(webpage_content, link, original_timestamp, combined_links, ima
     # Append the processed information to combined_links
     combined_links.append({"Image": image_link})
     logging.info(f"Unique image link: {image_link}")
+    
+    post_content = remove_markdown_formatting(data.post_content)
 
     # Return the log entry, including the combined hashtags
-    return [original_timestamp, llm_timestamp, data.post_content, combined_hashtags, image_link, link, system_message, content, large_model]
+    return [original_timestamp, llm_timestamp, post_content, combined_hashtags, image_link, link, system_message, content, large_model]
 
 def get_image_query(post_content, model):
     """
@@ -444,11 +466,16 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
     Log the generated post content, metadata, and document ID to a CSV file.
 
     Args:
-        log_entry (list): The log entry data to be saved.
+        log_entry (dict): The log entry data to be saved.
         document_id (str): The document ID from Firebase.
         file_name (str): The path to the CSV file.
     """
     try:
+        # Ensure 'generated_post' is not None before proceeding
+        if log_entry.get('generated_post') is None:
+            logging.error("Cannot log to CSV: 'generated_post' is None.")
+            return
+
         # Append the document ID to the log entry
         log_entry_with_id = log_entry['generated_post'] + [document_id]
 
@@ -465,7 +492,7 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
             df_new.to_csv(file_name, mode='a', index=False, header=False)
 
         logging.info(f"Logged data to {file_name} with DocumentID: {document_id}.")
-        print(f"Logged {log_entry['generated_post'][5]} to {file_name} with DocumentID: {document_id}.")
+        print(f"Logged data to {file_name} with DocumentID: {document_id}.")
     except Exception as e:
         logging.error(f"Error logging data to CSV: {e}")
         print(f"Error logging data to CSV: {e}")
