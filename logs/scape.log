@@ -1,0 +1,56 @@
+2024-09-10 23:19:21,560 - INFO - Medscape script started.
+2024-09-10 23:19:21,560 - INFO - Connection to Medscape established.
+2024-09-10 23:19:21,580 - INFO - Request sent to Medscape API.
+2024-09-10 23:19:21,892 - INFO - Response received from Medscape API.
+2024-09-10 23:19:21,892 - INFO - Response data decoded into dictionary.
+2024-09-10 23:19:21,893 - INFO - No existing CSV file found. Creating new data structure.
+2024-09-10 23:19:21,893 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/chronic-ppi-use-weakens-bones-only-men-2024a1000fsl
+2024-09-10 23:19:21,893 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/chronic-ppi-use-weakens-bones-only-men-2024a1000fsl
+2024-09-10 23:19:25,057 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/chronic-ppi-use-weakens-bones-only-men-2024a1000fsl.
+2024-09-10 23:19:25,745 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:25,747 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:25,747 - INFO - Attempt 1 succeeded with link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-10 23:19:25,748 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68
+2024-09-10 23:19:25,748 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68
+2024-09-10 23:19:29,526 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68.
+2024-09-10 23:19:30,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:30,137 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:30,137 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68
+2024-09-10 23:19:30,137 - INFO - Processing new item: https://www.medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-10 23:19:30,137 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-10 23:19:35,464 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n.
+2024-09-10 23:19:36,115 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:36,116 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:36,116 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/abnormal-heart-rate-shifts-tied-risk-death-diabetes-2024a1000g8n
+2024-09-10 23:19:36,116 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49
+2024-09-10 23:19:36,116 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49
+2024-09-10 23:19:40,178 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/ai-based-breast-cancer-screening-found-cost-effective-nhs-2024a1000g49.
+2024-09-10 23:19:41,589 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:41,590 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:41,590 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.31715?guestAccessKey=5fccf768-e956-418c-863e-a26f2d537653&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=090524
+2024-09-10 23:19:41,590 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z
+2024-09-10 23:19:41,590 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z
+2024-09-10 23:19:44,263 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z.
+2024-09-10 23:19:44,892 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:44,893 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:44,893 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/demographics-linked-worse-access-cardiac-surgery-2024a1000g4z
+2024-09-10 23:19:44,893 - INFO - Processing new item: https://www.medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u
+2024-09-10 23:19:44,894 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u
+2024-09-10 23:19:46,779 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u.
+2024-09-10 23:19:47,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:47,460 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:47,460 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/monthly-semaglutide-goal-end-daily-pills-2024a1000g7u
+2024-09-10 23:19:47,461 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0
+2024-09-10 23:19:47,461 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0
+2024-09-10 23:19:51,786 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0.
+2024-09-10 23:19:52,525 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:52,526 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:52,526 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/join-dr-julie-oliver-and-primary-care-womens-health-forum-2024a1000fb0
+2024-09-10 23:19:52,526 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29
+2024-09-10 23:19:52,526 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29
+2024-09-10 23:19:55,394 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29.
+2024-09-10 23:19:56,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 23:19:56,226 - INFO - Received response from OpenAI API.
+2024-09-10 23:19:56,226 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29
+2024-09-10 23:19:56,228 - INFO - CSV file updated with new data.
+2024-09-10 23:19:56,228 - INFO - Medscape script completed.
