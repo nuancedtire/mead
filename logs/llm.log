@@ -508,3 +508,54 @@
 2024-09-10 08:18:26,692 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
 2024-09-10 08:18:28,031 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-10 08:18:28,032 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-10 10:15:19,973 - INFO - Logging setup complete.
+2024-09-10 10:15:19,998 - INFO - Unique links to process: 12
+2024-09-10 10:15:22,165 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:15:22,167 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-10 10:15:25,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:15:29,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:15:30,062 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:15:30,062 - INFO - Image query: "atezolizumab bevacizumab hepatocellular carcinoma treatment"
+2024-09-10 10:15:30,399 - INFO - Unique image link: https://images.pexels.com/photos/6724357/pexels-photo-6724357.jpeg
+2024-09-10 10:15:30,400 - INFO - Logged data to databases/llm.csv.
+2024-09-10 10:15:40,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:15:44,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:15:44,874 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:15:44,875 - INFO - Image query: "rubella vaccination autoimmune disease risk"
+2024-09-10 10:15:45,208 - INFO - Unique image link: https://images.pexels.com/photos/7230243/pexels-photo-7230243.jpeg
+2024-09-10 10:15:45,209 - INFO - Logged data to databases/llm.csv.
+2024-09-10 10:15:55,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:00,824 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:01,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:01,137 - INFO - Image query: "Parkinson's disease digital biomarkers"
+2024-09-10 10:16:01,444 - INFO - Unique image link: https://images.pexels.com/photos/8376285/pexels-photo-8376285.jpeg
+2024-09-10 10:16:01,445 - INFO - Logged data to databases/llm.csv.
+2024-09-10 10:16:15,887 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:20,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:20,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:20,702 - INFO - Image query: "Type 1 Diabetes immunotherapy"
+2024-09-10 10:16:21,069 - INFO - Unique image link: https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg
+2024-09-10 10:16:21,070 - INFO - Logged data to databases/llm.csv.
+2024-09-10 10:16:23,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:23,181 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-10 10:16:33,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:36,202 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:36,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:36,701 - INFO - Image query: "Welireg treatment for von Hippel-Lindau disease"
+2024-09-10 10:16:36,971 - INFO - Unique image link: https://images.pexels.com/photos/7231416/pexels-photo-7231416.jpeg
+2024-09-10 10:16:36,972 - INFO - Logged data to databases/llm.csv.
+2024-09-10 10:16:38,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:38,075 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-10 10:16:39,222 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:39,222 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-10 10:16:40,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:40,226 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
+2024-09-10 10:16:41,314 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:41,315 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-10 10:16:42,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 10:16:42,460 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6724357/pexels-photo-6724357.jpeg'}
+2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7230243/pexels-photo-7230243.jpeg'}
+2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/8376285/pexels-photo-8376285.jpeg'}
+2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg'}
+2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7231416/pexels-photo-7231416.jpeg'}
