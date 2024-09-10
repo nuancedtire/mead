@@ -503,7 +503,7 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         logging.error(f"Error logging data to CSV: {e}")
         print(f"Error logging data to CSV: {e}")
 
-def send_to_firebase(batch_log_entries, url="https://expert-doodle-5gggqrq5g764c9rg-8080.app.github.dev/post"):
+def send_to_firebase(batch_log_entries, url="https://flask-app-923186021986.us-central1.run.app/post"):
     """
     Sends a batch of log entries to the Firebase-connected Flask app and retrieves the documentIDs.
 
