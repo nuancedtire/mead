@@ -559,3 +559,19 @@
 2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/8376285/pexels-photo-8376285.jpeg'}
 2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6940853/pexels-photo-6940853.jpeg'}
 2024-09-10 10:16:42,460 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/7231416/pexels-photo-7231416.jpeg'}
+2024-09-10 12:28:57,454 - INFO - Logging setup complete.
+2024-09-10 12:28:57,481 - INFO - Unique links to process: 7
+2024-09-10 12:28:58,438 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:28:58,440 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-10 12:28:59,247 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:28:59,248 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-10 12:29:00,613 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:29:00,614 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-10 12:29:02,906 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:29:02,906 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-10 12:29:04,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:29:04,000 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
+2024-09-10 12:29:32,766 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:29:32,767 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-10 12:29:34,008 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 12:29:34,008 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
