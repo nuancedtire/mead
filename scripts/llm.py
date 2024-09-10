@@ -393,7 +393,7 @@ def get_image_query(post_content, model):
 	5.	Edge Cases in Medical Content: If the post is highly technical or doesn’t lend itself to obvious visual imagery, create a search term that captures a broader but still relevant healthcare-related concept. For example, if the post discusses molecular mimicry in autoimmune diseases, a suitable term might be “immune system illustration” or “doctor studying immune response.”
 	6.	Tone Sensitivity: Ensure the search term reflects the tone of the post, whether it’s informational, professional, or thought-provoking. Avoid search terms that are too casual or not aligned with the post’s seriousness.
 
-Output only the search term in your response, and make it concise yet comprehensive enough to guide the search effectively."""},
+Output only the search term in your response, and make it concise and simple enough to guide the search effectively."""},
             {"role": "user", "content": post_content}
         ],
         max_tokens=1024
@@ -471,13 +471,19 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         file_name (str): The path to the CSV file.
     """
     try:
-        # Ensure 'generated_post' is not None before proceeding
-        if log_entry.get('generated_post') is None:
-            logging.error("Cannot log to CSV: 'generated_post' is None.")
+        # Ensure 'generated_post' exists and is not None or empty
+        generated_post = log_entry.get('generated_post')
+        if not generated_post:
+            logging.error("Cannot log to CSV: 'generated_post' is missing or empty.")
             return
 
-        # Append the document ID to the log entry
-        log_entry_with_id = log_entry['generated_post'] + [document_id]
+        # Ensure the number of fields in 'generated_post' matches the expected columns
+        if len(generated_post) != 8:  # 'generated_post' should have 8 fields (before adding DocumentID)
+            logging.error("Cannot log to CSV: 'generated_post' has an unexpected structure.")
+            return
+
+        # Append the document ID to the generated_post data
+        log_entry_with_id = generated_post + [document_id]
 
         # Define columns, adding 'DocumentID' as the new column
         columns = ["Time", "LLM Timestamp", "Post", "Hashtags", "Image", "Link", "Prompt", "Input", "Model", "DocumentID"]
@@ -485,7 +491,7 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         # Create a DataFrame for the new log entry
         df_new = pd.DataFrame([log_entry_with_id], columns=columns)
 
-        # Save the log entry to the CSV file
+        # Save the log entry to the CSV file (create new file if it doesn't exist)
         if not os.path.exists(file_name):
             df_new.to_csv(file_name, index=False)
         else:
@@ -497,30 +503,44 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         logging.error(f"Error logging data to CSV: {e}")
         print(f"Error logging data to CSV: {e}")
 
-
-def send_to_firebase(log_entry, url="https://expert-doodle-5gggqrq5g764c9rg-8080.app.github.dev/post"):
+def send_to_firebase(batch_log_entries, url="https://expert-doodle-5gggqrq5g764c9rg-8080.app.github.dev/post"):
     """
-    Sends the log entry to the Firebase-connected Flask app and retrieves the documentID.
+    Sends a batch of log entries to the Firebase-connected Flask app and retrieves the documentIDs.
 
     Args:
-        log_entry (dict): The log entry data to be sent to Firebase.
+        batch_log_entries (list): A list of log entries to be sent to Firebase.
 
     Returns:
-        str: The document ID from Firebase or an error message.
+        list: A list of document IDs from Firebase or None if the upload fails.
     """
     try:
-        # Ensure log_entry has the 'generated_post' key and is not None
-        if not log_entry.get('generated_post'):
-            logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
-            return None
+        # Prepare the data to send as a batch request
+        batch_data = []
 
-        # Extract necessary data from the log_entry['generated_post']
-        post_data = {
-            'imageURL': log_entry['generated_post'][4],  # Image URL
-            'hashtags': log_entry['generated_post'][3],  # Hashtags (includes category + hashtags)
-            'source': log_entry['generated_post'][5],    # Source (link)
-            'post': log_entry['generated_post'][2]       # Post content
-        }
+        for log_entry in batch_log_entries:
+            if not log_entry.get('generated_post'):
+                logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+                continue
+
+            # Determine the 'audience' based on the link
+            audience = "HCP (inc. Students)" if "medscape" in log_entry['generated_post'][5] else "General"
+
+            # Create the post_data object for each entry
+            post_data = {
+                'imageURL': log_entry['generated_post'][4],  # Image URL
+                'hashtags': log_entry['generated_post'][3],  # Hashtags (includes category + hashtags)
+                'source': log_entry['generated_post'][5],    # Source (link)
+                'post': log_entry['generated_post'][2],      # Post content
+                'audience': audience                         # Audience field
+            }
+
+            # Add the post data to the batch
+            batch_data.append(post_data)
+
+        # If no valid entries, return early
+        if not batch_data:
+            logging.error("No valid log entries to send to Firebase.")
+            return None
 
         # Set up the headers including the API key
         headers = {
@@ -528,19 +548,19 @@ def send_to_firebase(log_entry, url="https://expert-doodle-5gggqrq5g764c9rg-8080
             'x-api-key': 'fazzu'  # API key for authentication
         }
 
-        # Make a POST request to the Flask app
-        response = requests.post(url, json=post_data, headers=headers)
+        # Make a POST request to the Flask app with the batch data
+        response = requests.post(url, json={"posts": batch_data}, headers=headers)
 
         # Check if the response is successful
         if response.status_code == 201:
             result = response.json()
-            logging.info(f"Successfully sent data to Firebase: {result}")
-            return result.get('documentID', None)  # Return the documentID from the response
+            logging.info(f"Successfully sent batch data to Firebase: {result}")
+            return result.get('documentIDs', None)  # Return the list of document IDs from the response
         else:
-            logging.error(f"Failed to send data to Firebase. Status code: {response.status_code}, Response: {response.text}")
+            logging.error(f"Failed to send batch data to Firebase. Status code: {response.status_code}, Response: {response.text}")
             return None
     except requests.exceptions.RequestException as e:
-        logging.error(f"Error sending data to Firebase: {e}")
+        logging.error(f"Error sending batch data to Firebase: {e}")
         return None
 
 
@@ -596,23 +616,38 @@ def main():
         print("No unique links to process.")
         return
 
-    # Process each link and log the results
+    # Process each link and accumulate log entries for batch processing
+    batch_log_entries = []
     for link_info in combined_links:
         log_entry = process_link(link_info, combined_links, image_links)
         
         # Check if log_entry is valid before proceeding
         if log_entry and log_entry.get('status') == 'success':
-            # Send the log entry to Firebase and get the documentID
-            document_id = send_to_firebase(log_entry)
-
-            # Only log to CSV if a valid documentID is returned
-            if document_id:
-                log_to_csv_pandas(log_entry, document_id)
-            else:
-                logging.error(f"Skipping CSV logging for link {log_entry['link']} due to missing documentID.")
+            batch_log_entries.append(log_entry)
         else:
             logging.warning(f"Skipping entry due to missing or invalid log entry for link: {link_info.get('Link')}")
 
+    # If there are valid log entries, send them to Firebase in a batch
+    if batch_log_entries:
+        # Log the number of log entries before sending them to Firebase
+        logging.info(f"Sending {len(batch_log_entries)} log entries to Firebase.")
+        
+        document_ids = send_to_firebase(batch_log_entries)
+
+        # Log the number of document IDs returned from Firebase
+        if document_ids:
+            logging.info(f"Received {len(document_ids)} document IDs from Firebase.")
+        else:
+            logging.error("No document IDs returned from Firebase.")
+        
+        # If document IDs were returned, log the entries to CSV
+        if document_ids and len(document_ids) == len(batch_log_entries):
+            for log_entry, document_id in zip(batch_log_entries, document_ids):
+                log_to_csv_pandas(log_entry, document_id)
+        else:
+            logging.error("No document IDs returned from Firebase, or mismatch in the number of entries. Skipping CSV logging.")
+
+            
 # Entry point for the script
 if __name__ == "__main__":
     main()
