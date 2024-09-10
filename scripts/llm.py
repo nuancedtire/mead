@@ -605,11 +605,13 @@ def main():
             # Send the log entry to Firebase and get the documentID
             document_id = send_to_firebase(log_entry)
 
-            # Log the entry to CSV along with the documentID
-            log_to_csv_pandas(log_entry, document_id)
+            # Only log to CSV if a valid documentID is returned
+            if document_id:
+                log_to_csv_pandas(log_entry, document_id)
+            else:
+                logging.error(f"Skipping CSV logging for link {log_entry['link']} due to missing documentID.")
         else:
             logging.warning(f"Skipping entry due to missing or invalid log entry for link: {link_info.get('Link')}")
-
 
 # Entry point for the script
 if __name__ == "__main__":
