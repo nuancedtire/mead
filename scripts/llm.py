@@ -477,9 +477,13 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
             logging.error("Cannot log to CSV: 'generated_post' is missing or empty.")
             return
 
+        # Log the structure of 'generated_post' for debugging
+        logging.debug(f"Structure of 'generated_post': {generated_post}")
+
         # Ensure the number of fields in 'generated_post' matches the expected columns
-        if len(generated_post) != 8:  # 'generated_post' should have 8 fields (before adding DocumentID)
-            logging.error("Cannot log to CSV: 'generated_post' has an unexpected structure.")
+        expected_length = 8  # Expected number of elements in 'generated_post' before DocumentID
+        if len(generated_post) != expected_length:
+            logging.error(f"Cannot log to CSV: 'generated_post' has an unexpected structure. Expected {expected_length} elements, got {len(generated_post)}.")
             return
 
         # Append the document ID to the generated_post data
@@ -554,15 +558,20 @@ def send_to_firebase(batch_log_entries, url="https://flask-app-923186021986.us-c
         # Check if the response is successful
         if response.status_code == 201:
             result = response.json()
+            document_ids = result.get('documentIDs', [])
             logging.info(f"Successfully sent batch data to Firebase: {result}")
-            return result.get('documentIDs', None)  # Return the list of document IDs from the response
+
+            # Ensure the number of document IDs matches the batch size
+            if len(document_ids) != len(batch_log_entries):
+                logging.error(f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries)} entries.")
+                return None
+            return document_ids  # Return the list of document IDs from the response
         else:
             logging.error(f"Failed to send batch data to Firebase. Status code: {response.status_code}, Response: {response.text}")
             return None
     except requests.exceptions.RequestException as e:
         logging.error(f"Error sending batch data to Firebase: {e}")
         return None
-
 
 # =====================
 #  Main Logic
