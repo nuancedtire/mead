@@ -384,16 +384,15 @@ def get_image_query(post_content, model):
     query_response = call_openai(
         model=model,
         messages=[
-            {"role": "system", "content": """Your task is to analyze a given social media post related to medicine or healthcare and determine its core message, key content elements, and tone. Based on this analysis, generate a precise and highly relevant search term to query a stock image library (such as Pexels). The search term must adhere to the following guidelines:
+            {"role": "system", "content": """Your task is to analyze a social media post related to medicine or healthcare and generate a precise, relevant search term for a stock image library (such as Pexels). The search term must accurately capture the post’s core message and content. Follow these guidelines:
 
-	1.	Medical Specificity: Ensure the search term accurately reflects the core medical content of the post. Focus on specific treatments, diseases, medical conditions, or healthcare themes, but avoid overly technical terms or drug names that might not be represented visually (e.g., “atezolizumab” or “bevazicumab”). Instead, translate these concepts into broader, more visually understandable terms (e.g., “immunotherapy for cancer” or “cancer treatment team”).
-	2.	Clinical Context and Relevance: Consider the clinical or healthcare setting described in the post. For example, if the post discusses treatment advancements, choose terms that evoke the appropriate environment, like “oncology consultation” or “medical research.” Ensure the search term aligns with the clinical tone of the post (e.g., serious, educational, inspiring).
-	3.	Avoiding Ambiguity: When faced with complex or abstract medical topics, distill the key message into clear, visually recognizable terms. For instance, instead of “multiple sclerosis,” consider “nervous system health” or “autoimmune disease diagnosis” depending on the post’s context.
-	4.	Handling Drug Trials and Studies: If the post focuses on clinical trials, treatment outcomes, or research findings, generate search terms that reflect these themes without being too abstract. For instance, “cancer treatment trial results” or “doctor analyzing study data.”
-	5.	Edge Cases in Medical Content: If the post is highly technical or doesn’t lend itself to obvious visual imagery, create a search term that captures a broader but still relevant healthcare-related concept. For example, if the post discusses molecular mimicry in autoimmune diseases, a suitable term might be “immune system illustration” or “doctor studying immune response.”
-	6.	Tone Sensitivity: Ensure the search term reflects the tone of the post, whether it’s informational, professional, or thought-provoking. Avoid search terms that are too casual or not aligned with the post’s seriousness.
+	1.	Medical Focus: Ensure the search term reflects the core medical topic. Use clear, broad terms like “cancer treatment” or “telemedicine” rather than highly technical names or drug terms that may not have clear visual representation (e.g., “immunotherapy” instead of specific drug names).
+	2.	Context and Setting: Match the search term to the clinical or healthcare setting described, such as “hospital surgery,” “doctor-patient consultation,” or “medical research lab,” keeping the relevance to the post’s message.
+	3.	Clarity: Distill complex medical concepts into simple, recognizable terms (e.g., “autoimmune disease” instead of a specific condition) and avoid ambiguity. Focus on terms that are easy to visualize.
+	4.	Research and Trials: If the post mentions studies or clinical trials, generate terms like “medical research,” “doctor reviewing data,” or “clinical trial discussion.”
+	5.	Tone Appropriateness: Reflect the tone of the post—whether serious, educational, or inspirational—by keeping the search term aligned with the content’s emotion and intent.
 
-Output only the search term in your response, and make it concise and simple enough to guide the search effectively."""},
+Only return the concise, specific search term that would most effectively guide the image search."""},
             {"role": "user", "content": post_content}
         ],
         max_tokens=1024
@@ -477,20 +476,20 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
             logging.error("Cannot log to CSV: 'generated_post' is missing or empty.")
             return
 
-        # Log the structure of 'generated_post' for debugging
-        logging.debug(f"Structure of 'generated_post': {generated_post}")
+        # Log the current structure of 'generated_post'
+        logging.info(f"'generated_post' length: {len(generated_post)}. Content: {generated_post}")
 
-        # Ensure the number of fields in 'generated_post' matches the expected columns
-        expected_length = 8  # Expected number of elements in 'generated_post' before DocumentID
-        if len(generated_post) != expected_length:
-            logging.error(f"Cannot log to CSV: 'generated_post' has an unexpected structure. Expected {expected_length} elements, got {len(generated_post)}.")
+        # Adjust the columns based on the actual length of 'generated_post'
+        if len(generated_post) == 9:
+            columns = ["Time", "LLM Timestamp", "Post", "Hashtags", "Image", "Link", "Prompt", "Input", "Model", "DocumentID"]
+        elif len(generated_post) == 8:
+            columns = ["Time", "LLM Timestamp", "Post", "Hashtags", "Image", "Link", "Prompt", "Input", "Model"]
+        else:
+            logging.error(f"Cannot log to CSV: 'generated_post' has an unexpected structure. Found length: {len(generated_post)}. Content: {generated_post}")
             return
 
         # Append the document ID to the generated_post data
         log_entry_with_id = generated_post + [document_id]
-
-        # Define columns, adding 'DocumentID' as the new column
-        columns = ["Time", "LLM Timestamp", "Post", "Hashtags", "Image", "Link", "Prompt", "Input", "Model", "DocumentID"]
 
         # Create a DataFrame for the new log entry
         df_new = pd.DataFrame([log_entry_with_id], columns=columns)
@@ -617,6 +616,7 @@ def main():
 
     # Get unique links from the CSV files that haven't been processed yet
     combined_links = list(get_unique_links(csv_files, llm_links))
+    combined_links = combined_links[:3]
     logging.info(f"Unique links to process: {len(combined_links)}")
     print(f"Unique links to process: {len(combined_links)}")
 
