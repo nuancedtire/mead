@@ -6,14 +6,16 @@ on:
     - cron: '*/15 9-17 * * 1-5'  # Scrape every 15 minutes from 09:00 to 17:59, Monday to Friday
 
     # Weekdays (Monday to Friday) during non-working hours (every 1 hour)
-    - cron: '0 */1 18-23 * * 1-5'  # Scrape every 1 hour from 18:00 to 23:59, Monday to Friday
-    - cron: '0 */2 0-8 * * 1-5'    # Scrape every 2 hours from midnight to 08:59, Monday to Friday
+    - cron: '0 18-23 * * 1-5'  # Scrape every hour from 18:00 to 23:59, Monday to Friday
+
+    # Weekdays (Monday to Friday) during late night/early morning (every 2 hours)
+    - cron: '0 0,2,4,6,8 * * 1-5'  # Scrape every 2 hours from midnight to 08:59, Monday to Friday
 
     # Weekends (Saturday and Sunday) during the day (every 2 hours)
-    - cron: '0 */2 9-23 * * 6,0'   # Scrape every 2 hours from 09:00 to 23:59, Saturday and Sunday
+    - cron: '0 9,11,13,15,17,19,21,23 * * 6,0'   # Scrape every 2 hours from 09:00 to 23:59, Saturday and Sunday
 
     # Weekends (Saturday and Sunday) during the night (every 4 hours)
-    - cron: '0 */4 0-8 * * 6,0'    # Scrape every 4 hours from midnight to 08:59, Saturday and Sunday
+    - cron: '0 0,4,8 * * 6,0'    # Scrape every 4 hours from midnight to 08:59, Saturday and Sunday
 
   workflow_dispatch:  # Allows manual triggering of the workflow
 
