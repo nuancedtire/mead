@@ -575,3 +575,33 @@
 2024-09-10 12:29:32,767 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
 2024-09-10 12:29:34,008 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-09-10 12:29:34,008 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-10 14:14:04,792 - INFO - Logging setup complete.
+2024-09-10 14:14:04,819 - INFO - Unique links to process: 9
+2024-09-10 14:14:07,181 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:07,184 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-10 14:14:09,160 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:09,161 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-10 14:14:11,308 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:11,309 - INFO - No article found for link https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667/(24/)00163-4/fulltext.
+2024-09-10 14:14:12,451 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:12,452 - INFO - No article found for link https://www.thelancet.com/journals/landia/article/PIIS2213-8587/(24/)00179-7/fulltext.
+2024-09-10 14:14:14,024 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:14,025 - INFO - No article found for link https://www.thelancet.com/journals/lanrhe/article/PIIS2665-9913/(24/)00189-9/abstract.
+2024-09-10 14:14:15,273 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:15,273 - INFO - No article found for link https://www.thelancet.com/journals/lancet/article/PIIS0140-6736/(24/)01079-1/fulltext.
+2024-09-10 14:14:17,450 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:17,451 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00202-3/fulltext#%20.
+2024-09-10 14:14:26,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:30,670 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:30,970 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:30,971 - INFO - Image query: "male patients bone health medication"
+2024-09-10 14:14:31,501 - INFO - Unique image link: https://images.pexels.com/photos/6129115/pexels-photo-6129115.jpeg
+2024-09-10 14:14:31,503 - INFO - Logged data to databases/llm.csv.
+2024-09-10 14:14:39,006 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:41,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:42,240 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:42,241 - INFO - Image query: "mastitis breast cancer risk women over 50"
+2024-09-10 14:14:42,915 - INFO - Unique image link: https://images.pexels.com/photos/5702165/pexels-photo-5702165.jpeg
+2024-09-10 14:14:42,917 - INFO - Logged data to databases/llm.csv.
+2024-09-10 14:14:42,917 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/6129115/pexels-photo-6129115.jpeg'}
+2024-09-10 14:14:42,917 - WARNING - Invalid link found in link_info: {'Image': 'https://images.pexels.com/photos/5702165/pexels-photo-5702165.jpeg'}

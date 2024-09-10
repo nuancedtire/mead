@@ -430,3 +430,23 @@
 2024-09-10 12:28:56,411 - INFO - Existing CSV file loaded.
 2024-09-10 12:28:56,411 - INFO - No new links found, CSV file is up to date.
 2024-09-10 12:28:56,411 - INFO - Medscape script completed.
+2024-09-10 14:13:55,637 - INFO - Medscape script started.
+2024-09-10 14:13:55,637 - INFO - Connection to Medscape established.
+2024-09-10 14:13:55,753 - INFO - Request sent to Medscape API.
+2024-09-10 14:13:56,053 - INFO - Response received from Medscape API.
+2024-09-10 14:13:56,053 - INFO - Response data decoded into dictionary.
+2024-09-10 14:13:56,056 - INFO - Existing CSV file loaded.
+2024-09-10 14:13:56,056 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/chronic-ppi-use-weakens-bones-only-men-2024a1000fsl
+2024-09-10 14:13:56,056 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/chronic-ppi-use-weakens-bones-only-men-2024a1000fsl
+2024-09-10 14:13:58,990 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/chronic-ppi-use-weakens-bones-only-men-2024a1000fsl.
+2024-09-10 14:13:59,847 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:13:59,849 - INFO - Received response from OpenAI API.
+2024-09-10 14:13:59,849 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/chronic-ppi-use-weakens-bones-only-men-2024a1000fsl
+2024-09-10 14:13:59,850 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68
+2024-09-10 14:13:59,850 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68
+2024-09-10 14:14:02,974 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68.
+2024-09-10 14:14:03,745 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-10 14:14:03,746 - INFO - Received response from OpenAI API.
+2024-09-10 14:14:03,746 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68
+2024-09-10 14:14:03,748 - INFO - CSV file updated with new data.
+2024-09-10 14:14:03,748 - INFO - Medscape script completed.
