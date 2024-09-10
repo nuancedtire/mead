@@ -12,13 +12,13 @@ on:
     - cron: '0 0,2,4,6,8 * * 1-5'  # Scrape every 2 hours from midnight to 08:59, Monday to Friday
 
     # Weekends (Saturday and Sunday) during the day (every 2 hours)
-    - cron: '0 9,11,13,15,17,19,21,23 * * 6,0'   # Scrape every 2 hours from 09:00 to 23:59, Saturday and Sunday
+    - cron: '0 9,11,13,15,17,19,21,23 * * 6,0'  # Scrape every 2 hours from 09:00 to 23:59, Saturday and Sunday
 
     # Weekends (Saturday and Sunday) during the night (every 4 hours)
-    - cron: '0 0,4,8 * * 6,0'    # Scrape every 4 hours from midnight to 08:59, Saturday and Sunday
+    - cron: '0 0,4,8 * * 6,0'  # Scrape every 4 hours from midnight to 08:59, Saturday and Sunday
 
   workflow_dispatch:  # Allows manual triggering of the workflow
-
+  
 permissions:
   contents: write  # Grants the necessary permissions to push changes
 
