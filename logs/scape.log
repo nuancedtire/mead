@@ -450,3 +450,11 @@
 2024-09-10 14:14:03,746 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/mastitis-older-women-linked-subsequent-breast-cancer-2024a1000g68
 2024-09-10 14:14:03,748 - INFO - CSV file updated with new data.
 2024-09-10 14:14:03,748 - INFO - Medscape script completed.
+2024-09-10 16:16:55,141 - INFO - Medscape script started.
+2024-09-10 16:16:55,142 - INFO - Connection to Medscape established.
+2024-09-10 16:16:55,166 - INFO - Request sent to Medscape API.
+2024-09-10 16:16:55,557 - INFO - Response received from Medscape API.
+2024-09-10 16:16:55,557 - INFO - Response data decoded into dictionary.
+2024-09-10 16:16:55,560 - INFO - Existing CSV file loaded.
+2024-09-10 16:16:55,560 - INFO - No new links found, CSV file is up to date.
+2024-09-10 16:16:55,560 - INFO - Medscape script completed.
