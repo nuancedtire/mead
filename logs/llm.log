@@ -1174,3 +1174,33 @@
 2024-09-11 15:20:53,046 - INFO - No article found for link https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older.
 2024-09-11 15:20:53,046 - ERROR - No valid post generated for http://r.jina.ai/https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older. Skipping.
 2024-09-11 15:20:53,046 - WARNING - Skipping entry due to missing or invalid log entry for link: https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older
+2024-09-11 15:40:10,487 - INFO - Extracted 28 link records.
+2024-09-11 15:40:10,493 - INFO - Extracted 28 image links.
+2024-09-11 15:40:10,496 - INFO - Extracted 15 link records.
+2024-09-11 15:40:10,498 - INFO - Extracted 5 link records.
+2024-09-11 15:40:10,500 - INFO - Extracted 12 link records.
+2024-09-11 15:40:10,500 - INFO - Unique links to process: 4
+2024-09-11 15:40:10,500 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-11 15:40:12,579 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/, now generating post.
+2024-09-11 15:40:13,165 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 15:40:13,167 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-11 15:40:13,167 - ERROR - No valid post generated for http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/. Skipping.
+2024-09-11 15:40:13,167 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-11 15:40:13,167 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-11 15:40:13,806 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/, now generating post.
+2024-09-11 15:40:14,920 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 15:40:14,921 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-11 15:40:14,921 - ERROR - No valid post generated for http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/. Skipping.
+2024-09-11 15:40:14,921 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-11 15:40:14,921 - INFO - Starting to process link: http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-11 15:40:20,158 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296, now generating post.
+2024-09-11 15:40:20,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 15:40:20,975 - INFO - No article found for link https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296.
+2024-09-11 15:40:20,975 - ERROR - No valid post generated for http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296. Skipping.
+2024-09-11 15:40:20,975 - WARNING - Skipping entry due to missing or invalid log entry for link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-11 15:40:20,975 - INFO - Starting to process link: http://r.jina.ai/https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older
+2024-09-11 15:40:21,720 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older, now generating post.
+2024-09-11 15:40:22,539 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 15:40:22,540 - INFO - No article found for link https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older.
+2024-09-11 15:40:22,540 - ERROR - No valid post generated for http://r.jina.ai/https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older. Skipping.
+2024-09-11 15:40:22,540 - WARNING - Skipping entry due to missing or invalid log entry for link: https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older
