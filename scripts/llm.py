@@ -268,7 +268,7 @@ class PostResponse(BaseModel):
     """
     post_content: str = Field(..., description="The final generated post content in plain text without any hashtags.")
     hashtags: List[HashtagEnum] = Field(..., description="A list of relevant hashtags for the post.")  # restrict hashtags to the dynamically created Enum
-    category: CategoryEnum = Field(..., description="The category for the post, restricted to four predefined categories.")  # restrict category to one of the four categories
+    category: CategoryEnum = Field(..., description="The category that fits the post best, restricted to four predefined categories.")  # restrict category to one of the four categories
 
 # =====================
 #  OpenAI API and Post Generation
