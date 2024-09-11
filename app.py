@@ -220,20 +220,20 @@ unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#
 # Remove # from the labels for radio button
 clean_labels = [tag[1:] for tag in unique_hashtags]
 
+# Radio button for selecting one category at a time (with clean labels)
+selected_label = st.radio("Select Category", options=clean_labels, horizontal=True)
+
+# Map the selected label back to the hashtag value (with # symbol)
+selected_hashtag = f"#{selected_label}"
+
 # Function to clear cache and rerun the app
 def clear_cache_and_rerun():
     st.cache_data.clear()  # Clear cached data
     st.experimental_rerun()  # Rerun the app
 
 # Add a button that triggers the cache clear and rerun
-if st.button("Clear Cache and Rerun"):
+if st.sidebar.button("Clear Cache and Rerun"):
     clear_cache_and_rerun()
-
-# Radio button for selecting one category at a time (with clean labels)
-selected_label = st.radio("Select Category", options=clean_labels, horizontal=True)
-
-# Map the selected label back to the hashtag value (with # symbol)
-selected_hashtag = f"#{selected_label}"
 
 # Handle dynamic start date
 st.sidebar.header("Filter by Date")
