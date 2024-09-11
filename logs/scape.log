@@ -54,3 +54,11 @@
 2024-09-10 23:19:56,226 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/rheumatoid-arthritis-whole-food-diet-may-be-protective-2024a1000g29
 2024-09-10 23:19:56,228 - INFO - CSV file updated with new data.
 2024-09-10 23:19:56,228 - INFO - Medscape script completed.
+2024-09-11 00:39:01,255 - INFO - Medscape script started.
+2024-09-11 00:39:01,256 - INFO - Connection to Medscape established.
+2024-09-11 00:39:01,313 - INFO - Request sent to Medscape API.
+2024-09-11 00:39:01,668 - INFO - Response received from Medscape API.
+2024-09-11 00:39:01,668 - INFO - Response data decoded into dictionary.
+2024-09-11 00:39:01,670 - INFO - Existing CSV file loaded.
+2024-09-11 00:39:01,671 - INFO - No new links found, CSV file is up to date.
+2024-09-11 00:39:01,671 - INFO - Medscape script completed.
