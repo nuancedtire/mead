@@ -2,9 +2,6 @@
 import streamlit as st
 import pandas as pd
 import re
-import requests
-from PIL import Image, ImageOps
-from io import BytesIO
 import datetime
 from dateutil.relativedelta import relativedelta
 
@@ -45,16 +42,23 @@ def relative_time(past_time):
 fallback_image_url = "https://peerr.io/images/logo.svg"  # Note: SVG might not be ideal for image display. Consider using a PNG or JPEG.
 
 # Load CSV files containing data sources
-meds = pd.read_csv('databases/meds.csv')   # Medsii data
-sifted = pd.read_csv('databases/sifted.csv')  # Sifted data
-scape = pd.read_csv('databases/scape.csv')  # Medscape data
+@st.cache_data
+def load_meds_data():
+    return pd.read_csv('databases/meds.csv')   # Medsii data
 
-# Modified Firebase Initialization in Functions
+@st.cache_data
+def load_sifted_data():
+    return pd.read_csv('databases/sifted.csv')  # Sifted data
+
+@st.cache_data
+def load_scape_data():
+    return pd.read_csv('databases/scape.csv')  # Medscape data
+
+@st.cache_data
 def load_firebase():
     """
     Load data from LLM csv and return it as a Pandas DataFrame.
     """
-    # Convert to DataFrame and process timestamps
     data = pd.read_csv('databases/llm.csv')
     data['Time'] = pd.to_datetime(data['Time'])
     data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
@@ -75,33 +79,6 @@ def remove_markdown_formatting(text):
     text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
 
     return text
-
-# Function to download, resize, and crop an image to fit the target size
-def crop_to_fit(image_url, target_size=(640, 360)):
-    """
-    Download the image from the URL, resize and crop to fit the specified size.
-
-    Args:
-        image_url (str): The URL of the image.
-        target_size (tuple): Desired image size in (width, height).
-
-    Returns:
-        Image: Cropped and resized image object, or None in case of an error.
-    """
-    try:
-        response = requests.get(image_url)
-        if response.status_code == 200:
-            img = Image.open(BytesIO(response.content))
-
-            # Resize while maintaining aspect ratio and crop to fit target size
-            img = ImageOps.fit(img, target_size, method=Image.LANCZOS)
-            return img
-        else:
-            st.error(f"Failed to load image: {response.status_code}")
-            return None
-    except Exception as e:
-        st.error(f"Error while processing the image: {str(e)}")
-        return None
 
 # Function to identify the source of a post based on the link
 def determine_source(link):
@@ -169,21 +146,18 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     col1, col2 = st.columns([3, 5])
 
     with col1:
-        # Display the image after cropping to the desired size
-        cropped_image = crop_to_fit(image_url, target_size=(640, 360))
-        if cropped_image:
-            st.image(cropped_image)
-            st.caption(f"Image courtesy [Pexels]({image_url})")
-        else:
-            st.error("Could not display the image.")
+        # Use st.image directly to display the image
+        st.image(image_url)  # Optionally, you can set a target width
+        st.caption(f"Image courtesy [Pexels]({image_url})")
+
+        # Display post metadata
         st.info(f"{str(hashtags[0])[1:]}")
         st.write(f"**Published** {relative_time(timestamp)}  \n"
-                # f"**Generated at:** {relative_time(llm_timestamp)}  \n"
                 f"**From:** {source}  \n")
+
     with col2:
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
-        # Extract rest of the content, skipping the first line
-        rest_of_content = "\n".join(content.split("\n")[1:]) 
+        rest_of_content = "\n".join(content.split("\n")[1:])
         cleaned_content = re.sub(r"#\w+", "", rest_of_content)
         hashtags_str = " ".join(hashtags)
 
@@ -193,7 +167,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
             with st.expander(f"{first_line}", expanded=True):
                 st.write(cleaned_content)
                 st.write(f"**Hashtags:** {hashtags_str}")
-            # Display the relative times
+
         with tab2:
             st.write(content)
             st.write(hashtags)
@@ -202,7 +176,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
 
     # Add a horizontal line between posts
     st.markdown("---")
-
+    
 # Streamlit UI configuration
 st.set_page_config(
    page_title="Peerr Thoughts",
@@ -211,8 +185,11 @@ st.set_page_config(
 )
 
 st.title("Feed")
+# Load the data
+meds = load_meds_data()
+sifted = load_sifted_data()
+scape = load_scape_data()
 data = load_firebase()
-
 # Sidebar with various filters and statistics
 with st.sidebar:
 
