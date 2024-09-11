@@ -214,3 +214,11 @@
 2024-09-11 13:04:32,212 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/antibiotics-may-not-reduce-fever-duration-paediatric-strep-2024a1000g7k
 2024-09-11 13:04:32,214 - INFO - CSV file updated with new data.
 2024-09-11 13:04:32,214 - INFO - Medscape script completed.
+2024-09-11 13:31:33,918 - INFO - Medscape script started.
+2024-09-11 13:31:33,918 - INFO - Connection to Medscape established.
+2024-09-11 13:31:34,035 - INFO - Request sent to Medscape API.
+2024-09-11 13:31:34,319 - INFO - Response received from Medscape API.
+2024-09-11 13:31:34,320 - INFO - Response data decoded into dictionary.
+2024-09-11 13:31:34,322 - INFO - Existing CSV file loaded.
+2024-09-11 13:31:34,322 - INFO - No new links found, CSV file is up to date.
+2024-09-11 13:31:34,322 - INFO - Medscape script completed.
