@@ -616,7 +616,7 @@ def main():
 
     # Get unique links from the CSV files that haven't been processed yet
     combined_links = list(get_unique_links(csv_files, llm_links))
-    combined_links = combined_links[:10]
+    # combined_links = combined_links[:10]
     logging.info(f"Unique links to process: {len(combined_links)}")
     print(f"Unique links to process: {len(combined_links)}")
 
