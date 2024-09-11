@@ -102,3 +102,17 @@
 2024-09-11 08:11:37,648 - INFO - Existing CSV file loaded.
 2024-09-11 08:11:37,649 - INFO - No new links found, CSV file is up to date.
 2024-09-11 08:11:37,649 - INFO - Medscape script completed.
+2024-09-11 09:21:10,610 - INFO - Medscape script started.
+2024-09-11 09:21:10,611 - INFO - Connection to Medscape established.
+2024-09-11 09:21:10,719 - INFO - Request sent to Medscape API.
+2024-09-11 09:21:11,038 - INFO - Response received from Medscape API.
+2024-09-11 09:21:11,038 - INFO - Response data decoded into dictionary.
+2024-09-11 09:21:11,041 - INFO - Existing CSV file loaded.
+2024-09-11 09:21:11,041 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/top-tips-polycystic-ovary-syndrome-2024a1000fn8
+2024-09-11 09:21:11,041 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/top-tips-polycystic-ovary-syndrome-2024a1000fn8
+2024-09-11 09:21:13,947 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/top-tips-polycystic-ovary-syndrome-2024a1000fn8.
+2024-09-11 09:21:14,793 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 09:21:14,796 - INFO - Received response from OpenAI API.
+2024-09-11 09:21:14,796 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/top-tips-polycystic-ovary-syndrome-2024a1000fn8
+2024-09-11 09:21:14,798 - INFO - CSV file updated with new data.
+2024-09-11 09:21:14,798 - INFO - Medscape script completed.
