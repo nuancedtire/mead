@@ -151,7 +151,8 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         st.caption(f"Image courtesy [Pexels]({image_url})")
 
         # Display post metadata
-        st.info(f"{str(hashtags[0])[1:]}")
+        hashtags_str = " ".join(hashtags[1:])
+        st.info(f"*{hashtags_str}*")
         st.write(f"**Published** {relative_time(timestamp)}  \n"
                 f"**From:** {source}  \n")
 
@@ -159,14 +160,12 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
         rest_of_content = "\n".join(content.split("\n")[1:])
         cleaned_content = re.sub(r"#\w+", "", rest_of_content)
-        hashtags_str = " ".join(hashtags)
 
         tab1, tab2 = st.tabs(["Article", "More"])
 
         with tab1:
             with st.expander(f"{first_line}", expanded=True):
                 st.write(cleaned_content)
-                st.write(f"**Hashtags:** {hashtags_str}")
 
         with tab2:
             st.write(content)
@@ -215,23 +214,33 @@ data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
 
 # Extract unique hashtags and create a multi-select widget
 # unique_hashtags = set(sum(data['Hashtags'].tolist(), []))
+# List of hashtags with # symbols
 unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
-selected_hashtags = st.multiselect("Select Category", options=list(unique_hashtags))
+
+# Remove # from the labels for radio button
+clean_labels = [tag[1:] for tag in unique_hashtags]
+
+# Radio button for selecting one category at a time (with clean labels)
+selected_label = st.radio("Select Category", options=clean_labels, horizontal=True)
+
+# Map the selected label back to the hashtag value (with # symbol)
+selected_hashtag = f"#{selected_label}"
 
 # Handle dynamic start date
 st.sidebar.header("Filter by Date")
 start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())  # Dynamic start date from data
 end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
 
-# Filter data by date range and selected hashtags
+# Filter data by date range and selected hashtag
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
 
-if selected_hashtags:
-    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: any(hashtag in x for hashtag in selected_hashtags))]
+if selected_hashtag:
+    # Filter the data based on the selected hashtag
+    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
 
 # Display posts in a scrolling feed
 if filtered_data.empty:
-    st.write("No posts found for the selected date range and hashtags.")
+    st.write("No posts found for the selected date range and category.")
 else:
     for _, row in filtered_data.iterrows():
         create_post(
