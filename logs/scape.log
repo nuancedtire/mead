@@ -194,3 +194,23 @@
 2024-09-11 12:37:11,033 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/should-genetic-testing-be-routine-breast-cancer-2024a1000ggq
 2024-09-11 12:37:11,035 - INFO - CSV file updated with new data.
 2024-09-11 12:37:11,035 - INFO - Medscape script completed.
+2024-09-11 13:04:23,642 - INFO - Medscape script started.
+2024-09-11 13:04:23,643 - INFO - Connection to Medscape established.
+2024-09-11 13:04:23,769 - INFO - Request sent to Medscape API.
+2024-09-11 13:04:24,320 - INFO - Response received from Medscape API.
+2024-09-11 13:04:24,320 - INFO - Response data decoded into dictionary.
+2024-09-11 13:04:24,322 - INFO - Existing CSV file loaded.
+2024-09-11 13:04:24,322 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/a1c-inaccurate-defining-diabetes-overtreatment-2024a1000fsv
+2024-09-11 13:04:24,322 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/a1c-inaccurate-defining-diabetes-overtreatment-2024a1000fsv
+2024-09-11 13:04:27,096 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/a1c-inaccurate-defining-diabetes-overtreatment-2024a1000fsv.
+2024-09-11 13:04:28,032 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 13:04:28,036 - INFO - Received response from OpenAI API.
+2024-09-11 13:04:28,036 - INFO - Attempt 1 succeeded with link: https://diabetesjournals.org/care/article/doi/10.2337/dc24-1058/157153/Diabetes-Overtreatment-and-Hypoglycemia-in-Older
+2024-09-11 13:04:28,036 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/antibiotics-may-not-reduce-fever-duration-paediatric-strep-2024a1000g7k
+2024-09-11 13:04:28,036 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/antibiotics-may-not-reduce-fever-duration-paediatric-strep-2024a1000g7k
+2024-09-11 13:04:31,353 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/antibiotics-may-not-reduce-fever-duration-paediatric-strep-2024a1000g7k.
+2024-09-11 13:04:32,211 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 13:04:32,212 - INFO - Received response from OpenAI API.
+2024-09-11 13:04:32,212 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/antibiotics-may-not-reduce-fever-duration-paediatric-strep-2024a1000g7k
+2024-09-11 13:04:32,214 - INFO - CSV file updated with new data.
+2024-09-11 13:04:32,214 - INFO - Medscape script completed.
