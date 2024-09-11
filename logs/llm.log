@@ -1514,3 +1514,27 @@
 2024-09-11 21:19:22,508 - INFO - No article found for link https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296.
 2024-09-11 21:19:22,508 - ERROR - No valid post generated for http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296. Skipping.
 2024-09-11 21:19:22,508 - WARNING - Skipping entry due to missing or invalid log entry for link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-11 22:18:58,321 - INFO - Extracted 29 link records.
+2024-09-11 22:18:58,329 - INFO - Extracted 29 image links.
+2024-09-11 22:18:58,331 - INFO - Extracted 15 link records.
+2024-09-11 22:18:58,334 - INFO - Extracted 5 link records.
+2024-09-11 22:18:58,336 - INFO - Extracted 12 link records.
+2024-09-11 22:18:58,336 - INFO - Unique links to process: 3
+2024-09-11 22:18:58,336 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-11 22:19:00,347 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/, now generating post.
+2024-09-11 22:19:00,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 22:19:00,800 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-11 22:19:00,800 - ERROR - No valid post generated for http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/. Skipping.
+2024-09-11 22:19:00,800 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-11 22:19:00,800 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-11 22:19:02,385 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/, now generating post.
+2024-09-11 22:19:02,871 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 22:19:02,872 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-11 22:19:02,872 - ERROR - No valid post generated for http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/. Skipping.
+2024-09-11 22:19:02,872 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-11 22:19:02,872 - INFO - Starting to process link: http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-11 22:19:06,196 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296, now generating post.
+2024-09-11 22:19:06,833 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 22:19:06,834 - INFO - No article found for link https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296.
+2024-09-11 22:19:06,834 - ERROR - No valid post generated for http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296. Skipping.
+2024-09-11 22:19:06,834 - WARNING - Skipping entry due to missing or invalid log entry for link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
