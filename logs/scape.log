@@ -116,3 +116,11 @@
 2024-09-11 09:21:14,796 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/top-tips-polycystic-ovary-syndrome-2024a1000fn8
 2024-09-11 09:21:14,798 - INFO - CSV file updated with new data.
 2024-09-11 09:21:14,798 - INFO - Medscape script completed.
+2024-09-11 09:39:28,081 - INFO - Medscape script started.
+2024-09-11 09:39:28,082 - INFO - Connection to Medscape established.
+2024-09-11 09:39:28,149 - INFO - Request sent to Medscape API.
+2024-09-11 09:39:28,438 - INFO - Response received from Medscape API.
+2024-09-11 09:39:28,439 - INFO - Response data decoded into dictionary.
+2024-09-11 09:39:28,441 - INFO - Existing CSV file loaded.
+2024-09-11 09:39:28,441 - INFO - No new links found, CSV file is up to date.
+2024-09-11 09:39:28,441 - INFO - Medscape script completed.
