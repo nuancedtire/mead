@@ -180,3 +180,17 @@
 2024-09-11 11:51:52,277 - INFO - Existing CSV file loaded.
 2024-09-11 11:51:52,277 - INFO - No new links found, CSV file is up to date.
 2024-09-11 11:51:52,278 - INFO - Medscape script completed.
+2024-09-11 12:37:06,603 - INFO - Medscape script started.
+2024-09-11 12:37:06,603 - INFO - Connection to Medscape established.
+2024-09-11 12:37:06,687 - INFO - Request sent to Medscape API.
+2024-09-11 12:37:06,987 - INFO - Response received from Medscape API.
+2024-09-11 12:37:06,987 - INFO - Response data decoded into dictionary.
+2024-09-11 12:37:06,990 - INFO - Existing CSV file loaded.
+2024-09-11 12:37:06,990 - INFO - Processing new item: https://www.medscape.com/viewarticle/should-genetic-testing-be-routine-breast-cancer-2024a1000ggq
+2024-09-11 12:37:06,990 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/should-genetic-testing-be-routine-breast-cancer-2024a1000ggq
+2024-09-11 12:37:09,275 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/should-genetic-testing-be-routine-breast-cancer-2024a1000ggq.
+2024-09-11 12:37:11,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-11 12:37:11,032 - INFO - Received response from OpenAI API.
+2024-09-11 12:37:11,033 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/should-genetic-testing-be-routine-breast-cancer-2024a1000ggq
+2024-09-11 12:37:11,035 - INFO - CSV file updated with new data.
+2024-09-11 12:37:11,035 - INFO - Medscape script completed.
