@@ -554,3 +554,11 @@
 2024-09-12 14:41:32,109 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/migraine-when-triptans-dont-work-2024a1000gbr
 2024-09-12 14:41:32,112 - INFO - CSV file updated with new data.
 2024-09-12 14:41:32,112 - INFO - Medscape script completed.
+2024-09-12 14:53:08,589 - INFO - Medscape script started.
+2024-09-12 14:53:08,589 - INFO - Connection to Medscape established.
+2024-09-12 14:53:08,632 - INFO - Request sent to Medscape API.
+2024-09-12 14:53:09,064 - INFO - Response received from Medscape API.
+2024-09-12 14:53:09,064 - INFO - Response data decoded into dictionary.
+2024-09-12 14:53:09,067 - INFO - Existing CSV file loaded.
+2024-09-12 14:53:09,067 - INFO - No new links found, CSV file is up to date.
+2024-09-12 14:53:09,067 - INFO - Medscape script completed.
