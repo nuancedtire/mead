@@ -516,3 +516,11 @@
 2024-09-12 13:03:52,965 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
 2024-09-12 13:03:52,967 - INFO - CSV file updated with new data.
 2024-09-12 13:03:52,967 - INFO - Medscape script completed.
+2024-09-12 13:32:12,564 - INFO - Medscape script started.
+2024-09-12 13:32:12,565 - INFO - Connection to Medscape established.
+2024-09-12 13:32:12,724 - INFO - Request sent to Medscape API.
+2024-09-12 13:32:13,280 - INFO - Response received from Medscape API.
+2024-09-12 13:32:13,280 - INFO - Response data decoded into dictionary.
+2024-09-12 13:32:13,283 - INFO - Existing CSV file loaded.
+2024-09-12 13:32:13,283 - INFO - No new links found, CSV file is up to date.
+2024-09-12 13:32:13,283 - INFO - Medscape script completed.
