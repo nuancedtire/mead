@@ -540,3 +540,17 @@
 2024-09-12 14:20:06,584 - INFO - Existing CSV file loaded.
 2024-09-12 14:20:06,584 - INFO - No new links found, CSV file is up to date.
 2024-09-12 14:20:06,584 - INFO - Medscape script completed.
+2024-09-12 14:41:27,392 - INFO - Medscape script started.
+2024-09-12 14:41:27,393 - INFO - Connection to Medscape established.
+2024-09-12 14:41:27,440 - INFO - Request sent to Medscape API.
+2024-09-12 14:41:27,845 - INFO - Response received from Medscape API.
+2024-09-12 14:41:27,846 - INFO - Response data decoded into dictionary.
+2024-09-12 14:41:27,848 - INFO - Existing CSV file loaded.
+2024-09-12 14:41:27,848 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/migraine-when-triptans-dont-work-2024a1000gbr
+2024-09-12 14:41:27,848 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/migraine-when-triptans-dont-work-2024a1000gbr
+2024-09-12 14:41:31,436 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/migraine-when-triptans-dont-work-2024a1000gbr.
+2024-09-12 14:41:32,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-12 14:41:32,109 - INFO - Received response from OpenAI API.
+2024-09-12 14:41:32,109 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/migraine-when-triptans-dont-work-2024a1000gbr
+2024-09-12 14:41:32,112 - INFO - CSV file updated with new data.
+2024-09-12 14:41:32,112 - INFO - Medscape script completed.
