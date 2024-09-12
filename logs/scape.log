@@ -502,3 +502,17 @@
 2024-09-12 12:36:08,629 - INFO - Existing CSV file loaded.
 2024-09-12 12:36:08,629 - INFO - No new links found, CSV file is up to date.
 2024-09-12 12:36:08,629 - INFO - Medscape script completed.
+2024-09-12 13:03:49,497 - INFO - Medscape script started.
+2024-09-12 13:03:49,497 - INFO - Connection to Medscape established.
+2024-09-12 13:03:49,614 - INFO - Request sent to Medscape API.
+2024-09-12 13:03:49,992 - INFO - Response received from Medscape API.
+2024-09-12 13:03:49,992 - INFO - Response data decoded into dictionary.
+2024-09-12 13:03:49,994 - INFO - Existing CSV file loaded.
+2024-09-12 13:03:49,995 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/anaesthetics-safely-attenuate-bpg-injection-pain-2024a1000gfk
+2024-09-12 13:03:49,995 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/anaesthetics-safely-attenuate-bpg-injection-pain-2024a1000gfk
+2024-09-12 13:03:52,192 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/anaesthetics-safely-attenuate-bpg-injection-pain-2024a1000gfk.
+2024-09-12 13:03:52,932 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-12 13:03:52,965 - INFO - Received response from OpenAI API.
+2024-09-12 13:03:52,965 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-12 13:03:52,967 - INFO - CSV file updated with new data.
+2024-09-12 13:03:52,967 - INFO - Medscape script completed.
