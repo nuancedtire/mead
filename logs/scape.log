@@ -736,3 +736,11 @@
 2024-09-13 09:39:08,212 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/aggressive-and-agitated-behaviour-de-escalate-and-consider-2024a1000fvw
 2024-09-13 09:39:08,214 - INFO - CSV file updated with new data.
 2024-09-13 09:39:08,214 - INFO - Medscape script completed.
+2024-09-13 09:52:34,840 - INFO - Medscape script started.
+2024-09-13 09:52:34,841 - INFO - Connection to Medscape established.
+2024-09-13 09:52:34,948 - INFO - Request sent to Medscape API.
+2024-09-13 09:52:35,186 - INFO - Response received from Medscape API.
+2024-09-13 09:52:35,186 - INFO - Response data decoded into dictionary.
+2024-09-13 09:52:35,189 - INFO - Existing CSV file loaded.
+2024-09-13 09:52:35,189 - INFO - No new links found, CSV file is up to date.
+2024-09-13 09:52:35,189 - INFO - Medscape script completed.
