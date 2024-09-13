@@ -722,3 +722,17 @@
 2024-09-13 08:11:33,542 - INFO - Existing CSV file loaded.
 2024-09-13 08:11:33,542 - INFO - No new links found, CSV file is up to date.
 2024-09-13 08:11:33,542 - INFO - Medscape script completed.
+2024-09-13 09:39:03,194 - INFO - Medscape script started.
+2024-09-13 09:39:03,195 - INFO - Connection to Medscape established.
+2024-09-13 09:39:03,310 - INFO - Request sent to Medscape API.
+2024-09-13 09:39:03,862 - INFO - Response received from Medscape API.
+2024-09-13 09:39:03,862 - INFO - Response data decoded into dictionary.
+2024-09-13 09:39:03,864 - INFO - Existing CSV file loaded.
+2024-09-13 09:39:03,864 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/aggressive-and-agitated-behaviour-de-escalate-and-consider-2024a1000fvw
+2024-09-13 09:39:03,864 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/aggressive-and-agitated-behaviour-de-escalate-and-consider-2024a1000fvw
+2024-09-13 09:39:07,094 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/aggressive-and-agitated-behaviour-de-escalate-and-consider-2024a1000fvw.
+2024-09-13 09:39:08,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 09:39:08,212 - INFO - Received response from OpenAI API.
+2024-09-13 09:39:08,212 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/aggressive-and-agitated-behaviour-de-escalate-and-consider-2024a1000fvw
+2024-09-13 09:39:08,214 - INFO - CSV file updated with new data.
+2024-09-13 09:39:08,214 - INFO - Medscape script completed.
