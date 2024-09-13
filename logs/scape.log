@@ -830,3 +830,17 @@
 2024-09-13 13:52:17,021 - INFO - Existing CSV file loaded.
 2024-09-13 13:52:17,021 - INFO - No new links found, CSV file is up to date.
 2024-09-13 13:52:17,021 - INFO - Medscape script completed.
+2024-09-13 14:17:06,842 - INFO - Medscape script started.
+2024-09-13 14:17:06,843 - INFO - Connection to Medscape established.
+2024-09-13 14:17:06,952 - INFO - Request sent to Medscape API.
+2024-09-13 14:17:07,356 - INFO - Response received from Medscape API.
+2024-09-13 14:17:07,358 - INFO - Response data decoded into dictionary.
+2024-09-13 14:17:07,361 - INFO - Existing CSV file loaded.
+2024-09-13 14:17:07,361 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv
+2024-09-13 14:17:07,361 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv
+2024-09-13 14:17:10,472 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv.
+2024-09-13 14:17:11,284 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 14:17:11,312 - INFO - Received response from OpenAI API.
+2024-09-13 14:17:11,312 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv
+2024-09-13 14:17:11,314 - INFO - CSV file updated with new data.
+2024-09-13 14:17:11,314 - INFO - Medscape script completed.
