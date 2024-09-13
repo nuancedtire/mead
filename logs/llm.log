@@ -2666,3 +2666,33 @@
 2024-09-12 23:22:21,179 - INFO - No article found for link https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext.
 2024-09-12 23:22:21,179 - ERROR - No valid post generated for http://r.jina.ai/https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext. Skipping.
 2024-09-12 23:22:21,179 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-13 00:39:20,474 - INFO - Extracted 36 link records.
+2024-09-13 00:39:20,480 - INFO - Extracted 36 image links.
+2024-09-13 00:39:20,483 - INFO - Extracted 21 link records.
+2024-09-13 00:39:20,485 - INFO - Extracted 5 link records.
+2024-09-13 00:39:20,487 - INFO - Extracted 14 link records.
+2024-09-13 00:39:20,487 - INFO - Unique links to process: 4
+2024-09-13 00:39:20,487 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-13 00:39:25,008 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/, now generating post.
+2024-09-13 00:39:25,540 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 00:39:25,543 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-13 00:39:25,543 - ERROR - No valid post generated for http://r.jina.ai/https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/. Skipping.
+2024-09-13 00:39:25,543 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-13 00:39:25,543 - INFO - Starting to process link: http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-13 00:39:27,478 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/, now generating post.
+2024-09-13 00:39:27,999 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 00:39:28,000 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-13 00:39:28,000 - ERROR - No valid post generated for http://r.jina.ai/https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/. Skipping.
+2024-09-13 00:39:28,000 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-13 00:39:28,000 - INFO - Starting to process link: http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-13 00:39:31,830 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296, now generating post.
+2024-09-13 00:39:32,280 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 00:39:32,281 - INFO - No article found for link https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296.
+2024-09-13 00:39:32,281 - ERROR - No valid post generated for http://r.jina.ai/https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296. Skipping.
+2024-09-13 00:39:32,281 - WARNING - Skipping entry due to missing or invalid log entry for link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-13 00:39:32,281 - INFO - Starting to process link: http://r.jina.ai/https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-13 00:39:34,384 - INFO - Successfully fetched webpage content from http://r.jina.ai/https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext, now generating post.
+2024-09-13 00:39:34,925 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 00:39:34,926 - INFO - No article found for link https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext.
+2024-09-13 00:39:34,926 - ERROR - No valid post generated for http://r.jina.ai/https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext. Skipping.
+2024-09-13 00:39:34,926 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
