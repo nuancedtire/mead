@@ -844,3 +844,11 @@
 2024-09-13 14:17:11,312 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv
 2024-09-13 14:17:11,314 - INFO - CSV file updated with new data.
 2024-09-13 14:17:11,314 - INFO - Medscape script completed.
+2024-09-13 14:39:56,857 - INFO - Medscape script started.
+2024-09-13 14:39:56,857 - INFO - Connection to Medscape established.
+2024-09-13 14:39:56,886 - INFO - Request sent to Medscape API.
+2024-09-13 14:39:57,435 - INFO - Response received from Medscape API.
+2024-09-13 14:39:57,435 - INFO - Response data decoded into dictionary.
+2024-09-13 14:39:57,438 - INFO - Existing CSV file loaded.
+2024-09-13 14:39:57,438 - INFO - No new links found, CSV file is up to date.
+2024-09-13 14:39:57,438 - INFO - Medscape script completed.
