@@ -800,3 +800,17 @@
 2024-09-13 12:35:35,851 - INFO - Existing CSV file loaded.
 2024-09-13 12:35:35,851 - INFO - No new links found, CSV file is up to date.
 2024-09-13 12:35:35,851 - INFO - Medscape script completed.
+2024-09-13 13:03:27,796 - INFO - Medscape script started.
+2024-09-13 13:03:27,797 - INFO - Connection to Medscape established.
+2024-09-13 13:03:27,876 - INFO - Request sent to Medscape API.
+2024-09-13 13:03:28,131 - INFO - Response received from Medscape API.
+2024-09-13 13:03:28,132 - INFO - Response data decoded into dictionary.
+2024-09-13 13:03:28,134 - INFO - Existing CSV file loaded.
+2024-09-13 13:03:28,134 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/and-never-twain-shall-meet-hcps-patients-ibd-2024a1000giz
+2024-09-13 13:03:28,134 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/and-never-twain-shall-meet-hcps-patients-ibd-2024a1000giz
+2024-09-13 13:03:31,778 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/and-never-twain-shall-meet-hcps-patients-ibd-2024a1000giz.
+2024-09-13 13:03:32,738 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-13 13:03:32,774 - INFO - Received response from OpenAI API.
+2024-09-13 13:03:32,774 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/and-never-twain-shall-meet-hcps-patients-ibd-2024a1000giz
+2024-09-13 13:03:32,777 - INFO - CSV file updated with new data.
+2024-09-13 13:03:32,777 - INFO - Medscape script completed.
