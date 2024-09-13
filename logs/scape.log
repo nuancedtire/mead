@@ -792,3 +792,11 @@
 2024-09-13 11:52:26,303 - INFO - Existing CSV file loaded.
 2024-09-13 11:52:26,303 - INFO - No new links found, CSV file is up to date.
 2024-09-13 11:52:26,303 - INFO - Medscape script completed.
+2024-09-13 12:35:35,418 - INFO - Medscape script started.
+2024-09-13 12:35:35,419 - INFO - Connection to Medscape established.
+2024-09-13 12:35:35,478 - INFO - Request sent to Medscape API.
+2024-09-13 12:35:35,848 - INFO - Response received from Medscape API.
+2024-09-13 12:35:35,848 - INFO - Response data decoded into dictionary.
+2024-09-13 12:35:35,851 - INFO - Existing CSV file loaded.
+2024-09-13 12:35:35,851 - INFO - No new links found, CSV file is up to date.
+2024-09-13 12:35:35,851 - INFO - Medscape script completed.
