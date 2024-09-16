@@ -1314,3 +1314,23 @@
 2024-09-16 12:38:54,611 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/ai-powered-clinical-documentation-tool-reduces-ehr-time-2024a1000gr3
 2024-09-16 12:38:54,614 - INFO - CSV file updated with new data.
 2024-09-16 12:38:54,614 - INFO - Medscape script completed.
+2024-09-16 13:10:45,319 - INFO - Medscape script started.
+2024-09-16 13:10:45,320 - INFO - Connection to Medscape established.
+2024-09-16 13:10:45,387 - INFO - Request sent to Medscape API.
+2024-09-16 13:10:45,699 - INFO - Response received from Medscape API.
+2024-09-16 13:10:45,699 - INFO - Response data decoded into dictionary.
+2024-09-16 13:10:45,702 - INFO - Existing CSV file loaded.
+2024-09-16 13:10:45,702 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/glp-1-agonists-do-not-pose-gi-cancer-risk-says-meta-analysis-2024a1000gl2
+2024-09-16 13:10:45,702 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/glp-1-agonists-do-not-pose-gi-cancer-risk-says-meta-analysis-2024a1000gl2
+2024-09-16 13:10:47,966 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/glp-1-agonists-do-not-pose-gi-cancer-risk-says-meta-analysis-2024a1000gl2.
+2024-09-16 13:10:48,749 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-16 13:10:48,751 - INFO - Received response from OpenAI API.
+2024-09-16 13:10:48,751 - INFO - Attempt 1 succeeded with link: https://www.sciencedirect.com/science/article/pii/S1043661824003463?via%3Dihub
+2024-09-16 13:10:48,752 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/online-anti-anxiety-tool-parents-may-ease-childrens-anxiety-2024a1000g7l
+2024-09-16 13:10:48,752 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/online-anti-anxiety-tool-parents-may-ease-childrens-anxiety-2024a1000g7l
+2024-09-16 13:10:51,191 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/online-anti-anxiety-tool-parents-may-ease-childrens-anxiety-2024a1000g7l.
+2024-09-16 13:10:51,973 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-16 13:10:51,974 - INFO - Received response from OpenAI API.
+2024-09-16 13:10:51,974 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
+2024-09-16 13:10:51,977 - INFO - CSV file updated with new data.
+2024-09-16 13:10:51,977 - INFO - Medscape script completed.
