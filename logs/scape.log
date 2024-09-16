@@ -1210,3 +1210,29 @@
 2024-09-16 08:12:59,013 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/dr-emma-nash-looks-ahead-mental-health-stream-guidelines-2024a1000g5o
 2024-09-16 08:12:59,015 - INFO - CSV file updated with new data.
 2024-09-16 08:12:59,015 - INFO - Medscape script completed.
+2024-09-16 09:22:57,701 - INFO - Medscape script started.
+2024-09-16 09:22:57,702 - INFO - Connection to Medscape established.
+2024-09-16 09:22:57,737 - INFO - Request sent to Medscape API.
+2024-09-16 09:22:58,035 - INFO - Response received from Medscape API.
+2024-09-16 09:22:58,036 - INFO - Response data decoded into dictionary.
+2024-09-16 09:22:58,039 - INFO - Existing CSV file loaded.
+2024-09-16 09:22:58,039 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-16 09:22:58,039 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-16 09:23:01,192 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy.
+2024-09-16 09:23:02,256 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-16 09:23:02,259 - INFO - Received response from OpenAI API.
+2024-09-16 09:23:02,259 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-16 09:23:02,259 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr
+2024-09-16 09:23:02,259 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr
+2024-09-16 09:23:05,276 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr.
+2024-09-16 09:23:05,985 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-16 09:23:05,986 - INFO - Received response from OpenAI API.
+2024-09-16 09:23:05,986 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr
+2024-09-16 09:23:05,987 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-16 09:23:05,987 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-16 09:23:09,656 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0.
+2024-09-16 09:23:10,947 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-16 09:23:10,948 - INFO - Received response from OpenAI API.
+2024-09-16 09:23:10,948 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-16 09:23:10,950 - INFO - CSV file updated with new data.
+2024-09-16 09:23:10,950 - INFO - Medscape script completed.
