@@ -1196,3 +1196,17 @@
 2024-09-16 06:13:27,352 - INFO - Existing CSV file loaded.
 2024-09-16 06:13:27,352 - INFO - No new links found, CSV file is up to date.
 2024-09-16 06:13:27,352 - INFO - Medscape script completed.
+2024-09-16 08:12:54,206 - INFO - Medscape script started.
+2024-09-16 08:12:54,206 - INFO - Connection to Medscape established.
+2024-09-16 08:12:54,316 - INFO - Request sent to Medscape API.
+2024-09-16 08:12:54,656 - INFO - Response received from Medscape API.
+2024-09-16 08:12:54,656 - INFO - Response data decoded into dictionary.
+2024-09-16 08:12:54,659 - INFO - Existing CSV file loaded.
+2024-09-16 08:12:54,659 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/dr-emma-nash-looks-ahead-mental-health-stream-guidelines-2024a1000g5o
+2024-09-16 08:12:54,659 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/dr-emma-nash-looks-ahead-mental-health-stream-guidelines-2024a1000g5o
+2024-09-16 08:12:58,249 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/dr-emma-nash-looks-ahead-mental-health-stream-guidelines-2024a1000g5o.
+2024-09-16 08:12:59,010 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-16 08:12:59,012 - INFO - Received response from OpenAI API.
+2024-09-16 08:12:59,013 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/dr-emma-nash-looks-ahead-mental-health-stream-guidelines-2024a1000g5o
+2024-09-16 08:12:59,015 - INFO - CSV file updated with new data.
+2024-09-16 08:12:59,015 - INFO - Medscape script completed.
