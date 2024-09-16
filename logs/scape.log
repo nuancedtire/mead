@@ -1236,3 +1236,11 @@
 2024-09-16 09:23:10,948 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
 2024-09-16 09:23:10,950 - INFO - CSV file updated with new data.
 2024-09-16 09:23:10,950 - INFO - Medscape script completed.
+2024-09-16 09:42:25,054 - INFO - Medscape script started.
+2024-09-16 09:42:25,055 - INFO - Connection to Medscape established.
+2024-09-16 09:42:25,072 - INFO - Request sent to Medscape API.
+2024-09-16 09:42:25,641 - INFO - Response received from Medscape API.
+2024-09-16 09:42:25,641 - INFO - Response data decoded into dictionary.
+2024-09-16 09:42:25,645 - INFO - Existing CSV file loaded.
+2024-09-16 09:42:25,645 - INFO - No new links found, CSV file is up to date.
+2024-09-16 09:42:25,645 - INFO - Medscape script completed.
