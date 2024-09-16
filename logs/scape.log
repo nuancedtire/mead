@@ -1334,3 +1334,11 @@
 2024-09-16 13:10:51,974 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
 2024-09-16 13:10:51,977 - INFO - CSV file updated with new data.
 2024-09-16 13:10:51,977 - INFO - Medscape script completed.
+2024-09-16 13:34:01,481 - INFO - Medscape script started.
+2024-09-16 13:34:01,482 - INFO - Connection to Medscape established.
+2024-09-16 13:34:01,597 - INFO - Request sent to Medscape API.
+2024-09-16 13:34:02,031 - INFO - Response received from Medscape API.
+2024-09-16 13:34:02,031 - INFO - Response data decoded into dictionary.
+2024-09-16 13:34:02,035 - INFO - Existing CSV file loaded.
+2024-09-16 13:34:02,035 - INFO - No new links found, CSV file is up to date.
+2024-09-16 13:34:02,035 - INFO - Medscape script completed.
