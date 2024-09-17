@@ -1584,3 +1584,11 @@
 2024-09-17 13:05:23,943 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2823300
 2024-09-17 13:05:23,945 - INFO - CSV file updated with new data.
 2024-09-17 13:05:23,945 - INFO - Medscape script completed.
+2024-09-17 13:32:40,717 - INFO - Medscape script started.
+2024-09-17 13:32:40,718 - INFO - Connection to Medscape established.
+2024-09-17 13:32:40,775 - INFO - Request sent to Medscape API.
+2024-09-17 13:32:41,346 - INFO - Response received from Medscape API.
+2024-09-17 13:32:41,346 - INFO - Response data decoded into dictionary.
+2024-09-17 13:32:41,350 - INFO - Existing CSV file loaded.
+2024-09-17 13:32:41,350 - INFO - No new links found, CSV file is up to date.
+2024-09-17 13:32:41,350 - INFO - Medscape script completed.
