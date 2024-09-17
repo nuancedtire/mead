@@ -1558,3 +1558,29 @@
 2024-09-17 12:36:54,981 - INFO - Existing CSV file loaded.
 2024-09-17 12:36:54,981 - INFO - No new links found, CSV file is up to date.
 2024-09-17 12:36:54,981 - INFO - Medscape script completed.
+2024-09-17 13:05:12,776 - INFO - Medscape script started.
+2024-09-17 13:05:12,777 - INFO - Connection to Medscape established.
+2024-09-17 13:05:12,888 - INFO - Request sent to Medscape API.
+2024-09-17 13:05:13,175 - INFO - Response received from Medscape API.
+2024-09-17 13:05:13,175 - INFO - Response data decoded into dictionary.
+2024-09-17 13:05:13,179 - INFO - Existing CSV file loaded.
+2024-09-17 13:05:13,179 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/do-insulin-users-know-when-their-blood-sugar-low-2024a1000fvh
+2024-09-17 13:05:13,179 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/do-insulin-users-know-when-their-blood-sugar-low-2024a1000fvh
+2024-09-17 13:05:17,352 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/do-insulin-users-know-when-their-blood-sugar-low-2024a1000fvh.
+2024-09-17 13:05:18,207 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-17 13:05:18,209 - INFO - Received response from OpenAI API.
+2024-09-17 13:05:18,210 - INFO - Attempt 1 succeeded with link: https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia
+2024-09-17 13:05:18,210 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/what-are-breastfeeding-experiences-mothers-mental-health-2024a1000god
+2024-09-17 13:05:18,210 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/what-are-breastfeeding-experiences-mothers-mental-health-2024a1000god
+2024-09-17 13:05:20,365 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/what-are-breastfeeding-experiences-mothers-mental-health-2024a1000god.
+2024-09-17 13:05:21,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-17 13:05:21,144 - INFO - Received response from OpenAI API.
+2024-09-17 13:05:21,145 - INFO - Attempt 1 succeeded with link: https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-024-06735-1
+2024-09-17 13:05:21,145 - INFO - Processing new item: https://www.medscape.com/viewarticle/flavored-vape-use-cut-cigarette-smoking-high-risk-adults-2024a1000gt3
+2024-09-17 13:05:21,145 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/flavored-vape-use-cut-cigarette-smoking-high-risk-adults-2024a1000gt3
+2024-09-17 13:05:23,295 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/flavored-vape-use-cut-cigarette-smoking-high-risk-adults-2024a1000gt3.
+2024-09-17 13:05:23,942 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-17 13:05:23,943 - INFO - Received response from OpenAI API.
+2024-09-17 13:05:23,943 - INFO - Attempt 1 succeeded with link: https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2823300
+2024-09-17 13:05:23,945 - INFO - CSV file updated with new data.
+2024-09-17 13:05:23,945 - INFO - Medscape script completed.

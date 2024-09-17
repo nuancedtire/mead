@@ -883,3 +883,8 @@
 2024-09-17 12:36:53,500 - INFO - Loaded 27 existing entries from databases/meds.csv.
 2024-09-17 12:36:53,511 - INFO - No new data to update.
 2024-09-17 12:36:53,511 - INFO - Medsii script completed successfully.
+2024-09-17 13:05:11,184 - INFO - Medsii Script started.
+2024-09-17 13:05:11,641 - INFO - Data fetched successfully from API.
+2024-09-17 13:05:11,643 - INFO - Loaded 27 existing entries from databases/meds.csv.
+2024-09-17 13:05:11,658 - INFO - Successfully updated databases/meds.csv with new data.
+2024-09-17 13:05:11,658 - INFO - Medsii script completed successfully.
