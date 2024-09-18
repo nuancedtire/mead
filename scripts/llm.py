@@ -118,12 +118,12 @@ def fetch_url_content(url):
 # =====================
 
 # Create an Enum for Hashtags
-HashtagEnum = Enum("HashtagEnum", {tag: tag for tag in hashtags})
+# HashtagEnum = Enum("HashtagEnum", {tag: tag for tag in hashtags})
 
 class PostResponse(BaseModel):
     """Ready to use Social Media Post"""
     post_content: str = Field(..., description="The final generated post content in plain text without any hashtags.")
-    hashtags: List[HashtagEnum] = Field(..., description="A list of relevant hashtags for the post.")
+    hashtags: List[str] = Field(..., description="A list of relevant hashtags for the post.")
     category: Literal["Life Sciences & BioTech", "Research & Clinical Trials", "HealthTech & Startups", "Healthcare & Policy"] = Field(..., description="The category that fits the post best.")
 
 # =====================
