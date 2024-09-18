@@ -247,6 +247,7 @@ Guidelines:
 Output:
 
   - Return only the concise, specific search term that would most effectively guide the image search.
+  - Use only 1-2 words
   - Do not include any additional text or explanations.""",
             ),
             ("user", "{input}"),
