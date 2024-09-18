@@ -1760,3 +1760,17 @@
 2024-09-18 08:12:28,596 - INFO - Existing CSV file loaded.
 2024-09-18 08:12:28,596 - INFO - No new links found, CSV file is up to date.
 2024-09-18 08:12:28,596 - INFO - Medscape script completed.
+2024-09-18 09:21:19,537 - INFO - Medscape script started.
+2024-09-18 09:21:19,538 - INFO - Connection to Medscape established.
+2024-09-18 09:21:19,651 - INFO - Request sent to Medscape API.
+2024-09-18 09:21:19,990 - INFO - Response received from Medscape API.
+2024-09-18 09:21:19,990 - INFO - Response data decoded into dictionary.
+2024-09-18 09:21:19,993 - INFO - Existing CSV file loaded.
+2024-09-18 09:21:19,993 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/cutting-back-ultra-processed-food-could-lower-diabetes-risk-2024a1000gxa
+2024-09-18 09:21:19,993 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/cutting-back-ultra-processed-food-could-lower-diabetes-risk-2024a1000gxa
+2024-09-18 09:21:24,096 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/cutting-back-ultra-processed-food-could-lower-diabetes-risk-2024a1000gxa.
+2024-09-18 09:21:24,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 09:21:24,828 - INFO - Received response from OpenAI API.
+2024-09-18 09:21:24,828 - INFO - Attempt 1 succeeded with link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext
+2024-09-18 09:21:24,830 - INFO - CSV file updated with new data.
+2024-09-18 09:21:24,830 - INFO - Medscape script completed.
