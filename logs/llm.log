@@ -12451,3 +12451,152 @@ hashtags.2
 2024-09-18 16:28:26,301 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv.
 2024-09-18 16:28:26,301 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv
 2024-09-18 16:28:26,301 - INFO - No valid log entries generated.
+2024-09-18 16:44:32,333 - INFO - Extracted 41 link records.
+2024-09-18 16:44:32,341 - INFO - Extracted 41 image links.
+2024-09-18 16:44:32,343 - INFO - Extracted 40 link records.
+2024-09-18 16:44:32,345 - INFO - Extracted 6 link records.
+2024-09-18 16:44:32,347 - INFO - Extracted 31 link records.
+2024-09-18 16:44:32,347 - INFO - Unique links to process: 36
+2024-09-18 16:44:32,933 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-18 16:44:32,933 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-18 16:44:33,382 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-18 16:44:33,382 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-18 16:44:34,014 - INFO - Image query: "diabetes gum disease connection"
+2024-09-18 16:44:34,060 - ERROR - Image request failed with status code 403 for query '"diabetes gum disease connection"'.
+2024-09-18 16:44:34,060 - ERROR - No unique image found for link https://www.eurekalert.org/news-releases/1057199.
+2024-09-18 16:44:34,060 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.eurekalert.org/news-releases/1057199
+2024-09-18 16:44:43,260 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:44:43,282 - INFO - Image query: "ALS diagnosis breakthrough"
+2024-09-18 16:44:43,309 - ERROR - Image request failed with status code 403 for query '"ALS diagnosis breakthrough"'.
+2024-09-18 16:44:43,309 - ERROR - No unique image found for link https://www.news-medical.net/news/20240913/New-blood-test-achieves-9825-accuracy-in-diagnosing-ALS.aspx.
+2024-09-18 16:44:43,309 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.news-medical.net/news/20240913/New-blood-test-achieves-9825-accuracy-in-diagnosing-ALS.aspx
+2024-09-18 16:44:44,315 - INFO - Image query: lipid management therapy
+2024-09-18 16:44:44,349 - ERROR - Image request failed with status code 403 for query 'lipid management therapy'.
+2024-09-18 16:44:44,349 - ERROR - No unique image found for link https://www.hcplive.com/view/fda-grants-breakthrough-therapy-designation-to-plozasiran-for-fcs.
+2024-09-18 16:44:44,349 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.hcplive.com/view/fda-grants-breakthrough-therapy-designation-to-plozasiran-for-fcs
+2024-09-18 16:44:44,736 - INFO - No article found for link http://dx.doi.org/10.1016/j.lanepe.2024.101043.
+2024-09-18 16:44:44,736 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.lanepe.2024.101043
+2024-09-18 16:44:45,268 - INFO - Image query: "COPD treatment breakthrough"
+2024-09-18 16:44:45,292 - ERROR - Image request failed with status code 403 for query '"COPD treatment breakthrough"'.
+2024-09-18 16:44:45,292 - ERROR - No unique image found for link https://pharmaceutical-journal.com/article/news/mhra-approves-dupilumab-for-treatment-of-uncontrolled-copd.
+2024-09-18 16:44:45,292 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaceutical-journal.com/article/news/mhra-approves-dupilumab-for-treatment-of-uncontrolled-copd
+2024-09-18 16:44:48,306 - INFO - Image query: "HIV prevention injection"
+2024-09-18 16:44:48,346 - ERROR - Image request failed with status code 403 for query '"HIV prevention injection"'.
+2024-09-18 16:44:48,346 - ERROR - No unique image found for link https://www.contagionlive.com/view/lenacapavir-reduces-hiv-infections-by-96-demonstrates-superiority-over-another-hiv-prophylactic.
+2024-09-18 16:44:48,346 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.contagionlive.com/view/lenacapavir-reduces-hiv-infections-by-96-demonstrates-superiority-over-another-hiv-prophylactic
+2024-09-18 16:44:48,965 - INFO - Image query: diabetic macular edema treatment
+2024-09-18 16:44:48,985 - ERROR - Image request failed with status code 403 for query 'diabetic macular edema treatment'.
+2024-09-18 16:44:48,985 - ERROR - No unique image found for link https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema.
+2024-09-18 16:44:48,985 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema
+2024-09-18 16:44:50,735 - INFO - Image query: neurodegenerative disease research
+2024-09-18 16:44:50,759 - ERROR - Image request failed with status code 403 for query 'neurodegenerative disease research'.
+2024-09-18 16:44:50,759 - ERROR - No unique image found for link https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-to-present-latest-neurodegenerative-research-at-the-2024-american-neurological-association-149th-annual-meeting-302245698.html.
+2024-09-18 16:44:50,759 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-to-present-latest-neurodegenerative-research-at-the-2024-american-neurological-association-149th-annual-meeting-302245698.html
+2024-09-18 16:44:52,244 - INFO - No article found for link https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html.
+2024-09-18 16:44:52,244 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html
+2024-09-18 16:45:08,933 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:45:08,943 - INFO - Image query: "advanced breast cancer treatment"
+2024-09-18 16:45:08,974 - ERROR - Image request failed with status code 403 for query '"advanced breast cancer treatment"'.
+2024-09-18 16:45:08,974 - ERROR - No unique image found for link https://www.targetedonc.com/view/abemaciclib-with-et-outperforms-chemotherapy-in-advanced-breast-cancer.
+2024-09-18 16:45:08,974 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/abemaciclib-with-et-outperforms-chemotherapy-in-advanced-breast-cancer
+2024-09-18 16:45:28,855 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:45:31,690 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:45:32,147 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:45:32,151 - INFO - Image query: Duchenne muscular dystrophy treatment
+2024-09-18 16:45:32,169 - ERROR - Image request failed with status code 403 for query 'Duchenne muscular dystrophy treatment'.
+2024-09-18 16:45:32,169 - ERROR - No unique image found for link https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html.
+2024-09-18 16:45:32,169 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html
+2024-09-18 16:45:33,074 - INFO - Image query: diabetic macular edema treatment
+2024-09-18 16:45:33,093 - ERROR - Image request failed with status code 403 for query 'diabetic macular edema treatment'.
+2024-09-18 16:45:33,093 - ERROR - No unique image found for link https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema.
+2024-09-18 16:45:33,093 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema
+2024-09-18 16:45:33,949 - INFO - Image query: cancer cachexia treatment
+2024-09-18 16:45:33,969 - ERROR - Image request failed with status code 403 for query 'cancer cachexia treatment'.
+2024-09-18 16:45:33,969 - ERROR - No unique image found for link https://pharmaphorum.com/news/esmo-pfizer-drug-helps-cancer-patients-gain-weight.
+2024-09-18 16:45:33,969 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/esmo-pfizer-drug-helps-cancer-patients-gain-weight
+2024-09-18 16:45:43,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:45:43,963 - INFO - Image query: "cannabidiol research Leigh syndrome"
+2024-09-18 16:45:43,984 - ERROR - Image request failed with status code 403 for query '"cannabidiol research Leigh syndrome"'.
+2024-09-18 16:45:43,984 - ERROR - No unique image found for link https://medicalxpress.com/news/2024-09-cannabidiol-alleviate-symptoms-leigh-syndrome.html.
+2024-09-18 16:45:43,985 - WARNING - Skipping entry due to missing or invalid log entry for link: https://medicalxpress.com/news/2024-09-cannabidiol-alleviate-symptoms-leigh-syndrome.html
+2024-09-18 16:46:03,803 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:03,813 - INFO - Image query: lung microbiome research
+2024-09-18 16:46:03,833 - ERROR - Image request failed with status code 403 for query 'lung microbiome research'.
+2024-09-18 16:46:03,833 - ERROR - No unique image found for link https://www.hcplive.com/view/lung-microbiome-profiling-promising-approach-enhance-diagnostic-precision-for-ventilator-associated-pneumonia.
+2024-09-18 16:46:03,834 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.hcplive.com/view/lung-microbiome-profiling-promising-approach-enhance-diagnostic-precision-for-ventilator-associated-pneumonia
+2024-09-18 16:46:04,600 - INFO - Image query: respiratory health research
+2024-09-18 16:46:04,626 - ERROR - Image request failed with status code 403 for query 'respiratory health research'.
+2024-09-18 16:46:04,626 - ERROR - No unique image found for link https://www.hcplive.com/view/welcome-to-the-respiratory-report.
+2024-09-18 16:46:04,626 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.hcplive.com/view/welcome-to-the-respiratory-report
+2024-09-18 16:46:13,646 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:13,655 - INFO - Image query: "continuous glucose monitoring diabetes"
+2024-09-18 16:46:13,673 - ERROR - Image request failed with status code 403 for query '"continuous glucose monitoring diabetes"'.
+2024-09-18 16:46:13,673 - ERROR - No unique image found for link https://www.healio.com/news/endocrinology/20240917/fda-clears-implantable-cgm-with-sensor-that-lasts-up-to-1-year.
+2024-09-18 16:46:13,673 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.healio.com/news/endocrinology/20240917/fda-clears-implantable-cgm-with-sensor-that-lasts-up-to-1-year
+2024-09-18 16:46:14,456 - INFO - Image query: men's health solutions
+2024-09-18 16:46:14,476 - ERROR - Image request failed with status code 403 for query 'men's health solutions'.
+2024-09-18 16:46:14,476 - ERROR - No unique image found for link https://sifted.eu/articles/mens-health-manual-raises-29m-news/.
+2024-09-18 16:46:14,476 - WARNING - Skipping entry due to missing or invalid log entry for link: https://sifted.eu/articles/mens-health-manual-raises-29m-news/
+2024-09-18 16:46:18,196 - INFO - Image query: "chronic medication impact on bone health"
+2024-09-18 16:46:18,219 - ERROR - Image request failed with status code 403 for query '"chronic medication impact on bone health"'.
+2024-09-18 16:46:18,219 - ERROR - No unique image found for link https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296.
+2024-09-18 16:46:18,219 - WARNING - Skipping entry due to missing or invalid log entry for link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-18 16:46:18,615 - INFO - No article found for link https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext.
+2024-09-18 16:46:18,615 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-18 16:46:25,901 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:25,910 - INFO - Image query: psoriasis and psoriatic arthritis awareness
+2024-09-18 16:46:25,928 - ERROR - Image request failed with status code 403 for query 'psoriasis and psoriatic arthritis awareness'.
+2024-09-18 16:46:25,929 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv.
+2024-09-18 16:46:25,929 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv
+2024-09-18 16:46:27,530 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:27,535 - INFO - No article found for link http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy.
+2024-09-18 16:46:27,535 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-18 16:46:29,592 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:29,600 - INFO - No article found for link http://medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr.
+2024-09-18 16:46:29,600 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr
+2024-09-18 16:46:31,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:31,797 - INFO - No article found for link http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0.
+2024-09-18 16:46:31,797 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-18 16:46:43,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:43,128 - INFO - Image query: AI in healthcare documentation
+2024-09-18 16:46:43,150 - ERROR - Image request failed with status code 403 for query 'AI in healthcare documentation'.
+2024-09-18 16:46:43,150 - ERROR - No unique image found for link http://medscape.com/viewarticle/ai-powered-clinical-documentation-tool-reduces-ehr-time-2024a1000gr3.
+2024-09-18 16:46:43,150 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.com/viewarticle/ai-powered-clinical-documentation-tool-reduces-ehr-time-2024a1000gr3
+2024-09-18 16:46:44,224 - INFO - Image query: "GLP-1 receptor agonists safety"
+2024-09-18 16:46:44,252 - ERROR - Image request failed with status code 403 for query '"GLP-1 receptor agonists safety"'.
+2024-09-18 16:46:44,252 - ERROR - No unique image found for link https://www.sciencedirect.com/science/article/pii/S1043661824003463?via%3Dihub.
+2024-09-18 16:46:44,252 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.sciencedirect.com/science/article/pii/S1043661824003463?via%3Dihub
+2024-09-18 16:46:44,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:46:44,976 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext.
+2024-09-18 16:46:44,976 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
+2024-09-18 16:46:45,408 - INFO - No article found for link https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia.
+2024-09-18 16:46:45,408 - WARNING - Skipping entry due to missing or invalid log entry for link: https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia
+2024-09-18 16:46:46,862 - INFO - Image query: "breastfeeding support for mothers with mental health conditions"
+2024-09-18 16:46:46,888 - ERROR - Image request failed with status code 403 for query '"breastfeeding support for mothers with mental health conditions"'.
+2024-09-18 16:46:46,888 - ERROR - No unique image found for link https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-024-06735-1.
+2024-09-18 16:46:46,888 - WARNING - Skipping entry due to missing or invalid log entry for link: https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-024-06735-1
+2024-09-18 16:46:47,666 - INFO - Image query: "smoking cessation strategies"
+2024-09-18 16:46:47,686 - ERROR - Image request failed with status code 403 for query '"smoking cessation strategies"'.
+2024-09-18 16:46:47,687 - ERROR - No unique image found for link https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2823300.
+2024-09-18 16:46:47,687 - WARNING - Skipping entry due to missing or invalid log entry for link: https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2823300
+2024-09-18 16:46:48,209 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext.
+2024-09-18 16:46:48,209 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext
+2024-09-18 16:46:50,335 - INFO - Image query: "women in rheumatology research"
+2024-09-18 16:46:50,359 - ERROR - Image request failed with status code 403 for query '"women in rheumatology research"'.
+2024-09-18 16:46:50,359 - ERROR - No unique image found for link http://medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv.
+2024-09-18 16:46:50,359 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv
+2024-09-18 16:48:47,752 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:48:51,070 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:48:51,510 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:48:51,514 - INFO - Image query: "ethnic differences in diabetes"
+2024-09-18 16:48:51,535 - ERROR - Image request failed with status code 403 for query '"ethnic differences in diabetes"'.
+2024-09-18 16:48:51,535 - ERROR - No unique image found for link https://drc.bmj.com/content/12/4/e004174.
+2024-09-18 16:48:51,535 - WARNING - Skipping entry due to missing or invalid log entry for link: https://drc.bmj.com/content/12/4/e004174
+2024-09-18 16:48:58,350 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:49:00,360 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:49:00,756 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 16:49:00,760 - INFO - Image query: osteoporosis treatment vascular health
+2024-09-18 16:49:00,822 - ERROR - Image request failed with status code 403 for query 'osteoporosis treatment vascular health'.
+2024-09-18 16:49:00,822 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv.
+2024-09-18 16:49:00,822 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv
+2024-09-18 16:49:00,822 - INFO - No valid log entries generated.
