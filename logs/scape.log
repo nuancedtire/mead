@@ -1852,3 +1852,23 @@
 2024-09-18 12:36:53,933 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv
 2024-09-18 12:36:53,936 - INFO - CSV file updated with new data.
 2024-09-18 12:36:53,936 - INFO - Medscape script completed.
+2024-09-18 13:04:54,888 - INFO - Medscape script started.
+2024-09-18 13:04:54,888 - INFO - Connection to Medscape established.
+2024-09-18 13:04:54,938 - INFO - Request sent to Medscape API.
+2024-09-18 13:04:55,331 - INFO - Response received from Medscape API.
+2024-09-18 13:04:55,331 - INFO - Response data decoded into dictionary.
+2024-09-18 13:04:55,335 - INFO - Existing CSV file loaded.
+2024-09-18 13:04:55,335 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/major-ethnic-differences-seen-early-onset-type-2-diabetes-2024a1000fx3
+2024-09-18 13:04:55,335 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/major-ethnic-differences-seen-early-onset-type-2-diabetes-2024a1000fx3
+2024-09-18 13:04:57,464 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/major-ethnic-differences-seen-early-onset-type-2-diabetes-2024a1000fx3.
+2024-09-18 13:04:58,174 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 13:04:58,177 - INFO - Received response from OpenAI API.
+2024-09-18 13:04:58,177 - INFO - Attempt 1 succeeded with link: https://drc.bmj.com/content/12/4/e004174
+2024-09-18 13:04:58,177 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv
+2024-09-18 13:04:58,177 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv
+2024-09-18 13:05:00,192 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv.
+2024-09-18 13:05:00,961 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 13:05:00,962 - INFO - Received response from OpenAI API.
+2024-09-18 13:05:00,962 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv
+2024-09-18 13:05:00,964 - INFO - CSV file updated with new data.
+2024-09-18 13:05:00,964 - INFO - Medscape script completed.
