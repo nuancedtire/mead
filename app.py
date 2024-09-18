@@ -226,7 +226,7 @@ selected_hashtag = f"#{selected_label}"
 # Function to clear cache and rerun the app
 def clear_cache_and_rerun():
     st.cache_data.clear()  # Clear cached data
-    st.experimental_rerun()  # Rerun the app
+    st.rerun()  # Rerun the app
 
 # Add a button that triggers the cache clear and rerun
 if st.sidebar.button("Clear Cache and Rerun"):
