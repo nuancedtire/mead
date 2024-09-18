@@ -1838,3 +1838,17 @@
 2024-09-18 11:52:06,107 - INFO - Existing CSV file loaded.
 2024-09-18 11:52:06,107 - INFO - No new links found, CSV file is up to date.
 2024-09-18 11:52:06,107 - INFO - Medscape script completed.
+2024-09-18 12:36:50,134 - INFO - Medscape script started.
+2024-09-18 12:36:50,134 - INFO - Connection to Medscape established.
+2024-09-18 12:36:50,162 - INFO - Request sent to Medscape API.
+2024-09-18 12:36:50,559 - INFO - Response received from Medscape API.
+2024-09-18 12:36:50,559 - INFO - Response data decoded into dictionary.
+2024-09-18 12:36:50,562 - INFO - Existing CSV file loaded.
+2024-09-18 12:36:50,562 - INFO - Processing new item: https://www.medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv
+2024-09-18 12:36:50,562 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv
+2024-09-18 12:36:53,131 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv.
+2024-09-18 12:36:53,931 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-18 12:36:53,933 - INFO - Received response from OpenAI API.
+2024-09-18 12:36:53,933 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv
+2024-09-18 12:36:53,936 - INFO - CSV file updated with new data.
+2024-09-18 12:36:53,936 - INFO - Medscape script completed.
