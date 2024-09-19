@@ -198,29 +198,30 @@ st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>
 
 # Sidebar
 with st.sidebar:
-    st.subheader("Filters")
-    selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
+    st.subheader("🔍 Filters")
+    selected_label = st.radio("🏷️ Select Category", options=clean_labels, horizontal=False)
     selected_hashtag = f"#{selected_label}"
     
-    search_query = st.text_input("🔍 Search posts")
+    search_query = st.text_input("🔎 Search posts")
     
     col1, col2 = st.columns(2)
     with col1:
-        start_date = st.date_input("Start Date", value=data['Time'].min().date())
+        start_date = st.date_input("📅 Start Date", value=data['Time'].min().date())
     with col2:
-        end_date = st.date_input("End Date", value=data['Time'].max().date())
+        end_date = st.date_input("📅 End Date", value=data['Time'].max().date())
     
     st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
 
-    st.subheader("Statistics")
+    st.subheader("📊 Statistics")
     total_posts = len(data)
     last_post = data['Time'].max().strftime("%d %b %y")
     first_post = data['Time'].min().strftime("%d %b %y")
     last_gen = data['LLM Timestamp'].max().strftime("%d %b %y")
 
-    st.markdown(f"""📊 **Total Posts:** {total_posts}  \n
-📅 **Oldest Post:** {last_post}  \n
-🔄 **Last Generated:** {last_gen}""")
+    st.markdown(f"""📈 **Total Posts:** {total_posts}  \n
+🗓️ **Oldest Post:** {first_post}  \n
+🆕 **Latest Post:** {last_post}  \n
+🤖 **Last Generated:** {last_gen}""")
 # Main content area
 # Filter data
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
