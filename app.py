@@ -4,6 +4,43 @@ import pandas as pd
 import re
 import datetime
 from dateutil.relativedelta import relativedelta
+import yaml
+import logging
+
+# Add these functions back into the main file
+def remove_markdown_formatting(text):
+    # Convert bold text (**) to uppercase
+    text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
+    text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
+
+    # Remove italics formatting
+    text = re.sub(r'\*(.*?)\*', r'\1', text)
+    text = re.sub(r'_(.*?)_', r'\1', text)
+
+    # Remove markdown headings (#)
+    text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
+
+    return text
+
+def clean_hashtags(hashtag_string):
+    """
+    Clean and format hashtags, handling cases where hashtags might already be an array.
+
+    Args:
+        hashtag_string (str or list): A string or list of hashtags.
+
+    Returns:
+        list: A list of cleaned hashtags, properly formatted with #.
+    """
+    if isinstance(hashtag_string, list):  # If it's already an array, return it directly
+        return [f"#{tag.strip()}" for tag in hashtag_string]
+
+    if pd.isna(hashtag_string):  # Handle NaN cases
+        return []
+
+    # If it's a string, remove unwanted characters and split by commas
+    hashtags = hashtag_string.replace("[", "").replace("]", "").replace("'", "").split(',')
+    return [f"#{tag.strip()}" for tag in hashtags]
 
 def convert_to_datetime(dt):
     """Converts a string or other formats to a datetime object if necessary."""
@@ -54,7 +91,7 @@ def load_sifted_data():
 def load_scape_data():
     return pd.read_csv('databases/scape.csv')  # Medscape data
 
-@st.cache_data
+@st.cache_data(ttl=3600)  # Cache data for 1 hour
 def load_firebase():
     """
     Load data from LLM csv and return it as a Pandas DataFrame.
@@ -64,21 +101,6 @@ def load_firebase():
     data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
     data = data.sort_values(by='Time', ascending=False)
     return data
-
-# Function to remove markdown formatting from text
-def remove_markdown_formatting(text):
-    # Convert bold text (**) to uppercase
-    text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
-    text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
-
-    # Remove italics formatting
-    text = re.sub(r'\*(.*?)\*', r'\1', text)
-    text = re.sub(r'_(.*?)_', r'\1', text)
-
-    # Remove markdown headings (#)
-    text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
-
-    return text
 
 # Function to identify the source of a post based on the link
 def determine_source(link):
@@ -99,27 +121,6 @@ def determine_source(link):
         return "Medscape"
     else:
         return "Unknown Source"
-
-# Improved Hashtag Cleaning Function to Handle Array Inputs
-def clean_hashtags(hashtag_string):
-    """
-    Clean and format hashtags, handling cases where hashtags might already be an array.
-
-    Args:
-        hashtag_string (str or list): A string or list of hashtags.
-
-    Returns:
-        list: A list of cleaned hashtags, properly formatted with #.
-    """
-    if isinstance(hashtag_string, list):  # If it's already an array, return it directly
-        return [f"#{tag.strip()}" for tag in hashtag_string]
-
-    if pd.isna(hashtag_string):  # Handle NaN cases
-        return []
-
-    # If it's a string, remove unwanted characters and split by commas
-    hashtags = hashtag_string.replace("[", "").replace("]", "").replace("'", "").split(',')
-    return [f"#{tag.strip()}" for tag in hashtags]
 
 # Function to create a post in the UI
 def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt, input):
@@ -150,11 +151,6 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         st.image(image_url)  # Optionally, you can set a target width
         st.caption(f"Image courtesy [Pexels]({image_url})")
 
-        # Display post metadata
-        hashtags_str = " ".join(hashtags[1:])
-        st.info(f"*{hashtags_str}*")
-        st.write(f"**Published** {relative_time(timestamp)}  \n"
-                f"**From:** {source}  \n")
 
     with col2:
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
@@ -164,8 +160,13 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         tab1, tab2 = st.tabs(["Article", "More"])
 
         with tab1:
-            with st.expander(f"{first_line}", expanded=True):
+            with st.expander(f"{first_line}", expanded=False):
                 st.write(cleaned_content)
+            # Display post metadata
+            hashtags_str = " ".join(hashtags[1:])
+            st.info(f"*{hashtags_str}*")
+            st.write(f"**Published** {relative_time(timestamp)}  \n"
+                    f"**From:** {source}  \n")
 
         with tab2:
             st.write(content)
@@ -177,78 +178,79 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     st.markdown("---")
     
 # Streamlit UI configuration
-st.set_page_config(
-   page_title="Peerr Thoughts",
-   page_icon="💭",
-   layout="wide",
-)
+st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="wide")
 
-st.title("Feed")
 # Load the data
 meds = load_meds_data()
 sifted = load_sifted_data()
 scape = load_scape_data()
 data = load_firebase()
-# Sidebar with various filters and statistics
-with st.sidebar:
-
-    # Display statistics
-    total_posts = len(data)
-    last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
-    first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
-    last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
-
-    st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**First Post:** *{first_post_time}*  \n**Last Gen:** *{last_gen_time}*")
-
-# Sidebar description
-st.sidebar.markdown("""Hello Team Peerr!
-
-This app is a demo frontend for displaying a feed of posts as they get updated.
-""")
 
 # Apply cleaning function to 'Hashtags' column
 data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
 
-# Extract unique hashtags and create a multi-select widget
-# unique_hashtags = set(sum(data['Hashtags'].tolist(), []))
 # List of hashtags with # symbols
-unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
-
-# Remove # from the labels for radio button
+unique_hashtags = ["#All", "#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
 clean_labels = [tag[1:] for tag in unique_hashtags]
 
-# Radio button for selecting one category at a time (with clean labels)
-selected_label = st.radio("Select Category", options=clean_labels, horizontal=True)
+# Create a header
+st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>", unsafe_allow_html=True)
 
-# Map the selected label back to the hashtag value (with # symbol)
-selected_hashtag = f"#{selected_label}"
+# Sidebar
+with st.sidebar:
+    st.subheader("Filters")
+    selected_label = st.radio("🏷️ Select Category", options=clean_labels, horizontal=True)
+    selected_hashtag = f"#{selected_label}" if selected_label != "All" else None
+    
+    # Add multiselect for hashtags
+    all_hashtags = sorted(set([tag for tags in data['Hashtags'] for tag in tags]))
+    selected_hashtags = st.multiselect("🏷️ Filter by Hashtags", options=all_hashtags)
+    
+    search_query = st.text_input("🔎 Search posts")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        start_date = st.date_input("📅 Start Date", value=data['Time'].min().date())
+    with col2:
+        end_date = st.date_input("📅 End Date", value=data['Time'].max().date())
+    
+    st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
+    st.subheader("Statistics")
+    total_posts = len(data)
+    last_post = data['Time'].max().strftime("%d %b %y")
+    first_post = data['Time'].min().strftime("%d %b %y")
+    last_gen = data['LLM Timestamp'].max().strftime("%d %b %y")
 
-# Function to clear cache and rerun the app
-def clear_cache_and_rerun():
-    st.cache_data.clear()  # Clear cached data
-    st.rerun()  # Rerun the app
+    st.error(f"""📈 **Total Posts:** {total_posts}  \n
+🗓️ **Oldest Post:** {first_post}  \n
+🆕 **Latest Post:** {last_post}  \n
+🤖 **Last Generated:** {last_gen}""")
 
-# Add a button that triggers the cache clear and rerun
-if st.sidebar.button("Clear Cache and Rerun"):
-    clear_cache_and_rerun()
-
-# Handle dynamic start date
-st.sidebar.header("Filter by Date")
-start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())  # Dynamic start date from data
-end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
-
-# Filter data by date range and selected hashtag
+# Main content area
+# Filter data
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
 
 if selected_hashtag:
-    # Filter the data based on the selected hashtag
     filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
 
-# Display posts in a scrolling feed
-if filtered_data.empty:
-    st.write("No posts found for the selected date range and category.")
-else:
-    for _, row in filtered_data.iterrows():
+# Add filtering by selected hashtags
+if selected_hashtags:
+    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: any(tag in x for tag in selected_hashtags))]
+
+if search_query:
+    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
+
+# Pagination
+if not filtered_data.empty:
+    POSTS_PER_PAGE = 10
+    total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
+
+    page_number = st.number_input(f"Scroll through a total of {total_pages} pages. Change categories from the sidebar for more", min_value=1, max_value=total_pages, value=1)
+    
+    start_idx = (page_number - 1) * POSTS_PER_PAGE
+    end_idx = start_idx + POSTS_PER_PAGE
+    
+    for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
         create_post(
             timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
             llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
@@ -260,3 +262,8 @@ else:
             prompt=row['Prompt'],
             input=row['Input']
         )
+else:
+    st.write("No posts found for the selected criteria.")
+
+
+st.markdown("<p style='text-align: center;'>Built with ❤️ by Team Peerr</p>", unsafe_allow_html=True)
