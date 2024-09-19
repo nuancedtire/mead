@@ -226,7 +226,9 @@ with left_column:
         st.cache_data.clear()
         st.rerun()
 
-with main_column:
+# Make the main column scrollable
+main_column_content = main_column.container()
+with main_column_content:
     # Filter data
     filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
     filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
@@ -237,10 +239,13 @@ with main_column:
     if not filtered_data.empty:
         POSTS_PER_PAGE = 5
         total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
-        col1, col2, col3 = st.columns([1, 2, 1])
-        with col2:
+        
+        # Align page number input and label horizontally
+        col1, col2 = st.columns([2, 3])
+        with col1:
             page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
-            st.write(f"Page {page_number} of {total_pages}")
+        with col2:
+            st.write(f"of {total_pages}")
         
         start_idx = (page_number - 1) * POSTS_PER_PAGE
         end_idx = start_idx + POSTS_PER_PAGE
