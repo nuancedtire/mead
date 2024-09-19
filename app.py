@@ -232,7 +232,7 @@ if search_query:
 
 # Pagination
 if not filtered_data.empty:
-    POSTS_PER_PAGE = 5
+    POSTS_PER_PAGE = 10
     total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
 
     page_number = st.number_input(f"Scroll through a total of {total_pages} pages. Change categories from the sidebar for more", min_value=1, max_value=total_pages, value=1)
