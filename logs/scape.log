@@ -2174,3 +2174,17 @@
 2024-09-19 12:43:19,853 - INFO - Existing CSV file loaded.
 2024-09-19 12:43:19,853 - INFO - No new links found, CSV file is up to date.
 2024-09-19 12:43:19,853 - INFO - Medscape script completed.
+2024-09-19 13:05:50,048 - INFO - Medscape script started.
+2024-09-19 13:05:50,049 - INFO - Connection to Medscape established.
+2024-09-19 13:05:50,227 - INFO - Request sent to Medscape API.
+2024-09-19 13:05:50,844 - INFO - Response received from Medscape API.
+2024-09-19 13:05:50,844 - INFO - Response data decoded into dictionary.
+2024-09-19 13:05:50,848 - INFO - Existing CSV file loaded.
+2024-09-19 13:05:50,848 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp
+2024-09-19 13:05:50,848 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp
+2024-09-19 13:05:53,764 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp.
+2024-09-19 13:05:55,086 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 13:05:55,088 - INFO - Received response from OpenAI API.
+2024-09-19 13:05:55,088 - INFO - Attempt 1 succeeded with link: https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/exploring-uk-older-adults-dietary-fibre-consumption-habits-and-associated-factors-a-national-diet-and-nutrition-survey-perspective/6D2A004A1B83A5BEAC99CBC585A8B4F9
+2024-09-19 13:05:55,091 - INFO - CSV file updated with new data.
+2024-09-19 13:05:55,091 - INFO - Medscape script completed.
