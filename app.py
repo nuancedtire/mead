@@ -139,8 +139,10 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         input (str): Original input text for the post generation.
     """
     # Use fallback image if no image URL is provided
+    is_fallback_image = False
     if not image_url:
         image_url = fallback_image_url
+        is_fallback_image = True
     source = determine_source(link)
 
     # Create two columns: one for the image and one for post metadata
@@ -149,8 +151,10 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     with col1:
         # Use st.image directly to display the image
         st.image(image_url)  # Optionally, you can set a target width
-        st.caption(f"Image courtesy [Pexels]({image_url})")
-
+        if is_fallback_image:
+            st.caption("Fallback image")
+        else:
+            st.caption(f"Image courtesy [Pexels]({image_url})")
 
     with col2:
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
