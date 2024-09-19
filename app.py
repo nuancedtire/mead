@@ -7,13 +7,6 @@ from dateutil.relativedelta import relativedelta
 import yaml
 import logging
 
-# Remove these lines
-# from utils.data_loading import load_data_sources
-# from utils.post_processing import remove_markdown_formatting, clean_hashtags
-# from utils.ui_components import create_post
-
-# ... (keep the rest of the imports)
-
 # Add these functions back into the main file
 def remove_markdown_formatting(text):
     # Convert bold text (**) to uppercase
@@ -262,9 +255,13 @@ if filtered_data.empty:
     st.write("No posts found for the selected date range and category.")
 else:
     POSTS_PER_PAGE = 10
-    page_number = st.number_input("Page", min_value=1, value=1)
+    total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)  # Ceiling division
+    page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
     start_idx = (page_number - 1) * POSTS_PER_PAGE
     end_idx = start_idx + POSTS_PER_PAGE
+
+    # Add page indicator
+    st.write(f"Page {page_number} of {total_pages}")
 
     for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
         create_post(
@@ -282,18 +279,6 @@ else:
 if st.sidebar.button("Refresh Data"):
     st.cache_data.clear()
     st.rerun()
-
-try:
-    # Your main app code
-    st.title("Feed")
-    # Load the data
-    meds = load_meds_data()
-    sifted = load_sifted_data()
-    scape = load_scape_data()
-    data = load_firebase()
-except Exception as e:
-    logging.error(f"An error occurred: {str(e)}")
-    st.error("An unexpected error occurred. Please check the logs.")
 
 # Add a footer
 st.markdown("---")
