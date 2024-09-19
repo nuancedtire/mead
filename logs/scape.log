@@ -2142,3 +2142,11 @@
 2024-09-19 11:16:38,426 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/opt-out-only-treatment-can-help-reluctant-smokers-quit-2024a1000h0i
 2024-09-19 11:16:38,429 - INFO - CSV file updated with new data.
 2024-09-19 11:16:38,429 - INFO - Medscape script completed.
+2024-09-19 11:38:19,305 - INFO - Medscape script started.
+2024-09-19 11:38:19,305 - INFO - Connection to Medscape established.
+2024-09-19 11:38:19,347 - INFO - Request sent to Medscape API.
+2024-09-19 11:38:19,615 - INFO - Response received from Medscape API.
+2024-09-19 11:38:19,616 - INFO - Response data decoded into dictionary.
+2024-09-19 11:38:19,620 - INFO - Existing CSV file loaded.
+2024-09-19 11:38:19,620 - INFO - No new links found, CSV file is up to date.
+2024-09-19 11:38:19,620 - INFO - Medscape script completed.
