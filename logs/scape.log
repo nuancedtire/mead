@@ -2202,3 +2202,11 @@
 2024-09-19 13:33:09,646 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h
 2024-09-19 13:33:09,649 - INFO - CSV file updated with new data.
 2024-09-19 13:33:09,649 - INFO - Medscape script completed.
+2024-09-19 13:52:21,254 - INFO - Medscape script started.
+2024-09-19 13:52:21,254 - INFO - Connection to Medscape established.
+2024-09-19 13:52:21,296 - INFO - Request sent to Medscape API.
+2024-09-19 13:52:21,576 - INFO - Response received from Medscape API.
+2024-09-19 13:52:21,577 - INFO - Response data decoded into dictionary.
+2024-09-19 13:52:21,580 - INFO - Existing CSV file loaded.
+2024-09-19 13:52:21,580 - INFO - No new links found, CSV file is up to date.
+2024-09-19 13:52:21,581 - INFO - Medscape script completed.
