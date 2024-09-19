@@ -176,7 +176,8 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
             st.write(link)
             st.write(content)
             st.write(hashtags)
-            st.write(f"Input:  \n{input}")
+            st.header("Input:")
+            st.write(input)
 
     # Add a horizontal line between posts
     st.markdown("---")
