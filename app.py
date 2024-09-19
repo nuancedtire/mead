@@ -222,7 +222,7 @@ with st.sidebar:
     first_post = data['Time'].min().strftime("%d %b %y")
     last_gen = data['LLM Timestamp'].max().strftime("%d %b %y")
 
-    st.markdown(f"""📈 **Total Posts:** {total_posts}  \n
+    st.error(f"""📈 **Total Posts:** {total_posts}  \n
 🗓️ **Oldest Post:** {first_post}  \n
 🆕 **Latest Post:** {last_post}  \n
 🤖 **Last Generated:** {last_gen}""")
