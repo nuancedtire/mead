@@ -218,12 +218,27 @@ unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#
 # Remove # from the labels for radio button
 clean_labels = [tag[1:] for tag in unique_hashtags]
 
-# Move this part just before the post display logic
+# Move these lines before the column creation
+# Filter data by date range
+filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
+
+# Apply category filter
+if selected_hashtag:
+    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
+
+# Search functionality
+search_query = st.sidebar.text_input("Search posts")
+if search_query:
+    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
+
+# Now create the columns
 col1, col2 = st.columns([3, 7])
 
 with col1:
     # Radio button for selecting one category at a time (with clean labels)
     selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
+    # Map the selected label back to the hashtag value (with # symbol)
+    selected_hashtag = f"#{selected_label}"
 
 with col2:
     if not filtered_data.empty:
@@ -233,26 +248,11 @@ with col2:
         
         # Add page indicator
         st.write(f"Page {page_number} of {total_pages}")
-
-# Map the selected label back to the hashtag value (with # symbol)
-selected_hashtag = f"#{selected_label}"
-
-# Filter data by date range and selected hashtag
-filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
-
-if selected_hashtag:
-    # Filter the data based on the selected hashtag
-    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
-
-# Search functionality
-search_query = st.sidebar.text_input("Search posts")
-if search_query:
-    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
+    else:
+        st.write("No posts found for the selected criteria.")
 
 # Display posts in a scrolling feed
-if filtered_data.empty:
-    st.write("No posts found for the selected date range and category.")
-else:
+if not filtered_data.empty:
     start_idx = (page_number - 1) * POSTS_PER_PAGE
     end_idx = start_idx + POSTS_PER_PAGE
 
