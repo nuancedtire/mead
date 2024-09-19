@@ -151,11 +151,6 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         st.image(image_url)  # Optionally, you can set a target width
         st.caption(f"Image courtesy [Pexels]({image_url})")
 
-        # Display post metadata
-        hashtags_str = " ".join(hashtags[1:])
-        st.info(f"*{hashtags_str}*")
-        st.write(f"**Published** {relative_time(timestamp)}  \n"
-                f"**From:** {source}  \n")
 
     with col2:
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
@@ -167,6 +162,11 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         with tab1:
             with st.expander(f"{first_line}", expanded=False):
                 st.write(cleaned_content)
+            # Display post metadata
+            hashtags_str = " ".join(hashtags[1:])
+            st.info(f"*{hashtags_str}*")
+            st.write(f"**Published** {relative_time(timestamp)}  \n"
+                    f"**From:** {source}  \n")
 
         with tab2:
             st.write(content)
