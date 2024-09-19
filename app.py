@@ -184,104 +184,92 @@ st.set_page_config(
    layout="wide",
 )
 
-st.title("Feed")
-# Load the data
-meds = load_meds_data()
-sifted = load_sifted_data()
-scape = load_scape_data()
-data = load_firebase()
+# Create a header
+st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>", unsafe_allow_html=True)
 
-# Sidebar with various filters and statistics
-with st.sidebar:
-    # Display statistics
+# Create three columns for the main layout
+left_column, main_column, right_column = st.columns([1, 3, 1])
+
+with left_column:
+    st.subheader("Filters")
+    
+    # Category selection
+    selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
+    selected_hashtag = f"#{selected_label}"
+    
+    # Date range selection
+    st.subheader("Date Range")
+    start_date = st.date_input("Start Date", value=data['Time'].min().date())
+    end_date = st.date_input("End Date", value=data['Time'].max().date())
+    
+    # Search functionality
+    st.subheader("Search")
+    search_query = st.text_input("Search posts")
+    
+    # Refresh button
+    if st.button("Refresh Data"):
+        st.cache_data.clear()
+        st.rerun()
+
+with main_column:
+    # Filter data
+    filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
+    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
+    if search_query:
+        filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
+    
+    # Pagination
+    if not filtered_data.empty:
+        POSTS_PER_PAGE = 5
+        total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col2:
+            page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
+            st.write(f"Page {page_number} of {total_pages}")
+        
+        start_idx = (page_number - 1) * POSTS_PER_PAGE
+        end_idx = start_idx + POSTS_PER_PAGE
+        
+        for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
+            create_post(
+                timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
+                llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
+                image_url=row['Image'],
+                hashtags=row['Hashtags'],
+                content=remove_markdown_formatting(row['Post']),
+                model=row['Model'],
+                link=row['Link'],
+                prompt=row['Prompt'],
+                input=row['Input']
+            )
+    else:
+        st.write("No posts found for the selected criteria.")
+
+with right_column:
+    st.subheader("Statistics")
     total_posts = len(data)
     last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
     first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
     last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
-
-    st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**First Post:** *{first_post_time}*  \n**Last Gen:** *{last_gen_time}*")
-
-    # Sidebar description
-    st.sidebar.markdown("""Hello Team Peerr!
-
+    
+    st.markdown(f"""
+    - **Total Posts:** {total_posts}
+    - **Last Post:** {last_post_time}
+    - **First Post:** {first_post_time}
+    - **Last Generated:** {last_gen_time}
+    """)
+    
+    st.subheader("About")
+    st.markdown("""
     This app is a demo frontend for displaying a feed of posts as they get updated.
     """)
 
-    # Add date input widgets here
-    st.header("Filter by Date")
-    start_date = st.date_input("Start Date", value=data['Time'].min().date())
-    end_date = st.date_input("End Date", value=data['Time'].max().date())
-
-    # Search functionality
-    search_query = st.text_input("Search posts")
-
-# Apply cleaning function to 'Hashtags' column
-data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
-
-# List of hashtags with # symbols
-unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
-
-# Remove # from the labels for radio button
-clean_labels = [tag[1:] for tag in unique_hashtags]
-
-# Filter data by date range
-filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
-
-# Now create the columns
-col1, col2 = st.columns([3, 7])
-
-with col1:
-    # Radio button for selecting one category at a time (with clean labels)
-    selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
-    # Map the selected label back to the hashtag value (with # symbol)
-    selected_hashtag = f"#{selected_label}"
-
-# Apply category filter
-filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
-
-# Apply search filter
-if search_query:
-    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
-
-with col2:
-    if not filtered_data.empty:
-        POSTS_PER_PAGE = 10
-        total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)  # Ceiling division
-        page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
-        
-        # Add page indicator
-        st.write(f"Page {page_number} of {total_pages}")
-    else:
-        st.write("No posts found for the selected criteria.")
-
-# Display posts in a scrolling feed
-if not filtered_data.empty:
-    start_idx = (page_number - 1) * POSTS_PER_PAGE
-    end_idx = start_idx + POSTS_PER_PAGE
-
-    for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
-        create_post(
-            timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
-            llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
-            image_url=row['Image'],
-            hashtags=row['Hashtags'],
-            content=remove_markdown_formatting(row['Post']),
-            model=row['Model'],
-            link=row['Link'],
-            prompt=row['Prompt'],
-            input=row['Input']
-        )
-
-if st.sidebar.button("Refresh Data"):
-    st.cache_data.clear()
-    st.rerun()
-
-# Add a footer
+# Footer
 st.markdown("---")
-st.markdown("Built with ❤️ by Team Peerr")
+st.markdown("<p style='text-align: center;'>Built with ❤️ by Team Peerr</p>", unsafe_allow_html=True)
 
+# Error handling
 try:
-    # You can put some final checks or operations here
     st.success("App ran successfully!")
 except Exception as e:
     logging.error(f"An error occurred: {str(e)}")
