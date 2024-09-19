@@ -198,7 +198,7 @@ st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>
 
 # Sidebar
 with st.sidebar:
-    st.subheader("🔍 Filters")
+    st.subheader("Filters")
     selected_label = st.radio("🏷️ Select Category", options=clean_labels, horizontal=False)
     selected_hashtag = f"#{selected_label}"
     
@@ -216,7 +216,7 @@ with st.sidebar:
     
     st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
 
-    st.subheader("📊 Statistics")
+    st.subheader("Statistics")
     total_posts = len(data)
     last_post = data['Time'].max().strftime("%d %b %y")
     first_post = data['Time'].min().strftime("%d %b %y")
