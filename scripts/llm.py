@@ -3,8 +3,6 @@ import logging
 import requests
 import pandas as pd
 from datetime import datetime
-import backoff
-from ratelimit import limits, sleep_and_retry
 import config
 import re
 from typing import List, Literal
@@ -21,6 +19,8 @@ from langchain_community.cache import SQLiteCache
 from langchain_core.globals import set_llm_cache
 from operator import itemgetter
 from pydantic import BaseModel, Field, ValidationError
+from tenacity import retry, stop_after_delay, wait_exponential, retry_if_exception, before_sleep_log
+
 
 # =====================
 #  Logging Setup
@@ -110,18 +110,23 @@ def remove_markdown_formatting(text):
     text = re.sub(r"^\s*#+\s+", "", text, flags=re.MULTILINE)
     return text
 
-ONE_SECOND = 1
+# Configure logging for tenacity retries
+logging.getLogger('tenacity').setLevel(logging.DEBUG)
 
-@sleep_and_retry
-@limits(calls=1, period=ONE_SECOND)
-@backoff.on_exception(
-    backoff.expo,
-    (requests.exceptions.RequestException, requests.exceptions.HTTPError),
-    max_time=60,
-    giveup=lambda e: e.response is not None and e.response.status_code != 429
+def is_429_error(exception):
+    return isinstance(exception, requests.exceptions.HTTPError) and exception.response.status_code == 429
+
+@retry(
+    retry=retry_if_exception(is_429_error),
+    wait=wait_exponential(multiplier=1, min=4, max=60),
+    stop=stop_after_delay(300),
+    before_sleep=before_sleep_log(logging.getLogger('tenacity'), logging.WARNING)
 )
 def fetch_url_content(url):
     response = requests.get(url)
+    if response.status_code == 429:
+        logging.warning(f"Received 429 Too Many Requests for URL: {url}")
+        raise requests.exceptions.HTTPError(response=response)
     response.raise_for_status()
     return response.text
 
@@ -268,13 +273,14 @@ Output:
     image_query_response = image_query_chain.invoke({"input": post_content})
     return image_query_response.content.strip()
 
-@sleep_and_retry
-@limits(calls=180, period=ONE_HOUR)  # Adjust according to Pexels API rate limits
-@backoff.on_exception(
-    backoff.expo,
-    (requests.exceptions.RequestException, requests.exceptions.HTTPError),
-    max_time=300,
-    giveup=lambda e: e.response is not None and e.response.status_code not in [429, 503]
+def is_retryable_pexels_error(exception):
+    return isinstance(exception, requests.exceptions.HTTPError) and exception.response.status_code in [429, 503]
+
+@retry(
+    retry=retry_if_exception(is_retryable_pexels_error),
+    wait=wait_exponential(multiplier=1, min=4, max=60),
+    stop=stop_after_delay(300),
+    before_sleep=before_sleep_log(logging.getLogger('tenacity'), logging.WARNING)
 )
 def get_unique_image(api_key, image_query, image_links):
     headers = {"Authorization": api_key}
@@ -282,7 +288,14 @@ def get_unique_image(api_key, image_query, image_links):
     params = {"query": image_query, "per_page": 10, "page": 1}
 
     response = requests.get(url, headers=headers, params=params)
-    if response.status_code == 200:
+    if response.status_code in [429, 503]:
+        logging.warning(f"Received {response.status_code} from Pexels API for query '{image_query}'. Retrying...")
+        raise requests.exceptions.HTTPError(response=response)
+    elif response.status_code == 403:
+        logging.error("Invalid API key or access forbidden for Pexels API.")
+        print("Invalid API key or access forbidden for Pexels API.")
+        return None
+    elif response.status_code == 200:
         data = response.json()
         if data.get("photos"):
             for photo in data["photos"]:
@@ -300,7 +313,7 @@ def get_unique_image(api_key, image_query, image_links):
         logging.error(f"Image request failed with status code {response.status_code} for query '{image_query}'.")
         print(f"Image request failed with status code {response.status_code} for query '{image_query}'.")
         return None
-
+        
 def normalize_url(url):
     if not url:
         return None
