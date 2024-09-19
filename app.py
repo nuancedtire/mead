@@ -238,7 +238,7 @@ if not filtered_data.empty:
     POSTS_PER_PAGE = 5
     total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
 
-    page_number = st.number_input(f"Scroll through a total of {total_pages} pages", min_value=1, max_value=total_pages, value=1)
+    page_number = st.number_input(f"Scroll through a total of {total_pages} pages. Change categories from the sidebar for more", min_value=1, max_value=total_pages, value=1)
     
     start_idx = (page_number - 1) * POSTS_PER_PAGE
     end_idx = start_idx + POSTS_PER_PAGE
