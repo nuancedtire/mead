@@ -206,9 +206,9 @@ def generate_post(inputs):
     # Fetch unique image
     image_link = get_unique_image(pexels_api_key, image_query, image_links)
     if not image_link:
-        logging.error(f"No unique image found for link {link}.")
-        print(f"No unique image found for link {link}.")
-        return None
+        logging.error(f"No unique image found for link {link}. Using fallback image.")
+        print(f"No unique image found for link {link}. Using fallback image.")
+        image_link = ""  # Use empty string to indicate no image found
 
     # Combine category and hashtags
     combined_hashtags = [parsed_response.category] + [hashtag.value for hashtag in parsed_response.hashtags]
