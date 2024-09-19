@@ -283,6 +283,12 @@ if st.sidebar.button("Refresh Data"):
 
 try:
     # Your main app code
+    st.title("Feed")
+    # Load the data
+    meds = load_meds_data()
+    sifted = load_sifted_data()
+    scape = load_scape_data()
+    data = load_firebase()
 except Exception as e:
     logging.error(f"An error occurred: {str(e)}")
     st.error("An unexpected error occurred. Please check the logs.")
@@ -290,3 +296,10 @@ except Exception as e:
 # Add a footer
 st.markdown("---")
 st.markdown("Built with ❤️ by Team Peerr")
+
+try:
+    # You can put some final checks or operations here
+    st.success("App ran successfully!")
+except Exception as e:
+    logging.error(f"An error occurred: {str(e)}")
+    st.error("An unexpected error occurred. Please check the logs.")
