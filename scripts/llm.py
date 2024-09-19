@@ -3,6 +3,8 @@ import logging
 import requests
 import pandas as pd
 from datetime import datetime
+import backoff
+from ratelimit import limits, sleep_and_retry
 import config
 import re
 from typing import List, Literal
@@ -108,6 +110,16 @@ def remove_markdown_formatting(text):
     text = re.sub(r"^\s*#+\s+", "", text, flags=re.MULTILINE)
     return text
 
+ONE_SECOND = 1
+
+@sleep_and_retry
+@limits(calls=1, period=ONE_SECOND)
+@backoff.on_exception(
+    backoff.expo,
+    (requests.exceptions.RequestException, requests.exceptions.HTTPError),
+    max_time=60,
+    giveup=lambda e: e.response is not None and e.response.status_code != 429
+)
 def fetch_url_content(url):
     response = requests.get(url)
     response.raise_for_status()
@@ -256,6 +268,14 @@ Output:
     image_query_response = image_query_chain.invoke({"input": post_content})
     return image_query_response.content.strip()
 
+@sleep_and_retry
+@limits(calls=180, period=ONE_HOUR)  # Adjust according to Pexels API rate limits
+@backoff.on_exception(
+    backoff.expo,
+    (requests.exceptions.RequestException, requests.exceptions.HTTPError),
+    max_time=300,
+    giveup=lambda e: e.response is not None and e.response.status_code not in [429, 503]
+)
 def get_unique_image(api_key, image_query, image_links):
     headers = {"Authorization": api_key}
     url = "https://api.pexels.com/v1/search"
