@@ -2128,3 +2128,17 @@
 2024-09-19 10:53:19,280 - INFO - Existing CSV file loaded.
 2024-09-19 10:53:19,280 - INFO - No new links found, CSV file is up to date.
 2024-09-19 10:53:19,281 - INFO - Medscape script completed.
+2024-09-19 11:16:33,334 - INFO - Medscape script started.
+2024-09-19 11:16:33,335 - INFO - Connection to Medscape established.
+2024-09-19 11:16:33,359 - INFO - Request sent to Medscape API.
+2024-09-19 11:16:33,929 - INFO - Response received from Medscape API.
+2024-09-19 11:16:33,929 - INFO - Response data decoded into dictionary.
+2024-09-19 11:16:33,933 - INFO - Existing CSV file loaded.
+2024-09-19 11:16:33,933 - INFO - Processing new item: https://www.medscape.com/viewarticle/opt-out-only-treatment-can-help-reluctant-smokers-quit-2024a1000h0i
+2024-09-19 11:16:33,933 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/opt-out-only-treatment-can-help-reluctant-smokers-quit-2024a1000h0i
+2024-09-19 11:16:37,437 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/opt-out-only-treatment-can-help-reluctant-smokers-quit-2024a1000h0i.
+2024-09-19 11:16:38,424 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 11:16:38,426 - INFO - Received response from OpenAI API.
+2024-09-19 11:16:38,426 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/opt-out-only-treatment-can-help-reluctant-smokers-quit-2024a1000h0i
+2024-09-19 11:16:38,429 - INFO - CSV file updated with new data.
+2024-09-19 11:16:38,429 - INFO - Medscape script completed.
