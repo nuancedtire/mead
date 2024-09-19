@@ -184,6 +184,21 @@ st.set_page_config(
    layout="wide",
 )
 
+# Load the data
+meds = load_meds_data()
+sifted = load_sifted_data()
+scape = load_scape_data()
+data = load_firebase()
+
+# Apply cleaning function to 'Hashtags' column
+data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
+
+# List of hashtags with # symbols
+unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
+
+# Remove # from the labels for radio button
+clean_labels = [tag[1:] for tag in unique_hashtags]
+
 # Custom CSS to create a scrollable middle column
 st.markdown("""
 <style>
