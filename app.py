@@ -190,7 +190,7 @@ data = load_firebase()
 data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
 
 # List of hashtags with # symbols
-unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
+unique_hashtags = ["#All", "#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
 clean_labels = [tag[1:] for tag in unique_hashtags]
 
 # Create a header
@@ -199,8 +199,8 @@ st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>
 # Sidebar
 with st.sidebar:
     st.subheader("Filters")
-    selected_label = st.radio("🏷️ Select Category", options=clean_labels, horizontal=False)
-    selected_hashtag = f"#{selected_label}"
+    selected_label = st.radio("🏷️ Select Category", options=clean_labels, horizontal=True)
+    selected_hashtag = f"#{selected_label}" if selected_label != "All" else None
     
     # Add multiselect for hashtags
     all_hashtags = sorted(set([tag for tags in data['Hashtags'] for tag in tags]))
@@ -216,20 +216,12 @@ with st.sidebar:
     
     st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
 
-    st.subheader("Statistics")
-    total_posts = len(data)
-    last_post = data['Time'].max().strftime("%d %b %y")
-    first_post = data['Time'].min().strftime("%d %b %y")
-    last_gen = data['LLM Timestamp'].max().strftime("%d %b %y")
-
-    st.error(f"""📈 **Total Posts:** {total_posts}  \n
-🗓️ **Oldest Post:** {first_post}  \n
-🆕 **Latest Post:** {last_post}  \n
-🤖 **Last Generated:** {last_gen}""")
 # Main content area
 # Filter data
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
-filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
+
+if selected_hashtag:
+    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
 
 # Add filtering by selected hashtags
 if selected_hashtags:
