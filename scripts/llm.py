@@ -41,7 +41,7 @@ small_model_name = config.llm_config["small_model"]
 large_model_name = config.llm_config["large_model"]
 system_message = config.llm_config["system_prompt"]
 hashtags = config.llm_config["hashtags"]
-pexels_api_key = "fp8Urerp0HYAsM2UmutJhXbhuSOeXEu75TJvzmIEYOVQ51ckelerwvPk"
+pexels_api_key = "zeaB9f5KanEeG8emVGlw9YlBQLCl0MbuG8KFqmOAfgaKispTcwMrBXqX"
 
 # =====================
 #  OpenAI API Setup and Caching
