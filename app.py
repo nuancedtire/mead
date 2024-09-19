@@ -202,12 +202,12 @@ with st.sidebar:
     selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
     selected_hashtag = f"#{selected_label}"
     
+    st.subheader("Search")
+    search_query = st.text_input("Search posts")
+    
     st.subheader("Date Range")
     start_date = st.date_input("Start Date", value=data['Time'].min().date())
     end_date = st.date_input("End Date", value=data['Time'].max().date())
-    
-    st.subheader("Search")
-    search_query = st.text_input("Search posts")
     
     if st.button("Refresh Data"):
         st.cache_data.clear()
@@ -219,16 +219,11 @@ with st.sidebar:
     first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
     last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
-    st.markdown(f"""
-    - **Total Posts:** {total_posts}
-    - **Last Post:** {last_post_time}
-    - **First Post:** {first_post_time}
-    - **Last Generated:** {last_gen_time}
-    """)
-
-    st.subheader("About")
-    st.markdown("""
-    This app is a demo frontend for displaying a feed of posts as they get updated.
+    st.success(f"""
+    **Total Posts:** {total_posts}
+    **Last Post:** {last_post_time}
+    **First Post:** {first_post_time}
+    **Last Generated:** {last_gen_time}
     """)
 
 # Main content area
@@ -242,12 +237,8 @@ if search_query:
 if not filtered_data.empty:
     POSTS_PER_PAGE = 5
     total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
-    
-    col1, col2 = st.columns([2, 3])
-    with col1:
-        page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
-    with col2:
-        st.write(f"of {total_pages}")
+
+    page_number = st.number_input(f"Scroll through a total of {total_pages} pages", min_value=1, max_value=total_pages, value=1)
     
     start_idx = (page_number - 1) * POSTS_PER_PAGE
     end_idx = start_idx + POSTS_PER_PAGE
@@ -267,13 +258,5 @@ if not filtered_data.empty:
 else:
     st.write("No posts found for the selected criteria.")
 
-# Footer
-st.markdown("---")
-st.markdown("<p style='text-align: center;'>Built with ❤️ by Team Peerr</p>", unsafe_allow_html=True)
 
-# Error handling
-try:
-    st.success("App ran successfully!")
-except Exception as e:
-    logging.error(f"An error occurred: {str(e)}")
-    st.error("An unexpected error occurred. Please check the logs.")
+st.markdown("<p style='text-align: center;'>Built with ❤️ by Team Peerr</p>", unsafe_allow_html=True)
