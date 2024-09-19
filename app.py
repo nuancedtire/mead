@@ -202,30 +202,27 @@ with st.sidebar:
     selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
     selected_hashtag = f"#{selected_label}"
     
-    st.subheader("Search")
-    search_query = st.text_input("Search posts")
+    search_query = st.text_input("🔍 Search posts")
     
-    st.subheader("Date Range")
-    start_date = st.date_input("Start Date", value=data['Time'].min().date())
-    end_date = st.date_input("End Date", value=data['Time'].max().date())
+    col1, col2 = st.columns(2)
+    with col1:
+        start_date = st.date_input("Start Date", value=data['Time'].min().date())
+    with col2:
+        end_date = st.date_input("End Date", value=data['Time'].max().date())
     
-    if st.button("Refresh Data"):
-        st.cache_data.clear()
-        st.rerun()
+    st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
 
     st.subheader("Statistics")
     total_posts = len(data)
-    last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
-    first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
-    last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
+    last_post = data['Time'].max().strftime("%d-%m-%Y")
+    first_post = data['Time'].min().strftime("%d-%m-%Y")
+    last_gen = data['LLM Timestamp'].max().strftime("%d-%m-%Y")
 
-    st.success(f"""
-    **Total Posts:** {total_posts}
-    **Last Post:** {last_post_time}
-    **First Post:** {first_post_time}
-    **Last Generated:** {last_gen_time}
+    st.markdown(f"""
+    📊 **Total Posts:** {total_posts}
+    📅 **Date Range:** {first_post} to {last_post}
+    🔄 **Last Generated:** {last_gen}
     """)
-
 # Main content area
 # Filter data
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
