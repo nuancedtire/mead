@@ -214,15 +214,13 @@ with st.sidebar:
 
     st.subheader("Statistics")
     total_posts = len(data)
-    last_post = data['Time'].max().strftime("%d-%m-%Y")
-    first_post = data['Time'].min().strftime("%d-%m-%Y")
-    last_gen = data['LLM Timestamp'].max().strftime("%d-%m-%Y")
+    last_post = data['Time'].max().strftime("%d %b %y")
+    first_post = data['Time'].min().strftime("%d %b %y")
+    last_gen = data['LLM Timestamp'].max().strftime("%d %b %y")
 
-    st.markdown(f"""
-    📊 **Total Posts:** {total_posts}
-    📅 **Date Range:** {first_post} to {last_post}
-    🔄 **Last Generated:** {last_gen}
-    """)
+    st.markdown(f"""📊 **Total Posts:** {total_posts}  \n
+📅 **Oldest Post:** {last_post}  \n
+🔄 **Last Generated:** {last_gen}""")
 # Main content area
 # Filter data
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
