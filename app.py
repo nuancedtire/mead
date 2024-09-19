@@ -202,6 +202,10 @@ with st.sidebar:
     selected_label = st.radio("🏷️ Select Category", options=clean_labels, horizontal=False)
     selected_hashtag = f"#{selected_label}"
     
+    # Add multiselect for hashtags
+    all_hashtags = sorted(set([tag for tags in data['Hashtags'] for tag in tags]))
+    selected_hashtags = st.multiselect("🏷️ Filter by Hashtags", options=all_hashtags)
+    
     search_query = st.text_input("🔎 Search posts")
     
     col1, col2 = st.columns(2)
@@ -226,6 +230,11 @@ with st.sidebar:
 # Filter data
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
 filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
+
+# Add filtering by selected hashtags
+if selected_hashtags:
+    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: any(tag in x for tag in selected_hashtags))]
+
 if search_query:
     filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
 
