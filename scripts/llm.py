@@ -244,17 +244,17 @@ def get_image_query(post_content, model):
                 "system",
                 """Task:
 
-Analyze the following social media post related to medicine or healthcare and generate a precise, relevant search term for a stock image library (e.g., Pexels). The search term must accurately capture the post’s core message and content.
+Analyze the following social media post related to medicine or healthcare and generate a precise, relevant search term for a stock image library (e.g., Pexels). The search term must accurately capture the post's core message and content.
 
 Guidelines:
 
   1. Focus on the Core Medical Topic and Setting:
-  -  Use clear, broad terms that reflect the main medical subject (e.g., “cancer treatment,” “telemedicine”).
-  -  Match the search term to the clinical or healthcare setting described (e.g., “doctor-patient consultation,” “medical research lab”).
+  -  Use clear, broad terms that reflect the main medical subject (e.g., "cancer treatment," "telemedicine").
+  -  Match the search term to the clinical or healthcare setting described (e.g., "doctor-patient consultation," "medical research lab").
   2. Ensure Clarity and Visual Appeal:
-  -  Distill complex medical concepts into simple, recognizable terms that are easy to visualize (e.g., “autoimmune disease”).
+  -  Distill complex medical concepts into simple, recognizable terms that are easy to visualize (e.g., "autoimmune disease").
   -  Avoid highly technical names, specific drug terms, or ambiguous language.
-  3. Reflect the Post’s Tone and Intent:
+  3. Reflect the Post's Tone and Intent:
   -  Align the search term with the tone of the post—serious, educational, inspirational, etc.
   4. Use Common Stock Image Keywords:
   -  Choose terms commonly used in stock image libraries to increase the likelihood of finding relevant images.
@@ -294,7 +294,7 @@ def get_unique_image(api_key, image_query, image_links):
     elif response.status_code == 403:
         logging.error("Invalid API key or access forbidden for Pexels API.")
         print("Invalid API key or access forbidden for Pexels API.")
-        return None
+        return ""
     elif response.status_code == 200:
         data = response.json()
         if data.get("photos"):
@@ -304,15 +304,15 @@ def get_unique_image(api_key, image_query, image_links):
                     return potential_image_link
             logging.error(f"No unique image found for query '{image_query}'.")
             print(f"No unique image found for query '{image_query}'.")
-            return None
+            return ""
         else:
             logging.error(f"No photos returned from Pexels for query '{image_query}'.")
             print(f"No photos returned from Pexels for query '{image_query}'.")
-            return None
+            return ""
     else:
         logging.error(f"Image request failed with status code {response.status_code} for query '{image_query}'.")
         print(f"Image request failed with status code {response.status_code} for query '{image_query}'.")
-        return None
+        return ""
         
 def normalize_url(url):
     if not url:
