@@ -270,4 +270,4 @@ else:
     st.write("No posts found for the selected criteria.")
 
 
-st.markdown("<p style='text-align: center;'>Built with ❤️ by Team Peerr</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>Built with ❤ by Faz</p>", unsafe_allow_html=True)
