@@ -218,25 +218,24 @@ unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#
 # Remove # from the labels for radio button
 clean_labels = [tag[1:] for tag in unique_hashtags]
 
-# Radio button for selecting one category at a time (with clean labels)
-selected_label = st.radio("Select Category", options=clean_labels, horizontal=True)
+# Move this part just before the post display logic
+col1, col2 = st.columns([3, 7])
+
+with col1:
+    # Radio button for selecting one category at a time (with clean labels)
+    selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
+
+with col2:
+    if not filtered_data.empty:
+        POSTS_PER_PAGE = 10
+        total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)  # Ceiling division
+        page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
+        
+        # Add page indicator
+        st.write(f"Page {page_number} of {total_pages}")
 
 # Map the selected label back to the hashtag value (with # symbol)
 selected_hashtag = f"#{selected_label}"
-
-# Function to clear cache and rerun the app
-def clear_cache_and_rerun():
-    st.cache_data.clear()  # Clear cached data
-    st.rerun()  # Rerun the app
-
-# Add a button that triggers the cache clear and rerun
-if st.sidebar.button("Clear Cache and Rerun"):
-    clear_cache_and_rerun()
-
-# Handle dynamic start date
-st.sidebar.header("Filter by Date")
-start_date = st.sidebar.date_input("Start Date", value=data['Time'].min().date())  # Dynamic start date from data
-end_date = st.sidebar.date_input("End Date", value=data['Time'].max().date())
 
 # Filter data by date range and selected hashtag
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
@@ -254,14 +253,8 @@ if search_query:
 if filtered_data.empty:
     st.write("No posts found for the selected date range and category.")
 else:
-    POSTS_PER_PAGE = 10
-    total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)  # Ceiling division
-    page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
     start_idx = (page_number - 1) * POSTS_PER_PAGE
     end_idx = start_idx + POSTS_PER_PAGE
-
-    # Add page indicator
-    st.write(f"Page {page_number} of {total_pages}")
 
     for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
         create_post(
