@@ -19862,3 +19862,190 @@ category
 2024-09-19 19:24:00,487 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw.
 2024-09-19 19:24:00,487 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
 2024-09-19 19:24:00,487 - INFO - No valid log entries generated.
+2024-09-19 20:22:01,141 - INFO - Extracted 41 link records.
+2024-09-19 20:22:01,150 - INFO - Extracted 41 image links.
+2024-09-19 20:22:01,153 - INFO - Extracted 46 link records.
+2024-09-19 20:22:01,155 - INFO - Extracted 6 link records.
+2024-09-19 20:22:01,157 - INFO - Extracted 35 link records.
+2024-09-19 20:22:01,158 - INFO - Unique links to process: 46
+2024-09-19 20:22:03,277 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-19 20:22:03,277 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-19 20:22:05,491 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-19 20:22:05,491 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-19 20:22:07,996 - INFO - Image query: diabetes gum disease connection
+2024-09-19 20:22:08,060 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:08,060 - ERROR - No unique image found for link https://www.eurekalert.org/news-releases/1057199.
+2024-09-19 20:22:08,061 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.eurekalert.org/news-releases/1057199
+2024-09-19 20:22:15,790 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:22:15,814 - INFO - Image query: "ALS diagnosis breakthrough"
+2024-09-19 20:22:15,857 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:15,857 - ERROR - No unique image found for link https://www.news-medical.net/news/20240913/New-blood-test-achieves-9825-accuracy-in-diagnosing-ALS.aspx.
+2024-09-19 20:22:15,857 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.news-medical.net/news/20240913/New-blood-test-achieves-9825-accuracy-in-diagnosing-ALS.aspx
+2024-09-19 20:22:17,910 - INFO - Image query: lipid management therapy
+2024-09-19 20:22:17,950 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:17,951 - ERROR - No unique image found for link https://www.hcplive.com/view/fda-grants-breakthrough-therapy-designation-to-plozasiran-for-fcs.
+2024-09-19 20:22:17,951 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.hcplive.com/view/fda-grants-breakthrough-therapy-designation-to-plozasiran-for-fcs
+2024-09-19 20:22:20,493 - INFO - No article found for link http://dx.doi.org/10.1016/j.lanepe.2024.101043.
+2024-09-19 20:22:20,493 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.lanepe.2024.101043
+2024-09-19 20:22:22,376 - INFO - Image query: "COPD treatment"
+2024-09-19 20:22:22,416 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:22,416 - ERROR - No unique image found for link https://pharmaceutical-journal.com/article/news/mhra-approves-dupilumab-for-treatment-of-uncontrolled-copd.
+2024-09-19 20:22:22,416 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaceutical-journal.com/article/news/mhra-approves-dupilumab-for-treatment-of-uncontrolled-copd
+2024-09-19 20:22:27,626 - INFO - Image query: "HIV prevention injection"
+2024-09-19 20:22:27,669 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:27,670 - ERROR - No unique image found for link https://www.contagionlive.com/view/lenacapavir-reduces-hiv-infections-by-96-demonstrates-superiority-over-another-hiv-prophylactic.
+2024-09-19 20:22:27,670 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.contagionlive.com/view/lenacapavir-reduces-hiv-infections-by-96-demonstrates-superiority-over-another-hiv-prophylactic
+2024-09-19 20:22:29,445 - INFO - Image query: diabetic macular edema treatment
+2024-09-19 20:22:29,497 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:29,497 - ERROR - No unique image found for link https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema.
+2024-09-19 20:22:29,498 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema
+2024-09-19 20:22:30,953 - INFO - Image query: neurodegenerative disease research
+2024-09-19 20:22:30,997 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:30,997 - ERROR - No unique image found for link https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-to-present-latest-neurodegenerative-research-at-the-2024-american-neurological-association-149th-annual-meeting-302245698.html.
+2024-09-19 20:22:30,997 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-to-present-latest-neurodegenerative-research-at-the-2024-american-neurological-association-149th-annual-meeting-302245698.html
+2024-09-19 20:22:32,558 - INFO - Image query: Duchenne muscular dystrophy treatment
+2024-09-19 20:22:32,594 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:32,594 - ERROR - No unique image found for link https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html.
+2024-09-19 20:22:32,594 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html
+2024-09-19 20:22:34,980 - INFO - Image query: "advanced breast cancer treatment"
+2024-09-19 20:22:35,020 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:35,020 - ERROR - No unique image found for link https://www.targetedonc.com/view/abemaciclib-with-et-outperforms-chemotherapy-in-advanced-breast-cancer.
+2024-09-19 20:22:35,020 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/abemaciclib-with-et-outperforms-chemotherapy-in-advanced-breast-cancer
+2024-09-19 20:22:36,686 - INFO - Image query: Duchenne muscular dystrophy treatment
+2024-09-19 20:22:36,725 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:36,725 - ERROR - No unique image found for link https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html.
+2024-09-19 20:22:36,725 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/somite-therapeutics-announces-fda-orphan-drug-and-rare-pediatric-disease-designations-for-smt-m01-in-duchenne-muscular-dystrophy-302248051.html
+2024-09-19 20:22:42,108 - INFO - Image query: diabetic macular edema treatment
+2024-09-19 20:22:42,147 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:22:42,147 - ERROR - No unique image found for link https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema.
+2024-09-19 20:22:42,147 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.ajmc.com/view/myl-1701p-efficient-safe-compared-with-aflibercept-in-diabetic-macular-edema
+2024-09-19 20:22:46,476 - INFO - No article found for link https://pharmaphorum.com/news/esmo-pfizer-drug-helps-cancer-patients-gain-weight.
+2024-09-19 20:22:46,476 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/esmo-pfizer-drug-helps-cancer-patients-gain-weight
+2024-09-19 20:23:02,806 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:23:02,817 - INFO - Image query: "cannabidiol research"
+2024-09-19 20:23:02,861 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:02,862 - ERROR - No unique image found for link https://medicalxpress.com/news/2024-09-cannabidiol-alleviate-symptoms-leigh-syndrome.html.
+2024-09-19 20:23:02,862 - WARNING - Skipping entry due to missing or invalid log entry for link: https://medicalxpress.com/news/2024-09-cannabidiol-alleviate-symptoms-leigh-syndrome.html
+2024-09-19 20:23:08,480 - INFO - Image query: "ventilator-associated pneumonia research"
+2024-09-19 20:23:08,522 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:08,523 - ERROR - No unique image found for link https://www.hcplive.com/view/lung-microbiome-profiling-promising-approach-enhance-diagnostic-precision-for-ventilator-associated-pneumonia.
+2024-09-19 20:23:08,523 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.hcplive.com/view/lung-microbiome-profiling-promising-approach-enhance-diagnostic-precision-for-ventilator-associated-pneumonia
+2024-09-19 20:23:10,447 - INFO - Image query: respiratory health research
+2024-09-19 20:23:10,504 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:10,504 - ERROR - No unique image found for link https://www.hcplive.com/view/welcome-to-the-respiratory-report.
+2024-09-19 20:23:10,504 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.hcplive.com/view/welcome-to-the-respiratory-report
+2024-09-19 20:23:25,843 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:23:30,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:23:30,700 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:23:30,705 - INFO - Image query: continuous glucose monitoring diabetes
+2024-09-19 20:23:30,744 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:30,744 - ERROR - No unique image found for link https://www.healio.com/news/endocrinology/20240917/fda-clears-implantable-cgm-with-sensor-that-lasts-up-to-1-year.
+2024-09-19 20:23:30,744 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.healio.com/news/endocrinology/20240917/fda-clears-implantable-cgm-with-sensor-that-lasts-up-to-1-year
+2024-09-19 20:23:33,441 - INFO - Image query: mesothelioma treatment
+2024-09-19 20:23:33,486 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:33,486 - ERROR - No unique image found for link https://www.targetedonc.com/view/fda-approves-frontline-pembrolizumab-chemotherapy-in-advanced-mesothelioma.
+2024-09-19 20:23:33,486 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/fda-approves-frontline-pembrolizumab-chemotherapy-in-advanced-mesothelioma
+2024-09-19 20:23:36,672 - INFO - Image query: "COVID-19 antiviral treatment"
+2024-09-19 20:23:36,710 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:36,710 - ERROR - No unique image found for link https://www.healio.com/news/infectious-disease/20240918/molnupiravir-cuts-risk-for-severe-covid19-symptoms-and-possibly-long-covid.
+2024-09-19 20:23:36,711 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.healio.com/news/infectious-disease/20240918/molnupiravir-cuts-risk-for-severe-covid19-symptoms-and-possibly-long-covid
+2024-09-19 20:23:47,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:23:52,518 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:23:53,048 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:23:53,052 - INFO - Image query: "Alzheimer's disease research"
+2024-09-19 20:23:53,092 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:53,092 - ERROR - No unique image found for link https://www.clinicaltrialsarena.com/news/fda-lifts-hold-vigil-trial/.
+2024-09-19 20:23:53,092 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.clinicaltrialsarena.com/news/fda-lifts-hold-vigil-trial/
+2024-09-19 20:23:55,379 - INFO - Image query: cholangiocarcinoma treatment
+2024-09-19 20:23:55,420 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:23:55,420 - ERROR - No unique image found for link https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-cf33-hnis-in-cholangiocarcinoma.
+2024-09-19 20:23:55,420 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/fda-grants-orphan-drug-designation-to-cf33-hnis-in-cholangiocarcinoma
+2024-09-19 20:24:00,630 - INFO - Image query: "COPD treatment efficacy"
+2024-09-19 20:24:00,667 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:24:00,668 - ERROR - No unique image found for link https://www.healio.com/news/pulmonology/20240918/bode-index-score-does-not-change-dupilumab-efficacy-in-copd-with-type-2-inflammation.
+2024-09-19 20:24:00,668 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.healio.com/news/pulmonology/20240918/bode-index-score-does-not-change-dupilumab-efficacy-in-copd-with-type-2-inflammation
+2024-09-19 20:24:17,200 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:24:17,209 - INFO - Image query: type 1 diabetes research
+2024-09-19 20:24:17,268 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:24:17,268 - ERROR - No unique image found for link https://medicalxpress.com/news/2024-09-bacterial-infections-trigger-diabetes.html.
+2024-09-19 20:24:17,268 - WARNING - Skipping entry due to missing or invalid log entry for link: https://medicalxpress.com/news/2024-09-bacterial-infections-trigger-diabetes.html
+2024-09-19 20:24:19,959 - INFO - Image query: men's health technology
+2024-09-19 20:24:19,996 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:24:19,996 - ERROR - No unique image found for link https://sifted.eu/articles/mens-health-manual-raises-29m-news/.
+2024-09-19 20:24:19,996 - WARNING - Skipping entry due to missing or invalid log entry for link: https://sifted.eu/articles/mens-health-manual-raises-29m-news/
+2024-09-19 20:24:30,186 - INFO - No article found for link https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296.
+2024-09-19 20:24:30,186 - WARNING - Skipping entry due to missing or invalid log entry for link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae598/7743296
+2024-09-19 20:24:33,836 - INFO - No article found for link https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext.
+2024-09-19 20:24:33,836 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-19 20:24:46,151 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:24:46,160 - INFO - Image query: psoriasis psoriatic arthritis monitoring
+2024-09-19 20:24:46,200 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:24:46,200 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv.
+2024-09-19 20:24:46,200 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/psoriasis-will-it-progress-arthritis-2024a1000giv
+2024-09-19 20:25:16,189 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:25:19,067 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:25:19,545 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:25:19,553 - INFO - Image query: diabetes management blood tests
+2024-09-19 20:25:19,596 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:25:19,596 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy.
+2024-09-19 20:25:19,596 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-19 20:25:23,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:25:23,909 - INFO - No article found for link http://medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr.
+2024-09-19 20:25:23,909 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/hot-topics-managing-diabetes-primary-care-dr-sarah-davies-2024a1000ggr
+2024-09-19 20:25:29,356 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:25:29,360 - INFO - No article found for link http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0.
+2024-09-19 20:25:29,360 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-19 20:25:34,493 - INFO - Image query: "AI in healthcare documentation"
+2024-09-19 20:25:34,532 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:25:34,532 - ERROR - No unique image found for link http://medscape.com/viewarticle/ai-powered-clinical-documentation-tool-reduces-ehr-time-2024a1000gr3.
+2024-09-19 20:25:34,532 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.com/viewarticle/ai-powered-clinical-documentation-tool-reduces-ehr-time-2024a1000gr3
+2024-09-19 20:25:37,662 - INFO - Image query: "long-term medication safety"
+2024-09-19 20:25:37,701 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:25:37,701 - ERROR - No unique image found for link https://www.sciencedirect.com/science/article/pii/S1043661824003463?via%3Dihub.
+2024-09-19 20:25:37,701 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.sciencedirect.com/science/article/pii/S1043661824003463?via%3Dihub
+2024-09-19 20:25:40,704 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext.
+2024-09-19 20:25:40,704 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
+2024-09-19 20:25:41,855 - INFO - No article found for link https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia.
+2024-09-19 20:25:41,855 - WARNING - Skipping entry due to missing or invalid log entry for link: https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia
+2024-09-19 20:25:45,229 - INFO - Image query: "breastfeeding support for mothers with mental health challenges"
+2024-09-19 20:25:45,267 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:25:45,267 - ERROR - No unique image found for link https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-024-06735-1.
+2024-09-19 20:25:45,267 - WARNING - Skipping entry due to missing or invalid log entry for link: https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/s12884-024-06735-1
+2024-09-19 20:25:48,869 - INFO - Image query: "flavored e-cigarettes smoking cessation"
+2024-09-19 20:25:48,910 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:25:48,911 - ERROR - No unique image found for link https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2823300.
+2024-09-19 20:25:48,911 - WARNING - Skipping entry due to missing or invalid log entry for link: https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2823300
+2024-09-19 20:25:51,470 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext.
+2024-09-19 20:25:51,470 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext
+2024-09-19 20:25:54,723 - INFO - Image query: "women in rheumatology research"
+2024-09-19 20:25:54,774 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:25:54,774 - ERROR - No unique image found for link http://medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv.
+2024-09-19 20:25:54,774 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.com/viewarticle/are-women-underrepresented-authors-rheumatology-rcts-2024a1000gxv
+2024-09-19 20:25:58,990 - INFO - Image query: "ethnic disparities type 2 diabetes"
+2024-09-19 20:25:59,028 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:25:59,028 - ERROR - No unique image found for link https://drc.bmj.com/content/12/4/e004174.
+2024-09-19 20:25:59,029 - WARNING - Skipping entry due to missing or invalid log entry for link: https://drc.bmj.com/content/12/4/e004174
+2024-09-19 20:26:10,182 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:26:10,190 - INFO - Image query: osteoporosis treatment vascular health
+2024-09-19 20:26:10,230 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:26:10,230 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv.
+2024-09-19 20:26:10,231 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/osteoporosis-medications-do-not-alter-vascular-calcification-2024a1000gsv
+2024-09-19 20:26:12,154 - INFO - Image query: tobacco cessation support
+2024-09-19 20:26:12,195 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:26:12,195 - ERROR - No unique image found for link http://medscape.com/viewarticle/opt-out-only-treatment-can-help-reluctant-smokers-quit-2024a1000h0i.
+2024-09-19 20:26:12,195 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.com/viewarticle/opt-out-only-treatment-can-help-reluctant-smokers-quit-2024a1000h0i
+2024-09-19 20:26:16,290 - INFO - No article found for link https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/exploring-uk-older-adults-dietary-fibre-consumption-habits-and-associated-factors-a-national-diet-and-nutrition-survey-perspective/6D2A004A1B83A5BEAC99CBC585A8B4F9.
+2024-09-19 20:26:16,290 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/exploring-uk-older-adults-dietary-fibre-consumption-habits-and-associated-factors-a-national-diet-and-nutrition-survey-perspective/6D2A004A1B83A5BEAC99CBC585A8B4F9
+2024-09-19 20:26:28,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:26:30,912 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:26:31,319 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:26:31,323 - INFO - Image query: AI in healthcare
+2024-09-19 20:26:31,365 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:26:31,366 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h.
+2024-09-19 20:26:31,366 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h
+2024-09-19 20:26:47,993 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-19 20:26:48,002 - INFO - Image query: "pharmacogenetic testing stroke management"
+2024-09-19 20:26:48,041 - ERROR - Invalid API key or access forbidden for Pexels API.
+2024-09-19 20:26:48,041 - ERROR - No unique image found for link http://medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw.
+2024-09-19 20:26:48,041 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-19 20:26:48,041 - INFO - No valid log entries generated.
