@@ -215,6 +215,16 @@ with st.sidebar:
         end_date = st.date_input("📅 End Date", value=data['Time'].max().date())
     
     st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
+    st.subheader("Statistics")
+    total_posts = len(data)
+    last_post = data['Time'].max().strftime("%d %b %y")
+    first_post = data['Time'].min().strftime("%d %b %y")
+    last_gen = data['LLM Timestamp'].max().strftime("%d %b %y")
+
+    st.error(f"""📈 **Total Posts:** {total_posts}  \n
+🗓️ **Oldest Post:** {first_post}  \n
+🆕 **Latest Post:** {last_post}  \n
+🤖 **Last Generated:** {last_gen}""")
 
 # Main content area
 # Filter data
