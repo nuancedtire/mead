@@ -7,9 +7,47 @@ from dateutil.relativedelta import relativedelta
 import yaml
 import logging
 
-from utils.data_loading import load_data_sources
-from utils.post_processing import remove_markdown_formatting, clean_hashtags
-from utils.ui_components import create_post
+# Remove these lines
+# from utils.data_loading import load_data_sources
+# from utils.post_processing import remove_markdown_formatting, clean_hashtags
+# from utils.ui_components import create_post
+
+# ... (keep the rest of the imports)
+
+# Add these functions back into the main file
+def remove_markdown_formatting(text):
+    # Convert bold text (**) to uppercase
+    text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
+    text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
+
+    # Remove italics formatting
+    text = re.sub(r'\*(.*?)\*', r'\1', text)
+    text = re.sub(r'_(.*?)_', r'\1', text)
+
+    # Remove markdown headings (#)
+    text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
+
+    return text
+
+def clean_hashtags(hashtag_string):
+    """
+    Clean and format hashtags, handling cases where hashtags might already be an array.
+
+    Args:
+        hashtag_string (str or list): A string or list of hashtags.
+
+    Returns:
+        list: A list of cleaned hashtags, properly formatted with #.
+    """
+    if isinstance(hashtag_string, list):  # If it's already an array, return it directly
+        return [f"#{tag.strip()}" for tag in hashtag_string]
+
+    if pd.isna(hashtag_string):  # Handle NaN cases
+        return []
+
+    # If it's a string, remove unwanted characters and split by commas
+    hashtags = hashtag_string.replace("[", "").replace("]", "").replace("'", "").split(',')
+    return [f"#{tag.strip()}" for tag in hashtags]
 
 def convert_to_datetime(dt):
     """Converts a string or other formats to a datetime object if necessary."""
@@ -71,21 +109,6 @@ def load_firebase():
     data = data.sort_values(by='Time', ascending=False)
     return data
 
-# Function to remove markdown formatting from text
-def remove_markdown_formatting(text):
-    # Convert bold text (**) to uppercase
-    text = re.sub(r'\*\*(.*?)\*\*', lambda m: m.group(1).upper(), text)
-    text = re.sub(r'__(.*?)__', lambda m: m.group(1).upper(), text)
-
-    # Remove italics formatting
-    text = re.sub(r'\*(.*?)\*', r'\1', text)
-    text = re.sub(r'_(.*?)_', r'\1', text)
-
-    # Remove markdown headings (#)
-    text = re.sub(r'^\s*#+\s+', '', text, flags=re.MULTILINE)
-
-    return text
-
 # Function to identify the source of a post based on the link
 def determine_source(link):
     """
@@ -105,27 +128,6 @@ def determine_source(link):
         return "Medscape"
     else:
         return "Unknown Source"
-
-# Improved Hashtag Cleaning Function to Handle Array Inputs
-def clean_hashtags(hashtag_string: str) -> List[str]:
-    """
-    Clean and format hashtags, handling cases where hashtags might already be an array.
-
-    Args:
-        hashtag_string (str or list): A string or list of hashtags.
-
-    Returns:
-        list: A list of cleaned hashtags, properly formatted with #.
-    """
-    if isinstance(hashtag_string, list):  # If it's already an array, return it directly
-        return [f"#{tag.strip()}" for tag in hashtag_string]
-
-    if pd.isna(hashtag_string):  # Handle NaN cases
-        return []
-
-    # If it's a string, remove unwanted characters and split by commas
-    hashtags = hashtag_string.replace("[", "").replace("]", "").replace("'", "").split(',')
-    return [f"#{tag.strip()}" for tag in hashtags]
 
 # Function to create a post in the UI
 def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, link, prompt, input):
