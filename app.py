@@ -178,11 +178,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     st.markdown("---")
     
 # Streamlit UI configuration
-st.set_page_config(
-   page_title="Peerr Thoughts",
-   page_icon="💭",
-   layout="wide",
-)
+st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="wide")
 
 # Load the data
 meds = load_meds_data()
@@ -195,126 +191,89 @@ data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
 
 # List of hashtags with # symbols
 unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
-
-# Remove # from the labels for radio button
 clean_labels = [tag[1:] for tag in unique_hashtags]
-
-# Custom CSS to create a scrollable middle column
-st.markdown("""
-<style>
-.main-container {
-    display: flex;
-    height: 100vh;
-}
-.column {
-    padding: 10px;
-    overflow-y: auto;
-}
-.left-column, .right-column {
-    flex: 1;
-}
-.middle-column {
-    flex: 3;
-    max-height: 100vh;
-    overflow-y: scroll;
-}
-</style>
-""", unsafe_allow_html=True)
 
 # Create a header
 st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>", unsafe_allow_html=True)
 
-# Start the main container
-st.markdown('<div class="main-container">', unsafe_allow_html=True)
+# Create three columns
+left_col, middle_col, right_col = st.columns([1, 3, 1])
 
-# Left Column
-st.markdown('<div class="column left-column">', unsafe_allow_html=True)
-st.subheader("Filters")
-
-# Category selection
-selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
-selected_hashtag = f"#{selected_label}"
-
-# Date range selection
-st.subheader("Date Range")
-start_date = st.date_input("Start Date", value=data['Time'].min().date())
-end_date = st.date_input("End Date", value=data['Time'].max().date())
-
-# Search functionality
-st.subheader("Search")
-search_query = st.text_input("Search posts")
-
-# Refresh button
-if st.button("Refresh Data"):
-    st.cache_data.clear()
-    st.rerun()
-
-st.markdown('</div>', unsafe_allow_html=True)
-
-# Middle Column (Scrollable)
-st.markdown('<div class="column middle-column">', unsafe_allow_html=True)
-
-# Filter data
-filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
-filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
-if search_query:
-    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
-
-# Pagination
-if not filtered_data.empty:
-    POSTS_PER_PAGE = 5
-    total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
+with left_col:
+    st.subheader("Filters")
+    selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
+    selected_hashtag = f"#{selected_label}"
     
-    # Align page number input and label horizontally
-    col1, col2 = st.columns([2, 3])
-    with col1:
-        page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
-    with col2:
-        st.write(f"of {total_pages}")
+    st.subheader("Date Range")
+    start_date = st.date_input("Start Date", value=data['Time'].min().date())
+    end_date = st.date_input("End Date", value=data['Time'].max().date())
     
-    start_idx = (page_number - 1) * POSTS_PER_PAGE
-    end_idx = start_idx + POSTS_PER_PAGE
+    st.subheader("Search")
+    search_query = st.text_input("Search posts")
     
-    for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
-        create_post(
-            timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
-            llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
-            image_url=row['Image'],
-            hashtags=row['Hashtags'],
-            content=remove_markdown_formatting(row['Post']),
-            model=row['Model'],
-            link=row['Link'],
-            prompt=row['Prompt'],
-            input=row['Input']
-        )
-else:
-    st.write("No posts found for the selected criteria.")
+    if st.button("Refresh Data"):
+        st.cache_data.clear()
+        st.rerun()
 
-st.markdown('</div>', unsafe_allow_html=True)
+with right_col:
+    st.subheader("Statistics")
+    total_posts = len(data)
+    last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
+    first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
+    last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
 
-# Right Column
-st.markdown('<div class="column right-column">', unsafe_allow_html=True)
-st.subheader("Statistics")
-total_posts = len(data)
-last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
-first_post_time = data['Time'].min().strftime("%H:%M on %d-%m-%Y")
-last_gen_time = data['LLM Timestamp'].max().strftime("%H:%M on %d-%m-%Y")
+    st.markdown(f"""
+    - **Total Posts:** {total_posts}
+    - **Last Post:** {last_post_time}
+    - **First Post:** {first_post_time}
+    - **Last Generated:** {last_gen_time}
+    """)
 
-st.markdown(f"""
-- **Total Posts:** {total_posts}
-- **Last Post:** {last_post_time}
-- **First Post:** {first_post_time}
-- **Last Generated:** {last_gen_time}
-""")
+    st.subheader("About")
+    st.markdown("""
+    This app is a demo frontend for displaying a feed of posts as they get updated.
+    """)
 
-st.subheader("About")
-st.markdown("""
-This app is a demo frontend for displaying a feed of posts as they get updated.
-""")
-st.markdown('</div>', unsafe_allow_html=True)
+# Middle column with scrollable content
+with middle_col:
+    # Filter data
+    filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
+    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
+    if search_query:
+        filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
 
-# Close the main container
-st.markdown('</div>', unsafe_allow_html=True)
+    # Pagination
+    if not filtered_data.empty:
+        POSTS_PER_PAGE = 5
+        total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
+        
+        col1, col2 = st.columns([2, 3])
+        with col1:
+            page_number = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
+        with col2:
+            st.write(f"of {total_pages}")
+        
+        start_idx = (page_number - 1) * POSTS_PER_PAGE
+        end_idx = start_idx + POSTS_PER_PAGE
+        
+        # Create a container for scrollable content
+        scrollable_content = st.empty()
+        
+        with scrollable_content.container():
+            for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
+                create_post(
+                    timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
+                    llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
+                    image_url=row['Image'],
+                    hashtags=row['Hashtags'],
+                    content=remove_markdown_formatting(row['Post']),
+                    model=row['Model'],
+                    link=row['Link'],
+                    prompt=row['Prompt'],
+                    input=row['Input']
+                )
+    else:
+        st.write("No posts found for the selected criteria.")
 
 # Footer
 st.markdown("---")
