@@ -4,6 +4,12 @@ import pandas as pd
 import re
 import datetime
 from dateutil.relativedelta import relativedelta
+import yaml
+import logging
+
+from utils.data_loading import load_data_sources
+from utils.post_processing import remove_markdown_formatting, clean_hashtags
+from utils.ui_components import create_post
 
 def convert_to_datetime(dt):
     """Converts a string or other formats to a datetime object if necessary."""
@@ -54,7 +60,7 @@ def load_sifted_data():
 def load_scape_data():
     return pd.read_csv('databases/scape.csv')  # Medscape data
 
-@st.cache_data
+@st.cache_data(ttl=3600)  # Cache data for 1 hour
 def load_firebase():
     """
     Load data from LLM csv and return it as a Pandas DataFrame.
@@ -101,7 +107,7 @@ def determine_source(link):
         return "Unknown Source"
 
 # Improved Hashtag Cleaning Function to Handle Array Inputs
-def clean_hashtags(hashtag_string):
+def clean_hashtags(hashtag_string: str) -> List[str]:
     """
     Clean and format hashtags, handling cases where hashtags might already be an array.
 
@@ -244,11 +250,21 @@ if selected_hashtag:
     # Filter the data based on the selected hashtag
     filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
 
+# Search functionality
+search_query = st.sidebar.text_input("Search posts")
+if search_query:
+    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
+
 # Display posts in a scrolling feed
 if filtered_data.empty:
     st.write("No posts found for the selected date range and category.")
 else:
-    for _, row in filtered_data.iterrows():
+    POSTS_PER_PAGE = 10
+    page_number = st.number_input("Page", min_value=1, value=1)
+    start_idx = (page_number - 1) * POSTS_PER_PAGE
+    end_idx = start_idx + POSTS_PER_PAGE
+
+    for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
         create_post(
             timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
             llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
@@ -260,3 +276,17 @@ else:
             prompt=row['Prompt'],
             input=row['Input']
         )
+
+if st.sidebar.button("Refresh Data"):
+    st.cache_data.clear()
+    st.experimental_rerun()
+
+try:
+    # Your main app code
+except Exception as e:
+    logging.error(f"An error occurred: {str(e)}")
+    st.error("An unexpected error occurred. Please check the logs.")
+
+# Add a footer
+st.markdown("---")
+st.markdown("Built with ❤️ by Team Peerr")
