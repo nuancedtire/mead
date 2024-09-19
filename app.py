@@ -190,9 +190,9 @@ meds = load_meds_data()
 sifted = load_sifted_data()
 scape = load_scape_data()
 data = load_firebase()
+
 # Sidebar with various filters and statistics
 with st.sidebar:
-
     # Display statistics
     total_posts = len(data)
     last_post_time = data['Time'].max().strftime("%H:%M on %d-%m-%Y")
@@ -201,35 +201,31 @@ with st.sidebar:
 
     st.sidebar.success(f"**Total Posts:** *{total_posts}*  \n**Last Post:** *{last_post_time}*  \n**First Post:** *{first_post_time}*  \n**Last Gen:** *{last_gen_time}*")
 
-# Sidebar description
-st.sidebar.markdown("""Hello Team Peerr!
+    # Sidebar description
+    st.sidebar.markdown("""Hello Team Peerr!
 
-This app is a demo frontend for displaying a feed of posts as they get updated.
-""")
+    This app is a demo frontend for displaying a feed of posts as they get updated.
+    """)
+
+    # Add date input widgets here
+    st.header("Filter by Date")
+    start_date = st.date_input("Start Date", value=data['Time'].min().date())
+    end_date = st.date_input("End Date", value=data['Time'].max().date())
+
+    # Search functionality
+    search_query = st.text_input("Search posts")
 
 # Apply cleaning function to 'Hashtags' column
 data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
 
-# Extract unique hashtags and create a multi-select widget
-# unique_hashtags = set(sum(data['Hashtags'].tolist(), []))
 # List of hashtags with # symbols
 unique_hashtags = ["#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
 
 # Remove # from the labels for radio button
 clean_labels = [tag[1:] for tag in unique_hashtags]
 
-# Move these lines before the column creation
 # Filter data by date range
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
-
-# Apply category filter
-if selected_hashtag:
-    filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
-
-# Search functionality
-search_query = st.sidebar.text_input("Search posts")
-if search_query:
-    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
 
 # Now create the columns
 col1, col2 = st.columns([3, 7])
@@ -239,6 +235,13 @@ with col1:
     selected_label = st.radio("Select Category", options=clean_labels, horizontal=False)
     # Map the selected label back to the hashtag value (with # symbol)
     selected_hashtag = f"#{selected_label}"
+
+# Apply category filter
+filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: selected_hashtag in x)]
+
+# Apply search filter
+if search_query:
+    filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
 
 with col2:
     if not filtered_data.empty:
