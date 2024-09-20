@@ -2488,3 +2488,17 @@
 2024-09-20 12:37:11,377 - INFO - Existing CSV file loaded.
 2024-09-20 12:37:11,377 - INFO - No new links found, CSV file is up to date.
 2024-09-20 12:37:11,377 - INFO - Medscape script completed.
+2024-09-20 13:04:52,623 - INFO - Medscape script started.
+2024-09-20 13:04:52,624 - INFO - Connection to Medscape established.
+2024-09-20 13:04:52,734 - INFO - Request sent to Medscape API.
+2024-09-20 13:04:53,140 - INFO - Response received from Medscape API.
+2024-09-20 13:04:53,140 - INFO - Response data decoded into dictionary.
+2024-09-20 13:04:53,144 - INFO - Existing CSV file loaded.
+2024-09-20 13:04:53,144 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr
+2024-09-20 13:04:53,144 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr
+2024-09-20 13:04:56,415 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr.
+2024-09-20 13:04:57,236 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-20 13:04:57,239 - INFO - Received response from OpenAI API.
+2024-09-20 13:04:57,239 - INFO - Attempt 1 succeeded with link: https://www.mdpi.com/2072-6643/16/17/3039
+2024-09-20 13:04:57,242 - INFO - CSV file updated with new data.
+2024-09-20 13:04:57,242 - INFO - Medscape script completed.
