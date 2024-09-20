@@ -142,7 +142,6 @@ def generate_post(inputs):
     link = inputs["link"]
     original_timestamp = inputs["original_timestamp"]
     processed_links = inputs["processed_links"]
-    image_links = inputs["image_links"]
 
     # Step 1: Check if the content is an article
     check_article_prompt = ChatPromptTemplate.from_messages(
@@ -193,15 +192,14 @@ def generate_post(inputs):
     image_query = get_image_query(parsed_response.post_content, small_llm)
     logging.info(f"Image query: {image_query}")
 
-    # Fetch unique image
-    image_link = get_unique_image(pexels_api_key, image_query, image_links)
-    # No need to check if image_link is None, as it will always be a string (empty if no image found)
+    # Fetch image
+    image_link = get_image(image_query)
+    logging.info(f"Image link: {image_link}")
 
     # Combine category and hashtags
     combined_hashtags = [parsed_response.category] + parsed_response.hashtags
     # Append the processed information to processed_links
     processed_links.append({"Image": image_link})
-    logging.info(f"Image link: {image_link}")
 
     post_content = remove_markdown_formatting(parsed_response.post_content)
 
@@ -260,32 +258,38 @@ Output:
     image_query_response = image_query_chain.invoke({"input": post_content})
     return image_query_response.content.strip()
 
+# Add Fal AI integration
+import fal_client
+
+os.environ['FAL_KEY'] = 'YOUR_API_KEY'  # Replace with your actual API key
+
 @retry(
     stop=stop_after_attempt(3),
     wait=wait_exponential(multiplier=1, min=4, max=10),
     retry=retry_if_exception_type(RequestException)
 )
-def get_unique_image(api_key, image_query, image_links):
-    headers = {"Authorization": api_key}
-    url = "https://api.pexels.com/v1/search"
-    params = {"query": image_query, "per_page": 10, "page": 1}
-
+def get_fal_ai_image(image_query):
     try:
-        response = requests.get(url, headers=headers, params=params)
-        response.raise_for_status()
-        data = response.json()
-        if data.get("photos"):
-            for photo in data["photos"]:
-                potential_image_link = photo["src"]["original"]
-                if not any(normalize_url(link) == normalize_url(potential_image_link) for link in image_links):
-                    return potential_image_link
-            logging.warning(f"No unique image found for query '{image_query}'. Using fallback.")
-        else:
-            logging.warning(f"No photos returned from Pexels for query '{image_query}'. Using fallback.")
-    except RequestException as e:
-        logging.error(f"Error fetching image for query '{image_query}': {str(e)}. Using fallback.")
-    
-    return ""  # Fallback to empty string if no image is found or there's an error
+        handler = fal_client.submit(
+            "fal-ai/flux/schnell",
+            arguments={
+                "prompt": image_query
+            },
+        )
+        result = handler.get()
+        image_url = result['images'][0]['url']
+        logging.info(f"Successfully generated image with Fal AI: {image_url}")
+        return image_url
+    except Exception as e:
+        logging.error(f"Error generating image with Fal AI: {str(e)}")
+        return ""
+
+# Replace the get_unique_image function with this simplified version
+def get_image(image_query):
+    image_link = get_fal_ai_image(image_query)
+    if not image_link:
+        logging.warning(f"No image generated for query '{image_query}'. Using fallback.")
+    return image_link
 
 def normalize_url(url):
     if not url:
@@ -328,43 +332,46 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         print(f"Error logging data to CSV: {e}")
 
 def send_to_firebase(batch_log_entries, url="https://flask-app-923186021986.us-central1.run.app/post"):
-    try:
-        batch_data = []
-        for log_entry in batch_log_entries:
-            if not log_entry.get("generated_post"):
-                logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
-                continue
-            audience = "HCP (inc. Students)" if "medscape" in log_entry["generated_post"][5] else "General"
-            post_data = {
-                "imageURL": log_entry["generated_post"][4],
-                "hashtags": log_entry["generated_post"][3],
-                "source": log_entry["generated_post"][5],
-                "post": log_entry["generated_post"][2],
-                "audience": audience,
-            }
-            batch_data.append(post_data)
-        if not batch_data:
-            logging.error("No valid log entries to send to Firebase.")
-            return None
-        headers = {"Content-Type": "application/json", "x-api-key": "fazzu"}
-        response = requests.post(url, json={"posts": batch_data}, headers=headers)
-        if response.status_code == 201:
-            result = response.json()
-            document_ids = result.get("documentIDs", [])
-            logging.info(f"Successfully sent batch data to Firebase: {result}")
-            if len(document_ids) != len(batch_log_entries):
-                logging.error(
-                    f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries)} entries."
-                )
-                return None
-            return document_ids
-        else:
-            logging.error(f"Failed to send batch data to Firebase. Status code: {response.status_code}, Response: {response.text}")
-            return None
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Error sending batch data to Firebase: {e}")
-        return None
-
+    # try:
+    #     batch_data = []
+    #     for log_entry in batch_log_entries:
+    #         if not log_entry.get("generated_post"):
+    #             logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+    #             continue
+    #         audience = "HCP (inc. Students)" if "medscape" in log_entry["generated_post"][5] else "General"
+    #         post_data = {
+    #             "imageURL": log_entry["generated_post"][4],
+    #             "hashtags": log_entry["generated_post"][3],
+    #             "source": log_entry["generated_post"][5],
+    #             "post": log_entry["generated_post"][2],
+    #             "audience": audience,
+    #         }
+    #         batch_data.append(post_data)
+    #     if not batch_data:
+    #         logging.error("No valid log entries to send to Firebase.")
+    #         return None
+    #     headers = {"Content-Type": "application/json", "x-api-key": "fazzu"}
+    #     response = requests.post(url, json={"posts": batch_data}, headers=headers)
+    #     if response.status_code == 201:
+    #         result = response.json()
+    #         document_ids = result.get("documentIDs", [])
+    #         logging.info(f"Successfully sent batch data to Firebase: {result}")
+    #         if len(document_ids) != len(batch_log_entries):
+    #             logging.error(
+    #                 f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries)} entries."
+    #             )
+    #             return None
+    #         return document_ids
+    #     else:
+    #         logging.error(f"Failed to send batch data to Firebase. Status code: {response.status_code}, Response: {response.text}")
+    #         return None
+    # except requests.exceptions.RequestException as e:
+    #     logging.error(f"Error sending batch data to Firebase: {e}")
+    #     return None
+    # Placeholder for Firebase sending
+    logging.info(f"Placeholder: Would have sent {len(batch_log_entries)} entries to Firebase.")
+    # Return placeholder document IDs
+    return [f"placeholder_id_{i}" for i in range(len(batch_log_entries))]
 # =====================
 #  Main Logic
 # =====================
@@ -387,10 +394,8 @@ def main():
     llm_file_path = "databases/llm.csv"
     if os.path.exists(llm_file_path):
         llm_links = [normalize_url(entry["Link"]) for entry in extract_links(read_csv(llm_file_path))]
-        image_links = extract_image_links(read_csv(llm_file_path))
     else:
         llm_links = []
-        image_links = []
     combined_links = get_unique_links(csv_files, llm_links)
     logging.info(f"Unique links to process: {len(combined_links)}")
     print(f"Unique links to process: {len(combined_links)}")
@@ -417,7 +422,6 @@ def main():
             "link": link,
             "original_timestamp": link_info.get("Time"),
             "processed_links": [],
-            "image_links": image_links,
         }
         log_entry = generate_post(inputs)
         if log_entry and log_entry.get("status") == "success":
@@ -430,13 +434,10 @@ def main():
         document_ids = send_to_firebase(batch_log_entries)
         if document_ids:
             logging.info(f"Received {len(document_ids)} document IDs from Firebase.")
-        else:
-            logging.error("No document IDs returned from Firebase.")
-        if document_ids and len(document_ids) == len(batch_log_entries):
             for log_entry, document_id in zip(batch_log_entries, document_ids):
                 log_to_csv_pandas(log_entry, document_id)
         else:
-            logging.error("No document IDs returned from Firebase, or mismatch in the number of entries. Skipping CSV logging.")
+            logging.warning("No document IDs returned from Firebase. Skipping CSV logging.")
     else:
         logging.info("No valid log entries generated.")
 
