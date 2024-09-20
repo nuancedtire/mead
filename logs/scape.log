@@ -2502,3 +2502,11 @@
 2024-09-20 13:04:57,239 - INFO - Attempt 1 succeeded with link: https://www.mdpi.com/2072-6643/16/17/3039
 2024-09-20 13:04:57,242 - INFO - CSV file updated with new data.
 2024-09-20 13:04:57,242 - INFO - Medscape script completed.
+2024-09-20 13:32:35,285 - INFO - Medscape script started.
+2024-09-20 13:32:35,285 - INFO - Connection to Medscape established.
+2024-09-20 13:32:35,389 - INFO - Request sent to Medscape API.
+2024-09-20 13:32:35,762 - INFO - Response received from Medscape API.
+2024-09-20 13:32:35,762 - INFO - Response data decoded into dictionary.
+2024-09-20 13:32:35,766 - INFO - Existing CSV file loaded.
+2024-09-20 13:32:35,766 - INFO - No new links found, CSV file is up to date.
+2024-09-20 13:32:35,766 - INFO - Medscape script completed.
