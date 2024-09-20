@@ -19,8 +19,8 @@ from langchain_community.cache import SQLiteCache
 from langchain_core.globals import set_llm_cache
 from operator import itemgetter
 from pydantic import BaseModel, Field, ValidationError
-from tenacity import retry, stop_after_delay, wait_exponential, retry_if_exception, before_sleep_log
-
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from requests.exceptions import RequestException
 
 # =====================
 #  Logging Setup
@@ -110,23 +110,13 @@ def remove_markdown_formatting(text):
     text = re.sub(r"^\s*#+\s+", "", text, flags=re.MULTILINE)
     return text
 
-# Configure logging for tenacity retries
-logging.getLogger('tenacity').setLevel(logging.DEBUG)
-
-def is_429_error(exception):
-    return isinstance(exception, requests.exceptions.HTTPError) and exception.response.status_code == 429
-
 @retry(
-    retry=retry_if_exception(is_429_error),
-    wait=wait_exponential(multiplier=1, min=4, max=60),
-    stop=stop_after_delay(300),
-    before_sleep=before_sleep_log(logging.getLogger('tenacity'), logging.WARNING)
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=4, max=10),
+    retry=retry_if_exception_type(RequestException)
 )
 def fetch_url_content(url):
     response = requests.get(url)
-    if response.status_code == 429:
-        logging.warning(f"Received 429 Too Many Requests for URL: {url}")
-        raise requests.exceptions.HTTPError(response=response)
     response.raise_for_status()
     return response.text
 
@@ -205,16 +195,13 @@ def generate_post(inputs):
 
     # Fetch unique image
     image_link = get_unique_image(pexels_api_key, image_query, image_links)
-    if not image_link:
-        logging.error(f"No unique image found for link {link}. Using fallback image.")
-        print(f"No unique image found for link {link}. Using fallback image.")
-        image_link = ""  # Use empty string to indicate no image found
+    # No need to check if image_link is None, as it will always be a string (empty if no image found)
 
     # Combine category and hashtags
     combined_hashtags = [parsed_response.category] + parsed_response.hashtags
     # Append the processed information to processed_links
     processed_links.append({"Image": image_link})
-    logging.info(f"Unique image link: {image_link}")
+    logging.info(f"Image link: {image_link}")
 
     post_content = remove_markdown_formatting(parsed_response.post_content)
 
@@ -273,47 +260,33 @@ Output:
     image_query_response = image_query_chain.invoke({"input": post_content})
     return image_query_response.content.strip()
 
-def is_retryable_pexels_error(exception):
-    return isinstance(exception, requests.exceptions.HTTPError) and exception.response.status_code in [429, 503]
-
 @retry(
-    retry=retry_if_exception(is_retryable_pexels_error),
-    wait=wait_exponential(multiplier=1, min=4, max=60),
-    stop=stop_after_delay(300),
-    before_sleep=before_sleep_log(logging.getLogger('tenacity'), logging.WARNING)
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=4, max=10),
+    retry=retry_if_exception_type(RequestException)
 )
 def get_unique_image(api_key, image_query, image_links):
     headers = {"Authorization": api_key}
     url = "https://api.pexels.com/v1/search"
     params = {"query": image_query, "per_page": 10, "page": 1}
 
-    response = requests.get(url, headers=headers, params=params)
-    if response.status_code in [429, 503]:
-        logging.warning(f"Received {response.status_code} from Pexels API for query '{image_query}'. Retrying...")
-        raise requests.exceptions.HTTPError(response=response)
-    elif response.status_code == 403:
-        logging.error("Invalid API key or access forbidden for Pexels API.")
-        print("Invalid API key or access forbidden for Pexels API.")
-        return ""
-    elif response.status_code == 200:
+    try:
+        response = requests.get(url, headers=headers, params=params)
+        response.raise_for_status()
         data = response.json()
         if data.get("photos"):
             for photo in data["photos"]:
                 potential_image_link = photo["src"]["original"]
                 if not any(normalize_url(link) == normalize_url(potential_image_link) for link in image_links):
                     return potential_image_link
-            logging.error(f"No unique image found for query '{image_query}'.")
-            print(f"No unique image found for query '{image_query}'.")
-            return ""
+            logging.warning(f"No unique image found for query '{image_query}'. Using fallback.")
         else:
-            logging.error(f"No photos returned from Pexels for query '{image_query}'.")
-            print(f"No photos returned from Pexels for query '{image_query}'.")
-            return ""
-    else:
-        logging.error(f"Image request failed with status code {response.status_code} for query '{image_query}'.")
-        print(f"Image request failed with status code {response.status_code} for query '{image_query}'.")
-        return ""
-        
+            logging.warning(f"No photos returned from Pexels for query '{image_query}'. Using fallback.")
+    except RequestException as e:
+        logging.error(f"Error fetching image for query '{image_query}': {str(e)}. Using fallback.")
+    
+    return ""  # Fallback to empty string if no image is found or there's an error
+
 def normalize_url(url):
     if not url:
         return None
