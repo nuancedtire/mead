@@ -211,7 +211,7 @@ def generate_post(inputs):
         image_link = ""  # Use empty string to indicate no image found
 
     # Combine category and hashtags
-    combined_hashtags = [parsed_response.category] + [hashtag.value for hashtag in parsed_response.hashtags]
+    combined_hashtags = [parsed_response.category] + parsed_response.hashtags
     # Append the processed information to processed_links
     processed_links.append({"Image": image_link})
     logging.info(f"Unique image link: {image_link}")
