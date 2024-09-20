@@ -2532,3 +2532,11 @@
 2024-09-20 14:18:46,802 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
 2024-09-20 14:18:46,805 - INFO - CSV file updated with new data.
 2024-09-20 14:18:46,805 - INFO - Medscape script completed.
+2024-09-20 14:40:15,338 - INFO - Medscape script started.
+2024-09-20 14:40:15,339 - INFO - Connection to Medscape established.
+2024-09-20 14:40:15,413 - INFO - Request sent to Medscape API.
+2024-09-20 14:40:15,991 - INFO - Response received from Medscape API.
+2024-09-20 14:40:15,991 - INFO - Response data decoded into dictionary.
+2024-09-20 14:40:15,995 - INFO - Existing CSV file loaded.
+2024-09-20 14:40:15,995 - INFO - No new links found, CSV file is up to date.
+2024-09-20 14:40:15,995 - INFO - Medscape script completed.
