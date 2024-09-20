@@ -2518,3 +2518,17 @@
 2024-09-20 13:52:29,957 - INFO - Existing CSV file loaded.
 2024-09-20 13:52:29,957 - INFO - No new links found, CSV file is up to date.
 2024-09-20 13:52:29,957 - INFO - Medscape script completed.
+2024-09-20 14:18:40,355 - INFO - Medscape script started.
+2024-09-20 14:18:40,355 - INFO - Connection to Medscape established.
+2024-09-20 14:18:40,458 - INFO - Request sent to Medscape API.
+2024-09-20 14:18:40,858 - INFO - Response received from Medscape API.
+2024-09-20 14:18:40,858 - INFO - Response data decoded into dictionary.
+2024-09-20 14:18:40,862 - INFO - Existing CSV file loaded.
+2024-09-20 14:18:40,862 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-20 14:18:40,862 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-20 14:18:45,603 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv.
+2024-09-20 14:18:46,800 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-20 14:18:46,802 - INFO - Received response from OpenAI API.
+2024-09-20 14:18:46,802 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-20 14:18:46,805 - INFO - CSV file updated with new data.
+2024-09-20 14:18:46,805 - INFO - Medscape script completed.
