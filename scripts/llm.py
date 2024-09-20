@@ -44,6 +44,7 @@ large_model_name = config.llm_config["large_model"]
 system_message = config.llm_config["system_prompt"]
 hashtags = config.llm_config["hashtags"]
 pexels_api_key = "zeaB9f5KanEeG8emVGlw9YlBQLCl0MbuG8KFqmOAfgaKispTcwMrBXqX"
+os.environ['FAL_KEY'] = '74a025a1-190d-41e5-bd1a-c562f9b60293:3e6729b020fd14f6c6e409b7e08836a0'
 
 # =====================
 #  OpenAI API Setup and Caching
@@ -229,27 +230,28 @@ def get_image_query(post_content, model):
                 "system",
                 """Task:
 
-Analyze the following social media post related to medicine or healthcare and generate a precise, relevant search term for a stock image library (e.g., Pexels). The search term must accurately capture the post's core message and content.
+Analyze the following social media post related to medicine or healthcare and generate a vivid, detailed prompt for image generation that captures the post's core message and content.
 
 Guidelines:
 
-  1. Focus on the Core Medical Topic and Setting:
-  -  Use clear, broad terms that reflect the main medical subject (e.g., "cancer treatment," "telemedicine").
-  -  Match the search term to the clinical or healthcare setting described (e.g., "doctor-patient consultation," "medical research lab").
-  2. Ensure Clarity and Visual Appeal:
-  -  Distill complex medical concepts into simple, recognizable terms that are easy to visualize (e.g., "autoimmune disease").
-  -  Avoid highly technical names, specific drug terms, or ambiguous language.
-  3. Reflect the Post's Tone and Intent:
-  -  Align the search term with the tone of the post—serious, educational, inspirational, etc.
-  4. Use Common Stock Image Keywords:
-  -  Choose terms commonly used in stock image libraries to increase the likelihood of finding relevant images.
-  5. Maintain Appropriateness:
-  -  Ensure the search term is respectful and avoids any disallowed or sensitive content.
+1. Focus on the Core Medical Topic and Setting:
+   - Identify the main medical subject and setting described in the post.
+2. Create a Vivid and Detailed Description:
+   - Craft a captivating and imaginative description that includes visual details, emotions, and atmosphere.
+   - Use descriptive language to paint a clear and engaging image.
+3. Reflect the Post's Tone and Intent:
+   - Align the prompt with the tone of the post—serious, educational, inspirational, etc.
+4. Incorporate Artistic Elements:
+   - Include stylistic elements or artistic styles if appropriate (e.g., "cinematic," "watercolor painting," "surreal").
+5. Use Relevant Keywords:
+   - Add keywords that enhance the prompt and guide image generation tools.
+6. Maintain Appropriateness:
+   - Ensure the prompt is respectful and avoids any disallowed or sensitive content.
 
 Output:
 
-  - Return only the short concise search term that would most effectively guide the image search.
-  - Do not include any additional text or explanations.""",
+- Provide the vivid, detailed prompt that effectively captures the essence of the social media post.
+- Do not include any additional text or explanations.""",
             ),
             ("user", "{input}"),
         ]
@@ -260,8 +262,6 @@ Output:
 
 # Add Fal AI integration
 import fal_client
-
-os.environ['FAL_KEY'] = 'YOUR_API_KEY'  # Replace with your actual API key
 
 @retry(
     stop=stop_after_attempt(3),
@@ -288,7 +288,8 @@ def get_fal_ai_image(image_query):
 def get_image(image_query):
     image_link = get_fal_ai_image(image_query)
     if not image_link:
-        logging.warning(f"No image generated for query '{image_query}'. Using fallback.")
+        logging.warning(f"No image generated for query '{image_query}'. Quittin'.")
+        return None
     return image_link
 
 def normalize_url(url):
