@@ -140,7 +140,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     """
     # Use fallback image if no image URL is provided
     is_fallback_image = False
-    if not image_url:
+    if not isinstance(image_url, str) or not image_url:
         image_url = fallback_image_url
         is_fallback_image = True
     source = determine_source(link)
