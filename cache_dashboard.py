@@ -200,7 +200,7 @@ search_query = st.text_input("Search in responses", "")
 # Pagination
 entries_per_page = 10
 total_pages = (len(filtered_data) - 1) // entries_per_page + 1
-page = st.number_input("Page", min_value=1, max_value=total_pages, value=1)
+page = st.number_input(f"Page (of {total_pages})", min_value=1, max_value=total_pages, value=1)
 
 start_idx = (page - 1) * entries_per_page
 end_idx = start_idx + entries_per_page
