@@ -156,7 +156,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         else:
             if "pexels.com" in image_url:
                 st.caption(f"Image courtesy [Pexels]({image_url})")
-            elif "fal.ai" in image_url:
+            elif "fal.media" in image_url:
                 st.caption(f"Image courtesy [Peerr AI]({image_url})")
             else:
                 st.caption(f"Image source: {image_url}")
