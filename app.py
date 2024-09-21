@@ -40,7 +40,7 @@ def clean_hashtags(hashtag_string):
 
     # If it's a string, remove unwanted characters and split by commas
     hashtags = hashtag_string.replace("[", "").replace("]", "").replace("'", "").split(',')
-    return [f"#{tag.strip()}" for tag in hashtags]
+    return [f"{tag.strip()}" for tag in hashtags]
 
 def convert_to_datetime(dt):
     """Converts a string or other formats to a datetime object if necessary."""
