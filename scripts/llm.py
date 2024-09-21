@@ -131,7 +131,7 @@ def fetch_url_content(url):
 class PostResponse(BaseModel):
     """Ready to use Social Media Post"""
     post_content: str = Field(..., description="The final generated post content in plain text without any hashtags.")
-    hashtags: List[str] = Field(..., description="A list of relevant hashtags for the post.")
+    hashtags: List[str] = Field(..., description="A list of relevant hashtags for the post. For example, Cardiology, HealthcarePolicy")
     category: Literal["Life Sciences & BioTech", "Research & Clinical Trials", "HealthTech & Startups", "Healthcare & Policy"] = Field(..., description="The category that fits the post best.")
 
 # =====================
