@@ -91,14 +91,18 @@ def load_sifted_data():
 def load_scape_data():
     return pd.read_csv('databases/scape.csv')  # Medscape data
 
+@st.cache_data
+def load_nice_data():
+    return pd.read_csv('databases/nice.csv')  # Nice data
+
 @st.cache_data(ttl=3600)  # Cache data for 1 hour
 def load_firebase():
     """
     Load data from LLM csv and return it as a Pandas DataFrame.
     """
     data = pd.read_csv('databases/llm.csv')
-    data['Time'] = pd.to_datetime(data['Time'])
-    data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'])
+    data['Time'] = pd.to_datetime(data['Time'], format='mixed')
+    data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'], format='mixed')
     data = data.sort_values(by='Time', ascending=False)
     return data
 
@@ -119,6 +123,8 @@ def determine_source(link):
         return "Sifted"
     elif link in scape['Link'].values:
         return "Medscape"
+    elif link in nice['Link'].values:
+        return "NICE UK"
     else:
         return "Unknown Source"
 
@@ -193,6 +199,7 @@ st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="wide")
 meds = load_meds_data()
 sifted = load_sifted_data()
 scape = load_scape_data()
+nice = load_nice_data()
 data = load_firebase()
 
 # Apply cleaning function to 'Hashtags' column

@@ -391,7 +391,7 @@ def send_to_firebase(batch_log_entries, url="https://flask-app-923186021986.us-c
     #         if not log_entry.get("generated_post"):
     #             logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
     #             continue
-    #         audience = "HCP (inc. Students)" if "medscape" in log_entry["generated_post"][5] else "General"
+    #         audience = "HCP (inc. Students)" if "medscape" or "nice" in log_entry["generated_post"][5] else "General"
     #         post_data = {
     #             "imageURL": log_entry["generated_post"][4],
     #             "hashtags": log_entry["generated_post"][3],
@@ -443,7 +443,7 @@ def get_unique_links(csv_files, llm_links):
 
 def main():
     setup_logger()
-    csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv"]
+    csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv", "databases/nice.csv"]
     llm_file_path = "databases/llm.csv"
     if os.path.exists(llm_file_path):
         llm_links = [normalize_url(entry["Link"]) for entry in extract_links(read_csv(llm_file_path))]

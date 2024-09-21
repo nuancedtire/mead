@@ -3,7 +3,7 @@ import os
 
 def run_all_scrapers():
     scraper_dir = 'scripts'
-    excluded_files = ['config.py']  # Exclude update_.py and config.py
+    excluded_files = ['base_scraper.py', 'config.py']  # Exclude update_.py and config.py
     
     # Run update_*.py scripts
     for filename in os.listdir(scraper_dir):
