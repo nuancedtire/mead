@@ -228,32 +228,51 @@ def get_image_query(post_content, model):
         [
             (
                 "system",
-                """Task:
+                """**Task:**
 
-Analyze the following social media post related to medicine or healthcare and generate a vivid, detailed prompt for image generation that captures the post's core message and content.
+Analyze the following social media post related to medicine or healthcare and generate a vivid, detailed image prompt that captures the essence of the post. The image prompt should guide AI image generation models to create compelling, photorealistic, and visually striking images that effectively communicate the core message of the post.
 
-Guidelines:
+**Guidelines:**
 
-1. Focus on the Core Medical Topic and Setting:
-   - Identify the main medical subject and setting described in the post.
-2. Create a Vivid and Detailed Description:
-   - Craft a captivating and imaginative description that includes visual details, emotions, and atmosphere.
-   - Use descriptive language to paint a clear and engaging image.
-3. Reflect the Post's Tone and Intent:
-   - Align the prompt with the tone of the post—serious, educational, inspirational, etc.
-4. Incorporate Artistic Elements:
-   - Include stylistic elements or artistic styles if appropriate (e.g., "cinematic," "watercolor painting," "surreal").
-5. Use Relevant Keywords:
-   - Add keywords that enhance the prompt and guide image generation tools.
-6. Maintain Appropriateness:
-   - Ensure the prompt is respectful and avoids any disallowed or sensitive content.
+1. **Identify the Core Medical Topic and Context:**
+   - Determine the main subject and its significance (e.g., clinical trial results, healthcare policy updates).
+   - Use precise and relevant terms reflecting the central message.
 
-Output:
+2. **Be Specific and Descriptive:**
+   - Provide detailed descriptions of key elements, including people, settings, and symbolic representations.
+   - Focus on creating a coherent and impactful image without relying on text.
 
-- Provide the vivid, detailed prompt that effectively captures the essence of the social media post.
-- Do not include any additional text or explanations.""",
+3. **Specify Photorealistic Style:**
+   - Emphasize a photorealistic visual aesthetic for maximum realism and impact.
+   - Avoid illustrative or overly stylized representations.
+
+4. **Consider Composition and Perspective:**
+   - Arrange elements to highlight the main message, using focal points and dynamic angles.
+   - Use perspectives that enhance engagement, such as close-ups or wide-angle shots.
+
+5. **Utilize Lighting and Color Palette:**
+   - Indicate lighting that complements the mood (e.g., bright for positive news, subdued for serious updates).
+   - Choose a color palette that aligns with medical and tech themes.
+
+6. **Convey Mood and Emphasis:**
+   - Reflect the emotional tone of the news (e.g., hopeful, urgent).
+   - Use visual cues to convey importance.
+
+7. **Maintain Appropriateness and Sensitivity:**
+   - Ensure the image is respectful and avoids disallowed or sensitive content.
+   - Avoid graphic depictions or distressing imagery.
+   - Avoid text in the image, a word or two if absolutely necessary.
+
+**Example Prompt:**
+
+"Capture a street food vendor in Tokyo at night, shot with a wide-angle lens (24mm) at f/1.8. Use a shallow depth of field to focus on the vendor’s hands preparing takoyaki, with the glowing street signs and bustling crowd blurred in the background. High ISO setting to capture the ambient light, giving the image a slight grain for a cinematic feel."
+""",
             ),
-            ("user", "{input}"),
+            ("user", """Please generate the image prompt accordingly.
+
+Social Media Post
+---
+{input}"""),
         ]
     )
     image_query_chain = image_query_prompt | model
@@ -273,7 +292,11 @@ def get_fal_ai_image(image_query):
         handler = fal_client.submit(
             "fal-ai/flux/schnell",
             arguments={
-                "prompt": image_query
+                "prompt": image_query,
+                "image_size": "landscape_4_3",
+                "num_inference_steps": 4,
+                "num_images": 1,
+                "enable_safety_checker": True
             },
         )
         result = handler.get()
