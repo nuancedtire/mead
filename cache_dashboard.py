@@ -128,10 +128,6 @@ for i, row in enumerate(rows):
 # Sidebar
 st.sidebar.title("Dashboard Controls")
 
-# Dark mode toggle
-if st.sidebar.checkbox("Dark Mode"):
-    st.markdown('<style>body {background-color: #1E1E1E; color: #FFFFFF;}</style>', unsafe_allow_html=True)
-
 # Filters
 st.sidebar.subheader("Filters")
 selected_model = st.sidebar.selectbox("Select Model", options=["All"] + list(set(entry['llm_info'].get('model_name') for entry in processed_data)))
@@ -158,38 +154,6 @@ col1.metric("Total Entries", total_entries)
 col2.metric("Total Cost", f"${overall_total_cost:.4f}")
 col3.metric("Total Input Tokens", total_input_tokens)
 col4.metric("Total Output Tokens", total_output_tokens)
-
-# Visualizations
-st.subheader("Visualizations")
-
-# Combined plot: Cost, Tokens, and Model Usage
-fig = go.Figure()
-
-# Cost Distribution
-cost_df = pd.DataFrame([(entry['entry_num'], entry['input_cost'], entry['output_cost']) for entry in filtered_data],
-                       columns=['Entry', 'Input Cost', 'Output Cost'])
-fig.add_trace(go.Bar(x=cost_df['Entry'], y=cost_df['Input Cost'], name='Input Cost', marker_color='blue'))
-fig.add_trace(go.Bar(x=cost_df['Entry'], y=cost_df['Output Cost'], name='Output Cost', marker_color='red'))
-
-# Token Usage
-token_df = pd.DataFrame([(entry['entry_num'], entry['input_tokens'], entry['output_tokens']) for entry in filtered_data],
-                        columns=['Entry', 'Input Tokens', 'Output Tokens'])
-fig.add_trace(go.Scatter(x=token_df['Entry'], y=token_df['Input Tokens'], name='Input Tokens', yaxis='y2', mode='lines+markers'))
-fig.add_trace(go.Scatter(x=token_df['Entry'], y=token_df['Output Tokens'], name='Output Tokens', yaxis='y2', mode='lines+markers'))
-
-# Model Usage
-model_counts = pd.Series([entry['llm_info'].get('model_name') for entry in filtered_data]).value_counts()
-fig.add_trace(go.Pie(labels=model_counts.index, values=model_counts.values, name='Model Usage', domain={'x': [0.8, 1], 'y': [0, 1]}))
-
-fig.update_layout(
-    title='Cost, Tokens, and Model Usage',
-    yaxis=dict(title='Cost ($)'),
-    yaxis2=dict(title='Tokens', overlaying='y', side='right'),
-    barmode='stack',
-    height=600
-)
-
-st.plotly_chart(fig, use_container_width=True)
 
 # Cache entries
 st.subheader("Cache Entries")

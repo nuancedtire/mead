@@ -2,7 +2,7 @@ import os
 import logging
 import requests
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 import config
 import re
 from typing import List, Literal
@@ -21,6 +21,7 @@ from operator import itemgetter
 from pydantic import BaseModel, Field, ValidationError
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from requests.exceptions import RequestException
+import json
 
 # =====================
 #  Logging Setup
@@ -138,11 +139,35 @@ class PostResponse(BaseModel):
 #  OpenAI API and Post Generation
 # =====================
 
+# Add this at the top of the file, after imports
+FAILED_LINKS_FILE = "failed_links.json"
+
+def load_failed_links():
+    try:
+        with open(FAILED_LINKS_FILE, 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+def save_failed_links(failed_links):
+    with open(FAILED_LINKS_FILE, 'w') as f:
+        json.dump(failed_links, f)
+
 def generate_post(inputs):
     webpage_content = inputs["webpage_content"]
     link = inputs["link"]
     original_timestamp = inputs["original_timestamp"]
     processed_links = inputs["processed_links"]
+
+    failed_links = load_failed_links()
+    current_time = datetime.now()
+
+    # Check if the link has failed recently
+    if link in failed_links:
+        last_failed_time = datetime.fromisoformat(failed_links[link])
+        if current_time - last_failed_time < timedelta(hours=2):  # Adjust the time as needed
+            logging.info(f"Skipping recently failed link: {link}")
+            return None
 
     # Step 1: Check if the content is an article
     check_article_prompt = ChatPromptTemplate.from_messages(
@@ -166,12 +191,16 @@ def generate_post(inputs):
     if content_check.lower() == "none":
         logging.info(f"No article found for link {link}.")
         print(f"No article found for link {link}.")
+        failed_links[link] = current_time.isoformat()
+        save_failed_links(failed_links)
         return None
 
     content = content_check
     if not content:
         logging.info(f"Empty content for link {link}.")
         print(f"Empty content for link {link}.")
+        failed_links[link] = current_time.isoformat()
+        save_failed_links(failed_links)
         return None
 
     # Step 2: Generate the post using structured output
@@ -405,6 +434,10 @@ def main():
         print("No unique links to process.")
         return
 
+    # Load failed links
+    failed_links = load_failed_links()
+    current_time = datetime.now()
+
     # Prepare inputs for processing
     batch_log_entries = []
     for link_info in combined_links:
@@ -412,6 +445,14 @@ def main():
         if link is None:
             logging.warning(f"Invalid link found in link_info: {link_info}")
             continue
+
+        # Check if the link has failed recently
+        if link in failed_links:
+            last_failed_time = datetime.fromisoformat(failed_links[link])
+            if current_time - last_failed_time < timedelta(hours=24):  # Adjust the time as needed
+                logging.info(f"Skipping recently failed link: {link}")
+                continue
+
         url = f"http://r.jina.ai/{link}"
         try:
             webpage_content = fetch_url_content(url)
