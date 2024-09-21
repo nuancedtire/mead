@@ -154,8 +154,12 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         if is_fallback_image:
             st.caption("Fallback image")
         else:
-            st.caption(f"Image courtesy [Pexels]({image_url})")
-
+            if "pexels.com" in image_url:
+                st.caption(f"Image courtesy [Pexels]({image_url})")
+            elif "fal.ai" in image_url:
+                st.caption(f"Image courtesy [Peerr AI]({image_url})")
+            else:
+                st.caption(f"Image source: {image_url}")
     with col2:
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
         rest_of_content = "\n".join(content.split("\n")[1:])
