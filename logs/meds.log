@@ -1533,3 +1533,293 @@
 2024-09-21 00:51:24,291 - INFO - Loaded 52 existing entries from databases/meds.csv.
 2024-09-21 00:51:24,302 - INFO - No new data to update.
 2024-09-21 00:51:24,302 - INFO - Medsii script completed successfully.
+2024-09-21 02:55:50,899 - INFO - Medsii Script started.
+2024-09-21 02:55:51,333 - INFO - Data fetched successfully from API.
+2024-09-21 02:55:51,336 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 02:55:51,345 - INFO - No new data to update.
+2024-09-21 02:55:51,345 - INFO - Medsii script completed successfully.
+2024-09-21 02:55:51,347 - INFO - Sifted script started.
+2024-09-21 02:55:53,206 - INFO - Successfully fetched data from URL.
+2024-09-21 02:55:53,206 - WARNING - Search phrase not found. Using original content.
+2024-09-21 02:55:53,209 - INFO - Existing CSV file loaded.
+2024-09-21 02:55:53,217 - INFO - Data saved to databases/sifted.csv
+2024-09-21 02:55:53,217 - INFO - Sifted script completed.
+2024-09-21 02:55:53,677 - INFO - Medscape script started.
+2024-09-21 02:55:53,682 - INFO - Connection to Medscape established.
+2024-09-21 02:55:53,715 - INFO - Request sent to Medscape API.
+2024-09-21 02:55:54,263 - INFO - Response received from Medscape API.
+2024-09-21 02:55:54,264 - INFO - Response data decoded into dictionary.
+2024-09-21 02:55:54,267 - INFO - Existing CSV file loaded.
+2024-09-21 02:55:54,267 - INFO - No new links found, CSV file is up to date.
+2024-09-21 02:55:54,267 - INFO - Medscape script completed.
+2024-09-21 02:56:05,261 - INFO - Medsii Script started.
+2024-09-21 02:56:05,494 - INFO - Data fetched successfully from API.
+2024-09-21 02:56:05,496 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 02:56:05,506 - INFO - No new data to update.
+2024-09-21 02:56:05,507 - INFO - Medsii script completed successfully.
+2024-09-21 02:56:05,507 - INFO - Sifted script started.
+2024-09-21 02:56:08,090 - INFO - Successfully fetched data from URL.
+2024-09-21 02:56:08,090 - INFO - Search phrase found and content trimmed.
+2024-09-21 02:56:08,094 - INFO - Existing CSV file loaded.
+2024-09-21 02:56:08,096 - INFO - Data saved to databases/sifted.csv
+2024-09-21 02:56:08,096 - INFO - Sifted script completed.
+2024-09-21 02:56:08,639 - INFO - Medscape script started.
+2024-09-21 02:56:08,644 - INFO - Connection to Medscape established.
+2024-09-21 02:56:08,657 - INFO - Request sent to Medscape API.
+2024-09-21 02:56:09,223 - INFO - Response received from Medscape API.
+2024-09-21 02:56:09,224 - INFO - Response data decoded into dictionary.
+2024-09-21 02:56:09,225 - INFO - Existing CSV file loaded.
+2024-09-21 02:56:09,226 - INFO - No new links found, CSV file is up to date.
+2024-09-21 02:56:09,226 - INFO - Medscape script completed.
+2024-09-21 02:58:32,831 - INFO - Medsii Script started.
+2024-09-21 02:58:32,971 - INFO - Data fetched successfully from API.
+2024-09-21 02:58:32,974 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 02:58:32,984 - INFO - No new data to update.
+2024-09-21 02:58:32,984 - INFO - Medsii script completed successfully.
+2024-09-21 02:58:32,984 - INFO - Sifted script started.
+2024-09-21 02:58:34,545 - INFO - Successfully fetched data from URL.
+2024-09-21 02:58:34,545 - INFO - Search phrase found and content trimmed.
+2024-09-21 02:58:34,549 - INFO - Existing CSV file loaded.
+2024-09-21 02:58:34,551 - INFO - Data saved to databases/sifted.csv
+2024-09-21 02:58:34,551 - INFO - Sifted script completed.
+2024-09-21 02:58:35,005 - INFO - Medscape script started.
+2024-09-21 02:58:35,010 - INFO - Connection to Medscape established.
+2024-09-21 02:58:35,024 - INFO - Request sent to Medscape API.
+2024-09-21 02:58:35,726 - INFO - Response received from Medscape API.
+2024-09-21 02:58:35,726 - INFO - Response data decoded into dictionary.
+2024-09-21 02:58:35,728 - INFO - Existing CSV file loaded.
+2024-09-21 02:58:35,729 - INFO - No new links found, CSV file is up to date.
+2024-09-21 02:58:35,729 - INFO - Medscape script completed.
+2024-09-21 03:00:38,769 - INFO - Medsii Script started.
+2024-09-21 03:00:38,923 - INFO - Data fetched successfully from API.
+2024-09-21 03:00:38,926 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 03:00:38,936 - INFO - No new data to update.
+2024-09-21 03:00:38,936 - INFO - Medsii script completed successfully.
+2024-09-21 03:00:38,936 - INFO - Sifted script started.
+2024-09-21 03:00:40,179 - INFO - Successfully fetched data from URL.
+2024-09-21 03:00:40,179 - INFO - Search phrase found and content trimmed.
+2024-09-21 03:00:40,183 - INFO - Existing CSV file loaded.
+2024-09-21 03:00:40,185 - INFO - Data saved to databases/sifted.csv
+2024-09-21 03:00:40,185 - INFO - Sifted script completed.
+2024-09-21 03:00:40,649 - INFO - Medscape script started.
+2024-09-21 03:00:40,654 - INFO - Connection to Medscape established.
+2024-09-21 03:00:40,679 - INFO - Request sent to Medscape API.
+2024-09-21 03:00:41,332 - INFO - Response received from Medscape API.
+2024-09-21 03:00:41,333 - INFO - Response data decoded into dictionary.
+2024-09-21 03:00:41,335 - INFO - Existing CSV file loaded.
+2024-09-21 03:00:41,335 - INFO - No new links found, CSV file is up to date.
+2024-09-21 03:00:41,335 - INFO - Medscape script completed.
+2024-09-21 03:01:46,475 - INFO - Medsii Script started.
+2024-09-21 03:01:46,840 - INFO - Data fetched successfully from API.
+2024-09-21 03:01:46,842 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 03:01:46,852 - INFO - No new data to update.
+2024-09-21 03:01:46,852 - INFO - Medsii script completed successfully.
+2024-09-21 03:01:46,852 - INFO - Sifted script started.
+2024-09-21 03:01:48,133 - INFO - Successfully fetched data from URL.
+2024-09-21 03:01:48,134 - INFO - Search phrase found and content trimmed.
+2024-09-21 03:01:48,137 - INFO - Existing CSV file loaded.
+2024-09-21 03:01:48,140 - INFO - Data saved to databases/sifted.csv
+2024-09-21 03:01:48,140 - INFO - Sifted script completed.
+2024-09-21 03:01:48,586 - INFO - Medscape script started.
+2024-09-21 03:01:48,593 - INFO - Connection to Medscape established.
+2024-09-21 03:01:48,610 - INFO - Request sent to Medscape API.
+2024-09-21 03:01:48,917 - INFO - Response received from Medscape API.
+2024-09-21 03:01:48,918 - INFO - Response data decoded into dictionary.
+2024-09-21 03:01:48,919 - INFO - Existing CSV file loaded.
+2024-09-21 03:01:48,920 - INFO - No new links found, CSV file is up to date.
+2024-09-21 03:01:48,920 - INFO - Medscape script completed.
+2024-09-21 03:03:19,597 - INFO - Medsii Script started.
+2024-09-21 03:03:19,812 - INFO - Data fetched successfully from API.
+2024-09-21 03:03:19,814 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 03:03:19,824 - INFO - No new data to update.
+2024-09-21 03:03:19,824 - INFO - Medsii script completed successfully.
+2024-09-21 03:03:19,825 - INFO - Sifted script started.
+2024-09-21 03:03:22,252 - INFO - Successfully fetched data from URL.
+2024-09-21 03:03:22,252 - INFO - Search phrase found and content trimmed.
+2024-09-21 03:03:22,256 - INFO - Existing CSV file loaded.
+2024-09-21 03:03:22,259 - INFO - Data saved to databases/sifted.csv
+2024-09-21 03:03:22,259 - INFO - Sifted script completed.
+2024-09-21 03:03:22,712 - INFO - Medscape script started.
+2024-09-21 03:03:22,717 - INFO - Connection to Medscape established.
+2024-09-21 03:03:22,731 - INFO - Request sent to Medscape API.
+2024-09-21 03:03:23,286 - INFO - Response received from Medscape API.
+2024-09-21 03:03:23,287 - INFO - Response data decoded into dictionary.
+2024-09-21 03:03:23,289 - INFO - Existing CSV file loaded.
+2024-09-21 03:03:23,289 - INFO - No new links found, CSV file is up to date.
+2024-09-21 03:03:23,289 - INFO - Medscape script completed.
+2024-09-21 03:03:24,093 - INFO - Extracted 85 link records.
+2024-09-21 03:03:24,096 - INFO - Extracted 52 link records.
+2024-09-21 03:03:24,098 - INFO - Extracted 7 link records.
+2024-09-21 03:03:24,100 - INFO - Extracted 37 link records.
+2024-09-21 03:03:24,100 - INFO - Unique links to process: 11
+2024-09-21 03:03:30,322 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:03:30,376 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-21 03:03:30,376 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-21 03:03:35,859 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:03:35,900 - INFO - No article found for link https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/.
+2024-09-21 03:03:35,900 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-21 03:03:40,349 - INFO - No article found for link http://dx.doi.org/10.1016/j.lanepe.2024.101043.
+2024-09-21 03:03:40,349 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.lanepe.2024.101043
+2024-09-21 03:03:41,547 - INFO - No article found for link https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext.
+2024-09-21 03:03:41,548 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-21 03:03:46,766 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:03:46,825 - INFO - No article found for link http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy.
+2024-09-21 03:03:46,825 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-21 03:03:52,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:03:52,542 - INFO - No article found for link http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0.
+2024-09-21 03:03:52,543 - WARNING - Skipping entry due to missing or invalid log entry for link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-21 03:03:55,074 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext.
+2024-09-21 03:03:55,075 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
+2024-09-21 03:03:56,536 - INFO - No article found for link https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia.
+2024-09-21 03:03:56,536 - WARNING - Skipping entry due to missing or invalid log entry for link: https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia
+2024-09-21 03:04:01,755 - INFO - No article found for link https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext.
+2024-09-21 03:04:01,755 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext
+2024-09-21 03:04:06,462 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:04:06,491 - INFO - No article found for link https://www.mdpi.com/2072-6643/16/17/3039.
+2024-09-21 03:04:06,492 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.mdpi.com/2072-6643/16/17/3039
+2024-09-21 03:04:16,818 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:04:18,692 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:04:21,028 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:04:21,060 - INFO - Image query: "Create a photorealistic image of a healthcare professional, a middle-aged female doctor, engaged in a serious discussion with a patient in a modern clinic. The doctor, wearing a white coat and stethoscope, is pointing to a digital tablet displaying a graph illustrating cardiovascular risks associated with gout. The patient, a middle-aged male with a concerned expression, is seated across from her, looking intently at the screen. 
+
+The clinic is bright and well-lit, with medical posters on the walls about gout and cardiovascular health. A window in the background allows natural light to flood the room, creating a warm yet urgent atmosphere. Use a shallow depth of field to focus on the interaction between the doctor and patient, while softly blurring the background elements. The color palette should include calming blues and whites, emphasizing a professional and reassuring environment. Capture the mood of urgency and importance in addressing cardiovascular health in patients with gout."
+2024-09-21 03:04:21,386 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-21 03:04:21,493 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1eeee423-4c08-4490-a542-dddff66194ea/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-21 03:04:21,704 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1eeee423-4c08-4490-a542-dddff66194ea/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-21 03:04:21,913 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1eeee423-4c08-4490-a542-dddff66194ea/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-21 03:04:22,122 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1eeee423-4c08-4490-a542-dddff66194ea/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-21 03:04:22,329 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1eeee423-4c08-4490-a542-dddff66194ea/status?logs=false "HTTP/1.1 200 OK"
+2024-09-21 03:04:22,435 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1eeee423-4c08-4490-a542-dddff66194ea "HTTP/1.1 200 OK"
+2024-09-21 03:04:22,435 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/-F3INC-OTrgJsSesvz35S.png
+2024-09-21 03:04:22,436 - INFO - Image link: https://fal.media/files/monkey/-F3INC-OTrgJsSesvz35S.png
+2024-09-21 03:04:22,436 - INFO - Sending 1 log entries to Firebase.
+2024-09-21 03:04:22,436 - INFO - Placeholder: Would have sent 1 entries to Firebase.
+2024-09-21 03:04:22,436 - INFO - Received 1 document IDs from Firebase.
+2024-09-21 03:04:22,436 - INFO - 'generated_post' length: 9. Content: ['2024-09-20 10:00:00', '2024-09-21 03:04:22', "⚠️ Newly diagnosed gout? Don't overlook the cardiovascular risks! \n\nRecent research highlights a concerning trend: \n- Patients face a 3.9% risk of cardiovascular events within 2 years of a gout diagnosis. \n- The risk is particularly pronounced in the first month, with 31.2 events per 1000 person-years compared to 21.6 events in the following months. \n- Women experience a greater elevation in risk compared to men. \n- Early intervention with colchicine on the day of diagnosis can significantly reduce this risk (adjusted incidence rate ratio of 0.84). \n\nThese findings underscore the importance of proactive cardiovascular risk management right from the first gout consultation. \n\nHow are you addressing cardiovascular health in your patients with newly diagnosed gout?", ['Healthcare & Policy', 'Gout', 'CardiovascularHealth', 'Inflammation', 'HealthcareProfessionals'], 'https://fal.media/files/monkey/-F3INC-OTrgJsSesvz35S.png', 'http://medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv', 'You are a content strategist specializing in crafting engaging and informative social media posts for healthcare professionals based on detailed medical articles or web content. Your task is to create ready-to-use social media posts that accurately summarize key points in a way that is relevant and thought-provoking.\n\nGuidelines:\n\n - Engaging Openers: Start with a creative hook that grabs attention—use clinical scenarios, surprising statistics, or thought-provoking questions (without relying on overused phrases like “Did you know?”).\n - Informative Content: Provide a concise yet comprehensive summary of the most important information, ensuring clarity and relevance to healthcare professionals.\n - Balanced Tone: Maintain a professional yet approachable tone. Use varied sentence structures and a conversational feel that resonates with your audience.\n - Highlight Key Findings: Use bullet points to present important statistics or findings, making the information easy to read and digest.\n - Foster Engagement: Conclude with a thoughtful question or statement that encourages reflection or invites interaction, ensuring it feels natural and appropriate.\n - Emojis Usage: Use emojis sparingly and strategically to emphasize key points or statistics, while maintaining professionalism.\n - Formatting: Deliver the final post as plain text, formatted for easy reading without the need for Markdown or HTML.\n\nKey Focus:\n\n - Clarity and Comprehensiveness: Ensure the post covers essential details to inform healthcare professionals effectively.\n - Readability: Use bullet points and varied sentence lengths to enhance readability.\n\nAn Example Post:\n\n⏱️ A weekly insulin dose that matches daily treatments in efficacy—could this reshape type 2 diabetes care?\n\nIn the QWINT-2 phase 3 trial, once-weekly insulin efsitora alfa demonstrated:\n\n - A1C reduction of 1.34% vs. 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.\n - 45 minutes more time in range per day without increased hypoglycemia risk.\n - A safety profile similar to daily insulins, with no severe hypoglycemic events reported for efsitora.\n\nCould once-weekly dosing improve adherence and reduce treatment burden for your patients?', 'Cardiovascular Risk Merits Attention in Newly Diagnosed Gout\n===============\n\nThis site is intended for UK healthcare professionals\n\nTOPLINE:\xa0\n---------\n\nPatients have an increased risk for cardiovascular events in the first month after a gout diagnosis that appears related to inflammation.\n\nMETHODOLOGY:\n------------\n\n*   Investigators analysed data from the UK Clinical Practice Research Database-GOLD and linked databases.\n*   They conducted a cohort study among 76,440 patients with newly diagnosed gout and a self-controlled case series study among 4398 patients who had a cardiovascular event in the 2 years before or after gout diagnosis.\n*   The main outcome was a first cardiovascular event (fatal or non-fatal myocardial infarction, ischaemic or haemorrhagic stroke, or transient ischaemic attack).\n\nTAKEAWAY:\n---------\n\n*   In the cohort study, 3.9% of patients experienced a cardiovascular event in the 2 years after gout diagnosis.\n*   The incidence of events was higher during days 1-30 postdiagnosis vs days 31-730 postdiagnosis (31.2 vs 21.6 events/1000 person-years).\n*   In the self-controlled case series, the incidence was higher in the 30 days after gout diagnosis compared with the patient\'s own baseline period (adjusted incidence rate ratio, 1.55) and especially in the first 15 days (1.70).\n*   Findings were similar regardless of age, comorbidities, and diuretic use, but the elevation of risk was greater for women than for men.\n*   The association was largely attenuated when colchicine was prescribed the day of gout diagnosis (adjusted incidence rate ratio, 0.84) and somewhat attenuated when non-steroidal anti-inflammatory drugs were prescribed that day (1.39).\n\nIN PRACTICE:\n------------\n\n"First gout diagnosis was associated with an increased risk for cardiovascular events in the short term. Inflammation during the first gout flare is the most plausible explanation for this association," the authors wrote. "These findings support the need for cardiovascular risk management from the time of first gout consultation," they concluded.\n\nSOURCE:\n-------\n\nThe study was led by Edoardo Cipolletta, MD, University of Nottingham, Nottingham, UK, and Polytechnic University of Marche, Ancona, Italy, and was published online in _Arthritis & Rheumatology_.\n\nLIMITATIONS:\n------------\n\nLimitations included uncertainty about the time of onset of gout symptoms, failure to capture milder flares, possible unmeasured confounding, and lack of adjudication of cardiovascular events.\n\nDISCLOSURES:\n------------\n\nThe study was funded in part by the University of Nottingham. Some authors reported affiliations with Horizon Therapeutics, Novartis, AstraZeneca, and/or Inflazome, companies that manufacture gout drugs.', 'gpt-4o-mini']
+2024-09-21 03:04:22,438 - INFO - Logged data to databases/llm.csv with DocumentID: placeholder_id_0.
+2024-09-21 03:06:38,483 - INFO - Medsii Script started.
+2024-09-21 03:06:38,605 - INFO - Data fetched successfully from API.
+2024-09-21 03:06:38,608 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 03:06:38,618 - INFO - No new data to update.
+2024-09-21 03:06:38,619 - INFO - Medsii script completed successfully.
+2024-09-21 03:06:38,619 - INFO - Sifted script started.
+2024-09-21 03:06:41,376 - INFO - Successfully fetched data from URL.
+2024-09-21 03:06:41,376 - INFO - Search phrase found and content trimmed.
+2024-09-21 03:06:41,380 - INFO - Existing CSV file loaded.
+2024-09-21 03:06:41,382 - INFO - Data saved to databases/sifted.csv
+2024-09-21 03:06:41,382 - INFO - Sifted script completed.
+2024-09-21 03:06:41,835 - INFO - Medscape script started.
+2024-09-21 03:06:41,840 - INFO - Connection to Medscape established.
+2024-09-21 03:06:41,856 - INFO - Request sent to Medscape API.
+2024-09-21 03:06:42,180 - INFO - Response received from Medscape API.
+2024-09-21 03:06:42,180 - INFO - Response data decoded into dictionary.
+2024-09-21 03:06:42,182 - INFO - Existing CSV file loaded.
+2024-09-21 03:06:42,182 - INFO - No new links found, CSV file is up to date.
+2024-09-21 03:06:42,182 - INFO - Medscape script completed.
+2024-09-21 03:06:42,969 - INFO - Extracted 86 link records.
+2024-09-21 03:06:42,972 - INFO - Extracted 52 link records.
+2024-09-21 03:06:42,974 - INFO - Extracted 7 link records.
+2024-09-21 03:06:42,976 - INFO - Extracted 37 link records.
+2024-09-21 03:06:42,977 - INFO - Unique links to process: 10
+2024-09-21 03:06:44,371 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-21 03:06:44,427 - INFO - No article found for link https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/.
+2024-09-21 03:06:44,427 - WARNING - Skipping entry due to missing or invalid log entry for link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.lanepe.2024.101043
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext
+2024-09-21 03:06:44,428 - INFO - Skipping recently failed link: https://www.mdpi.com/2072-6643/16/17/3039
+2024-09-21 03:06:44,428 - INFO - No valid log entries generated.
+2024-09-21 03:07:27,490 - INFO - Medsii Script started.
+2024-09-21 03:07:27,654 - INFO - Data fetched successfully from API.
+2024-09-21 03:07:27,657 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 03:07:27,667 - INFO - No new data to update.
+2024-09-21 03:07:27,668 - INFO - Medsii script completed successfully.
+2024-09-21 03:07:27,668 - INFO - Sifted script started.
+2024-09-21 03:07:29,784 - INFO - Successfully fetched data from URL.
+2024-09-21 03:07:29,784 - INFO - Search phrase found and content trimmed.
+2024-09-21 03:07:29,788 - INFO - Existing CSV file loaded.
+2024-09-21 03:07:29,791 - INFO - Data saved to databases/sifted.csv
+2024-09-21 03:07:29,791 - INFO - Sifted script completed.
+2024-09-21 03:07:30,242 - INFO - Medscape script started.
+2024-09-21 03:07:30,247 - INFO - Connection to Medscape established.
+2024-09-21 03:07:30,261 - INFO - Request sent to Medscape API.
+2024-09-21 03:07:30,810 - INFO - Response received from Medscape API.
+2024-09-21 03:07:30,810 - INFO - Response data decoded into dictionary.
+2024-09-21 03:07:30,812 - INFO - Existing CSV file loaded.
+2024-09-21 03:07:30,812 - INFO - No new links found, CSV file is up to date.
+2024-09-21 03:07:30,813 - INFO - Medscape script completed.
+2024-09-21 03:07:49,243 - INFO - Medsii Script started.
+2024-09-21 03:07:49,391 - INFO - Data fetched successfully from API.
+2024-09-21 03:07:49,394 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 03:07:49,404 - INFO - No new data to update.
+2024-09-21 03:07:49,404 - INFO - Medsii script completed successfully.
+2024-09-21 03:07:49,405 - INFO - Sifted script started.
+2024-09-21 03:07:51,049 - INFO - Successfully fetched data from URL.
+2024-09-21 03:07:51,049 - INFO - Search phrase found and content trimmed.
+2024-09-21 03:07:51,053 - INFO - Existing CSV file loaded.
+2024-09-21 03:07:51,056 - INFO - Data saved to databases/sifted.csv
+2024-09-21 03:07:51,056 - INFO - Sifted script completed.
+2024-09-21 03:07:51,563 - INFO - Medscape script started.
+2024-09-21 03:07:51,567 - INFO - Connection to Medscape established.
+2024-09-21 03:07:51,595 - INFO - Request sent to Medscape API.
+2024-09-21 03:07:52,136 - INFO - Response received from Medscape API.
+2024-09-21 03:07:52,136 - INFO - Response data decoded into dictionary.
+2024-09-21 03:07:52,138 - INFO - Existing CSV file loaded.
+2024-09-21 03:07:52,138 - INFO - No new links found, CSV file is up to date.
+2024-09-21 03:07:52,138 - INFO - Medscape script completed.
+2024-09-21 03:07:52,938 - INFO - Extracted 86 link records.
+2024-09-21 03:07:52,941 - INFO - Extracted 52 link records.
+2024-09-21 03:07:52,944 - INFO - Extracted 7 link records.
+2024-09-21 03:07:52,946 - INFO - Extracted 37 link records.
+2024-09-21 03:07:52,947 - INFO - Unique links to process: 10
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.lanepe.2024.101043
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext
+2024-09-21 03:07:52,947 - INFO - Skipping recently failed link: https://www.mdpi.com/2072-6643/16/17/3039
+2024-09-21 03:07:52,947 - INFO - No valid log entries generated.
+2024-09-21 03:08:03,322 - INFO - Medsii Script started.
+2024-09-21 03:08:03,427 - INFO - Data fetched successfully from API.
+2024-09-21 03:08:03,430 - INFO - Loaded 52 existing entries from databases/meds.csv.
+2024-09-21 03:08:03,440 - INFO - No new data to update.
+2024-09-21 03:08:03,440 - INFO - Medsii script completed successfully.
+2024-09-21 03:08:03,440 - INFO - Sifted script started.
+2024-09-21 03:08:04,746 - INFO - Successfully fetched data from URL.
+2024-09-21 03:08:04,747 - INFO - Search phrase found and content trimmed.
+2024-09-21 03:08:04,751 - INFO - Existing CSV file loaded.
+2024-09-21 03:08:04,753 - INFO - Data saved to databases/sifted.csv
+2024-09-21 03:08:04,753 - INFO - Sifted script completed.
+2024-09-21 03:08:05,227 - INFO - Medscape script started.
+2024-09-21 03:08:05,232 - INFO - Connection to Medscape established.
+2024-09-21 03:08:05,249 - INFO - Request sent to Medscape API.
+2024-09-21 03:08:05,789 - INFO - Response received from Medscape API.
+2024-09-21 03:08:05,790 - INFO - Response data decoded into dictionary.
+2024-09-21 03:08:05,792 - INFO - Existing CSV file loaded.
+2024-09-21 03:08:05,792 - INFO - No new links found, CSV file is up to date.
+2024-09-21 03:08:05,792 - INFO - Medscape script completed.
+2024-09-21 03:08:06,586 - INFO - Extracted 86 link records.
+2024-09-21 03:08:06,590 - INFO - Extracted 52 link records.
+2024-09-21 03:08:06,592 - INFO - Extracted 7 link records.
+2024-09-21 03:08:06,594 - INFO - Extracted 37 link records.
+2024-09-21 03:08:06,595 - INFO - Unique links to process: 10
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: https://endpts.com/astrazenecas-monoclonal-antibody-misses-primary-endpoint-in-mid-stage-trial-in-copd/
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: https://endpts.com/fda-grants-full-approval-to-traveres-filspari-for-igan/
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.lanepe.2024.101043
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370/(24/)00396-1/fulltext
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: http://medscape.co.uk/viewarticle/commonly-abnormal-blood-tests-people-living-diabetes-dr-2024a1000ggy
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: http://medscape.co.uk/viewarticle/management-older-people-type-2-diabetes-and-frailty-dr-kevin-2024a1000gh0
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00205-9/fulltext
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: https://diabetesjournals.org/care/article/doi/10.2337/dc23-2332/157168/Relationship-Between-Sensor-Detected-Hypoglycemia
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00210-2/fulltext
+2024-09-21 03:08:06,595 - INFO - Skipping recently failed link: https://www.mdpi.com/2072-6643/16/17/3039
+2024-09-21 03:08:06,596 - INFO - No valid log entries generated.

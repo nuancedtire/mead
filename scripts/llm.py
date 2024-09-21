@@ -3,7 +3,7 @@ import logging
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
-import config
+from . import config
 import re
 from typing import List, Literal
 from enum import Enum
@@ -165,7 +165,7 @@ def generate_post(inputs):
     # Check if the link has failed recently
     if link in failed_links:
         last_failed_time = datetime.fromisoformat(failed_links[link])
-        if current_time - last_failed_time < timedelta(hours=2):  # Adjust the time as needed
+        if current_time - last_failed_time < timedelta(hours=1):  # Adjust the time as needed
             logging.info(f"Skipping recently failed link: {link}")
             return None
 
