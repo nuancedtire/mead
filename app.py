@@ -33,14 +33,14 @@ def clean_hashtags(hashtag_string):
         list: A list of cleaned hashtags, properly formatted with #.
     """
     if isinstance(hashtag_string, list):  # If it's already an array, return it directly
-        return [f"{tag.strip()}" for tag in hashtag_string]
+        return [f"#{tag.strip()}" for tag in hashtag_string]
 
     if pd.isna(hashtag_string):  # Handle NaN cases
         return []
 
     # If it's a string, remove unwanted characters and split by commas
-    hashtags = hashtag_string.replace("[", "").replace("]", "").replace("'", "").split(',')
-    return [f"{tag.strip()}" for tag in hashtags]
+    hashtags = hashtag_string.replace("[", "").replace("]", "").replace("#", "").replace("'", "").split(',')
+    return [f"#{tag.strip()}" for tag in hashtags]
 
 def convert_to_datetime(dt):
     """Converts a string or other formats to a datetime object if necessary."""
