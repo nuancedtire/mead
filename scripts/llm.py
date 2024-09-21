@@ -3,7 +3,7 @@ import logging
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
-from . import config
+import config
 import re
 from typing import List, Literal
 from enum import Enum
