@@ -33,7 +33,7 @@ def clean_hashtags(hashtag_string):
         list: A list of cleaned hashtags, properly formatted with #.
     """
     if isinstance(hashtag_string, list):  # If it's already an array, return it directly
-        return [f"#{tag.strip()}" for tag in hashtag_string]
+        return [f"{tag.strip()}" for tag in hashtag_string]
 
     if pd.isna(hashtag_string):  # Handle NaN cases
         return []
@@ -167,7 +167,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
             with st.expander(f"{first_line}", expanded=False):
                 st.write(cleaned_content)
             # Display post metadata
-            hashtags_str = " ".join(hashtags[1:])
+            hashtags_str = ", ".join(hashtags[1:])
             st.info(f"*{hashtags_str}*")
             st.write(f"**Published** {relative_time(timestamp)}  \n"
                     f"**From:** {source}  \n")
