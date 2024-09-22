@@ -212,15 +212,21 @@ clean_labels = [tag[1:] for tag in unique_hashtags]
 # Create a header
 st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>", unsafe_allow_html=True)
 
+# Move category selection to the main screen
+selected_label = st.radio("🏷️ Select a Category", options=clean_labels, horizontal=True)
+selected_hashtag = f"#{selected_label}" if selected_label != "All" else None
+
 # Sidebar
 with st.sidebar:
     st.subheader("Filters")
-    selected_label = st.radio("🏷️ Select Category", options=clean_labels, horizontal=True)
-    selected_hashtag = f"#{selected_label}" if selected_label != "All" else None
     
     # Add multiselect for hashtags
     all_hashtags = sorted(set([tag for tags in data['Hashtags'] for tag in tags]))
-    selected_hashtags = st.multiselect("🏷️ Filter by Hashtags", options=all_hashtags)
+    selected_hashtags = st.multiselect("#️⃣ Filter by Hashtags", options=all_hashtags)
+    
+    # Add multiselect for sources
+    all_sources = ["Medsii", "Sifted", "Medscape", "NICE UK", "Unknown"]
+    selected_sources = st.multiselect("🌐 Filter by Source", options=all_sources)
     
     search_query = st.text_input("🔎 Search posts")
     
@@ -242,6 +248,10 @@ with st.sidebar:
 🆕 **Latest Post:** {last_post}  \n
 🤖 **Last Generated:** {last_gen}""")
 
+# Initialize session state for page number if it doesn't exist
+if 'page_number' not in st.session_state:
+    st.session_state.page_number = 1
+
 # Main content area
 # Filter data
 filtered_data = data[(data['Time'].dt.date >= start_date) & (data['Time'].dt.date <= end_date)]
@@ -253,17 +263,29 @@ if selected_hashtag:
 if selected_hashtags:
     filtered_data = filtered_data[filtered_data['Hashtags'].apply(lambda x: any(tag in x for tag in selected_hashtags))]
 
+# Add filtering by selected sources
+if selected_sources:
+    filtered_data = filtered_data[filtered_data['Link'].apply(lambda x: determine_source(x) in selected_sources)]
+
 if search_query:
     filtered_data = filtered_data[filtered_data['Post'].str.contains(search_query, case=False)]
 
 # Pagination
 if not filtered_data.empty:
-    POSTS_PER_PAGE = 10
+    POSTS_PER_PAGE = 15
     total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
 
-    page_number = st.number_input(f"Scroll through a total of {total_pages} pages. Change categories from the sidebar for more", min_value=1, max_value=total_pages, value=1)
+    # Top pagination
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.session_state.page_number = st.number_input(
+            f"Scroll through a total of {total_pages} pages", 
+            min_value=1, 
+            max_value=total_pages, 
+            value=st.session_state.page_number
+        )
     
-    start_idx = (page_number - 1) * POSTS_PER_PAGE
+    start_idx = (st.session_state.page_number - 1) * POSTS_PER_PAGE
     end_idx = start_idx + POSTS_PER_PAGE
     
     for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
@@ -278,6 +300,20 @@ if not filtered_data.empty:
             prompt=row['Prompt'],
             input=row['Input']
         )
+
+    # Add bottom pagination
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        bottom_page_number = st.number_input(
+            "Go to page", 
+            min_value=1, 
+            max_value=total_pages, 
+            value=st.session_state.page_number, 
+            key="bottom_pagination"
+        )
+        if bottom_page_number != st.session_state.page_number:
+            st.session_state.page_number = bottom_page_number
+            st.rerun()
 else:
     st.write("No posts found for the selected criteria.")
 
