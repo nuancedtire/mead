@@ -187,7 +187,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         tab1, tab2 = st.tabs(["Article", "More"])
 
         with tab1:
-            with st.expander(f"{first_line}", expanded=False):
+            with st.expander(f"{first_line}", expanded=True):
                 st.write(cleaned_content)
 
         with tab2:
@@ -200,7 +200,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     st.markdown("---")
 
 # Streamlit UI configuration
-st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="centered")
+st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="wide")
 
 # Add this line after set_page_config to set the default theme to light
 st.markdown("""
