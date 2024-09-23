@@ -23,4 +23,3 @@ images:
   - 'gcr.io/peerr-thoughts/streamlit-app'
 options:
   logging: CLOUD_LOGGING_ONLY
-logsBucket: 'gs://peerr-thoughts-build-logs'
