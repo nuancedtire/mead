@@ -174,7 +174,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         tab1, tab2 = st.tabs(["Article", "More"])
 
         with tab1:
-            with st.expander(f"{first_line}", expanded=False):
+            with st.expander(f"{first_line}", expanded=True):
                 st.write(cleaned_content)
             # Display post metadata
             hashtags_str = ", ".join(hashtags[1:])
