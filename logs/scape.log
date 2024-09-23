@@ -2948,3 +2948,17 @@
 2024-09-23 11:53:12,615 - INFO - Existing CSV file loaded.
 2024-09-23 11:53:12,615 - INFO - No new links found, CSV file is up to date.
 2024-09-23 11:53:12,615 - INFO - Medscape script completed.
+2024-09-23 12:38:51,322 - INFO - Medscape script started.
+2024-09-23 12:38:51,322 - INFO - Connection to Medscape established.
+2024-09-23 12:38:51,388 - INFO - Request sent to Medscape API.
+2024-09-23 12:38:52,000 - INFO - Response received from Medscape API.
+2024-09-23 12:38:52,001 - INFO - Response data decoded into dictionary.
+2024-09-23 12:38:52,040 - INFO - Existing CSV file loaded.
+2024-09-23 12:38:52,040 - INFO - Processing new item: https://www.medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-23 12:38:52,040 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-23 12:38:54,922 - INFO - Successfully fetched data from http://r.jina.ai/medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x.
+2024-09-23 12:38:56,004 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 12:38:56,006 - INFO - Received response from OpenAI API.
+2024-09-23 12:38:56,006 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-23 12:38:56,009 - INFO - CSV file updated with new data.
+2024-09-23 12:38:56,009 - INFO - Medscape script completed.
