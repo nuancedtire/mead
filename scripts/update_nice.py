@@ -63,9 +63,26 @@ def load_existing_data(filename):
     return pd.DataFrame(columns=['Title', 'Link', 'Time'])
 
 def save_to_csv(data, filename):
-    data.to_csv(filename, index=False)
-    logging.info(f"Data saved to {filename}")
-
+    # Create directory if it doesn't exist
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    
+    # Load existing data if file exists, otherwise create new DataFrame
+    if os.path.exists(filename):
+        existing_df = pd.read_csv(filename)
+        new_df = pd.DataFrame(data)
+        combined_df = pd.concat([existing_df, new_df]).drop_duplicates(subset=['Link'], keep='first')
+    else:
+        combined_df = pd.DataFrame(data)
+    
+    # Sort by date, most recent first
+    combined_df['Time'] = pd.to_datetime(combined_df['Time'])
+    combined_df = combined_df.sort_values('Time', ascending=False)
+    
+    # Save to CSV
+    combined_df.to_csv(filename, index=False)
+    logging.info(f"Data saved to {filename}. Total items: {len(combined_df)}.")
+    print(f"Data saved to {filename}. Total items: {len(combined_df)}.")
+    
 def scrape_nice_news():
     setup_logging()
     url = "https://www.nice.org.uk/news/articles"
@@ -76,19 +93,8 @@ def scrape_nice_news():
     html_content = fetch_webpage(url)
     if html_content:
         new_items = extract_nice_news_links(html_content)
-        existing_data = load_existing_data(output_file)
-        
-        # Convert to DataFrame and remove duplicates
-        new_df = pd.DataFrame(new_items)
-        combined_df = pd.concat([existing_data, new_df]).drop_duplicates(subset=['Link'], keep='first')
-        
-        # Sort by date, most recent first
-        combined_df['Time'] = pd.to_datetime(combined_df['Time'])
-        combined_df = combined_df.sort_values('Time', ascending=False)
-        
-        if len(combined_df) > len(existing_data):
-            save_to_csv(combined_df, output_file)
-            logging.info(f"Scraping completed. Added {len(combined_df) - len(existing_data)} new items. Total items: {len(combined_df)}.")
+        if new_items:
+            save_to_csv(new_items, output_file)
         else:
             logging.info("No new items found.")
     else:

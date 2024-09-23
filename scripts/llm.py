@@ -1,9 +1,11 @@
+import sys
 import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 import logging
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
-import config
 import re
 from typing import List, Literal
 from enum import Enum
@@ -265,10 +267,10 @@ Analyze the following social media post related to medicine or healthcare and ge
 
 1. **Identify the Core Medical Topic and Context:**
    - Determine the main subject and its significance (e.g., clinical trial results, healthcare policy updates).
-   - Use precise and relevant terms reflecting the central message.
+   - Use precise and relevant medical terminology reflecting the central message.
 
 2. **Be Specific and Descriptive:**
-   - Provide detailed descriptions of key elements, including people, settings, and symbolic representations.
+   - Provide detailed descriptions of key elements, including people, medical equipment, settings, and symbolic representations.
    - Focus on creating a coherent and impactful image without relying on text.
 
 3. **Specify Photorealistic Style:**
@@ -276,28 +278,31 @@ Analyze the following social media post related to medicine or healthcare and ge
    - Avoid illustrative or overly stylized representations.
 
 4. **Consider Composition and Perspective:**
-   - Arrange elements to highlight the main message, using focal points and dynamic angles.
+   - Arrange elements to highlight the main message using focal points and dynamic angles.
    - Use perspectives that enhance engagement, such as close-ups or wide-angle shots.
 
 5. **Utilize Lighting and Color Palette:**
-   - Indicate lighting that complements the mood (e.g., bright for positive news, subdued for serious updates).
-   - Choose a color palette that aligns with medical and tech themes.
+   - Indicate lighting that complements the mood (e.g., bright lighting for positive news, subdued tones for serious updates).
+   - Choose a color palette that aligns with medical and technological themes.
 
 6. **Convey Mood and Emphasis:**
    - Reflect the emotional tone of the news (e.g., hopeful, urgent).
-   - Use visual cues to convey importance.
+   - Use visual cues to convey importance and urgency.
 
-7. **Maintain Appropriateness and Sensitivity:**
+7. **Maintain Appropriateness, Sensitivity, and Ethical Standards:**
    - Ensure the image is respectful and avoids disallowed or sensitive content.
-   - Avoid graphic depictions or distressing imagery.
-   - Avoid text in the image, a word or two if absolutely necessary.
+   - Avoid graphic depictions, distressing imagery, and any personal or identifiable patient information.
+   - Do not include text in the image.
+
+8. **Enhance with Sensory and Emotional Details:**
+   - Incorporate descriptions of textures, ambient sounds (as visual elements), or emotions to add depth to the image.
 
 **Example Prompt:**
 
-"Capture a street food vendor in Tokyo at night, shot with a wide-angle lens (24mm) at f/1.8. Use a shallow depth of field to focus on the vendor’s hands preparing takoyaki, with the glowing street signs and bustling crowd blurred in the background. High ISO setting to capture the ambient light, giving the image a slight grain for a cinematic feel."
+"A diverse team of surgeons in sterile gowns and masks performs a delicate operation in a state-of-the-art operating room. The lead surgeon focuses intensely under the bright surgical lights, with advanced medical equipment displaying vital signs in the background. The atmosphere is tense yet hopeful, highlighting the critical nature of the procedure. Soft shadows and a cool color palette of blues and whites emphasize the clinical setting. The image captures the precision and seriousness of modern medicine in a hyper-detailed, photorealistic style."
 """,
             ),
-            ("user", """Please generate the image prompt accordingly.
+            ("user", """Please generate the image prompt accordingly. Reply with only the prompt, no intro, no explanation, no nothing.
 
 Social Media Post
 ---
@@ -463,7 +468,11 @@ def main():
 
     # Prepare inputs for processing
     batch_log_entries = []
+    processed_count = 0
     for link_info in combined_links:
+        if processed_count >= 5:  # Process only 5 articles
+            break
+
         link = link_info.get("Link")
         if link is None:
             logging.warning(f"Invalid link found in link_info: {link_info}")
@@ -491,6 +500,7 @@ def main():
         log_entry = generate_post(inputs)
         if log_entry and log_entry.get("status") == "success":
             batch_log_entries.append(log_entry)
+            processed_count += 1
         else:
             logging.warning(f"Skipping entry due to missing or invalid log entry for link: {link}")
 
@@ -505,6 +515,5 @@ def main():
             logging.warning("No document IDs returned from Firebase. Skipping CSV logging.")
     else:
         logging.info("No valid log entries generated.")
-
 if __name__ == "__main__":
     main()
