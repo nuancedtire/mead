@@ -213,7 +213,7 @@ clean_labels = [tag[1:] for tag in unique_hashtags]
 st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>", unsafe_allow_html=True)
 
 # Move category selection to the main screen
-selected_label = st.radio("🏷️ Select a Category", options=clean_labels, horizontal=True)
+selected_label = st.radio("📊 Select a Category", options=clean_labels, horizontal=True)
 selected_hashtag = f"#{selected_label}" if selected_label != "All" else None
 
 # Sidebar
