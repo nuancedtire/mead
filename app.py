@@ -9,6 +9,10 @@ import logging
 from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.stoggle import stoggle
 
+# Initialize session state
+if 'needs_rerun' not in st.session_state:
+    st.session_state.needs_rerun = False
+
 # Add these functions back into the main file
 def remove_markdown_formatting(text):
     # Convert bold text (**) to uppercase
@@ -198,6 +202,16 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
 # Streamlit UI configuration
 st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="wide")
 
+# Add this line after set_page_config to set the default theme to light
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: white;
+            color: black;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Custom CSS with Peerr color scheme and gradient
 st.markdown("""
     <style>
@@ -208,14 +222,16 @@ st.markdown("""
         background-color: #F0F2F6;
     }
     .stButton>button {
-        color: #FFFFFF;
-        background: linear-gradient(90deg, #FF9966 0%, #FF6699 100%);
-        border: none;
+        color: #FF9966;
+        background: transparent;
+        border: 1px solid #FF6699;
+        border-radius: 4px;
+        transition: all 0.3s ease;
     }
     .stButton>button:hover {
         color: #FFFFFF;
-        background: linear-gradient(90deg, #FF8855 0%, #FF5588 100%);
-        border: none;
+        background: linear-gradient(90deg, #FF9966 0%, #FF6699 100%);
+        border: 2px solid transparent;
     }
     .stTextInput>div>div>input {
         color: #262730;
@@ -281,7 +297,12 @@ with st.sidebar:
     with col2:
         end_date = st.date_input("📅 End Date", value=data['Time'].max().date())
     
-    st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
+    # Refresh button
+    def refresh_data():
+        st.cache_data.clear()
+        st.session_state.needs_rerun = True
+
+    st.button("🔄 Refresh Data", on_click=refresh_data)
     
     total_posts = len(data)
     last_post = data['Time'].max().strftime("%d %b")
@@ -332,76 +353,70 @@ if not filtered_data.empty:
     if 'posts_per_page' not in st.session_state:
         st.session_state.posts_per_page = 5
 
-    # Top pagination and posts per page input
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
-    with col3:
-        new_posts_per_page = st.number_input(
-            "Posts per page",
-            min_value=1,
-            max_value=50,
-            value=st.session_state.posts_per_page,
-            key="top_posts_per_page"
-        )
-    
-    total_pages = -(-len(filtered_data) // st.session_state.posts_per_page)
-    
-    with col2:
-        new_page_number = st.number_input(
-            f"Page (total: {total_pages})", 
-            min_value=1, 
-            max_value=total_pages, 
-            value=st.session_state.page_number,
-            key="top_page_number"
-        )
-    
-    # Check if either posts per page or page number has changed
-    if new_posts_per_page != st.session_state.posts_per_page or new_page_number != st.session_state.page_number:
-        st.session_state.posts_per_page = new_posts_per_page
-        st.session_state.page_number = new_page_number
-        st.rerun()
+    # Calculate total pages
+    posts_per_page = st.session_state.get('posts_per_page', 5)
+    total_pages = len(filtered_data) // posts_per_page + (1 if len(filtered_data) % posts_per_page > 0 else 0)
 
-    start_idx = (st.session_state.page_number - 1) * st.session_state.posts_per_page
-    end_idx = start_idx + st.session_state.posts_per_page
-    
-    for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
-        create_post(
-            timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
-            llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
-            image_url=row['Image'],
-            hashtags=row['Hashtags'],
-            content=remove_markdown_formatting(row['Post']),
-            model=row['Model'],
-            link=row['Link'],
-            prompt=row['Prompt'],
-            input=row['Input']
-        )
+    # Pagination buttons
+    col1, col2, col3, col4, col5 = st.columns(5)
 
-    # Add bottom pagination
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
-    with col3:
-        new_bottom_posts_per_page = st.number_input(
-            "Posts per page",
-            min_value=1,
-            max_value=50,
-            value=st.session_state.posts_per_page,
-            key="bottom_posts_per_page"
-        )
+    with col1:
+        if st.button("⏪ First"):
+            st.session_state.page_number = 1
+
     with col2:
-        new_bottom_page_number = st.number_input(
-            f"Page (total: {total_pages})", 
-            min_value=1, 
-            max_value=total_pages, 
-            value=st.session_state.page_number, 
-            key="bottom_page_number"
-        )
+        if st.button("◀️ Previous"):
+            st.session_state.page_number = max(1, st.session_state.page_number - 1)
+
+    with col4:
+        if st.button("Next ▶️"):
+            st.session_state.page_number = min(total_pages, st.session_state.page_number + 1)
+
+    with col5:
+        if st.button("Last ⏩"):
+            st.session_state.page_number = total_pages
+
+    with col3:
+        st.write(f"Page {st.session_state.page_number} of {total_pages}")
+
+    # Update the start and end indices for slicing the dataframe
+    start_idx = (st.session_state.page_number - 1) * posts_per_page
+    end_idx = start_idx + posts_per_page
     
-    # Check if either posts per page or page number has changed
-    if new_bottom_posts_per_page != st.session_state.posts_per_page or new_bottom_page_number != st.session_state.page_number:
-        st.session_state.posts_per_page = new_bottom_posts_per_page
-        st.session_state.page_number = new_bottom_page_number
-        st.rerun()
+    post_container = st.empty()
+
+    if not filtered_data.empty:
+        with post_container.container():
+            for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
+                create_post(
+                    timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
+                    llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
+                    image_url=row['Image'],
+                    hashtags=row['Hashtags'],
+                    content=remove_markdown_formatting(row['Post']),
+                    model=row['Model'],
+                    link=row['Link'],
+                    prompt=row['Prompt'],
+                    input=row['Input']
+                )
+    else:
+        post_container.write("No posts found for the selected criteria.")
+
 else:
     st.write("No posts found for the selected criteria.")
 
-
 st.markdown("<p style='text-align: center;'>Built with ❤ by Faz</p>", unsafe_allow_html=True)
+
+# Move "Posts per page" to the bottom
+st.number_input(
+    "Posts per page",
+    min_value=1,
+    max_value=50,
+    value=st.session_state.get('posts_per_page', 5),
+    key="posts_per_page"
+)
+
+# At the end of your script
+if st.session_state.needs_rerun:
+    st.session_state.needs_rerun = False
+    st.rerun()
