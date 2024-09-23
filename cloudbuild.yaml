@@ -1,0 +1,23 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/peerr-thoughts/streamlit-app', '.']
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/peerr-thoughts/streamlit-app']
+  # Deploy container image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+    - 'run'
+    - 'deploy'
+    - 'streamlit-app'
+    - '--image'
+    - 'gcr.io/peerr-thoughts/streamlit-app'
+    - '--region'
+    - 'europe-west2'
+    - '--platform'
+    - 'managed'
+    - '--allow-unauthenticated'
+images:
+  - 'gcr.io/peerr-thoughts/streamlit-app'
