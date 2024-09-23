@@ -6,6 +6,8 @@ import datetime
 from dateutil.relativedelta import relativedelta
 import yaml
 import logging
+from streamlit_extras.metric_cards import style_metric_cards
+from streamlit_extras.stoggle import stoggle
 
 # Add these functions back into the main file
 def remove_markdown_formatting(text):
@@ -166,6 +168,13 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
                 st.caption(f"Image courtesy [Peerr AI]({image_url})")
             else:
                 st.caption(f"Image source: {image_url}")
+        
+        # Display hashtags and published details below the image
+        hashtags_str = ", ".join(hashtags[1:])
+        st.info(f"*{hashtags_str}*")
+        st.write(f"**Published** {relative_time(timestamp)}  \n"
+                f"**From:** {source}  \n")
+
     with col2:
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
         rest_of_content = "\n".join(content.split("\n")[1:])
@@ -176,24 +185,63 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         with tab1:
             with st.expander(f"{first_line}", expanded=True):
                 st.write(cleaned_content)
-            # Display post metadata
-            hashtags_str = ", ".join(hashtags[1:])
-            st.info(f"*{hashtags_str}*")
-            st.write(f"**Published** {relative_time(timestamp)}  \n"
-                    f"**From:** {source}  \n")
 
         with tab2:
             st.write(link)
             st.write(content)
             st.write(hashtags)
-            st.header("Input:")
-            st.write(input)
+            stoggle("Show Input", input)
 
     # Add a horizontal line between posts
     st.markdown("---")
-    
+
 # Streamlit UI configuration
 st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="wide")
+
+# Custom CSS with Peerr color scheme and gradient
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #FFFFFF;
+    }
+    .stSidebar {
+        background-color: #F0F2F6;
+    }
+    .stButton>button {
+        color: #FFFFFF;
+        background: linear-gradient(90deg, #FF9966 0%, #FF6699 100%);
+        border: none;
+    }
+    .stButton>button:hover {
+        color: #FFFFFF;
+        background: linear-gradient(90deg, #FF8855 0%, #FF5588 100%);
+        border: none;
+    }
+    .stTextInput>div>div>input {
+        color: #262730;
+    }
+    .stSelectbox>div>div>select {
+        color: #262730;
+    }
+    h1, h2, h3 {
+        background: linear-gradient(90deg, #FF9966 0%, #FF6699 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .main-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-top: 0;
+        text-align: left;
+        background: linear-gradient(90deg, #FF9966 0%, #FF6699 30%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+# Main content
+st.markdown('<h1 class="main-title">Peerr Thoughts</h1>', unsafe_allow_html=True)
 
 # Load the data
 meds = load_meds_data()
@@ -209,16 +257,13 @@ data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
 unique_hashtags = ["#All", "#Life Sciences & BioTech", "#Research & Clinical Trials", "#HealthTech & Startups", "#Healthcare & Policy"]
 clean_labels = [tag[1:] for tag in unique_hashtags]
 
-# Create a header
-st.markdown("<h1 style='text-align: center; color: #4a4a4a;'>Peerr Thoughts</h1>", unsafe_allow_html=True)
-
 # Move category selection to the main screen
 selected_label = st.radio("📊 Select a Category", options=clean_labels, horizontal=True)
 selected_hashtag = f"#{selected_label}" if selected_label != "All" else None
 
 # Sidebar
 with st.sidebar:
-    st.subheader("Filters")
+    st.sidebar.markdown('<h3>Filters</h3>', unsafe_allow_html=True)
     
     # Add multiselect for hashtags
     all_hashtags = sorted(set([tag for tags in data['Hashtags'] for tag in tags]))
@@ -237,16 +282,27 @@ with st.sidebar:
         end_date = st.date_input("📅 End Date", value=data['Time'].max().date())
     
     st.button("🔄 Refresh Data", on_click=lambda: (st.cache_data.clear(), st.rerun()))
-    st.subheader("Statistics")
+    
     total_posts = len(data)
-    last_post = data['Time'].max().strftime("%d %b %y")
-    first_post = data['Time'].min().strftime("%d %b %y")
-    last_gen = data['LLM Timestamp'].max().strftime("%d %b %y")
-
-    st.error(f"""📈 **Total Posts:** {total_posts}  \n
-🗓️ **Oldest Post:** {first_post}  \n
-🆕 **Latest Post:** {last_post}  \n
-🤖 **Last Generated:** {last_gen}""")
+    last_post = data['Time'].max().strftime("%d %b")
+    first_post = data['Time'].min().strftime("%d %b")
+    last_gen = data['LLM Timestamp'].max().strftime("%d %b")
+    
+    st.subheader("Statistics")
+    col1, col2 = st.columns(2)
+    col1.metric("Total Posts", total_posts)
+    col1.metric("Oldest Post", first_post)
+    col2.metric("Latest Post", last_post)
+    col2.metric("Last Generated", last_gen)
+    
+    style_metric_cards(
+        background_color="#FFFFFF",
+        border_size_px=1,
+        border_color="#E0E0E0",
+        border_radius_px=5,
+        border_left_color="#FF9966",  # Using the orange color from the gradient
+        box_shadow=True,
+    )
 
 # Initialize session state for page number if it doesn't exist
 if 'page_number' not in st.session_state:
@@ -272,21 +328,40 @@ if search_query:
 
 # Pagination
 if not filtered_data.empty:
-    POSTS_PER_PAGE = 15
-    total_pages = -(-len(filtered_data) // POSTS_PER_PAGE)
+    # Initialize posts per page in session state if it doesn't exist
+    if 'posts_per_page' not in st.session_state:
+        st.session_state.posts_per_page = 5
 
-    # Top pagination
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col2:
-        st.session_state.page_number = st.number_input(
-            f"Scroll through a total of {total_pages} pages", 
-            min_value=1, 
-            max_value=total_pages, 
-            value=st.session_state.page_number
+    # Top pagination and posts per page input
+    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+    with col3:
+        new_posts_per_page = st.number_input(
+            "Posts per page",
+            min_value=1,
+            max_value=50,
+            value=st.session_state.posts_per_page,
+            key="top_posts_per_page"
         )
     
-    start_idx = (st.session_state.page_number - 1) * POSTS_PER_PAGE
-    end_idx = start_idx + POSTS_PER_PAGE
+    total_pages = -(-len(filtered_data) // st.session_state.posts_per_page)
+    
+    with col2:
+        new_page_number = st.number_input(
+            f"Page (total: {total_pages})", 
+            min_value=1, 
+            max_value=total_pages, 
+            value=st.session_state.page_number,
+            key="top_page_number"
+        )
+    
+    # Check if either posts per page or page number has changed
+    if new_posts_per_page != st.session_state.posts_per_page or new_page_number != st.session_state.page_number:
+        st.session_state.posts_per_page = new_posts_per_page
+        st.session_state.page_number = new_page_number
+        st.rerun()
+
+    start_idx = (st.session_state.page_number - 1) * st.session_state.posts_per_page
+    end_idx = start_idx + st.session_state.posts_per_page
     
     for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
         create_post(
@@ -302,18 +377,29 @@ if not filtered_data.empty:
         )
 
     # Add bottom pagination
-    col1, col2, col3 = st.columns([1, 2, 1])
+    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+    with col3:
+        new_bottom_posts_per_page = st.number_input(
+            "Posts per page",
+            min_value=1,
+            max_value=50,
+            value=st.session_state.posts_per_page,
+            key="bottom_posts_per_page"
+        )
     with col2:
-        bottom_page_number = st.number_input(
-            "Go to page", 
+        new_bottom_page_number = st.number_input(
+            f"Page (total: {total_pages})", 
             min_value=1, 
             max_value=total_pages, 
             value=st.session_state.page_number, 
-            key="bottom_pagination"
+            key="bottom_page_number"
         )
-        if bottom_page_number != st.session_state.page_number:
-            st.session_state.page_number = bottom_page_number
-            st.rerun()
+    
+    # Check if either posts per page or page number has changed
+    if new_bottom_posts_per_page != st.session_state.posts_per_page or new_bottom_page_number != st.session_state.page_number:
+        st.session_state.posts_per_page = new_bottom_posts_per_page
+        st.session_state.page_number = new_bottom_page_number
+        st.rerun()
 else:
     st.write("No posts found for the selected criteria.")
 
