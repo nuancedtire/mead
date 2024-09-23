@@ -187,7 +187,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
         tab1, tab2 = st.tabs(["Article", "More"])
 
         with tab1:
-            with st.expander(f"{first_line}", expanded=True):
+            with st.expander(f"{first_line}", expanded=False):
                 st.write(cleaned_content)
 
         with tab2:
@@ -200,7 +200,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     st.markdown("---")
 
 # Streamlit UI configuration
-st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="wide")
+st.set_page_config(page_title="Peerr Thoughts", page_icon="💭", layout="centered")
 
 # Add this line after set_page_config to set the default theme to light
 st.markdown("""
@@ -351,10 +351,10 @@ if search_query:
 if not filtered_data.empty:
     # Initialize posts per page in session state if it doesn't exist
     if 'posts_per_page' not in st.session_state:
-        st.session_state.posts_per_page = 5
+        st.session_state.posts_per_page = 10
 
     # Calculate total pages
-    posts_per_page = st.session_state.get('posts_per_page', 5)
+    posts_per_page = st.session_state.get('posts_per_page', 10)
     total_pages = len(filtered_data) // posts_per_page + (1 if len(filtered_data) % posts_per_page > 0 else 0)
 
     # Pagination buttons
@@ -412,7 +412,7 @@ st.number_input(
     "Posts per page",
     min_value=1,
     max_value=50,
-    value=st.session_state.get('posts_per_page', 5),
+    value=st.session_state.get('posts_per_page', 10),
     key="posts_per_page"
 )
 
