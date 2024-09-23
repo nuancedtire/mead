@@ -2962,3 +2962,23 @@
 2024-09-23 12:38:56,006 - INFO - Attempt 1 succeeded with link: http://medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
 2024-09-23 12:38:56,009 - INFO - CSV file updated with new data.
 2024-09-23 12:38:56,009 - INFO - Medscape script completed.
+2024-09-23 13:12:30,105 - INFO - Medscape script started.
+2024-09-23 13:12:30,106 - INFO - Connection to Medscape established.
+2024-09-23 13:12:30,126 - INFO - Request sent to Medscape API.
+2024-09-23 13:12:30,679 - INFO - Response received from Medscape API.
+2024-09-23 13:12:30,679 - INFO - Response data decoded into dictionary.
+2024-09-23 13:12:30,714 - INFO - Existing CSV file loaded.
+2024-09-23 13:12:30,714 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-23 13:12:30,715 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-23 13:12:33,944 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u.
+2024-09-23 13:12:34,881 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 13:12:34,884 - INFO - Received response from OpenAI API.
+2024-09-23 13:12:34,884 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-23 13:12:34,884 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-23 13:12:34,884 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-23 13:12:38,194 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a.
+2024-09-23 13:12:39,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-23 13:12:39,484 - INFO - Received response from OpenAI API.
+2024-09-23 13:12:39,489 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-23 13:12:39,492 - INFO - CSV file updated with new data.
+2024-09-23 13:12:39,492 - INFO - Medscape script completed.
