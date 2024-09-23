@@ -162,7 +162,7 @@ st.subheader("Cache Entries")
 search_query = st.text_input("Search in responses", "")
 
 # Pagination
-entries_per_page = 10
+entries_per_page = st.number_input("Entry per page", min_value=10, max_value=len(filtered_data))
 total_pages = (len(filtered_data) - 1) // entries_per_page + 1
 page = st.number_input(f"Page (of {total_pages})", min_value=1, max_value=total_pages, value=1)
 
