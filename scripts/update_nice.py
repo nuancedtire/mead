@@ -31,7 +31,7 @@ def fetch_webpage(url):
 
 def parse_date(date_string):
     try:
-        return datetime.strptime(date_string, "%d %B %Y").strftime("%Y-%m-%d")
+        return datetime.strptime(date_string, "%d %B %Y").strftime("%Y-%m-%d %H:%M:%S")
     except ValueError:
         logging.error(f"Error parsing date: {date_string}")
         return date_string
