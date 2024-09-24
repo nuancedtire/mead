@@ -3246,3 +3246,23 @@
 2024-09-24 12:46:51,931 - INFO - Existing CSV file loaded.
 2024-09-24 12:46:51,931 - INFO - No new links found, CSV file is up to date.
 2024-09-24 12:46:51,931 - INFO - Medscape script completed.
+2024-09-24 13:31:08,177 - INFO - Medscape script started.
+2024-09-24 13:31:08,178 - INFO - Connection to Medscape established.
+2024-09-24 13:31:08,198 - INFO - Request sent to Medscape API.
+2024-09-24 13:31:08,740 - INFO - Response received from Medscape API.
+2024-09-24 13:31:08,741 - INFO - Response data decoded into dictionary.
+2024-09-24 13:31:08,776 - INFO - Existing CSV file loaded.
+2024-09-24 13:31:08,776 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-24 13:31:08,776 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-24 13:31:10,865 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73.
+2024-09-24 13:31:11,681 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-24 13:31:11,684 - INFO - Received response from OpenAI API.
+2024-09-24 13:31:11,684 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-24 13:31:11,684 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-24 13:31:11,684 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-24 13:31:14,473 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m.
+2024-09-24 13:31:15,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-24 13:31:15,514 - INFO - Received response from OpenAI API.
+2024-09-24 13:31:15,514 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-24 13:31:15,517 - INFO - CSV file updated with new data.
+2024-09-24 13:31:15,517 - INFO - Medscape script completed.
