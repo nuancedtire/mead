@@ -463,7 +463,7 @@ def get_unique_links(csv_files, llm_links):
 
 def main():
     setup_logger()
-    csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv", "databases/nice.csv", "databases/nih_clinical_research.csv"]
+    csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv", "databases/nice.csv", "databases/nih_clinical_research.csv", "databases/fierce_pharma.csv"]
     llm_file_path = "databases/llm.csv"
     
     # Load existing LLM links

@@ -105,6 +105,10 @@ def load_nice_data():
 def load_nih_data():
     return pd.read_csv('databases/nih_clinical_research.csv')  # NIH data
 
+@st.cache_data
+def load_fierce_pharma_data():
+    return pd.read_csv('databases/fierce_pharma.csv')
+
 @st.cache_data(ttl=3600)  # Cache data for 1 hour
 def load_firebase():
     """
@@ -137,6 +141,8 @@ def determine_source(link):
         return "NICE UK"
     elif link in nih['Link'].values:
         return "NIH"
+    elif link in fierce_pharma['Link'].values:
+        return "Fierce Pharma"
     else:
         return "Unknown Source"
 
@@ -271,6 +277,7 @@ sifted = load_sifted_data()
 scape = load_scape_data()
 nice = load_nice_data()
 nih = load_nih_data()
+fierce_pharma = load_fierce_pharma_data()
 data = load_firebase()
 
 # Apply cleaning function to 'Hashtags' column
@@ -293,7 +300,7 @@ with st.sidebar:
     selected_hashtags = st.multiselect("#️⃣ Filter by Hashtags", options=all_hashtags)
     
     # Add multiselect for sources
-    all_sources = ["Medsii", "Sifted", "Medscape", "NICE UK", "NIH"]
+    all_sources = ["Medsii", "Sifted", "Medscape", "NICE UK", "NIH", "Fierce Pharma"]
     selected_sources = st.multiselect("🌐 Filter by Source", options=all_sources)
     
     search_query = st.text_input("🔎 Search posts")
