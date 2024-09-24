@@ -71,7 +71,7 @@ jobs:
 
       - name: | Run the NIH script
         run: |
-          python scripts/update_nih.py
+          python scripts/update_nih_cr.py
 
       - name: Run the LLM processing script
         run: |
