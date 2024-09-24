@@ -65,7 +65,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.MY_OPENAI_API_KEY }}
 
-      - name: | Run the NICE script
+      - name: Run the NICE script
         run: |
           python scripts/update_nice.py
 
@@ -78,7 +78,6 @@ jobs:
           python scripts/llm.py
         env:
           OPENAI_API_KEY: ${{ secrets.MY_OPENAI_API_KEY }}
-
       # - name: Upload to Firebase
       #   env:
       #     FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
