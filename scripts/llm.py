@@ -31,11 +31,25 @@ import json
 
 def setup_logger(log_file_path="logs/llm.log"):
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-    logging.basicConfig(
-        filename=log_file_path,
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s",
-    )
+
+    # Create a custom logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+
+    # Create handlers
+    f_handler = logging.FileHandler(log_file_path)
+    f_handler.setLevel(logging.INFO)
+    c_handler = logging.StreamHandler(sys.stdout)
+    c_handler.setLevel(logging.INFO)
+
+    # Create formatters and add them to the handlers
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    f_handler.setFormatter(formatter)
+    c_handler.setFormatter(formatter)
+
+    # Add handlers to the logger
+    logger.addHandler(f_handler)
+    logger.addHandler(c_handler)
 
 # =====================
 #  Configuration Setup
