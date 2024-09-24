@@ -448,7 +448,7 @@ def get_unique_links(csv_files, llm_links):
 
 def main():
     setup_logger()
-    csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv", "databases/nice.csv"]
+    csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv", "databases/nice.csv", "databases/nih_clinical_research.csv"]
     llm_file_path = "databases/llm.csv"
     if os.path.exists(llm_file_path):
         llm_links = [normalize_url(entry["Link"]) for entry in extract_links(read_csv(llm_file_path))]
@@ -470,7 +470,7 @@ def main():
     batch_log_entries = []
     processed_count = 0
     for link_info in combined_links:
-        if processed_count >= 5:  # Process only 5 articles
+        if processed_count >= 10:  # Process only 5 articles
             break
 
         link = link_info.get("Link")
@@ -481,7 +481,7 @@ def main():
         # Check if the link has failed recently
         if link in failed_links:
             last_failed_time = datetime.fromisoformat(failed_links[link])
-            if current_time - last_failed_time < timedelta(hours=24):  # Adjust the time as needed
+            if current_time - last_failed_time < timedelta(hours=4):  # Adjust the time as needed
                 logging.info(f"Skipping recently failed link: {link}")
                 continue
 

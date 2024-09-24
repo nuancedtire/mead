@@ -64,7 +64,15 @@ jobs:
           python scripts/update_scape.py
         env:
           OPENAI_API_KEY: ${{ secrets.MY_OPENAI_API_KEY }}
-      
+
+      - name: | Run the NICE script
+        run: |
+          python scripts/update_nice.py
+
+      - name: | Run the NIH script
+        run: |
+          python scripts/update_nih.py
+
       - name: Run the LLM processing script
         run: |
           python scripts/llm.py
