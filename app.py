@@ -293,7 +293,7 @@ with st.sidebar:
     selected_hashtags = st.multiselect("#️⃣ Filter by Hashtags", options=all_hashtags)
     
     # Add multiselect for sources
-    all_sources = ["Medsii", "Sifted", "Medscape", "NICE UK", "Unknown"]
+    all_sources = ["Medsii", "Sifted", "Medscape", "NICE UK", "NIH"]
     selected_sources = st.multiselect("🌐 Filter by Source", options=all_sources)
     
     search_query = st.text_input("🔎 Search posts")
