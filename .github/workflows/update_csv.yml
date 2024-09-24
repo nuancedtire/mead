@@ -69,7 +69,7 @@ jobs:
         run: |
           python scripts/update_nice.py
 
-      - name: | Run the NIH script
+      - name: Run the NIH script
         run: |
           python scripts/update_nih_cr.py
 
