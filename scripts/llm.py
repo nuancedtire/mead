@@ -134,7 +134,7 @@ def fetch_url_content(url):
 class PostResponse(BaseModel):
     """Ready to use Social Media Post"""
     post_content: str = Field(..., description="The final generated post content in plain text without any hashtags.")
-    hashtags: List[str] = Field(..., description="A list of relevant and trending hashtags for the post. For example, Cardiology, HealthcarePolicy")
+    hashtags: List[str] = Field(..., description="A list of trending hashtags for the post. For example, Cardiology, HealthcarePolicy")
     category: Literal["Life Sciences & BioTech", "Research & Clinical Trials", "HealthTech & Startups", "Healthcare & Policy"] = Field(..., description="The category that fits the post best.")
 
 # =====================
@@ -156,103 +156,107 @@ def save_failed_links(failed_links):
         json.dump(failed_links, f)
 
 def generate_post(inputs):
-    webpage_content = inputs["webpage_content"]
-    link = inputs["link"]
-    original_timestamp = inputs["original_timestamp"]
-    processed_links = inputs["processed_links"]
+    try:
+        webpage_content = inputs["webpage_content"]
+        link = inputs["link"]
+        original_timestamp = inputs["original_timestamp"]
+        processed_links = inputs["processed_links"]
 
-    failed_links = load_failed_links()
-    current_time = datetime.now()
+        failed_links = load_failed_links()
+        current_time = datetime.now()
 
-    # Check if the link has failed recently
-    if link in failed_links:
-        last_failed_time = datetime.fromisoformat(failed_links[link])
-        if current_time - last_failed_time < timedelta(hours=1):  # Adjust the time as needed
-            logging.info(f"Skipping recently failed link: {link}")
+        # Check if the link has failed recently
+        if link in failed_links:
+            last_failed_time = datetime.fromisoformat(failed_links[link])
+            if current_time - last_failed_time < timedelta(hours=1):  # Adjust the time as needed
+                logging.info(f"Skipping recently failed link: {link}")
+                return None
+
+        # Step 1: Check if the content is an article
+        check_article_prompt = ChatPromptTemplate.from_messages(
+            [
+                (
+                    "system",
+                    "Determine if the provided webpage contains a full article. "
+                    "If it does not contain an article, reply with only 'None'. "
+                    "If the webpage contains an article, convert the entire content into plain text, "
+                    "preserving the original text without summarization, additions, or omissions.",
+                ),
+                ("user", "{webpage_content}"),
+            ]
+        )
+        check_article_chain = check_article_prompt | small_llm
+
+        # Invoke the chain
+        content_check_response = check_article_chain.invoke({"webpage_content": webpage_content})
+        content_check = content_check_response.content.strip()
+
+        if content_check.lower() == "none":
+            logging.info(f"No article found for link {link}.")
+            print(f"No article found for link {link}.")
+            failed_links[link] = current_time.isoformat()
+            save_failed_links(failed_links)
             return None
 
-    # Step 1: Check if the content is an article
-    check_article_prompt = ChatPromptTemplate.from_messages(
-        [
-            (
-                "system",
-                "Determine if the provided webpage contains a full article. "
-                "If it does not contain an article, reply with only 'None'. "
-                "If the webpage contains an article, convert the entire content into plain text, "
-                "preserving the original text without summarization, additions, or omissions.",
-            ),
-            ("user", "{webpage_content}"),
-        ]
-    )
-    check_article_chain = check_article_prompt | small_llm
+        content = content_check
+        if not content:
+            logging.info(f"Empty content for link {link}.")
+            print(f"Empty content for link {link}.")
+            failed_links[link] = current_time.isoformat()
+            save_failed_links(failed_links)
+            return None
 
-    # Invoke the chain
-    content_check_response = check_article_chain.invoke({"webpage_content": webpage_content})
-    content_check = content_check_response.content.strip()
+        # Step 2: Generate the post using structured output
+        structured_large_llm = large_llm.with_structured_output(PostResponse)
+        post_generation_prompt = ChatPromptTemplate.from_messages(
+            [("system", system_message), ("user", "Source: {link} \n{content}")]
+        )
+        post_generation_chain = post_generation_prompt | structured_large_llm
 
-    if content_check.lower() == "none":
-        logging.info(f"No article found for link {link}.")
-        print(f"No article found for link {link}.")
-        failed_links[link] = current_time.isoformat()
-        save_failed_links(failed_links)
+        try:
+            post_response = post_generation_chain.invoke({"link": link, "content": content})
+            parsed_response = post_response  # Already a PostResponse object
+        except ValidationError as e:
+            logging.error(f"Validation error for link {link}: {e}")
+            print(f"Validation error for link {link}: {e}")
+            return None
+
+        # Step 3: Generate image query
+        image_query = get_image_query(parsed_response.post_content, small_llm)
+        logging.info(f"Image query: {image_query}")
+
+        # Fetch image
+        image_link = get_image(image_query)
+        logging.info(f"Image link: {image_link}")
+
+        # Combine category and hashtags
+        combined_hashtags = [parsed_response.category] + parsed_response.hashtags
+        # Append the processed information to processed_links
+        processed_links.append({"Image": image_link})
+
+        post_content = remove_markdown_formatting(parsed_response.post_content)
+
+        # Return the log entry
+        llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        return {
+            "status": "success",
+            "generated_post": [
+                original_timestamp,
+                llm_timestamp,
+                post_content,
+                combined_hashtags,
+                image_link,
+                link,
+                system_message,
+                content,
+                large_model_name,
+            ],
+            "link": link,
+            "og_time": original_timestamp,
+        }
+    except Exception as e:
+        logging.error(f"Error generating post for link {link}: {e}")
         return None
-
-    content = content_check
-    if not content:
-        logging.info(f"Empty content for link {link}.")
-        print(f"Empty content for link {link}.")
-        failed_links[link] = current_time.isoformat()
-        save_failed_links(failed_links)
-        return None
-
-    # Step 2: Generate the post using structured output
-    structured_large_llm = large_llm.with_structured_output(PostResponse)
-    post_generation_prompt = ChatPromptTemplate.from_messages(
-        [("system", system_message), ("user", "Source: {link} \n{content}")]
-    )
-    post_generation_chain = post_generation_prompt | structured_large_llm
-
-    try:
-        post_response = post_generation_chain.invoke({"link": link, "content": content})
-        parsed_response = post_response  # Already a PostResponse object
-    except ValidationError as e:
-        logging.error(f"Validation error for link {link}: {e}")
-        print(f"Validation error for link {link}: {e}")
-        return None
-
-    # Step 3: Generate image query
-    image_query = get_image_query(parsed_response.post_content, small_llm)
-    logging.info(f"Image query: {image_query}")
-
-    # Fetch image
-    image_link = get_image(image_query)
-    logging.info(f"Image link: {image_link}")
-
-    # Combine category and hashtags
-    combined_hashtags = [parsed_response.category] + parsed_response.hashtags
-    # Append the processed information to processed_links
-    processed_links.append({"Image": image_link})
-
-    post_content = remove_markdown_formatting(parsed_response.post_content)
-
-    # Return the log entry
-    llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    return {
-        "status": "success",
-        "generated_post": [
-            original_timestamp,
-            llm_timestamp,
-            post_content,
-            combined_hashtags,
-            image_link,
-            link,
-            system_message,
-            content,
-            large_model_name,
-        ],
-        "link": link,
-        "og_time": original_timestamp,
-    }
 
 def get_image_query(post_content, model):
     image_query_prompt = ChatPromptTemplate.from_messages(
@@ -389,47 +393,44 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         logging.error(f"Error logging data to CSV: {e}")
         print(f"Error logging data to CSV: {e}")
 
-def send_to_firebase(batch_log_entries, url="https://flask-app-923186021986.us-central1.run.app/post"):
-    # try:
-    #     batch_data = []
-    #     for log_entry in batch_log_entries:
-    #         if not log_entry.get("generated_post"):
-    #             logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
-    #             continue
-    #         audience = "HCP (inc. Students)" if "medscape" or "nice" in log_entry["generated_post"][5] else "General"
-    #         post_data = {
-    #             "imageURL": log_entry["generated_post"][4],
-    #             "hashtags": log_entry["generated_post"][3],
-    #             "source": log_entry["generated_post"][5],
-    #             "post": log_entry["generated_post"][2],
-    #             "audience": audience,
-    #         }
-    #         batch_data.append(post_data)
-    #     if not batch_data:
-    #         logging.error("No valid log entries to send to Firebase.")
-    #         return None
-    #     headers = {"Content-Type": "application/json", "x-api-key": "fazzu"}
-    #     response = requests.post(url, json={"posts": batch_data}, headers=headers)
-    #     if response.status_code == 201:
-    #         result = response.json()
-    #         document_ids = result.get("documentIDs", [])
-    #         logging.info(f"Successfully sent batch data to Firebase: {result}")
-    #         if len(document_ids) != len(batch_log_entries):
-    #             logging.error(
-    #                 f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries)} entries."
-    #             )
-    #             return None
-    #         return document_ids
-    #     else:
-    #         logging.error(f"Failed to send batch data to Firebase. Status code: {response.status_code}, Response: {response.text}")
-    #         return None
-    # except requests.exceptions.RequestException as e:
-    #     logging.error(f"Error sending batch data to Firebase: {e}")
-    #     return None
-    # Placeholder for Firebase sending
-    logging.info(f"Placeholder: Would have sent {len(batch_log_entries)} entries to Firebase.")
-    # Return placeholder document IDs
-    return [f"placeholder_id_{i}" for i in range(len(batch_log_entries))]
+def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
+    try:
+        batch_data = []
+        for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
+            if not log_entry.get("generated_post"):
+                logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+                continue
+            audience = "HCP (inc. Students)" if "medscape" in log_entry["generated_post"][5] or "nice" in log_entry["generated_post"][5] or "nih" in log_entry["generated_post"][5] else "General"
+            post_data = {
+                "imageURL": log_entry["generated_post"][4],
+                "hashtags": log_entry["generated_post"][3],
+                "source": log_entry["generated_post"][5],
+                "post": log_entry["generated_post"][2],
+                "type": audience,
+            }
+            batch_data.append(post_data)
+        if not batch_data:
+            logging.error("No valid log entries to send to API.")
+            return None
+        headers = {"Content-Type": "application/json", "x-secret": "9b7ExA8PlJbK"}
+        response = requests.post(url, json=batch_data, headers=headers)
+        if response.status_code == 201 or response.status_code == 200:
+            result = response.json()
+            document_ids = [item["message"].split(": ")[1] for item in result if "Saved with ID" in item["message"]]
+            logging.info(f"Successfully sent batch data to API: {result}")
+            if len(document_ids) != len(batch_log_entries[:10]):
+                logging.error(
+                    f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries[:10])} entries."
+                )
+                return None
+            return document_ids
+        else:
+            logging.error(f"Failed to send batch data to API. Status code: {response.status_code}, Response: {response.text}")
+            return None
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error sending batch data to API: {e}")
+        return None
+
 # =====================
 #  Main Logic
 # =====================
@@ -450,10 +451,14 @@ def main():
     setup_logger()
     csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv", "databases/nice.csv", "databases/nih_clinical_research.csv"]
     llm_file_path = "databases/llm.csv"
+    
+    # Load existing LLM links
     if os.path.exists(llm_file_path):
         llm_links = [normalize_url(entry["Link"]) for entry in extract_links(read_csv(llm_file_path))]
     else:
         llm_links = []
+    
+    # Get unique links to process
     combined_links = get_unique_links(csv_files, llm_links)
     logging.info(f"Unique links to process: {len(combined_links)}")
     print(f"Unique links to process: {len(combined_links)}")
@@ -470,7 +475,7 @@ def main():
     batch_log_entries = []
     processed_count = 0
     for link_info in combined_links:
-        if processed_count >= 10:  # Process only 5 articles
+        if processed_count >= 5:  # Process only 5 articles
             break
 
         link = link_info.get("Link")
@@ -515,5 +520,6 @@ def main():
             logging.warning("No document IDs returned from Firebase. Skipping CSV logging.")
     else:
         logging.info("No valid log entries generated.")
+
 if __name__ == "__main__":
     main()
