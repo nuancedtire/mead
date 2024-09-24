@@ -101,6 +101,10 @@ def load_scape_data():
 def load_nice_data():
     return pd.read_csv('databases/nice.csv')  # Nice data
 
+@st.cache_data
+def load_nih_data():
+    return pd.read_csv('databases/nih_clinical_research.csv')  # NIH data
+
 @st.cache_data(ttl=3600)  # Cache data for 1 hour
 def load_firebase():
     """
@@ -131,6 +135,8 @@ def determine_source(link):
         return "Medscape"
     elif link in nice['Link'].values:
         return "NICE UK"
+    elif link in nih['Link'].values:
+        return "NIH"
     else:
         return "Unknown Source"
 
@@ -264,6 +270,7 @@ meds = load_meds_data()
 sifted = load_sifted_data()
 scape = load_scape_data()
 nice = load_nice_data()
+nih = load_nih_data()
 data = load_firebase()
 
 # Apply cleaning function to 'Hashtags' column
@@ -405,8 +412,6 @@ if not filtered_data.empty:
 else:
     st.write("No posts found for the selected criteria.")
 
-st.markdown("<p style='text-align: center;'>Built with ❤ by Faz</p>", unsafe_allow_html=True)
-
 # Move "Posts per page" to the bottom
 st.number_input(
     "Posts per page",
@@ -415,6 +420,8 @@ st.number_input(
     value=st.session_state.get('posts_per_page', 10),
     key="posts_per_page"
 )
+
+st.markdown("<p style='text-align: center;'>Built with ❤ by Faz</p>", unsafe_allow_html=True)
 
 # At the end of your script
 if st.session_state.needs_rerun:
