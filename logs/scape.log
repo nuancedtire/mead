@@ -3266,3 +3266,11 @@
 2024-09-24 13:31:15,514 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
 2024-09-24 13:31:15,517 - INFO - CSV file updated with new data.
 2024-09-24 13:31:15,517 - INFO - Medscape script completed.
+2024-09-24 13:45:39,994 - INFO - Medscape script started.
+2024-09-24 13:45:39,994 - INFO - Connection to Medscape established.
+2024-09-24 13:45:40,076 - INFO - Request sent to Medscape API.
+2024-09-24 13:45:40,402 - INFO - Response received from Medscape API.
+2024-09-24 13:45:40,402 - INFO - Response data decoded into dictionary.
+2024-09-24 13:45:40,435 - INFO - Existing CSV file loaded.
+2024-09-24 13:45:40,435 - INFO - No new links found, CSV file is up to date.
+2024-09-24 13:45:40,435 - INFO - Medscape script completed.
