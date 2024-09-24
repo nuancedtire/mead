@@ -24,6 +24,8 @@ from pydantic import BaseModel, Field, ValidationError
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from requests.exceptions import RequestException
 import json
+from bs4 import BeautifulSoup
+from scripts.update_fierce_pharma import fetch_api_data, extract_article_data
 
 # =====================
 #  Logging Setup
@@ -134,9 +136,34 @@ def remove_markdown_formatting(text):
     retry=retry_if_exception_type(RequestException)
 )
 def fetch_url_content(url):
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.text
+    try:
+        if "fiercepharma.com" in url:
+            # For Fierce Pharma, use the API approach
+            base_url = "https://www.fiercepharma.com/api/v1/fronts/104751?page=1"
+            api_data = fetch_api_data(base_url)
+            if api_data:
+                for article in api_data.get('articles', []):
+                    article_url = f"https://www.fiercepharma.com{article.get('path', {}).get('alias', '')}"
+                    if article_url == url:
+                        article_data = fetch_api_data(f"https://www.fiercepharma.com/jsonapi/node/article/{article['uuid']}")
+                        if article_data:
+                            article_info = extract_article_data(article_data)
+                            if article_info:
+                                return f"{article_info['Title']}\n\n{article_info.get('Content', '')}"
+            logging.error(f"Failed to fetch Fierce Pharma content for {url}")
+            return None
+        else:
+            # For all other URLs, use the Jina AI reader API
+            jina_url = f"http://r.jina.ai/{url}"
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            response = requests.get(jina_url, headers=headers)
+            response.raise_for_status()
+            return response.text
+    except requests.RequestException as e:
+        logging.error(f"Error fetching {url}: {e}")
+        raise
 
 # =====================
 #  Pydantic Model for Response
@@ -504,11 +531,10 @@ def main():
                 logging.info(f"Skipping recently failed link: {link}")
                 continue
 
-        url = f"http://r.jina.ai/{link}"
         try:
-            webpage_content = fetch_url_content(url)
+            webpage_content = fetch_url_content(link)
         except requests.exceptions.RequestException as e:
-            logging.error(f"Error fetching {url}: {e}")
+            logging.error(f"Error fetching {link}: {e}")
             continue
         inputs = {
             "webpage_content": webpage_content,
