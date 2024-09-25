@@ -84,7 +84,7 @@ def read_csv(file_path):
         return pd.DataFrame()
     return pd.read_csv(file_path)
 
-def extract_links(df, link_column="Link", time_column="Time"):
+def extract_links(df, link_column="Link", time_column="Time", source_link_column="Source Link"):
     try:
         if df.empty:
             logging.warning("The DataFrame is empty.")
@@ -92,7 +92,20 @@ def extract_links(df, link_column="Link", time_column="Time"):
         if link_column not in df.columns or time_column not in df.columns:
             logging.warning(f"Missing required columns: {link_column} or {time_column}")
             return []
-        links = df.dropna(subset=[link_column])[[link_column, time_column]]
+        
+        # Check if source_link_column exists, if not, use link_column
+        columns_to_extract = [link_column, time_column]
+        if source_link_column in df.columns:
+            columns_to_extract.append(source_link_column)
+        else:
+            logging.warning(f"'{source_link_column}' not found. Using '{link_column}' as source link.")
+        
+        links = df.dropna(subset=[link_column])[columns_to_extract]
+        
+        # If source_link_column doesn't exist, create it with the same value as link_column
+        if source_link_column not in links.columns:
+            links[source_link_column] = links[link_column]
+        
         link_records = links.to_dict("records")
         logging.info(f"Extracted {len(link_records)} link records.")
         return link_records
@@ -172,6 +185,7 @@ def generate_post(inputs):
     try:
         webpage_content = inputs["webpage_content"]
         link = inputs["link"]
+        source_link = inputs["source_link"]
         original_timestamp = inputs["original_timestamp"]
         processed_links = inputs["processed_links"]
 
@@ -257,11 +271,13 @@ def generate_post(inputs):
                 combined_hashtags,
                 image_link,
                 link,
+                source_link,  # Add source_link to the generated_post list
                 system_message,
                 content,
                 large_model_name,
             ],
             "link": link,
+            "source_link": source_link,  # Add source_link to the return dictionary
             "og_time": original_timestamp,
         }
     except Exception as e:
@@ -391,7 +407,8 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
             "Model",
             "DocumentID",
         ]
-        log_entry_with_id = generated_post + [document_id]
+        # Remove the source_link from generated_post
+        log_entry_with_id = generated_post[:6] + generated_post[7:] + [document_id]
         df_new = pd.DataFrame([log_entry_with_id], columns=columns)
         if not os.path.exists(file_name):
             df_new.to_csv(file_name, index=False)
@@ -408,11 +425,13 @@ def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoug
             if not log_entry.get("generated_post"):
                 logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
                 continue
-            audience = "HCP (inc. Students)" if "medscape" in log_entry["generated_post"][5] or "nice" in log_entry["generated_post"][5] or "nih" in log_entry["generated_post"][5] else "General"
+            link = log_entry["generated_post"][5]
+            source_link = log_entry["generated_post"][6]  # Get the source_link
+            audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link or "nih" in link else "General"
             post_data = {
                 "imageURL": log_entry["generated_post"][4],
                 "hashtags": log_entry["generated_post"][3],
-                "source": log_entry["generated_post"][5],
+                "source": source_link if source_link else link,  # Use source_link if available, otherwise use link
                 "post": log_entry["generated_post"][2],
                 "type": audience,
             }
@@ -492,6 +511,7 @@ def main():
             break
 
         link = link_info.get("Link")
+        source_link = link_info.get("Source Link", "")  # Get the Source Link, default to empty string if not present
         if link is None:
             logging.warning(f"Invalid link found in link_info: {link_info}")
             continue
@@ -512,6 +532,7 @@ def main():
         inputs = {
             "webpage_content": webpage_content,
             "link": link,
+            "source_link": source_link,  # Add source_link to the inputs
             "original_timestamp": link_info.get("Time"),
             "processed_links": [],
         }

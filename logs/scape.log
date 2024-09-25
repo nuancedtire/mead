@@ -3582,6 +3582,7 @@
 2024-09-25 18:12:41,004 - INFO - Existing CSV file loaded.
 2024-09-25 18:12:41,004 - INFO - No new links found, CSV file is up to date.
 2024-09-25 18:12:41,004 - INFO - Medscape script completed.
+<<<<<<< HEAD
 2024-09-25 18:28:47,011 - INFO - Medscape script started.
 2024-09-25 18:28:47,011 - INFO - Connection to Medscape established.
 2024-09-25 18:28:47,037 - INFO - Request sent to Medscape API.
@@ -3598,3 +3599,348 @@
 2024-09-25 19:15:23,840 - INFO - Existing CSV file loaded.
 2024-09-25 19:15:23,840 - INFO - No new links found, CSV file is up to date.
 2024-09-25 19:15:23,841 - INFO - Medscape script completed.
+=======
+2024-09-25 18:24:02,830 - INFO - Medscape script started.
+2024-09-25 18:24:02,830 - ERROR - An error occurred: name 'http' is not defined
+2024-09-25 18:24:44,799 - INFO - Medscape script started.
+2024-09-25 18:24:44,804 - INFO - Connection to Medscape established.
+2024-09-25 18:24:44,833 - INFO - Request sent to Medscape API.
+2024-09-25 18:24:45,423 - INFO - Response received from Medscape API.
+2024-09-25 18:24:45,424 - INFO - Response data decoded into dictionary.
+2024-09-25 18:24:45,426 - INFO - Existing CSV file loaded.
+2024-09-25 18:24:45,426 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:24:45,426 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:24:51,323 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:24:51,330 - INFO - Found source link: http://medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:24:51,330 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:24:51,330 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:24:55,867 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:24:55,868 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae633/7758750?login=false
+2024-09-25 18:24:55,868 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:24:55,868 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:25:01,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:25:01,039 - INFO - Found source link: http://medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:25:01,039 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:25:01,040 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:25:07,079 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:25:07,080 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-25 18:25:07,080 - INFO - No new links found, CSV file is up to date.
+2024-09-25 18:25:07,080 - INFO - Medscape script completed.
+2024-09-25 18:27:40,974 - INFO - Medscape script started.
+2024-09-25 18:27:40,979 - INFO - Connection to Medscape established.
+2024-09-25 18:27:40,994 - INFO - Request sent to Medscape API.
+2024-09-25 18:27:41,362 - INFO - Response received from Medscape API.
+2024-09-25 18:27:41,362 - INFO - Response data decoded into dictionary.
+2024-09-25 18:27:41,363 - INFO - No existing CSV file found. Creating new data structure.
+2024-09-25 18:27:41,363 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:27:41,363 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:27:44,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:27:44,137 - INFO - Found source link: http://medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:27:44,137 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:27:44,138 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:27:45,910 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:27:45,911 - INFO - Found source link: http://medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:27:45,912 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:27:45,912 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:27:48,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:27:48,185 - INFO - Found source link: http://medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:27:48,186 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:27:48,186 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:27:51,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:27:51,454 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-25 18:27:51,456 - INFO - CSV file updated with new data.
+2024-09-25 18:27:51,456 - INFO - Medscape script completed.
+2024-09-25 18:30:16,505 - INFO - Medscape script started.
+2024-09-25 18:30:16,509 - INFO - Connection to Medscape established.
+2024-09-25 18:30:16,648 - INFO - Request sent to Medscape API.
+2024-09-25 18:30:17,198 - INFO - Response received from Medscape API.
+2024-09-25 18:30:17,198 - INFO - Response data decoded into dictionary.
+2024-09-25 18:30:17,201 - INFO - Existing CSV file loaded.
+2024-09-25 18:30:17,201 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:30:17,201 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:30:19,413 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:30:19,421 - INFO - Found source link: https://ajcn.nutrition.org/article/S0002-9165/(24/)00746-9/fulltext
+2024-09-25 18:30:19,421 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:30:19,421 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:30:22,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:30:22,075 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae633/7758750?login=false
+2024-09-25 18:30:22,076 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:30:22,076 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:30:24,049 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:30:24,050 - INFO - Found source link: https://onlinelibrary.wiley.com/doi/full/10.1111/dme.15420?campaign=woletoc
+2024-09-25 18:30:24,050 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:30:24,050 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:30:27,540 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:30:27,541 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-25 18:30:27,542 - INFO - No new links found, CSV file is up to date.
+2024-09-25 18:30:27,542 - INFO - Medscape script completed.
+2024-09-25 18:31:55,021 - INFO - Medscape script started.
+2024-09-25 18:31:55,026 - INFO - Connection to Medscape established.
+2024-09-25 18:31:55,047 - INFO - Request sent to Medscape API.
+2024-09-25 18:31:55,684 - INFO - Response received from Medscape API.
+2024-09-25 18:31:55,684 - INFO - Response data decoded into dictionary.
+2024-09-25 18:31:55,685 - INFO - No existing CSV file found. Creating new data structure.
+2024-09-25 18:31:55,685 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:31:55,685 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:31:57,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:31:57,451 - INFO - Found source link: https://ajcn.nutrition.org/article/S0002-9165/(24/)00746-9/fulltext
+2024-09-25 18:31:57,452 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:31:57,452 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:32:05,047 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:32:05,049 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae633/7758750?login=false
+2024-09-25 18:32:05,049 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:32:05,049 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:32:06,645 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:32:06,646 - INFO - Found source link: https://onlinelibrary.wiley.com/doi/full/10.1111/dme.15420?campaign=woletoc
+2024-09-25 18:32:06,646 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:32:06,646 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:32:10,277 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:32:10,278 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-25 18:32:10,281 - INFO - CSV file updated with new data.
+2024-09-25 18:32:10,281 - INFO - Medscape script completed.
+2024-09-25 18:34:17,119 - INFO - Medscape script started.
+2024-09-25 18:34:17,124 - INFO - Connection to Medscape established.
+2024-09-25 18:34:17,144 - INFO - Request sent to Medscape API.
+2024-09-25 18:34:17,886 - INFO - Response received from Medscape API.
+2024-09-25 18:34:17,887 - INFO - Response data decoded into dictionary.
+2024-09-25 18:34:17,889 - INFO - Existing CSV file loaded.
+2024-09-25 18:34:17,889 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:34:17,889 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:34:19,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:34:19,854 - INFO - Found source link: https://ajcn.nutrition.org/article/S0002-9165/(24/)00746-9/fulltext
+2024-09-25 18:34:19,855 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:34:19,855 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:34:22,010 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:34:22,011 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae633/7758750?login=false
+2024-09-25 18:34:22,011 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:34:22,011 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:34:23,949 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:34:23,950 - INFO - Found source link: https://onlinelibrary.wiley.com/doi/full/10.1111/dme.15420?campaign=woletoc
+2024-09-25 18:34:23,951 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:34:23,951 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:34:26,855 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:34:26,859 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-25 18:34:26,859 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 18:34:26,860 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 18:34:31,559 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:34:31,560 - INFO - Found source link: https://bmcpediatr.biomedcentral.com/articles/10.1186/s12887-024-05049-7
+2024-09-25 18:34:31,560 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 18:34:31,560 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 18:34:36,171 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:34:36,173 - INFO - Found source link: https://www.nejm.org/doi/pdf/10.1056/NEJMoa2409932
+2024-09-25 18:34:36,173 - INFO - Processing new item: https://www.medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 18:34:36,173 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 18:34:40,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:34:40,460 - INFO - Found source link: https://academic.oup.com/jcem/advance-article-abstract/doi/10.1210/clinem/dgae605/7747824?redirectedFrom=fulltext
+2024-09-25 18:34:40,462 - INFO - CSV file updated with new data.
+2024-09-25 18:34:40,462 - INFO - Medscape script completed.
+2024-09-25 18:35:59,748 - INFO - Medscape script started.
+2024-09-25 18:35:59,753 - INFO - Connection to Medscape established.
+2024-09-25 18:35:59,781 - INFO - Request sent to Medscape API.
+2024-09-25 18:36:00,435 - INFO - Response received from Medscape API.
+2024-09-25 18:36:00,436 - INFO - Response data decoded into dictionary.
+2024-09-25 18:36:00,439 - INFO - Existing CSV file loaded.
+2024-09-25 18:36:00,439 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:36:00,440 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:36:02,187 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:36:02,198 - INFO - Found source link: https://ajcn.nutrition.org/article/S0002-9165/(24/)00746-9/fulltext
+2024-09-25 18:36:02,199 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:36:02,199 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:36:03,832 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:36:03,834 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae633/7758750?login=false
+2024-09-25 18:36:03,835 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:36:03,835 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:36:06,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:36:06,733 - INFO - Found source link: https://onlinelibrary.wiley.com/doi/full/10.1111/dme.15420?campaign=woletoc
+2024-09-25 18:36:06,733 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:36:06,733 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:36:09,242 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:36:09,244 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-25 18:36:09,244 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 18:36:09,244 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 18:36:11,108 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:36:11,109 - INFO - Found source link: https://bmcpediatr.biomedcentral.com/articles/10.1186/s12887-024-05049-7
+2024-09-25 18:36:11,110 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 18:36:11,110 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 18:36:13,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:36:13,012 - INFO - Found source link: https://www.nejm.org/doi/pdf/10.1056/NEJMoa2409932
+2024-09-25 18:36:13,013 - INFO - Processing new item: https://www.medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 18:36:13,013 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 18:36:15,236 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:36:15,240 - INFO - Found source link: https://academic.oup.com/jcem/advance-article-abstract/doi/10.1210/clinem/dgae605/7747824?redirectedFrom=fulltext
+2024-09-25 18:36:15,240 - INFO - No new links found, CSV file is up to date.
+2024-09-25 18:36:15,240 - INFO - Medscape script completed.
+2024-09-25 18:38:31,474 - INFO - Medscape script started.
+2024-09-25 18:38:31,476 - INFO - Existing CSV file loaded.
+2024-09-25 18:38:31,481 - INFO - Connection to Medscape established.
+2024-09-25 18:38:31,509 - INFO - Request sent to Medscape API.
+2024-09-25 18:38:32,282 - INFO - Response received from Medscape API.
+2024-09-25 18:38:32,282 - INFO - Response data decoded into dictionary.
+2024-09-25 18:38:32,282 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:38:32,282 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:38:32,283 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:38:32,283 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:38:32,283 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:38:32,283 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:38:32,283 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:38:32,283 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:38:32,283 - INFO - No new links found, CSV file is up to date.
+2024-09-25 18:38:32,283 - INFO - Medscape script completed.
+2024-09-25 18:42:18,609 - INFO - Medscape script started.
+2024-09-25 18:42:18,612 - INFO - Existing CSV file loaded.
+2024-09-25 18:42:18,617 - INFO - Connection to Medscape established.
+2024-09-25 18:42:18,643 - INFO - Request sent to Medscape API.
+2024-09-25 18:42:19,027 - INFO - Response received from Medscape API.
+2024-09-25 18:42:19,028 - INFO - Response data decoded into dictionary.
+2024-09-25 18:42:19,028 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:42:19,028 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:42:19,028 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:42:19,028 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:42:19,028 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:42:19,028 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:42:19,028 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:42:19,028 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:42:19,028 - INFO - No new links found, CSV file is up to date.
+2024-09-25 18:42:19,029 - INFO - Medscape script completed.
+2024-09-25 18:43:16,056 - INFO - Medscape script started.
+2024-09-25 18:43:16,058 - INFO - Existing CSV file loaded.
+2024-09-25 18:43:16,063 - INFO - Connection to Medscape established.
+2024-09-25 18:43:16,078 - INFO - Request sent to Medscape API.
+2024-09-25 18:43:16,451 - INFO - Response received from Medscape API.
+2024-09-25 18:43:16,451 - INFO - Response data decoded into dictionary.
+2024-09-25 18:43:16,451 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:43:16,451 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:43:16,452 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:43:16,452 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:43:16,452 - INFO - No new links found, CSV file is up to date.
+2024-09-25 18:43:16,452 - INFO - Medscape script completed.
+2024-09-25 18:46:58,623 - INFO - Medscape script started.
+2024-09-25 18:46:58,624 - INFO - No existing CSV file found. Creating new data structure.
+2024-09-25 18:46:58,629 - INFO - Connection to Medscape established.
+2024-09-25 18:46:58,657 - INFO - Request sent to Medscape API.
+2024-09-25 18:46:59,257 - INFO - Response received from Medscape API.
+2024-09-25 18:46:59,258 - INFO - Response data decoded into dictionary.
+2024-09-25 18:46:59,258 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:46:59,258 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 18:47:02,050 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:47:02,058 - INFO - Found source link: https://ajcn.nutrition.org/article/S0002-9165/(24/)00746-9/fulltext
+2024-09-25 18:47:02,058 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:47:02,058 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 18:47:03,723 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:47:03,728 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae633/7758750?login=false
+2024-09-25 18:47:03,728 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:47:03,728 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 18:47:05,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:47:05,736 - INFO - Found source link: https://onlinelibrary.wiley.com/doi/full/10.1111/dme.15420?campaign=woletoc
+2024-09-25 18:47:05,736 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:47:05,736 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 18:47:11,246 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 18:47:11,247 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-25 18:47:11,249 - INFO - CSV file updated with 4 new items. Total items: 4.
+2024-09-25 18:47:11,250 - INFO - Medscape script completed.
+2024-09-25 19:03:03,219 - INFO - Medscape script started.
+2024-09-25 19:03:03,221 - INFO - Existing CSV file loaded.
+2024-09-25 19:03:03,226 - INFO - Connection to Medscape established.
+2024-09-25 19:03:03,368 - INFO - Request sent to Medscape API.
+2024-09-25 19:03:04,055 - INFO - Response received from Medscape API.
+2024-09-25 19:03:04,056 - INFO - Response data decoded into dictionary.
+2024-09-25 19:03:04,056 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 19:03:04,056 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 19:03:04,056 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 19:03:04,057 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 19:03:04,057 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 19:03:04,057 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 19:03:06,161 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:06,168 - INFO - Found source link: https://bmcpediatr.biomedcentral.com/articles/10.1186/s12887-024-05049-7
+2024-09-25 19:03:06,169 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 19:03:06,169 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 19:03:08,175 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:08,177 - INFO - Found source link: https://www.nejm.org/doi/pdf/10.1056/NEJMoa2409932
+2024-09-25 19:03:08,177 - INFO - Processing new item: https://www.medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 19:03:08,177 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 19:03:10,636 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:10,638 - INFO - Found source link: https://academic.oup.com/jcem/advance-article-abstract/doi/10.1210/clinem/dgae605/7747824?redirectedFrom=fulltext
+2024-09-25 19:03:10,638 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-25 19:03:10,638 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-25 19:03:14,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:14,981 - INFO - Found source link: https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.42986
+2024-09-25 19:03:14,982 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr
+2024-09-25 19:03:14,982 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr
+2024-09-25 19:03:24,677 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:24,678 - INFO - Found source link: https://www.mdpi.com/2072-6643/16/17/3039
+2024-09-25 19:03:24,679 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-25 19:03:24,679 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-25 19:03:29,885 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:29,909 - WARNING - No source link found for http://r.jina.ai/medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-25 19:03:29,909 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h
+2024-09-25 19:03:29,909 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h
+2024-09-25 19:03:34,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:34,412 - INFO - Found source link: https://informatics.bmj.com/content/31/1/e101102
+2024-09-25 19:03:34,412 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp
+2024-09-25 19:03:34,412 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp
+2024-09-25 19:03:39,255 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:03:39,256 - INFO - Found source link: https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/exploring-uk-older-adults-dietary-fibre-consumption-habits-and-associated-factors-a-national-diet-and-nutrition-survey-perspective/6D2A004A1B83A5BEAC99CBC585A8B4F9
+2024-09-25 19:03:39,259 - INFO - CSV file updated with 8 new items. Total items: 12.
+2024-09-25 19:03:39,259 - INFO - Medscape script completed.
+2024-09-25 19:06:16,950 - INFO - Medscape script started.
+2024-09-25 19:06:16,953 - INFO - Existing CSV file loaded.
+2024-09-25 19:06:16,957 - INFO - Connection to Medscape established.
+2024-09-25 19:06:16,994 - INFO - Request sent to Medscape API.
+2024-09-25 19:06:17,692 - INFO - Response received from Medscape API.
+2024-09-25 19:06:17,692 - INFO - Response data decoded into dictionary.
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-25 19:06:17,693 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr
+2024-09-25 19:06:17,693 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-25 19:06:17,693 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-25 19:06:19,741 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:06:19,748 - INFO - Found source link: https://www.journalslibrary.nihr.ac.uk/hta/PWCB4016#/abstract
+2024-09-25 19:06:19,749 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h
+2024-09-25 19:06:19,749 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp
+2024-09-25 19:06:19,751 - INFO - CSV file updated with 1 new items. Total items: 12.
+2024-09-25 19:06:19,751 - INFO - Medscape script completed.
+2024-09-25 19:07:58,403 - INFO - Medscape script started.
+2024-09-25 19:07:58,405 - INFO - Existing CSV file loaded.
+2024-09-25 19:07:58,410 - INFO - Connection to Medscape established.
+2024-09-25 19:07:58,458 - INFO - Request sent to Medscape API.
+2024-09-25 19:07:58,799 - INFO - Response received from Medscape API.
+2024-09-25 19:07:58,800 - INFO - Response data decoded into dictionary.
+2024-09-25 19:07:58,800 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 19:07:58,800 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 19:07:58,800 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-25 19:07:58,800 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-25 19:07:58,800 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-25 19:07:58,800 - INFO - Skipping existing link: https://www.medscape.co.uk/viewarticle/immunotherapy-improves-5-year-overall-survival-early-stage-2024a1000h2a
+2024-09-25 19:07:58,800 - INFO - Processing new item: https://www.medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 19:07:58,800 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/does-bariatric-surgery-also-improve-thyroid-function-2024a1000h7x
+2024-09-25 19:08:02,621 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:08:02,628 - INFO - Found source link: https://academic.oup.com/jcem/advance-article-abstract/doi/10.1210/clinem/dgae605/7747824?redirectedFrom=fulltext
+2024-09-25 19:08:02,629 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-25 19:08:02,629 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/cardiovascular-risk-merits-attention-newly-diagnosed-gout-2024a1000gvv
+2024-09-25 19:08:05,507 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:08:05,508 - INFO - Found source link: https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.42986
+2024-09-25 19:08:05,509 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr
+2024-09-25 19:08:05,509 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/reduced-starch-sucrose-diet-par-low-fodmap-ibs-2024a1000gzr
+2024-09-25 19:08:08,914 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:08:08,915 - INFO - Found source link: https://www.mdpi.com/2072-6643/16/17/3039
+2024-09-25 19:08:08,916 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-25 19:08:08,916 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/data-support-clopidogrel-genotype-testing-after-stroke-tia-2024a1000gsw
+2024-09-25 19:08:10,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:08:10,365 - INFO - Found source link: https://www.journalslibrary.nihr.ac.uk/hta/PWCB4016#/abstract
+2024-09-25 19:08:10,366 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h
+2024-09-25 19:08:10,366 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/fifth-uk-gps-using-ai-tools-without-formal-guidelines-or-2024a1000h2h
+2024-09-25 19:08:12,127 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:08:12,128 - INFO - Found source link: https://informatics.bmj.com/content/31/1/e101102
+2024-09-25 19:08:12,129 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp
+2024-09-25 19:08:12,129 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/chew-this-low-fibre-intake-tied-dentition-2024a1000gvp
+2024-09-25 19:08:14,369 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 19:08:14,435 - INFO - Found source link: https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/exploring-uk-older-adults-dietary-fibre-consumption-habits-and-associated-factors-a-national-diet-and-nutrition-survey-perspective/6D2A004A1B83A5BEAC99CBC585A8B4F9
+2024-09-25 19:08:14,437 - INFO - CSV file updated with 6 new items. Total items: 12.
+2024-09-25 19:08:14,438 - INFO - Medscape script completed.
+>>>>>>> ccec98e (medscape update)
