@@ -3542,3 +3542,11 @@
 2024-09-25 13:31:22,414 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
 2024-09-25 13:31:22,418 - INFO - CSV file updated with new data.
 2024-09-25 13:31:22,418 - INFO - Medscape script completed.
+2024-09-25 13:46:13,446 - INFO - Medscape script started.
+2024-09-25 13:46:13,446 - INFO - Connection to Medscape established.
+2024-09-25 13:46:13,512 - INFO - Request sent to Medscape API.
+2024-09-25 13:46:13,959 - INFO - Response received from Medscape API.
+2024-09-25 13:46:13,960 - INFO - Response data decoded into dictionary.
+2024-09-25 13:46:13,987 - INFO - Existing CSV file loaded.
+2024-09-25 13:46:13,988 - INFO - No new links found, CSV file is up to date.
+2024-09-25 13:46:13,988 - INFO - Medscape script completed.
