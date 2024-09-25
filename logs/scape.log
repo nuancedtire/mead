@@ -3522,3 +3522,23 @@
 2024-09-25 12:46:59,897 - INFO - Existing CSV file loaded.
 2024-09-25 12:46:59,897 - INFO - No new links found, CSV file is up to date.
 2024-09-25 12:46:59,898 - INFO - Medscape script completed.
+2024-09-25 13:31:13,184 - INFO - Medscape script started.
+2024-09-25 13:31:13,184 - INFO - Connection to Medscape established.
+2024-09-25 13:31:13,298 - INFO - Request sent to Medscape API.
+2024-09-25 13:31:13,583 - INFO - Response received from Medscape API.
+2024-09-25 13:31:13,583 - INFO - Response data decoded into dictionary.
+2024-09-25 13:31:13,615 - INFO - Existing CSV file loaded.
+2024-09-25 13:31:13,615 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 13:31:13,615 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-25 13:31:17,649 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y.
+2024-09-25 13:31:18,514 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 13:31:18,516 - INFO - Received response from OpenAI API.
+2024-09-25 13:31:18,516 - INFO - Attempt 1 succeeded with link: https://ajcn.nutrition.org/article/S0002-9165/(24/)00746-9/fulltext
+2024-09-25 13:31:18,517 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 13:31:18,517 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 13:31:21,633 - INFO - Successfully fetched data from http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74.
+2024-09-25 13:31:22,412 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-25 13:31:22,414 - INFO - Received response from OpenAI API.
+2024-09-25 13:31:22,414 - INFO - Attempt 1 succeeded with link: http://medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-25 13:31:22,418 - INFO - CSV file updated with new data.
+2024-09-25 13:31:22,418 - INFO - Medscape script completed.
