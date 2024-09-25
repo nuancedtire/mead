@@ -81,7 +81,6 @@ set_llm_cache(SQLiteCache(database_path="langcache.db"))
 def read_csv(file_path):
     if not os.path.exists(file_path):
         logging.warning(f"{file_path} does not exist, skipping...")
-        print(f"{file_path} does not exist, skipping...")
         return pd.DataFrame()
     return pd.read_csv(file_path)
 
@@ -207,7 +206,6 @@ def generate_post(inputs):
 
         if content_check.lower() == "none":
             logging.info(f"No article found for link {link}.")
-            print(f"No article found for link {link}.")
             failed_links[link] = current_time.isoformat()
             save_failed_links(failed_links)
             return None
@@ -215,7 +213,6 @@ def generate_post(inputs):
         content = content_check
         if not content:
             logging.info(f"Empty content for link {link}.")
-            print(f"Empty content for link {link}.")
             failed_links[link] = current_time.isoformat()
             save_failed_links(failed_links)
             return None
@@ -232,7 +229,6 @@ def generate_post(inputs):
             parsed_response = post_response  # Already a PostResponse object
         except ValidationError as e:
             logging.error(f"Validation error for link {link}: {e}")
-            print(f"Validation error for link {link}: {e}")
             return None
 
         # Step 3: Generate image query
@@ -382,7 +378,7 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         if not generated_post:
             logging.error("Cannot log to CSV: 'generated_post' is missing or empty.")
             return
-        logging.info(f"'generated_post' length: {len(generated_post)}. Content: {generated_post}")
+        logging.info(f"'generated_post' length: {len(generated_post)}")
         columns = [
             "Time",
             "LLM Timestamp",
@@ -402,10 +398,8 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
         else:
             df_new.to_csv(file_name, mode="a", index=False, header=False)
         logging.info(f"Logged data to {file_name} with DocumentID: {document_id}.")
-        print(f"Logged data to {file_name} with DocumentID: {document_id}.")
     except Exception as e:
         logging.error(f"Error logging data to CSV: {e}")
-        print(f"Error logging data to CSV: {e}")
 
 def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
     try:
@@ -463,7 +457,14 @@ def get_unique_links(csv_files, llm_links):
 
 def main():
     setup_logger()
-    csv_files = ["databases/meds.csv", "databases/sifted.csv", "databases/scape.csv", "databases/nice.csv", "databases/nih_clinical_research.csv"]
+    csv_files = [
+        "databases/meds.csv",
+        "databases/sifted.csv",
+        "databases/scape.csv",
+        "databases/nice.csv",
+        "databases/nih_clinical_research.csv",
+        "databases/digital_health_news.csv"  # Added this line
+    ]
     llm_file_path = "databases/llm.csv"
     
     # Load existing LLM links
@@ -475,10 +476,8 @@ def main():
     # Get unique links to process
     combined_links = get_unique_links(csv_files, llm_links)
     logging.info(f"Unique links to process: {len(combined_links)}")
-    print(f"Unique links to process: {len(combined_links)}")
     if not combined_links:
         logging.info("No unique links to process.")
-        print("No unique links to process.")
         return
 
     # Load failed links
