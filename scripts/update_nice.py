@@ -30,8 +30,13 @@ def fetch_webpage(url):
         return None
 
 def parse_date(date_string):
+    logging.debug(f"Parsing date: {date_string}")
     try:
-        return datetime.strptime(date_string, "%d %B %Y").strftime("%Y-%m-%d %H:%M:%S")
+        # Parse the date and set a default time of 00:00:00
+        parsed_date = datetime.strptime(date_string, "%d %B %Y").replace(hour=0, minute=0, second=0)
+        formatted_date = parsed_date.strftime("%Y-%m-%d %H:%M:%S")
+        logging.debug(f"Parsed date: {formatted_date}")
+        return formatted_date
     except ValueError:
         logging.error(f"Error parsing date: {date_string}")
         return date_string
@@ -47,10 +52,11 @@ def extract_nice_news_links(html_content):
             title = article.find('h3').text.strip()
             link = 'https://www.nice.org.uk' + article.find('a')['href']
             date = article.find('time').text.strip()
+            parsed_date = parse_date(date)
             news_items.append({
                 'Title': title,
                 'Link': link,
-                'Time': parse_date(date)
+                'Time': parsed_date
             })
         except AttributeError as e:
             logging.error(f"Error parsing article: {e}")
@@ -75,13 +81,11 @@ def save_to_csv(data, filename):
         combined_df = pd.DataFrame(data)
     
     # Sort by date, most recent first
-    combined_df['Time'] = pd.to_datetime(combined_df['Time'])
     combined_df = combined_df.sort_values('Time', ascending=False)
     
     # Save to CSV
     combined_df.to_csv(filename, index=False)
     logging.info(f"Data saved to {filename}. Total items: {len(combined_df)}.")
-    print(f"Data saved to {filename}. Total items: {len(combined_df)}.")
     
 def scrape_nice_news():
     setup_logging()

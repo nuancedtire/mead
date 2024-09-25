@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-09-24 09:52:12,928 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
 2024-09-24 09:52:13,925 - INFO - Data saved to databases/nice.csv. Total items: 6.
 2024-09-24 09:58:36,271 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
@@ -92,3 +93,101 @@
 2024-09-25 14:26:30,805 - INFO - Data saved to databases/nice.csv. Total items: 6.
 2024-09-25 14:44:09,440 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
 2024-09-25 14:44:10,553 - INFO - Data saved to databases/nice.csv. Total items: 6.
+=======
+2024-09-25 17:55:25,425 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 17:57:35,281 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 17:57:35,282 - DEBUG - Starting new HTTPS connection (1): www.nice.org.uk:443
+2024-09-25 17:57:35,480 - DEBUG - https://www.nice.org.uk:443 "GET /news/articles HTTP/11" 200 None
+2024-09-25 17:57:35,501 - DEBUG - Parsing date: 25 September 2024
+2024-09-25 17:57:35,502 - DEBUG - Parsed date: 2024-09-25 00:00:00
+2024-09-25 17:57:35,502 - DEBUG - Parsing date: 19 September 2024
+2024-09-25 17:57:35,502 - DEBUG - Parsed date: 2024-09-19 00:00:00
+2024-09-25 17:57:35,502 - DEBUG - Parsing date: 05 September 2024
+2024-09-25 17:57:35,502 - DEBUG - Parsed date: 2024-09-05 00:00:00
+2024-09-25 17:57:35,502 - DEBUG - Parsing date: 28 August 2024
+2024-09-25 17:57:35,503 - DEBUG - Parsed date: 2024-08-28 00:00:00
+2024-09-25 17:57:35,503 - DEBUG - Parsing date: 22 August 2024
+2024-09-25 17:57:35,503 - DEBUG - Parsed date: 2024-08-22 00:00:00
+2024-09-25 17:57:35,503 - DEBUG - Parsing date: 14 August 2024
+2024-09-25 17:57:35,503 - DEBUG - Parsed date: 2024-08-14 00:00:00
+2024-09-25 17:57:35,506 - DEBUG - Unique date formats: ['2024-09-19' '2024-09-05' '2024-08-28' '2024-08-22' '2024-08-14'
+ '2024-08-09' '2024-09-25 00:00:00']
+2024-09-25 17:57:35,508 - ERROR - Error converting 'Time' column to datetime: unconverted data remains when parsing with format "%Y-%m-%d": " 00:00:00", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2024-09-25 17:57:35,509 - ERROR - Problematic date values: ['2024-09-25 00:00:00']
+2024-09-25 17:57:35,512 - INFO - Data saved to databases/nice.csv. Total items: 7.
+2024-09-25 17:59:28,609 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 17:59:28,610 - DEBUG - Starting new HTTPS connection (1): www.nice.org.uk:443
+2024-09-25 17:59:28,674 - DEBUG - https://www.nice.org.uk:443 "GET /news/articles HTTP/11" 200 27681
+2024-09-25 17:59:28,685 - DEBUG - Parsing date: 25 September 2024
+2024-09-25 17:59:28,686 - DEBUG - Parsed date: 2024-09-25
+2024-09-25 17:59:28,686 - DEBUG - Parsing date: 19 September 2024
+2024-09-25 17:59:28,686 - DEBUG - Parsed date: 2024-09-19
+2024-09-25 17:59:28,686 - DEBUG - Parsing date: 05 September 2024
+2024-09-25 17:59:28,686 - DEBUG - Parsed date: 2024-09-05
+2024-09-25 17:59:28,686 - DEBUG - Parsing date: 28 August 2024
+2024-09-25 17:59:28,687 - DEBUG - Parsed date: 2024-08-28
+2024-09-25 17:59:28,687 - DEBUG - Parsing date: 22 August 2024
+2024-09-25 17:59:28,687 - DEBUG - Parsed date: 2024-08-22
+2024-09-25 17:59:28,687 - DEBUG - Parsing date: 14 August 2024
+2024-09-25 17:59:28,687 - DEBUG - Parsed date: 2024-08-14
+2024-09-25 17:59:28,690 - DEBUG - Unique date formats: ['2024-09-25 00:00:00' '2024-09-19' '2024-09-05' '2024-08-28' '2024-08-22'
+ '2024-08-14' '2024-08-09']
+2024-09-25 17:59:28,693 - ERROR - Error converting 'Time' column to datetime: time data "2024-09-19" doesn't match format "%Y-%m-%d %H:%M:%S", at position 1. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2024-09-25 17:59:28,694 - ERROR - Problematic date values: ['2024-09-19', '2024-09-05', '2024-08-28', '2024-08-22', '2024-08-14', '2024-08-09']
+2024-09-25 17:59:50,928 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 17:59:50,929 - DEBUG - Starting new HTTPS connection (1): www.nice.org.uk:443
+2024-09-25 17:59:51,154 - DEBUG - https://www.nice.org.uk:443 "GET /news/articles HTTP/11" 200 None
+2024-09-25 17:59:51,175 - DEBUG - Parsing date: 25 September 2024
+2024-09-25 17:59:51,175 - DEBUG - Parsed date: 2024-09-25
+2024-09-25 17:59:51,176 - DEBUG - Parsing date: 19 September 2024
+2024-09-25 17:59:51,176 - DEBUG - Parsed date: 2024-09-19
+2024-09-25 17:59:51,176 - DEBUG - Parsing date: 05 September 2024
+2024-09-25 17:59:51,176 - DEBUG - Parsed date: 2024-09-05
+2024-09-25 17:59:51,176 - DEBUG - Parsing date: 28 August 2024
+2024-09-25 17:59:51,176 - DEBUG - Parsed date: 2024-08-28
+2024-09-25 17:59:51,176 - DEBUG - Parsing date: 22 August 2024
+2024-09-25 17:59:51,177 - DEBUG - Parsed date: 2024-08-22
+2024-09-25 17:59:51,177 - DEBUG - Parsing date: 14 August 2024
+2024-09-25 17:59:51,177 - DEBUG - Parsed date: 2024-08-14
+2024-09-25 17:59:51,180 - DEBUG - Unique date formats: ['2024-09-25 00:00:00' '2024-09-19' '2024-09-05' '2024-08-28' '2024-08-22'
+ '2024-08-14' '2024-08-09']
+2024-09-25 17:59:51,182 - ERROR - Error converting 'Time' column to datetime: time data "2024-09-19" doesn't match format "%Y-%m-%d %H:%M:%S", at position 1. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2024-09-25 17:59:51,183 - ERROR - Problematic date values: ['2024-09-19', '2024-09-05', '2024-08-28', '2024-08-22', '2024-08-14', '2024-08-09']
+2024-09-25 18:00:23,864 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 18:00:23,865 - DEBUG - Starting new HTTPS connection (1): www.nice.org.uk:443
+2024-09-25 18:00:24,197 - DEBUG - https://www.nice.org.uk:443 "GET /news/articles HTTP/11" 200 None
+2024-09-25 18:00:24,241 - DEBUG - Parsing date: 25 September 2024
+2024-09-25 18:00:24,241 - DEBUG - Parsed date: 2024-09-25
+2024-09-25 18:00:24,241 - DEBUG - Parsing date: 19 September 2024
+2024-09-25 18:00:24,241 - DEBUG - Parsed date: 2024-09-19
+2024-09-25 18:00:24,242 - DEBUG - Parsing date: 05 September 2024
+2024-09-25 18:00:24,242 - DEBUG - Parsed date: 2024-09-05
+2024-09-25 18:00:24,242 - DEBUG - Parsing date: 28 August 2024
+2024-09-25 18:00:24,242 - DEBUG - Parsed date: 2024-08-28
+2024-09-25 18:00:24,242 - DEBUG - Parsing date: 22 August 2024
+2024-09-25 18:00:24,242 - DEBUG - Parsed date: 2024-08-22
+2024-09-25 18:00:24,242 - DEBUG - Parsing date: 14 August 2024
+2024-09-25 18:00:24,243 - DEBUG - Parsed date: 2024-08-14
+2024-09-25 18:00:24,246 - DEBUG - Unique date formats: ['2024-09-25 00:00:00' '2024-09-19' '2024-09-05' '2024-08-28' '2024-08-22'
+ '2024-08-14' '2024-08-09']
+2024-09-25 18:00:24,246 - INFO - Successfully converted 'Time' column to datetime
+2024-09-25 18:00:24,248 - INFO - Data saved to databases/nice.csv. Total items: 7.
+2024-09-25 18:06:35,881 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 18:07:02,393 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 18:07:21,740 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 18:07:33,838 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 18:07:33,920 - INFO - Data saved to databases/nice.csv. Total items: 7.
+2024-09-25 18:07:44,864 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 18:07:44,997 - INFO - Data saved to databases/nice.csv. Total items: 7.
+2024-09-25 18:08:01,041 - INFO - Starting scrape for https://www.nice.org.uk/news/articles
+2024-09-25 18:08:01,128 - INFO - Data saved to databases/nice.csv. Total items: 7.
+>>>>>>> 71436ba (clean up and fix nice)
