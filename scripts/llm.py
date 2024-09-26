@@ -291,7 +291,7 @@ def get_image_query(post_content, model):
                 "system",
                 """**Task:**
 
-Analyze the following social media post related to medicine or healthcare and generate a vivid, detailed image prompt that captures the essence of the post. The image prompt should guide AI image generation models to create compelling, **Pixar-style**, visually striking images that effectively communicate the core message of the post.
+Analyze the following social media post related to medicine or healthcare and generate a vivid, detailed image prompt that captures the essence of the post. The image prompt should guide AI image generation models to create compelling, **photorealistic**, and visually striking images that effectively communicate the core message of the post.
 
 **Guidelines:**
 
@@ -303,9 +303,9 @@ Analyze the following social media post related to medicine or healthcare and ge
    - Provide detailed descriptions of key elements, including people, medical equipment, settings, and symbolic representations.
    - Focus on creating a coherent and impactful image without relying on text.
 
-3. **Specify Pixar Style:**
-   - Emphasize a Pixar-style visual aesthetic for an engaging and approachable look.
-   - Avoid photorealistic or overly realistic representations.
+3. **Specify Photorealistic Style:**
+   - Emphasize a photorealistic visual aesthetic for maximum realism and impact.
+   - Avoid illustrative or overly stylized representations.
 
 4. **Consider Composition and Perspective:**
    - Arrange elements to highlight the main message using focal points and dynamic angles.
@@ -313,7 +313,7 @@ Analyze the following social media post related to medicine or healthcare and ge
 
 5. **Utilize Lighting and Color Palette:**
    - Indicate lighting that complements the mood (e.g., bright lighting for positive news, subdued tones for serious updates).
-   - Choose a color palette that aligns with the Pixar aesthetic—vibrant and appealing.
+   - Choose a color palette that aligns with medical and technological themes.
 
 6. **Convey Mood and Emphasis:**
    - Reflect the emotional tone of the news (e.g., hopeful, urgent).
@@ -325,11 +325,10 @@ Analyze the following social media post related to medicine or healthcare and ge
    - Do not include text in the image.
 
 8. **Enhance with Sensory and Emotional Details:**
-   - Incorporate descriptions of textures, ambient elements, or emotions to add depth to the image.
+   - Incorporate descriptions of textures, ambient sounds (as visual elements), or emotions to add depth to the image.
 
 **Example Prompt:**
-
-A vibrant, Pixar-style illustration depicting a split-screen scene inside a cheerful, modern medical clinic. On the left side, an animated male character with friendly features holds a futuristic tablet displaying his serum phosphate levels, illustrated with cool blue tones and expressive icons indicating lower levels. On the right side, an animated female character—slightly older to represent post-menopausal age—with warm, welcoming features holds a similar tablet showing higher serum phosphate levels highlighted with warm red and orange hues and lively graphics. Between them stands a caring, animated doctor with a thoughtful expression, gesturing to both screens with exaggerated, expressive movements typical of Pixar animations. The background features whimsical medical equipment and playful details like potted plants or inspirational posters, creating an inviting atmosphere. Soft, bright lighting fills the scene, with sunlight streaming through large windows, adding warmth and positivity. The characters' faces are expressive, conveying curiosity and concern, emphasizing the importance of recognizing sex differences in serum phosphate levels. The composition uses a medium close-up angle to engage the viewer, capturing the detailed graphics on the tablets and the characters' interactions. The overall mood is informative yet approachable, encouraging awareness and consideration of revised medical assessments.""",
+A photorealistic image set in a modern, well-lit medical office. An experienced doctor in a white coat sits at his desk, thoughtfully examining an open medical chart. He holds a small bottle of aspirin in one hand and a prescription pad in the other. Across the desk sits an elderly woman over 65, attentively listening with a gentle, concerned expression. She is neatly dressed, and perhaps wears glasses, indicating her age. A stethoscope and a blood pressure cuff lie on the desk, symbolizing medical examination. Behind them, a softly focused bookshelf contains medical texts, and a wall-mounted anatomical chart subtly references cardiovascular health. The lighting is soft and natural, streaming in from a window, creating a warm yet serious atmosphere. The doctor’s face shows deep consideration, emphasizing the careful assessment needed when prescribing aspirin to older adults, especially those who may be on anticoagulants. The composition uses a medium close-up angle to capture the intimate interaction, highlighting the importance of personalized treatment plans for vulnerable populations.""",
             ),
             ("user", """Please generate the image prompt accordingly. Reply with only the prompt, no intro, no explanation, no nothing.
 
