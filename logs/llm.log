@@ -2734,3 +2734,19 @@ The color palette features cool blues and whites, reflecting a clinical yet opti
 2024-09-26 09:26:35,352 - INFO - Received 1 document IDs from Firebase.
 2024-09-26 09:26:35,352 - INFO - 'generated_post' length: 10
 2024-09-26 09:26:35,354 - INFO - Logged data to databases/llm.csv with DocumentID: K4j6QMp2w4PYHD8X8y5Q.
+2024-09-26 09:43:51,426 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:43:51,429 - INFO - Extracted 149 link records.
+2024-09-26 09:43:51,431 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:43:51,432 - INFO - Extracted 31 link records.
+2024-09-26 09:43:51,433 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:43:51,435 - INFO - Extracted 5 link records.
+2024-09-26 09:43:51,437 - INFO - Extracted 13 link records.
+2024-09-26 09:43:51,438 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:43:51,440 - INFO - Extracted 7 link records.
+2024-09-26 09:43:51,441 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:43:51,443 - INFO - Extracted 12 link records.
+2024-09-26 09:43:51,444 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:43:51,446 - INFO - Extracted 7 link records.
+2024-09-26 09:43:51,446 - INFO - Unique links to process: 1
+2024-09-26 09:43:51,446 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
+2024-09-26 09:43:51,446 - INFO - No valid log entries generated.
