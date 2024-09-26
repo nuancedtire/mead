@@ -3048,3 +3048,61 @@ The lighting is warm and inviting, with sunlight streaming through the windows, 
 2024-09-26 11:54:31,639 - INFO - Unique links to process: 1
 2024-09-26 11:54:31,639 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
 2024-09-26 11:54:31,639 - INFO - No valid log entries generated.
+2024-09-26 12:47:38,089 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 12:47:38,092 - INFO - Extracted 156 link records.
+2024-09-26 12:47:38,094 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 12:47:38,095 - INFO - Extracted 31 link records.
+2024-09-26 12:47:38,096 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 12:47:38,098 - INFO - Extracted 5 link records.
+2024-09-26 12:47:38,100 - INFO - Extracted 14 link records.
+2024-09-26 12:47:38,101 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 12:47:38,103 - INFO - Extracted 7 link records.
+2024-09-26 12:47:38,104 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 12:47:38,106 - INFO - Extracted 12 link records.
+2024-09-26 12:47:38,107 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 12:47:38,108 - INFO - Extracted 13 link records.
+2024-09-26 12:47:38,109 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 12:47:38,111 - INFO - Extracted 1 link records.
+2024-09-26 12:47:38,111 - INFO - Unique links to process: 2
+2024-09-26 12:48:28,057 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 12:48:32,397 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 12:48:35,078 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 12:48:35,086 - INFO - Image query: A vibrant, Pixar-style illustration depicting a lively medical conference scene filled with animated healthcare professionals engaged in discussion. In the foreground, a cheerful, animated female doctor with glasses and a lab coat enthusiastically presents a colorful infographic on a large screen, showcasing the benefits of GLP-1 agonists in reducing obesity-related cancer risks. The infographic features playful, cartoonish icons representing various cancers, with bright colors like green for diabetes management and red for cancer prevention. Surrounding her are animated colleagues of diverse backgrounds, including a thoughtful male doctor with a stethoscope and a curious nurse with a clipboard, all with expressive faces showing intrigue and excitement. In the background, a whimsical display of oversized fruits, like apples and berries, symbolizes healthy eating and lifestyle changes. The setting is bright and inviting, with soft, warm lighting streaming through large windows, creating a hopeful atmosphere. The composition uses a dynamic angle to capture the energy of the discussion, emphasizing the importance of GLP-1 agonists in reshaping cancer care strategies. The overall mood is optimistic and engaging, encouraging collaboration and innovation in healthcare.
+2024-09-26 12:48:35,499 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 12:48:35,570 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:35,737 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:35,903 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:36,071 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:36,238 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:36,406 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:36,575 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 12:48:36,640 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5fdf8520-4dc2-4060-8c9c-6f48fe6dde34 "HTTP/1.1 200 OK"
+2024-09-26 12:48:36,640 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/_1eySZKdF1Qbluyvrtr1m.png
+2024-09-26 12:48:36,640 - INFO - Image link: https://fal.media/files/tiger/_1eySZKdF1Qbluyvrtr1m.png
+2024-09-26 12:48:50,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 12:48:53,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 12:48:58,073 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 12:48:58,079 - INFO - Image query: A vibrant, Pixar-style illustration depicting a bustling NHS conference scene filled with animated characters engaged in discussions about digital transformation. In the foreground, a charismatic male character representing Vin Diwakar stands confidently at a podium, gesturing passionately with a futuristic digital tablet displaying colorful graphs and statistics about NHS infrastructure. Surrounding him are diverse animated doctors and healthcare professionals, each with expressive faces showing a mix of curiosity and concern, some holding their own tablets with icons representing interoperability and electronic patient records. 
+
+In the background, a large screen showcases a whimsical infographic illustrating the timeline for the NHS App and the federated data platform, with playful animations of data flowing seamlessly between different healthcare settings. The setting is bright and modern, filled with colorful banners and interactive displays that invite engagement. Soft, warm lighting fills the room, creating an inviting atmosphere, while the characters' outfits reflect a mix of professional attire and casual styles, emphasizing the collaborative spirit of the event. The overall mood is hopeful and dynamic, capturing the excitement and challenges of digital transformation in healthcare, with a focus on teamwork and innovation. The composition uses a wide-angle perspective to encompass the energy of the conference, highlighting the importance of modernizing healthcare infrastructure for better patient care.
+2024-09-26 12:48:58,305 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 12:48:58,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:58,542 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:58,707 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:58,877 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:59,046 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:59,214 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:59,382 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:59,550 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:59,723 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 12:48:59,892 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 12:48:59,960 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6a7f6816-efe2-4044-acf1-92ec95ea63e3 "HTTP/1.1 200 OK"
+2024-09-26 12:48:59,960 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/z7xC9uRGJ0jyyEN14vE0C.png
+2024-09-26 12:48:59,960 - INFO - Image link: https://fal.media/files/koala/z7xC9uRGJ0jyyEN14vE0C.png
+2024-09-26 12:48:59,960 - INFO - Sending 2 log entries to Firebase.
+2024-09-26 12:49:03,620 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: mo9eoFZy75vHZl9gQSOa'}, {'index': 1, 'message': 'Saved with ID: vNQ3gAYir2LPfXFqr8Bp'}]
+2024-09-26 12:49:03,620 - INFO - Received 2 document IDs from Firebase.
+2024-09-26 12:49:03,620 - INFO - 'generated_post' length: 10
+2024-09-26 12:49:03,622 - INFO - Logged data to databases/llm.csv with DocumentID: mo9eoFZy75vHZl9gQSOa.
+2024-09-26 12:49:03,622 - INFO - 'generated_post' length: 10
+2024-09-26 12:49:03,623 - INFO - Logged data to databases/llm.csv with DocumentID: vNQ3gAYir2LPfXFqr8Bp.
