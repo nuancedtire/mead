@@ -2976,3 +2976,21 @@ The lighting is warm and inviting, with sunlight streaming through the windows, 
 2024-09-26 10:44:49,147 - INFO - Received 1 document IDs from Firebase.
 2024-09-26 10:44:49,147 - INFO - 'generated_post' length: 10
 2024-09-26 10:44:49,149 - INFO - Logged data to databases/llm.csv with DocumentID: TF4YOsiEa86Nkco0hgql.
+2024-09-26 10:57:10,984 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:57:10,987 - INFO - Extracted 156 link records.
+2024-09-26 10:57:10,989 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:57:10,990 - INFO - Extracted 31 link records.
+2024-09-26 10:57:10,991 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:57:10,993 - INFO - Extracted 5 link records.
+2024-09-26 10:57:10,995 - INFO - Extracted 14 link records.
+2024-09-26 10:57:10,996 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:57:10,998 - INFO - Extracted 7 link records.
+2024-09-26 10:57:10,999 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:57:11,001 - INFO - Extracted 12 link records.
+2024-09-26 10:57:11,001 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:57:11,003 - INFO - Extracted 12 link records.
+2024-09-26 10:57:11,004 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:57:11,006 - INFO - Extracted 1 link records.
+2024-09-26 10:57:11,006 - INFO - Unique links to process: 1
+2024-09-26 10:57:11,006 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
+2024-09-26 10:57:11,006 - INFO - No valid log entries generated.
