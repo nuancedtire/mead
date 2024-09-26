@@ -2750,3 +2750,39 @@ The color palette features cool blues and whites, reflecting a clinical yet opti
 2024-09-26 09:43:51,446 - INFO - Unique links to process: 1
 2024-09-26 09:43:51,446 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
 2024-09-26 09:43:51,446 - INFO - No valid log entries generated.
+2024-09-26 09:56:52,294 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:56:52,297 - INFO - Extracted 149 link records.
+2024-09-26 09:56:52,298 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:56:52,300 - INFO - Extracted 31 link records.
+2024-09-26 09:56:52,301 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:56:52,303 - INFO - Extracted 5 link records.
+2024-09-26 09:56:52,305 - INFO - Extracted 14 link records.
+2024-09-26 09:56:52,306 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:56:52,308 - INFO - Extracted 7 link records.
+2024-09-26 09:56:52,309 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:56:52,311 - INFO - Extracted 12 link records.
+2024-09-26 09:56:52,312 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:56:52,313 - INFO - Extracted 7 link records.
+2024-09-26 09:56:52,314 - INFO - Unique links to process: 2
+2024-09-26 09:56:52,314 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
+2024-09-26 09:57:45,159 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 09:57:50,775 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 09:57:57,211 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 09:57:57,216 - INFO - Image query: A vibrant, Pixar-style illustration depicting a lively, modern medical conference room filled with animated healthcare professionals engaged in a dynamic discussion about women's cardiovascular health. In the foreground, a diverse group of animated characters—a female cardiologist with glasses and a warm smile, a male researcher with a notepad, and a female nurse with a caring expression—are gathered around a large, colorful presentation screen displaying eye-catching infographics about unique female-specific cardiovascular risk factors. The screen highlights key elements like "Menarche," "PCOS," and "Pregnancy-Related Conditions" with playful icons and bright colors. 
+
+In the background, other animated characters are seen taking notes and interacting with engaging visual aids, such as heart models and charts, emphasizing collaboration and learning. The room is filled with whimsical medical decor, including heart-shaped plants and motivational posters about women's health. Soft, bright lighting fills the space, creating an inviting atmosphere, while sunlight streams through large windows, casting cheerful shadows. The characters' faces are expressive, showcasing curiosity and determination, reflecting the urgency and importance of addressing cardiovascular risks in women. The composition uses a wide-angle perspective to capture the energy of the discussion, inviting viewers to engage with the critical topic of women's cardiovascular health. The overall mood is informative yet hopeful, encouraging proactive measures in clinical practice.
+2024-09-26 09:57:57,669 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 09:57:57,729 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7f284400-e078-417f-aef8-5cdf83e77e9c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:57:57,889 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7f284400-e078-417f-aef8-5cdf83e77e9c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:57:58,045 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7f284400-e078-417f-aef8-5cdf83e77e9c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:57:58,203 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7f284400-e078-417f-aef8-5cdf83e77e9c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:57:58,362 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7f284400-e078-417f-aef8-5cdf83e77e9c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:57:58,519 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7f284400-e078-417f-aef8-5cdf83e77e9c/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 09:57:58,575 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7f284400-e078-417f-aef8-5cdf83e77e9c "HTTP/1.1 200 OK"
+2024-09-26 09:57:58,575 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/Q1BpuE2qPutTyhFL5HQkF.png
+2024-09-26 09:57:58,575 - INFO - Image link: https://fal.media/files/zebra/Q1BpuE2qPutTyhFL5HQkF.png
+2024-09-26 09:57:58,576 - INFO - Sending 1 log entries to Firebase.
+2024-09-26 09:58:01,851 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: SBzoHMbPnDr2iEAod9dD'}]
+2024-09-26 09:58:01,851 - INFO - Received 1 document IDs from Firebase.
+2024-09-26 09:58:01,851 - INFO - 'generated_post' length: 10
+2024-09-26 09:58:01,853 - INFO - Logged data to databases/llm.csv with DocumentID: SBzoHMbPnDr2iEAod9dD.
