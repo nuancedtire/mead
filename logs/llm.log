@@ -2701,3 +2701,36 @@ The color palette features cool blues and whites, reflecting a clinical yet opti
 2024-09-26 08:20:49,689 - INFO - Logged data to databases/llm.csv with DocumentID: YYaCS9jGHbixS5zgNPuB.
 2024-09-26 08:20:49,690 - INFO - 'generated_post' length: 10
 2024-09-26 08:20:49,691 - INFO - Logged data to databases/llm.csv with DocumentID: Vcy578IN8llstFe6EQEU.
+2024-09-26 09:26:14,319 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:26:14,323 - INFO - Extracted 148 link records.
+2024-09-26 09:26:14,324 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:26:14,326 - INFO - Extracted 31 link records.
+2024-09-26 09:26:14,327 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:26:14,329 - INFO - Extracted 5 link records.
+2024-09-26 09:26:14,331 - INFO - Extracted 13 link records.
+2024-09-26 09:26:14,332 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:26:14,334 - INFO - Extracted 7 link records.
+2024-09-26 09:26:14,335 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:26:14,337 - INFO - Extracted 12 link records.
+2024-09-26 09:26:14,338 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 09:26:14,339 - INFO - Extracted 7 link records.
+2024-09-26 09:26:14,340 - INFO - Unique links to process: 2
+2024-09-26 09:26:14,340 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
+2024-09-26 09:26:25,232 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 09:26:28,185 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 09:26:30,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 09:26:30,773 - INFO - Image query: A vibrant, Pixar-style illustration depicting a warm and inviting prenatal clinic scene. In the foreground, a cheerful, animated pregnant woman with a glowing smile is sitting on an examination table, holding a colorful, oversized iron supplement bottle with a playful design. Beside her, a friendly animated doctor with a lab coat and glasses is gesturing towards a large, whimsical chart on the wall that illustrates the rising statistics of iron deficiency in pregnant women, using bright colors and engaging graphics. The background features playful medical equipment, such as a stethoscope with a smiling face and a potted plant with cartoonish leaves, creating a nurturing atmosphere. Soft, bright lighting fills the room, with sunlight streaming through a window adorned with cheerful curtains, enhancing the sense of hope and positivity. The characters' expressions convey a mix of concern and determination, emphasizing the importance of early screening and intervention for iron deficiency. The composition uses a medium close-up angle to engage the viewer, capturing the interaction between the doctor and the expectant mother, while the overall mood is informative yet uplifting, encouraging proactive health measures during pregnancy.
+2024-09-26 09:26:31,279 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 09:26:31,339 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6b82f016-14aa-4130-aee4-9d259eb122e1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:26:31,500 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6b82f016-14aa-4130-aee4-9d259eb122e1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:26:31,658 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6b82f016-14aa-4130-aee4-9d259eb122e1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:26:31,820 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6b82f016-14aa-4130-aee4-9d259eb122e1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 09:26:31,979 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6b82f016-14aa-4130-aee4-9d259eb122e1/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 09:26:32,037 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6b82f016-14aa-4130-aee4-9d259eb122e1 "HTTP/1.1 200 OK"
+2024-09-26 09:26:32,038 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/9LjY8mI-r6WjW5YSRvZp1.png
+2024-09-26 09:26:32,038 - INFO - Image link: https://fal.media/files/kangaroo/9LjY8mI-r6WjW5YSRvZp1.png
+2024-09-26 09:26:32,038 - INFO - Sending 1 log entries to Firebase.
+2024-09-26 09:26:35,351 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: K4j6QMp2w4PYHD8X8y5Q'}]
+2024-09-26 09:26:35,352 - INFO - Received 1 document IDs from Firebase.
+2024-09-26 09:26:35,352 - INFO - 'generated_post' length: 10
+2024-09-26 09:26:35,354 - INFO - Logged data to databases/llm.csv with DocumentID: K4j6QMp2w4PYHD8X8y5Q.
