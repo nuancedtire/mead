@@ -3106,3 +3106,43 @@ In the background, a large screen showcases a whimsical infographic illustrating
 2024-09-26 12:49:03,622 - INFO - Logged data to databases/llm.csv with DocumentID: mo9eoFZy75vHZl9gQSOa.
 2024-09-26 12:49:03,622 - INFO - 'generated_post' length: 10
 2024-09-26 12:49:03,623 - INFO - Logged data to databases/llm.csv with DocumentID: vNQ3gAYir2LPfXFqr8Bp.
+2024-09-26 13:30:57,857 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 13:30:57,861 - INFO - Extracted 158 link records.
+2024-09-26 13:30:57,862 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 13:30:57,864 - INFO - Extracted 31 link records.
+2024-09-26 13:30:57,865 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 13:30:57,867 - INFO - Extracted 5 link records.
+2024-09-26 13:30:57,869 - INFO - Extracted 15 link records.
+2024-09-26 13:30:57,870 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 13:30:57,872 - INFO - Extracted 7 link records.
+2024-09-26 13:30:57,873 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 13:30:57,874 - INFO - Extracted 12 link records.
+2024-09-26 13:30:57,875 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 13:30:57,877 - INFO - Extracted 13 link records.
+2024-09-26 13:30:57,878 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 13:30:57,879 - INFO - Extracted 1 link records.
+2024-09-26 13:30:57,880 - INFO - Unique links to process: 1
+2024-09-26 13:31:10,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 13:31:13,455 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 13:31:21,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 13:31:21,728 - INFO - Image query: A vibrant, Pixar-style illustration depicting a lively community health workshop in a bright, cheerful room filled with colorful educational materials. In the foreground, a diverse group of animated characters—patients of various ages and backgrounds—are engaged in an interactive learning session. One animated character, a friendly middle-aged woman, is enthusiastically pointing to a large, colorful poster about antibiotic awareness, while a young boy beside her, with wide eyes, holds a playful, oversized model of a bacteria, showcasing curiosity. 
+
+In the background, a compassionate healthcare provider, depicted as a warm and approachable animated character, is facilitating the discussion, gesturing animatedly with a smile, surrounded by vibrant leaflets and engaging videos playing on a screen. The room is adorned with playful decorations, such as cartoonish bacteria and antibiotic pills, creating an inviting atmosphere. 
+
+Soft, bright lighting fills the scene, with sunlight streaming through large windows, enhancing the sense of positivity and engagement. The characters' faces are expressive, conveying excitement and eagerness to learn, emphasizing the importance of patient involvement in healthcare decisions. The composition uses a dynamic angle to capture the interaction among the characters, highlighting the educational materials and the lively atmosphere. The overall mood is informative and uplifting, encouraging active participation in healthcare education.
+2024-09-26 13:31:22,179 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 13:31:22,239 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 13:31:22,400 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 13:31:22,563 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 13:31:22,723 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 13:31:22,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 13:31:23,039 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 13:31:23,318 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 13:31:23,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c279584d-6bb6-40f8-8797-ea46385d9b85 "HTTP/1.1 200 OK"
+2024-09-26 13:31:23,375 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/KIpGGfjkPVGS_88QWR2FH.png
+2024-09-26 13:31:23,375 - INFO - Image link: https://fal.media/files/lion/KIpGGfjkPVGS_88QWR2FH.png
+2024-09-26 13:31:23,376 - INFO - Sending 1 log entries to Firebase.
+2024-09-26 13:31:26,193 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: 9B54agCC11X74mDetpyM'}]
+2024-09-26 13:31:26,193 - INFO - Received 1 document IDs from Firebase.
+2024-09-26 13:31:26,193 - INFO - 'generated_post' length: 10
+2024-09-26 13:31:26,195 - INFO - Logged data to databases/llm.csv with DocumentID: 9B54agCC11X74mDetpyM.
