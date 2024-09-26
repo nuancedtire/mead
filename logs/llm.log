@@ -2932,3 +2932,47 @@ The lighting is warm and bright, enhancing the positive mood of the scene, while
 2024-09-26 10:32:51,821 - INFO - Logged data to databases/llm.csv with DocumentID: c5rI7tcg0SV0VKMbe9ct.
 2024-09-26 10:32:51,821 - INFO - 'generated_post' length: 10
 2024-09-26 10:32:51,822 - INFO - Logged data to databases/llm.csv with DocumentID: MRmM9qNqiJt6xILa3Yji.
+2024-09-26 10:44:12,291 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:44:12,295 - INFO - Extracted 155 link records.
+2024-09-26 10:44:12,296 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:44:12,298 - INFO - Extracted 31 link records.
+2024-09-26 10:44:12,299 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:44:12,301 - INFO - Extracted 5 link records.
+2024-09-26 10:44:12,303 - INFO - Extracted 14 link records.
+2024-09-26 10:44:12,304 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:44:12,306 - INFO - Extracted 7 link records.
+2024-09-26 10:44:12,307 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:44:12,308 - INFO - Extracted 12 link records.
+2024-09-26 10:44:12,309 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:44:12,311 - INFO - Extracted 12 link records.
+2024-09-26 10:44:12,312 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:44:12,313 - INFO - Extracted 1 link records.
+2024-09-26 10:44:12,314 - INFO - Unique links to process: 2
+2024-09-26 10:44:12,314 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
+2024-09-26 10:44:37,125 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:44:41,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:44:44,493 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:44:44,497 - INFO - Image query: A vibrant, Pixar-style illustration showcasing a futuristic healthcare scene inside a modern hospital. In the foreground, a cheerful animated doctor with a friendly smile stands beside a state-of-the-art digital X-ray machine, gesturing towards a glowing screen displaying a colorful, detailed X-ray image. The machine emits soft blue and green lights, symbolizing advanced technology and reduced radiation exposure. 
+
+In the background, a bustling hospital corridor features animated healthcare professionals collaborating, with one nurse using a tablet to monitor real-time data for patients, while another doctor discusses patient care with a family in a cozy waiting area filled with bright, welcoming colors. 
+
+On one side, a large window reveals a construction site for Scotland's first net-zero hospital, with animated cranes and workers, emphasizing progress and innovation. On the other side, a playful representation of a patient receiving surface-guided radiotherapy, with bright, friendly colors and whimsical graphics illustrating the precision of the treatment without tattoos.
+
+The lighting is warm and inviting, with sunlight streaming through the windows, creating an atmosphere of hope and positivity. The characters' expressions are animated and engaging, reflecting excitement about the advancements in healthcare technology. The overall composition captures the essence of transformation in healthcare, emphasizing collaboration, innovation, and support for both patients and healthcare workers.
+2024-09-26 10:44:44,979 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 10:44:45,225 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:44:45,365 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:44:45,503 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:44:45,641 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:44:45,780 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:44:45,922 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:44:46,061 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:44:46,203 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 10:44:46,243 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/51a2d067-c4e0-4cae-be22-44697ee4eb93 "HTTP/1.1 200 OK"
+2024-09-26 10:44:46,243 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/oIm7rhH4Uv34u78HKX_dG.png
+2024-09-26 10:44:46,243 - INFO - Image link: https://fal.media/files/elephant/oIm7rhH4Uv34u78HKX_dG.png
+2024-09-26 10:44:46,244 - INFO - Sending 1 log entries to Firebase.
+2024-09-26 10:44:49,146 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: TF4YOsiEa86Nkco0hgql'}]
+2024-09-26 10:44:49,147 - INFO - Received 1 document IDs from Firebase.
+2024-09-26 10:44:49,147 - INFO - 'generated_post' length: 10
+2024-09-26 10:44:49,149 - INFO - Logged data to databases/llm.csv with DocumentID: TF4YOsiEa86Nkco0hgql.
