@@ -72,6 +72,14 @@ jobs:
       - name: Run the NIH script
         run: |
           python scripts/update_nih_cr.py
+          
+      - name: Run the Digital Health Script
+        run: |
+          python scripts/update_digital_health.py
+      
+      - name: Run the UK Tech script
+        run: |
+          python scripts/update_uktech.py
 
       - name: Run the LLM processing script
         run: |
