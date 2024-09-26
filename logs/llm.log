@@ -2804,3 +2804,131 @@ In the background, other animated characters are seen taking notes and interacti
 2024-09-26 10:26:09,601 - INFO - Unique links to process: 1
 2024-09-26 10:26:09,601 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
 2024-09-26 10:26:09,601 - INFO - No valid log entries generated.
+2024-09-26 10:30:57,788 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:30:57,791 - INFO - Extracted 150 link records.
+2024-09-26 10:30:57,793 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:30:57,795 - INFO - Extracted 31 link records.
+2024-09-26 10:30:57,796 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:30:57,797 - INFO - Extracted 5 link records.
+2024-09-26 10:30:57,800 - INFO - Extracted 14 link records.
+2024-09-26 10:30:57,801 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:30:57,802 - INFO - Extracted 7 link records.
+2024-09-26 10:30:57,803 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:30:57,805 - INFO - Extracted 12 link records.
+2024-09-26 10:30:57,806 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:30:57,808 - INFO - Extracted 11 link records.
+2024-09-26 10:30:57,809 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:30:57,810 - INFO - Extracted 1 link records.
+2024-09-26 10:30:57,811 - INFO - Unique links to process: 6
+2024-09-26 10:30:57,811 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
+2024-09-26 10:31:10,612 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:13,941 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:16,636 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:16,641 - INFO - Image query: A vibrant, Pixar-style illustration depicting a bustling hospital control room filled with animated healthcare professionals engaged in a digital transformation project. In the foreground, a confident female character with glasses and a lab coat, representing Beverley Bryant, stands at a large interactive touchscreen displaying colorful graphs and digital patient records, her expression focused and determined. Surrounding her are diverse animated colleagues—some with tablets, others discussing strategies—each showcasing a range of emotions from curiosity to excitement. 
+
+In the background, large windows reveal a bright, sunny day outside, symbolizing hope and progress. The walls are adorned with playful posters about digital health and teamwork, while whimsical medical equipment adds a touch of charm. Soft, warm lighting fills the room, creating an inviting atmosphere. The composition uses a dynamic angle to emphasize the collaborative spirit, with characters leaning in towards the touchscreen, highlighting their engagement in the EPR review process. The overall mood is one of optimism and innovation, capturing the essence of the digital transformation in acute care.
+2024-09-26 10:31:16,856 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 10:31:16,915 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:17,076 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:17,235 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:17,395 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:17,557 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:17,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:17,873 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:18,031 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 10:31:18,088 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e008864d-aa99-499a-9ef3-f4cfd8deaac3 "HTTP/1.1 200 OK"
+2024-09-26 10:31:18,089 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/PQZ7uc5X5bHAd_vV69VgJ.png
+2024-09-26 10:31:18,089 - INFO - Image link: https://fal.media/files/elephant/PQZ7uc5X5bHAd_vV69VgJ.png
+2024-09-26 10:31:26,633 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:29,837 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:33,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:33,494 - INFO - Image query: A vibrant, Pixar-style illustration showcasing a bustling innovation hub filled with animated characters representing diverse health tech entrepreneurs. In the foreground, a cheerful female character with glasses and a lab coat enthusiastically presents a digital tablet displaying a colorful interface for endometriosis management, surrounded by floating icons symbolizing health and wellness. Next to her, a friendly male character with a beard and a hoodie showcases a predictive platform for heart failure, with dynamic graphs and heart icons animatedly popping up around him. 
+
+In the background, a group of animated children, including a boy with autism and a girl with a digital health coach app, are engaged in playful learning activities, surrounded by bright, colorful tools and resources. A wise, older character, representing the digital health coach, offers guidance with a warm smile, emphasizing empowerment for older adults. 
+
+The setting is a modern, open-plan workspace filled with greenery and playful decor, symbolizing innovation and collaboration. Soft, bright lighting streams through large windows, creating an inviting atmosphere. The characters' expressions are filled with excitement and determination, reflecting the transformative potential of digital health solutions. The composition uses a wide-angle perspective to capture the energy of the space, with vibrant colors and whimsical details enhancing the overall mood of optimism and progress in healthcare innovation.
+2024-09-26 10:31:33,790 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 10:31:33,850 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:34,007 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:34,166 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:34,325 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:34,484 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:34,646 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:34,803 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:34,961 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 10:31:35,019 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3ab048e7-678c-4ff0-a6e8-f65e75be9790 "HTTP/1.1 200 OK"
+2024-09-26 10:31:35,019 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/3Qw00T6YeR2zj0xNw9KYQ.png
+2024-09-26 10:31:35,019 - INFO - Image link: https://fal.media/files/zebra/3Qw00T6YeR2zj0xNw9KYQ.png
+2024-09-26 10:31:44,526 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:48,727 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:51,659 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:31:51,665 - INFO - Image query: A vibrant, Pixar-style illustration showcasing a bustling, modern hospital environment at the Royal National Orthopaedic Hospital (RNOH). In the foreground, an animated male character, Professor Paul Fish, with a warm smile and friendly demeanor, stands confidently beside a large, colorful digital screen displaying the Epic electronic patient record (EPR) system interface, filled with engaging graphics and patient data. Next to him, Dr. Lila Dinner, an animated female character with an enthusiastic expression, gestures towards a group of diverse healthcare professionals—nurses and doctors—who are gathered around, eagerly interacting with tablets and digital devices, showcasing the transition from paper records to digital.
+
+In the background, the hospital's three sites are represented with whimsical architectural designs, each connected by playful, animated lines symbolizing the integration of patient records. Bright, cheerful colors dominate the scene, with soft, warm lighting streaming through large windows, creating an inviting atmosphere. The characters exhibit a range of emotions—curiosity, excitement, and determination—reflecting the positive impact of digital transformation on patient care. The composition uses a dynamic angle to emphasize the interaction between the characters and the technology, capturing the essence of collaboration and innovation in healthcare. The overall mood is optimistic and forward-looking, highlighting the significance of this digital initiative in enhancing patient outcomes.
+2024-09-26 10:31:51,852 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 10:31:51,912 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:52,070 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:52,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:52,388 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:52,547 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:52,712 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:52,871 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:31:53,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 10:31:53,088 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab0621d-5f06-4a6d-b80d-5f865635d2a4 "HTTP/1.1 200 OK"
+2024-09-26 10:31:53,088 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/J0zQ2_LMrajvtzAPpbKv-.png
+2024-09-26 10:31:53,088 - INFO - Image link: https://fal.media/files/penguin/J0zQ2_LMrajvtzAPpbKv-.png
+2024-09-26 10:32:23,322 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:32:26,290 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:32:29,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:32:29,368 - INFO - Image query: A vibrant, Pixar-style illustration showcasing a modern pharmacy bustling with activity. In the foreground, an animated, friendly pharmacist with bright, expressive features stands behind a sleek, futuristic counter, holding a glowing tablet displaying an electronic prescription. The tablet emits colorful, dynamic graphics representing seamless data transfer, with animated lines connecting to various pharmacies in the background. 
+
+To the left, a cheerful GP character, depicted with a warm smile and a lab coat, is seen sending a prescription electronically from a digital device, with playful visual effects illustrating the transition from paper to digital. 
+
+In the background, a diverse group of animated patients, including a young mother with a child and an elderly couple, are interacting with the pharmacy staff, showcasing a sense of community and collaboration. 
+
+The setting is bright and inviting, with colorful shelves stocked with medicine and whimsical decorations like potted plants and motivational posters about sustainability. Soft, warm lighting bathes the scene, creating a positive and hopeful atmosphere. The overall composition uses a medium close-up angle to engage viewers, capturing the excitement of this digital transformation in healthcare. The mood is optimistic and forward-looking, emphasizing the benefits of the electronic prescription service and its impact on patient care and the environment.
+2024-09-26 10:32:29,627 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 10:32:29,687 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:29,845 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:30,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:30,162 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:30,319 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:30,476 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:30,634 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 10:32:30,689 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6cb817f-a000-45a9-a1d3-4c5ba96a4ad5 "HTTP/1.1 200 OK"
+2024-09-26 10:32:30,690 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/85fn26Q5npab4EkuOctr4.png
+2024-09-26 10:32:30,690 - INFO - Image link: https://fal.media/files/penguin/85fn26Q5npab4EkuOctr4.png
+2024-09-26 10:32:38,770 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:32:41,444 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:32:47,202 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 10:32:47,207 - INFO - Image query: A vibrant, Pixar-style illustration showcasing a futuristic home healthcare scene. In the foreground, a cheerful animated character, a middle-aged woman with warm features, is comfortably seated in her cozy living room, surrounded by soft pillows and a colorful throw blanket. She is smiling as she interacts with a sleek, holographic display projecting her vital signs and health data, glowing with bright blue and green hues. 
+
+In the background, a friendly animated doctor, depicted as a young man with a kind expression, appears on a large screen mounted on the wall, engaging with her through a virtual consultation. The room is filled with playful details like potted plants, family photos, and a window showing a sunny day outside, creating an inviting atmosphere. 
+
+The lighting is warm and bright, enhancing the positive mood of the scene, while the color palette is vibrant, featuring soft pastels and lively accents. The composition uses a dynamic angle to focus on the interaction between the patient and the doctor, emphasizing the connection and care provided through technology. The overall mood conveys hope and innovation, illustrating the transformative potential of virtual hospital wards in patient recovery and healthcare delivery.
+2024-09-26 10:32:47,389 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 10:32:47,449 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:47,607 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:47,764 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:47,922 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:48,081 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:48,241 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:48,400 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:48,561 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 10:32:48,722 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 10:32:48,785 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b3c02fb-b869-44c6-b781-242533251376 "HTTP/1.1 200 OK"
+2024-09-26 10:32:48,786 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/6A9K8UAgGRpUtEVb0KVEG.png
+2024-09-26 10:32:48,786 - INFO - Image link: https://fal.media/files/penguin/6A9K8UAgGRpUtEVb0KVEG.png
+2024-09-26 10:32:48,786 - INFO - Sending 5 log entries to Firebase.
+2024-09-26 10:32:51,816 - INFO - Successfully sent batch data to API: [{'index': 4, 'message': 'Saved with ID: 7o8aSGjHoc4CWdHC1uK3'}, {'index': 3, 'message': 'Saved with ID: RHzTnw6BeXKGbQxtUiGE'}, {'index': 2, 'message': 'Saved with ID: 00SaqbthndsC8QY2iD8q'}, {'index': 1, 'message': 'Saved with ID: c5rI7tcg0SV0VKMbe9ct'}, {'index': 0, 'message': 'Saved with ID: MRmM9qNqiJt6xILa3Yji'}]
+2024-09-26 10:32:51,816 - INFO - Received 5 document IDs from Firebase.
+2024-09-26 10:32:51,816 - INFO - 'generated_post' length: 10
+2024-09-26 10:32:51,818 - INFO - Logged data to databases/llm.csv with DocumentID: 7o8aSGjHoc4CWdHC1uK3.
+2024-09-26 10:32:51,818 - INFO - 'generated_post' length: 10
+2024-09-26 10:32:51,819 - INFO - Logged data to databases/llm.csv with DocumentID: RHzTnw6BeXKGbQxtUiGE.
+2024-09-26 10:32:51,819 - INFO - 'generated_post' length: 10
+2024-09-26 10:32:51,820 - INFO - Logged data to databases/llm.csv with DocumentID: 00SaqbthndsC8QY2iD8q.
+2024-09-26 10:32:51,820 - INFO - 'generated_post' length: 10
+2024-09-26 10:32:51,821 - INFO - Logged data to databases/llm.csv with DocumentID: c5rI7tcg0SV0VKMbe9ct.
+2024-09-26 10:32:51,821 - INFO - 'generated_post' length: 10
+2024-09-26 10:32:51,822 - INFO - Logged data to databases/llm.csv with DocumentID: MRmM9qNqiJt6xILa3Yji.
