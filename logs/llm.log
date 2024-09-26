@@ -3476,3 +3476,40 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-26 19:17:22,876 - INFO - Extracted 1 link records.
 2024-09-26 19:17:22,876 - INFO - Unique links to process: 0
 2024-09-26 19:17:22,876 - INFO - No unique links to process.
+2024-09-26 19:30:21,757 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:30:21,760 - INFO - Extracted 159 link records.
+2024-09-26 19:30:21,762 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:30:21,765 - INFO - Extracted 31 link records.
+2024-09-26 19:30:21,766 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:30:21,768 - INFO - Extracted 5 link records.
+2024-09-26 19:30:21,770 - INFO - Extracted 16 link records.
+2024-09-26 19:30:21,771 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:30:21,773 - INFO - Extracted 7 link records.
+2024-09-26 19:30:21,774 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:30:21,776 - INFO - Extracted 12 link records.
+2024-09-26 19:30:21,777 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:30:21,779 - INFO - Extracted 13 link records.
+2024-09-26 19:30:21,780 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:30:21,782 - INFO - Extracted 1 link records.
+2024-09-26 19:30:21,782 - INFO - Unique links to process: 1
+2024-09-26 19:30:30,847 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:30:37,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:30:41,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:30:41,857 - INFO - Image query: A photorealistic image set in a modern medical office. A middle-aged female doctor in a white lab coat is seated at a sleek desk, reviewing a digital tablet with a focused expression. Across from her, an elderly female patient, around 70 years old, sits in a comfortable chair, looking slightly anxious yet engaged in the conversation. The doctor gestures towards the tablet, illustrating the study findings, while the patient leans in, showing interest and concern. A stethoscope is draped over the chair, and a blood pressure monitor sits on the desk, symbolizing recent health assessments. The room is bright and airy, with sunlight streaming through large windows, creating a warm and inviting atmosphere. On the wall, a poster of the human brain is displayed, subtly emphasizing the topic of brain health and the implications of aspirin therapy. The composition captures a medium close-up angle, focusing on the dynamic interaction between the doctor and patient, highlighting the critical nature of personalized medical assessments in aspirin therapy for older adults. The overall mood conveys a sense of urgency and care, reflecting the importance of balancing benefits and risks in medication management.
+2024-09-26 19:30:42,010 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 19:30:42,046 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:30:42,180 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:30:42,316 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:30:42,450 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:30:42,585 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:30:42,719 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:30:42,855 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:30:42,990 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 19:30:43,025 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cd0c675a-2e97-4ce2-8fa0-18b09400d6a6 "HTTP/1.1 200 OK"
+2024-09-26 19:30:43,025 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/NYq92-gIPhjwtvCR1e3R7.png
+2024-09-26 19:30:43,025 - INFO - Image link: https://fal.media/files/koala/NYq92-gIPhjwtvCR1e3R7.png
+2024-09-26 19:30:43,026 - INFO - Sending 1 log entries to Firebase.
+2024-09-26 19:30:46,619 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: gGIVvyAqxPMu8E3654y3'}]
+2024-09-26 19:30:46,619 - INFO - Received 1 document IDs from Firebase.
+2024-09-26 19:30:46,619 - INFO - 'generated_post' length: 10
+2024-09-26 19:30:46,621 - INFO - Logged data to databases/llm.csv with DocumentID: gGIVvyAqxPMu8E3654y3.
