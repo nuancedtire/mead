@@ -327,8 +327,23 @@ Analyze the following social media post related to medicine or healthcare and ge
 8. **Enhance with Sensory and Emotional Details:**
    - Incorporate descriptions of textures, ambient sounds (as visual elements), or emotions to add depth to the image.
 
+**Example Social Media Post:**
+
+🧠 Navigating the complexities of aspirin therapy—how individualized approaches can prevent brain bleeds.
+
+A recent study from the UK Biobank involving over 449,000 participants sheds light on the risks associated with regular aspirin use:
+
+- Overall, aspirin does not significantly increase the risk of intracerebral hemorrhage (ICH) in middle-aged and older adults without a history of stroke or transient ischemic attack.
+- Only 0.3% of participants experienced ICH during a median follow-up of 12.75 years, with a quarter being fatal.
+- However, the risk escalates for:
+  - Individuals over 65 years (hazard ratio of 1.47)
+  - Those using anticoagulants concurrently (hazard ratio of 4.37)
+
+These findings underscore the importance of individualized assessment when prescribing aspirin, particularly for older adults and those on anticoagulants. 
+
+How do you approach aspirin therapy in your practice to balance benefits and risks?
 **Example Prompt:**
-A photorealistic image set in a modern, well-lit medical office. An experienced doctor in a white coat sits at his desk, thoughtfully examining an open medical chart. He holds a small bottle of aspirin in one hand and a prescription pad in the other. Across the desk sits an elderly woman over 65, attentively listening with a gentle, concerned expression. She is neatly dressed, and perhaps wears glasses, indicating her age. A stethoscope and a blood pressure cuff lie on the desk, symbolizing medical examination. Behind them, a softly focused bookshelf contains medical texts, and a wall-mounted anatomical chart subtly references cardiovascular health. The lighting is soft and natural, streaming in from a window, creating a warm yet serious atmosphere. The doctor’s face shows deep consideration, emphasizing the careful assessment needed when prescribing aspirin to older adults, especially those who may be on anticoagulants. The composition uses a medium close-up angle to capture the intimate interaction, highlighting the importance of personalized treatment plans for vulnerable populations.""",
+A photorealistic image set in a contemporary medical consultation room. A middle-aged doctor in a crisp white coat sits across from an elderly male patient, around 70 years old, who is seated in a comfortable chair. The doctor leans forward slightly, hands resting calmly on his knees or clasped together, as he listens attentively to the patient. The patient’s expression is attentive yet slightly concerned, indicating they are discussing important health matters. A stethoscope hangs around the doctor’s neck, and a blood pressure monitor is placed on a nearby table, symbolizing recent medical examination. The room is well-lit with natural light filtering through the window, casting soft shadows that create a warm yet serious atmosphere. On the wall behind them, a framed poster illustrates the human brain, subtly emphasizing the topic of brain health and the risks associated with aspirin therapy and intracerebral hemorrhage. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor and patient, highlighting the importance of personalized medical assessments in aspirin therapy for older adults. The overall mood conveys a sense of care and urgency, reflecting the critical nature of balancing benefits and risks in medication management.""",
             ),
             ("user", """Please generate the image prompt accordingly. Reply with only the prompt, no intro, no explanation, no nothing.
 
