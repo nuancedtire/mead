@@ -481,7 +481,8 @@ def main():
         "databases/scape.csv",
         "databases/nice.csv",
         "databases/nih_clinical_research.csv",
-        "databases/digital_health_news.csv"  # Added this line
+        "databases/digital_health_news.csv" ,
+        "databases/uktech_news.csv" # Added this line
     ]
     llm_file_path = "databases/llm.csv"
     
