@@ -3180,3 +3180,37 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-26 13:59:26,064 - INFO - Extracted 1 link records.
 2024-09-26 13:59:26,064 - INFO - Unique links to process: 0
 2024-09-26 13:59:26,065 - INFO - No unique links to process.
+2024-09-26 14:28:04,431 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 14:28:04,435 - INFO - Extracted 159 link records.
+2024-09-26 14:28:04,436 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 14:28:04,438 - INFO - Extracted 31 link records.
+2024-09-26 14:28:04,439 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 14:28:04,441 - INFO - Extracted 5 link records.
+2024-09-26 14:28:04,443 - INFO - Extracted 16 link records.
+2024-09-26 14:28:04,444 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 14:28:04,446 - INFO - Extracted 7 link records.
+2024-09-26 14:28:04,447 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 14:28:04,449 - INFO - Extracted 12 link records.
+2024-09-26 14:28:04,449 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 14:28:04,451 - INFO - Extracted 13 link records.
+2024-09-26 14:28:04,452 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 14:28:04,454 - INFO - Extracted 1 link records.
+2024-09-26 14:28:04,454 - INFO - Unique links to process: 1
+2024-09-26 14:28:22,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 14:28:26,391 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 14:28:29,608 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 14:28:29,613 - INFO - Image query: A vibrant, Pixar-style illustration depicting a lively discussion in a modern, colorful medical office. In the foreground, a cheerful, animated older male character with a thoughtful expression sits at a consultation table, holding a large, friendly-looking aspirin tablet, symbolizing the therapy. Next to him, an animated female doctor with warm features and a lab coat gestures animatedly, pointing to a whimsical chart on a tablet that displays statistics about aspirin therapy and intracerebral hemorrhage (ICH) risks. The chart features playful graphics, with bright colors representing different age groups and risk levels. In the background, a diverse group of animated older adults, including a couple and a single man, engage in conversation, showcasing a sense of community and support. The setting is filled with playful medical decor, such as colorful posters about heart health and cheerful plants, creating an inviting atmosphere. Soft, bright lighting fills the room, with sunlight streaming through large windows, enhancing the positive and informative mood. The characters' faces are expressive, conveying curiosity and concern about the implications of aspirin therapy for older adults. The composition uses a medium close-up angle to engage the viewer, capturing the interaction between the doctor and the patient, emphasizing the importance of individualized treatment plans.
+2024-09-26 14:28:29,880 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 14:28:29,946 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70288319-3083-4bbc-bb5e-2fa8bd28ea69/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 14:28:30,114 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70288319-3083-4bbc-bb5e-2fa8bd28ea69/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 14:28:30,281 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70288319-3083-4bbc-bb5e-2fa8bd28ea69/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 14:28:30,674 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70288319-3083-4bbc-bb5e-2fa8bd28ea69/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 14:28:30,845 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70288319-3083-4bbc-bb5e-2fa8bd28ea69/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 14:28:30,911 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70288319-3083-4bbc-bb5e-2fa8bd28ea69 "HTTP/1.1 200 OK"
+2024-09-26 14:28:30,911 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/SR2UrhSkUX5UWfqSPdwE9.png
+2024-09-26 14:28:30,911 - INFO - Image link: https://fal.media/files/penguin/SR2UrhSkUX5UWfqSPdwE9.png
+2024-09-26 14:28:30,912 - INFO - Sending 1 log entries to Firebase.
+2024-09-26 14:28:34,290 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: 7RTBV2NC55ysGU3jTfir'}]
+2024-09-26 14:28:34,290 - INFO - Received 1 document IDs from Firebase.
+2024-09-26 14:28:34,290 - INFO - 'generated_post' length: 10
+2024-09-26 14:28:34,292 - INFO - Logged data to databases/llm.csv with DocumentID: 7RTBV2NC55ysGU3jTfir.
