@@ -2786,3 +2786,21 @@ In the background, other animated characters are seen taking notes and interacti
 2024-09-26 09:58:01,851 - INFO - Received 1 document IDs from Firebase.
 2024-09-26 09:58:01,851 - INFO - 'generated_post' length: 10
 2024-09-26 09:58:01,853 - INFO - Logged data to databases/llm.csv with DocumentID: SBzoHMbPnDr2iEAod9dD.
+2024-09-26 10:26:09,580 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:26:09,583 - INFO - Extracted 150 link records.
+2024-09-26 10:26:09,585 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:26:09,587 - INFO - Extracted 31 link records.
+2024-09-26 10:26:09,588 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:26:09,589 - INFO - Extracted 5 link records.
+2024-09-26 10:26:09,592 - INFO - Extracted 14 link records.
+2024-09-26 10:26:09,593 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:26:09,594 - INFO - Extracted 7 link records.
+2024-09-26 10:26:09,595 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:26:09,597 - INFO - Extracted 12 link records.
+2024-09-26 10:26:09,598 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 10:26:09,600 - INFO - Extracted 7 link records.
+2024-09-26 10:26:09,600 - WARNING - databases/uktech_news.csv does not exist, skipping...
+2024-09-26 10:26:09,600 - WARNING - The DataFrame is empty.
+2024-09-26 10:26:09,601 - INFO - Unique links to process: 1
+2024-09-26 10:26:09,601 - INFO - Skipping recently failed link: https://www.targetedonc.com/view/what-impact-will-glp-1-agonists-have-on-cancer-
+2024-09-26 10:26:09,601 - INFO - No valid log entries generated.
