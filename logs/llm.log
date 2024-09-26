@@ -3401,3 +3401,61 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-26 18:27:58,308 - INFO - Extracted 1 link records.
 2024-09-26 18:27:58,308 - INFO - Unique links to process: 0
 2024-09-26 18:27:58,308 - INFO - No unique links to process.
+2024-09-26 19:01:37,350 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:01:37,353 - INFO - Extracted 158 link records.
+2024-09-26 19:01:37,355 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:01:37,357 - INFO - Extracted 31 link records.
+2024-09-26 19:01:37,358 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:01:37,360 - INFO - Extracted 5 link records.
+2024-09-26 19:01:37,362 - INFO - Extracted 16 link records.
+2024-09-26 19:01:37,363 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:01:37,365 - INFO - Extracted 7 link records.
+2024-09-26 19:01:37,366 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:01:37,367 - INFO - Extracted 12 link records.
+2024-09-26 19:01:37,368 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:01:37,370 - INFO - Extracted 13 link records.
+2024-09-26 19:01:37,371 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-26 19:01:37,373 - INFO - Extracted 1 link records.
+2024-09-26 19:01:37,373 - INFO - Unique links to process: 2
+2024-09-26 19:01:45,782 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:01:49,746 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:01:49,758 - INFO - Image query: A photorealistic image set in a bright, modern healthcare clinic. In the foreground, a diverse group of patients, including a middle-aged woman, a young father with his child, and an elderly man, are gathered around a large interactive touchscreen display. The touchscreen shows colorful infographics about antibiotics, including statistics and engaging visuals about antibiotic resistance. The patients are actively discussing the information, with expressions of curiosity and engagement. A healthcare provider, a young woman in scrubs, stands beside them, pointing at the screen and facilitating the discussion with a warm smile. The background features a well-organized waiting area with educational posters on the walls, emphasizing the importance of patient education. Natural light floods the space through large windows, creating an inviting atmosphere. The composition captures a dynamic angle that highlights the interaction between the patients and the healthcare provider, emphasizing the significance of active learning in healthcare decisions. The overall mood is positive and collaborative, reflecting the importance of patient engagement in reducing unnecessary antibiotic prescriptions.
+2024-09-26 19:01:49,860 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 19:01:49,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,001 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,119 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,237 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,358 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,479 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,598 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,718 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,844 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:01:50,963 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 19:01:50,984 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/eddee9af-d6e4-41d2-801a-cba0dadd6332 "HTTP/1.1 200 OK"
+2024-09-26 19:01:50,984 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/cyiXCQiJvUD-WkrCWoe6u.png
+2024-09-26 19:01:50,984 - INFO - Image link: https://fal.media/files/lion/cyiXCQiJvUD-WkrCWoe6u.png
+2024-09-26 19:02:00,014 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:02:04,565 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:02:09,401 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-26 19:02:09,406 - INFO - Image query: A photorealistic image set in a contemporary medical consultation room. A middle-aged doctor in a crisp white coat stands beside a large window, thoughtfully reviewing a digital tablet displaying a detailed chart of aspirin therapy statistics. The doctor has a focused expression, indicating deep consideration of the data. In front of him, an elderly male patient, around 70 years old, sits in a comfortable chair, looking attentive and slightly concerned. He is dressed in a casual sweater and has reading glasses perched on his nose. A stethoscope hangs around the doctor's neck, and a blood pressure monitor is placed on a nearby table, symbolizing the medical examination. The room is well-lit with natural light filtering through the window, casting soft shadows that create a warm yet serious atmosphere. On the wall, a framed poster illustrates the human brain, subtly emphasizing the topic of brain health and the risks of intracerebral hemorrhage. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the importance of personalized medical assessments in aspirin therapy for older adults. The overall mood conveys a sense of urgency and care, reflecting the critical nature of balancing benefits and risks in medication management.
+2024-09-26 19:02:09,477 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-26 19:02:09,499 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:09,619 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:09,739 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:09,859 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:09,983 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:10,104 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:10,226 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:10,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:10,470 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-26 19:02:10,592 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e/status?logs=false "HTTP/1.1 200 OK"
+2024-09-26 19:02:10,609 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/34982832-dfc5-4543-9e7f-3e947471621e "HTTP/1.1 200 OK"
+2024-09-26 19:02:10,609 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/AznbYneNrUTTXglHV3jl2.png
+2024-09-26 19:02:10,609 - INFO - Image link: https://fal.media/files/penguin/AznbYneNrUTTXglHV3jl2.png
+2024-09-26 19:02:10,610 - INFO - Sending 2 log entries to Firebase.
+2024-09-26 19:02:14,221 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: RdTiD4xOLY91ROHLhkQS'}, {'index': 1, 'message': 'Saved with ID: cXyILFXTuDtM7awxbD08'}]
+2024-09-26 19:02:14,221 - INFO - Received 2 document IDs from Firebase.
+2024-09-26 19:02:14,221 - INFO - 'generated_post' length: 10
+2024-09-26 19:02:14,223 - INFO - Logged data to databases/llm.csv with DocumentID: RdTiD4xOLY91ROHLhkQS.
+2024-09-26 19:02:14,224 - INFO - 'generated_post' length: 10
+2024-09-26 19:02:14,225 - INFO - Logged data to databases/llm.csv with DocumentID: cXyILFXTuDtM7awxbD08.
