@@ -3836,3 +3836,21 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-27 09:44:52,083 - INFO - Logged data to databases/llm.csv with DocumentID: xEX8e4yBGAlM3sr1Ldk9.
 2024-09-27 09:44:52,083 - INFO - 'generated_post' length: 10
 2024-09-27 09:44:52,084 - INFO - Logged data to databases/llm.csv with DocumentID: Re007rBTb0y1bOd6N0iA.
+2024-09-27 09:55:28,797 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:55:28,800 - INFO - Extracted 167 link records.
+2024-09-27 09:55:28,802 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:55:28,804 - INFO - Extracted 39 link records.
+2024-09-27 09:55:28,805 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:55:28,807 - INFO - Extracted 5 link records.
+2024-09-27 09:55:28,809 - INFO - Extracted 17 link records.
+2024-09-27 09:55:28,810 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:55:28,812 - INFO - Extracted 7 link records.
+2024-09-27 09:55:28,813 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:55:28,814 - INFO - Extracted 12 link records.
+2024-09-27 09:55:28,815 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:55:28,817 - INFO - Extracted 14 link records.
+2024-09-27 09:55:28,818 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:55:28,819 - INFO - Extracted 1 link records.
+2024-09-27 09:55:28,820 - INFO - Unique links to process: 1
+2024-09-27 09:55:28,820 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 09:55:28,820 - INFO - No valid log entries generated.
