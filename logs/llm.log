@@ -4100,3 +4100,40 @@ In the background, a bright and airy patient room is visible, featuring a comfor
 2024-09-27 13:55:07,339 - INFO - Unique links to process: 1
 2024-09-27 13:55:07,340 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
 2024-09-27 13:55:07,340 - INFO - No valid log entries generated.
+2024-09-27 14:23:43,027 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 14:23:43,031 - INFO - Extracted 170 link records.
+2024-09-27 14:23:43,032 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 14:23:43,034 - INFO - Extracted 39 link records.
+2024-09-27 14:23:43,035 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 14:23:43,037 - INFO - Extracted 5 link records.
+2024-09-27 14:23:43,039 - INFO - Extracted 19 link records.
+2024-09-27 14:23:43,040 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 14:23:43,042 - INFO - Extracted 7 link records.
+2024-09-27 14:23:43,043 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 14:23:43,045 - INFO - Extracted 12 link records.
+2024-09-27 14:23:43,046 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 14:23:43,047 - INFO - Extracted 16 link records.
+2024-09-27 14:23:43,048 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 14:23:43,050 - INFO - Extracted 1 link records.
+2024-09-27 14:23:43,050 - INFO - Unique links to process: 2
+2024-09-27 14:23:43,050 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 14:23:57,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 14:24:03,419 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 14:24:10,405 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 14:24:10,409 - INFO - Image query: A photorealistic image set in a modern dermatology clinic. A female dermatologist in her late 30s, wearing a white lab coat, is seated at a sleek, glass-topped desk, reviewing a digital tablet displaying patient data. She has an expression of focused determination, symbolizing her commitment to innovative treatments. Across from her, a young adult woman, approximately 25 years old, with a thoughtful expression, is seated in a comfortable chair, her skin showing signs of acne but with a hopeful demeanor. The room is bright and airy, with large windows allowing natural light to illuminate the space, creating a warm and inviting atmosphere. On the wall, a poster showcases before-and-after images of acne treatment results, subtly highlighting the potential of spironolactone. A potted plant adds a touch of greenery, enhancing the sense of a healing environment. The composition captures a medium close-up angle, focusing on the interaction between the dermatologist and the patient, emphasizing the discussion of alternative acne treatments. The overall mood conveys optimism and innovation in healthcare, reflecting the transformative potential of spironolactone for adult women dealing with persistent acne.
+2024-09-27 14:24:10,717 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 14:24:10,776 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 14:24:10,934 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 14:24:11,093 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 14:24:11,252 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 14:24:11,411 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 14:24:11,585 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 14:24:11,746 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 14:24:11,802 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/306c573a-5ea2-4daa-ba15-3eeb708a4e54 "HTTP/1.1 200 OK"
+2024-09-27 14:24:11,803 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/-1vw1EQLBDlwT8n-wltx8.png
+2024-09-27 14:24:11,803 - INFO - Image link: https://fal.media/files/koala/-1vw1EQLBDlwT8n-wltx8.png
+2024-09-27 14:24:11,803 - INFO - Sending 1 log entries to Firebase.
+2024-09-27 14:24:15,157 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: ct6qnZ3ldVABNtd2KD8T'}]
+2024-09-27 14:24:15,158 - INFO - Received 1 document IDs from Firebase.
+2024-09-27 14:24:15,158 - INFO - 'generated_post' length: 10
+2024-09-27 14:24:15,160 - INFO - Logged data to databases/llm.csv with DocumentID: ct6qnZ3ldVABNtd2KD8T.
