@@ -3763,3 +3763,76 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-27 09:27:34,831 - INFO - Logged data to databases/llm.csv with DocumentID: bGtxAyReJq2NdQogp2GB.
 2024-09-27 09:27:34,831 - INFO - 'generated_post' length: 10
 2024-09-27 09:27:34,832 - INFO - Logged data to databases/llm.csv with DocumentID: Z33y4Z2x8WMVVi6eUVL0.
+2024-09-27 09:42:28,493 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:42:28,496 - INFO - Extracted 164 link records.
+2024-09-27 09:42:28,498 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:42:28,500 - INFO - Extracted 37 link records.
+2024-09-27 09:42:28,501 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:42:28,503 - INFO - Extracted 5 link records.
+2024-09-27 09:42:28,505 - INFO - Extracted 17 link records.
+2024-09-27 09:42:28,506 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:42:28,508 - INFO - Extracted 7 link records.
+2024-09-27 09:42:28,509 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:42:28,510 - INFO - Extracted 12 link records.
+2024-09-27 09:42:28,511 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:42:28,513 - INFO - Extracted 14 link records.
+2024-09-27 09:42:28,514 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:42:28,515 - INFO - Extracted 1 link records.
+2024-09-27 09:42:28,516 - INFO - Unique links to process: 4
+2024-09-27 09:42:28,516 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 09:43:00,407 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:43:06,358 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:43:11,946 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:43:11,951 - INFO - Image query: A photorealistic image set in a modern conference room during a medical advisory committee meeting. A diverse group of 13 professionals, including oncologists and researchers, are seated around a large oval table, engaged in a serious discussion. The atmosphere is tense yet focused, with some members leaning forward, deep in thought, while others take notes or gesture emphatically. A large screen at the front displays a detailed graph comparing overall survival rates for gastric cancer treatments, highlighting the data from pivotal trials like CHECKMATE-649 and KEYNOTE-859. The room is brightly lit with overhead lights, and large windows allow natural light to filter in, creating a stark contrast between the bright interior and the serious expressions of the committee members. On the table, medical journals and reports are scattered, emphasizing the weight of the discussion. The composition captures a wide-angle view, showcasing the collective engagement of the committee, with a focus on the screen displaying critical data. The overall mood conveys urgency and importance, reflecting the significant implications of the vote against PD-L1 as a biomarker in gastric and GEJ adenocarcinoma treatment.
+2024-09-27 09:43:12,531 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 09:43:12,590 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:43:12,748 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:43:12,906 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:43:13,065 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:43:13,223 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:43:13,381 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:43:13,539 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:43:13,698 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 09:43:13,756 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a2c9a03-53de-4949-bec4-a2451dbb3bbb "HTTP/1.1 200 OK"
+2024-09-27 09:43:13,756 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/zCNZCwp97EWKs5hArefxk.png
+2024-09-27 09:43:13,756 - INFO - Image link: https://fal.media/files/penguin/zCNZCwp97EWKs5hArefxk.png
+2024-09-27 09:43:57,908 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:44:04,823 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:44:15,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:44:15,334 - INFO - Image query: A photorealistic image set in a modern clinical research facility. A diverse group of healthcare professionals, including a middle-aged female neurologist in a white lab coat and a young male research assistant, are gathered around a sleek conference table. The neurologist is enthusiastically presenting data on a digital tablet, with graphs and charts displaying the results of the TEMPO-1 trial. The research assistant, who is taking notes, looks engaged and curious. In the background, a large screen displays a vibrant infographic summarizing the key findings of tavapadon’s efficacy in treating early-stage Parkinson's disease. The room is brightly lit with large windows allowing natural light to flood in, creating an atmosphere of optimism and innovation. The color palette features calming blues and greens, symbolizing health and progress. The composition captures a medium wide-angle perspective, emphasizing the collaborative spirit of the team as they discuss the potential impact of tavapadon on patient care. The overall mood conveys excitement and hope, reflecting the groundbreaking advancements in Parkinson's disease treatment and the importance of ongoing research.
+2024-09-27 09:44:15,510 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 09:44:15,567 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:15,725 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:15,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:16,039 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:16,198 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:16,354 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:16,514 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 09:44:16,570 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/257ea47e-9ebd-4634-9b7b-189a229b7660 "HTTP/1.1 200 OK"
+2024-09-27 09:44:16,570 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/DCHAMs9t0YINpJ33kg6Bz.png
+2024-09-27 09:44:16,570 - INFO - Image link: https://fal.media/files/lion/DCHAMs9t0YINpJ33kg6Bz.png
+2024-09-27 09:44:34,679 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:44:41,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:44:47,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:44:47,267 - INFO - Image query: A photorealistic image set in a pediatric hospital room, showcasing a compassionate interaction between a pediatrician and a mother holding her infant. The pediatrician, a young woman in a white coat, is kneeling beside the hospital bed, attentively examining the infant who appears to be around 6 months old, with a calm expression. The mother, visibly relieved yet concerned, sits on the edge of the bed, gently cradling her baby. Medical equipment is visible in the background, including a pulse oximeter and a nebulizer, symbolizing the ongoing treatment for respiratory issues. Soft, natural light streams through a window, illuminating the room and creating a warm, hopeful atmosphere. On a nearby table, a small display shows a vial labeled "ziresovir," emphasizing the investigational antiviral's role in RSV treatment. The composition captures a medium close-up angle, focusing on the empathetic exchange between the doctor and mother, highlighting the importance of innovative treatments in pediatric care. The overall mood conveys a sense of hope and urgency, reflecting the critical nature of addressing RSV in infants.
+2024-09-27 09:44:47,597 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 09:44:47,657 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:47,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:47,974 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:48,131 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:48,289 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:48,448 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:48,606 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:44:48,765 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 09:44:48,821 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/429060e5-d806-4327-9046-b89a282ed94a "HTTP/1.1 200 OK"
+2024-09-27 09:44:48,821 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/Kp0NgSPlLuz2CdHadqDhf.png
+2024-09-27 09:44:48,821 - INFO - Image link: https://fal.media/files/koala/Kp0NgSPlLuz2CdHadqDhf.png
+2024-09-27 09:44:48,821 - INFO - Sending 3 log entries to Firebase.
+2024-09-27 09:44:52,080 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: 4nl1Q96vrnUzQfRIbckw'}, {'index': 1, 'message': 'Saved with ID: xEX8e4yBGAlM3sr1Ldk9'}, {'index': 2, 'message': 'Saved with ID: Re007rBTb0y1bOd6N0iA'}]
+2024-09-27 09:44:52,080 - INFO - Received 3 document IDs from Firebase.
+2024-09-27 09:44:52,080 - INFO - 'generated_post' length: 10
+2024-09-27 09:44:52,082 - INFO - Logged data to databases/llm.csv with DocumentID: 4nl1Q96vrnUzQfRIbckw.
+2024-09-27 09:44:52,082 - INFO - 'generated_post' length: 10
+2024-09-27 09:44:52,083 - INFO - Logged data to databases/llm.csv with DocumentID: xEX8e4yBGAlM3sr1Ldk9.
+2024-09-27 09:44:52,083 - INFO - 'generated_post' length: 10
+2024-09-27 09:44:52,084 - INFO - Logged data to databases/llm.csv with DocumentID: Re007rBTb0y1bOd6N0iA.
