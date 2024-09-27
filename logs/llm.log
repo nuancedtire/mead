@@ -4024,3 +4024,41 @@ In the background, a bright and airy patient room is visible, featuring a comfor
 2024-09-27 12:46:44,898 - INFO - Received 1 document IDs from Firebase.
 2024-09-27 12:46:44,899 - INFO - 'generated_post' length: 10
 2024-09-27 12:46:44,900 - INFO - Logged data to databases/llm.csv with DocumentID: yCdjztwIV5PkA7W7m3EM.
+2024-09-27 13:15:52,050 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:15:52,053 - INFO - Extracted 169 link records.
+2024-09-27 13:15:52,055 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:15:52,057 - INFO - Extracted 39 link records.
+2024-09-27 13:15:52,058 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:15:52,059 - INFO - Extracted 5 link records.
+2024-09-27 13:15:52,062 - INFO - Extracted 18 link records.
+2024-09-27 13:15:52,063 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:15:52,064 - INFO - Extracted 7 link records.
+2024-09-27 13:15:52,065 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:15:52,067 - INFO - Extracted 12 link records.
+2024-09-27 13:15:52,068 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:15:52,070 - INFO - Extracted 16 link records.
+2024-09-27 13:15:52,071 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:15:52,072 - INFO - Extracted 1 link records.
+2024-09-27 13:15:52,072 - INFO - Unique links to process: 2
+2024-09-27 13:15:52,073 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 13:16:05,877 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 13:16:10,092 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 13:16:17,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 13:16:17,496 - INFO - Image query: A photorealistic image set in a modern healthcare facility, depicting a diverse group of healthcare professionals engaged in a collaborative discussion around a large digital screen displaying graphs and data related to long COVID management. The scene includes a middle-aged female physician, wearing a lab coat, pointing at the screen with a focused expression, while a male nurse, in scrubs, takes notes on a tablet. A young female occupational therapist, with a thoughtful demeanor, stands nearby, holding a clipboard filled with patient activity logs. The room is bright and airy, with large windows allowing natural light to illuminate the space, creating a sense of hope and urgency. In the background, a poster on the wall illustrates the symptoms of long COVID, subtly reinforcing the topic of the discussion. The composition captures a dynamic angle, emphasizing the teamwork and dedication of the healthcare professionals as they strategize on managing the complex symptoms of long COVID. The overall mood conveys a sense of determination and collaboration, highlighting the importance of addressing the multifaceted nature of long COVID symptoms through a comprehensive approach.
+2024-09-27 13:16:17,758 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 13:16:17,794 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 13:16:17,932 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 13:16:18,068 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 13:16:18,211 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 13:16:18,401 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 13:16:18,538 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 13:16:18,680 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 13:16:18,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 13:16:18,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd15ffb6-2b1c-4a81-abe8-9ca870ac986a "HTTP/1.1 200 OK"
+2024-09-27 13:16:18,854 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/64sywBgd_E5wu1CWLTwqy.png
+2024-09-27 13:16:18,854 - INFO - Image link: https://fal.media/files/elephant/64sywBgd_E5wu1CWLTwqy.png
+2024-09-27 13:16:18,855 - INFO - Sending 1 log entries to Firebase.
+2024-09-27 13:16:22,265 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: TbHO0ftZR3gVir26kJDR'}]
+2024-09-27 13:16:22,265 - INFO - Received 1 document IDs from Firebase.
+2024-09-27 13:16:22,265 - INFO - 'generated_post' length: 10
+2024-09-27 13:16:22,267 - INFO - Logged data to databases/llm.csv with DocumentID: TbHO0ftZR3gVir26kJDR.
