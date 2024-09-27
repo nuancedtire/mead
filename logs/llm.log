@@ -4062,3 +4062,23 @@ In the background, a bright and airy patient room is visible, featuring a comfor
 2024-09-27 13:16:22,265 - INFO - Received 1 document IDs from Firebase.
 2024-09-27 13:16:22,265 - INFO - 'generated_post' length: 10
 2024-09-27 13:16:22,267 - INFO - Logged data to databases/llm.csv with DocumentID: TbHO0ftZR3gVir26kJDR.
+2024-09-27 13:37:42,377 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:37:42,381 - INFO - Extracted 170 link records.
+2024-09-27 13:37:42,382 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:37:42,384 - INFO - Extracted 39 link records.
+2024-09-27 13:37:42,385 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:37:42,387 - INFO - Extracted 5 link records.
+2024-09-27 13:37:42,389 - INFO - Extracted 18 link records.
+2024-09-27 13:37:42,390 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:37:42,392 - INFO - Extracted 7 link records.
+2024-09-27 13:37:42,393 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:37:42,394 - INFO - Extracted 12 link records.
+2024-09-27 13:37:42,395 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:37:42,397 - INFO - Extracted 16 link records.
+2024-09-27 13:37:42,398 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 13:37:42,399 - INFO - Extracted 1 link records.
+2024-09-27 13:37:42,400 - INFO - Unique links to process: 1
+2024-09-27 13:37:46,570 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 13:37:46,585 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-09-27 13:37:46,586 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 13:37:46,586 - INFO - No valid log entries generated.
