@@ -4390,3 +4390,23 @@ In the background, a bright and airy patient room is visible, featuring a comfor
 2024-09-27 21:20:22,583 - INFO - Unique links to process: 1
 2024-09-27 21:20:22,583 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
 2024-09-27 21:20:22,583 - INFO - No valid log entries generated.
+2024-09-27 22:20:21,953 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 22:20:21,956 - INFO - Extracted 171 link records.
+2024-09-27 22:20:21,958 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 22:20:21,960 - INFO - Extracted 39 link records.
+2024-09-27 22:20:21,961 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 22:20:21,962 - INFO - Extracted 5 link records.
+2024-09-27 22:20:21,965 - INFO - Extracted 19 link records.
+2024-09-27 22:20:21,966 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 22:20:21,967 - INFO - Extracted 7 link records.
+2024-09-27 22:20:21,968 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 22:20:21,970 - INFO - Extracted 12 link records.
+2024-09-27 22:20:21,971 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 22:20:21,973 - INFO - Extracted 16 link records.
+2024-09-27 22:20:21,974 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 22:20:21,975 - INFO - Extracted 1 link records.
+2024-09-27 22:20:21,976 - INFO - Unique links to process: 1
+2024-09-27 22:20:27,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 22:20:27,302 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-09-27 22:20:27,302 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 22:20:27,302 - INFO - No valid log entries generated.
