@@ -3854,3 +3854,43 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-27 09:55:28,820 - INFO - Unique links to process: 1
 2024-09-27 09:55:28,820 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
 2024-09-27 09:55:28,820 - INFO - No valid log entries generated.
+2024-09-27 10:26:03,905 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:26:03,909 - INFO - Extracted 167 link records.
+2024-09-27 10:26:03,910 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:26:03,912 - INFO - Extracted 39 link records.
+2024-09-27 10:26:03,913 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:26:03,915 - INFO - Extracted 5 link records.
+2024-09-27 10:26:03,917 - INFO - Extracted 17 link records.
+2024-09-27 10:26:03,918 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:26:03,920 - INFO - Extracted 7 link records.
+2024-09-27 10:26:03,921 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:26:03,923 - INFO - Extracted 12 link records.
+2024-09-27 10:26:03,924 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:26:03,925 - INFO - Extracted 15 link records.
+2024-09-27 10:26:03,926 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:26:03,928 - INFO - Extracted 1 link records.
+2024-09-27 10:26:03,928 - INFO - Unique links to process: 2
+2024-09-27 10:26:03,928 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 10:26:12,169 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 10:26:15,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 10:26:20,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 10:26:20,723 - INFO - Image query: A photorealistic image set in a modern NHS office environment, showcasing a diverse group of healthcare professionals engaged in a collaborative meeting. In the foreground, a middle-aged female project manager, wearing smart business attire, stands at a digital whiteboard displaying graphs and infographics related to the new Digital Workplace Solutions framework. Her expression is focused and enthusiastic as she points to key data. Surrounding her are three colleagues: a young male IT specialist with a laptop open in front of him, a middle-aged female nurse reviewing documents, and an older male administrator taking notes. The room is bright and airy, with large windows allowing natural light to flood in, creating a vibrant atmosphere. On the walls, posters highlight sustainability initiatives and digital transformation goals, reinforcing the NHS's commitment to innovation. The composition captures a dynamic angle, emphasizing teamwork and the forward-thinking nature of the NHS's digital strategy. The overall mood conveys excitement and optimism about the future of patient care and operational efficiency, reflecting the significant investment in technology and sustainability.
+2024-09-27 10:26:20,995 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 10:26:21,015 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,135 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,253 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,372 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,489 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,610 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,728 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,847 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:21,965 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 10:26:22,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 10:26:22,102 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1168ecba-30e2-4d4a-b186-fdd35597856c "HTTP/1.1 200 OK"
+2024-09-27 10:26:22,102 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/ntkfWmic8Gkge3nqSjLQv.png
+2024-09-27 10:26:22,102 - INFO - Image link: https://fal.media/files/koala/ntkfWmic8Gkge3nqSjLQv.png
+2024-09-27 10:26:22,103 - INFO - Sending 1 log entries to Firebase.
+2024-09-27 10:26:25,200 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: OoNy4KqlYU2FfrDGZoy0'}]
+2024-09-27 10:26:25,200 - INFO - Received 1 document IDs from Firebase.
+2024-09-27 10:26:25,200 - INFO - 'generated_post' length: 10
+2024-09-27 10:26:25,202 - INFO - Logged data to databases/llm.csv with DocumentID: OoNy4KqlYU2FfrDGZoy0.
