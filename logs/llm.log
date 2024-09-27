@@ -3984,3 +3984,43 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-27 11:54:46,061 - INFO - Unique links to process: 1
 2024-09-27 11:54:46,061 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
 2024-09-27 11:54:46,061 - INFO - No valid log entries generated.
+2024-09-27 12:46:14,084 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 12:46:14,088 - INFO - Extracted 168 link records.
+2024-09-27 12:46:14,089 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 12:46:14,091 - INFO - Extracted 39 link records.
+2024-09-27 12:46:14,092 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 12:46:14,094 - INFO - Extracted 5 link records.
+2024-09-27 12:46:14,096 - INFO - Extracted 17 link records.
+2024-09-27 12:46:14,097 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 12:46:14,099 - INFO - Extracted 7 link records.
+2024-09-27 12:46:14,100 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 12:46:14,102 - INFO - Extracted 12 link records.
+2024-09-27 12:46:14,103 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 12:46:14,104 - INFO - Extracted 16 link records.
+2024-09-27 12:46:14,105 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 12:46:14,107 - INFO - Extracted 1 link records.
+2024-09-27 12:46:14,107 - INFO - Unique links to process: 2
+2024-09-27 12:46:14,107 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 12:46:26,120 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 12:46:30,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 12:46:39,764 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 12:46:39,768 - INFO - Image query: A photorealistic image depicting a modern healthcare setting focused on remote patient monitoring. In the foreground, a diverse group of three healthcare professionals—a middle-aged female nurse, a young male doctor, and an elderly male technician—are gathered around a sleek digital tablet displaying patient health data. The nurse, wearing scrubs and a name badge, points to the screen with a look of enthusiasm, while the doctor, in a white coat, nods in agreement, showcasing a sense of collaboration and innovation. The technician, dressed in casual attire, holds a remote monitoring device, symbolizing the technology being utilized in the program. 
+
+In the background, a bright and airy patient room is visible, featuring a comfortable bed with a patient wearing a monitoring device on their wrist, looking relaxed and empowered. Soft natural light streams through large windows, illuminating the space and creating a welcoming atmosphere. On the walls, posters highlight the benefits of remote monitoring and patient empowerment, subtly reinforcing the program's impact. The composition captures a medium shot, emphasizing the interaction between the healthcare team and the patient, conveying a sense of hope and progress in transforming patient care through technology. The overall mood is optimistic and forward-looking, reflecting the positive changes in healthcare delivery and patient engagement.
+2024-09-27 12:46:40,376 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 12:46:40,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 12:46:40,591 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 12:46:40,750 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 12:46:40,909 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 12:46:41,068 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 12:46:41,225 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 12:46:41,384 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 12:46:41,543 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 12:46:41,600 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fddb37d-bd3c-4f7d-904b-d6253db76483 "HTTP/1.1 200 OK"
+2024-09-27 12:46:41,600 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/pMfgLZqADlkrWIvAt1O6b.png
+2024-09-27 12:46:41,600 - INFO - Image link: https://fal.media/files/lion/pMfgLZqADlkrWIvAt1O6b.png
+2024-09-27 12:46:41,601 - INFO - Sending 1 log entries to Firebase.
+2024-09-27 12:46:44,898 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: yCdjztwIV5PkA7W7m3EM'}]
+2024-09-27 12:46:44,898 - INFO - Received 1 document IDs from Firebase.
+2024-09-27 12:46:44,899 - INFO - 'generated_post' length: 10
+2024-09-27 12:46:44,900 - INFO - Logged data to databases/llm.csv with DocumentID: yCdjztwIV5PkA7W7m3EM.
