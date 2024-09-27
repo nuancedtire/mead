@@ -3686,3 +3686,80 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-27 08:19:01,357 - INFO - Received 1 document IDs from Firebase.
 2024-09-27 08:19:01,357 - INFO - 'generated_post' length: 10
 2024-09-27 08:19:01,359 - INFO - Logged data to databases/llm.csv with DocumentID: Ji1pBBUYAgHnOFoK09PM.
+2024-09-27 09:25:56,746 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:25:56,750 - INFO - Extracted 161 link records.
+2024-09-27 09:25:56,751 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:25:56,753 - INFO - Extracted 34 link records.
+2024-09-27 09:25:56,754 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:25:56,756 - INFO - Extracted 5 link records.
+2024-09-27 09:25:56,758 - INFO - Extracted 17 link records.
+2024-09-27 09:25:56,759 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:25:56,761 - INFO - Extracted 7 link records.
+2024-09-27 09:25:56,762 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:25:56,764 - INFO - Extracted 12 link records.
+2024-09-27 09:25:56,765 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:25:56,766 - INFO - Extracted 14 link records.
+2024-09-27 09:25:56,767 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 09:25:56,769 - INFO - Extracted 1 link records.
+2024-09-27 09:25:56,769 - INFO - Unique links to process: 4
+2024-09-27 09:26:06,806 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:26:10,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:26:15,050 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:26:15,056 - INFO - Image query: A photorealistic image set in a modern clinical research facility. A diverse group of medical professionals, including a middle-aged female oncologist in a white lab coat, a young male researcher in a blue scrubs, and an elderly male patient in a hospital gown, are gathered around a sleek, high-tech conference table. The oncologist is animatedly discussing the Phase II trial for RLS-0071, pointing to a digital tablet displaying data and graphs related to the trial's progress. The patient, looking hopeful yet slightly anxious, is seated at the table, listening intently as the researcher takes notes. The room is brightly lit with large windows allowing natural light to flood in, creating an atmosphere of optimism and innovation. On the walls, posters depict the mechanisms of aGvHD and the dual-targeting approach of RLS-0071, emphasizing the significance of the trial. The composition captures a medium shot, focusing on the engaged interaction among the team and the patient, highlighting the collaborative effort to address steroid-refractory aGvHD. The overall mood conveys a sense of urgency and hope, reflecting the transformative potential of new therapies in the management of complex medical conditions.
+2024-09-27 09:26:15,209 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 09:26:15,252 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:26:15,392 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:26:15,533 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:26:15,672 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:26:15,812 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:26:15,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:26:16,095 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:26:16,235 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 09:26:16,274 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d857ca22-c21a-4081-8c50-b27186cdfce9 "HTTP/1.1 200 OK"
+2024-09-27 09:26:16,274 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/ZgL3GBEV_CBzgCcic5JS3.png
+2024-09-27 09:26:16,275 - INFO - Image link: https://fal.media/files/koala/ZgL3GBEV_CBzgCcic5JS3.png
+2024-09-27 09:26:28,565 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:26:28,570 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-09-27 09:26:28,571 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 09:26:51,150 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:26:55,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:26:59,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:26:59,896 - INFO - Image query: A photorealistic image set in a modern clinical research facility. A diverse group of healthcare professionals, including a middle-aged female pulmonologist in a white lab coat and a young male researcher in a blue scrubs, are gathered around a high-tech digital display showing graphs and data from the FRONTIER-4 study. The pulmonologist points to a chart illustrating the improvement in FEV1, her expression a mix of excitement and concentration. The researcher, with a notepad in hand, takes notes while a third colleague, an elderly male patient with COPD, sits nearby, looking hopeful yet curious about the new treatment. The room is bright and well-lit, with large windows allowing natural light to flood in, creating an optimistic atmosphere. Medical equipment, such as spirometers and inhalers, is neatly arranged on a nearby table, symbolizing the focus on respiratory health. The composition captures a medium shot angle, emphasizing the collaborative spirit of medical research and the potential impact of tozorakimab on patient outcomes. The overall mood conveys a sense of hope and urgency, reflecting the importance of innovative treatments in managing COPD and bronchitis.
+2024-09-27 09:27:00,026 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 09:27:00,066 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:00,204 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:00,347 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:00,489 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:00,628 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:00,896 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:01,036 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:01,176 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 09:27:01,214 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d2c85d8-1dc6-456d-aea3-a9561d9169c7 "HTTP/1.1 200 OK"
+2024-09-27 09:27:01,215 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/n8orV7hiDN0dtSpJVNthE.png
+2024-09-27 09:27:01,215 - INFO - Image link: https://fal.media/files/rabbit/n8orV7hiDN0dtSpJVNthE.png
+2024-09-27 09:27:20,341 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:27:25,803 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:27:30,369 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-27 09:27:30,373 - INFO - Image query: A photorealistic image set in a modern fertility clinic consultation room. A compassionate female fertility specialist, dressed in a professional white coat, is seated at a sleek desk, leaning slightly forward with a concerned expression as she discusses important information with a couple in their early 30s. The woman, visibly anxious, has her hands clasped on her lap, while the man, sitting beside her, looks intently at the doctor, reflecting a mix of hope and concern. A laptop is open on the desk displaying charts and statistics related to assisted reproductive technology, subtly indicating the discussion topic. In the background, a large window allows soft, natural light to illuminate the room, creating a warm yet serious atmosphere. On the wall, a framed infographic illustrates congenital heart defects, emphasizing the potential risks associated with ART. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor and the couple, highlighting the importance of informed decision-making in assisted reproductive technology. The overall mood conveys a sense of urgency and care, reflecting the critical nature of counseling and support for patients navigating the complexities of ART.
+2024-09-27 09:27:30,552 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-27 09:27:30,592 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:30,732 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:30,873 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:31,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:31,152 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:31,291 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:31,430 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:31,569 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-27 09:27:31,709 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455/status?logs=false "HTTP/1.1 200 OK"
+2024-09-27 09:27:31,748 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/41148bf8-9899-4057-bc0d-070fe54d6455 "HTTP/1.1 200 OK"
+2024-09-27 09:27:31,748 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/ZN-6MrcHG3Hi0bdO_EngQ.png
+2024-09-27 09:27:31,748 - INFO - Image link: https://fal.media/files/elephant/ZN-6MrcHG3Hi0bdO_EngQ.png
+2024-09-27 09:27:31,748 - INFO - Sending 3 log entries to Firebase.
+2024-09-27 09:27:34,827 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: UOIvfJnpNppJwzWS3gJK'}, {'index': 2, 'message': 'Saved with ID: bGtxAyReJq2NdQogp2GB'}, {'index': 1, 'message': 'Saved with ID: Z33y4Z2x8WMVVi6eUVL0'}]
+2024-09-27 09:27:34,827 - INFO - Received 3 document IDs from Firebase.
+2024-09-27 09:27:34,828 - INFO - 'generated_post' length: 10
+2024-09-27 09:27:34,829 - INFO - Logged data to databases/llm.csv with DocumentID: UOIvfJnpNppJwzWS3gJK.
+2024-09-27 09:27:34,829 - INFO - 'generated_post' length: 10
+2024-09-27 09:27:34,831 - INFO - Logged data to databases/llm.csv with DocumentID: bGtxAyReJq2NdQogp2GB.
+2024-09-27 09:27:34,831 - INFO - 'generated_post' length: 10
+2024-09-27 09:27:34,832 - INFO - Logged data to databases/llm.csv with DocumentID: Z33y4Z2x8WMVVi6eUVL0.
