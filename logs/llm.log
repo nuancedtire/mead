@@ -3894,3 +3894,21 @@ Soft, bright lighting fills the scene, with sunlight streaming through large win
 2024-09-27 10:26:25,200 - INFO - Received 1 document IDs from Firebase.
 2024-09-27 10:26:25,200 - INFO - 'generated_post' length: 10
 2024-09-27 10:26:25,202 - INFO - Logged data to databases/llm.csv with DocumentID: OoNy4KqlYU2FfrDGZoy0.
+2024-09-27 10:44:48,881 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:44:48,884 - INFO - Extracted 168 link records.
+2024-09-27 10:44:48,885 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:44:48,887 - INFO - Extracted 39 link records.
+2024-09-27 10:44:48,888 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:44:48,890 - INFO - Extracted 5 link records.
+2024-09-27 10:44:48,892 - INFO - Extracted 17 link records.
+2024-09-27 10:44:48,893 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:44:48,895 - INFO - Extracted 7 link records.
+2024-09-27 10:44:48,896 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:44:48,897 - INFO - Extracted 12 link records.
+2024-09-27 10:44:48,898 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:44:48,900 - INFO - Extracted 15 link records.
+2024-09-27 10:44:48,901 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-27 10:44:48,902 - INFO - Extracted 1 link records.
+2024-09-27 10:44:48,903 - INFO - Unique links to process: 1
+2024-09-27 10:44:48,903 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-27 10:44:48,903 - INFO - No valid log entries generated.
