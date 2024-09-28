@@ -19,8 +19,8 @@ steps:
     - '--platform'
     - 'managed'
     - '--allow-unauthenticated'
-    - '--port'
-    - '8000'
+    - '--set-env-vars'
+    - 'PORT=8080'
 images:
   - 'gcr.io/peerr-thoughts/streamlit-app'
 options:

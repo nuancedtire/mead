@@ -3,6 +3,8 @@ from pydantic import BaseModel
 import logging
 from llm import get_image_query, get_fal_ai_image, small_llm, setup_logger
 from fastapi.middleware.cors import CORSMiddleware  # Add this import
+import uvicorn
+import os
 
 app = FastAPI()
 
@@ -41,6 +43,5 @@ async def test():
     return {"message": "API is working"}
 
 if __name__ == "__main__":
-    setup_logger()
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
