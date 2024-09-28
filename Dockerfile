@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080 8000
 
 # Set the command to run both the Streamlit app and the FastAPI server
-CMD ["sh", "-c", "streamlit run app.py --server.port 8080 --server.address 0.0.0.0 & python scripts/api.py"]
+CMD ["sh", "-c", "streamlit run app.py --server.port 8080 --server.address 0.0.0.0 & uvicorn scripts.api:app --host 0.0.0.0 --port 8000"]

@@ -36,6 +36,10 @@ async def generate_image(post_content: PostContent):
         logging.error(f"Error generating image: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/test")
+async def test():
+    return {"message": "API is working"}
+
 if __name__ == "__main__":
     setup_logger()
     import uvicorn
