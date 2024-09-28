@@ -4506,3 +4506,21 @@ In the background, a bright and airy patient room is visible, featuring a comfor
 2024-09-28 14:37:00,764 - INFO - Received 1 document IDs from Firebase.
 2024-09-28 14:37:00,765 - INFO - 'generated_post' length: 10
 2024-09-28 14:37:00,767 - INFO - Logged data to databases/llm.csv with DocumentID: placeholder_id_0.
+2024-09-28 15:18:14,140 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 15:18:14,143 - INFO - Extracted 171 link records.
+2024-09-28 15:18:14,145 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 15:18:14,147 - INFO - Extracted 39 link records.
+2024-09-28 15:18:14,148 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 15:18:14,149 - INFO - Extracted 5 link records.
+2024-09-28 15:18:14,152 - INFO - Extracted 19 link records.
+2024-09-28 15:18:14,153 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 15:18:14,154 - INFO - Extracted 7 link records.
+2024-09-28 15:18:14,155 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 15:18:14,157 - INFO - Extracted 12 link records.
+2024-09-28 15:18:14,158 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 15:18:14,160 - INFO - Extracted 16 link records.
+2024-09-28 15:18:14,161 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 15:18:14,162 - INFO - Extracted 1 link records.
+2024-09-28 15:18:14,163 - INFO - Unique links to process: 1
+2024-09-28 15:18:14,163 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-28 15:18:14,163 - INFO - No valid log entries generated.
