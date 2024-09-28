@@ -431,46 +431,6 @@ def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
     except Exception as e:
         logging.error(f"Error logging data to CSV: {e}")
 
-# def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
-#     try:
-#         batch_data = []
-#         for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
-#             if not log_entry.get("generated_post"):
-#                 logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
-#                 continue
-#             link = log_entry["generated_post"][5]
-#             source_link = log_entry["generated_post"][6]  # Get the source_link
-#             audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link or "nih" in link else "General"
-#             post_data = {
-#                 "imageURL": log_entry["generated_post"][4],
-#                 "hashtags": log_entry["generated_post"][3],
-#                 "source": source_link if source_link else link,  # Use source_link if available, otherwise use link
-#                 "post": log_entry["generated_post"][2],
-#                 "type": audience,
-#             }
-#             batch_data.append(post_data)
-#         if not batch_data:
-#             logging.error("No valid log entries to send to API.")
-#             return None
-#         headers = {"Content-Type": "application/json", "x-secret": "9b7ExA8PlJbK"}
-#         response = requests.post(url, json=batch_data, headers=headers)
-#         if response.status_code == 201 or response.status_code == 200:
-#             result = response.json()
-#             document_ids = [item["message"].split(": ")[1] for item in result if "Saved with ID" in item["message"]]
-#             logging.info(f"Successfully sent batch data to API: {result}")
-#             if len(document_ids) != len(batch_log_entries[:10]):
-#                 logging.error(
-#                     f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries[:10])} entries."
-#                 )
-#                 return None
-#             return document_ids
-#         else:
-#             logging.error(f"Failed to send batch data to API. Status code: {response.status_code}, Response: {response.text}")
-#             return None
-#     except requests.exceptions.RequestException as e:
-#         logging.error(f"Error sending batch data to API: {e}")
-#         return None
-
 def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
     try:
         batch_data = []
@@ -492,15 +452,56 @@ def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoug
         if not batch_data:
             logging.error("No valid log entries to send to API.")
             return None
-        
-        # Generate placeholder IDs
-        document_ids = [f"placeholder_id_{i}" for i in range(len(batch_data))]
-        logging.info(f"Generated placeholder IDs: {document_ids}")
-        
-        return document_ids
-    except Exception as e:
-        logging.error(f"Error in send_to_firebase: {e}")
+        headers = {"Content-Type": "application/json", "x-secret": "9b7ExA8PlJbK"}
+        response = requests.post(url, json=batch_data, headers=headers)
+        if response.status_code == 201 or response.status_code == 200:
+            result = response.json()
+            document_ids = [item["message"].split(": ")[1] for item in result if "Saved with ID" in item["message"]]
+            logging.info(f"Successfully sent batch data to API: {result}")
+            if len(document_ids) != len(batch_log_entries[:10]):
+                logging.error(
+                    f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries[:10])} entries."
+                )
+                return None
+            return document_ids
+        else:
+            logging.error(f"Failed to send batch data to API. Status code: {response.status_code}, Response: {response.text}")
+            return None
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error sending batch data to API: {e}")
         return None
+
+# def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
+#     try:
+#         batch_data = []
+#         for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
+#             if not log_entry.get("generated_post"):
+#                 logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+#                 continue
+#             link = log_entry["generated_post"][5]
+#             source_link = log_entry["generated_post"][6]  # Get the source_link
+#             audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link or "nih" in link else "General"
+#             post_data = {
+#                 "imageURL": log_entry["generated_post"][4],
+#                 "hashtags": log_entry["generated_post"][3],
+#                 "source": source_link if source_link else link,  # Use source_link if available, otherwise use link
+#                 "post": log_entry["generated_post"][2],
+#                 "type": audience,
+#             }
+#             batch_data.append(post_data)
+#         if not batch_data:
+#             logging.error("No valid log entries to send to API.")
+#             return None
+        
+#         # Generate placeholder IDs
+#         document_ids = [f"placeholder_id_{i}" for i in range(len(batch_data))]
+#         logging.info(f"Generated placeholder IDs: {document_ids}")
+        
+#         return document_ids
+#     except Exception as e:
+#         logging.error(f"Error in send_to_firebase: {e}")
+#         return None
+
 # =====================
 #  Main Logic
 # =====================
