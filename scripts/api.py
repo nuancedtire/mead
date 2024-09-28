@@ -2,8 +2,18 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import logging
 from llm import get_image_query, get_fal_ai_image, small_llm, setup_logger
+from fastapi.middleware.cors import CORSMiddleware  # Add this import
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 class PostContent(BaseModel):
     content: str
