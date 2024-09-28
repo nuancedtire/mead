@@ -13,8 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code into the container
 COPY . .
 
-# Expose the port that Streamlit will run on
-EXPOSE 8080
+# Expose the ports that Streamlit and FastAPI will run on
+EXPOSE 8080 8000
 
-# Set the command to run the Streamlit app
-CMD ["streamlit", "run", "app.py", "--server.port", "8080", "--server.address", "0.0.0.0"]
+# Set the command to run both the Streamlit app and the FastAPI server
+CMD ["sh", "-c", "streamlit run app.py --server.port 8080 --server.address 0.0.0.0 & python scripts/api.py"]
