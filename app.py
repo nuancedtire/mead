@@ -8,7 +8,6 @@ import yaml
 import logging
 from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.stoggle import stoggle
-import os
 
 # Initialize session state
 if 'needs_rerun' not in st.session_state:
@@ -442,7 +441,3 @@ st.markdown("<p style='text-align: center;'>Built with ❤ by Faz</p>", unsafe_a
 if st.session_state.needs_rerun:
     st.session_state.needs_rerun = False
     st.rerun()
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    st.run(port=port)
