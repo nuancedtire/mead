@@ -367,11 +367,11 @@ import fal_client
 def get_fal_ai_image(image_query):
     try:
         handler = fal_client.submit(
-            "fal-ai/flux/dev",
+            "fal-ai/flux/schnell",
             arguments={
                 "prompt": image_query,
                 "image_size": "landscape_4_3",
-                "num_inference_steps": 7,
+                "num_inference_steps": 8,
                 "num_images": 1,
                 "enable_safety_checker": True
             },
