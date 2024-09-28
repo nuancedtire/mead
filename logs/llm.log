@@ -4465,3 +4465,44 @@ In the background, a bright and airy patient room is visible, featuring a comfor
 2024-09-28 04:17:57,877 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
 2024-09-28 04:17:57,877 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
 2024-09-28 04:17:57,878 - INFO - No valid log entries generated.
+2024-09-28 14:35:46,321 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 14:35:46,325 - INFO - Extracted 170 link records.
+2024-09-28 14:35:46,326 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 14:35:46,328 - INFO - Extracted 39 link records.
+2024-09-28 14:35:46,329 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 14:35:46,331 - INFO - Extracted 5 link records.
+2024-09-28 14:35:46,333 - INFO - Extracted 19 link records.
+2024-09-28 14:35:46,334 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 14:35:46,336 - INFO - Extracted 7 link records.
+2024-09-28 14:35:46,337 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 14:35:46,338 - INFO - Extracted 12 link records.
+2024-09-28 14:35:46,339 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 14:35:46,341 - INFO - Extracted 16 link records.
+2024-09-28 14:35:46,342 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-28 14:35:46,344 - INFO - Extracted 1 link records.
+2024-09-28 14:35:46,344 - INFO - Unique links to process: 2
+2024-09-28 14:35:46,934 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-09-28 14:35:46,934 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-28 14:36:40,943 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 14:36:46,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 14:36:59,339 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-28 14:36:59,346 - INFO - Image query: A photorealistic image set in a modern dermatology clinic. A female dermatologist in her mid-30s, wearing a white lab coat, is discussing treatment options with a young adult woman, approximately 25 years old, who has a thoughtful expression. The dermatologist is pointing to a digital tablet displaying before-and-after images of acne treatment results, emphasizing the positive effects of spironolactone. The patient, seated comfortably in a sleek examination chair, appears engaged and hopeful, with her hands resting on her lap. The room is bright and airy, with large windows allowing natural light to illuminate the space, creating a welcoming atmosphere. On the walls, there are framed posters illustrating skin health and acne treatment options, subtly reinforcing the topic of discussion. A shelf in the background holds various skincare products, including a visible bottle of spironolactone, symbolizing the new treatment approach. The composition captures a medium close-up angle, focusing on the interaction between the dermatologist and the patient, highlighting the importance of innovative treatments in improving quality of life for women with persistent acne. The overall mood conveys optimism and a sense of empowerment, reflecting the potential shift in acne management practices.
+2024-09-28 14:36:59,492 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-28 14:36:59,528 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:36:59,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:36:59,796 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:36:59,929 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:37:00,063 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:37:00,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:37:00,329 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:37:00,462 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:37:00,596 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-28 14:37:00,728 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553/status?logs=false "HTTP/1.1 200 OK"
+2024-09-28 14:37:00,763 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ca3d3454-02e9-4b63-835e-4c98b4646553 "HTTP/1.1 200 OK"
+2024-09-28 14:37:00,764 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/YsKU0sO9FpYFrx6CF4Tr6.png
+2024-09-28 14:37:00,764 - INFO - Image link: https://fal.media/files/elephant/YsKU0sO9FpYFrx6CF4Tr6.png
+2024-09-28 14:37:00,764 - INFO - Sending 1 log entries to Firebase.
+2024-09-28 14:37:00,764 - INFO - Generated placeholder IDs: ['placeholder_id_0']
+2024-09-28 14:37:00,764 - INFO - Received 1 document IDs from Firebase.
+2024-09-28 14:37:00,765 - INFO - 'generated_post' length: 10
+2024-09-28 14:37:00,767 - INFO - Logged data to databases/llm.csv with DocumentID: placeholder_id_0.
