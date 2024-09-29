@@ -8,10 +8,63 @@ import yaml
 import logging
 from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.stoggle import stoggle
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
 
 # Initialize session state
 if 'needs_rerun' not in st.session_state:
     st.session_state.needs_rerun = False
+
+# Initialize Firebase (place this at the beginning of your script)
+if not firebase_admin._apps:
+    cred = credentials.Certificate("firebase_credentials.json")
+    firebase_admin.initialize_app(cred)
+
+db = firestore.client()
+
+@st.cache_resource
+def get_firestore_client():
+    return db
+
+@st.cache_data(ttl=3600)  # Cache data for 1 hour
+def load_combined_news():
+    """
+    Load data from combined news collection in Firestore and return it as a Pandas DataFrame.
+    """
+    db = get_firestore_client()
+    docs = db.collection('combined_news').get()
+    data = [doc.to_dict() for doc in docs]
+    df = pd.DataFrame(data)
+    
+    # Convert 'Time' to datetime, handling mixed formats
+    df['Time'] = pd.to_datetime(df['Time'], format='mixed', errors='coerce')
+    
+    # Drop rows where 'Time' couldn't be parsed
+    df = df.dropna(subset=['Time'])
+    
+    df = df.sort_values(by='Time', ascending=False)
+    return df
+
+@st.cache_data(ttl=3600)  # Cache data for 1 hour
+def load_llm_data():
+    """
+    Load data from LLM collection in Firestore and return it as a Pandas DataFrame.
+    """
+    db = get_firestore_client()
+    docs = db.collection('llm').get()
+    data = [doc.to_dict() for doc in docs]
+    df = pd.DataFrame(data)
+    
+    # Convert 'Time' and 'LLM Timestamp' to datetime, handling mixed formats
+    df['Time'] = pd.to_datetime(df['Time'], format='mixed', errors='coerce')
+    df['LLM_Timestamp'] = pd.to_datetime(df['LLM_Timestamp'], format='mixed', errors='coerce')
+    
+    # Drop rows where 'Time' or 'LLM Timestamp' couldn't be parsed
+    df = df.dropna(subset=['Time', 'LLM_Timestamp'])
+    
+    df = df.sort_values(by='LLM_Timestamp', ascending=False)
+    return df
 
 # Add these functions back into the main file
 def remove_markdown_formatting(text):
@@ -84,46 +137,6 @@ def relative_time(past_time):
 # Fallback image in case the provided image URL is invalid or missing
 fallback_image_url = "https://peerr.io/images/logo.svg"  # Note: SVG might not be ideal for image display. Consider using a PNG or JPEG.
 
-# Load CSV files containing data sources
-@st.cache_data
-def load_meds_data():
-    return pd.read_csv('databases/meds.csv')   # Medsii data
-
-@st.cache_data
-def load_sifted_data():
-    return pd.read_csv('databases/sifted.csv')  # Sifted data
-
-@st.cache_data
-def load_scape_data():
-    return pd.read_csv('databases/scape.csv')  # Medscape data
-
-@st.cache_data
-def load_nice_data():
-    return pd.read_csv('databases/nice.csv')  # Nice data
-
-@st.cache_data
-def load_nih_data():
-    return pd.read_csv('databases/nih_clinical_research.csv')  # NIH data
-
-@st.cache_data
-def load_uktech_data():
-    return pd.read_csv('databases/uktech_news.csv')
-
-@st.cache_data
-def load_digital_health_data():
-    return pd.read_csv('databases/digital_health_news.csv')
-
-@st.cache_data(ttl=3600)  # Cache data for 1 hour
-def load_firebase():
-    """
-    Load data from LLM csv and return it as a Pandas DataFrame.
-    """
-    data = pd.read_csv('databases/llm.csv')
-    data['Time'] = pd.to_datetime(data['Time'], format='mixed')
-    data['LLM Timestamp'] = pd.to_datetime(data['LLM Timestamp'], format='mixed')
-    data = data.sort_values(by='Time', ascending=False)
-    return data
-
 # Function to identify the source of a post based on the link
 def determine_source(link):
     """
@@ -135,20 +148,9 @@ def determine_source(link):
     Returns:
         str: Source of the article.
     """
-    if link in meds['Link'].values:
-        return "Medsii"
-    elif link in sifted['Link'].values:
-        return "Sifted"
-    elif link in scape['Link'].values:
-        return "Medscape"
-    elif link in nice['Link'].values:
-        return "NICE UK"
-    elif link in nih['Link'].values:
-        return "NIH"
-    elif link in uktech['Link'].values:
-        return "UK Tech News"
-    elif link in digital_health['Link'].values:
-        return "Digital Health News"
+    matching_row = combined_news[combined_news['Link'] == link]
+    if not matching_row.empty:
+        return matching_row['Source'].iloc[0]
     else:
         return "Unknown Source"
 
@@ -278,14 +280,8 @@ st.markdown("""
 st.markdown('<h1 class="main-title">Peerr Thoughts</h1>', unsafe_allow_html=True)
 
 # Load the data
-meds = load_meds_data()
-sifted = load_sifted_data()
-scape = load_scape_data()
-nice = load_nice_data()
-nih = load_nih_data()
-uktech = load_uktech_data()
-digital_health = load_digital_health_data()
-data = load_firebase()
+combined_news = load_combined_news()
+data = load_llm_data()
 
 # Apply cleaning function to 'Hashtags' column
 data['Hashtags'] = data['Hashtags'].apply(clean_hashtags)
@@ -307,7 +303,7 @@ with st.sidebar:
     selected_hashtags = st.multiselect("#️⃣ Filter by Hashtags", options=all_hashtags)
     
     # Add multiselect for sources
-    all_sources = ["Medsii", "Sifted", "Medscape", "NICE UK", "NIH", "UK Tech News", "Digital Health News"]
+    all_sources = sorted(combined_news['Source'].astype(str).unique())
     selected_sources = st.multiselect("🌐 Filter by Source", options=all_sources)
     
     search_query = st.text_input("🔎 Search posts")
@@ -328,7 +324,7 @@ with st.sidebar:
     total_posts = len(data)
     last_post = data['Time'].max().strftime("%d %b")
     first_post = data['Time'].min().strftime("%d %b")
-    last_gen = data['LLM Timestamp'].max().strftime("%d %b")
+    last_gen = data['LLM_Timestamp'].max().strftime("%d %b")
     
     st.subheader("Statistics")
     col1, col2 = st.columns(2)
@@ -411,7 +407,7 @@ if not filtered_data.empty:
             for _, row in filtered_data.iloc[start_idx:end_idx].iterrows():
                 create_post(
                     timestamp=row['Time'].strftime("%H:%M on %d-%m-%Y"),
-                    llm_timestamp=row['LLM Timestamp'].strftime("%H:%M on %d-%m-%Y"),
+                    llm_timestamp=row['LLM_Timestamp'].strftime("%H:%M on %d-%m-%Y"),
                     image_url=row['Image'],
                     hashtags=row['Hashtags'],
                     content=remove_markdown_formatting(row['Post']),

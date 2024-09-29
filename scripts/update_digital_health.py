@@ -4,6 +4,8 @@ import pandas as pd
 import logging
 from datetime import datetime
 import os
+from firebase_admin import credentials, firestore, initialize_app
+import hashlib
 
 def setup_logging():
     logging.basicConfig(filename='logs/digital_health_scraper.log', level=logging.INFO,
@@ -11,6 +13,11 @@ def setup_logging():
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     logging.getLogger('').addHandler(console)
+
+def setup_firebase():
+    cred = credentials.Certificate("firebase_credentials.json")
+    initialize_app(cred)
+    return firestore.client()
 
 def fetch_webpage(url):
     try:
@@ -75,27 +82,31 @@ def extract_digital_health_items(html_content):
     logging.info(f"Total items processed: {len(news_items)}")
     return news_items
 
-def save_to_csv(data, filename):
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
+def save_to_firestore(data, db):
+    combined_news_ref = db.collection('combined_news')
+    batch = db.batch()
     
-    if os.path.exists(filename):
-        existing_df = pd.read_csv(filename)
-        new_df = pd.DataFrame(data)
-        combined_df = pd.concat([existing_df, new_df]).drop_duplicates(subset=['Link'], keep='first')
-    else:
-        combined_df = pd.DataFrame(data)
+    for item in data:
+        # Add 'Source' field to each item
+        item['Source'] = 'Digital Health News'
+        
+        # Create a hash of the URL to use as the document ID
+        doc_id = hashlib.md5(item['Link'].encode()).hexdigest()
+        
+        # Use the hash as the document ID
+        doc_ref = combined_news_ref.document(doc_id)
+        
+        # Use set with merge=True to update existing documents or create new ones
+        batch.set(doc_ref, item, merge=True)
     
-    combined_df['Time'] = pd.to_datetime(combined_df['Time'], errors='coerce')
-    combined_df = combined_df.sort_values('Time', ascending=False, na_position='last')
-    
-    combined_df.to_csv(filename, index=False)
-    message = f"Data saved to {filename}. Total items: {len(combined_df)}."
+    batch.commit()
+    message = f"Data saved to Firestore. Total items: {len(data)}."
     logging.info(message)
 
 def scrape_digital_health_news():
     setup_logging()
+    db = setup_firebase()
     url = "https://www.digitalhealth.net/news/"  # Replace with the actual URL
-    output_file = "databases/digital_health_news.csv"
     
     logging.info(f"Starting scrape for {url}")
 
@@ -103,7 +114,7 @@ def scrape_digital_health_news():
     if html_content:
         news_items = extract_digital_health_items(html_content)
         if news_items:
-            save_to_csv(news_items, output_file)
+            save_to_firestore(news_items, db)
         else:
             logging.info("No new items found.")
     else:

@@ -1,9 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+import hashlib
 
 def setup_logging():
     logging.basicConfig(filename='logs/nih_clinical_research.log', level=logging.INFO,
@@ -11,6 +14,11 @@ def setup_logging():
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     logging.getLogger('').addHandler(console)
+
+def setup_firebase():
+    cred = credentials.Certificate("firebase_credentials.json")
+    firebase_admin.initialize_app(cred)
+    return firestore.client()
 
 def fetch_webpage(url):
     try:
@@ -37,7 +45,7 @@ def parse_date(date_string):
             continue
     
     logging.warning(f"Could not parse date: {date_string}. Using current date.")
-    return datetime.now()  # Return current date as fallback
+    return datetime.now()
 
 def extract_nih_news_items(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -46,13 +54,12 @@ def extract_nih_news_items(html_content):
 
     teasers = soup.find_all('div', class_='teaser-clickable')
     
-    for teaser in teasers:
+    for teaser in teasers[:5]:  # Only process the first 5 teasers
         try:
             title_element = teaser.find('h4', class_='teaser-title')
             title = title_element.text.strip()
             link = title_element.find('a')['href']
             
-            # Ensure the link is a full URL
             if not link.startswith('http'):
                 link = 'https://www.nih.gov' + link
             
@@ -60,15 +67,11 @@ def extract_nih_news_items(html_content):
             date_str = description.split('—')[0].strip()
             date = parse_date(date_str)
             
-            # Skip if the post is not from the current year
             if date.year != current_year:
                 continue
             
-            # Extract image URL
             img_element = teaser.find('img', class_='media-element')
             image_url = img_element['src'] if img_element else ''
-            
-            # Remove query parameters from image URL
             image_url = image_url.split('?')[0] if image_url else ''
             
             news_item = {
@@ -76,7 +79,8 @@ def extract_nih_news_items(html_content):
                 'Link': link,
                 'Description': description,
                 'Time': date.strftime("%Y-%m-%d"),
-                'ImageURL': image_url
+                'ImageURL': image_url,
+                'Source': 'NIH Clinical Research'
             }
             news_items.append(news_item)
             logging.info(f"Processed item: {title} - {date.strftime('%Y-%m-%d')}")
@@ -85,36 +89,22 @@ def extract_nih_news_items(html_content):
 
     logging.info(f"Total items processed: {len(news_items)}")
     return news_items
-
-def save_to_csv(data, filename):
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
+def save_to_firestore(data, db):
+    combined_news_ref = db.collection('combined_news')
+    batch = db.batch()
     
-    if os.path.exists(filename):
-        existing_df = pd.read_csv(filename)
-        new_df = pd.DataFrame(data)
-        combined_df = pd.concat([existing_df, new_df]).drop_duplicates(subset=['Link'], keep='first')
-    else:
-        combined_df = pd.DataFrame(data)
+    for item in data:
+        doc_id = hashlib.md5(item['Link'].encode()).hexdigest()
+        doc_ref = combined_news_ref.document(doc_id)
+        batch.set(doc_ref, item, merge=True)
     
-    # Convert 'Time' to datetime, coercing errors to NaT
-    combined_df['Time'] = pd.to_datetime(combined_df['Time'], errors='coerce')
-    
-    # Sort by 'Time', with NaT values at the end
-    combined_df = combined_df.sort_values('Time', ascending=False, na_position='last')
-    
-    # Define the columns to save, excluding 'ImageURL' if it doesn't exist
-    columns_to_save = ['Title', 'Link', 'Description', 'Time']
-    if 'ImageURL' in combined_df.columns:
-        columns_to_save.append('ImageURL')
-    
-    combined_df.to_csv(filename, index=False, columns=columns_to_save)
-    logging.info(f"Data saved to {filename}. Total items: {len(combined_df)}.")
-    print(f"Data saved to {filename}. Total items: {len(combined_df)}.")
+    batch.commit()
+    logging.info(f"Data saved to Firestore. Total items: {len(data)}.")
 
 def scrape_nih_clinical_research_news():
     setup_logging()
+    db = setup_firebase()
     url = "https://www.nih.gov/health-information/nih-clinical-research-trials-you/news"
-    output_file = "databases/nih_clinical_research.csv"
     
     logging.info(f"Starting scrape for {url}")
 
@@ -122,7 +112,7 @@ def scrape_nih_clinical_research_news():
     if html_content:
         news_items = extract_nih_news_items(html_content)
         if news_items:
-            save_to_csv(news_items, output_file)
+            save_to_firestore(news_items, db)
         else:
             logging.info("No new items found.")
     else:

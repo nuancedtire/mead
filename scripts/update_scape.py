@@ -5,7 +5,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
 import logging
 import json
-import pandas as pd
 import requests
 from datetime import datetime
 from dateutil import parser
@@ -19,16 +18,19 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+import hashlib
 
-# Define paths for the CSV and log files
-csv_folder = 'databases'
+# Set up logging
 log_folder = 'logs'
-csv_file_path = os.path.join(csv_folder, 'scape.csv')
 log_file_path = os.path.join(log_folder, 'scape.log')
-
-# Ensure directories exist
-os.makedirs(csv_folder, exist_ok=True)
 os.makedirs(log_folder, exist_ok=True)
+
+# Set up logging
+logging.basicConfig(filename=log_file_path, level=logging.INFO, 
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Load configuration
 small_model_name = config.llm_config["small_model"]
@@ -38,10 +40,12 @@ large_model_name = config.llm_config["large_model"]
 small_llm = ChatOpenAI(model=small_model_name, temperature=0)
 large_llm = ChatOpenAI(model=large_model_name, temperature=0)
 
+# Firebase setup
+cred = credentials.Certificate("firebase_credentials.json")
+firebase_admin.initialize_app(cred)
+db = firestore.client()
+
 def setup_logging():
-    logging.basicConfig(filename=log_file_path, level=logging.INFO,
-                        format='%(asctime)s - %(levelname)s - %(message)s')
-    # Also print to console
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     logging.getLogger('').addHandler(console)
@@ -101,22 +105,16 @@ def find_link(link):
             else:
                 logging.warning(f"No source link found after 3 attempts")
                 return link
-        logging.warning(f"No source link found for {url}")
-        return link
+    logging.warning(f"No source link found for {url}")
+    return link
 
-def process_medscape_data(data_dict, existing_links):
+def process_medscape_data(data_dict):
     filtered_data = []
     for item in data_dict.get("data", []):
         if item["field_content_type"] in ["Clinical Summary", "Guidelines in Practice"]:
             medscape_link = item["field_canonical_url"]
             
-            # Check if the Medscape link already exists in our CSV
-            if medscape_link in existing_links:
-                logging.info(f"Skipping existing link: {medscape_link}")
-                continue
-            
             logging.info(f"Processing new item: {medscape_link}")
-            # Only call find_link if it's a new Medscape link
             link = find_link(medscape_link)
             if link:
                 filtered_data.append({
@@ -126,25 +124,32 @@ def process_medscape_data(data_dict, existing_links):
                     "Source Link": link,
                     "Teaser": item["field_engagement_teaser"],
                     "Image URL": item["field_asset_thumbnail"],
-                    "Content Type": item["field_content_type"]
+                    "Content Type": item["field_content_type"],
+                    "Source": "Medscape"
                 })
     return filtered_data
+
+def save_to_firestore(data):
+    if not data:
+        logging.info("No new data to update.")
+        return
+
+    batch = db.batch()
+    combined_news_ref = db.collection('combined_news')
+
+    for item in data:
+        doc_id = hashlib.md5(item['Link'].encode()).hexdigest()
+        doc_ref = combined_news_ref.document(doc_id)
+        batch.set(doc_ref, item, merge=True)
+
+    batch.commit()
+    logging.info(f"Successfully updated Firestore with {len(data)} items.")
 
 def main():
     setup_logging()
     logging.info('Medscape script started.')
 
     try:
-        # Load existing data if the CSV file exists
-        if os.path.exists(csv_file_path):
-            existing_df = pd.read_csv(csv_file_path)
-            existing_links = set(existing_df['Link'].tolist())
-            logging.info('Existing CSV file loaded.')
-        else:
-            existing_df = pd.DataFrame()
-            existing_links = set()
-            logging.info('No existing CSV file found. Creating new data structure.')
-
         # Establish a connection
         conn = http.client.HTTPSConnection("www.medscape.co.uk")
         logging.info('Connection to Medscape established.')
@@ -181,16 +186,10 @@ def main():
         logging.info('Response data decoded into dictionary.')
         
         # Process the Medscape data
-        filtered_data = process_medscape_data(data_dict, existing_links)
+        filtered_data = process_medscape_data(data_dict)
 
-        # If new data is found, append it to the existing data
-        if filtered_data:
-            new_df = pd.DataFrame(filtered_data)
-            updated_df = pd.concat([existing_df, new_df], ignore_index=True)
-            updated_df.to_csv(csv_file_path, index=False)
-            logging.info(f"CSV file updated with {len(filtered_data)} new items. Total items: {len(updated_df)}.")
-        else:
-            logging.info("No new links found, CSV file is up to date.")
+        # Save data to Firestore
+        save_to_firestore(filtered_data)
 
     except Exception as e:
         logging.error(f"An error occurred: {e}")

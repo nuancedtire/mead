@@ -1,5 +1,6 @@
 import sys
 import os
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config
 import logging
@@ -24,10 +25,16 @@ from pydantic import BaseModel, Field, ValidationError
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from requests.exceptions import RequestException
 import json
+from config import llm_config, image_gen_config
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+import hashlib
 
 # =====================
 #  Logging Setup
 # =====================
+
 
 def setup_logger(log_file_path="logs/llm.log"):
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -51,6 +58,7 @@ def setup_logger(log_file_path="logs/llm.log"):
     logger.addHandler(f_handler)
     logger.addHandler(c_handler)
 
+
 # =====================
 #  Configuration Setup
 # =====================
@@ -61,7 +69,8 @@ large_model_name = config.llm_config["large_model"]
 system_message = config.llm_config["system_prompt"]
 hashtags = config.llm_config["hashtags"]
 pexels_api_key = "zeaB9f5KanEeG8emVGlw9YlBQLCl0MbuG8KFqmOAfgaKispTcwMrBXqX"
-os.environ['FAL_KEY'] = '74a025a1-190d-41e5-bd1a-c562f9b60293:3e6729b020fd14f6c6e409b7e08836a0'
+os.environ[
+    'FAL_KEY'] = '74a025a1-190d-41e5-bd1a-c562f9b60293:3e6729b020fd14f6c6e409b7e08836a0'
 
 # =====================
 #  OpenAI API Setup and Caching
@@ -75,43 +84,64 @@ large_llm = ChatOpenAI(model=large_model_name, temperature=0.2)
 set_llm_cache(SQLiteCache(database_path="langcache.db"))
 
 # =====================
-#  CSV File Handling
+#  Firebase Setup
 # =====================
 
-def read_csv(file_path):
-    if not os.path.exists(file_path):
-        logging.warning(f"{file_path} does not exist, skipping...")
-        return pd.DataFrame()
-    return pd.read_csv(file_path)
+# Initialize Firebase (place this at the beginning of your script)
+if not firebase_admin._apps:
+    cred = credentials.Certificate("firebase_credentials.json")
+    firebase_admin.initialize_app(cred)
 
-def extract_links(df, link_column="Link", time_column="Time", source_link_column="Source Link"):
+db = firestore.client()
+
+# =====================
+#  Firestore Operations
+# =====================
+
+
+def read_firestore_collection(collection_name):
+    docs = db.collection(collection_name).get()
+    data = [doc.to_dict() for doc in docs]
+    return pd.DataFrame(data)
+
+
+def extract_links(collection_name,
+                  link_column="Link",
+                  time_column="Time",
+                  source_link_column="Source Link"):
     try:
+        df = read_firestore_collection(collection_name)
         if df.empty:
-            logging.warning("The DataFrame is empty.")
+            logging.warning(f"The {collection_name} collection is empty.")
             return []
         if link_column not in df.columns or time_column not in df.columns:
-            logging.warning(f"Missing required columns: {link_column} or {time_column}")
+            logging.warning(
+                f"Missing required columns: {link_column} or {time_column}")
             return []
-        
-        # Check if source_link_column exists, if not, use link_column
+
         columns_to_extract = [link_column, time_column]
         if source_link_column in df.columns:
             columns_to_extract.append(source_link_column)
         else:
-            logging.warning(f"'{source_link_column}' not found. Using '{link_column}' as source link.")
-        
+            logging.warning(
+                f"'{source_link_column}' not found. Using '{link_column}' as source link."
+            )
+
         links = df.dropna(subset=[link_column])[columns_to_extract]
-        
-        # If source_link_column doesn't exist, create it with the same value as link_column
+
         if source_link_column not in links.columns:
             links[source_link_column] = links[link_column]
-        
+
         link_records = links.to_dict("records")
-        logging.info(f"Extracted {len(link_records)} link records.")
+        logging.info(
+            f"Extracted {len(link_records)} link records from {collection_name}."
+        )
         return link_records
     except Exception as e:
-        logging.error(f"Error extracting links: {str(e)}")
+        logging.error(
+            f"Error extracting links from {collection_name}: {str(e)}")
         return []
+
 
 def extract_image_links(df, image_column="Image"):
     try:
@@ -119,7 +149,8 @@ def extract_image_links(df, image_column="Image"):
             logging.warning("The DataFrame is empty.")
             return []
         if image_column not in df.columns:
-            logging.warning(f"'{image_column}' column not found in the DataFrame.")
+            logging.warning(
+                f"'{image_column}' column not found in the DataFrame.")
             return []
         image_links = df[image_column].dropna().tolist()
         logging.info(f"Extracted {len(image_links)} image links.")
@@ -128,9 +159,11 @@ def extract_image_links(df, image_column="Image"):
         logging.error(f"Error extracting image links: {str(e)}")
         return []
 
+
 # =====================
 #  Link Processing
 # =====================
+
 
 def remove_markdown_formatting(text):
     text = re.sub(r"\*\*(.*?)\*\*", lambda m: m.group(1).upper(), text)
@@ -138,17 +171,18 @@ def remove_markdown_formatting(text):
     text = re.sub(r"\*(.*?)\*", r"\1", text)
     text = re.sub(r"_(.*?)_", r"\1", text)
     text = re.sub(r"^\s*#+\s+", "", text, flags=re.MULTILINE)
+    text = re.sub(r"#\w+", "", text)
     return text
 
-@retry(
-    stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=1, min=4, max=10),
-    retry=retry_if_exception_type(RequestException)
-)
+
+@retry(stop=stop_after_attempt(3),
+       wait=wait_exponential(multiplier=1, min=4, max=10),
+       retry=retry_if_exception_type(RequestException))
 def fetch_url_content(url):
     response = requests.get(url)
     response.raise_for_status()
     return response.text
+
 
 # =====================
 #  Pydantic Model for Response
@@ -157,11 +191,28 @@ def fetch_url_content(url):
 # Create an Enum for Hashtags
 # HashtagEnum = Enum("HashtagEnum", {tag: tag for tag in hashtags})
 
+
 class PostResponse(BaseModel):
     """Ready to use Social Media Post"""
-    post_content: str = Field(..., description="The final generated post content in plain text without any hashtags.")
-    hashtags: List[str] = Field(..., description="A list of trending hashtags for the post. For example, Cardiology, HealthcarePolicy")
-    category: Literal["Life Sciences & BioTech", "Research & Clinical Trials", "HealthTech & Startups", "Healthcare & Policy"] = Field(..., description="The category that fits the post best.")
+    post_content: str = Field(
+        ...,
+        description=
+        "The final generated post content in plain text without any hashtags.")
+    hashtags: List[str] = Field(
+        ...,
+        description=
+        "A list of trending hashtags for the post. For example, Cardiology, HealthcarePolicy, DrugDevelopment, AIInHealthcare"
+    )
+    category: Literal["Life Sciences & BioTech", "Research & Clinical Trials",
+                      "HealthTech & Startups", "Healthcare & Policy"] = Field(
+                          ...,
+                          description="""The category that fits the post best.
+Life Sciences & Biotech: Posts covering advancements and trends in biotechnology, pharmaceuticals, and biologics. This includes breakthroughs in drug development, diagnostics, genetic therapies, molecular biology, and business news related to biotech companies.
+Research & Clinical Trials: Posts focused on academic research, preclinical studies, and clinical trials across various therapeutic areas. This category includes publications in peer-reviewed journals, trial results, and innovative methodologies for medical research.
+HealthTech & Startups: Posts highlighting innovation in digital health, medical devices, AI in healthcare, and startups disrupting the healthcare landscape. This encompasses news about health technology tools, funding rounds, and collaborations between tech companies and healthcare providers.
+Healthcare & Policy: Posts related to healthcare policy changes, regulations, healthcare systems, and public health initiatives. This category also includes national news concerning the NHS and government actions impacting the health industry."""
+                      )
+
 
 # =====================
 #  OpenAI API and Post Generation
@@ -170,6 +221,7 @@ class PostResponse(BaseModel):
 # Add this at the top of the file, after imports
 FAILED_LINKS_FILE = "failed_links.json"
 
+
 def load_failed_links():
     try:
         with open(FAILED_LINKS_FILE, 'r') as f:
@@ -177,9 +229,11 @@ def load_failed_links():
     except FileNotFoundError:
         return {}
 
+
 def save_failed_links(failed_links):
     with open(FAILED_LINKS_FILE, 'w') as f:
         json.dump(failed_links, f)
+
 
 def generate_post(inputs):
     try:
@@ -195,27 +249,27 @@ def generate_post(inputs):
         # Check if the link has failed recently
         if link in failed_links:
             last_failed_time = datetime.fromisoformat(failed_links[link])
-            if current_time - last_failed_time < timedelta(hours=1):  # Adjust the time as needed
+            if current_time - last_failed_time < timedelta(
+                    hours=1):  # Adjust the time as needed
                 logging.info(f"Skipping recently failed link: {link}")
                 return None
 
         # Step 1: Check if the content is an article
-        check_article_prompt = ChatPromptTemplate.from_messages(
-            [
-                (
-                    "system",
-                    "Determine if the provided webpage contains a full article. "
-                    "If it does not contain an article, reply with only 'None'. "
-                    "If the webpage contains an article, convert the entire content into plain text, "
-                    "preserving the original text without summarization, additions, or omissions.",
-                ),
-                ("user", "{webpage_content}"),
-            ]
-        )
+        check_article_prompt = ChatPromptTemplate.from_messages([
+            (
+                "system",
+                "Determine if the provided webpage contains a full article. "
+                "If it does not contain an article, reply with only 'None'. "
+                "If the webpage contains an article, convert the entire content into plain text, "
+                "preserving the original text without summarization, additions, or omissions.",
+            ),
+            ("user", "{webpage_content}"),
+        ])
         check_article_chain = check_article_prompt | small_llm
 
         # Invoke the chain
-        content_check_response = check_article_chain.invoke({"webpage_content": webpage_content})
+        content_check_response = check_article_chain.invoke(
+            {"webpage_content": webpage_content})
         content_check = content_check_response.content.strip()
 
         if content_check.lower() == "none":
@@ -233,13 +287,16 @@ def generate_post(inputs):
 
         # Step 2: Generate the post using structured output
         structured_large_llm = large_llm.with_structured_output(PostResponse)
-        post_generation_prompt = ChatPromptTemplate.from_messages(
-            [("system", system_message), ("user", "Source: {link} \n{content}")]
-        )
+        post_generation_prompt = ChatPromptTemplate.from_messages([
+            ("system", system_message), ("user", "Source: {link} \n{content}")
+        ])
         post_generation_chain = post_generation_prompt | structured_large_llm
 
         try:
-            post_response = post_generation_chain.invoke({"link": link, "content": content})
+            post_response = post_generation_chain.invoke({
+                "link": link,
+                "content": content
+            })
             parsed_response = post_response  # Already a PostResponse object
         except ValidationError as e:
             logging.error(f"Validation error for link {link}: {e}")
@@ -254,7 +311,8 @@ def generate_post(inputs):
         logging.info(f"Image link: {image_link}")
 
         # Combine category and hashtags
-        combined_hashtags = [parsed_response.category] + parsed_response.hashtags
+        combined_hashtags = [parsed_response.category
+                             ] + parsed_response.hashtags
         # Append the processed information to processed_links
         processed_links.append({"Image": image_link})
 
@@ -263,7 +321,8 @@ def generate_post(inputs):
         # Return the log entry
         llm_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         return {
-            "status": "success",
+            "status":
+            "success",
             "generated_post": [
                 original_timestamp,
                 llm_timestamp,
@@ -276,20 +335,23 @@ def generate_post(inputs):
                 content,
                 large_model_name,
             ],
-            "link": link,
-            "source_link": source_link,  # Add source_link to the return dictionary
-            "og_time": original_timestamp,
+            "link":
+            link,
+            "source_link":
+            source_link,  # Add source_link to the return dictionary
+            "og_time":
+            original_timestamp,
         }
     except Exception as e:
         logging.error(f"Error generating post for link {link}: {e}")
         return None
 
+
 def get_image_query(post_content, model):
-    image_query_prompt = ChatPromptTemplate.from_messages(
-        [
-            (
-                "system",
-                """**Task:**
+    image_query_prompt = ChatPromptTemplate.from_messages([
+        (
+            "system",
+            """**Task:**
 
 Analyze the following social media post related to medicine or healthcare and generate a vivid, detailed image prompt that captures the essence of the post. The image prompt should guide AI image generation models to create compelling, **photorealistic**, and visually striking images that effectively communicate the core message of the post.
 
@@ -344,36 +406,38 @@ These findings underscore the importance of individualized assessment when presc
 How do you approach aspirin therapy in your practice to balance benefits and risks?
 **Example Prompt:**
 A photorealistic image set in a contemporary medical consultation room. A middle-aged doctor in a crisp white coat sits across from an elderly male patient, around 70 years old, who is seated in a comfortable chair. The doctor leans forward slightly, hands resting calmly on his knees or clasped together, as he listens attentively to the patient. The patient’s expression is attentive yet slightly concerned, indicating they are discussing important health matters. A stethoscope hangs around the doctor’s neck, and a blood pressure monitor is placed on a nearby table, symbolizing recent medical examination. The room is well-lit with natural light filtering through the window, casting soft shadows that create a warm yet serious atmosphere. On the wall behind them, a framed poster illustrates the human brain, subtly emphasizing the topic of brain health and the risks associated with aspirin therapy and intracerebral hemorrhage. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor and patient, highlighting the importance of personalized medical assessments in aspirin therapy for older adults. The overall mood conveys a sense of care and urgency, reflecting the critical nature of balancing benefits and risks in medication management.""",
-            ),
-            ("user", """Please generate the image prompt accordingly. Reply with only the prompt, no intro, no explanation, no nothing.
+        ),
+        ("user",
+         """Please generate the image prompt accordingly. Reply with only the prompt, no intro, no explanation, no nothing.
 
 Social Media Post
 ---
 {input}"""),
-        ]
-    )
+    ])
     image_query_chain = image_query_prompt | model
     image_query_response = image_query_chain.invoke({"input": post_content})
     return image_query_response.content.strip()
 
+
 # Add Fal AI integration
 import fal_client
 
-@retry(
-    stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=1, min=4, max=10),
-    retry=retry_if_exception_type(RequestException)
-)
+
+@retry(stop=stop_after_attempt(3),
+       wait=wait_exponential(multiplier=1, min=4, max=10),
+       retry=retry_if_exception_type(RequestException))
 def get_fal_ai_image(image_query):
     try:
         handler = fal_client.submit(
-            "fal-ai/flux/schnell",
+            image_gen_config["model"],
             arguments={
                 "prompt": image_query,
-                "image_size": "landscape_4_3",
-                "num_inference_steps": 8,
+                "image_size": image_gen_config["image_size"],
+                "num_inference_steps": image_gen_config["num_inference_steps"],
                 "num_images": 1,
-                "enable_safety_checker": True
+                "enable_safety_checker":
+                image_gen_config["enable_safety_checker"],
+                "scheduler": image_gen_config["scheduler"],
             },
         )
         result = handler.get()
@@ -384,54 +448,67 @@ def get_fal_ai_image(image_query):
         logging.error(f"Error generating image with Fal AI: {str(e)}")
         return ""
 
+
 # Replace the get_unique_image function with this simplified version
 def get_image(image_query):
     image_link = get_fal_ai_image(image_query)
     if not image_link:
-        logging.warning(f"No image generated for query '{image_query}'. Quittin'.")
+        logging.warning(
+            f"No image generated for query '{image_query}'. Quittin'.")
         return None
     return image_link
+
 
 def normalize_url(url):
     if not url:
         return None
     return url.strip().rstrip("/").lower()
 
+
 # =====================
-#  Logging to CSV
+#  Logging to Firestore
 # =====================
 
-def log_to_csv_pandas(log_entry, document_id, file_name="databases/llm.csv"):
+
+def log_to_firestore(log_entry, peerr_document_id, collection_name="llm"):
     try:
         generated_post = log_entry.get("generated_post")
         if not generated_post:
-            logging.error("Cannot log to CSV: 'generated_post' is missing or empty.")
+            logging.error(
+                "Cannot log to Firestore: 'generated_post' is missing or empty."
+            )
             return
         logging.info(f"'generated_post' length: {len(generated_post)}")
-        columns = [
-            "Time",
-            "LLM Timestamp",
-            "Post",
-            "Hashtags",
-            "Image",
-            "Link",
-            "Prompt",
-            "Input",
-            "Model",
-            "DocumentID",
-        ]
-        # Remove the source_link from generated_post
-        log_entry_with_id = generated_post[:6] + generated_post[7:] + [document_id]
-        df_new = pd.DataFrame([log_entry_with_id], columns=columns)
-        if not os.path.exists(file_name):
-            df_new.to_csv(file_name, index=False)
-        else:
-            df_new.to_csv(file_name, mode="a", index=False, header=False)
-        logging.info(f"Logged data to {file_name} with DocumentID: {document_id}.")
-    except Exception as e:
-        logging.error(f"Error logging data to CSV: {e}")
 
-def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
+        # Create a hash of the URL to use as the document ID
+        link = generated_post[5]
+        firestore_doc_id = hashlib.md5(link.encode()).hexdigest()
+
+        data = {
+            "Time": generated_post[0],
+            "LLM_Timestamp": generated_post[1],
+            "Post": generated_post[2],
+            "Hashtags": generated_post[3],
+            "Image": generated_post[4],
+            "Link": link,
+            "Prompt": generated_post[7],
+            "Input": generated_post[8],
+            "Model": generated_post[9],
+            "PeerrDocumentID": peerr_document_id,
+            "FirestoreID": firestore_doc_id,
+        }
+
+        # Use the hash as the document ID for Firestore
+        db.collection(collection_name).document(firestore_doc_id).set(
+            data, merge=True)
+        logging.info(
+            f"Logged data to {collection_name} collection with FirestoreID: {firestore_doc_id}."
+        )
+    except Exception as e:
+        logging.error(f"Error logging data to Firestore: {e}")
+
+
+def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
     try:
         batch_data = []
         for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
@@ -471,12 +548,18 @@ def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoug
         logging.error(f"Error sending batch data to API: {e}")
         return None
 
-# def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
+
+# def send_to_peerr(
+#     batch_log_entries,
+#     url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"
+# ):
 #     try:
 #         batch_data = []
 #         for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
 #             if not log_entry.get("generated_post"):
-#                 logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+#                 logging.error(
+#                     "No 'generated_post' found in log entry or 'generated_post' is None."
+#                 )
 #                 continue
 #             link = log_entry["generated_post"][5]
 #             source_link = log_entry["generated_post"][6]  # Get the source_link
@@ -492,53 +575,50 @@ def send_to_firebase(batch_log_entries, url="https://peerr-website-git-api-thoug
 #         if not batch_data:
 #             logging.error("No valid log entries to send to API.")
 #             return None
-        
+
 #         # Generate placeholder IDs
-#         document_ids = [f"placeholder_id_{i}" for i in range(len(batch_data))]
+#         document_ids = [
+#             f"placeholder_idea_{i}" for i in range(len(batch_data))
+#         ]
 #         logging.info(f"Generated placeholder IDs: {document_ids}")
-        
+
 #         return document_ids
 #     except Exception as e:
-#         logging.error(f"Error in send_to_firebase: {e}")
+#         logging.error(f"Error in send_to_peerr: {e}")
 #         return None
+
 
 # =====================
 #  Main Logic
 # =====================
 
-def get_unique_links(csv_files, llm_links):
+
+def get_unique_links(collections, llm_links):
     combined_links = []
-    for file in csv_files:
-        df = read_csv(file)
-        links = extract_links(df)
+    for collection in collections:
+        links = extract_links(collection)
         combined_links += links
-    return [
-        link
-        for link in combined_links
+
+    unique_links = [
+        link for link in combined_links
         if normalize_url(link["Link"]) not in llm_links
     ]
 
+    return unique_links
+
+
 def main():
     setup_logger()
-    csv_files = [
-        "databases/meds.csv",
-        "databases/sifted.csv",
-        "databases/scape.csv",
-        "databases/nice.csv",
-        "databases/nih_clinical_research.csv",
-        "databases/digital_health_news.csv" ,
-        "databases/uktech_news.csv" # Added this line
-    ]
-    llm_file_path = "databases/llm.csv"
-    
+    collections = ["combined_news"]
+    llm_collection = "llm"
+
     # Load existing LLM links
-    if os.path.exists(llm_file_path):
-        llm_links = [normalize_url(entry["Link"]) for entry in extract_links(read_csv(llm_file_path))]
-    else:
-        llm_links = []
-    
+    llm_links = [
+        normalize_url(entry["Link"]) for entry in extract_links(llm_collection)
+    ]
+
     # Get unique links to process
-    combined_links = get_unique_links(csv_files, llm_links)
+    combined_links = get_unique_links(collections, llm_links)
     logging.info(f"Unique links to process: {len(combined_links)}")
     if not combined_links:
         logging.info("No unique links to process.")
@@ -552,11 +632,11 @@ def main():
     batch_log_entries = []
     processed_count = 0
     for link_info in combined_links:
-        if processed_count >= 5:  # Process only 5 articles
+        if processed_count >= 3:  # Process only 5 articles
             break
 
         link = link_info.get("Link")
-        source_link = link_info.get("Source Link", "")  # Get the Source Link, default to empty string if not present
+        source_link = link_info.get("Source Link", "")
         if link is None:
             logging.warning(f"Invalid link found in link_info: {link_info}")
             continue
@@ -564,7 +644,7 @@ def main():
         # Check if the link has failed recently
         if link in failed_links:
             last_failed_time = datetime.fromisoformat(failed_links[link])
-            if current_time - last_failed_time < timedelta(hours=4):  # Adjust the time as needed
+            if current_time - last_failed_time < timedelta(hours=4):
                 logging.info(f"Skipping recently failed link: {link}")
                 continue
 
@@ -577,7 +657,7 @@ def main():
         inputs = {
             "webpage_content": webpage_content,
             "link": link,
-            "source_link": source_link,  # Add source_link to the inputs
+            "source_link": source_link,
             "original_timestamp": link_info.get("Time"),
             "processed_links": [],
         }
@@ -586,19 +666,27 @@ def main():
             batch_log_entries.append(log_entry)
             processed_count += 1
         else:
-            logging.warning(f"Skipping entry due to missing or invalid log entry for link: {link}")
+            logging.warning(
+                f"Skipping entry due to missing or invalid log entry for link: {link}"
+            )
 
     if batch_log_entries:
-        logging.info(f"Sending {len(batch_log_entries)} log entries to Firebase.")
-        document_ids = send_to_firebase(batch_log_entries)
-        if document_ids:
-            logging.info(f"Received {len(document_ids)} document IDs from Firebase.")
-            for log_entry, document_id in zip(batch_log_entries, document_ids):
-                log_to_csv_pandas(log_entry, document_id)
+        logging.info(
+            f"Sending {len(batch_log_entries)} log entries to Firebase.")
+        peerr_document_ids = send_to_peerr(batch_log_entries)
+        if peerr_document_ids:
+            logging.info(
+                f"Received {len(peerr_document_ids)} document IDs from Peerr.")
+            for log_entry, peerr_document_id in zip(batch_log_entries,
+                                                    peerr_document_ids):
+                log_to_firestore(log_entry, peerr_document_id)
         else:
-            logging.warning("No document IDs returned from Firebase. Skipping CSV logging.")
+            logging.warning(
+                "No document IDs returned from Peerr. Skipping Firestore logging."
+            )
     else:
         logging.info("No valid log entries generated.")
+
 
 if __name__ == "__main__":
     main()

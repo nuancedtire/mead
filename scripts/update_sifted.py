@@ -1,18 +1,18 @@
 import requests
 import re
-import pandas as pd
 import os
 import logging
 from datetime import datetime
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+import hashlib
 
-# Define paths for the CSV and log files
-csv_folder = 'databases'
+# Define paths for the log file
 log_folder = 'logs'
-csv_file_path = os.path.join(csv_folder, 'sifted.csv')
 log_file_path = os.path.join(log_folder, 'sifted.log')
 
-# Ensure directories exist
-os.makedirs(csv_folder, exist_ok=True)
+# Ensure directory exists
 os.makedirs(log_folder, exist_ok=True)
 
 # Set up logging
@@ -20,6 +20,11 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 logging.info('Sifted script started.')
+
+# Firebase setup
+cred = credentials.Certificate("firebase_credentials.json")
+firebase_admin.initialize_app(cred)
+db = firestore.client()
 
 url = 'https://r.jina.ai/sifted.eu/sector/healthtech/'
 
@@ -38,7 +43,7 @@ except requests.exceptions.Timeout as errt:
 except requests.exceptions.RequestException as err:
     logging.error(f"Unexpected Error: {err}")
     webpage_content = ""
-
+    
 # Phrase to search for
 search_phrase = "Open navigation menu"
 
@@ -82,40 +87,34 @@ min_length = min(len(links_titles), len(dates))
 links_titles = links_titles[:min_length]
 dates = dates[:min_length]
 
-# Prepare data for DataFrame
-titles = [title for title, link in links_titles]
-links = [link for title, link in links_titles]
+# Prepare data for Firestore
+new_data = []
+for (title, link), date in zip(links_titles, dates):
+    new_data.append({
+        "Title": title,
+        "Time": date,
+        "Link": link,
+        "Source": "Sifted"
+    })
 
-# Create a DataFrame with the new data
-new_data = pd.DataFrame({
-    "Title": titles,
-    "Time": dates,
-    "Link": links
-})
+new_data = new_data[:5]  # Limit to 5 items
 
-new_data = new_data[:5]
+# Save to Firestore
+def save_to_firestore(data):
+    batch = db.batch()
+    combined_news_ref = db.collection('combined_news')
 
-# Check if the CSV file already exists
+    for item in data:
+        doc_id = hashlib.md5(item['Link'].encode()).hexdigest()
+        doc_ref = combined_news_ref.document(doc_id)
+        batch.set(doc_ref, item, merge=True)
+
+    batch.commit()
+    logging.info(f"Data saved to Firestore. Total items: {len(data)}.")
+
 try:
-    if os.path.exists(csv_file_path):
-        # Load the existing data
-        existing_data = pd.read_csv(csv_file_path)
-        logging.info('Existing CSV file loaded.')
-
-        # Concatenate the old and new data, ensuring no duplicates
-        combined_data = pd.concat([new_data, existing_data]).drop_duplicates(subset=["Title", "Time", "Link"])
-
-        # Sort by time to ensure the latest entries are at the top
-        combined_data.sort_values(by="Time", ascending=False, inplace=True)
-    else:
-        # If the CSV does not exist, use the new data as the combined data
-        combined_data = new_data
-        logging.info('No existing CSV file found. Creating new CSV.')
-
-    # Save the updated data back to the CSV file
-    combined_data.to_csv(csv_file_path, index=False)
-    logging.info(f"Data saved to {csv_file_path}")
+    save_to_firestore(new_data)
 except Exception as e:
-    logging.error(f"Error processing or saving the CSV file: {e}")
+    logging.error(f"Error saving data to Firestore: {e}")
 
 logging.info('Sifted script completed.')

@@ -1,17 +1,24 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 import logging
 from datetime import datetime
 import os
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+import hashlib
 
 def setup_logging():
     logging.basicConfig(filename='logs/nice.log', level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s')
-    # Also print to console
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     logging.getLogger('').addHandler(console)
+
+def setup_firebase():
+    cred = credentials.Certificate("firebase_credentials.json")
+    firebase_admin.initialize_app(cred)
+    return firestore.client()
 
 def fetch_webpage(url):
     try:
@@ -30,12 +37,9 @@ def fetch_webpage(url):
         return None
 
 def parse_date(date_string):
-    logging.debug(f"Parsing date: {date_string}")
     try:
-        # Parse the date and set a default time of 00:00:00
         parsed_date = datetime.strptime(date_string, "%d %B %Y").replace(hour=0, minute=0, second=0)
         formatted_date = parsed_date.strftime("%Y-%m-%d %H:%M:%S")
-        logging.debug(f"Parsed date: {formatted_date}")
         return formatted_date
     except ValueError:
         logging.error(f"Error parsing date: {date_string}")
@@ -56,41 +60,30 @@ def extract_nice_news_links(html_content):
             news_items.append({
                 'Title': title,
                 'Link': link,
-                'Time': parsed_date
+                'Time': parsed_date,
+                'Source': 'NICE'
             })
         except AttributeError as e:
             logging.error(f"Error parsing article: {e}")
 
     return news_items
 
-def load_existing_data(filename):
-    if os.path.exists(filename):
-        return pd.read_csv(filename)
-    return pd.DataFrame(columns=['Title', 'Link', 'Time'])
-
-def save_to_csv(data, filename):
-    # Create directory if it doesn't exist
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
+def save_to_firestore(data, db):
+    combined_news_ref = db.collection('combined_news')
+    batch = db.batch()
     
-    # Load existing data if file exists, otherwise create new DataFrame
-    if os.path.exists(filename):
-        existing_df = pd.read_csv(filename)
-        new_df = pd.DataFrame(data)
-        combined_df = pd.concat([existing_df, new_df]).drop_duplicates(subset=['Link'], keep='first')
-    else:
-        combined_df = pd.DataFrame(data)
+    for item in data:
+        doc_id = hashlib.md5(item['Link'].encode()).hexdigest()
+        doc_ref = combined_news_ref.document(doc_id)
+        batch.set(doc_ref, item, merge=True)
     
-    # Sort by date, most recent first
-    combined_df = combined_df.sort_values('Time', ascending=False)
-    
-    # Save to CSV
-    combined_df.to_csv(filename, index=False)
-    logging.info(f"Data saved to {filename}. Total items: {len(combined_df)}.")
+    batch.commit()
+    logging.info(f"Data saved to Firestore. Total items: {len(data)}.")
     
 def scrape_nice_news():
     setup_logging()
+    db = setup_firebase()
     url = "https://www.nice.org.uk/news/articles"
-    output_file = "databases/nice.csv"
     
     logging.info(f"Starting scrape for {url}")
 
@@ -98,7 +91,7 @@ def scrape_nice_news():
     if html_content:
         new_items = extract_nice_news_links(html_content)
         if new_items:
-            save_to_csv(new_items, output_file)
+            save_to_firestore(new_items, db)
         else:
             logging.info("No new items found.")
     else:

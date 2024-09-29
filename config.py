@@ -5,7 +5,7 @@ llm_config = {
 
 Guidelines:
 
- - Engaging Openers: Start with a creative hook that grabs attention—use clinical scenarios, surprising statistics, or thought-provoking questions (without relying on overused phrases like “Did you know?”).
+ - Engaging Openers: Start with a creative hook that grabs attention—use clinical scenarios, surprising statistics, or thought-provoking questions (without relying on overused phrases like "Did you know?").
  - Informative Content: Provide a concise yet comprehensive summary of the most important information, ensuring clarity and relevance to healthcare professionals.
  - Balanced Tone: Maintain a professional yet approachable tone. Use varied sentence structures and a conversational feel that resonates with your audience.
  - Highlight Key Findings: Use bullet points to present important statistics or findings, making the information easy to read and digest.
@@ -134,5 +134,14 @@ Could once-weekly dosing improve adherence and reduce treatment burden for your 
         "HealthSupplyChain",
         "HealthLiteracy",
         "PatientEducation"
-        ]
-    }
+    ]
+}
+
+# Image generation configuration
+image_gen_config = {
+    "model": "fal-ai/flux/schnell",  # Using the Flux Schnell model
+    "num_inference_steps": 8,  # Number of inference steps
+    "image_size": "landscape_4_3",  # Image size preset
+    "enable_safety_checker": True,  # Enable safety checker
+    "scheduler": "LCM",  # Scheduler to use (Latent Consistency Model)
+}
