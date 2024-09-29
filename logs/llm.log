@@ -785,3 +785,76 @@ In the background, a large window lets in bright, natural light, illuminating va
 2024-09-29 11:44:25,784 - INFO - Logged data to llm collection with FirestoreID: 6774279265bb7dddb590bcb48312cf98.
 2024-09-29 11:44:25,826 - INFO - Logged data to llm collection with FirestoreID: 6881c6ec151a44b37bd34d0a6cb2d795.
 2024-09-29 11:44:25,876 - INFO - Logged data to llm collection with FirestoreID: 7292bfd3f40884090fa5e0f29b101eac.
+2024-09-29 12:03:34,530 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 12:03:34,533 - INFO - Extracted 23 link records from llm.
+2024-09-29 12:03:34,590 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 12:03:34,590 - INFO - Unique links to process: 23
+2024-09-29 12:03:34,590 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 12:03:44,379 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:03:47,185 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:03:51,069 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:03:51,115 - INFO - Image query: A photorealistic image set in a modern NHS conference room, featuring a diverse group of healthcare professionals engaged in a collaborative discussion. At the center, a middle-aged woman, Beverley Bryant, is standing at a digital presentation screen displaying a flowchart of electronic patient record (EPR) strategies. She is dressed in business attire, exuding confidence and authority as she points to key areas of the chart. Surrounding her are a mix of men and women of various ethnicities, including a young South Asian man taking notes on a tablet, an older Caucasian woman with glasses analyzing printed documents, and a Black woman in a lab coat contributing ideas. The room is well-lit with large windows allowing natural light to flood in, creating a bright and optimistic atmosphere. On the walls, there are posters showcasing NHS digital initiatives and patient care improvements. The composition captures a dynamic angle, focusing on the engaged expressions of the participants, highlighting the urgency and importance of the EPR review process. The overall mood conveys a sense of innovation and collaboration, reflecting the critical nature of advancing digital healthcare systems to enhance patient care.
+2024-09-29 12:03:51,478 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-29 12:03:51,586 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:51,794 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:52,000 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:52,207 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:52,415 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:52,622 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:52,830 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:53,038 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:53,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:53,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:53,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:53,868 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:03:54,076 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 12:03:54,284 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3a51708a-cf15-4719-83fa-e48966be9f19 "HTTP/1.1 200 OK"
+2024-09-29 12:03:54,284 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/FPYZyNgxalsDERbyJ3m-I.png
+2024-09-29 12:03:54,285 - INFO - Image link: https://fal.media/files/koala/FPYZyNgxalsDERbyJ3m-I.png
+2024-09-29 12:04:15,331 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:04:18,691 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:04:21,259 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:04:21,301 - INFO - Image query: A photorealistic image set in a modern laboratory environment, showcasing a diverse group of healthcare professionals engaged in a discussion around a large digital screen displaying serum phosphate level data. The group includes a middle-aged female doctor with glasses, a young male researcher, and an elderly male physician, all in lab coats, looking intently at the screen. The digital display highlights contrasting graphs and charts that illustrate the differences in serum phosphate levels between men and women, with clear labels indicating hypophosphatemia and hyperphosphatemia. The atmosphere is bright and focused, with overhead fluorescent lights illuminating the workspace. In the background, shelves filled with medical textbooks and laboratory equipment add depth to the scene. The composition captures a dynamic angle, emphasizing the collaborative nature of the discussion, with expressions of curiosity and determination on the professionals' faces. The overall mood conveys a sense of urgency and importance, reflecting the critical need for sex-specific reference intervals in clinical practice to enhance patient outcomes.
+2024-09-29 12:04:21,612 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-29 12:04:21,719 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:21,927 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:22,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:22,337 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:22,544 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:22,752 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:22,958 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:23,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:23,370 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:23,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:23,782 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:23,987 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:24,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:24,401 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 12:04:24,505 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0989fb4c-ee18-43a0-a0e7-864fa8c4f58e "HTTP/1.1 200 OK"
+2024-09-29 12:04:24,506 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/i3JNPSkY1EbYYtHRUVm-H.png
+2024-09-29 12:04:24,506 - INFO - Image link: https://fal.media/files/monkey/i3JNPSkY1EbYYtHRUVm-H.png
+2024-09-29 12:04:29,042 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:04:31,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 12:04:31,947 - INFO - Image query: A photorealistic image set in a modern healthcare training room. In the foreground, a diverse group of three individuals—two women and one man—are gathered around a table, intently focused on an emergency kit for adrenal insufficiency. The kit is open, displaying intramuscular hydrocortisone injections, syringes, and needles, symbolizing preparedness for adrenal crises. One woman, a healthcare professional in scrubs, is demonstrating how to use the syringe, while the other two, a middle-aged woman and a young man, observe closely, their expressions a mix of concentration and determination. The room is brightly lit with natural light streaming through large windows, creating a welcoming atmosphere. On the walls, educational posters highlight symptoms of adrenal insufficiency, such as hyperpigmentation and weight loss, reinforcing the importance of awareness. The composition captures a medium shot that emphasizes the interaction and engagement among the participants, showcasing the critical nature of training and preparedness in managing adrenal health. The overall mood conveys a sense of empowerment and urgency, reflecting the importance of these new guidelines in preventing life-threatening situations.
+2024-09-29 12:04:32,269 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-29 12:04:32,375 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:32,584 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:32,791 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:32,996 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:33,205 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:33,414 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:33,621 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:33,830 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:34,037 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:34,242 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:34,449 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:34,656 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 12:04:34,864 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 12:04:34,968 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6ac38ea-ce7b-4b5d-8efb-625f84e5bd4e "HTTP/1.1 200 OK"
+2024-09-29 12:04:34,969 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/eRPPIcXqQUvuzGIwlZVzW.png
+2024-09-29 12:04:34,969 - INFO - Image link: https://fal.media/files/zebra/eRPPIcXqQUvuzGIwlZVzW.png
+2024-09-29 12:04:34,969 - INFO - Sending 3 log entries to Firebase.
+2024-09-29 12:04:37,988 - INFO - Received 3 document IDs from Peerr.
+2024-09-29 12:04:38,061 - INFO - Logged data to llm collection with FirestoreID: 842dd180bc5f268a560d9b7a433e73c2.
+2024-09-29 12:04:38,103 - INFO - Logged data to llm collection with FirestoreID: 859f823e0c4ef87f1c590e1ce7d67ef0.
+2024-09-29 12:04:38,144 - INFO - Logged data to llm collection with FirestoreID: 87e4704bc558e732d505067581b14608.

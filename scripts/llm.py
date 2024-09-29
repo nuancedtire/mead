@@ -435,9 +435,9 @@ def get_fal_ai_image(image_query):
                 "image_size": image_gen_config["image_size"],
                 "num_inference_steps": image_gen_config["num_inference_steps"],
                 "num_images": 1,
+                "guidance_scale": image_gen_config["guidance_scale"],
                 "enable_safety_checker":
                 image_gen_config["enable_safety_checker"],
-                "scheduler": image_gen_config["scheduler"],
             },
         )
         result = handler.get()

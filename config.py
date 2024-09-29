@@ -139,9 +139,9 @@ Could once-weekly dosing improve adherence and reduce treatment burden for your 
 
 # Image generation configuration
 image_gen_config = {
-    "model": "fal-ai/flux/schnell",  # 'Schnell' focuses on speed; good for faster iterations
-    "num_inference_steps": 12,  # Increase inference steps for better quality (8 is fast, but 12 gives a good balance)
+    "model": "fal-ai/flux/dev",  # 'Schnell' focuses on speed; good for faster iterations
+    "num_inference_steps": 40,  # Increase inference steps for better quality (8 is fast, but 12 gives a good balance)
     "image_size": "landscape_16_9",  # More standard widescreen aspect ratio for modern visuals
     "enable_safety_checker": True,  # Keep safety checks enabled, especially for public-facing or large datasets
-    "scheduler": "PNDM",  # Use Pseudo-Newtonian Diffusion Model for better stability and detail
+    "guidance_scale": 6,  # Increase guidance scale for more creative control
 }
