@@ -858,3 +858,100 @@ In the background, a large window lets in bright, natural light, illuminating va
 2024-09-29 12:04:38,061 - INFO - Logged data to llm collection with FirestoreID: 842dd180bc5f268a560d9b7a433e73c2.
 2024-09-29 12:04:38,103 - INFO - Logged data to llm collection with FirestoreID: 859f823e0c4ef87f1c590e1ce7d67ef0.
 2024-09-29 12:04:38,144 - INFO - Logged data to llm collection with FirestoreID: 87e4704bc558e732d505067581b14608.
+2024-09-29 13:20:30,550 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 13:20:30,553 - INFO - Extracted 26 link records from llm.
+2024-09-29 13:20:30,703 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 13:20:30,703 - INFO - Unique links to process: 20
+2024-09-29 13:20:35,745 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-09-29 13:20:35,746 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 13:20:49,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:20:53,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:20:59,698 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:20:59,702 - INFO - Image query: A photorealistic image depicting a modern healthcare setting, showcasing a remote monitoring program in action. In the foreground, a diverse group of healthcare professionals, including a middle-aged female nurse in scrubs and a young male doctor in a white coat, are gathered around a digital tablet displaying patient data. They are engaged in a discussion, with expressions of enthusiasm and determination, highlighting the collaborative effort to improve patient care. In the background, a large screen displays real-time health metrics and graphs, symbolizing the innovative technology used in the program. The room is bright and airy, filled with natural light from large windows, creating an optimistic atmosphere. A comfortable patient area is visible, with a few patients interacting with tablets or wearable devices, indicating their participation in the remote monitoring initiative. The composition captures a medium-wide angle, emphasizing teamwork and technological integration in healthcare. The overall mood conveys a sense of hope and progress, reflecting the significant impact of the remote monitoring program on reducing A&E visits and enhancing patient outcomes.
+2024-09-29 13:20:59,912 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-29 13:20:59,954 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:00,096 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:00,236 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:00,376 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:00,518 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:00,659 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:00,800 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:00,940 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:01,081 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:01,221 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:01,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:01,503 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:01,645 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:01,786 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:01,928 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:02,073 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:02,214 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:02,354 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:02,494 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:02,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 13:21:02,676 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/08c54192-4ede-4dd4-823b-33723fd33ba4 "HTTP/1.1 200 OK"
+2024-09-29 13:21:02,676 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/954yabInoWbtyVZY9hi9b.png
+2024-09-29 13:21:02,676 - INFO - Image link: https://fal.media/files/zebra/954yabInoWbtyVZY9hi9b.png
+2024-09-29 13:21:09,978 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:21:12,658 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:21:19,303 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:21:19,308 - INFO - Image query: A photorealistic image depicting a modern home healthcare setting. In the foreground, a middle-aged woman, around 60 years old, is comfortably seated on a plush sofa, wearing casual clothing and a smartwatch on her wrist, which displays vital signs. She appears relaxed yet engaged, looking at a tablet in her hands that shows a video call with a healthcare professional. The healthcare professional, a young woman in a white lab coat, is visible on the screen, smiling and discussing the patient's health. In the background, a sleek medical monitoring device is placed on a side table, with colorful graphs and data displayed on its screen, symbolizing real-time health monitoring. Soft, natural light streams through a nearby window, illuminating the cozy living room filled with plants and personal touches, creating a warm and inviting atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the patient and the healthcare provider, emphasizing the comfort and innovation of receiving medical care at home. The overall mood conveys a sense of hope and progress, reflecting the transformative impact of virtual hospital wards on patient recovery and healthcare delivery.
+2024-09-29 13:21:19,449 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-29 13:21:19,492 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:19,632 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:19,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:19,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:20,057 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:20,201 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:20,342 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:20,484 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:20,625 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:20,766 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:20,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:21,051 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:21,196 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:21,343 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:21,483 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:21,625 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:21,767 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:21,908 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:22,053 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 13:21:22,094 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ef8bfda9-bc67-44ba-8015-17ae7eabfedd "HTTP/1.1 200 OK"
+2024-09-29 13:21:22,094 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/tMVzz2M_D6w4CEdu7got3.png
+2024-09-29 13:21:22,094 - INFO - Image link: https://fal.media/files/tiger/tMVzz2M_D6w4CEdu7got3.png
+2024-09-29 13:21:23,966 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:21:23,972 - INFO - No article found for link https://www.prnewswire.com/news-releases/eydisbio-receives-fda-orphan-drug-designation-for-tak1-inhibitor-for-the-treatment-of-systemic-sclerosis-302257223.html.
+2024-09-29 13:21:23,972 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/eydisbio-receives-fda-orphan-drug-designation-for-tak1-inhibitor-for-the-treatment-of-systemic-sclerosis-302257223.html
+2024-09-29 13:21:32,634 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:21:32,638 - INFO - No article found for link https://sifted.eu/articles/alan-173m-series-f-news/.
+2024-09-29 13:21:32,639 - WARNING - Skipping entry due to missing or invalid log entry for link: https://sifted.eu/articles/alan-173m-series-f-news/
+2024-09-29 13:21:40,530 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:21:42,685 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 13:21:42,690 - INFO - Image query: A photorealistic image depicting a modern home healthcare setup. In the foreground, a middle-aged woman, around 50 years old, sits comfortably on a couch, wearing a smartwatch and looking at a tablet displaying her health data. Her expression is one of relief and satisfaction, indicating she feels secure and monitored from home. In the background, a sleek, high-tech medical device is visible on a side table, showcasing advanced monitoring technology. Soft, natural light streams through a window, creating a warm and inviting atmosphere. On the wall, a digital screen displays real-time health metrics, emphasizing the concept of remote patient monitoring. The composition captures a medium shot, focusing on the woman’s interaction with the technology, highlighting the innovative aspect of virtual wards. The overall mood conveys a sense of empowerment and comfort, reflecting the transformative impact of healthtech on patient care and the potential to reduce emergency department visits.
+2024-09-29 13:21:42,834 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-29 13:21:42,875 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:43,016 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:43,157 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:43,301 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:43,444 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:43,585 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:43,727 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:43,868 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:44,010 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:44,152 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:44,294 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:44,592 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:44,738 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:44,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:45,023 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:45,165 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:45,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 13:21:45,452 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 13:21:45,492 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a6b6c3fa-1680-4496-b7e2-42157d607bd3 "HTTP/1.1 200 OK"
+2024-09-29 13:21:45,492 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/T1a_nqU1_7YZeGn9lLnhQ.png
+2024-09-29 13:21:45,493 - INFO - Image link: https://fal.media/files/monkey/T1a_nqU1_7YZeGn9lLnhQ.png
+2024-09-29 13:21:45,493 - INFO - Sending 3 log entries to Firebase.
+2024-09-29 13:21:48,541 - INFO - Received 3 document IDs from Peerr.
+2024-09-29 13:21:48,680 - INFO - Logged data to llm collection with FirestoreID: 90134fabb73098fd4a8281a9ab63d7ab.
+2024-09-29 13:21:49,040 - INFO - Logged data to llm collection with FirestoreID: 914df179afc41741ea7d9a587750a8ee.
+2024-09-29 13:21:49,203 - INFO - Logged data to llm collection with FirestoreID: a72d592890ffe8983bde80d42f60dacd.
