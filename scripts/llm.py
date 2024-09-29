@@ -514,7 +514,6 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
             if not log_entry.get("generated_post"):
                 logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
                 continue
-            print(log_entry)
             link = log_entry["generated_post"][5]
             source_link = log_entry["generated_post"][6]  # Get the source_link
             audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link else "General"
