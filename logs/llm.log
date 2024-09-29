@@ -545,3 +545,190 @@ The composition captures a dynamic angle, highlighting the collaborative spirit 
 2024-09-29 11:16:17,377 - INFO - Logged data to llm collection with FirestoreID: 42d845fb1710d92c6eb8798c702c0898.
 2024-09-29 11:16:17,726 - INFO - Logged data to llm collection with FirestoreID: 4a78d13e624fef1876bad7aa4e380271.
 2024-09-29 11:16:17,866 - INFO - Logged data to llm collection with FirestoreID: 4debe034e4e4a80bdfd8bb68c181581b.
+2024-09-29 11:18:22,742 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 11:18:22,750 - INFO - Extracted 17 link records from llm.
+2024-09-29 11:18:22,788 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 11:18:22,788 - INFO - Unique links to process: 29
+2024-09-29 11:18:22,788 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 11:18:35,327 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:18:39,389 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:18:43,039 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:18:43,087 - INFO - Image query: A photorealistic image set in a modern fertility clinic consultation room. A compassionate female fertility specialist, dressed in a professional white coat, sits across from a couple in their early 30s, who appear engaged yet slightly anxious. The doctor is leaning forward, gesturing with her hands to emphasize a point, while the couple listens intently, their expressions reflecting a mix of hope and concern. A large anatomical model of a human heart is displayed prominently on a nearby table, symbolizing the focus on congenital heart health. The room is bright and inviting, with soft natural light streaming through large windows, creating a warm atmosphere. On the walls, educational posters illustrate the process of assisted reproductive technology (ART) and its potential implications, subtly reinforcing the topic of discussion. The composition captures a medium close-up angle, focusing on the interaction between the doctor and the couple, highlighting the importance of informed patient counseling regarding the risks associated with ART. The overall mood conveys a sense of urgency and care, reflecting the critical nature of understanding the implications of ART on congenital heart health.
+2024-09-29 11:18:43,412 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:18:43,521 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/162e05ed-8db0-491c-b939-8dd6351d88f6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:43,728 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/162e05ed-8db0-491c-b939-8dd6351d88f6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:43,934 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/162e05ed-8db0-491c-b939-8dd6351d88f6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:44,142 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/162e05ed-8db0-491c-b939-8dd6351d88f6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:44,350 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/162e05ed-8db0-491c-b939-8dd6351d88f6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:44,556 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/162e05ed-8db0-491c-b939-8dd6351d88f6/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:18:44,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/162e05ed-8db0-491c-b939-8dd6351d88f6 "HTTP/1.1 200 OK"
+2024-09-29 11:18:44,662 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/B-Gjovjl6OaFlIvLJKIyX.png
+2024-09-29 11:18:44,662 - INFO - Image link: https://fal.media/files/panda/B-Gjovjl6OaFlIvLJKIyX.png
+2024-09-29 11:18:50,957 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:18:54,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:18:54,423 - INFO - Image query: A photorealistic image set in a modern hospital pharmacy. A pharmacist, a middle-aged woman in a white lab coat, stands at a counter, carefully examining a vial of rezafungin. Her expression is focused and contemplative, reflecting the significance of this new treatment. Behind her, shelves are stocked with various medications, including traditional echinocandins like micafungin and caspofungin, symbolizing the evolution of antifungal therapies. The pharmacy is brightly lit with overhead fluorescent lights, creating a sterile yet inviting atmosphere. A digital display on the wall highlights the benefits of rezafungin, such as "Once-Weekly Dosing" and "Reduced Hepatotoxicity," without using text. The composition captures a medium close-up angle, emphasizing the pharmacist's engagement with the medication and the potential impact on patient care. The overall mood conveys a sense of hope and innovation in the fight against invasive candidiasis, highlighting the importance of advancements in treatment options.
+2024-09-29 11:18:54,748 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:18:54,857 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1bbc28b3-afe5-42f2-aca9-6b4d131f5ec8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:55,062 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1bbc28b3-afe5-42f2-aca9-6b4d131f5ec8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:55,373 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1bbc28b3-afe5-42f2-aca9-6b4d131f5ec8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:55,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1bbc28b3-afe5-42f2-aca9-6b4d131f5ec8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:55,788 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1bbc28b3-afe5-42f2-aca9-6b4d131f5ec8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:18:55,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1bbc28b3-afe5-42f2-aca9-6b4d131f5ec8/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:18:56,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1bbc28b3-afe5-42f2-aca9-6b4d131f5ec8 "HTTP/1.1 200 OK"
+2024-09-29 11:18:56,248 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/qmaJm5_bY0ntIc80waavz.png
+2024-09-29 11:18:56,248 - INFO - Image link: https://fal.media/files/kangaroo/qmaJm5_bY0ntIc80waavz.png
+2024-09-29 11:18:56,248 - INFO - Sending 2 log entries to Firebase.
+2024-09-29 11:18:56,249 - ERROR - Error sending batch data to API: Out of range float values are not JSON compliant: nan
+2024-09-29 11:18:56,249 - WARNING - No document IDs returned from Peerr. Skipping Firestore logging.
+2024-09-29 11:19:06,525 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 11:19:06,528 - INFO - Extracted 17 link records from llm.
+2024-09-29 11:19:06,576 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 11:19:06,577 - INFO - Unique links to process: 29
+2024-09-29 11:19:06,577 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 11:19:50,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:19:55,203 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:19:59,481 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:19:59,529 - INFO - Image query: A photorealistic image set in a modern fertility clinic consultation room. A compassionate female fertility specialist, dressed in a professional white coat, is seated at a sleek desk, leaning forward with a concerned expression as she discusses important information with a young couple, both in their early 30s. The woman, visibly anxious, is holding a brochure about assisted reproductive technology, while the man gently places a reassuring hand on her back. The room is bright and airy, with soft natural light streaming through large windows, creating a warm and inviting atmosphere. On the desk, a laptop displays a graph illustrating the increased risk of congenital heart defects associated with ART, subtly emphasizing the topic of the discussion. In the background, a poster on the wall depicts a healthy heart and information about congenital heart defects, reinforcing the message of awareness and education. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor and the couple, highlighting the importance of thorough counseling and support for patients considering ART. The overall mood conveys a sense of urgency and care, reflecting the critical nature of informed decision-making in reproductive health.
+2024-09-29 11:19:59,857 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:19:59,965 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/59d13c34-c94e-465d-b459-3d5de117fdae/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:00,171 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/59d13c34-c94e-465d-b459-3d5de117fdae/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:00,377 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/59d13c34-c94e-465d-b459-3d5de117fdae/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:00,585 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/59d13c34-c94e-465d-b459-3d5de117fdae/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:00,794 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/59d13c34-c94e-465d-b459-3d5de117fdae/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:01,003 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/59d13c34-c94e-465d-b459-3d5de117fdae/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:20:01,113 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/59d13c34-c94e-465d-b459-3d5de117fdae "HTTP/1.1 200 OK"
+2024-09-29 11:20:01,113 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/nq6d51NLRwHDtGHE9ntxf.png
+2024-09-29 11:20:01,113 - INFO - Image link: https://fal.media/files/tiger/nq6d51NLRwHDtGHE9ntxf.png
+2024-09-29 11:20:15,911 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:20:19,683 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:20:23,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:20:24,011 - INFO - Image query: A photorealistic image set in a modern hospital pharmacy. A focused pharmacist, a middle-aged woman in scrubs and a lab coat, stands behind a counter filled with various medications and medical supplies. She is carefully preparing a dose of Rezafungin, holding a vial in one hand and a syringe in the other, with a look of determination on her face. The background features shelves stocked with antifungal medications, including echinocandins, and a digital screen displaying information about invasive candidiasis and treatment protocols. Soft, bright lighting illuminates the space, creating a clean and professional atmosphere. A close-up angle captures the pharmacist's meticulous actions, emphasizing the importance of innovative therapies in combating resistant Candida spp. The mood conveys a sense of urgency and hope, reflecting the critical role of new treatments like Rezafungin in improving patient outcomes in invasive candidiasis management.
+2024-09-29 11:20:24,381 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:20:24,486 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2424ff63-f109-434c-a60f-9e05a3358947/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:24,696 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2424ff63-f109-434c-a60f-9e05a3358947/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:24,903 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2424ff63-f109-434c-a60f-9e05a3358947/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:25,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2424ff63-f109-434c-a60f-9e05a3358947/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:25,318 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2424ff63-f109-434c-a60f-9e05a3358947/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:20:25,525 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2424ff63-f109-434c-a60f-9e05a3358947/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:20:25,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2424ff63-f109-434c-a60f-9e05a3358947 "HTTP/1.1 200 OK"
+2024-09-29 11:20:25,636 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/EFdImOOW1ExPXoU5nstvE.png
+2024-09-29 11:20:25,636 - INFO - Image link: https://fal.media/files/tiger/EFdImOOW1ExPXoU5nstvE.png
+2024-09-29 11:20:25,637 - INFO - Sending 2 log entries to Firebase.
+2024-09-29 11:20:25,638 - ERROR - Error sending batch data to API: Out of range float values are not JSON compliant: nan
+2024-09-29 11:20:25,638 - WARNING - No document IDs returned from Peerr. Skipping Firestore logging.
+2024-09-29 11:22:57,346 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 11:22:57,349 - INFO - Extracted 17 link records from llm.
+2024-09-29 11:22:57,387 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 11:22:57,388 - INFO - Unique links to process: 29
+2024-09-29 11:22:57,388 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 11:23:04,665 - INFO - Image query: A photorealistic image set in a modern fertility clinic consultation room. A compassionate female fertility specialist, dressed in a professional white coat, is seated at a sleek desk, leaning forward with a concerned expression as she discusses important information with a young couple, both in their early 30s. The woman, visibly anxious, is holding a brochure about assisted reproductive technology, while the man gently places a reassuring hand on her back. The room is bright and airy, with soft natural light streaming through large windows, creating a warm and inviting atmosphere. On the desk, a laptop displays a graph illustrating the increased risk of congenital heart defects associated with ART, subtly emphasizing the topic of the discussion. In the background, a poster on the wall depicts a healthy heart and information about congenital heart defects, reinforcing the message of awareness and education. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor and the couple, highlighting the importance of thorough counseling and support for patients considering ART. The overall mood conveys a sense of urgency and care, reflecting the critical nature of informed decision-making in reproductive health.
+2024-09-29 11:23:04,991 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:23:05,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29ed4730-2d81-4615-a922-2df9cda47315/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:23:05,305 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29ed4730-2d81-4615-a922-2df9cda47315/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:23:05,513 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29ed4730-2d81-4615-a922-2df9cda47315/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:23:05,720 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29ed4730-2d81-4615-a922-2df9cda47315/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:23:05,927 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29ed4730-2d81-4615-a922-2df9cda47315/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:23:06,134 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29ed4730-2d81-4615-a922-2df9cda47315/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:23:06,243 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29ed4730-2d81-4615-a922-2df9cda47315 "HTTP/1.1 200 OK"
+2024-09-29 11:23:06,244 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/PrI3iIRAyrSxRCBDog46W.png
+2024-09-29 11:23:06,244 - INFO - Image link: https://fal.media/files/penguin/PrI3iIRAyrSxRCBDog46W.png
+2024-09-29 11:23:06,245 - INFO - Sending 1 log entries to Firebase.
+2024-09-29 11:23:09,011 - INFO - Received 1 document IDs from Peerr.
+2024-09-29 11:23:09,058 - INFO - Logged data to llm collection with FirestoreID: 504b32d12b1937b2f6e5c3ce2b1e1f9d.
+2024-09-29 11:28:14,834 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 11:28:14,837 - INFO - Extracted 18 link records from llm.
+2024-09-29 11:28:14,879 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 11:28:14,879 - INFO - Unique links to process: 28
+2024-09-29 11:28:14,879 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 11:28:16,810 - INFO - Image query: A photorealistic image set in a modern hospital pharmacy. A focused pharmacist, a middle-aged woman in scrubs and a lab coat, stands behind a counter filled with various medications and medical supplies. She is carefully preparing a dose of Rezafungin, holding a vial in one hand and a syringe in the other, with a look of determination on her face. The background features shelves stocked with antifungal medications, including echinocandins, and a digital screen displaying information about invasive candidiasis and treatment protocols. Soft, bright lighting illuminates the space, creating a clean and professional atmosphere. A close-up angle captures the pharmacist's meticulous actions, emphasizing the importance of innovative therapies in combating resistant Candida spp. The mood conveys a sense of urgency and hope, reflecting the critical role of new treatments like Rezafungin in improving patient outcomes in invasive candidiasis management.
+2024-09-29 11:28:17,132 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:28:17,240 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/42eeced2-2563-4179-9417-a6e8514f51e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:28:17,448 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/42eeced2-2563-4179-9417-a6e8514f51e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:28:17,656 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/42eeced2-2563-4179-9417-a6e8514f51e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:28:17,862 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/42eeced2-2563-4179-9417-a6e8514f51e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:28:18,068 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/42eeced2-2563-4179-9417-a6e8514f51e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:28:18,274 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/42eeced2-2563-4179-9417-a6e8514f51e4/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:28:18,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/42eeced2-2563-4179-9417-a6e8514f51e4 "HTTP/1.1 200 OK"
+2024-09-29 11:28:18,379 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/A96THw5iHwJny0cLGGKY4.png
+2024-09-29 11:28:18,379 - INFO - Image link: https://fal.media/files/elephant/A96THw5iHwJny0cLGGKY4.png
+2024-09-29 11:28:56,533 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:29:00,338 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:29:02,901 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:29:02,965 - INFO - Image query: A photorealistic image set in a modern healthcare conference room, featuring a diverse group of healthcare leaders engaged in a dynamic discussion. In the foreground, a middle-aged woman, Helen Balsdon, is standing confidently at a podium, presenting a digital strategy on a large screen behind her that displays graphs and data related to digital health initiatives. The audience, consisting of men and women of various ages and ethnicities, is attentively listening, with some taking notes and others nodding in agreement. The room is bright and well-lit, with large windows allowing natural light to flood in, creating an atmosphere of optimism and collaboration. On the walls, there are framed images of healthcare innovations and digital technologies, symbolizing the focus on integrated care. The composition captures a wide-angle view, emphasizing the collective engagement and leadership in shaping the future of healthcare. The overall mood conveys excitement and determination, reflecting the transformative changes in the NHS and their potential impact on patient care.
+2024-09-29 11:29:03,287 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:29:03,396 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b6ca4c3-19a7-4ec5-9667-91aad0cdc3bb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:03,605 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b6ca4c3-19a7-4ec5-9667-91aad0cdc3bb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:03,812 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b6ca4c3-19a7-4ec5-9667-91aad0cdc3bb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:04,019 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b6ca4c3-19a7-4ec5-9667-91aad0cdc3bb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:04,224 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b6ca4c3-19a7-4ec5-9667-91aad0cdc3bb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:04,429 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b6ca4c3-19a7-4ec5-9667-91aad0cdc3bb/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:29:04,538 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b6ca4c3-19a7-4ec5-9667-91aad0cdc3bb "HTTP/1.1 200 OK"
+2024-09-29 11:29:04,538 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/lyJUfbQv6Dxfrw7KKD1OY.png
+2024-09-29 11:29:04,538 - INFO - Image link: https://fal.media/files/penguin/lyJUfbQv6Dxfrw7KKD1OY.png
+2024-09-29 11:29:04,539 - INFO - Sending 2 log entries to Firebase.
+2024-09-29 11:29:04,539 - ERROR - Error sending batch data to API: Out of range float values are not JSON compliant: nan
+2024-09-29 11:29:04,539 - WARNING - No document IDs returned from Peerr. Skipping Firestore logging.
+2024-09-29 11:29:32,919 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 11:29:32,922 - INFO - Extracted 18 link records from llm.
+2024-09-29 11:29:32,972 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 11:29:32,972 - INFO - Unique links to process: 28
+2024-09-29 11:29:32,972 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 11:29:34,238 - INFO - Image query: A photorealistic image set in a modern hospital pharmacy. A focused pharmacist, a middle-aged woman in scrubs and a lab coat, stands behind a counter filled with various medications and medical supplies. She is carefully preparing a dose of Rezafungin, holding a vial in one hand and a syringe in the other, with a look of determination on her face. The background features shelves stocked with antifungal medications, including echinocandins, and a digital screen displaying information about invasive candidiasis and treatment protocols. Soft, bright lighting illuminates the space, creating a clean and professional atmosphere. A close-up angle captures the pharmacist's meticulous actions, emphasizing the importance of innovative therapies in combating resistant Candida spp. The mood conveys a sense of urgency and hope, reflecting the critical role of new treatments like Rezafungin in improving patient outcomes in invasive candidiasis management.
+2024-09-29 11:29:34,562 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:29:34,672 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b6e1586-8a9d-4d59-a42b-4daeac012ecb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:34,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b6e1586-8a9d-4d59-a42b-4daeac012ecb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:35,086 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b6e1586-8a9d-4d59-a42b-4daeac012ecb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:35,293 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b6e1586-8a9d-4d59-a42b-4daeac012ecb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:35,502 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b6e1586-8a9d-4d59-a42b-4daeac012ecb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:35,708 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b6e1586-8a9d-4d59-a42b-4daeac012ecb/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:29:35,815 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0b6e1586-8a9d-4d59-a42b-4daeac012ecb "HTTP/1.1 200 OK"
+2024-09-29 11:29:35,815 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/fXN3nBCK2aqoHRePC8xMw.png
+2024-09-29 11:29:35,815 - INFO - Image link: https://fal.media/files/panda/fXN3nBCK2aqoHRePC8xMw.png
+2024-09-29 11:29:47,510 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:29:50,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:29:53,407 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:29:53,446 - INFO - Image query: A photorealistic image set in a modern healthcare conference room, featuring a diverse group of healthcare leaders engaged in a strategic discussion. In the foreground, a middle-aged male doctor, Dr. Alec Price-Forbes, is standing confidently at a digital presentation screen displaying a vibrant infographic about digital health initiatives. He is dressed in a tailored suit, with a stethoscope draped around his neck, symbolizing his clinical background. To his right, a female leader, Helen Balsdon, is seated at a sleek conference table, taking notes on a tablet, her expression focused and engaged. The room is filled with natural light streaming through large windows, creating an inviting atmosphere. In the background, a large banner displays the NHS logo, emphasizing the organizational context. The composition captures a wide-angle view, showcasing the dynamic interaction among the leaders, with a sense of collaboration and forward-thinking energy. The color palette includes calming blues and greens, reflecting a professional yet innovative environment. The overall mood conveys excitement and optimism about the future of healthcare, highlighting the importance of leadership in driving digital transformation and improving patient care.
+2024-09-29 11:29:53,764 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:29:53,872 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e0dec70-26ec-4e60-88b7-fe75f9a8efcc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:54,080 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e0dec70-26ec-4e60-88b7-fe75f9a8efcc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:54,286 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e0dec70-26ec-4e60-88b7-fe75f9a8efcc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:54,493 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e0dec70-26ec-4e60-88b7-fe75f9a8efcc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:54,701 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e0dec70-26ec-4e60-88b7-fe75f9a8efcc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:29:54,908 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e0dec70-26ec-4e60-88b7-fe75f9a8efcc/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:29:55,012 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e0dec70-26ec-4e60-88b7-fe75f9a8efcc "HTTP/1.1 200 OK"
+2024-09-29 11:29:55,013 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/E6h7-Z6jXp1W7urvfClkx.png
+2024-09-29 11:29:55,013 - INFO - Image link: https://fal.media/files/elephant/E6h7-Z6jXp1W7urvfClkx.png
+2024-09-29 11:29:55,013 - INFO - Sending 2 log entries to Firebase.
+2024-09-29 11:29:55,014 - ERROR - Error sending batch data to API: Out of range float values are not JSON compliant: nan
+2024-09-29 11:29:55,014 - WARNING - No document IDs returned from Peerr. Skipping Firestore logging.
+2024-09-29 11:31:04,643 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 11:31:04,646 - INFO - Extracted 18 link records from llm.
+2024-09-29 11:31:04,686 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 11:31:04,686 - INFO - Unique links to process: 28
+2024-09-29 11:31:04,686 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 11:31:05,753 - INFO - Image query: A photorealistic image set in a modern hospital pharmacy. A focused pharmacist, a middle-aged woman in scrubs and a lab coat, stands behind a counter filled with various medications and medical supplies. She is carefully preparing a dose of Rezafungin, holding a vial in one hand and a syringe in the other, with a look of determination on her face. The background features shelves stocked with antifungal medications, including echinocandins, and a digital screen displaying information about invasive candidiasis and treatment protocols. Soft, bright lighting illuminates the space, creating a clean and professional atmosphere. A close-up angle captures the pharmacist's meticulous actions, emphasizing the importance of innovative therapies in combating resistant Candida spp. The mood conveys a sense of urgency and hope, reflecting the critical role of new treatments like Rezafungin in improving patient outcomes in invasive candidiasis management.
+2024-09-29 11:31:06,073 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:31:06,182 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a35e2f41-7d17-4bcb-a584-5ec17fd659f2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:06,389 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a35e2f41-7d17-4bcb-a584-5ec17fd659f2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:06,596 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a35e2f41-7d17-4bcb-a584-5ec17fd659f2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:06,804 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a35e2f41-7d17-4bcb-a584-5ec17fd659f2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:07,015 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a35e2f41-7d17-4bcb-a584-5ec17fd659f2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:07,223 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a35e2f41-7d17-4bcb-a584-5ec17fd659f2/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:31:07,329 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a35e2f41-7d17-4bcb-a584-5ec17fd659f2 "HTTP/1.1 200 OK"
+2024-09-29 11:31:07,330 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/xvHiUdQjaI7A82qaOhR8Y.png
+2024-09-29 11:31:07,330 - INFO - Image link: https://fal.media/files/zebra/xvHiUdQjaI7A82qaOhR8Y.png
+2024-09-29 11:31:08,157 - INFO - Image query: A photorealistic image set in a modern healthcare conference room, featuring a diverse group of healthcare leaders engaged in a strategic discussion. In the foreground, a middle-aged male doctor, Dr. Alec Price-Forbes, is standing confidently at a digital presentation screen displaying a vibrant infographic about digital health initiatives. He is dressed in a tailored suit, with a stethoscope draped around his neck, symbolizing his clinical background. To his right, a female leader, Helen Balsdon, is seated at a sleek conference table, taking notes on a tablet, her expression focused and engaged. The room is filled with natural light streaming through large windows, creating an inviting atmosphere. In the background, a large banner displays the NHS logo, emphasizing the organizational context. The composition captures a wide-angle view, showcasing the dynamic interaction among the leaders, with a sense of collaboration and forward-thinking energy. The color palette includes calming blues and greens, reflecting a professional yet innovative environment. The overall mood conveys excitement and optimism about the future of healthcare, highlighting the importance of leadership in driving digital transformation and improving patient care.
+2024-09-29 11:31:08,269 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:31:08,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f0134438-e922-4e58-85dc-fd6da2edeaec/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:08,580 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f0134438-e922-4e58-85dc-fd6da2edeaec/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:08,787 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f0134438-e922-4e58-85dc-fd6da2edeaec/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:08,994 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f0134438-e922-4e58-85dc-fd6da2edeaec/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:09,201 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f0134438-e922-4e58-85dc-fd6da2edeaec/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:31:09,406 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f0134438-e922-4e58-85dc-fd6da2edeaec/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:31:09,510 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f0134438-e922-4e58-85dc-fd6da2edeaec "HTTP/1.1 200 OK"
+2024-09-29 11:31:09,511 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/1muHRWszD7NFY9R6ICZYZ.png
+2024-09-29 11:31:09,511 - INFO - Image link: https://fal.media/files/panda/1muHRWszD7NFY9R6ICZYZ.png
+2024-09-29 11:31:09,511 - INFO - Sending 2 log entries to Firebase.
+2024-09-29 11:31:12,530 - INFO - Received 2 document IDs from Peerr.
+2024-09-29 11:31:12,579 - INFO - Logged data to llm collection with FirestoreID: 58b27effba6e3d53af6b0a4ddc34be30.
+2024-09-29 11:31:12,620 - INFO - Logged data to llm collection with FirestoreID: 5b5a044cab5d6553987aa7dc7abcb633.

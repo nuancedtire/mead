@@ -514,13 +514,14 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
             if not log_entry.get("generated_post"):
                 logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
                 continue
-            link = str(log_entry["generated_post"][5])
-            source_link = str(log_entry["generated_post"][6])  # Get the source_link
+            print(log_entry)
+            link = log_entry["generated_post"][5]
+            source_link = log_entry["generated_post"][6]  # Get the source_link
             audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link else "General"
             post_data = {
                 "imageURL": log_entry["generated_post"][4],
                 "hashtags": log_entry["generated_post"][3],
-                "source": source_link if source_link else link,  # Use source_link if available, otherwise use link
+                "source": source_link if source_link and str(source_link) != 'nan' else link,  # Use source_link if available and not 'nan', otherwise use link
                 "post": log_entry["generated_post"][2],
                 "type": audience,
             }
@@ -546,7 +547,6 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
     except requests.exceptions.RequestException as e:
         logging.error(f"Error sending batch data to API: {e}")
         return None
-
 
 # def send_to_peerr(
 #     batch_log_entries,
@@ -631,7 +631,7 @@ def main():
     batch_log_entries = []
     processed_count = 0
     for link_info in combined_links:
-        if processed_count >= 5:  # Process only 5 articles
+        if processed_count >= 3:  # Process only 5 articles
             break
 
         link = link_info.get("Link")
