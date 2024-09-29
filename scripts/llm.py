@@ -631,7 +631,7 @@ def main():
     batch_log_entries = []
     processed_count = 0
     for link_info in combined_links:
-        if processed_count >= 2:  # Process only 5 articles
+        if processed_count >= 5:  # Process only 5 articles
             break
 
         link = link_info.get("Link")
