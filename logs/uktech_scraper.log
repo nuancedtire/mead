@@ -430,3 +430,9 @@
 2024-09-28 23:17:04,232 - INFO - Processed first article
 2024-09-28 23:17:04,238 - INFO - Data saved to databases/uktech_news.csv. Total items: 1.
 2024-09-28 23:17:04,238 - INFO - Scraping completed.
+2024-09-29 01:12:24,368 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-09-29 01:12:24,733 - INFO - Successfully fetched webpage. Content length: 102467
+2024-09-29 01:12:24,761 - INFO - Processed item: Virtual ward startup Doccla raises £35m - 2024-09-03 00:00:00
+2024-09-29 01:12:24,761 - INFO - Processed first article
+2024-09-29 01:12:24,768 - INFO - Data saved to databases/uktech_news.csv. Total items: 1.
+2024-09-29 01:12:24,768 - INFO - Scraping completed.
