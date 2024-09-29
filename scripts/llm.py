@@ -478,7 +478,6 @@ def log_to_firestore(log_entry, peerr_document_id, collection_name="llm"):
                 "Cannot log to Firestore: 'generated_post' is missing or empty."
             )
             return
-        logging.info(f"'generated_post' length: {len(generated_post)}")
 
         # Create a hash of the URL to use as the document ID
         link = generated_post[5]
@@ -515,8 +514,8 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
             if not log_entry.get("generated_post"):
                 logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
                 continue
-            link = log_entry["generated_post"][5]
-            source_link = log_entry["generated_post"][6]  # Get the source_link
+            link = str(log_entry["generated_post"][5])
+            source_link = str(log_entry["generated_post"][6])  # Get the source_link
             audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link or "nih" in link else "General"
             post_data = {
                 "imageURL": log_entry["generated_post"][4],
@@ -535,7 +534,6 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
         if response.status_code == 201 or response.status_code == 200:
             result = response.json()
             document_ids = [item["message"].split(": ")[1] for item in result if "Saved with ID" in item["message"]]
-            logging.info(f"Successfully sent batch data to API: {result}")
             if len(document_ids) != len(batch_log_entries[:10]):
                 logging.error(
                     f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries[:10])} entries."

@@ -103,3 +103,122 @@
 2024-09-29 07:23:18,044 - INFO - Sending 3 log entries to Firebase.
 2024-09-29 07:23:18,044 - ERROR - Error sending batch data to API: Out of range float values are not JSON compliant: nan
 2024-09-29 07:23:18,045 - WARNING - No document IDs returned from Peerr. Skipping Firestore logging.
+2024-09-29 07:54:13,769 - WARNING - The llm collection is empty.
+2024-09-29 07:54:13,837 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 07:54:13,837 - INFO - Unique links to process: 46
+2024-09-29 07:54:49,945 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:54:52,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:54:55,035 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:54:55,073 - INFO - Image query: A photorealistic image set in a modern clinical research facility. A diverse group of healthcare professionals, including a middle-aged female neurologist in a white lab coat, a young male research assistant, and an elderly male patient in a casual shirt, are gathered around a sleek conference table. The neurologist is animatedly presenting data on a digital tablet, her expression one of excitement and hope, while the patient listens intently, his face reflecting a mix of curiosity and optimism. The research assistant is taking notes, showcasing a sense of collaboration and engagement. On the table, there are printed graphs and charts illustrating the results of the TEMPO-1 trial, with clear indicators of improvement in MDS-UPDRS scores. The room is bright and well-lit, with large windows allowing natural light to pour in, creating an uplifting atmosphere. In the background, a large screen displays a visual representation of dopamine receptors, symbolizing the focus on innovative treatments for Parkinson's disease. The composition captures a medium shot angle, emphasizing the dynamic interaction among the team and the patient, highlighting the significance of advancements in Parkinson's treatment. The overall mood conveys excitement and hope, reflecting the potential impact of tavapadon on improving the quality of life for patients.
+2024-09-29 07:54:55,442 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 07:54:55,548 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/82b379dc-2d9a-4375-b405-9f87b67e97db/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:54:55,756 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/82b379dc-2d9a-4375-b405-9f87b67e97db/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:54:55,963 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/82b379dc-2d9a-4375-b405-9f87b67e97db/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:54:56,170 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/82b379dc-2d9a-4375-b405-9f87b67e97db/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:54:56,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/82b379dc-2d9a-4375-b405-9f87b67e97db/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:54:56,592 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/82b379dc-2d9a-4375-b405-9f87b67e97db/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 07:54:56,696 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/82b379dc-2d9a-4375-b405-9f87b67e97db "HTTP/1.1 200 OK"
+2024-09-29 07:54:56,697 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/47MHEFoCjjhveOIRSJdnK.png
+2024-09-29 07:54:56,697 - INFO - Image link: https://fal.media/files/monkey/47MHEFoCjjhveOIRSJdnK.png
+2024-09-29 07:55:06,104 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:55:12,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:55:14,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:55:14,884 - INFO - Image query: A photorealistic image set in a modern dermatology clinic. A female dermatologist, in her mid-30s, wearing a white lab coat and safety glasses, is attentively examining a young adult woman, around 25 years old, who is seated on an examination table. The patient has a thoughtful expression, her skin showing signs of acne, as she engages in a discussion about treatment options. The dermatologist holds a clipboard with notes, and a model of skin anatomy is displayed on a nearby shelf, symbolizing the focus on acne treatment. The room is brightly lit with natural light streaming through a large window, creating a welcoming and professional atmosphere. On the wall, a poster illustrates the benefits of spironolactone for acne, subtly reinforcing the topic of the conversation. The composition captures a medium close-up angle, emphasizing the empathetic interaction between the dermatologist and the patient, highlighting the importance of exploring effective alternatives to long-term antibiotics for acne treatment. The overall mood conveys a sense of hope and innovation, reflecting the potential of spironolactone as a game-changer in dermatological care.
+2024-09-29 07:55:15,219 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 07:55:15,326 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3103c1ce-dc96-435f-8f3b-4842d7f3349e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:15,534 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3103c1ce-dc96-435f-8f3b-4842d7f3349e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:15,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3103c1ce-dc96-435f-8f3b-4842d7f3349e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:15,948 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3103c1ce-dc96-435f-8f3b-4842d7f3349e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:16,154 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3103c1ce-dc96-435f-8f3b-4842d7f3349e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:16,361 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3103c1ce-dc96-435f-8f3b-4842d7f3349e/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 07:55:16,469 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3103c1ce-dc96-435f-8f3b-4842d7f3349e "HTTP/1.1 200 OK"
+2024-09-29 07:55:16,469 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/i8Lbe90XZeJB9h4R3FPLi.png
+2024-09-29 07:55:16,469 - INFO - Image link: https://fal.media/files/lion/i8Lbe90XZeJB9h4R3FPLi.png
+2024-09-29 07:55:35,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:55:39,493 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:55:41,397 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:55:41,451 - INFO - Image query: A photorealistic image depicting a modern digital X-ray room at Erith District Hospital, showcasing advanced imaging technology. The room is bright and spacious, with sleek, high-tech equipment prominently displayed. A radiologic technologist, a middle-aged woman in scrubs, stands beside a patient, a young adult male, who is positioned on the X-ray table, looking relaxed yet curious. The technologist is explaining the procedure with a friendly smile, emphasizing patient comfort and care. The walls are adorned with informative posters about radiation safety and the benefits of digital imaging. Soft, natural light streams in through large windows, creating a welcoming atmosphere. In the background, a historical WWII bunker is subtly visible through the glass, hinting at the building's rich history. The composition captures a medium shot, focusing on the interaction between the technologist and patient, highlighting the advancements in digital health and patient-centered care. The overall mood conveys excitement and optimism about the future of healthcare technology.
+2024-09-29 07:55:41,779 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 07:55:41,886 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:42,094 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:42,300 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:42,507 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:42,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:42,919 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:55:43,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 07:55:43,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7bac7826-af21-4df5-848a-fa5967c73646 "HTTP/1.1 200 OK"
+2024-09-29 07:55:43,230 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/mOjeE8dm9sfPUHnxkBBoO.png
+2024-09-29 07:55:43,230 - INFO - Image link: https://fal.media/files/penguin/mOjeE8dm9sfPUHnxkBBoO.png
+2024-09-29 07:55:43,230 - INFO - Sending 3 log entries to Firebase.
+2024-09-29 07:55:43,230 - ERROR - Error sending batch data to API: Out of range float values are not JSON compliant: nan
+2024-09-29 07:55:43,231 - WARNING - No document IDs returned from Peerr. Skipping Firestore logging.
+2024-09-29 07:57:46,421 - WARNING - The llm collection is empty.
+2024-09-29 07:57:46,469 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 07:57:46,469 - INFO - Unique links to process: 46
+2024-09-29 07:57:49,566 - INFO - Image query: A photorealistic image set in a modern clinical research facility. A diverse group of healthcare professionals, including a middle-aged female neurologist in a white lab coat, a young male research assistant, and an elderly male patient in a casual shirt, are gathered around a sleek conference table. The neurologist is animatedly presenting data on a digital tablet, her expression one of excitement and hope, while the patient listens intently, his face reflecting a mix of curiosity and optimism. The research assistant is taking notes, showcasing a sense of collaboration and engagement. On the table, there are printed graphs and charts illustrating the results of the TEMPO-1 trial, with clear indicators of improvement in MDS-UPDRS scores. The room is bright and well-lit, with large windows allowing natural light to pour in, creating an uplifting atmosphere. In the background, a large screen displays a visual representation of dopamine receptors, symbolizing the focus on innovative treatments for Parkinson's disease. The composition captures a medium shot angle, emphasizing the dynamic interaction among the team and the patient, highlighting the significance of advancements in Parkinson's treatment. The overall mood conveys excitement and hope, reflecting the potential impact of tavapadon on improving the quality of life for patients.
+2024-09-29 07:57:49,889 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 07:57:49,998 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:57:50,206 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:57:50,413 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:57:50,622 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:57:50,831 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:57:51,037 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 07:57:51,245 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 07:57:51,350 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/afbc7c2a-3502-401d-bb5b-04197c194252 "HTTP/1.1 200 OK"
+2024-09-29 07:57:51,350 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/jrgW0jIa01Rc5DF1vUkQv.png
+2024-09-29 07:57:51,350 - INFO - Image link: https://fal.media/files/elephant/jrgW0jIa01Rc5DF1vUkQv.png
+2024-09-29 07:57:51,351 - INFO - Sending 1 log entries to Firebase.
+2024-09-29 07:57:54,656 - INFO - Successfully sent batch data to API: [{'index': 0, 'message': 'Saved with ID: e7J7EyKb7ip2hCOWiflb'}]
+2024-09-29 07:57:54,657 - INFO - Received 1 document IDs from Peerr.
+2024-09-29 07:57:54,657 - INFO - 'generated_post' length: 10
+2024-09-29 07:57:54,704 - INFO - Logged data to llm collection with FirestoreID: 0012f065b97d6fd3a3e7899e3e84c9d2.
+2024-09-29 08:00:54,952 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 08:00:54,955 - INFO - Extracted 1 link records from llm.
+2024-09-29 08:00:55,010 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 08:00:55,011 - INFO - Unique links to process: 45
+2024-09-29 08:01:07,033 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:01:13,679 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:01:19,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:01:19,521 - INFO - Image query: A photorealistic image set in a modern dermatology clinic. A young adult woman, around 30 years old, with clear skin and a confident smile, sits on an examination table, dressed in a casual yet stylish outfit. She is engaged in conversation with a dermatologist, a middle-aged woman in a white lab coat, who is holding a clipboard and discussing treatment options. The dermatologist has a warm, encouraging expression, indicating a supportive dialogue about acne management. In the background, a wall-mounted poster illustrates the skin anatomy, emphasizing the focus on acne treatment. A small shelf displays skincare products, including spironolactone, symbolizing the new treatment approach. The room is bright and inviting, with natural light streaming through a window, casting soft shadows that create a positive atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the patient and the dermatologist, highlighting the importance of exploring effective alternatives to long-term antibiotics for acne. The overall mood conveys optimism and empowerment, reflecting the potential shift in acne treatment strategies.
+2024-09-29 08:01:19,930 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:01:20,035 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ccf1ba1e-5855-4d0d-87ea-fd7c94aeb11f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:01:20,241 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ccf1ba1e-5855-4d0d-87ea-fd7c94aeb11f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:01:20,447 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ccf1ba1e-5855-4d0d-87ea-fd7c94aeb11f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:01:20,654 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ccf1ba1e-5855-4d0d-87ea-fd7c94aeb11f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:01:20,860 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ccf1ba1e-5855-4d0d-87ea-fd7c94aeb11f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:01:21,067 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ccf1ba1e-5855-4d0d-87ea-fd7c94aeb11f/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:01:21,172 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ccf1ba1e-5855-4d0d-87ea-fd7c94aeb11f "HTTP/1.1 200 OK"
+2024-09-29 08:01:21,173 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/e2jMPQ6ndzkcBpxFWda2_.png
+2024-09-29 08:01:21,173 - INFO - Image link: https://fal.media/files/tiger/e2jMPQ6ndzkcBpxFWda2_.png
+2024-09-29 08:02:45,876 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:02:51,255 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:02:55,463 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:02:55,500 - INFO - Image query: A photorealistic image depicting a modern digital X-ray room at Erith District Hospital, showcasing advanced imaging technology. The room is bright and spacious, with sleek, high-tech equipment prominently displayed, including a digital X-ray machine that is actively in use. A middle-aged radiologic technologist, wearing scrubs and a protective lead apron, is attentively monitoring the imaging process on a large digital screen, displaying a clear X-ray image. The walls are adorned with informative posters about radiation safety and the history of the hospital, subtly referencing the WWII bunker where the old machine was housed. In the background, a window allows natural light to flood the room, creating a warm and inviting atmosphere. The composition captures a dynamic angle, focusing on the interaction between the technologist and the technology, emphasizing the advancements in patient care and the reduction of radiation exposure. The overall mood conveys excitement and progress in digital health, reflecting the transformative impact of these innovations on patient care across the UK.
+2024-09-29 08:02:55,826 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:02:55,933 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/136b221c-0ed2-4d46-8f8a-a4c658f367af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:02:56,144 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/136b221c-0ed2-4d46-8f8a-a4c658f367af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:02:56,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/136b221c-0ed2-4d46-8f8a-a4c658f367af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:02:56,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/136b221c-0ed2-4d46-8f8a-a4c658f367af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:02:56,780 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/136b221c-0ed2-4d46-8f8a-a4c658f367af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:02:56,987 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/136b221c-0ed2-4d46-8f8a-a4c658f367af/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:02:57,093 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/136b221c-0ed2-4d46-8f8a-a4c658f367af "HTTP/1.1 200 OK"
+2024-09-29 08:02:57,093 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/TdKjt9wjx_TqLCk4NTr6L.png
+2024-09-29 08:02:57,094 - INFO - Image link: https://fal.media/files/lion/TdKjt9wjx_TqLCk4NTr6L.png
+2024-09-29 08:03:03,955 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:03:08,656 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:03:08,699 - INFO - Image query: A photorealistic image set in a modern gym environment. A diverse group of individuals, aged between 8 and 60, are engaged in vigorous exercise activities, such as running on treadmills, cycling, and participating in a high-energy fitness class. In the foreground, a young adult male, approximately 25 years old, is running with a determined expression, showcasing his athleticism and focus. Nearby, a middle-aged woman, around 45 years old, is lifting weights with a confident posture, embodying strength and vitality. The gym is brightly lit with large windows allowing natural light to flood the space, creating an energetic and uplifting atmosphere. On the walls, motivational posters about health and fitness are visible, subtly emphasizing the importance of exercise. In the background, a trainer, a fit woman in her 30s, is guiding a group of participants, demonstrating exercises with enthusiasm. The composition captures a wide-angle perspective, highlighting the dynamic and inclusive environment of the gym, while also conveying a sense of community and support among individuals with Long QT Syndrome. The overall mood is positive and empowering, reflecting the study's findings that promote an active lifestyle for patients with LQTS without compromising safety.
+2024-09-29 08:03:09,019 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:03:09,128 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15245806-462e-489f-a712-b49e558135cb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:03:09,335 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15245806-462e-489f-a712-b49e558135cb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:03:09,541 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15245806-462e-489f-a712-b49e558135cb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:03:09,746 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15245806-462e-489f-a712-b49e558135cb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:03:09,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15245806-462e-489f-a712-b49e558135cb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:03:10,158 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15245806-462e-489f-a712-b49e558135cb/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:03:10,263 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15245806-462e-489f-a712-b49e558135cb "HTTP/1.1 200 OK"
+2024-09-29 08:03:10,264 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/oHc0QQiwzKvzXIa37TMH_.png
+2024-09-29 08:03:10,264 - INFO - Image link: https://fal.media/files/rabbit/oHc0QQiwzKvzXIa37TMH_.png
+2024-09-29 08:03:10,264 - INFO - Sending 3 log entries to Firebase.
+2024-09-29 08:03:11,334 - INFO - Received 3 document IDs from Peerr.
+2024-09-29 08:03:11,386 - INFO - Logged data to llm collection with FirestoreID: 020186b32ff51ed51a40a80c8118d5bf.
+2024-09-29 08:03:11,437 - INFO - Logged data to llm collection with FirestoreID: 02f8fcd7cd6c8ec944aba01fec227736.
+2024-09-29 08:03:11,477 - INFO - Logged data to llm collection with FirestoreID: 0c25581fa46dfb7080c7b969133195cf.
