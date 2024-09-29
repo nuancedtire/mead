@@ -529,6 +529,7 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
         if not batch_data:
             logging.error("No valid log entries to send to API.")
             return None
+        logging.debug(f"Batch data to be sent: {batch_data}")
         headers = {"Content-Type": "application/json", "x-secret": "9b7ExA8PlJbK"}
         response = requests.post(url, json=batch_data, headers=headers)
         if response.status_code == 201 or response.status_code == 200:
