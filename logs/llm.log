@@ -732,3 +732,56 @@ The composition captures a dynamic angle, highlighting the collaborative spirit 
 2024-09-29 11:31:12,530 - INFO - Received 2 document IDs from Peerr.
 2024-09-29 11:31:12,579 - INFO - Logged data to llm collection with FirestoreID: 58b27effba6e3d53af6b0a4ddc34be30.
 2024-09-29 11:31:12,620 - INFO - Logged data to llm collection with FirestoreID: 5b5a044cab5d6553987aa7dc7abcb633.
+2024-09-29 11:43:21,286 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 11:43:21,289 - INFO - Extracted 20 link records from llm.
+2024-09-29 11:43:21,332 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 11:43:21,332 - INFO - Unique links to process: 26
+2024-09-29 11:43:21,332 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 11:43:41,226 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:43:45,685 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:43:53,819 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:43:53,927 - INFO - Image query: A photorealistic image set in a modern clinical research facility. A diverse group of healthcare professionals, including a middle-aged female pulmonologist in a white lab coat, a young male research assistant, and an elderly male patient in a hospital gown, are gathered around a high-tech digital display showing lung function graphs and data from the FRONTIER-4 study. The pulmonologist points to a graph illustrating the improvement in FEV1, her expression one of excitement and hope. The patient, who appears to be in his late 60s, looks engaged and curious, leaning slightly forward in his chair. The research assistant, a young woman of Asian descent, takes notes on a tablet, capturing the discussion. The room is brightly lit with large windows allowing natural light to flood in, creating a warm and inviting atmosphere. Medical equipment, such as a spirometer and a nebulizer, is visible in the background, symbolizing respiratory care. The composition captures a medium shot, focusing on the interaction among the professionals and the patient, emphasizing the collaborative effort in exploring new treatment options for COPD. The overall mood conveys optimism and urgency, reflecting the potential impact of tozorakimab on managing chronic obstructive pulmonary disease.
+2024-09-29 11:43:54,250 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:43:54,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8a0cc4aa-fe74-4557-8b2e-183629ffed47/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:43:54,572 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8a0cc4aa-fe74-4557-8b2e-183629ffed47/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:43:54,778 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8a0cc4aa-fe74-4557-8b2e-183629ffed47/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:43:54,984 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8a0cc4aa-fe74-4557-8b2e-183629ffed47/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:43:55,191 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8a0cc4aa-fe74-4557-8b2e-183629ffed47/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:43:55,401 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8a0cc4aa-fe74-4557-8b2e-183629ffed47/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:43:55,506 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8a0cc4aa-fe74-4557-8b2e-183629ffed47 "HTTP/1.1 200 OK"
+2024-09-29 11:43:55,506 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/Q-6kV2V35JTIAy6nN3fSu.png
+2024-09-29 11:43:55,506 - INFO - Image link: https://fal.media/files/koala/Q-6kV2V35JTIAy6nN3fSu.png
+2024-09-29 11:44:02,618 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:44:06,320 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:44:06,409 - INFO - Image query: A photorealistic image set in a modern hospital infusion room. A middle-aged nurse, wearing scrubs and a surgical mask, prepares an intravenous infusion of lecanemab while standing next to an elderly female patient, around 75 years old, who is seated in a comfortable recliner. The patient has a thoughtful expression, reflecting a mix of hope and concern about her treatment. An IV pole stands beside her, with the infusion bag visibly labeled "Lecanemab," and a digital monitor displays vital signs, indicating close monitoring. The room is brightly lit with large windows allowing natural light to flood in, creating a warm yet clinical atmosphere. On the wall, a poster outlines the stages of Alzheimer’s disease, subtly emphasizing the context of the treatment. The composition captures a medium close-up angle, focusing on the interaction between the nurse and patient, highlighting the importance of care and the emotional weight of the treatment decision. The overall mood conveys a sense of cautious optimism, reflecting the delicate balance between innovative treatment and the financial implications for healthcare systems.
+2024-09-29 11:44:06,727 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:44:06,835 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:07,042 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:07,249 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:07,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:07,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:07,867 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:08,073 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:44:08,179 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0e7bd7d-58e7-416c-9f0c-f2d65f5b8524 "HTTP/1.1 200 OK"
+2024-09-29 11:44:08,180 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/En2Zwz9fv8KZRbMYar852.png
+2024-09-29 11:44:08,180 - INFO - Image link: https://fal.media/files/lion/En2Zwz9fv8KZRbMYar852.png
+2024-09-29 11:44:17,080 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:44:20,911 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 11:44:20,948 - INFO - Image query: A photorealistic image set in a modern research laboratory. In the foreground, a diverse group of three researchers—two women (one of Asian descent and one of Black descent) and one man (of Caucasian descent)—are gathered around a high-tech workstation, intently examining a digital display showing complex data and images related to glioblastoma cells. The woman of Asian descent is pointing at the screen, her expression one of excitement and determination, while the Black woman takes notes on a tablet, and the Caucasian man adjusts a microscope nearby, symbolizing collaboration and innovation in cancer research. 
+
+In the background, a large window lets in bright, natural light, illuminating various laboratory equipment, including layered fat-coated nanoparticles displayed in petri dishes, emphasizing the innovative design of the mRNA vaccine. A poster on the wall illustrates the structure of glioblastoma cells and the immune response, subtly reinforcing the focus of their research. The composition captures a dynamic angle, showcasing the researchers' engagement and the high-stakes environment of medical innovation. The overall mood conveys hope and urgency, reflecting the groundbreaking potential of mRNA vaccines in treating aggressive brain cancers like glioblastoma.
+2024-09-29 11:44:21,265 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 11:44:21,370 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bbfebc1b-8a9d-4bef-a024-e4dbc3bc3492/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:21,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bbfebc1b-8a9d-4bef-a024-e4dbc3bc3492/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:21,783 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bbfebc1b-8a9d-4bef-a024-e4dbc3bc3492/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:21,989 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bbfebc1b-8a9d-4bef-a024-e4dbc3bc3492/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:22,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bbfebc1b-8a9d-4bef-a024-e4dbc3bc3492/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 11:44:22,401 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bbfebc1b-8a9d-4bef-a024-e4dbc3bc3492/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 11:44:22,506 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bbfebc1b-8a9d-4bef-a024-e4dbc3bc3492 "HTTP/1.1 200 OK"
+2024-09-29 11:44:22,507 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/CLqKlvFk2pg3hkh8tSf7e.png
+2024-09-29 11:44:22,507 - INFO - Image link: https://fal.media/files/rabbit/CLqKlvFk2pg3hkh8tSf7e.png
+2024-09-29 11:44:22,507 - INFO - Sending 3 log entries to Firebase.
+2024-09-29 11:44:25,737 - INFO - Received 3 document IDs from Peerr.
+2024-09-29 11:44:25,784 - INFO - Logged data to llm collection with FirestoreID: 6774279265bb7dddb590bcb48312cf98.
+2024-09-29 11:44:25,826 - INFO - Logged data to llm collection with FirestoreID: 6881c6ec151a44b37bd34d0a6cb2d795.
+2024-09-29 11:44:25,876 - INFO - Logged data to llm collection with FirestoreID: 7292bfd3f40884090fa5e0f29b101eac.
