@@ -57,3 +57,58 @@
 2024-09-29 07:08:22,809 - INFO - Found source link: https://bmcpediatr.biomedcentral.com/articles/10.1186/s12887-024-05049-7
 2024-09-29 07:08:23,503 - INFO - Successfully updated Firestore with 12 items.
 2024-09-29 07:08:23,503 - INFO - Medscape script completed.
+2024-09-29 07:22:20,369 - INFO - Medscape script started.
+2024-09-29 07:22:20,369 - INFO - Connection to Medscape established.
+2024-09-29 07:22:20,479 - INFO - Request sent to Medscape API.
+2024-09-29 07:22:21,080 - INFO - Response received from Medscape API.
+2024-09-29 07:22:21,081 - INFO - Response data decoded into dictionary.
+2024-09-29 07:22:21,081 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-09-29 07:22:21,081 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-09-29 07:22:22,991 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:23,003 - INFO - Found source link: https://www.journalslibrary.nihr.ac.uk/hta/MYJT6804#/abstract
+2024-09-29 07:22:23,003 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-09-29 07:22:23,003 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-09-29 07:22:24,617 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:24,619 - INFO - Found source link: https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762/(24/)00249-7/fulltext
+2024-09-29 07:22:24,619 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-09-29 07:22:24,620 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-09-29 07:22:25,986 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:25,988 - INFO - Found source link: https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehae572/7773316
+2024-09-29 07:22:25,990 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/individualise-aspirin-therapy-avoid-brain-bleeds-2024a1000ha3
+2024-09-29 07:22:25,990 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/individualise-aspirin-therapy-avoid-brain-bleeds-2024a1000ha3
+2024-09-29 07:22:42,460 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:42,461 - INFO - Found source link: https://journals.sagepub.com/doi/10.1177/17474930241288367
+2024-09-29 07:22:42,462 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/interactive-learning-key-fewer-antibiotics-2024a1000hcr
+2024-09-29 07:22:42,462 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/interactive-learning-key-fewer-antibiotics-2024a1000hcr
+2024-09-29 07:22:44,257 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:44,258 - INFO - Found source link: https://academic.oup.com/fampra/advance-article/doi/10.1093/fampra/cmae047/7760418?login=false
+2024-09-29 07:22:44,259 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/womens-novel-risks-cvd-should-be-reflected-guidance-2024a1000gdc
+2024-09-29 07:22:44,259 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/womens-novel-risks-cvd-should-be-reflected-guidance-2024a1000gdc
+2024-09-29 07:22:46,575 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:46,577 - INFO - Found source link: http://medscape.co.uk/viewarticle/womens-novel-risks-cvd-should-be-reflected-guidance-2024a1000gdc
+2024-09-29 07:22:46,577 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/over-80-pregnant-women-face-iron-deficiency-third-trimester-2024a1000hgz
+2024-09-29 07:22:46,577 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/over-80-pregnant-women-face-iron-deficiency-third-trimester-2024a1000hgz
+2024-09-29 07:22:48,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:48,507 - INFO - Found source link: https://www.sciencedirect.com/science/article/pii/S0002916524006695?via%3Dihub
+2024-09-29 07:22:48,508 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-29 07:22:48,508 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-29 07:22:51,515 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:51,516 - INFO - Found source link: https://ajcn.nutrition.org/article/S0002-9165/(24/)00746-9/fulltext
+2024-09-29 07:22:51,517 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-29 07:22:51,517 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-29 07:22:53,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:53,056 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae633/7758750?login=false
+2024-09-29 07:22:53,056 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-29 07:22:53,057 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-29 07:22:54,560 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:54,561 - INFO - Found source link: https://onlinelibrary.wiley.com/doi/full/10.1111/dme.15420?campaign=woletoc
+2024-09-29 07:22:54,561 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-29 07:22:54,561 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-29 07:22:56,933 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:56,935 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/10.1001/jamanetworkopen.2024.36157?guestAccessKey=af696af6-afdf-42cc-8d48-65fe9d0c8bcc&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=091924
+2024-09-29 07:22:56,935 - INFO - Processing new item: https://www.medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-29 07:22:56,935 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/does-pet-ownership-promote-childrens-development-2024a1000h3u
+2024-09-29 07:22:58,561 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 07:22:58,563 - INFO - Found source link: https://bmcpediatr.biomedcentral.com/articles/10.1186/s12887-024-05049-7
+2024-09-29 07:22:58,922 - INFO - Successfully updated Firestore with 12 items.
+2024-09-29 07:22:58,922 - INFO - Medscape script completed.
