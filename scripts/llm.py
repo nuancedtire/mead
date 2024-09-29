@@ -516,7 +516,7 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
                 continue
             link = str(log_entry["generated_post"][5])
             source_link = str(log_entry["generated_post"][6])  # Get the source_link
-            audience = "HCP (inc. Students)" if "medscape" in link or "nih" else "General"
+            audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link else "General"
             post_data = {
                 "imageURL": log_entry["generated_post"][4],
                 "hashtags": log_entry["generated_post"][3],
