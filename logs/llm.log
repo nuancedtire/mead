@@ -341,3 +341,44 @@ The composition captures a dynamic angle, highlighting the collaborative spirit 
 2024-09-29 08:29:53,924 - INFO - Logged data to llm collection with FirestoreID: 020186b32ff51ed51a40a80c8118d5bf.
 2024-09-29 08:29:54,318 - INFO - Logged data to llm collection with FirestoreID: 201fe0a91c4bed12b4dfa790586c9557.
 2024-09-29 08:29:54,442 - INFO - Logged data to llm collection with FirestoreID: 24915dc14fd1a79db7a1438e76130f4c.
+2024-09-29 08:42:38,203 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 08:42:38,206 - INFO - Extracted 8 link records from llm.
+2024-09-29 08:42:38,548 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 08:42:38,549 - INFO - Unique links to process: 38
+2024-09-29 08:42:38,549 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 08:42:51,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:42:54,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:42:57,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:42:57,508 - INFO - Image query: A photorealistic image set in a cozy, well-lit living room where a middle-aged female healthcare professional, dressed in smart casual attire, is sitting on a comfortable sofa across from a middle-aged female patient, around 45 years old, who appears fatigued yet engaged. The healthcare professional is leaning forward, attentively listening, with a notepad and pen in hand, ready to jot down important notes. The patient, with a thoughtful expression, is gesturing slightly as she discusses her daily activities and their impact on her long COVID symptoms. A coffee table between them holds a glass of water and a small potted plant, symbolizing care and recovery. The room is decorated with soft, warm colors, and sunlight streams through a window, creating a serene atmosphere. On the wall, a bulletin board displays colorful charts and notes about activity management and symptom tracking, subtly emphasizing the study's findings. The composition captures a medium close-up angle, focusing on the empathetic interaction between the healthcare professional and the patient, highlighting the importance of holistic management strategies for long COVID. The overall mood conveys a sense of hope and determination, reflecting the critical nature of understanding and managing daily activities to alleviate long COVID symptoms.
+2024-09-29 08:42:57,926 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:42:57,984 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:58,144 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:58,302 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:58,461 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:58,619 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:58,778 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:58,935 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:59,093 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:42:59,250 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:42:59,344 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b005d7ea-8a42-4194-9e54-7ed510368cf9 "HTTP/1.1 200 OK"
+2024-09-29 08:42:59,345 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/iPXoQQIT019okM-ScKhfs.png
+2024-09-29 08:42:59,345 - INFO - Image link: https://fal.media/files/panda/iPXoQQIT019okM-ScKhfs.png
+2024-09-29 08:43:09,048 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:43:12,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:43:15,929 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:43:15,934 - INFO - Image query: A photorealistic image set in a modern medical research facility. A diverse group of healthcare professionals, including a middle-aged female endocrinologist in a white lab coat, a young male oncologist, and a middle-aged male diabetes specialist, are gathered around a large digital screen displaying colorful graphs and statistics related to GLP-1 agonists and cancer risk reduction. The endocrinologist points to a graph illustrating the reduced risk of obesity-related cancers, her expression one of excitement and determination. The oncologist, with a thoughtful look, takes notes on a tablet, while the diabetes specialist, wearing glasses, examines a printed report in his hands. The room is bright and well-lit, with large windows allowing natural light to flood in, creating an atmosphere of innovation and hope. On a nearby table, there are medical textbooks and a model of the human body, symbolizing the intersection of diabetes management and cancer prevention. The composition captures a dynamic angle, focusing on the engaged interaction among the professionals, emphasizing collaboration in addressing the obesity epidemic and its associated cancer risks. The overall mood conveys a sense of urgency and optimism, reflecting the potential impact of GLP-1 agonists in transforming patient outcomes.
+2024-09-29 08:43:16,103 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:43:16,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:43:16,323 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:43:16,481 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:43:16,638 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:43:16,797 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:43:16,956 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:43:17,114 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:43:17,170 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/066eedd4-8ec5-4b55-b831-cffa84b5bc31 "HTTP/1.1 200 OK"
+2024-09-29 08:43:17,171 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/n5HGpAdVJwvukWZTJYRLx.png
+2024-09-29 08:43:17,171 - INFO - Image link: https://fal.media/files/kangaroo/n5HGpAdVJwvukWZTJYRLx.png
+2024-09-29 08:43:17,171 - INFO - Sending 2 log entries to Firebase.
+2024-09-29 08:43:20,727 - INFO - Received 2 document IDs from Peerr.
+2024-09-29 08:43:20,928 - INFO - Logged data to llm collection with FirestoreID: 2cf5b13947957995bac2c6e400eab464.
+2024-09-29 08:43:21,598 - INFO - Logged data to llm collection with FirestoreID: 2feb6984e1922aa9005cc8a9b6d36549.
