@@ -516,7 +516,7 @@ def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts
                 continue
             link = str(log_entry["generated_post"][5])
             source_link = str(log_entry["generated_post"][6])  # Get the source_link
-            audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link or "nih" in link else "General"
+            audience = "HCP (inc. Students)" if "medscape" in link or "nih" else "General"
             post_data = {
                 "imageURL": log_entry["generated_post"][4],
                 "hashtags": log_entry["generated_post"][3],
@@ -631,7 +631,7 @@ def main():
     batch_log_entries = []
     processed_count = 0
     for link_info in combined_links:
-        if processed_count >= 3:  # Process only 5 articles
+        if processed_count >= 2:  # Process only 5 articles
             break
 
         link = link_info.get("Link")
