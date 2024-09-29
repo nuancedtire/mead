@@ -382,3 +382,45 @@ The composition captures a dynamic angle, highlighting the collaborative spirit 
 2024-09-29 08:43:20,727 - INFO - Received 2 document IDs from Peerr.
 2024-09-29 08:43:20,928 - INFO - Logged data to llm collection with FirestoreID: 2cf5b13947957995bac2c6e400eab464.
 2024-09-29 08:43:21,598 - INFO - Logged data to llm collection with FirestoreID: 2feb6984e1922aa9005cc8a9b6d36549.
+2024-09-29 09:17:48,384 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 09:17:48,387 - INFO - Extracted 10 link records from llm.
+2024-09-29 09:17:48,725 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 09:17:48,725 - INFO - Unique links to process: 36
+2024-09-29 09:17:48,725 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 09:18:03,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 09:18:07,458 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 09:18:09,887 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 09:18:09,892 - INFO - Image query: A photorealistic image set in a modern clinical trial facility. In the foreground, a diverse group of healthcare professionals, including a middle-aged female doctor in a white lab coat and a young male nurse in scrubs, are gathered around a high-tech workstation displaying patient data and trial information on multiple screens. The doctor is pointing at the screen, discussing the trial details with the nurse, who is taking notes on a digital tablet. In the background, a patient, a middle-aged man with a calm expression, is seated in a comfortable examination chair, receiving an infusion of RLS-0071 through an IV line. The room is bright and sterile, with large windows allowing natural light to flood in, creating an atmosphere of hope and innovation. On the walls, posters illustrate the mechanisms of graft-versus-host disease and the dual-targeting approach of RLS-0071, emphasizing the significance of this trial. The composition captures a medium shot, focusing on the collaborative spirit of the healthcare team and the patient’s participation in this groundbreaking trial. The overall mood conveys optimism and urgency, reflecting the potential impact of RLS-0071 in transforming treatment for patients facing severe complications post-transplant.
+2024-09-29 09:18:10,199 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 09:18:10,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:10,356 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:10,483 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:10,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:10,741 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:10,867 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:10,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:11,122 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:11,249 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 09:18:11,360 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6b491b4-4554-427c-946a-7bc6f28db93f "HTTP/1.1 200 OK"
+2024-09-29 09:18:11,361 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/wUDzrbGq1JRzOfmiR9SIe.png
+2024-09-29 09:18:11,361 - INFO - Image link: https://fal.media/files/kangaroo/wUDzrbGq1JRzOfmiR9SIe.png
+2024-09-29 09:18:16,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 09:18:20,114 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 09:18:20,118 - INFO - Image query: A photorealistic image set in a modern, sleek medical clinic specializing in men's health. The scene features a confident, middle-aged male doctor in a tailored white coat, standing beside a high-tech consultation desk equipped with digital diagnostic tools and a laptop displaying patient data. He is engaged in a conversation with a young man, approximately 30 years old, who appears hopeful and attentive, seated comfortably in a stylish chair. The young man has a slight smile, indicating optimism about his health journey. The clinic is well-lit with bright, natural light streaming through large windows, creating an inviting atmosphere. On the walls, framed images of diverse men engaging in healthy activities symbolize the clinic's focus on men's wellness. A poster showcasing various health supplements and medications is subtly displayed in the background, emphasizing the innovative offerings of Manual. The composition captures a medium shot, focusing on the dynamic interaction between the doctor and patient, highlighting the importance of personalized healthcare solutions in addressing men's health issues. The overall mood conveys a sense of progress and empowerment, reflecting the transformative impact of new funding and technology in the field of men's health.
+2024-09-29 09:18:20,249 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 09:18:20,282 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:20,419 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:20,549 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:20,681 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:20,811 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:20,943 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:21,073 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:21,205 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 09:18:21,336 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 09:18:21,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/06f2f735-cd32-4936-b016-9c44ae522939 "HTTP/1.1 200 OK"
+2024-09-29 09:18:21,367 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/VMBms_7YxvC4GzQ5ZEp74.png
+2024-09-29 09:18:21,367 - INFO - Image link: https://fal.media/files/zebra/VMBms_7YxvC4GzQ5ZEp74.png
+2024-09-29 09:18:21,367 - INFO - Sending 2 log entries to Firebase.
+2024-09-29 09:18:24,513 - INFO - Received 2 document IDs from Peerr.
+2024-09-29 09:18:24,676 - INFO - Logged data to llm collection with FirestoreID: 36ba3cc1564b980471492249c79c7b64.
+2024-09-29 09:18:25,141 - INFO - Logged data to llm collection with FirestoreID: 39c69353e3e69ca6bf5baca6799401c6.
