@@ -222,3 +222,61 @@
 2024-09-29 08:03:11,386 - INFO - Logged data to llm collection with FirestoreID: 020186b32ff51ed51a40a80c8118d5bf.
 2024-09-29 08:03:11,437 - INFO - Logged data to llm collection with FirestoreID: 02f8fcd7cd6c8ec944aba01fec227736.
 2024-09-29 08:03:11,477 - INFO - Logged data to llm collection with FirestoreID: 0c25581fa46dfb7080c7b969133195cf.
+2024-09-29 08:18:54,108 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-29 08:18:54,111 - INFO - Extracted 3 link records from llm.
+2024-09-29 08:18:54,348 - INFO - Extracted 46 link records from combined_news.
+2024-09-29 08:18:54,348 - INFO - Unique links to process: 43
+2024-09-29 08:18:55,134 - INFO - Image query: A photorealistic image set in a modern dermatology clinic. A young adult woman, around 30 years old, with clear skin and a confident smile, sits on an examination table, dressed in a casual yet stylish outfit. She is engaged in conversation with a dermatologist, a middle-aged woman in a white lab coat, who is holding a clipboard and discussing treatment options. The dermatologist has a warm, encouraging expression, indicating a supportive dialogue about acne management. In the background, a wall-mounted poster illustrates the skin anatomy, emphasizing the focus on acne treatment. A small shelf displays skincare products, including spironolactone, symbolizing the new treatment approach. The room is bright and inviting, with natural light streaming through a window, casting soft shadows that create a positive atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the patient and the dermatologist, highlighting the importance of exploring effective alternatives to long-term antibiotics for acne. The overall mood conveys optimism and empowerment, reflecting the potential shift in acne treatment strategies.
+2024-09-29 08:18:55,237 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:18:55,257 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:18:55,377 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:18:55,705 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:18:55,826 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:18:55,943 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:18:56,064 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:18:56,183 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:18:56,200 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba7c46ef-0475-4733-9680-435ef576978a "HTTP/1.1 200 OK"
+2024-09-29 08:18:56,201 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/WFwC-JuSUfVnvYov5iWII.png
+2024-09-29 08:18:56,201 - INFO - Image link: https://fal.media/files/kangaroo/WFwC-JuSUfVnvYov5iWII.png
+2024-09-29 08:18:59,165 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-09-29 08:18:59,165 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-29 08:19:02,899 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:19:08,314 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:19:08,319 - INFO - Image query: A photorealistic image set in a modern hospital setting, showcasing a diverse group of healthcare professionals engaged in a discussion around a digital tablet displaying medical data related to Von Hippel-Lindau disease (VHL). In the foreground, a middle-aged female oncologist with glasses and a lab coat points to the screen, her expression focused and determined. Beside her, a young male researcher, wearing a casual shirt and a lab coat, nods in agreement, holding a notepad filled with notes. In the background, a large window allows natural light to flood the room, illuminating a poster on the wall that outlines the VHL gene and its implications, symbolizing the genetic aspect of the disease. The atmosphere is one of collaboration and hope, with soft shadows creating a warm yet serious tone. The composition captures a medium-wide angle, emphasizing the teamwork and urgency in finding effective treatments for rare diseases. The overall mood conveys optimism and determination, reflecting the transformative potential of belzutifan for adults living with VHL.
+2024-09-29 08:19:08,387 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:19:08,408 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:08,526 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:08,644 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:08,763 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:08,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:08,999 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:09,117 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:09,237 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:09,356 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:09,479 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:19:09,497 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4027eb9a-0e20-4cbd-930e-122003bf81b8 "HTTP/1.1 200 OK"
+2024-09-29 08:19:09,497 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/GEoPlrcipV_t7StkZjVPY.png
+2024-09-29 08:19:09,497 - INFO - Image link: https://fal.media/files/monkey/GEoPlrcipV_t7StkZjVPY.png
+2024-09-29 08:19:14,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:19:17,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-29 08:19:17,910 - INFO - Image query: A photorealistic image set in a modern innovation hub, showcasing a diverse group of 19 enthusiastic entrepreneurs gathered around a large, sleek conference table. Each individual represents different backgrounds and specialties, engaged in animated discussions about their groundbreaking healthcare solutions. The room is filled with high-tech gadgets and prototypes, such as a portable device for endometriosis management and a digital platform displaying heart health analytics on a screen. Bright, natural light streams through large windows, illuminating the space and creating an atmosphere of excitement and collaboration. In the background, a large digital display showcases the Propel@YH logo and the tagline "Innovating Healthcare Together." The composition captures a wide-angle perspective, emphasizing the energy and diversity of the group, while also highlighting the importance of collaboration in the healthcare innovation ecosystem. The overall mood conveys optimism and forward-thinking, reflecting the transformative potential of digital health innovations in the UK.
+2024-09-29 08:19:18,321 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-09-29 08:19:18,341 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:18,460 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:18,580 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:18,699 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:18,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:18,936 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:19,055 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:19,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:19,292 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:19,411 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-29 08:19:19,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73/status?logs=false "HTTP/1.1 200 OK"
+2024-09-29 08:19:19,548 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4057b820-68c4-4fd3-84f8-28f3439b1b73 "HTTP/1.1 200 OK"
+2024-09-29 08:19:19,548 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/x3ActWFVsxkjnk7cT-I3D.png
+2024-09-29 08:19:19,548 - INFO - Image link: https://fal.media/files/kangaroo/x3ActWFVsxkjnk7cT-I3D.png
+2024-09-29 08:19:19,549 - INFO - Sending 3 log entries to Firebase.
+2024-09-29 08:19:23,006 - INFO - Received 3 document IDs from Peerr.
+2024-09-29 08:19:23,147 - INFO - Logged data to llm collection with FirestoreID: 020186b32ff51ed51a40a80c8118d5bf.
+2024-09-29 08:19:23,568 - INFO - Logged data to llm collection with FirestoreID: 17e77acf1fdb9985811ac0ac65ba6d42.
+2024-09-29 08:19:23,708 - INFO - Logged data to llm collection with FirestoreID: 1fb0e87c53421f4403bba437fd6bcf06.
