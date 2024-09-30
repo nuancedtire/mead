@@ -1416,3 +1416,39 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-09-29 23:16:51,385 - INFO - Logged data to llm collection with FirestoreID: f26b180ae330d0b93bf0d722ae3fdd81.
 2024-09-29 23:16:51,764 - INFO - Logged data to llm collection with FirestoreID: f4db613a1eb5d8c05021cf29acd51124.
 2024-09-29 23:16:51,900 - INFO - Logged data to llm collection with FirestoreID: f6acca710b14de0cea64bd2c78ffb512.
+2024-09-30 01:04:00,818 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-30 01:04:00,821 - INFO - Extracted 44 link records from llm.
+2024-09-30 01:04:00,999 - INFO - Extracted 46 link records from combined_news.
+2024-09-30 01:04:00,999 - INFO - Unique links to process: 2
+2024-09-30 01:04:00,999 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-30 01:04:15,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 01:04:18,788 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 01:04:22,603 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 01:04:22,610 - INFO - Image query: A photorealistic image set in a bright and welcoming prenatal clinic. A pregnant woman, around 30 years old, with a gentle smile, is seated on an examination table, her hand resting on her rounded belly. A healthcare provider, a female doctor in a white coat, stands beside her, holding a clipboard and discussing the importance of iron screening. The doctor has an empathetic expression, leaning slightly towards the patient, indicating a supportive conversation. A blood pressure monitor and a small table with iron supplement bottles are visible in the background, symbolizing the focus on maternal health. The room is filled with soft, natural light streaming through a window adorned with light curtains, creating a warm and inviting atmosphere. On the wall, a colorful poster illustrates the stages of fetal development, subtly emphasizing the importance of maternal nutrition. The composition captures a medium close-up angle, focusing on the interaction between the doctor and the patient, highlighting the urgency and significance of addressing iron deficiency during pregnancy. The overall mood conveys a sense of care, hope, and the critical nature of proactive health measures for mothers and their babies.
+2024-09-30 01:04:22,764 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-30 01:04:22,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:22,968 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:23,098 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:23,228 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:23,357 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:23,487 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:23,617 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:23,745 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:23,873 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,131 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,259 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,391 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,524 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,656 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,786 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:24,917 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:25,045 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:25,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 01:04:25,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b/status?logs=false "HTTP/1.1 200 OK"
+2024-09-30 01:04:25,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c8975587-af98-4fab-b963-6e195323840b "HTTP/1.1 200 OK"
+2024-09-30 01:04:25,423 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/rF2P37EEl55t3npUI66rr.png
+2024-09-30 01:04:25,423 - INFO - Image link: https://fal.media/files/monkey/rF2P37EEl55t3npUI66rr.png
+2024-09-30 01:04:25,424 - INFO - Sending 1 log entries to Firebase.
+2024-09-30 01:04:28,740 - INFO - Received 1 document IDs from Peerr.
+2024-09-30 01:04:28,895 - INFO - Logged data to llm collection with FirestoreID: fc3a9533aece3e256b4ee134e95eb90d.
