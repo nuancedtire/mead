@@ -223,3 +223,8 @@
 2024-09-30 21:20:44,568 - INFO - Search phrase found and content trimmed.
 2024-09-30 21:20:45,602 - INFO - Data saved to Firestore. Total items: 5.
 2024-09-30 21:20:45,602 - INFO - Sifted script completed.
+2024-09-30 22:20:16,451 - INFO - Sifted script started.
+2024-09-30 22:20:18,620 - INFO - Successfully fetched data from URL.
+2024-09-30 22:20:18,620 - WARNING - Search phrase not found. Using original content.
+2024-09-30 22:20:19,261 - INFO - Data saved to Firestore. Total items: 5.
+2024-09-30 22:20:19,261 - INFO - Sifted script completed.
