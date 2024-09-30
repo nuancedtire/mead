@@ -1790,3 +1790,62 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-09-30 12:49:33,095 - INFO - Sending 1 log entries to Firebase.
 2024-09-30 12:49:36,086 - INFO - Received 1 document IDs from Peerr.
 2024-09-30 12:49:36,288 - INFO - Logged data to llm collection with FirestoreID: 22e88932c826826b157eeb36ebfa2238.
+2024-09-30 13:33:22,460 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-30 13:33:22,463 - INFO - Extracted 54 link records from llm.
+2024-09-30 13:33:23,597 - INFO - Extracted 58 link records from combined_news.
+2024-09-30 13:33:23,597 - INFO - Unique links to process: 4
+2024-09-30 13:33:23,598 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-30 13:33:37,601 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 13:33:41,120 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 13:33:44,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 13:33:44,111 - INFO - Image query: A photorealistic image set in a bright, modern gym environment during the early morning hours. A diverse group of adults aged 49-60 are engaged in various physical activities, such as jogging on a treadmill, practicing yoga, and using resistance bands. The sunlight streams through large windows, casting warm, golden rays that illuminate the space and create a vibrant atmosphere. In the foreground, a middle-aged woman is seen stretching on a yoga mat, her expression focused and determined, embodying the essence of early-day exercise. Nearby, a man is running on a treadmill, glancing at his wrist-worn accelerometer, symbolizing the tracking of physical activity. The gym is equipped with state-of-the-art fitness equipment, and motivational posters about health and wellness adorn the walls. The composition captures a wide-angle view, emphasizing the energy and positivity of the environment, while subtly highlighting the importance of timing in physical activity for colorectal cancer prevention. The overall mood conveys hope and motivation, reflecting the potential impact of exercise timing on health outcomes.
+2024-09-30 13:33:44,413 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-30 13:33:44,621 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:44,778 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:44,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:45,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:45,254 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:45,412 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:45,570 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:45,730 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:45,887 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:46,046 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:46,205 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:46,362 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:46,524 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:46,682 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:46,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:33:46,997 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef/status?logs=false "HTTP/1.1 200 OK"
+2024-09-30 13:33:47,054 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e030e4d2-417f-4b04-ab45-678bf9e550ef "HTTP/1.1 200 OK"
+2024-09-30 13:33:47,054 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/jWSMmDQqScJGXO6l2zxwb.png
+2024-09-30 13:33:47,054 - INFO - Image link: https://fal.media/files/koala/jWSMmDQqScJGXO6l2zxwb.png
+2024-09-30 13:33:47,055 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-09-30 13:33:56,025 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 13:33:59,741 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 13:34:07,155 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 13:34:07,160 - INFO - Image query: A photorealistic image set in a modern geriatric clinic. An elderly female patient, around 70 years old, is standing on a Wii balance board, her expression focused and slightly anxious as she attempts to maintain her balance. A healthcare professional, a middle-aged male doctor in a white coat, stands beside her, observing closely with a supportive demeanor. He holds a tablet displaying data from the balance assessment, indicating a high level of engagement in the evaluation process. The clinic is bright and airy, with large windows allowing natural light to illuminate the space, creating a warm and inviting atmosphere. In the background, a poster on the wall illustrates the cardiovascular system, subtly linking the theme of balance to cardiovascular health. The composition captures a medium shot, emphasizing the interaction between the patient and doctor, highlighting the importance of balance assessments as potential indicators of cardiovascular disease. The overall mood conveys a sense of care and urgency, reflecting the critical nature of early detection in geriatric health evaluations.
+2024-09-30 13:34:07,343 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-30 13:34:07,403 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:07,561 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:07,719 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:07,879 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:08,037 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:08,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:08,355 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:08,513 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:08,672 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:08,831 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:08,989 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:09,146 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:09,304 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:09,462 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:09,621 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:09,778 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 13:34:09,936 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0/status?logs=false "HTTP/1.1 200 OK"
+2024-09-30 13:34:09,992 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/92c74423-4198-413f-8d7f-9bcab50c87e0 "HTTP/1.1 200 OK"
+2024-09-30 13:34:09,992 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/cK3Wkd-kpnt0S2owc3paJ.png
+2024-09-30 13:34:09,992 - INFO - Image link: https://fal.media/files/tiger/cK3Wkd-kpnt0S2owc3paJ.png
+2024-09-30 13:34:09,992 - INFO - Sending 2 log entries to Firebase.
+2024-09-30 13:34:13,144 - INFO - Received 2 document IDs from Peerr.
+2024-09-30 13:34:13,351 - INFO - Logged data to llm collection with FirestoreID: 7204afc849d44d25b27cf132b0eaf538.
+2024-09-30 13:34:14,000 - INFO - Logged data to llm collection with FirestoreID: 8e9dc83e3f7bcdbebe07e37e90c12d14.
