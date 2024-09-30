@@ -1915,3 +1915,10 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-09-30 16:52:01,891 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
 2024-09-30 16:52:01,892 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-09-30 16:52:01,892 - INFO - No valid log entries generated.
+2024-09-30 17:21:55,518 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-30 17:21:55,521 - INFO - Extracted 56 link records from llm.
+2024-09-30 17:21:55,786 - INFO - Extracted 58 link records from combined_news.
+2024-09-30 17:21:55,786 - INFO - Unique links to process: 2
+2024-09-30 17:21:55,787 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-30 17:21:55,787 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-09-30 17:21:55,787 - INFO - No valid log entries generated.
