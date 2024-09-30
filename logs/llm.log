@@ -1720,3 +1720,10 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-09-30 10:28:55,941 - INFO - Sending 1 log entries to Firebase.
 2024-09-30 10:28:59,295 - INFO - Received 1 document IDs from Peerr.
 2024-09-30 10:28:59,510 - INFO - Logged data to llm collection with FirestoreID: a2e0c58de9b81fb7308f6cdefeefb19a.
+2024-09-30 10:47:00,052 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-30 10:47:00,055 - INFO - Extracted 53 link records from llm.
+2024-09-30 10:47:01,109 - INFO - Extracted 55 link records from combined_news.
+2024-09-30 10:47:01,109 - INFO - Unique links to process: 2
+2024-09-30 10:47:01,110 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-30 10:47:01,110 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-09-30 10:47:01,110 - INFO - No valid log entries generated.
