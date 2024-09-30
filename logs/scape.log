@@ -1556,3 +1556,38 @@
 2024-09-30 22:20:27,322 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
 2024-09-30 22:20:27,323 - INFO - No new data to update.
 2024-09-30 22:20:27,323 - INFO - Medscape script completed.
+2024-09-30 23:22:25,562 - INFO - Medscape script started.
+2024-09-30 23:22:25,563 - INFO - Connection to Medscape established.
+2024-09-30 23:22:25,622 - INFO - Request sent to Medscape API.
+2024-09-30 23:22:26,390 - INFO - Response received from Medscape API.
+2024-09-30 23:22:26,391 - INFO - Response data decoded into dictionary.
+2024-09-30 23:22:26,391 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-09-30 23:22:27,309 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-09-30 23:22:27,309 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-09-30 23:22:27,477 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-09-30 23:22:27,477 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-09-30 23:22:28,132 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-09-30 23:22:28,132 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-09-30 23:22:28,306 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-09-30 23:22:28,307 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-09-30 23:22:28,964 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-09-30 23:22:28,964 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-09-30 23:22:29,135 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-09-30 23:22:29,135 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/individualise-aspirin-therapy-avoid-brain-bleeds-2024a1000ha3
+2024-09-30 23:22:29,787 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/individualise-aspirin-therapy-avoid-brain-bleeds-2024a1000ha3
+2024-09-30 23:22:29,787 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/interactive-learning-key-fewer-antibiotics-2024a1000hcr
+2024-09-30 23:22:29,964 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/interactive-learning-key-fewer-antibiotics-2024a1000hcr
+2024-09-30 23:22:29,965 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/womens-novel-risks-cvd-should-be-reflected-guidance-2024a1000gdc
+2024-09-30 23:22:30,613 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/womens-novel-risks-cvd-should-be-reflected-guidance-2024a1000gdc
+2024-09-30 23:22:30,613 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/over-80-pregnant-women-face-iron-deficiency-third-trimester-2024a1000hgz
+2024-09-30 23:22:30,789 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/over-80-pregnant-women-face-iron-deficiency-third-trimester-2024a1000hgz
+2024-09-30 23:22:30,789 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-30 23:22:31,438 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/extra-vitamin-d-pregnancy-boosts-offspring-bone-density-2024a1000h6y
+2024-09-30 23:22:31,438 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-30 23:22:31,612 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/serum-phosphate-levels-differ-between-men-and-women-2024a1000h74
+2024-09-30 23:22:31,613 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-30 23:22:31,908 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/diabetic-foot-problems-disrupt-lives-across-ethnicities-2024a1000h73
+2024-09-30 23:22:31,909 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-30 23:22:32,207 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/higher-bmi-both-women-and-men-tied-lower-fertility-2024a1000h5m
+2024-09-30 23:22:32,207 - INFO - No new data to update.
+2024-09-30 23:22:32,207 - INFO - Medscape script completed.
