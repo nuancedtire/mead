@@ -1688,3 +1688,35 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-09-30 09:57:19,918 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
 2024-09-30 09:57:19,918 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-09-30 09:57:19,918 - INFO - No valid log entries generated.
+2024-09-30 10:28:32,655 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-30 10:28:32,658 - INFO - Extracted 52 link records from llm.
+2024-09-30 10:28:33,733 - INFO - Extracted 55 link records from combined_news.
+2024-09-30 10:28:33,733 - INFO - Unique links to process: 3
+2024-09-30 10:28:33,734 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-30 10:28:33,734 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-09-30 10:28:44,651 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 10:28:49,676 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 10:28:52,924 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 10:28:52,938 - INFO - Image query: A photorealistic image set in a modern hospital ward, showcasing a nurse in scrubs and a surgical mask, actively using a handheld barcode scanner to verify medication against a patient's wristband. The nurse, a middle-aged woman with a focused expression, stands beside a hospital bed where an elderly male patient, around 75 years old, is resting comfortably. The patient looks reassured, with a slight smile, as the nurse engages with him. The bedside table is organized with various medication vials, each labeled with barcodes, emphasizing the importance of accuracy in medication administration. Bright, natural light floods the room through large windows, creating a clean and inviting atmosphere. In the background, a digital display screen shows real-time data on medication scans, reinforcing the technological aspect of the KBMA system. The composition captures a medium close-up angle, focusing on the interaction between the nurse and patient, highlighting the significance of barcode technology in enhancing medication safety. The overall mood conveys a sense of innovation and trust, reflecting the positive impact of technology on patient care and safety in hospitals.
+2024-09-30 10:28:53,244 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-30 10:28:53,304 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:53,461 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:53,620 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:53,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:53,938 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:54,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:54,610 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:54,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:54,928 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:55,087 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:55,244 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:55,404 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:55,563 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:55,722 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 10:28:55,880 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519/status?logs=false "HTTP/1.1 200 OK"
+2024-09-30 10:28:55,940 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c9618e96-ac4a-4199-ba89-ff3935dca519 "HTTP/1.1 200 OK"
+2024-09-30 10:28:55,940 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/QEs110Ri6Yg1XeQ_bDq_U.png
+2024-09-30 10:28:55,940 - INFO - Image link: https://fal.media/files/koala/QEs110Ri6Yg1XeQ_bDq_U.png
+2024-09-30 10:28:55,941 - INFO - Sending 1 log entries to Firebase.
+2024-09-30 10:28:59,295 - INFO - Received 1 document IDs from Peerr.
+2024-09-30 10:28:59,510 - INFO - Logged data to llm collection with FirestoreID: a2e0c58de9b81fb7308f6cdefeefb19a.
