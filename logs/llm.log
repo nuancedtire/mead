@@ -1755,3 +1755,38 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-09-30 11:55:02,542 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
 2024-09-30 11:55:02,542 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-09-30 11:55:02,542 - INFO - No valid log entries generated.
+2024-09-30 12:49:03,179 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-30 12:49:03,182 - INFO - Extracted 53 link records from llm.
+2024-09-30 12:49:03,572 - INFO - Extracted 56 link records from combined_news.
+2024-09-30 12:49:03,572 - INFO - Unique links to process: 3
+2024-09-30 12:49:08,356 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-09-30 12:49:08,357 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-30 12:49:16,683 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 12:49:20,895 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 12:49:27,624 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 12:49:27,629 - INFO - Image query: A photorealistic image set in a modern laboratory filled with advanced technology and equipment. In the foreground, a diverse group of three researchers—two women and one man—are gathered around a sleek, high-tech computer workstation displaying complex molecular structures on a large screen. One researcher, a South Asian woman in a lab coat, points at the screen with an expression of excitement, while a Black male researcher leans in closer, examining the data with a look of curiosity. The third researcher, a Caucasian woman, takes notes on a digital tablet, her brow furrowed in concentration. The laboratory is brightly lit with fluorescent lights, and glass beakers and test tubes filled with colorful liquids are visible on a nearby counter, symbolizing ongoing experiments. A large poster on the wall illustrates the drug discovery process, emphasizing the role of AI in enhancing chemical diversity. The composition captures a dynamic angle, focusing on the collaborative atmosphere and the researchers' engagement with the innovative technology. The overall mood conveys a sense of optimism and urgency, reflecting the transformative potential of AI in drug discovery and the excitement of scientific advancement.
+2024-09-30 12:49:28,014 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-30 12:49:28,075 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:28,233 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:28,392 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:28,552 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:28,710 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:28,867 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:29,023 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:29,179 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:29,556 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:29,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:29,871 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:30,029 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:30,188 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:30,347 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:30,504 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 12:49:30,664 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3/status?logs=false "HTTP/1.1 200 OK"
+2024-09-30 12:49:30,721 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f7bf0773-4a26-4b56-a2a6-b3b632b459d3 "HTTP/1.1 200 OK"
+2024-09-30 12:49:30,721 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/HpSLfo_mIBf9fxjvolRys.png
+2024-09-30 12:49:30,721 - INFO - Image link: https://fal.media/files/penguin/HpSLfo_mIBf9fxjvolRys.png
+2024-09-30 12:49:33,095 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-09-30 12:49:33,095 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-09-30 12:49:33,095 - INFO - Sending 1 log entries to Firebase.
+2024-09-30 12:49:36,086 - INFO - Received 1 document IDs from Peerr.
+2024-09-30 12:49:36,288 - INFO - Logged data to llm collection with FirestoreID: 22e88932c826826b157eeb36ebfa2238.
