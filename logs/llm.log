@@ -1648,3 +1648,36 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-09-30 09:30:28,654 - INFO - Logged data to llm collection with FirestoreID: 1976db76ffdf04cc2d53bb434dd81a23.
 2024-09-30 09:30:29,338 - INFO - Logged data to llm collection with FirestoreID: 7f8c18e8fc3bfa433382d9f4913d4c6e.
 2024-09-30 09:30:29,681 - INFO - Logged data to llm collection with FirestoreID: 9325ce3d47ac1a6e80a47250481025fc.
+2024-09-30 09:44:21,954 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-09-30 09:44:21,957 - INFO - Extracted 51 link records from llm.
+2024-09-30 09:44:22,365 - INFO - Extracted 54 link records from combined_news.
+2024-09-30 09:44:22,366 - INFO - Unique links to process: 3
+2024-09-30 09:44:22,366 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-09-30 09:44:22,366 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-09-30 09:44:36,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 09:44:39,316 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 09:44:43,401 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-30 09:44:43,406 - INFO - Image query: A photorealistic image set in a modern research laboratory. A diverse group of four scientists, two men and two women, are gathered around a high-tech laboratory table cluttered with vials, pipettes, and a laptop displaying complex data graphs related to antiviral resistance. One scientist, a middle-aged Asian woman in a lab coat, is pointing at the screen with a look of concern, while a young Black male scientist, also in a lab coat, takes notes on a clipboard, his expression focused and serious. The other two scientists, a Caucasian male and a Hispanic female, are engaged in discussion, with the male gesturing towards a whiteboard filled with diagrams of the SARS-CoV-2 virus and notes on antiviral treatments. The lab is brightly lit with overhead fluorescent lights, and large windows allow natural light to flood in, creating a sterile yet dynamic atmosphere. The composition captures a medium shot, emphasizing the collaborative effort and urgency in addressing antiviral resistance. The overall mood conveys a sense of determination and urgency, reflecting the critical nature of adapting treatment protocols in the face of evolving viral challenges.
+2024-09-30 09:44:43,677 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-09-30 09:44:43,746 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:43,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:44,084 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:44,251 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:44,419 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:44,587 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:44,755 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:44,923 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:45,093 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:45,263 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:45,431 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:45,600 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:45,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:45,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:46,107 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 202 Accepted"
+2024-09-30 09:44:46,275 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018/status?logs=false "HTTP/1.1 200 OK"
+2024-09-30 09:44:46,342 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1fe5ce4d-6029-4ccc-a26f-4f8bc413f018 "HTTP/1.1 200 OK"
+2024-09-30 09:44:46,342 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/JJLB6BvRaGkAvlg_rHQpa.png
+2024-09-30 09:44:46,342 - INFO - Image link: https://fal.media/files/tiger/JJLB6BvRaGkAvlg_rHQpa.png
+2024-09-30 09:44:46,343 - INFO - Sending 1 log entries to Firebase.
+2024-09-30 09:44:49,639 - INFO - Received 1 document IDs from Peerr.
+2024-09-30 09:44:49,872 - INFO - Logged data to llm collection with FirestoreID: c4e6edda8fede7b3ab8675b8a3d9defd.
