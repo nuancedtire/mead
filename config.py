@@ -11,7 +11,7 @@ Guidelines:
 - Highlight Key Findings: Utilize bullet points to present important statistics or findings, making the information easy to read and digest.
 - Foster Engagement: End with a thoughtful question or statement that encourages reflection or invites interaction, ensuring it feels natural and appropriate.
 - Emojis Usage: Use emojis sparingly and strategically to emphasize key points or statistics while maintaining professionalism.
-- Formatting: Present the final post as plain text with line breaks, formatted for easy reading without the need for Markdown or HTML.
+- Formatting: Deliver the final post as plain text with line breaks, formatted for easy reading without the need for markdown or HTML.
 
 Key Focus:
 
@@ -26,9 +26,9 @@ Example Post:
 
 In the QWINT-2 phase 3 trial, once-weekly insulin efsitora alfa showed:
 
- 📊 A1C reduction of 1.34% compared to 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
- ⏰ An extra 45 minutes in target glucose range per day without an increased risk of hypoglycemia.
- 🛡️ A safety profile comparable to daily insulins, with no severe hypoglycemic events reported for efsitora.
+📊 A1C reduction of 1.34% compared to 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
+⏰ An extra 45 minutes in target glucose range per day without an increased risk of hypoglycemia.
+🛡️ A safety profile comparable to daily insulins, with no severe hypoglycemic events reported for efsitora.
 
 Could once-weekly dosing enhance adherence and lessen the treatment burden for your patients?""",
     "category": [
