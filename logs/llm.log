@@ -2197,3 +2197,40 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 11:23:04,052 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-01 11:23:04,052 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/roches-pnh-drug-piasky-backed-nhs-use-nice
 2024-10-01 11:23:04,052 - INFO - No valid log entries generated.
+2024-10-01 11:41:22,305 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 11:41:22,308 - INFO - Extracted 60 link records from llm.
+2024-10-01 11:41:22,757 - INFO - Extracted 65 link records from combined_news.
+2024-10-01 11:41:22,757 - INFO - Unique links to process: 5
+2024-10-01 11:41:22,757 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 11:41:34,561 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 11:41:38,776 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 11:41:43,127 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 11:41:43,132 - INFO - Image query: A photorealistic image set in a modern laboratory focused on biomedical research. In the foreground, a diverse group of three scientists—two women (one of Asian descent and one of Black descent) and one Caucasian man—are gathered around a high-tech microscope, intently examining a blood sample on a glass slide. The microscope is illuminated with bright LED lights, casting a focused glow on the slide, which shows intricate patterns representing glycosylation signatures. The scientists are dressed in white lab coats, with safety goggles perched on their heads, and their expressions reflect a mix of curiosity and excitement about their groundbreaking findings. In the background, shelves filled with laboratory equipment and vials of blood samples create a sense of a busy research environment. A large digital screen displays a colorful infographic illustrating the glycosylation signature and its correlation with Crohn's disease, emphasizing the significance of early detection. The room is brightly lit with a clean, sterile atmosphere, and the color palette includes whites, blues, and greens, symbolizing health and innovation. The composition captures a medium shot, focusing on the collaborative spirit of scientific discovery, highlighting the potential for early intervention in Crohn's disease. The overall mood conveys a sense of hope and urgency, reflecting the transformative impact of this research on future healthcare practices.
+2024-10-01 11:41:43,338 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 11:41:43,396 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:43,552 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:43,713 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:43,869 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:44,025 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:44,184 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:44,340 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:44,500 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:44,659 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:44,818 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:44,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:45,135 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:45,291 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:45,450 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:45,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:45,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:45,936 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 11:41:46,092 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 11:41:46,148 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0d2ea4b5-c130-4117-8f69-0bae6e978188 "HTTP/1.1 200 OK"
+2024-10-01 11:41:46,148 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/FZ8cM_2_4o51wEZczygtE.png
+2024-10-01 11:41:46,148 - INFO - Image link: https://fal.media/files/zebra/FZ8cM_2_4o51wEZczygtE.png
+2024-10-01 11:41:46,149 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 11:41:46,149 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 11:41:46,150 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/roches-pnh-drug-piasky-backed-nhs-use-nice
+2024-10-01 11:41:46,150 - INFO - Sending 1 log entries to Firebase.
+2024-10-01 11:41:49,318 - INFO - Received 1 document IDs from Peerr.
+2024-10-01 11:41:49,519 - INFO - Logged data to llm collection with FirestoreID: 5a5d8604c769f38176c0fbcf1e91777b.
