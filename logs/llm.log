@@ -2433,3 +2433,44 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 14:26:43,833 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-01 14:26:43,833 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-01 14:26:43,833 - INFO - No valid log entries generated.
+2024-10-01 14:44:26,667 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 14:44:26,670 - INFO - Extracted 66 link records from llm.
+2024-10-01 14:44:26,970 - INFO - Extracted 70 link records from combined_news.
+2024-10-01 14:44:26,970 - INFO - Unique links to process: 4
+2024-10-01 14:44:26,970 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 14:44:26,970 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 14:44:26,970 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 14:44:37,888 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 14:44:43,104 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 14:44:46,931 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 14:44:46,935 - INFO - Image query: A photorealistic image set in a modern oncology consultation room. A middle-aged female oncologist in a tailored white coat stands beside a sleek desk, reviewing a digital tablet displaying clinical data on elacestrant. Her expression is focused and contemplative, reflecting the weight of the decision-making process regarding advanced breast cancer treatment. Across from her, a young woman in her early 30s, with short hair and a thoughtful demeanor, sits in a comfortable chair, her hands clasped in her lap, conveying a mix of hope and uncertainty. The room is brightly lit with natural light streaming through large windows, casting soft shadows that create an inviting yet serious atmosphere. On the wall, a large poster illustrates the molecular structure of estrogen receptors, subtly emphasizing the relevance of the ESR1 mutation in breast cancer treatment. A potted plant in the corner adds a touch of warmth to the clinical setting. The composition captures a medium close-up angle, focusing on the interaction between the oncologist and the patient, highlighting the importance of communication and support in navigating treatment options for advanced breast cancer. The overall mood conveys a sense of urgency and empathy, reflecting the critical nature of the ongoing discussions surrounding innovative therapies like elacestrant.
+2024-10-01 14:44:47,202 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 14:44:47,225 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:47,343 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:47,463 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:47,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:47,699 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:47,818 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:47,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,055 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,177 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,295 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,415 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,536 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,656 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,775 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:48,894 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,014 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,252 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,491 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,803 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 14:44:49,920 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 14:44:49,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1ff963f-8574-494b-80ba-ca0acb4adab9 "HTTP/1.1 200 OK"
+2024-10-01 14:44:49,937 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/BVRQ-Me5Hg5sMcMhj2m-6.png
+2024-10-01 14:44:49,938 - INFO - Image link: https://fal.media/files/tiger/BVRQ-Me5Hg5sMcMhj2m-6.png
+2024-10-01 14:44:49,938 - INFO - Sending 1 log entries to Firebase.
+2024-10-01 14:44:53,301 - INFO - Received 1 document IDs from Peerr.
+2024-10-01 14:44:53,461 - INFO - Logged data to llm collection with FirestoreID: e7083b1a0236999ba04f36747c72dd1a.
