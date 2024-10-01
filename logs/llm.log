@@ -2702,3 +2702,11 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 19:18:03,628 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-01 19:18:03,628 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-01 19:18:03,628 - INFO - No valid log entries generated.
+2024-10-01 20:23:31,731 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 20:23:31,735 - INFO - Extracted 67 link records from llm.
+2024-10-01 20:23:32,212 - INFO - Extracted 70 link records from combined_news.
+2024-10-01 20:23:32,213 - INFO - Unique links to process: 3
+2024-10-01 20:23:32,213 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 20:23:32,213 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 20:23:32,213 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 20:23:32,213 - INFO - No valid log entries generated.
