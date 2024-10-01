@@ -2621,3 +2621,38 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 18:03:15,848 - INFO - Received 2 document IDs from Peerr.
 2024-10-01 18:03:15,998 - INFO - Logged data to llm collection with FirestoreID: 8aae823bd6527626f96643a03c5ab150.
 2024-10-01 18:03:16,498 - INFO - Logged data to llm collection with FirestoreID: 9325ce3d47ac1a6e80a47250481025fc.
+2024-10-01 18:17:32,107 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 18:17:32,110 - INFO - Extracted 66 link records from llm.
+2024-10-01 18:17:32,534 - INFO - Extracted 70 link records from combined_news.
+2024-10-01 18:17:32,534 - INFO - Unique links to process: 4
+2024-10-01 18:17:32,534 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 18:17:32,534 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 18:17:50,054 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 18:17:57,796 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 18:18:02,164 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 18:18:02,169 - INFO - Image query: A photorealistic image set in a modern healthcare clinic focused on diabetic foot care. In the foreground, a compassionate nurse in scrubs is examining the feet of a middle-aged male patient, around 60 years old, who is seated on an examination table. The nurse gently holds one of the patient's feet, inspecting it closely with a focused expression, while the patient looks relaxed yet attentive, indicating trust in the care he is receiving. Medical equipment, such as a foot care kit and a digital tablet displaying patient records, is visible on a nearby counter, symbolizing the integration of technology in patient care. The room is bright and airy, with natural light streaming through a window, creating a welcoming atmosphere. On the wall, a poster illustrating diabetic foot health and prevention strategies is prominently displayed, reinforcing the importance of foot screening programs. The composition captures a medium close-up angle, emphasizing the interaction between the nurse and patient, highlighting the significance of diabetic foot screening in preventing complications. The overall mood conveys a sense of hope and proactive healthcare, reflecting the critical nature of foot health management in diabetic patients.
+2024-10-01 18:18:02,484 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 18:18:02,541 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:02,697 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:02,855 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:03,012 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:03,168 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:03,325 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:03,482 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:03,641 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:03,801 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:03,958 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:04,115 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:04,272 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:04,431 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:04,587 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:04,744 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:04,902 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:18:05,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 18:18:05,118 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/74e4e117-a74d-4dd9-8087-837ad7a19cf3 "HTTP/1.1 200 OK"
+2024-10-01 18:18:05,119 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/aQzpAX-xDB3OlPE2F7YMQ.png
+2024-10-01 18:18:05,119 - INFO - Image link: https://fal.media/files/monkey/aQzpAX-xDB3OlPE2F7YMQ.png
+2024-10-01 18:18:05,119 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 18:18:05,119 - INFO - Sending 1 log entries to Firebase.
+2024-10-01 18:18:08,343 - INFO - Received 1 document IDs from Peerr.
+2024-10-01 18:18:08,546 - INFO - Logged data to llm collection with FirestoreID: 8aae823bd6527626f96643a03c5ab150.
