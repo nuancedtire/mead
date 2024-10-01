@@ -2143,3 +2143,39 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 10:27:55,776 - INFO - Sending 1 log entries to Firebase.
 2024-10-01 10:27:58,833 - INFO - Received 1 document IDs from Peerr.
 2024-10-01 10:27:58,941 - INFO - Logged data to llm collection with FirestoreID: 3b6a62a1bde32efc6232565e301b97fb.
+2024-10-01 10:46:42,677 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 10:46:42,681 - INFO - Extracted 59 link records from llm.
+2024-10-01 10:46:43,147 - INFO - Extracted 64 link records from combined_news.
+2024-10-01 10:46:43,148 - INFO - Unique links to process: 5
+2024-10-01 10:46:43,148 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 10:46:43,148 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 10:46:43,148 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 10:46:43,148 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/roches-pnh-drug-piasky-backed-nhs-use-nice
+2024-10-01 10:47:04,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 10:47:10,399 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 10:47:15,495 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 10:47:15,500 - INFO - Image query: A photorealistic image depicting a modern surgical operating room, filled with advanced technology and bright, sterile lighting. In the center, a skilled surgeon in scrubs and a surgical mask is intently focused on a high-tech display screen showing real-time data and 3D imaging of a hip joint. The screen is illuminated, casting a soft glow on the surgeon's face, highlighting their concentration and expertise. Surrounding the surgeon are surgical instruments neatly arranged on a sterile tray, and a robotic arm is positioned nearby, ready to assist in the procedure. In the background, a team of healthcare professionals, including a nurse and an anesthesiologist, are engaged in their tasks, showcasing collaboration in the surgical environment. The walls are adorned with digital monitors displaying patient vitals and surgical metrics, emphasizing the integration of technology in enhancing surgical outcomes. The composition captures a dynamic angle, focusing on the surgeon’s interaction with the technology, reflecting the innovative spirit of the advancements in hip replacement surgeries and the potential for improved patient care. The overall mood conveys a sense of urgency and hope, illustrating the transformative impact of real-time data in medicine.
+2024-10-01 10:47:16,092 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 10:47:16,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:16,328 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:16,494 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:16,662 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:16,827 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:16,997 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:17,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:17,327 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:17,496 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:17,660 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:17,826 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:17,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:18,157 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:18,322 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:18,488 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:18,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:47:18,826 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 10:47:18,889 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f41b918f-4e01-4734-a355-fe8880394654 "HTTP/1.1 200 OK"
+2024-10-01 10:47:18,890 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/19pKIGNs84OW8XqnpfPfJ.png
+2024-10-01 10:47:18,890 - INFO - Image link: https://fal.media/files/tiger/19pKIGNs84OW8XqnpfPfJ.png
+2024-10-01 10:47:18,890 - INFO - Sending 1 log entries to Firebase.
+2024-10-01 10:47:22,000 - INFO - Received 1 document IDs from Peerr.
+2024-10-01 10:47:22,238 - INFO - Logged data to llm collection with FirestoreID: dca2d23b04b738c6ce357276f19ba101.
