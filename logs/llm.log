@@ -2409,3 +2409,11 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 13:32:58,207 - INFO - Received 2 document IDs from Peerr.
 2024-10-01 13:32:58,324 - INFO - Logged data to llm collection with FirestoreID: 8aae823bd6527626f96643a03c5ab150.
 2024-10-01 13:32:58,712 - INFO - Logged data to llm collection with FirestoreID: af1a78f7e5a3b9694d3bd7f9afffcffc.
+2024-10-01 13:46:39,168 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 13:46:39,172 - INFO - Extracted 66 link records from llm.
+2024-10-01 13:46:39,408 - INFO - Extracted 69 link records from combined_news.
+2024-10-01 13:46:39,408 - INFO - Unique links to process: 3
+2024-10-01 13:46:39,408 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 13:46:39,408 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 13:46:39,408 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 13:46:39,408 - INFO - No valid log entries generated.
