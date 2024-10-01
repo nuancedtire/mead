@@ -2656,3 +2656,41 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 18:18:05,119 - INFO - Sending 1 log entries to Firebase.
 2024-10-01 18:18:08,343 - INFO - Received 1 document IDs from Peerr.
 2024-10-01 18:18:08,546 - INFO - Logged data to llm collection with FirestoreID: 8aae823bd6527626f96643a03c5ab150.
+2024-10-01 18:29:21,876 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 18:29:21,879 - INFO - Extracted 66 link records from llm.
+2024-10-01 18:29:22,131 - INFO - Extracted 70 link records from combined_news.
+2024-10-01 18:29:22,131 - INFO - Unique links to process: 4
+2024-10-01 18:29:22,131 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 18:29:22,132 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 18:29:30,279 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 18:29:33,749 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 18:29:33,753 - INFO - Image query: A photorealistic image set in a modern healthcare clinic focused on diabetic foot care. In the foreground, a middle-aged podiatrist, wearing a white coat and gloves, examines the foot of an elderly female patient seated on an examination table. The patient, around 70 years old, has a concerned yet hopeful expression as she looks at the doctor. The podiatrist is using a handheld Doppler ultrasound device to assess blood flow in the patient's foot, symbolizing advanced diagnostic techniques. The room is bright and well-organized, with posters on the walls illustrating diabetic foot health and prevention strategies. A digital screen in the background displays data analytics related to foot screening outcomes, emphasizing the importance of evidence-based practices. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the significance of foot screening programs in preventing complications. The overall mood conveys a sense of urgency and care, reflecting the critical nature of addressing diabetic foot health through effective screening and intervention strategies.
+2024-10-01 18:29:33,888 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 18:29:33,914 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,038 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,287 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,412 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,538 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,664 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,789 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:34,915 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,043 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,169 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,296 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,423 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,548 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,672 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,801 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:35,926 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:36,065 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:36,190 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:36,315 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 18:29:36,442 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 18:29:36,466 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/75a7f900-1276-4646-8d8c-cdd93b86f972 "HTTP/1.1 200 OK"
+2024-10-01 18:29:36,467 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/-CDCZiGkIrskPQE2MKsWS.png
+2024-10-01 18:29:36,467 - INFO - Image link: https://fal.media/files/penguin/-CDCZiGkIrskPQE2MKsWS.png
+2024-10-01 18:29:36,467 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 18:29:36,468 - INFO - Sending 1 log entries to Firebase.
+2024-10-01 18:29:39,741 - INFO - Received 1 document IDs from Peerr.
+2024-10-01 18:29:39,901 - INFO - Logged data to llm collection with FirestoreID: 8aae823bd6527626f96643a03c5ab150.
