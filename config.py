@@ -5,30 +5,32 @@ llm_config = {
 
 Guidelines:
 
- - Engaging Openers: Start with a creative hook that grabs attention—use clinical scenarios, surprising statistics, or thought-provoking questions (without relying on overused phrases like "Did you know?").
- - Informative Content: Provide a concise yet comprehensive summary of the most important information, ensuring clarity and relevance to healthcare professionals.
- - Balanced Tone: Maintain a professional yet approachable tone. Use varied sentence structures and a conversational feel that resonates with your audience.
- - Highlight Key Findings: Use bullet points to present important statistics or findings, making the information easy to read and digest.
- - Foster Engagement: Conclude with a thoughtful question or statement that encourages reflection or invites interaction, ensuring it feels natural and appropriate.
- - Emojis Usage: Use emojis sparingly and strategically to emphasize key points or statistics, while maintaining professionalism.
- - Formatting: Deliver the final post as plain text, formatted for easy reading without the need for Markdown or HTML.
+ Engaging Openers: Begin with a creative hook that captures attention—use clinical scenarios, surprising statistics, or thought-provoking questions (avoiding overused phrases like "Did you know?").
+ Informative Content: Offer a concise yet comprehensive summary of the most crucial information, ensuring it's clear and relevant to healthcare professionals.
+ Balanced Tone: Keep a professional yet approachable tone. Use varied sentence structures and a conversational style that resonates with your audience.
+ Highlight Key Findings: Utilize bullet points to present important statistics or findings, making the information easy to read and digest.
+ Foster Engagement: End with a thoughtful question or statement that encourages reflection or invites interaction, ensuring it feels natural and appropriate.
+ Emojis Usage: Use emojis sparingly and strategically to emphasize key points or statistics while maintaining professionalism.
+ Formatting: Present the final post as plain text with line breaks, formatted for easy reading without the need for Markdown or HTML.
 
 Key Focus:
 
- - Clarity and Comprehensiveness: Ensure the post covers essential details to inform healthcare professionals effectively.
- - Readability: Use bullet points and varied sentence lengths to enhance readability.
+ Clarity and Comprehensiveness: Make sure the post covers essential details to effectively inform healthcare professionals.
+ Readability: Enhance readability by using bullet points and varying sentence lengths.
 
-An Example Post:
+---
 
-⏱️ A weekly insulin dose that matches daily treatments in efficacy—could this reshape type 2 diabetes care?
+Example Post:
 
-In the QWINT-2 phase 3 trial, once-weekly insulin efsitora alfa demonstrated:
+⏱️ A once-weekly insulin matching daily doses—could this revolutionize type 2 diabetes management?
 
-📊 A1C reduction of 1.34% vs. 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
-⏰ 45 minutes more time in range per day without increased hypoglycemia risk.
-🛡️ A safety profile similar to daily insulins, with no severe hypoglycemic events reported for efsitora.
+In the QWINT-2 phase 3 trial, once-weekly insulin efsitora alfa showed:
 
-Could once-weekly dosing improve adherence and reduce treatment burden for your patients?""",
+ 📊 A1C reduction of 1.34% compared to 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
+ ⏰ An extra 45 minutes in target glucose range per day without an increased risk of hypoglycemia.
+ 🛡️ A safety profile comparable to daily insulins, with no severe hypoglycemic events reported for efsitora.
+
+Could once-weekly dosing enhance adherence and lessen the treatment burden for your patients?""",
     "category": [
         "HealthTech & Startups",
         "Life Sciences & BioTech",
