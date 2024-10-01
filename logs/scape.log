@@ -2286,3 +2286,36 @@
 2024-10-01 14:57:16,981 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/over-80-pregnant-women-face-iron-deficiency-third-trimester-2024a1000hgz
 2024-10-01 14:57:16,981 - INFO - No new data to update.
 2024-10-01 14:57:16,981 - INFO - Medscape script completed.
+2024-10-01 15:26:47,014 - INFO - Medscape script started.
+2024-10-01 15:26:47,015 - INFO - Connection to Medscape established.
+2024-10-01 15:26:47,142 - INFO - Request sent to Medscape API.
+2024-10-01 15:26:47,624 - INFO - Response received from Medscape API.
+2024-10-01 15:26:47,625 - INFO - Response data decoded into dictionary.
+2024-10-01 15:26:47,625 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-01 15:26:48,337 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-01 15:26:48,337 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-01 15:26:48,460 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-01 15:26:48,460 - INFO - Processing item: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-01 15:26:48,882 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-01 15:26:48,883 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-01 15:26:49,008 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-01 15:26:49,009 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-01 15:26:49,451 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-01 15:26:49,451 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-01 15:26:49,564 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-01 15:26:49,565 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-10-01 15:26:49,997 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-10-01 15:26:49,998 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-10-01 15:26:50,104 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-10-01 15:26:50,104 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-10-01 15:26:50,552 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-10-01 15:26:50,552 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/individualise-aspirin-therapy-avoid-brain-bleeds-2024a1000ha3
+2024-10-01 15:26:50,663 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/individualise-aspirin-therapy-avoid-brain-bleeds-2024a1000ha3
+2024-10-01 15:26:50,664 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/interactive-learning-key-fewer-antibiotics-2024a1000hcr
+2024-10-01 15:26:51,098 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/interactive-learning-key-fewer-antibiotics-2024a1000hcr
+2024-10-01 15:26:51,098 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/womens-novel-risks-cvd-should-be-reflected-guidance-2024a1000gdc
+2024-10-01 15:26:51,215 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/womens-novel-risks-cvd-should-be-reflected-guidance-2024a1000gdc
+2024-10-01 15:26:51,215 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/over-80-pregnant-women-face-iron-deficiency-third-trimester-2024a1000hgz
+2024-10-01 15:26:51,648 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/over-80-pregnant-women-face-iron-deficiency-third-trimester-2024a1000hgz
+2024-10-01 15:26:51,648 - INFO - No new data to update.
+2024-10-01 15:26:51,648 - INFO - Medscape script completed.
