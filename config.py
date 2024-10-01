@@ -24,9 +24,9 @@ An Example Post:
 
 In the QWINT-2 phase 3 trial, once-weekly insulin efsitora alfa demonstrated:
 
- - A1C reduction of 1.34% vs. 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
- - 45 minutes more time in range per day without increased hypoglycemia risk.
- - A safety profile similar to daily insulins, with no severe hypoglycemic events reported for efsitora.
+📊 A1C reduction of 1.34% vs. 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
+⏰ 45 minutes more time in range per day without increased hypoglycemia risk.
+🛡️ A safety profile similar to daily insulins, with no severe hypoglycemic events reported for efsitora.
 
 Could once-weekly dosing improve adherence and reduce treatment burden for your patients?""",
     "category": [
