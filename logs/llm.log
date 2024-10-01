@@ -2106,3 +2106,40 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 09:56:36,529 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-01 09:56:36,529 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/roches-pnh-drug-piasky-backed-nhs-use-nice
 2024-10-01 09:56:36,529 - INFO - No valid log entries generated.
+2024-10-01 10:27:23,572 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 10:27:23,576 - INFO - Extracted 58 link records from llm.
+2024-10-01 10:27:23,867 - INFO - Extracted 63 link records from combined_news.
+2024-10-01 10:27:23,868 - INFO - Unique links to process: 5
+2024-10-01 10:27:23,868 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 10:27:39,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 10:27:44,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 10:27:52,700 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 10:27:52,705 - INFO - Image query: A photorealistic image set in a modern primary care clinic, showcasing a diverse team of healthcare professionals engaged in a collaborative meeting. In the foreground, a middle-aged female GP, wearing a white coat, is pointing at a digital tablet displaying automated alerts for patient safety issues, her expression focused and determined. Beside her, a young male nurse, also in scrubs, is taking notes, looking attentive and engaged. In the background, a large screen on the wall shows a flowchart of clinical decision support tools, emphasizing the integration of technology in patient care. The room is bright and well-lit, with natural light streaming through large windows, creating a welcoming atmosphere. On a nearby table, medical equipment and pamphlets about digital health inclusion are neatly arranged, symbolizing the clinic's commitment to patient safety. The composition captures a medium-wide angle, highlighting the teamwork and urgency of the discussion, while the overall mood conveys a sense of proactive engagement and dedication to enhancing patient safety through technology.
+2024-10-01 10:27:53,082 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 10:27:53,128 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:53,277 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:53,423 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:53,570 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:53,718 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:53,863 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:54,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:54,157 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:54,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:54,568 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:54,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:54,859 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:55,005 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:55,149 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:55,293 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:55,440 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:55,586 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 10:27:55,730 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 10:27:55,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ad294ebb-7ea1-4050-84b3-c90158518f89 "HTTP/1.1 200 OK"
+2024-10-01 10:27:55,775 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/_2aYRfzUnR1ziwmS3uJe1.png
+2024-10-01 10:27:55,775 - INFO - Image link: https://fal.media/files/tiger/_2aYRfzUnR1ziwmS3uJe1.png
+2024-10-01 10:27:55,776 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 10:27:55,776 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 10:27:55,776 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/roches-pnh-drug-piasky-backed-nhs-use-nice
+2024-10-01 10:27:55,776 - INFO - Sending 1 log entries to Firebase.
+2024-10-01 10:27:58,833 - INFO - Received 1 document IDs from Peerr.
+2024-10-01 10:27:58,941 - INFO - Logged data to llm collection with FirestoreID: 3b6a62a1bde32efc6232565e301b97fb.
