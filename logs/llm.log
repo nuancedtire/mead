@@ -2079,3 +2079,12 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 08:21:06,843 - INFO - Received 2 document IDs from Peerr.
 2024-10-01 08:21:06,975 - INFO - Logged data to llm collection with FirestoreID: ae77393222c27d9fd9d838f34d8a5ccd.
 2024-10-01 08:21:07,339 - INFO - Logged data to llm collection with FirestoreID: fc9460ab5f4f128070ef423834c21bc3.
+2024-10-01 09:26:55,484 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 09:26:55,487 - INFO - Extracted 58 link records from llm.
+2024-10-01 09:26:55,820 - INFO - Extracted 62 link records from combined_news.
+2024-10-01 09:26:55,820 - INFO - Unique links to process: 4
+2024-10-01 09:26:55,820 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 09:26:55,821 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 09:26:55,821 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 09:26:55,821 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/roches-pnh-drug-piasky-backed-nhs-use-nice
+2024-10-01 09:26:55,821 - INFO - No valid log entries generated.
