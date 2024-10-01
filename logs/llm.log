@@ -2344,3 +2344,68 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-01 12:49:35,079 - INFO - Logged data to llm collection with FirestoreID: 93e7f37afa9c7ccc9c8701376bdb145e.
 2024-10-01 12:49:35,522 - INFO - Logged data to llm collection with FirestoreID: c41d85e0e66141e064c2ded57a150781.
 2024-10-01 12:49:35,698 - INFO - Logged data to llm collection with FirestoreID: d1a81d29b8d06f2c78c691e40065a364.
+2024-10-01 13:31:55,587 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-01 13:31:55,591 - INFO - Extracted 64 link records from llm.
+2024-10-01 13:31:55,781 - INFO - Extracted 69 link records from combined_news.
+2024-10-01 13:31:55,782 - INFO - Unique links to process: 5
+2024-10-01 13:31:55,782 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-01 13:31:55,782 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-01 13:32:16,845 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 13:32:22,404 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 13:32:26,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 13:32:26,570 - INFO - Image query: A photorealistic image set in a modern healthcare clinic dedicated to diabetic care. A middle-aged female podiatrist, wearing a white coat and protective gloves, is examining the foot of an elderly male patient, around 70 years old, who is seated on an examination table. The patient’s foot is elevated, and the podiatrist is using a handheld device to assess the condition of the foot, showcasing a focused and professional demeanor. The patient appears slightly anxious yet hopeful, reflecting the importance of the screening process. The room is bright and well-organized, with medical charts and diabetic care posters on the walls, emphasizing the significance of foot health in diabetes management. A digital screen in the background displays statistics related to diabetic foot complications, subtly reinforcing the topic of the post. The composition captures a medium close-up angle, focusing on the interaction between the podiatrist and patient, highlighting the critical nature of diabetic foot screening programs. The overall mood conveys a sense of urgency and care, reflecting the importance of effective screening in preventing complications associated with diabetes.
+2024-10-01 13:32:26,874 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 13:32:26,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:27,055 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:27,196 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:27,336 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:27,478 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:27,618 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:27,758 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:27,897 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:28,035 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:28,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:28,316 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:28,455 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:28,597 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:28,735 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:28,872 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:29,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:29,155 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:29,298 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:29,437 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 13:32:29,474 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b868697-f445-4c70-99e1-e513c2245f9a "HTTP/1.1 200 OK"
+2024-10-01 13:32:29,474 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/bhA5Ac4SPk5WyWnv9T4eX.png
+2024-10-01 13:32:29,474 - INFO - Image link: https://fal.media/files/koala/bhA5Ac4SPk5WyWnv9T4eX.png
+2024-10-01 13:32:29,475 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-01 13:32:42,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 13:32:47,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 13:32:52,216 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-01 13:32:52,221 - INFO - Image query: A photorealistic image set in a modern gynecological clinic. A female gynecologist in a white lab coat, with a stethoscope around her neck, is seated at a sleek, contemporary desk, engaged in a thoughtful conversation with a young woman in her late 20s, who appears concerned yet hopeful. The patient, with a subtle expression of vulnerability, is leaning slightly forward, her hands clasped together on the desk, indicating her eagerness to discuss her health. The doctor is looking directly at her, with a compassionate expression, as she gestures towards a digital tablet displaying graphs and statistics related to mood swings and gynecological disorders. The room is bright and airy, with soft natural light streaming through large windows adorned with light curtains, creating a warm and inviting atmosphere. On the wall, a colorful anatomical poster of the female reproductive system is visible, symbolizing the focus on gynecological health. The composition captures a medium close-up angle, emphasizing the empathetic interaction between the doctor and patient, highlighting the critical link between mental health and gynecological conditions. The overall mood conveys a sense of urgency and care, reflecting the importance of integrating psychological support into women's health management.
+2024-10-01 13:32:52,345 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-01 13:32:52,382 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:52,521 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:52,656 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:52,791 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:52,928 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:53,062 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:53,198 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:53,337 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:53,474 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:53,609 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:53,745 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:53,880 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:54,020 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:54,156 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:54,292 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:54,463 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:54,709 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:54,845 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-01 13:32:54,979 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12/status?logs=false "HTTP/1.1 200 OK"
+2024-10-01 13:32:55,014 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ec34b1db-edb8-48e7-a7d7-1e653cfaba12 "HTTP/1.1 200 OK"
+2024-10-01 13:32:55,014 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/bPef3IREmuLTvtfFx-bhj.png
+2024-10-01 13:32:55,014 - INFO - Image link: https://fal.media/files/elephant/bPef3IREmuLTvtfFx-bhj.png
+2024-10-01 13:32:55,015 - INFO - Sending 2 log entries to Firebase.
+2024-10-01 13:32:58,207 - INFO - Received 2 document IDs from Peerr.
+2024-10-01 13:32:58,324 - INFO - Logged data to llm collection with FirestoreID: 8aae823bd6527626f96643a03c5ab150.
+2024-10-01 13:32:58,712 - INFO - Logged data to llm collection with FirestoreID: af1a78f7e5a3b9694d3bd7f9afffcffc.
