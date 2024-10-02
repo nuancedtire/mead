@@ -961,3 +961,12 @@
 2024-10-02 15:43:46,906 - INFO - Total items processed: 5
 2024-10-02 15:43:47,844 - INFO - Data saved to Firestore. Total items: 5.
 2024-10-02 15:43:47,844 - INFO - Scraping completed.
+2024-10-02 15:56:34,607 - INFO - Starting scrape for https://www.nih.gov/health-information/nih-clinical-research-trials-you/news
+2024-10-02 15:56:34,982 - INFO - Processed item: Drug Combo JAKs Up Immunotherapy in Two Clinical Trials - 2024-08-08
+2024-10-02 15:56:34,982 - INFO - Processed item: Vigorous exercise not linked to increased risk of adverse cardiac events in long QT syndrome - 2024-07-25
+2024-10-02 15:56:34,983 - INFO - Processed item: Immunotherapy approach shows potential in some people with metastatic solid tumors - 2024-07-11
+2024-10-02 15:56:34,983 - INFO - Processed item: Trial Establishes Preferred Treatment for Some People with Esophageal Cancer - 2024-07-09
+2024-10-02 15:56:34,984 - INFO - Processed item: Experimental mRNA Vaccine Hints at Potential Against Glioblastoma - 2024-06-11
+2024-10-02 15:56:34,984 - INFO - Total items processed: 5
+2024-10-02 15:56:35,765 - INFO - Data saved to Firestore. Total items: 5.
+2024-10-02 15:56:35,765 - INFO - Scraping completed.
