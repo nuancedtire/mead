@@ -2911,3 +2911,40 @@ The walls are adorned with inspirational posters about innovation and resilience
 2024-10-02 08:20:11,991 - INFO - Received 2 document IDs from Peerr.
 2024-10-02 08:20:12,158 - INFO - Logged data to llm collection with FirestoreID: d5657ec9436ac8645376c7c062a951ad.
 2024-10-02 08:20:12,623 - INFO - Logged data to llm collection with FirestoreID: ff99d3799faedf01990e898f612eef55.
+2024-10-02 09:26:15,923 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 09:26:15,926 - INFO - Extracted 71 link records from llm.
+2024-10-02 09:26:16,425 - INFO - Extracted 76 link records from combined_news.
+2024-10-02 09:26:16,425 - INFO - Unique links to process: 5
+2024-10-02 09:26:16,425 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/fda-roundup-october-1-2024-302264624.html
+2024-10-02 09:26:16,426 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 09:26:16,426 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 09:26:16,426 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 09:26:36,752 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 09:26:39,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 09:26:44,193 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 09:26:44,198 - INFO - Image query: A photorealistic image set in a modern hospital ward, featuring a healthcare professional, a middle-aged female endocrinologist, standing beside a hospital bed where a young adult male patient with type 1 diabetes is resting. The doctor, wearing a white coat and a stethoscope around her neck, is attentively reviewing a digital tablet displaying patient data, her expression focused and concerned. The patient, appearing fatigued but alert, has an IV drip beside him and is looking up at the doctor, indicating a discussion about his health. The room is bright and sterile, with medical equipment like a blood pressure monitor and a glucose meter visible on a nearby table, symbolizing ongoing health assessments. A large window allows natural light to flood the room, creating a hopeful yet serious atmosphere. On the wall, a chart illustrating diabetes complications and their relationship to COVID-19 recovery is subtly displayed, emphasizing the critical nature of the conversation. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the urgency of monitoring long-term complications in type 1 diabetes patients post-COVID-19. The overall mood conveys a sense of care, urgency, and the importance of proactive healthcare management.
+2024-10-02 09:26:44,511 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-02 09:26:44,572 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:44,733 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:44,895 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:45,055 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:45,216 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:45,377 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:45,537 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:45,696 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:45,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:46,012 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:46,170 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:46,331 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:46,491 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:46,650 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:46,809 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:46,968 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:47,126 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 09:26:47,284 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff/status?logs=false "HTTP/1.1 200 OK"
+2024-10-02 09:26:47,340 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/244be7d5-bf5d-4e02-863f-501ad75923ff "HTTP/1.1 200 OK"
+2024-10-02 09:26:47,340 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/jlAH5vHoCQOzcmZvNLLaM.png
+2024-10-02 09:26:47,341 - INFO - Image link: https://fal.media/files/penguin/jlAH5vHoCQOzcmZvNLLaM.png
+2024-10-02 09:26:47,341 - INFO - Sending 1 log entries to Firebase.
+2024-10-02 09:26:50,530 - INFO - Received 1 document IDs from Peerr.
+2024-10-02 09:26:50,737 - INFO - Logged data to llm collection with FirestoreID: ad786008ae3e6b5b3dbb240d57b4cbe4.
