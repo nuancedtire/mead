@@ -3099,3 +3099,69 @@ The composition captures a wide-angle perspective, emphasizing the scale of the 
 2024-10-02 12:47:50,961 - INFO - Received 2 document IDs from Peerr.
 2024-10-02 12:47:51,185 - INFO - Logged data to llm collection with FirestoreID: 012bf7e94a37cb49c72f3e6e6720f42e.
 2024-10-02 12:47:51,818 - INFO - Logged data to llm collection with FirestoreID: b9ee1615db2c5be4f42f735b469b6fb0.
+2024-10-02 13:16:04,674 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 13:16:04,677 - INFO - Extracted 74 link records from llm.
+2024-10-02 13:16:04,968 - INFO - Extracted 80 link records from combined_news.
+2024-10-02 13:16:04,968 - INFO - Unique links to process: 6
+2024-10-02 13:16:04,969 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 13:16:16,615 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 13:16:21,888 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 13:16:27,992 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 13:16:27,996 - INFO - Image query: A photorealistic image set in a modern operating room during a cardiac surgery procedure. The scene captures a surgical team, including a lead surgeon in a blue surgical gown and mask, focused intently on a patient lying on the operating table, connected to advanced monitoring equipment. The patient, a middle-aged individual, is under anesthesia, with various tubes and lines indicating the use of cardiopulmonary bypass. Above the patient, a high-tech ventilator displays real-time data, emphasizing the implementation of low-frequency ventilation. The surgical team, comprised of diverse professionals, works collaboratively, with one nurse adjusting the ventilator settings, while another holds surgical instruments. Bright, sterile lighting illuminates the room, casting sharp shadows that enhance the clinical atmosphere. In the background, a large monitor shows vital signs and lung function metrics, subtly highlighting the focus on post-operative recovery. The composition is a dynamic wide-angle shot, capturing the intensity and precision of the surgical environment, while conveying a sense of hope and innovation in cardiac care. The overall mood reflects a blend of urgency and optimism, emphasizing the potential impact of low-frequency ventilation on patient outcomes in cardiac surgery.
+2024-10-02 13:16:28,393 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-02 13:16:28,415 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:28,536 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:28,659 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:28,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:28,897 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:29,016 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:29,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:29,648 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:29,768 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:29,891 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,012 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,133 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,254 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,372 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,489 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,609 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,727 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:30,846 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:31,007 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5/status?logs=false "HTTP/1.1 200 OK"
+2024-10-02 13:16:31,024 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2fa04ac6-b2f0-4d7b-9e37-61e483f805c5 "HTTP/1.1 200 OK"
+2024-10-02 13:16:31,024 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/8R6dewRsAVHjJZBBg1Ej4.png
+2024-10-02 13:16:31,024 - INFO - Image link: https://fal.media/files/elephant/8R6dewRsAVHjJZBBg1Ej4.png
+2024-10-02 13:16:31,025 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 13:16:31,025 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 13:16:49,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 13:16:55,494 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 13:16:59,174 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 13:16:59,178 - INFO - Image query: A photorealistic image set in a modern medical examination room. A middle-aged female physician in a white lab coat is seated at a desk, reviewing a digital tablet displaying patient data. She has a focused expression, indicating deep engagement with the information. Across from her, an elderly male patient, around 70 years old, sits in a comfortable chair, looking slightly anxious yet hopeful. A glucose meter and a chart showing glucose levels are visible on the desk, symbolizing the importance of the Oral Glucose Tolerance Test (OGTT). The room is bright and well-lit, with sunlight streaming through a window, creating a warm atmosphere. On the wall, a poster illustrates the cardiovascular system, subtly emphasizing the connection between glucose levels and heart health. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the significance of the OGTT in predicting cardiovascular events. The overall mood conveys a sense of urgency and hope, reflecting the critical nature of accurate screening in managing patients with coronary artery disease.
+2024-10-02 13:16:59,262 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-02 13:16:59,281 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:59,399 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:59,518 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:59,635 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:59,755 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:59,874 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:16:59,996 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:00,114 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:00,232 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:00,356 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:00,478 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:00,596 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:00,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:00,966 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:01,086 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:01,407 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:01,526 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:01,644 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 13:17:01,763 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7/status?logs=false "HTTP/1.1 200 OK"
+2024-10-02 13:17:01,785 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bb47dd30-76c8-41a8-ba40-5fecb29669a7 "HTTP/1.1 200 OK"
+2024-10-02 13:17:01,785 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/_-MB3jg8c1lQonXqJzsDR.png
+2024-10-02 13:17:01,785 - INFO - Image link: https://fal.media/files/elephant/_-MB3jg8c1lQonXqJzsDR.png
+2024-10-02 13:17:01,785 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/cyber-security-bill-will-prevent-future-attacks-on-nhs-says-dsit/
+2024-10-02 13:17:01,785 - INFO - Sending 2 log entries to Firebase.
+2024-10-02 13:17:04,861 - INFO - Received 2 document IDs from Peerr.
+2024-10-02 13:17:05,030 - INFO - Logged data to llm collection with FirestoreID: 57a317f4110981a1e1a5aaea7d3eebff.
+2024-10-02 13:17:05,438 - INFO - Logged data to llm collection with FirestoreID: b0d6737552e56744cddd6ca5c7f70b9d.
