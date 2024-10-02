@@ -3233,3 +3233,11 @@ The composition captures a wide-angle perspective, emphasizing the scale of the 
 2024-10-02 14:43:14,978 - INFO - Sending 1 log entries to Firebase.
 2024-10-02 14:43:18,505 - INFO - Received 1 document IDs from Peerr.
 2024-10-02 14:43:18,650 - INFO - Logged data to llm collection with FirestoreID: b49770e4daa9e9ff56dc308da90cd8c4.
+2024-10-02 14:55:52,639 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 14:55:52,642 - INFO - Extracted 77 link records from llm.
+2024-10-02 14:55:52,902 - INFO - Extracted 80 link records from combined_news.
+2024-10-02 14:55:52,902 - INFO - Unique links to process: 3
+2024-10-02 14:55:52,902 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 14:55:52,902 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 14:55:52,902 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 14:55:52,903 - INFO - No valid log entries generated.
