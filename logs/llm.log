@@ -3028,3 +3028,74 @@ The walls are adorned with inspirational posters about innovation and resilience
 2024-10-02 11:55:07,503 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-02 11:55:07,503 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/cyber-security-bill-will-prevent-future-attacks-on-nhs-says-dsit/
 2024-10-02 11:55:07,503 - INFO - No valid log entries generated.
+2024-10-02 12:46:34,678 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 12:46:34,682 - INFO - Extracted 72 link records from llm.
+2024-10-02 12:46:35,176 - INFO - Extracted 78 link records from combined_news.
+2024-10-02 12:46:35,176 - INFO - Unique links to process: 6
+2024-10-02 12:46:59,021 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 12:47:03,821 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 12:47:07,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 12:47:07,004 - INFO - Image query: A photorealistic image set in a modern medical research facility. A diverse group of healthcare professionals, including a middle-aged female researcher in a lab coat, a young male doctor, and an elderly male clinician, are gathered around a sleek conference table. The researcher is animatedly presenting data on a large digital screen displaying graphs and images related to rare diseases and recent FDA grants. The expressions on their faces reflect excitement and engagement, highlighting the collaborative spirit of medical innovation. On the table, there are various medical devices, including a prototype of the ShortCut device, symbolizing advancements in treatment options. The room is brightly lit with large windows allowing natural light to flood in, creating an atmosphere of optimism and progress. In the background, shelves filled with medical journals and research materials emphasize the ongoing commitment to understanding rare diseases. The composition captures a dynamic angle, focusing on the interaction among the professionals, showcasing the importance of teamwork in advancing healthcare. The overall mood conveys a sense of urgency and hope, reflecting the significance of recent FDA developments in improving patient care and treatment options.
+2024-10-02 12:47:12,328 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-02 12:47:12,389 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:12,547 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:12,705 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:12,866 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:13,025 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:13,184 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:13,341 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:13,501 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:13,660 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:13,819 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:13,976 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:14,135 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:14,293 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:14,451 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:14,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:14,772 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:14,930 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:15,088 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0/status?logs=false "HTTP/1.1 200 OK"
+2024-10-02 12:47:15,144 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ead2a063-9ce2-474e-8561-e75b212ec1d0 "HTTP/1.1 200 OK"
+2024-10-02 12:47:15,144 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/L-Rrm3DDAvJ0oqvJelJaM.png
+2024-10-02 12:47:15,145 - INFO - Image link: https://fal.media/files/monkey/L-Rrm3DDAvJ0oqvJelJaM.png
+2024-10-02 12:47:18,196 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-02 12:47:18,196 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 12:47:20,187 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-02 12:47:20,188 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 12:47:23,628 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-02 12:47:23,629 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 12:47:23,629 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/cyber-security-bill-will-prevent-future-attacks-on-nhs-says-dsit/
+2024-10-02 12:47:35,708 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 12:47:40,180 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 12:47:44,829 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 12:47:44,833 - INFO - Image query: A photorealistic image set in a modern conference hall bustling with activity. In the foreground, a distinguished middle-aged man, Professor Phil Wood, stands confidently at a podium, passionately addressing an audience. He is dressed in a tailored suit, with a name badge visible, and gestures expressively as he speaks about digital health innovations. The audience, a diverse group of healthcare professionals and digital innovators, is engaged, with some taking notes and others capturing the moment on their smartphones. 
+
+Behind the podium, a large digital screen displays the event title "Digital Health Rewired 2025" along with vibrant graphics illustrating electronic patient records and digital health themes. The hall is filled with bright, ambient lighting that creates an energetic atmosphere, while banners showcasing various digital health initiatives hang from the ceiling. 
+
+The composition captures a wide-angle perspective, emphasizing the scale of the event and the importance of collaboration in healthcare transformation. The mood is one of excitement and anticipation, reflecting the innovative spirit of the conference and the critical discussions surrounding the future of digital health.
+2024-10-02 12:47:45,007 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-02 12:47:45,063 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:45,220 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:45,377 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:45,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:45,685 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:45,842 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:45,998 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:46,154 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:46,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:46,467 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:46,625 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:46,782 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:46,938 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:47,093 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:47,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:47,403 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:47,558 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 12:47:47,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83/status?logs=false "HTTP/1.1 200 OK"
+2024-10-02 12:47:47,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/04543e7b-3177-4420-8482-e33f5b49de83 "HTTP/1.1 200 OK"
+2024-10-02 12:47:47,770 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/RTfdDC2yCwFOr4LSMYE_S.png
+2024-10-02 12:47:47,770 - INFO - Image link: https://fal.media/files/zebra/RTfdDC2yCwFOr4LSMYE_S.png
+2024-10-02 12:47:47,770 - INFO - Sending 2 log entries to Firebase.
+2024-10-02 12:47:50,961 - INFO - Received 2 document IDs from Peerr.
+2024-10-02 12:47:51,185 - INFO - Logged data to llm collection with FirestoreID: 012bf7e94a37cb49c72f3e6e6720f42e.
+2024-10-02 12:47:51,818 - INFO - Logged data to llm collection with FirestoreID: b9ee1615db2c5be4f42f735b469b6fb0.
