@@ -2948,3 +2948,12 @@ The walls are adorned with inspirational posters about innovation and resilience
 2024-10-02 09:26:47,341 - INFO - Sending 1 log entries to Firebase.
 2024-10-02 09:26:50,530 - INFO - Received 1 document IDs from Peerr.
 2024-10-02 09:26:50,737 - INFO - Logged data to llm collection with FirestoreID: ad786008ae3e6b5b3dbb240d57b4cbe4.
+2024-10-02 09:43:07,452 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 09:43:07,455 - INFO - Extracted 72 link records from llm.
+2024-10-02 09:43:07,794 - INFO - Extracted 76 link records from combined_news.
+2024-10-02 09:43:07,794 - INFO - Unique links to process: 4
+2024-10-02 09:43:07,794 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/fda-roundup-october-1-2024-302264624.html
+2024-10-02 09:43:07,794 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 09:43:07,794 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 09:43:07,794 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 09:43:07,794 - INFO - No valid log entries generated.
