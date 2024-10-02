@@ -3192,3 +3192,44 @@ The composition captures a wide-angle perspective, emphasizing the scale of the 
 2024-10-02 14:21:30,140 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-02 14:21:30,140 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/cyber-security-bill-will-prevent-future-attacks-on-nhs-says-dsit/
 2024-10-02 14:21:30,140 - INFO - No valid log entries generated.
+2024-10-02 14:42:46,587 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 14:42:46,590 - INFO - Extracted 76 link records from llm.
+2024-10-02 14:42:46,881 - INFO - Extracted 80 link records from combined_news.
+2024-10-02 14:42:46,881 - INFO - Unique links to process: 4
+2024-10-02 14:42:46,881 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 14:42:46,881 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 14:42:46,881 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 14:43:00,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 14:43:05,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 14:43:11,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-02 14:43:11,743 - INFO - Image query: A photorealistic image depicting a modern NHS control room, filled with advanced technology and multiple screens displaying cybersecurity data and alerts. In the foreground, a diverse group of healthcare professionals, including a middle-aged female IT specialist in a navy blue suit and a young male doctor in scrubs, are engaged in a serious discussion. The IT specialist points at a large screen showing a map of the UK with highlighted areas indicating cyber threats, while the doctor takes notes, looking concerned yet focused. The room is dimly lit, with the glow from the screens casting a blue hue, creating a tense yet urgent atmosphere. In the background, a large digital clock shows the time ticking down, symbolizing the urgency of the situation. A bulletin board on the wall displays printed articles about recent cyber attacks and the upcoming Cyber Security and Resilience Bill, subtly emphasizing the critical nature of the discussion. The composition captures a medium shot, focusing on the intense collaboration among the team, highlighting the importance of preparedness and resilience in the face of cyber threats to healthcare. The overall mood conveys a sense of urgency and determination to protect the NHS from future cyber incidents.
+2024-10-02 14:43:11,964 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-02 14:43:11,983 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,105 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,225 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,344 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,464 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,700 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,818 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:12,940 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,179 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,297 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,416 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,536 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,655 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,776 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:13,894 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:14,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:14,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:14,255 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:14,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:14,497 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-02 14:43:14,621 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1/status?logs=false "HTTP/1.1 200 OK"
+2024-10-02 14:43:14,977 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc345470-6ad1-4d2f-b22b-a74c53d949b1 "HTTP/1.1 200 OK"
+2024-10-02 14:43:14,977 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/4QTY0DlyGB0rd-RWR_Dl3.png
+2024-10-02 14:43:14,977 - INFO - Image link: https://fal.media/files/lion/4QTY0DlyGB0rd-RWR_Dl3.png
+2024-10-02 14:43:14,978 - INFO - Sending 1 log entries to Firebase.
+2024-10-02 14:43:18,505 - INFO - Received 1 document IDs from Peerr.
+2024-10-02 14:43:18,650 - INFO - Logged data to llm collection with FirestoreID: b49770e4daa9e9ff56dc308da90cd8c4.
