@@ -2957,3 +2957,12 @@ The walls are adorned with inspirational posters about innovation and resilience
 2024-10-02 09:43:07,794 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-02 09:43:07,794 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-02 09:43:07,794 - INFO - No valid log entries generated.
+2024-10-02 09:55:56,073 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 09:55:56,076 - INFO - Extracted 72 link records from llm.
+2024-10-02 09:55:56,544 - INFO - Extracted 76 link records from combined_news.
+2024-10-02 09:55:56,544 - INFO - Unique links to process: 4
+2024-10-02 09:55:56,545 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/fda-roundup-october-1-2024-302264624.html
+2024-10-02 09:55:56,545 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 09:55:56,545 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 09:55:56,545 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 09:55:56,545 - INFO - No valid log entries generated.
