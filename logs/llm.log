@@ -3183,3 +3183,12 @@ The composition captures a wide-angle perspective, emphasizing the scale of the 
 2024-10-02 13:54:51,577 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-02 13:54:51,578 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/cyber-security-bill-will-prevent-future-attacks-on-nhs-says-dsit/
 2024-10-02 13:54:51,578 - INFO - No valid log entries generated.
+2024-10-02 14:21:29,862 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 14:21:29,866 - INFO - Extracted 76 link records from llm.
+2024-10-02 14:21:30,139 - INFO - Extracted 80 link records from combined_news.
+2024-10-02 14:21:30,139 - INFO - Unique links to process: 4
+2024-10-02 14:21:30,140 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 14:21:30,140 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 14:21:30,140 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 14:21:30,140 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/cyber-security-bill-will-prevent-future-attacks-on-nhs-says-dsit/
+2024-10-02 14:21:30,140 - INFO - No valid log entries generated.
