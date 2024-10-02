@@ -2745,3 +2745,14 @@ The composition captures a medium close-up angle, focusing on the interaction be
 2024-10-02 01:01:38,795 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-02 01:01:38,795 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-02 01:01:38,795 - INFO - No valid log entries generated.
+2024-10-02 02:45:46,373 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-02 02:45:46,376 - INFO - Extracted 67 link records from llm.
+2024-10-02 02:45:46,626 - INFO - Extracted 70 link records from combined_news.
+2024-10-02 02:45:46,626 - INFO - Unique links to process: 3
+2024-10-02 02:45:50,817 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-02 02:45:50,818 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-02 02:45:52,589 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-02 02:45:52,590 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-02 02:45:57,235 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-02 02:45:57,236 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-02 02:45:57,236 - INFO - No valid log entries generated.
