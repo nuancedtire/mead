@@ -3842,3 +3842,46 @@ category
 2024-10-03 11:55:25,506 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 11:55:25,506 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
 2024-10-03 11:55:25,506 - INFO - No valid log entries generated.
+2024-10-03 12:46:27,359 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 12:46:27,362 - INFO - Extracted 88 link records from llm.
+2024-10-03 12:46:27,709 - INFO - Extracted 93 link records from combined_news.
+2024-10-03 12:46:27,709 - INFO - Unique links to process: 5
+2024-10-03 12:46:36,558 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:46:36,576 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-03 12:46:36,576 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 12:46:46,536 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:46:49,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:46:53,190 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 12:46:53,195 - INFO - Image query: A photorealistic image set in a modern dental clinic reception area. A diverse group of patients, including a middle-aged woman and a young child, are interacting with a sleek digital kiosk displaying the Dental Access Portal interface. The woman, with a hopeful expression, is tapping on the screen while the child curiously looks on. The reception area is bright and welcoming, with large windows allowing natural light to flood in, creating a warm atmosphere. A friendly dental receptionist, wearing a professional uniform, stands behind the counter, smiling and ready to assist. On the walls, colorful posters promote dental health and the new digital initiative, subtly emphasizing the theme of accessibility in dental care. The composition captures a wide-angle perspective, showcasing the interaction between patients and technology, highlighting the importance of the new portal in improving access to NHS dental services in Wales. The overall mood conveys optimism and excitement about the future of dental care accessibility.
+2024-10-03 12:46:53,417 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 12:46:53,437 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:53,556 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:53,677 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:53,796 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:53,915 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:54,036 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:54,155 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:54,277 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:54,397 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:54,675 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:54,794 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:54,914 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,033 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,153 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,271 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,389 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,511 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,634 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,758 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:55,997 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 12:46:56,334 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 12:46:56,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b42ff5c2-90d7-466b-8723-57fe22332473 "HTTP/1.1 200 OK"
+2024-10-03 12:46:56,351 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/HYqoyJU7om33iOp3m0OAB.png
+2024-10-03 12:46:56,351 - INFO - Image link: https://fal.media/files/penguin/HYqoyJU7om33iOp3m0OAB.png
+2024-10-03 12:46:56,352 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 12:46:56,352 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 12:46:56,352 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 12:46:56,353 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 12:46:59,104 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 12:46:59,247 - INFO - Logged data to llm collection with FirestoreID: 6090034028be3a20b72afc3c950556b1.
