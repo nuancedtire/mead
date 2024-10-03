@@ -3525,3 +3525,51 @@ The composition captures a dynamic angle, focusing on the interaction between th
 2024-10-03 08:20:03,442 - INFO - Logged data to llm collection with FirestoreID: 1b08237dd12ee88e73826df188e8e936.
 2024-10-03 08:20:03,920 - INFO - Logged data to llm collection with FirestoreID: 26cf21b090385f3870e538e8e8b23589.
 2024-10-03 08:20:04,080 - INFO - Logged data to llm collection with FirestoreID: 35e22eb9268478330e213cf1cc601459.
+2024-10-03 09:26:06,899 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 09:26:06,902 - INFO - Extracted 81 link records from llm.
+2024-10-03 09:26:07,355 - INFO - Extracted 87 link records from combined_news.
+2024-10-03 09:26:07,355 - INFO - Unique links to process: 6
+2024-10-03 09:26:07,356 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 09:26:23,158 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 09:26:27,637 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 09:26:31,895 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 09:26:31,900 - INFO - Image query: A photorealistic image set in a modern NHS clinic, showcasing a diverse group of healthcare professionals engaged in a collaborative discussion around a digital tablet displaying data on tirzepatide and obesity management. In the foreground, a middle-aged female doctor in a white coat points to the screen, emphasizing key statistics, while a young male nurse and an elderly female healthcare assistant listen attentively, their expressions reflecting interest and determination. The background features a well-organized consultation room with posters about healthy living and obesity statistics on the walls. A large window allows natural light to flood the space, creating a bright and inviting atmosphere. On a nearby table, a model of the human body highlights areas affected by obesity, symbolizing the importance of targeted treatment. The composition captures a medium shot angle, focusing on the engaged interaction among the professionals, conveying a sense of urgency and hope in addressing obesity through innovative treatments like tirzepatide. The overall mood is one of collaboration and optimism, reflecting the NHS's commitment to improving public health through effective weight loss solutions.
+2024-10-03 09:26:32,205 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 09:26:32,264 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:32,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:32,580 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:32,740 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:32,897 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:33,055 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:33,213 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:33,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:33,528 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:33,686 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:33,844 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:34,001 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:34,160 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:34,323 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:34,482 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:34,639 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 09:26:34,798 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 09:26:34,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6976b41c-182d-4770-bf71-39d661bd8538 "HTTP/1.1 200 OK"
+2024-10-03 09:26:34,854 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/KZYYO3e9M5gMU4l6L4BTq.png
+2024-10-03 09:26:34,854 - INFO - Image link: https://fal.media/files/lion/KZYYO3e9M5gMU4l6L4BTq.png
+2024-10-03 09:26:36,913 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-03 09:26:36,914 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 09:27:15,950 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 09:27:21,020 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 09:27:21,025 - ERROR - Validation error for link https://www.targetedonc.com/view/september-2024-fda-roundup: 1 validation error for PostResponse
+category
+  Input should be 'Life Sciences & BioTech', 'Research & Clinical Trials', 'HealthTech & Startups' or 'Healthcare & Policy' [type=literal_error, input_value='Life Sciences & Biotech', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/literal_error
+2024-10-03 09:27:21,025 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/september-2024-fda-roundup
+2024-10-03 09:27:25,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 09:27:25,633 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-03 09:27:25,633 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 09:27:27,926 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 09:27:27,931 - INFO - No article found for link https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html.
+2024-10-03 09:27:27,932 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 09:27:27,932 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 09:27:31,236 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 09:27:31,452 - INFO - Logged data to llm collection with FirestoreID: 5943e7c1d7c9a8f0b0348f6e13a5597c.
