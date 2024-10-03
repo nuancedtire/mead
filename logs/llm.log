@@ -4112,3 +4112,44 @@ category
 2024-10-03 21:20:29,061 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 21:20:29,061 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
 2024-10-03 21:20:29,061 - INFO - No valid log entries generated.
+2024-10-03 22:21:09,989 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 22:21:09,992 - INFO - Extracted 91 link records from llm.
+2024-10-03 22:21:10,272 - INFO - Extracted 95 link records from combined_news.
+2024-10-03 22:21:10,272 - INFO - Unique links to process: 4
+2024-10-03 22:21:10,272 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 22:21:12,690 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-03 22:21:12,691 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 22:21:16,378 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-03 22:21:16,379 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 22:22:02,357 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 22:22:06,274 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 22:22:11,586 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 22:22:11,591 - INFO - Image query: A photorealistic image set in a modern pharmaceutical research facility. In the foreground, a diverse group of healthcare professionals, including a middle-aged female hepatologist in a white lab coat, a young male researcher in a lab coat, and a nurse in scrubs, are gathered around a sleek conference table. They are engaged in an animated discussion, with the hepatologist pointing towards a digital presentation screen displaying a graph illustrating the clinical benefits of IQIRVO (elafibranor) in treating primary biliary cholangitis (PBC). The screen highlights key statistics, such as the 47% clinical benefit and the reduction in alkaline phosphatase levels. The researchers' expressions are a mix of excitement and determination, reflecting the significance of this breakthrough in PBC treatment. The background features shelves filled with medical journals and research materials, emphasizing the scientific environment. Bright, natural lighting floods the room, creating an atmosphere of hope and innovation. The composition captures a medium shot, focusing on the collaborative spirit and the urgency of advancing treatment options for PBC, while subtly conveying the importance of this new therapy in improving patient outcomes.
+2024-10-03 22:22:11,747 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 22:22:11,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:11,909 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,038 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,167 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,299 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,429 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,557 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,688 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,818 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:12,948 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,075 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,204 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,337 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,467 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,595 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,722 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,852 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:13,979 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:14,107 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:14,237 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 22:22:14,365 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 22:22:14,395 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/76ba040a-94ca-43da-9b92-117c8ff1cec9 "HTTP/1.1 200 OK"
+2024-10-03 22:22:14,395 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/-pqcNCYSEaKFuswzJ2HJp.png
+2024-10-03 22:22:14,395 - INFO - Image link: https://fal.media/files/lion/-pqcNCYSEaKFuswzJ2HJp.png
+2024-10-03 22:22:14,397 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 22:22:17,757 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 22:22:17,945 - INFO - Logged data to llm collection with FirestoreID: f94e93c12ff64f0954330486e653b6b2.
