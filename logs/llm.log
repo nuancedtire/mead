@@ -4053,3 +4053,16 @@ category
 2024-10-03 17:22:44,334 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 17:22:44,334 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
 2024-10-03 17:22:44,334 - INFO - No valid log entries generated.
+2024-10-03 17:43:10,932 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 17:43:10,935 - INFO - Extracted 91 link records from llm.
+2024-10-03 17:43:11,150 - INFO - Extracted 95 link records from combined_news.
+2024-10-03 17:43:11,150 - INFO - Unique links to process: 4
+2024-10-03 17:43:11,151 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 17:43:14,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 17:43:14,306 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-03 17:43:14,307 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 17:43:17,632 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-03 17:43:17,632 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 17:43:19,196 - INFO - No article found for link https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html.
+2024-10-03 17:43:19,197 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 17:43:19,197 - INFO - No valid log entries generated.
