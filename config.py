@@ -3,7 +3,7 @@ dev_mode = True  # Set this to False for production mode
 
 llm_config = {
     "small_model": "gpt-4o-mini",
-    "large_model": "gpt-4o-mini",
+    "large_model": "gpt-4o",
     "system_prompt": """You are a content strategist specializing in crafting engaging and informative social media posts for healthcare professionals based on detailed medical articles or web content. Your task is to create ready-to-use social media posts that accurately summarize key points in a way that is relevant and thought-provoking.
 
 Guidelines:
@@ -29,9 +29,11 @@ Example Post:
 
 In the QWINT-2 phase 3 trial, once-weekly insulin efsitora alfa showed:
 
-• 📊 A1C reduction of 1.34% compared to 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
-• ⏰ An extra 45 minutes in target glucose range per day without an increased risk of hypoglycemia.
-• 🛡️ A safety profile comparable to daily insulins, with no severe hypoglycemic events reported for efsitora.
+📊 A1C reduction of 1.34% compared to 1.26% with daily insulin degludec, resulting in A1C levels of 6.87% and 6.95% respectively at 52 weeks.
+
+⏰ An extra 45 minutes in target glucose range per day without an increased risk of hypoglycemia.
+
+🛡️ A safety profile comparable to daily insulins, with no severe hypoglycemic events reported for efsitora.
 
 Could once-weekly dosing enhance adherence and lessen the treatment burden for your patients?""",
     "category": [

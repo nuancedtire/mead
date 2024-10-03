@@ -204,7 +204,6 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
     with col2:
         first_line = content.split("\n")[0] if "\n" in content else content[:40]
         rest_of_content = "\n".join(content.split("\n")[1:])
-        cleaned_content = re.sub(r"#\w+", "", rest_of_content)
 
         tab1, tab2 = st.tabs(["Article", "More"])
 
