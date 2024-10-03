@@ -11,6 +11,7 @@ from streamlit_extras.stoggle import stoggle
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
+import config  # Import the config module
 
 # Initialize session state
 if 'needs_rerun' not in st.session_state:
@@ -52,7 +53,8 @@ def load_llm_data():
     Load data from LLM collection in Firestore and return it as a Pandas DataFrame.
     """
     db = get_firestore_client()
-    docs = db.collection('llm').get()
+    collection_name = 'llm_test' if config.dev_mode else 'llm'  # Choose collection based on dev_mode
+    docs = db.collection(collection_name).get()
     data = [doc.to_dict() for doc in docs]
     df = pd.DataFrame(data)
     
@@ -208,6 +210,7 @@ def create_post(timestamp, llm_timestamp, hashtags, image_url, content, model, l
 
         with tab1:
             with st.expander(f"{first_line}", expanded=True):
+                # Display the content as plaintext
                 st.write(cleaned_content)
 
         with tab2:

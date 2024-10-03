@@ -153,7 +153,7 @@ image_gen_config = {
 
 # Image generation configuration for development
 image_gen_config_dev = {
-    "model": "fal-ai/flux/Schnell",  # Development model
+    "model": "fal-ai/flux/schnell",  # Development model
     "num_inference_steps": 30,  # Slightly lower steps for faster iterations
     "image_size": "landscape_16_9",  # Standard widescreen aspect ratio
     "enable_safety_checker": True,  # Safety checks enabled
