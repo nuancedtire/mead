@@ -4075,3 +4075,12 @@ category
 2024-10-03 17:56:05,494 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 17:56:05,494 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
 2024-10-03 17:56:05,494 - INFO - No valid log entries generated.
+2024-10-03 18:29:40,920 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 18:29:40,924 - INFO - Extracted 91 link records from llm.
+2024-10-03 18:29:41,427 - INFO - Extracted 95 link records from combined_news.
+2024-10-03 18:29:41,427 - INFO - Unique links to process: 4
+2024-10-03 18:29:41,427 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 18:29:41,428 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 18:29:41,428 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 18:29:41,428 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 18:29:41,428 - INFO - No valid log entries generated.
