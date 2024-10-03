@@ -3672,3 +3672,45 @@ category
 2024-10-03 10:27:49,270 - INFO - Received 2 document IDs from Peerr.
 2024-10-03 10:27:49,395 - INFO - Logged data to llm collection with FirestoreID: 0065d2f52526233cbde01826bb138340.
 2024-10-03 10:27:49,778 - INFO - Logged data to llm collection with FirestoreID: 3f9bdada12251ae3bd662a5100e27692.
+2024-10-03 10:45:14,895 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 10:45:14,899 - INFO - Extracted 84 link records from llm.
+2024-10-03 10:45:15,387 - INFO - Extracted 90 link records from combined_news.
+2024-10-03 10:45:15,388 - INFO - Unique links to process: 6
+2024-10-03 10:45:15,388 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 10:45:15,388 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 10:45:15,962 - ERROR - Validation error for link https://www.targetedonc.com/view/september-2024-fda-roundup: 1 validation error for PostResponse
+category
+  Input should be 'Life Sciences & BioTech', 'Research & Clinical Trials', 'HealthTech & Startups' or 'Healthcare & Policy' [type=literal_error, input_value='Life Sciences & Biotech', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/literal_error
+2024-10-03 10:45:15,962 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/september-2024-fda-roundup
+2024-10-03 10:45:15,962 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 10:46:45,219 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:46:51,293 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:46:54,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:46:54,762 - INFO - Image query: A photorealistic image depicting a modern healthcare innovation hub. In the foreground, a diverse group of healthcare professionals, including a middle-aged woman of South Asian descent in a lab coat, a young Black man in a smart casual outfit, and a Hispanic woman with glasses, are engaged in a discussion around a sleek digital tablet displaying health data and analytics. The background features a large screen showcasing a vibrant virtual reality interface, illustrating young people interacting in a gamified mental health environment. Soft, ambient lighting fills the room, creating a warm and inviting atmosphere, while plants and modern furniture add a touch of comfort. The composition captures a dynamic angle, emphasizing collaboration and innovation in digital health. The overall mood conveys excitement and optimism about the future of patient care, highlighting the integration of technology in enhancing healthcare services.
+2024-10-03 10:46:54,976 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 10:46:55,035 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:55,196 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:55,357 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:55,536 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:55,693 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:55,850 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:56,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:56,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:56,419 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:56,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:56,740 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:56,900 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:57,058 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:57,217 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:57,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:57,533 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:57,692 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:46:57,853 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 10:46:57,908 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a789afff-9d03-4531-aaca-a8ae8d463379 "HTTP/1.1 200 OK"
+2024-10-03 10:46:57,909 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/saU5-43Io8zkt4T0Ky78T.png
+2024-10-03 10:46:57,909 - INFO - Image link: https://fal.media/files/zebra/saU5-43Io8zkt4T0Ky78T.png
+2024-10-03 10:46:57,910 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 10:46:57,910 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 10:47:01,373 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 10:47:01,706 - INFO - Logged data to llm collection with FirestoreID: c7cf4cdccc3345d048c36bb2aaad4ebe.
