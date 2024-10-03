@@ -4554,3 +4554,44 @@
 2024-10-03 12:46:17,984 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
 2024-10-03 12:46:17,985 - INFO - No new data to update.
 2024-10-03 12:46:17,985 - INFO - Medscape script completed.
+2024-10-03 13:16:12,531 - INFO - Medscape script started.
+2024-10-03 13:16:12,532 - INFO - Connection to Medscape established.
+2024-10-03 13:16:12,581 - INFO - Request sent to Medscape API.
+2024-10-03 13:16:13,007 - INFO - Response received from Medscape API.
+2024-10-03 13:16:13,008 - INFO - Response data decoded into dictionary.
+2024-10-03 13:16:13,008 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-03 13:16:13,610 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-03 13:16:18,101 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 13:16:18,112 - INFO - Found source link: https://ajcn.nutrition.org/article/S0002-9165(24)00791-3/fulltext
+2024-10-03 13:16:18,113 - INFO - Processing item: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-03 13:16:18,210 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-03 13:16:18,211 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-03 13:16:18,598 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-03 13:16:18,599 - INFO - Processing item: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-03 13:16:18,703 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-03 13:16:18,703 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-03 13:16:19,076 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-03 13:16:19,077 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-03 13:16:19,176 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-03 13:16:19,176 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-03 13:16:19,548 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-03 13:16:19,548 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-03 13:16:19,650 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-03 13:16:19,650 - INFO - Processing item: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-03 13:16:20,029 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-03 13:16:20,029 - INFO - Processing item: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-03 13:16:20,137 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-03 13:16:20,137 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-03 13:16:20,505 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-03 13:16:20,505 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-03 13:16:20,608 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-03 13:16:20,609 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-03 13:16:20,979 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-03 13:16:20,979 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-10-03 13:16:21,077 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-10-03 13:16:21,078 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-10-03 13:16:21,467 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-10-03 13:16:21,468 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-10-03 13:16:21,567 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/art-conceived-children-face-higher-risk-heart-defects-2024a1000hkf
+2024-10-03 13:16:21,683 - INFO - Successfully updated Firestore with 1 items.
+2024-10-03 13:16:21,683 - INFO - Medscape script completed.

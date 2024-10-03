@@ -3885,3 +3885,41 @@ category
 2024-10-03 12:46:56,353 - INFO - Sending 1 log entries to Firebase.
 2024-10-03 12:46:59,104 - INFO - Received 1 document IDs from Peerr.
 2024-10-03 12:46:59,247 - INFO - Logged data to llm collection with FirestoreID: 6090034028be3a20b72afc3c950556b1.
+2024-10-03 13:16:30,126 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 13:16:30,129 - INFO - Extracted 89 link records from llm.
+2024-10-03 13:16:30,373 - INFO - Extracted 94 link records from combined_news.
+2024-10-03 13:16:30,373 - INFO - Unique links to process: 5
+2024-10-03 13:16:30,374 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 13:16:30,374 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 13:16:30,374 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 13:16:44,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 13:16:49,937 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 13:16:53,730 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 13:16:53,735 - INFO - Image query: A photorealistic image set in a bright, modern kitchen. A middle-aged female nutritionist, wearing a professional outfit and a white lab coat, stands at a wooden kitchen island, enthusiastically presenting a vibrant display of fresh apples and a steaming cup of tea. The apples are various shades of red and green, glistening under the soft, natural light streaming in through a large window. Beside the apples, a teapot and two cups of freshly brewed tea are arranged, with steam gently rising, symbolizing warmth and health. In the background, a wall-mounted shelf holds various health-related books and a small potted plant, adding a touch of greenery. The nutritionist's expression is engaging and informative, as she gestures towards the apples, suggesting their health benefits. The composition captures a medium close-up angle, focusing on the interaction between the nutritionist and the food, emphasizing the importance of dietary choices in combating non-alcoholic fatty liver disease (NAFLD). The overall mood is optimistic and educational, reflecting the potential of nutrition in disease prevention and management.
+2024-10-03 13:16:53,993 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 13:16:54,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:54,170 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:54,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:54,569 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:54,707 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:54,842 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:54,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:55,114 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:55,249 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:55,385 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:55,530 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:55,667 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:55,803 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:55,938 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:56,079 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:56,214 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:56,391 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:56,526 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 13:16:56,660 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 13:16:56,694 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/af794db5-d7e8-4155-8181-18748045f37f "HTTP/1.1 200 OK"
+2024-10-03 13:16:56,694 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/PNHOhBh2meRgDsBZ3yc8z.png
+2024-10-03 13:16:56,694 - INFO - Image link: https://fal.media/files/tiger/PNHOhBh2meRgDsBZ3yc8z.png
+2024-10-03 13:16:56,695 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 13:16:56,695 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 13:17:00,075 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 13:17:00,193 - INFO - Logged data to llm collection with FirestoreID: 95f65f45177bfda7d06cddc829b10625.
