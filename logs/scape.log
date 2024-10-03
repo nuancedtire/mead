@@ -5178,3 +5178,42 @@
 2024-10-03 19:16:38,561 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
 2024-10-03 19:16:38,561 - INFO - No new data to update.
 2024-10-03 19:16:38,561 - INFO - Medscape script completed.
+2024-10-03 20:23:32,138 - INFO - Medscape script started.
+2024-10-03 20:23:32,139 - INFO - Connection to Medscape established.
+2024-10-03 20:23:32,245 - INFO - Request sent to Medscape API.
+2024-10-03 20:23:32,852 - INFO - Response received from Medscape API.
+2024-10-03 20:23:32,853 - INFO - Response data decoded into dictionary.
+2024-10-03 20:23:32,857 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-03 20:23:33,475 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-03 20:23:33,475 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-03 20:23:33,601 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-03 20:23:33,601 - INFO - Processing item: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-03 20:23:33,963 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-03 20:23:33,964 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-03 20:23:34,089 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-03 20:23:34,089 - INFO - Processing item: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-03 20:23:34,452 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-03 20:23:34,452 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-03 20:23:34,578 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-03 20:23:34,578 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-03 20:23:34,940 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-03 20:23:34,941 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-03 20:23:35,440 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-03 20:23:35,440 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-03 20:23:35,571 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-03 20:23:35,571 - INFO - Processing item: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-03 20:23:35,932 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-03 20:23:35,932 - INFO - Processing item: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-03 20:23:36,058 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-03 20:23:36,058 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-03 20:23:36,424 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-03 20:23:36,424 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-03 20:23:36,548 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-03 20:23:36,548 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-03 20:23:36,908 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-03 20:23:36,908 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-10-03 20:23:37,028 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/acne-spironolactone-instead-antibiotics-2024a1000h6h
+2024-10-03 20:23:37,028 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-10-03 20:23:37,400 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/do-long-covid-symptoms-share-one-therapeutic-target-2024a1000hff
+2024-10-03 20:23:37,400 - INFO - No new data to update.
+2024-10-03 20:23:37,400 - INFO - Medscape script completed.
