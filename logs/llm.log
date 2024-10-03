@@ -3714,3 +3714,45 @@ category
 2024-10-03 10:46:57,910 - INFO - Sending 1 log entries to Firebase.
 2024-10-03 10:47:01,373 - INFO - Received 1 document IDs from Peerr.
 2024-10-03 10:47:01,706 - INFO - Logged data to llm collection with FirestoreID: c7cf4cdccc3345d048c36bb2aaad4ebe.
+2024-10-03 10:58:20,463 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 10:58:20,466 - INFO - Extracted 85 link records from llm.
+2024-10-03 10:58:20,959 - INFO - Extracted 91 link records from combined_news.
+2024-10-03 10:58:20,959 - INFO - Unique links to process: 6
+2024-10-03 10:58:20,960 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 10:58:20,960 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 10:58:21,567 - ERROR - Validation error for link https://www.targetedonc.com/view/september-2024-fda-roundup: 1 validation error for PostResponse
+category
+  Input should be 'Life Sciences & BioTech', 'Research & Clinical Trials', 'HealthTech & Startups' or 'Healthcare & Policy' [type=literal_error, input_value='Life Sciences & Biotech', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/literal_error
+2024-10-03 10:58:21,567 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/september-2024-fda-roundup
+2024-10-03 10:58:21,568 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 10:58:40,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:58:44,973 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:58:49,102 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:58:49,107 - INFO - Image query: A photorealistic image depicting a cozy, well-lit living room where a middle-aged woman, around 40 years old, is sitting comfortably on a plush sofa, engaging in home-based phototherapy for her psoriasis. She has a serene expression, reflecting a sense of relief and hope. In front of her, a sleek, modern phototherapy device emits a soft blue light, illuminating her arms, which show signs of psoriasis but are visibly improving. A small table beside her holds a few skincare products, emphasizing her commitment to treatment. The room is decorated with warm colors, plants, and personal touches, creating a welcoming atmosphere. Natural light streams through a window, enhancing the feeling of comfort and positivity. The composition captures a medium shot, focusing on the woman and the phototherapy device, symbolizing the effectiveness and accessibility of home-based treatments. The overall mood conveys empowerment and innovation in patient care, highlighting the shift towards home-based healthcare solutions for psoriasis management.
+2024-10-03 10:58:49,312 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 10:58:49,370 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:49,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:49,690 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:49,849 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:50,005 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:50,161 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:50,319 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:50,476 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:50,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:50,792 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:50,951 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:51,108 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:51,268 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:51,425 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:51,584 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:51,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:51,903 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:58:52,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 10:58:52,117 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/de84b20a-cb45-4db8-b38f-c0eb1746bfee "HTTP/1.1 200 OK"
+2024-10-03 10:58:52,117 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/dRxphNZLBNecswFWKNrM7.png
+2024-10-03 10:58:52,117 - INFO - Image link: https://fal.media/files/lion/dRxphNZLBNecswFWKNrM7.png
+2024-10-03 10:58:52,118 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 10:58:52,118 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 10:58:55,259 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 10:58:55,459 - INFO - Logged data to llm collection with FirestoreID: b2792fed2f5475b1871f90362abeef6d.
