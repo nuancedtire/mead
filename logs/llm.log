@@ -4153,3 +4153,11 @@ category
 2024-10-03 22:22:14,397 - INFO - Sending 1 log entries to Firebase.
 2024-10-03 22:22:17,757 - INFO - Received 1 document IDs from Peerr.
 2024-10-03 22:22:17,945 - INFO - Logged data to llm collection with FirestoreID: f94e93c12ff64f0954330486e653b6b2.
+2024-10-03 23:21:36,979 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 23:21:36,982 - INFO - Extracted 92 link records from llm.
+2024-10-03 23:21:37,201 - INFO - Extracted 95 link records from combined_news.
+2024-10-03 23:21:37,201 - INFO - Unique links to process: 3
+2024-10-03 23:21:37,201 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 23:21:37,201 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 23:21:37,201 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 23:21:37,201 - INFO - No valid log entries generated.
