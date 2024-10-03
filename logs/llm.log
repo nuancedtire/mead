@@ -3923,3 +3923,15 @@ category
 2024-10-03 13:16:56,695 - INFO - Sending 1 log entries to Firebase.
 2024-10-03 13:17:00,075 - INFO - Received 1 document IDs from Peerr.
 2024-10-03 13:17:00,193 - INFO - Logged data to llm collection with FirestoreID: 95f65f45177bfda7d06cddc829b10625.
+2024-10-03 13:38:28,352 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 13:38:28,355 - INFO - Extracted 90 link records from llm.
+2024-10-03 13:38:28,872 - INFO - Extracted 94 link records from combined_news.
+2024-10-03 13:38:28,872 - INFO - Unique links to process: 4
+2024-10-03 13:38:28,872 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 13:38:30,843 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-03 13:38:30,843 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 13:38:33,630 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-03 13:38:33,630 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 13:38:35,631 - INFO - No article found for link https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html.
+2024-10-03 13:38:35,632 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 13:38:35,632 - INFO - No valid log entries generated.
