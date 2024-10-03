@@ -3380,3 +3380,11 @@ The composition captures a wide-angle perspective, emphasizing the scale of the 
 2024-10-03 02:46:58,580 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
 2024-10-03 02:46:58,581 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 02:46:58,581 - INFO - No valid log entries generated.
+2024-10-03 04:18:01,460 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 04:18:01,463 - INFO - Extracted 77 link records from llm.
+2024-10-03 04:18:01,921 - INFO - Extracted 80 link records from combined_news.
+2024-10-03 04:18:01,921 - INFO - Unique links to process: 3
+2024-10-03 04:18:01,922 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 04:18:01,922 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 04:18:01,922 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 04:18:01,922 - INFO - No valid log entries generated.
