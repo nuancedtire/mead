@@ -3602,3 +3602,73 @@ category
 2024-10-03 09:55:32,406 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 09:55:32,406 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
 2024-10-03 09:55:32,406 - INFO - No valid log entries generated.
+2024-10-03 10:26:36,590 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 10:26:36,593 - INFO - Extracted 82 link records from llm.
+2024-10-03 10:26:36,799 - INFO - Extracted 89 link records from combined_news.
+2024-10-03 10:26:36,800 - INFO - Unique links to process: 7
+2024-10-03 10:27:04,553 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:27:09,936 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:27:13,539 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:27:13,545 - INFO - Image query: A photorealistic image set in a modern mental health clinic. A diverse group of three adolescents, two Black and one North African, sit together on a comfortable couch, their expressions a mix of concern and contemplation as they engage in a discussion about mental health. The room is softly lit with warm tones, creating a welcoming atmosphere. A mental health professional, a middle-aged woman of Middle-Eastern descent, stands nearby, holding a clipboard and listening intently, demonstrating empathy and support. On the wall, a large map of Europe is pinned with colorful markers indicating migration routes, subtly highlighting the theme of migration. A bookshelf filled with mental health resources and brochures is visible in the background, emphasizing the importance of awareness and education. The composition captures a medium shot, focusing on the interaction among the adolescents and the professional, conveying a sense of urgency and care in addressing the mental health challenges faced by young migrants. The overall mood reflects a serious yet hopeful tone, underscoring the need for targeted mental health support for vulnerable populations.
+2024-10-03 10:27:13,949 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 10:27:13,989 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:14,130 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:14,272 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:14,414 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:14,655 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:14,799 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:14,940 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:15,082 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:15,388 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:15,529 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:15,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:15,810 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:15,955 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:16,094 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:16,235 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:16,375 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:16,517 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 10:27:16,556 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9f7a5951-1ad7-4d01-8d84-e3d02272350f "HTTP/1.1 200 OK"
+2024-10-03 10:27:16,557 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/CWT0QBWX-vIomf_7DbG_I.png
+2024-10-03 10:27:16,557 - INFO - Image link: https://fal.media/files/monkey/CWT0QBWX-vIomf_7DbG_I.png
+2024-10-03 10:27:16,558 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 10:27:32,465 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:27:36,246 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:27:39,205 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 10:27:39,210 - INFO - Image query: A photorealistic image depicting a modern hospital reception area at Countess of Chester Hospital. In the foreground, a diverse group of patients, including a middle-aged woman and a young man, are engaged with digital screens displaying the DrDoctor patient engagement platform. The woman, with a look of satisfaction, is using a tablet to view her appointment details, while the young man is interacting with a touchscreen kiosk, accessing personalized health information. Behind them, a friendly receptionist in a smart uniform assists another patient, showcasing a welcoming environment. The reception area is bright and airy, with large windows allowing natural light to flood in, creating a warm atmosphere. On the walls, digital displays highlight the benefits of the new platform, emphasizing patient engagement and streamlined healthcare processes. The composition captures a wide-angle perspective, focusing on the interaction between patients and technology, reflecting the transformative impact of digital tools in enhancing patient experience. The overall mood conveys optimism and innovation, highlighting the future of healthcare engagement.
+2024-10-03 10:27:39,338 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 10:27:39,376 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:39,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:39,649 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:39,785 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:39,922 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:40,059 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:40,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:40,331 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:40,467 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:40,606 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:40,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:40,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:41,019 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:41,155 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:41,293 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:41,459 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:41,595 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:41,731 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:41,872 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 10:27:42,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 10:27:42,045 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/67637eb0-1389-45bc-9d2e-0c71c7873f94 "HTTP/1.1 200 OK"
+2024-10-03 10:27:42,046 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/eHViZV9N40A2-faAsS1F9.png
+2024-10-03 10:27:42,046 - INFO - Image link: https://fal.media/files/lion/eHViZV9N40A2-faAsS1F9.png
+2024-10-03 10:27:42,046 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 10:27:45,931 - ERROR - Validation error for link https://www.targetedonc.com/view/september-2024-fda-roundup: 1 validation error for PostResponse
+category
+  Input should be 'Life Sciences & BioTech', 'Research & Clinical Trials', 'HealthTech & Startups' or 'Healthcare & Policy' [type=literal_error, input_value='Life Sciences & Biotech', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/literal_error
+2024-10-03 10:27:45,931 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.targetedonc.com/view/september-2024-fda-roundup
+2024-10-03 10:27:45,931 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 10:27:45,931 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 10:27:45,931 - INFO - Sending 2 log entries to Firebase.
+2024-10-03 10:27:49,270 - INFO - Received 2 document IDs from Peerr.
+2024-10-03 10:27:49,395 - INFO - Logged data to llm collection with FirestoreID: 0065d2f52526233cbde01826bb138340.
+2024-10-03 10:27:49,778 - INFO - Logged data to llm collection with FirestoreID: 3f9bdada12251ae3bd662a5100e27692.
