@@ -3944,3 +3944,38 @@ category
 2024-10-03 13:55:06,103 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 13:55:06,103 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
 2024-10-03 13:55:06,103 - INFO - No valid log entries generated.
+2024-10-03 14:24:07,705 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 14:24:07,708 - INFO - Extracted 90 link records from llm.
+2024-10-03 14:24:08,221 - INFO - Extracted 95 link records from combined_news.
+2024-10-03 14:24:08,222 - INFO - Unique links to process: 5
+2024-10-03 14:24:08,222 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 14:24:19,847 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 14:24:23,437 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 14:24:27,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 14:24:27,934 - INFO - Image query: A photorealistic image set in a modern medical office, featuring a middle-aged female physician in a white coat, sitting at a sleek desk with a laptop open in front of her. She is engaged in a thoughtful conversation with a middle-aged female patient, who appears to be in her late 40s, sitting across from her with a concerned expression. The patient has a hand on her forehead, symbolizing the struggle with "brain fog." The doctor leans slightly forward, showing empathy, with a notepad and pen in hand, ready to jot down important notes. The office is well-lit with soft, natural light streaming through a large window, creating a warm atmosphere. On the wall behind them, a chart depicting the brain's cognitive functions is visible, subtly emphasizing the topic of cognitive health. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the importance of understanding and addressing the complexities of brain fog. The overall mood conveys a sense of urgency and care, reflecting the need for deeper inquiry into patients' experiences and symptoms.
+2024-10-03 14:24:28,493 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 14:24:28,550 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:28,711 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:28,879 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:29,037 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:29,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:29,354 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:29,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:29,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:29,835 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:29,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:30,153 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:30,311 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:30,470 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:30,633 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:31,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 14:24:31,161 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 14:24:31,220 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17495f2b-1e0c-46fa-9819-43c2388a9f96 "HTTP/1.1 200 OK"
+2024-10-03 14:24:31,221 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/iC2JJVp4x1uVzt1IZW9Em.png
+2024-10-03 14:24:31,221 - INFO - Image link: https://fal.media/files/elephant/iC2JJVp4x1uVzt1IZW9Em.png
+2024-10-03 14:24:31,222 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 14:24:31,222 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 14:24:31,222 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 14:24:31,222 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 14:24:34,679 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 14:24:34,873 - INFO - Logged data to llm collection with FirestoreID: 4c909d7e3df376a7b702519a56970d23.
