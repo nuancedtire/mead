@@ -3824,3 +3824,12 @@ category
 2024-10-03 11:21:56,671 - INFO - Received 2 document IDs from Peerr.
 2024-10-03 11:21:56,854 - INFO - Logged data to llm collection with FirestoreID: 7f7b43d3f6441aab2e2f23be28d93833.
 2024-10-03 11:21:57,319 - INFO - Logged data to llm collection with FirestoreID: f11372676e1bed9730623982f95e8f42.
+2024-10-03 11:40:55,325 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 11:40:55,328 - INFO - Extracted 88 link records from llm.
+2024-10-03 11:40:55,549 - INFO - Extracted 92 link records from combined_news.
+2024-10-03 11:40:55,549 - INFO - Unique links to process: 4
+2024-10-03 11:40:55,550 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 11:40:55,550 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 11:40:55,550 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 11:40:55,550 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ipsens-iqirvo-approval-has-intensified-the-primary-biliary-cholangitis-market-space--delveinsight-302265380.html
+2024-10-03 11:40:55,550 - INFO - No valid log entries generated.
