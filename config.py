@@ -1,3 +1,6 @@
+# Development mode flag
+dev_mode = True  # Set this to False for production mode
+
 llm_config = {
     "small_model": "gpt-4o-mini",
     "large_model": "gpt-4o-mini",
@@ -146,4 +149,13 @@ image_gen_config = {
     "image_size": "landscape_16_9",  # More standard widescreen aspect ratio for modern visuals
     "enable_safety_checker": True,  # Keep safety checks enabled, especially for public-facing or large datasets
     "guidance_scale": 6,  # Increase guidance scale for more creative control
+}
+
+# Image generation configuration for development
+image_gen_config_dev = {
+    "model": "fal-ai/flux/Schnell",  # Development model
+    "num_inference_steps": 30,  # Slightly lower steps for faster iterations
+    "image_size": "landscape_16_9",  # Standard widescreen aspect ratio
+    "enable_safety_checker": True,  # Safety checks enabled
+    "guidance_scale": 6,  # Moderate guidance
 }

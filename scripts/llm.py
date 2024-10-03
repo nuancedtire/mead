@@ -25,7 +25,7 @@ from pydantic import BaseModel, Field, ValidationError
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from requests.exceptions import RequestException
 import json
-from config import llm_config, image_gen_config
+from config import llm_config, image_gen_config, image_gen_config_dev
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
@@ -71,6 +71,9 @@ hashtags = config.llm_config["hashtags"]
 pexels_api_key = "zeaB9f5KanEeG8emVGlw9YlBQLCl0MbuG8KFqmOAfgaKispTcwMrBXqX"
 os.environ[
     'FAL_KEY'] = '74a025a1-190d-41e5-bd1a-c562f9b60293:3e6729b020fd14f6c6e409b7e08836a0'
+
+# Select appropriate image generation configuration based on dev_mode
+current_image_gen_config = config.image_gen_config_dev if config.dev_mode else config.image_gen_config
 
 # =====================
 #  OpenAI API Setup and Caching
@@ -352,64 +355,64 @@ def get_image_query(post_content, model):
         (
             "system",
             """**Task:**
-
+    
 Analyze the following social media post related to medicine or healthcare and generate a vivid, detailed image prompt that captures the essence of the post. The image prompt should guide AI image generation models to create compelling, **photorealistic**, and visually striking images that effectively communicate the core message of the post.
-
+    
 **Guidelines:**
-
+    
 1. **Identify the Core Medical Topic and Context:**
    - Determine the main subject and its significance (e.g., clinical trial results, healthcare policy updates).
    - Use precise and relevant medical terminology reflecting the central message.
-
+    
 2. **Be Specific and Descriptive:**
    - Provide detailed descriptions of key elements, including people, medical equipment, settings, and symbolic representations.
    - Focus on creating a coherent and impactful image without relying on text.
-
+    
 3. **Specify Photorealistic Style:**
    - Emphasize a photorealistic visual aesthetic for maximum realism and impact.
    - Avoid illustrative or overly stylized representations.
-
+    
 4. **Consider Composition and Perspective:**
    - Arrange elements to highlight the main message using focal points and dynamic angles.
    - Use perspectives that enhance engagement, such as close-ups or wide-angle shots.
-
+    
 5. **Utilize Lighting and Color Palette:**
    - Indicate lighting that complements the mood (e.g., bright lighting for positive news, subdued tones for serious updates).
    - Choose a color palette that aligns with medical and technological themes.
-
+    
 6. **Convey Mood and Emphasis:**
    - Reflect the emotional tone of the news (e.g., hopeful, urgent).
    - Use visual cues to convey importance and urgency.
-
+    
 7. **Maintain Appropriateness, Sensitivity, and Ethical Standards:**
    - Ensure the image is respectful and avoids disallowed or sensitive content.
    - Avoid graphic depictions, distressing imagery, and any personal or identifiable patient information.
    - Do not include text in the image.
-
+    
 8. **Enhance with Sensory and Emotional Details:**
    - Incorporate descriptions of textures, ambient sounds (as visual elements), or emotions to add depth to the image.
-
+    
 **Example Social Media Post:**
-
+    
 🧠 Navigating the complexities of aspirin therapy—how individualized approaches can prevent brain bleeds.
-
+    
 A recent study from the UK Biobank involving over 449,000 participants sheds light on the risks associated with regular aspirin use:
-
+    
 - Overall, aspirin does not significantly increase the risk of intracerebral hemorrhage (ICH) in middle-aged and older adults without a history of stroke or transient ischemic attack.
 - Only 0.3% of participants experienced ICH during a median follow-up of 12.75 years, with a quarter being fatal.
 - However, the risk escalates for:
   - Individuals over 65 years (hazard ratio of 1.47)
   - Those using anticoagulants concurrently (hazard ratio of 4.37)
-
+    
 These findings underscore the importance of individualized assessment when prescribing aspirin, particularly for older adults and those on anticoagulants. 
-
+    
 How do you approach aspirin therapy in your practice to balance benefits and risks?
 **Example Prompt:**
 A photorealistic image set in a contemporary medical consultation room. A middle-aged doctor in a crisp white coat sits across from an elderly male patient, around 70 years old, who is seated in a comfortable chair. The doctor leans forward slightly, hands resting calmly on his knees or clasped together, as he listens attentively to the patient. The patient’s expression is attentive yet slightly concerned, indicating they are discussing important health matters. A stethoscope hangs around the doctor’s neck, and a blood pressure monitor is placed on a nearby table, symbolizing recent medical examination. The room is well-lit with natural light filtering through the window, casting soft shadows that create a warm yet serious atmosphere. On the wall behind them, a framed poster illustrates the human brain, subtly emphasizing the topic of brain health and the risks associated with aspirin therapy and intracerebral hemorrhage. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor and patient, highlighting the importance of personalized medical assessments in aspirin therapy for older adults. The overall mood conveys a sense of care and urgency, reflecting the critical nature of balancing benefits and risks in medication management.""",
         ),
         ("user",
          """Please generate the image prompt accordingly. Reply with only the prompt, no intro, no explanation, no nothing.
-
+    
 Social Media Post
 ---
 {input}"""),
@@ -429,15 +432,15 @@ import fal_client
 def get_fal_ai_image(image_query):
     try:
         handler = fal_client.submit(
-            image_gen_config["model"],
+            current_image_gen_config["model"],
             arguments={
                 "prompt": image_query,
-                "image_size": image_gen_config["image_size"],
-                "num_inference_steps": image_gen_config["num_inference_steps"],
+                "image_size": current_image_gen_config["image_size"],
+                "num_inference_steps": current_image_gen_config["num_inference_steps"],
                 "num_images": 1,
-                "guidance_scale": image_gen_config["guidance_scale"],
+                "guidance_scale": current_image_gen_config["guidance_scale"],
                 "enable_safety_checker":
-                image_gen_config["enable_safety_checker"],
+                current_image_gen_config["enable_safety_checker"],
             },
         )
         result = handler.get()
@@ -454,7 +457,7 @@ def get_image(image_query):
     image_link = get_fal_ai_image(image_query)
     if not image_link:
         logging.warning(
-            f"No image generated for query '{image_query}'. Quittin'.")
+            f"No image generated for query '{image_query}'. Quitting.")
         return None
     return image_link
 
@@ -471,6 +474,7 @@ def normalize_url(url):
 
 
 def log_to_firestore(log_entry, peerr_document_id, collection_name="llm"):
+    target_collection = "llm_test" if config.dev_mode else collection_name
     try:
         generated_post = log_entry.get("generated_post")
         if not generated_post:
@@ -498,92 +502,85 @@ def log_to_firestore(log_entry, peerr_document_id, collection_name="llm"):
         }
 
         # Use the hash as the document ID for Firestore
-        db.collection(collection_name).document(firestore_doc_id).set(
+        db.collection(target_collection).document(firestore_doc_id).set(
             data, merge=True)
         logging.info(
-            f"Logged data to {collection_name} collection with FirestoreID: {firestore_doc_id}."
+            f"Logged data to {target_collection} collection with FirestoreID: {firestore_doc_id}."
         )
     except Exception as e:
         logging.error(f"Error logging data to Firestore: {e}")
 
 
 def send_to_peerr(batch_log_entries, url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"):
-    try:
-        batch_data = []
-        for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
-            if not log_entry.get("generated_post"):
-                logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
-                continue
-            link = log_entry["generated_post"][5]
-            source_link = log_entry["generated_post"][6]  # Get the source_link
-            audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link else "General"
-            post_data = {
-                "imageURL": log_entry["generated_post"][4],
-                "hashtags": log_entry["generated_post"][3],
-                "source": source_link if source_link and str(source_link) != 'nan' else link,  # Use source_link if available and not 'nan', otherwise use link
-                "post": log_entry["generated_post"][2],
-                "type": audience,
-            }
-            batch_data.append(post_data)
-        if not batch_data:
-            logging.error("No valid log entries to send to API.")
-            return None
-        logging.debug(f"Batch data to be sent: {batch_data}")
-        headers = {"Content-Type": "application/json", "x-secret": "9b7ExA8PlJbK"}
-        response = requests.post(url, json=batch_data, headers=headers)
-        if response.status_code == 201 or response.status_code == 200:
-            result = response.json()
-            document_ids = [item["message"].split(": ")[1] for item in result if "Saved with ID" in item["message"]]
-            if len(document_ids) != len(batch_log_entries[:10]):
-                logging.error(
-                    f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries[:10])} entries."
-                )
+    if config.dev_mode:
+        try:
+            batch_data = []
+            for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
+                if not log_entry.get("generated_post"):
+                    logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+                    continue
+                link = log_entry["generated_post"][5]
+                source_link = log_entry["generated_post"][6]  # Get the source_link
+                audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link else "General"
+                post_data = {
+                    "imageURL": log_entry["generated_post"][4],
+                    "hashtags": log_entry["generated_post"][3],
+                    "source": source_link if source_link and str(source_link) != 'nan' else link,  # Use source_link if available and not 'nan', otherwise use link
+                    "post": log_entry["generated_post"][2],
+                    "type": audience,
+                }
+                batch_data.append(post_data)
+            if not batch_data:
+                logging.error("No valid log entries to send to API.")
                 return None
+            # Generate placeholder IDs
+            document_ids = [
+                f"placeholder_idea_{i}" for i in range(len(batch_data))
+            ]
+            logging.info(f"Generated placeholder IDs: {document_ids}")
             return document_ids
-        else:
-            logging.error(f"Failed to send batch data to API. Status code: {response.status_code}, Response: {response.text}")
+        except Exception as e:
+            logging.error(f"Error in send_to_peerr: {e}")
             return None
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Error sending batch data to API: {e}")
-        return None
-
-# def send_to_peerr(
-#     batch_log_entries,
-#     url="https://peerr-website-git-api-thoughts-peerr.vercel.app/api/thoughts/add"
-# ):
-#     try:
-#         batch_data = []
-#         for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
-#             if not log_entry.get("generated_post"):
-#                 logging.error(
-#                     "No 'generated_post' found in log entry or 'generated_post' is None."
-#                 )
-#                 continue
-#             link = log_entry["generated_post"][5]
-#             source_link = log_entry["generated_post"][6]  # Get the source_link
-#             audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link or "nih" in link else "General"
-#             post_data = {
-#                 "imageURL": log_entry["generated_post"][4],
-#                 "hashtags": log_entry["generated_post"][3],
-#                 "source": source_link if source_link else link,  # Use source_link if available, otherwise use link
-#                 "post": log_entry["generated_post"][2],
-#                 "type": audience,
-#             }
-#             batch_data.append(post_data)
-#         if not batch_data:
-#             logging.error("No valid log entries to send to API.")
-#             return None
-
-#         # Generate placeholder IDs
-#         document_ids = [
-#             f"placeholder_idea_{i}" for i in range(len(batch_data))
-#         ]
-#         logging.info(f"Generated placeholder IDs: {document_ids}")
-
-#         return document_ids
-#     except Exception as e:
-#         logging.error(f"Error in send_to_peerr: {e}")
-#         return None
+    else:
+        try:
+            batch_data = []
+            for log_entry in batch_log_entries[:10]:  # Only take up to 10 posts
+                if not log_entry.get("generated_post"):
+                    logging.error("No 'generated_post' found in log entry or 'generated_post' is None.")
+                    continue
+                link = log_entry["generated_post"][5]
+                source_link = log_entry["generated_post"][6]  # Get the source_link
+                audience = "HCP (inc. Students)" if "medscape" in link or "nice" in link else "General"
+                post_data = {
+                    "imageURL": log_entry["generated_post"][4],
+                    "hashtags": log_entry["generated_post"][3],
+                    "source": source_link if source_link and str(source_link) != 'nan' else link,  # Use source_link if available and not 'nan', otherwise use link
+                    "post": log_entry["generated_post"][2],
+                    "type": audience,
+                }
+                batch_data.append(post_data)
+            if not batch_data:
+                logging.error("No valid log entries to send to API.")
+                return None
+            logging.debug(f"Batch data to be sent: {batch_data}")
+            headers = {"Content-Type": "application/json", "x-secret": "9b7ExA8PlJbK"}
+            response = requests.post(url, json=batch_data, headers=headers)
+            if response.status_code == 201 or response.status_code == 200:
+                result = response.json()
+                document_ids = [item["message"].split(": ")[1] for item in result if "Saved with ID" in item["message"]]
+                if len(document_ids) != len(batch_log_entries[:10]):
+                    logging.error(
+                        f"Mismatch in the number of document IDs and batch log entries. Got {len(document_ids)} document IDs for {len(batch_log_entries[:10])} entries."
+                    )
+                    return None
+                return document_ids
+            else:
+                logging.error(f"Failed to send batch data to API. Status code: {response.status_code}, Response: {response.text}")
+                return None
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Error sending batch data to API: {e}")
+            return None
 
 
 # =====================
@@ -608,7 +605,7 @@ def get_unique_links(collections, llm_links):
 def main():
     setup_logger()
     collections = ["combined_news"]
-    llm_collection = "llm"
+    llm_collection = "llm_test" if config.dev_mode else "llm"
 
     # Load existing LLM links
     llm_links = [
@@ -630,7 +627,7 @@ def main():
     batch_log_entries = []
     processed_count = 0
     for link_info in combined_links:
-        if processed_count >= 3:  # Process only 5 articles
+        if processed_count >= 3:  # Process only 3 articles
             break
 
         link = link_info.get("Link")
@@ -670,13 +667,14 @@ def main():
 
     if batch_log_entries:
         logging.info(
-            f"Sending {len(batch_log_entries)} log entries to Firebase.")
+            f"Sending {len(batch_log_entries)} log entries to Firebase."
+        )
         peerr_document_ids = send_to_peerr(batch_log_entries)
         if peerr_document_ids:
             logging.info(
-                f"Received {len(peerr_document_ids)} document IDs from Peerr.")
-            for log_entry, peerr_document_id in zip(batch_log_entries,
-                                                    peerr_document_ids):
+                f"Received {len(peerr_document_ids)} document IDs from Peerr."
+            )
+            for log_entry, peerr_document_id in zip(batch_log_entries, peerr_document_ids):
                 log_to_firestore(log_entry, peerr_document_id)
         else:
             logging.warning(
