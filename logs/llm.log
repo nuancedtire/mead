@@ -3388,3 +3388,39 @@ The composition captures a wide-angle perspective, emphasizing the scale of the 
 2024-10-03 04:18:01,922 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-03 04:18:01,922 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-03 04:18:01,922 - INFO - No valid log entries generated.
+2024-10-03 06:19:55,151 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-03 06:19:55,154 - INFO - Extracted 77 link records from llm.
+2024-10-03 06:19:55,371 - INFO - Extracted 81 link records from combined_news.
+2024-10-03 06:19:55,371 - INFO - Unique links to process: 4
+2024-10-03 06:19:55,371 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-03 06:19:55,371 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-03 06:20:34,282 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 06:20:41,362 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 06:20:45,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 06:20:45,553 - INFO - Image query: A photorealistic image set in a modern, high-tech medical office dedicated to mental health care. The scene features a diverse group of healthcare professionals, including a middle-aged female psychiatrist with glasses, a young male therapist, and a tech-savvy female neuroengineer, gathered around a sleek, futuristic table. They are engaged in an animated discussion, with digital tablets and holographic displays showcasing data and innovative neurotechnology solutions. The psychiatrist, wearing a professional blazer, gestures towards a holographic brain model that illustrates neural pathways, symbolizing advancements in mental health treatment. The therapist, in casual attire, takes notes while looking intrigued, and the neuroengineer, dressed in a lab coat, points to a chart displaying funding statistics for neurotech startups. The room is brightly lit with large windows allowing natural light to flood in, creating an inviting atmosphere. The walls are adorned with modern art pieces that reflect themes of mental health and technology. The composition captures a dynamic angle, focusing on the collaboration and excitement among the professionals, emphasizing the transformative potential of neurotechnology in mental health care. The overall mood conveys optimism and innovation, highlighting the readiness for a shift in patient care through advanced technology.
+2024-10-03 06:20:46,050 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-03 06:20:46,091 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:46,231 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:46,372 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:46,513 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:46,654 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:46,795 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:46,936 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:47,078 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:47,218 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:47,358 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:47,670 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:47,809 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:47,947 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:48,088 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:48,228 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:48,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:48,506 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-03 06:20:48,646 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6/status?logs=false "HTTP/1.1 200 OK"
+2024-10-03 06:20:48,687 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ba3dc060-92f0-4c5c-b755-d2f94a6deff6 "HTTP/1.1 200 OK"
+2024-10-03 06:20:48,688 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/f9y62G0z28N5pqJsMQ-lo.png
+2024-10-03 06:20:48,688 - INFO - Image link: https://fal.media/files/zebra/f9y62G0z28N5pqJsMQ-lo.png
+2024-10-03 06:20:48,688 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-03 06:20:48,688 - INFO - Sending 1 log entries to Firebase.
+2024-10-03 06:20:51,719 - INFO - Received 1 document IDs from Peerr.
+2024-10-03 06:20:51,846 - INFO - Logged data to llm collection with FirestoreID: 77f656213ca97265e41eeb5464247470.
