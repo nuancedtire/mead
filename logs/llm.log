@@ -4713,3 +4713,14 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-04 21:20:24,285 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-04 21:20:24,285 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-04 21:20:24,285 - INFO - No valid log entries generated.
+2024-10-04 22:20:03,592 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-04 22:20:03,595 - INFO - Extracted 100 link records from llm.
+2024-10-04 22:20:03,807 - INFO - Extracted 104 link records from combined_news.
+2024-10-04 22:20:03,807 - INFO - Unique links to process: 4
+2024-10-04 22:20:03,807 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-04 22:20:03,807 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-04 22:20:03,807 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-04 22:20:07,233 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 22:20:07,250 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-04 22:20:07,250 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-04 22:20:07,251 - INFO - No valid log entries generated.
