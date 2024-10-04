@@ -4327,3 +4327,40 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-04 09:56:54,799 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/fda-grants-breakthrough-device-designation-to-amphix-bios-bone-regeneration-product-302267126.html
 2024-10-04 09:56:54,799 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-04 09:56:54,799 - INFO - No valid log entries generated.
+2024-10-04 10:26:45,877 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-04 10:26:45,880 - INFO - Extracted 95 link records from llm.
+2024-10-04 10:26:46,425 - INFO - Extracted 101 link records from combined_news.
+2024-10-04 10:26:46,425 - INFO - Unique links to process: 6
+2024-10-04 10:26:46,425 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-04 10:26:46,425 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-04 10:26:46,425 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-04 10:26:56,301 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 10:26:58,927 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 10:27:02,037 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 10:27:02,042 - INFO - Image query: A photorealistic image set in a modern NHS office environment, featuring a retirement celebration for Kevin Jarrold, a distinguished middle-aged man with graying hair, wearing a smart navy suit and a light blue shirt. He stands at the center of the room, smiling warmly as he receives a framed certificate of appreciation from a diverse group of colleagues, including a young female doctor in scrubs and an older male nurse in a white coat. The background showcases a large banner that reads "Thank You, Kevin!" with digital graphics representing healthcare technology, such as electronic patient records and data analytics. The room is filled with balloons and a small cake on a table, symbolizing the festive atmosphere. Soft, warm lighting illuminates the scene, creating an inviting and celebratory mood. The composition captures a medium shot, focusing on the joyful expressions of the attendees and the sense of accomplishment in the air, highlighting the impact of Kevin's contributions to digital transformation in the NHS.
+2024-10-04 10:27:02,582 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-04 10:27:02,651 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:02,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:02,980 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:03,150 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:03,313 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:03,479 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:03,642 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:03,806 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:03,971 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:04,140 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:04,304 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:04,471 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:04,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:04,800 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:05,106 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:05,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 10:27:05,438 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f/status?logs=false "HTTP/1.1 200 OK"
+2024-10-04 10:27:05,501 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6c4302fa-4143-42de-9879-8ae128292b1f "HTTP/1.1 200 OK"
+2024-10-04 10:27:05,501 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/S8aKjWewEhLNnDKrre3lk.png
+2024-10-04 10:27:05,501 - INFO - Image link: https://fal.media/files/koala/S8aKjWewEhLNnDKrre3lk.png
+2024-10-04 10:27:05,502 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/fda-grants-breakthrough-device-designation-to-amphix-bios-bone-regeneration-product-302267126.html
+2024-10-04 10:27:05,502 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-04 10:27:05,502 - INFO - Sending 1 log entries to Firebase.
+2024-10-04 10:27:08,607 - INFO - Received 1 document IDs from Peerr.
+2024-10-04 10:27:08,820 - INFO - Logged data to llm collection with FirestoreID: c52afb39255444237b29ec746077fa81.
