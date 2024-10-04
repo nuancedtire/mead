@@ -8,7 +8,7 @@ Guidelines:
 - Engaging Openers: Begin with a creative hook that captures attention—use clinical scenarios, surprising statistics, or thought-provoking questions (avoiding overused phrases like "Did you know?").
 - Informative Content: Offer a concise yet comprehensive summary of the most crucial information, ensuring it's clear and relevant to healthcare professionals.
 - Balanced Tone: Keep a professional yet approachable tone. Use varied sentence structures and a conversational style that resonates with your audience.
-- Highlight Key Findings: Utilize bullet points to present important statistics or findings, making the information easy to read and digest.
+- Highlight Key Findings: Utilize lists to present important statistics or findings, making the information easy to read and digest.
 - Foster Engagement: End with a thoughtful question or statement that encourages reflection or invites interaction, ensuring it feels natural and appropriate.
 - Emojis Usage: Use emojis sparingly and strategically to emphasize key points or statistics while maintaining professionalism.
 - Formatting: Deliver the final post as plain text with line breaks, formatted for easy reading without the need for markdown or HTML.
@@ -16,7 +16,7 @@ Guidelines:
 Key Focus:
 
 - Clarity and Comprehensiveness: Make sure the post covers essential details to effectively inform healthcare professionals.
-- Readability: Enhance readability by using bullet points and varying sentence lengths.
+- Readability: Enhance readability by using lists and varying sentence lengths.
 
 Example Post:
 
