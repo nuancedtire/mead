@@ -4414,3 +4414,45 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-04 11:55:15,175 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/fda-grants-breakthrough-device-designation-to-amphix-bios-bone-regeneration-product-302267126.html
 2024-10-04 11:55:15,175 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-04 11:55:15,175 - INFO - No valid log entries generated.
+2024-10-04 12:45:54,984 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-04 12:45:54,987 - INFO - Extracted 96 link records from llm.
+2024-10-04 12:45:55,305 - INFO - Extracted 102 link records from combined_news.
+2024-10-04 12:45:55,306 - INFO - Unique links to process: 6
+2024-10-04 12:45:57,861 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-04 12:45:57,862 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-04 12:46:14,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 12:46:18,328 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 12:46:22,139 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 12:46:22,143 - INFO - Image query: A photorealistic image set in a modern healthcare environment, featuring a diverse group of women, aged 30 to 60, gathered around a sleek digital kiosk displaying the NHS App interface. The women, representing various ethnic backgrounds, exhibit expressions of hope and determination as they interact with the kiosk, which prominently features options for booking breast diagnostic clinics. In the background, a healthcare professional, dressed in scrubs, engages with another patient, symbolizing the supportive atmosphere of the clinic. The room is bright and welcoming, with large windows allowing natural light to flood in, creating a sense of openness and accessibility. On the walls, informative posters about breast health and early detection are visible, reinforcing the importance of timely diagnostics. The composition captures a wide-angle view, emphasizing the collaborative and innovative spirit of the trial, while the overall mood conveys optimism and urgency about improving patient access to essential healthcare services.
+2024-10-04 12:46:22,348 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-04 12:46:22,392 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:22,539 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:22,863 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:23,008 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:23,153 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:23,296 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:23,441 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:23,586 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:23,730 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:23,874 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:24,017 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:24,161 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:24,535 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:24,679 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:24,822 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:24,966 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 12:46:25,109 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115/status?logs=false "HTTP/1.1 200 OK"
+2024-10-04 12:46:25,151 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/29bc3b9e-6a0b-4d1d-b4d9-990108d68115 "HTTP/1.1 200 OK"
+2024-10-04 12:46:25,152 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/fZzbGyHEWO8sfyVNQUWTA.png
+2024-10-04 12:46:25,152 - INFO - Image link: https://fal.media/files/panda/fZzbGyHEWO8sfyVNQUWTA.png
+2024-10-04 12:46:35,574 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 12:46:35,579 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-04 12:46:35,579 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-04 12:46:40,158 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 12:46:40,163 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-04 12:46:40,163 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-04 12:46:40,164 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/fda-grants-breakthrough-device-designation-to-amphix-bios-bone-regeneration-product-302267126.html
+2024-10-04 12:46:40,164 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-04 12:46:40,164 - INFO - Sending 1 log entries to Firebase.
+2024-10-04 12:46:43,168 - INFO - Received 1 document IDs from Peerr.
+2024-10-04 12:46:43,340 - INFO - Logged data to llm collection with FirestoreID: 72d9df1b3cbf5b4d43c6a815144b2c25.
