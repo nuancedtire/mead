@@ -4545,3 +4545,38 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-04 13:54:52,547 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-04 13:54:52,547 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-04 13:54:52,547 - INFO - No valid log entries generated.
+2024-10-04 14:23:51,083 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-04 14:23:51,086 - INFO - Extracted 99 link records from llm.
+2024-10-04 14:23:51,641 - INFO - Extracted 104 link records from combined_news.
+2024-10-04 14:23:51,641 - INFO - Unique links to process: 5
+2024-10-04 14:23:51,641 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-04 14:23:51,641 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-04 14:23:51,641 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-04 14:23:51,642 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-04 14:24:05,304 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 14:24:09,117 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 14:24:12,595 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 14:24:12,599 - INFO - Image query: A photorealistic image set in a modern rheumatology clinic. A diverse group of healthcare professionals, including a middle-aged female rheumatologist in a white coat, a young male cardiologist, and a female nurse, are gathered around a digital tablet displaying patient data and screening results. The rheumatologist points to the screen with a look of determination, while the cardiologist nods in agreement, indicating a collaborative discussion on patient care. In the background, a patient in their 50s, who appears to have rheumatoid arthritis, is seated comfortably in an examination chair, observing the interaction with a hopeful expression. The clinic is bright and welcoming, with large windows allowing natural light to illuminate the space, creating a warm atmosphere. Medical charts and posters about inflammatory rheumatic diseases adorn the walls, emphasizing the focus on systematic screening and preventive care. The composition captures a medium shot angle, highlighting the teamwork and engagement among the healthcare professionals, while the patient’s presence underscores the importance of their well-being. The overall mood conveys optimism and urgency, reflecting the transformative potential of systematic screening in improving patient outcomes and reducing hospital admissions.
+2024-10-04 14:24:12,830 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-04 14:24:12,899 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:13,066 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:13,233 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:13,400 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:13,566 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:13,731 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:13,899 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:14,067 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:14,233 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:14,398 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:14,563 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:14,727 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:14,893 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:15,059 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:15,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 14:24:15,395 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d/status?logs=false "HTTP/1.1 200 OK"
+2024-10-04 14:24:15,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/928cc803-1fa9-48ca-8564-34a5e65c919d "HTTP/1.1 200 OK"
+2024-10-04 14:24:15,458 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/5v2jjnDoBHenhK_NL9nSy.png
+2024-10-04 14:24:15,459 - INFO - Image link: https://fal.media/files/lion/5v2jjnDoBHenhK_NL9nSy.png
+2024-10-04 14:24:15,459 - INFO - Sending 1 log entries to Firebase.
+2024-10-04 14:24:18,807 - INFO - Received 1 document IDs from Peerr.
+2024-10-04 14:24:19,034 - INFO - Logged data to llm collection with FirestoreID: f5d8d1b9bbedbe7a57f63608a6c07229.
