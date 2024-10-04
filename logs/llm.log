@@ -4493,3 +4493,46 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-04 13:15:49,455 - INFO - Sending 1 log entries to Firebase.
 2024-10-04 13:15:52,596 - INFO - Received 1 document IDs from Peerr.
 2024-10-04 13:15:53,534 - INFO - Logged data to llm collection with FirestoreID: fa5905149c6ad4ee20f889a92fe24b7e.
+2024-10-04 13:36:56,264 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-04 13:36:56,268 - INFO - Extracted 98 link records from llm.
+2024-10-04 13:36:56,625 - INFO - Extracted 103 link records from combined_news.
+2024-10-04 13:36:56,625 - INFO - Unique links to process: 5
+2024-10-04 13:36:56,626 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-04 13:36:56,626 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-04 13:36:56,626 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-04 13:37:08,671 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 13:37:11,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 13:37:15,389 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 13:37:15,394 - INFO - Image query: A photorealistic image set in a modern surgical operating room, showcasing a spinal surgeon in scrubs and a surgical mask, focused intently on a patient lying on the operating table. The surgeon, a middle-aged woman with dark hair tied back, is delicately holding a state-of-the-art spinal implant in her gloved hands, demonstrating its moldability. The surgical field is illuminated by bright overhead lights, casting a sterile glow over the scene. Surrounding the operating table are advanced medical equipment and monitors displaying vital signs, emphasizing the high-tech environment. In the background, a large screen shows a detailed 3D model of the human spine, highlighting the area of the degenerative disc disease being treated. The atmosphere is tense yet hopeful, reflecting the significance of this innovative bone regeneration product. The composition captures a medium close-up angle, focusing on the surgeon's concentrated expression and the implant, symbolizing the potential breakthrough in spinal surgery and regenerative therapies. The overall mood conveys a sense of urgency and optimism, underscoring the transformative impact of this new technology in the field of medicine.
+2024-10-04 13:37:15,685 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-04 13:37:15,717 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:15,851 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:15,985 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:16,116 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:16,248 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:16,378 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:16,508 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:16,638 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:16,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:16,901 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,032 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,162 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,292 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,555 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,686 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:17,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:18,084 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:18,215 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:18,345 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:18,476 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-04 13:37:18,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95/status?logs=false "HTTP/1.1 200 OK"
+2024-10-04 13:37:18,637 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/12842cc5-473f-404f-9c16-70f9dddeda95 "HTTP/1.1 200 OK"
+2024-10-04 13:37:18,637 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/-vDDAT9o7aLAtaN--z6SB.png
+2024-10-04 13:37:18,637 - INFO - Image link: https://fal.media/files/lion/-vDDAT9o7aLAtaN--z6SB.png
+2024-10-04 13:37:22,674 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-04 13:37:22,674 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-04 13:37:22,674 - INFO - Sending 1 log entries to Firebase.
+2024-10-04 13:37:25,848 - INFO - Received 1 document IDs from Peerr.
+2024-10-04 13:37:26,008 - INFO - Logged data to llm collection with FirestoreID: d967ffc050980cfef95a4baebc185735.
