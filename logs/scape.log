@@ -5806,3 +5806,40 @@
 2024-10-04 11:19:41,594 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
 2024-10-04 11:19:41,594 - INFO - No new data to update.
 2024-10-04 11:19:41,594 - INFO - Medscape script completed.
+2024-10-04 11:41:09,786 - INFO - Medscape script started.
+2024-10-04 11:41:09,787 - INFO - Connection to Medscape established.
+2024-10-04 11:41:09,874 - INFO - Request sent to Medscape API.
+2024-10-04 11:41:10,681 - INFO - Response received from Medscape API.
+2024-10-04 11:41:10,682 - INFO - Response data decoded into dictionary.
+2024-10-04 11:41:10,682 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-04 11:41:11,642 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-04 11:41:11,643 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-04 11:41:11,855 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-04 11:41:11,855 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-04 11:41:12,506 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-04 11:41:12,506 - INFO - Processing item: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-04 11:41:12,730 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-04 11:41:12,731 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-04 11:41:13,362 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-04 11:41:13,362 - INFO - Processing item: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-04 11:41:13,573 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-04 11:41:13,574 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-04 11:41:14,208 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-04 11:41:14,208 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-04 11:41:14,435 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-04 11:41:14,436 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-04 11:41:15,063 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-04 11:41:15,063 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-04 11:41:15,284 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-04 11:41:15,285 - INFO - Processing item: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-04 11:41:15,939 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-04 11:41:15,940 - INFO - Processing item: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-04 11:41:16,126 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-04 11:41:16,126 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-04 11:41:16,797 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/poor-balance-linked-cardiovascular-disease-2024a1000hj3
+2024-10-04 11:41:16,797 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-04 11:41:16,963 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/time-day-spent-exercising-may-cut-colorectal-cancer-risk-2024a1000hhr
+2024-10-04 11:41:16,963 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-04 11:41:17,275 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/renal-cell-carcinoma-trials-can-inform-nice-guideline-kidney-2024a1000h4w
+2024-10-04 11:41:17,275 - INFO - No new data to update.
+2024-10-04 11:41:17,275 - INFO - Medscape script completed.
