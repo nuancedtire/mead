@@ -4293,3 +4293,17 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-04 08:20:46,313 - INFO - Logged data to llm collection with FirestoreID: 0eb3c35f69871aa383a764130e0ab7b5.
 2024-10-04 08:20:46,666 - INFO - Logged data to llm collection with FirestoreID: 33fc15db46f92c7c8b839030edf3f36b.
 2024-10-04 08:20:46,813 - INFO - Logged data to llm collection with FirestoreID: b4f37245a23014c0452fbb2d11b9f097.
+2024-10-04 09:26:09,669 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-04 09:26:09,672 - INFO - Extracted 95 link records from llm.
+2024-10-04 09:26:10,045 - INFO - Extracted 100 link records from combined_news.
+2024-10-04 09:26:10,045 - INFO - Unique links to process: 5
+2024-10-04 09:26:10,046 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-04 09:26:10,046 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-04 09:26:10,046 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-04 09:26:13,048 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 09:26:13,067 - INFO - No article found for link https://www.prnewswire.com/news-releases/fda-grants-breakthrough-device-designation-to-amphix-bios-bone-regeneration-product-302267126.html.
+2024-10-04 09:26:13,067 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/fda-grants-breakthrough-device-designation-to-amphix-bios-bone-regeneration-product-302267126.html
+2024-10-04 09:26:15,985 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 09:26:15,990 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-04 09:26:15,990 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-04 09:26:15,990 - INFO - No valid log entries generated.
