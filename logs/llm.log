@@ -4733,3 +4733,12 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-04 23:21:03,913 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-04 23:21:03,913 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-04 23:21:03,913 - INFO - No valid log entries generated.
+2024-10-05 01:06:33,835 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-05 01:06:33,838 - INFO - Extracted 100 link records from llm.
+2024-10-05 01:06:34,063 - INFO - Extracted 104 link records from combined_news.
+2024-10-05 01:06:34,063 - INFO - Unique links to process: 4
+2024-10-05 01:06:34,063 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-05 01:06:34,063 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-05 01:06:34,064 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-05 01:06:34,064 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-05 01:06:34,064 - INFO - No valid log entries generated.
