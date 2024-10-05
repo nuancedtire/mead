@@ -4755,3 +4755,41 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-05 04:18:59,520 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-10-05 04:18:59,520 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-05 04:18:59,521 - INFO - No valid log entries generated.
+2024-10-05 08:19:05,113 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-05 08:19:05,117 - INFO - Extracted 100 link records from llm.
+2024-10-05 08:19:05,664 - INFO - Extracted 104 link records from combined_news.
+2024-10-05 08:19:05,665 - INFO - Unique links to process: 4
+2024-10-05 08:19:07,724 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-05 08:19:07,725 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-05 08:19:12,265 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-05 08:19:12,265 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-05 08:23:43,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 08:23:47,325 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 08:23:51,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-05 08:23:51,836 - INFO - Image query: A photorealistic image set in a high-tech neuroscience laboratory. In the foreground, a diverse group of three researchers, two women and one man, are gathered around a large digital screen displaying intricate, colorful maps of cortical circuits and neuron types. One woman, of Asian descent, points at the screen with an expression of excitement and curiosity, while the man, of African descent, takes notes on a tablet, his brow furrowed in concentration. The third researcher, a Caucasian woman, is adjusting a microscope on a nearby lab bench, showcasing the advanced equipment used in their research. The lab is filled with various scientific instruments, glassware, and a whiteboard covered in complex diagrams and equations related to neural circuits. Bright, focused lighting illuminates the workspace, creating a vibrant and dynamic atmosphere. The color palette includes blues and greens, symbolizing the scientific and technological themes of the research. The composition captures a medium-wide angle, emphasizing collaboration and innovation in neuroscience, while the overall mood conveys a sense of discovery and the potential for groundbreaking advancements in understanding cortical function through the START method.
+2024-10-05 08:23:52,243 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-05 08:23:52,312 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:52,480 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:52,648 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:52,815 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:52,988 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:53,156 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:53,323 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:53,491 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:53,659 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:53,827 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:53,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:54,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:54,333 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:54,503 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:54,672 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:54,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-05 08:23:55,017 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c/status?logs=false "HTTP/1.1 200 OK"
+2024-10-05 08:23:55,083 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/43379721-3c63-43c9-9a40-a830c16dae8c "HTTP/1.1 200 OK"
+2024-10-05 08:23:55,084 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/dZy8_nfbfA32Wvd06qzQV.png
+2024-10-05 08:23:55,084 - INFO - Image link: https://fal.media/files/lion/dZy8_nfbfA32Wvd06qzQV.png
+2024-10-05 08:23:57,163 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-05 08:23:57,163 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-05 08:23:57,163 - INFO - Sending 1 log entries to Firebase.
+2024-10-05 08:24:00,580 - INFO - Received 1 document IDs from Peerr.
+2024-10-05 08:24:01,139 - INFO - Logged data to llm collection with FirestoreID: 8dc7fa3c9225361fd17b7218d1d785ba.
