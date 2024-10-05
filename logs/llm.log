@@ -4793,3 +4793,11 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-05 08:23:57,163 - INFO - Sending 1 log entries to Firebase.
 2024-10-05 08:24:00,580 - INFO - Received 1 document IDs from Peerr.
 2024-10-05 08:24:01,139 - INFO - Logged data to llm collection with FirestoreID: 8dc7fa3c9225361fd17b7218d1d785ba.
+2024-10-05 09:19:27,921 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-05 09:19:27,924 - INFO - Extracted 101 link records from llm.
+2024-10-05 09:19:28,414 - INFO - Extracted 104 link records from combined_news.
+2024-10-05 09:19:28,414 - INFO - Unique links to process: 3
+2024-10-05 09:19:28,414 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-05 09:19:28,414 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-05 09:19:28,414 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-05 09:19:28,415 - INFO - No valid log entries generated.
