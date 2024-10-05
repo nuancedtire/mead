@@ -7011,3 +7011,38 @@
 2024-10-05 21:16:17,540 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
 2024-10-05 21:16:17,540 - INFO - No new data to update.
 2024-10-05 21:16:17,540 - INFO - Medscape script completed.
+2024-10-05 23:16:10,689 - INFO - Medscape script started.
+2024-10-05 23:16:10,689 - INFO - Connection to Medscape established.
+2024-10-05 23:16:10,735 - INFO - Request sent to Medscape API.
+2024-10-05 23:16:11,414 - INFO - Response received from Medscape API.
+2024-10-05 23:16:11,415 - INFO - Response data decoded into dictionary.
+2024-10-05 23:16:11,415 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-05 23:16:12,060 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-05 23:16:12,061 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-05 23:16:12,182 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-05 23:16:12,183 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-05 23:16:12,627 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-05 23:16:12,627 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-05 23:16:12,737 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-05 23:16:12,737 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-05 23:16:13,166 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-05 23:16:13,166 - INFO - Processing item: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-05 23:16:13,311 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-05 23:16:13,311 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-05 23:16:13,710 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-05 23:16:13,710 - INFO - Processing item: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-05 23:16:13,854 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-05 23:16:13,854 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-05 23:16:14,247 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-05 23:16:14,247 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-05 23:16:14,401 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-05 23:16:14,401 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-05 23:16:14,791 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-05 23:16:14,792 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-05 23:16:14,945 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-05 23:16:14,945 - INFO - Processing item: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-05 23:16:15,042 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/covid-19-raises-hypertension-and-kidney-disease-risk-t1d-2024a1000hta
+2024-10-05 23:16:15,043 - INFO - Processing item: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-05 23:16:15,137 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/altered-antibody-predicts-crohns-disease-years-before-2024a1000ht4
+2024-10-05 23:16:15,138 - INFO - No new data to update.
+2024-10-05 23:16:15,138 - INFO - Medscape script completed.
