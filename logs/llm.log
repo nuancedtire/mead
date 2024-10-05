@@ -4801,3 +4801,11 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-05 09:19:28,414 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-05 09:19:28,414 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-05 09:19:28,415 - INFO - No valid log entries generated.
+2024-10-05 11:14:54,320 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-05 11:14:54,323 - INFO - Extracted 101 link records from llm.
+2024-10-05 11:14:54,860 - INFO - Extracted 104 link records from combined_news.
+2024-10-05 11:14:54,860 - INFO - Unique links to process: 3
+2024-10-05 11:14:54,860 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-05 11:14:54,860 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-05 11:14:54,860 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-05 11:14:54,860 - INFO - No valid log entries generated.
