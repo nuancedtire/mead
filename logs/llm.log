@@ -4742,3 +4742,16 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-05 01:06:34,064 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
 2024-10-05 01:06:34,064 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-05 01:06:34,064 - INFO - No valid log entries generated.
+2024-10-05 04:18:36,697 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-05 04:18:36,701 - INFO - Extracted 100 link records from llm.
+2024-10-05 04:18:36,917 - INFO - Extracted 104 link records from combined_news.
+2024-10-05 04:18:36,917 - INFO - Unique links to process: 4
+2024-10-05 04:18:39,218 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-05 04:18:39,218 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-05 04:18:46,552 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-05 04:18:46,552 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-05 04:18:50,240 - INFO - No article found for link http://dx.doi.org/10.1016/j.neuron.2024.09.003.
+2024-10-05 04:18:50,240 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/j.neuron.2024.09.003
+2024-10-05 04:18:59,520 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-05 04:18:59,520 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-05 04:18:59,521 - INFO - No valid log entries generated.
