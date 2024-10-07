@@ -5539,3 +5539,12 @@ In the background, a scenic view of the Orkney landscape is visible through a la
 2024-10-07 20:25:06,360 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-07 20:25:06,360 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-07 20:25:06,360 - INFO - No valid log entries generated.
+2024-10-07 21:21:06,716 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-07 21:21:06,720 - INFO - Extracted 111 link records from llm.
+2024-10-07 21:21:06,963 - INFO - Extracted 114 link records from combined_news.
+2024-10-07 21:21:06,963 - INFO - Unique links to process: 3
+2024-10-07 21:21:10,117 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-07 21:21:10,118 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-07 21:21:10,118 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-07 21:21:10,118 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-07 21:21:10,118 - INFO - No valid log entries generated.
