@@ -5416,3 +5416,11 @@ In the background, a scenic view of the Orkney landscape is visible through a la
 2024-10-07 13:32:40,176 - INFO - Received 2 document IDs from Peerr.
 2024-10-07 13:32:40,700 - INFO - Logged data to llm collection with FirestoreID: 74f981572d303a31211d144acc5da50a.
 2024-10-07 13:32:40,843 - INFO - Logged data to llm collection with FirestoreID: be9898f3da62dbd0a6d685ccdc7bdb08.
+2024-10-07 13:46:24,545 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-07 13:46:24,549 - INFO - Extracted 111 link records from llm.
+2024-10-07 13:46:24,772 - INFO - Extracted 114 link records from combined_news.
+2024-10-07 13:46:24,773 - INFO - Unique links to process: 3
+2024-10-07 13:46:24,773 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-07 13:46:24,773 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-07 13:46:24,773 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-07 13:46:24,773 - INFO - No valid log entries generated.
