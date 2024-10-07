@@ -5105,3 +5105,75 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-07 08:19:24,214 - INFO - Logged data to llm collection with FirestoreID: 016df72ddae7617bf23e48277f7bee78.
 2024-10-07 08:19:24,647 - INFO - Logged data to llm collection with FirestoreID: 57e989ae44a9ecdb19c2e1a7459b3848.
 2024-10-07 08:19:24,842 - INFO - Logged data to llm collection with FirestoreID: a11ebc7b64e44530735d4d4bf0561058.
+2024-10-07 09:27:33,778 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-07 09:27:33,781 - INFO - Extracted 104 link records from llm.
+2024-10-07 09:27:34,128 - INFO - Extracted 109 link records from combined_news.
+2024-10-07 09:27:34,129 - INFO - Unique links to process: 5
+2024-10-07 09:27:34,129 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-07 09:28:32,832 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 09:28:37,159 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 09:28:40,209 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 09:28:40,213 - INFO - Image query: A photorealistic image set in a modern healthcare conference room. A diverse group of healthcare professionals, including a middle-aged female doctor in a white coat, a young male nurse in scrubs, and an elderly male physician with glasses, are gathered around a sleek conference table. They are engaged in a serious discussion, with the doctor pointing at a large digital screen displaying the updated UK vaccination schedule for 2024, highlighting key vaccines like RSV, Shingles, Chickenpox, HPV, and COVID-19. The expressions on their faces reflect a mix of concentration and determination as they strategize on implementing these changes in their practices. The room is well-lit with bright overhead lights and large windows allowing natural light to stream in, creating a vibrant yet professional atmosphere. Medical charts and vaccination pamphlets are scattered on the table, symbolizing the importance of public health education. The composition captures a medium wide-angle view, emphasizing collaboration and the urgency of adapting to new vaccination guidelines. The overall mood conveys a sense of responsibility and proactive engagement in enhancing community health through updated vaccination strategies.
+2024-10-07 09:28:40,462 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-07 09:28:40,482 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:40,604 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:40,723 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:40,841 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:40,960 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,079 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,198 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,316 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,552 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,719 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,837 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:41,962 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,082 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,205 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,326 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,447 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,564 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,684 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,804 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:42,923 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:28:43,044 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705/status?logs=false "HTTP/1.1 200 OK"
+2024-10-07 09:28:43,063 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/aa06e8d6-a747-44ff-b9ce-4f5b2f67c705 "HTTP/1.1 200 OK"
+2024-10-07 09:28:43,063 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/2lCSyB0Bt91smAjg_BQct.png
+2024-10-07 09:28:43,063 - INFO - Image link: https://fal.media/files/rabbit/2lCSyB0Bt91smAjg_BQct.png
+2024-10-07 09:28:44,636 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-07 09:28:44,636 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-07 09:28:50,912 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 09:28:53,164 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 09:29:00,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 09:29:00,021 - INFO - Image query: A photorealistic image set in a vibrant awards ceremony hall, filled with diverse attendees celebrating achievements in healthcare. In the foreground, Jon Hoeksma, a middle-aged man with short, neatly styled hair and wearing a tailored suit, stands proudly on stage holding a crystal trophy labeled 'Ally of the Year.' His expression radiates joy and determination. Behind him, a large screen displays the words "B.A.M.E Health & Care Awards" in bold letters, surrounded by colorful graphics symbolizing diversity and inclusion. The audience, a mix of men and women from various ethnic backgrounds, claps enthusiastically, some standing in appreciation. The lighting is bright and celebratory, with golden spotlights illuminating Hoeksma and the stage, while the background features banners promoting diversity initiatives. The composition captures a wide-angle view, emphasizing the collective celebration and the importance of leadership in fostering an inclusive environment in digital health. The overall mood conveys a sense of achievement, hope, and the ongoing commitment to equity in healthcare.
+2024-10-07 09:29:00,198 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-07 09:29:00,221 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:00,343 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:00,460 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:00,579 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:00,699 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:00,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:00,936 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:01,190 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:01,311 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:01,432 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:01,550 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:01,670 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:01,793 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,086 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,499 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,618 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,736 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 09:29:02,974 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd/status?logs=false "HTTP/1.1 200 OK"
+2024-10-07 09:29:02,992 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4b461978-1633-4fa6-9546-6cc4764587cd "HTTP/1.1 200 OK"
+2024-10-07 09:29:02,992 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/QI0pRXl55Umvl2XzxmjP2.png
+2024-10-07 09:29:02,992 - INFO - Image link: https://fal.media/files/monkey/QI0pRXl55Umvl2XzxmjP2.png
+2024-10-07 09:29:04,903 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-07 09:29:04,903 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-07 09:29:04,904 - INFO - Sending 2 log entries to Firebase.
+2024-10-07 09:29:08,100 - INFO - Received 2 document IDs from Peerr.
+2024-10-07 09:29:08,322 - INFO - Logged data to llm collection with FirestoreID: 5b1253db4b6f4c169f8eee49c9267265.
+2024-10-07 09:29:08,670 - INFO - Logged data to llm collection with FirestoreID: cc4b3afef24eaf9118d51d91c0657009.
