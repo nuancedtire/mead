@@ -5347,3 +5347,72 @@ In the background, a scenic view of the Orkney landscape is visible through a la
 2024-10-07 12:49:17,522 - INFO - Received 2 document IDs from Peerr.
 2024-10-07 12:49:17,669 - INFO - Logged data to llm collection with FirestoreID: 280d97a53874801992d65d2390a4571e.
 2024-10-07 12:49:18,115 - INFO - Logged data to llm collection with FirestoreID: 955b0d1c683f508d552ef3b71af880ff.
+2024-10-07 13:31:43,873 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-07 13:31:43,876 - INFO - Extracted 109 link records from llm.
+2024-10-07 13:31:44,153 - INFO - Extracted 114 link records from combined_news.
+2024-10-07 13:31:44,153 - INFO - Unique links to process: 5
+2024-10-07 13:31:44,153 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-07 13:31:55,565 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 13:32:00,314 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 13:32:04,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 13:32:04,776 - INFO - Image query: A photorealistic image set in a modern oncology consultation room. A compassionate oncologist, a middle-aged woman in a tailored white coat, sits at a sleek desk, leaning forward with an engaged expression as she discusses colorectal cancer with a middle-aged male patient, around 50 years old, who appears attentive and slightly anxious. The patient is seated in a comfortable chair, holding a pamphlet about colorectal cancer screening, symbolizing the importance of early detection. A large digital screen in the background displays a graph illustrating the differences in disease-free survival rates between screen-detected and non-screen-detected colorectal cancer, with clear, bold numbers emphasizing the statistics. The room is brightly lit with natural light streaming through a window, creating a warm and inviting atmosphere. A model of the human digestive system is placed on a shelf, subtly reinforcing the topic of colorectal health. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor and patient, highlighting the critical nature of early detection in improving cancer outcomes. The overall mood conveys a sense of urgency and hope, reflecting the importance of screening in enhancing survival rates for colorectal cancer patients.
+2024-10-07 13:32:05,141 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-07 13:32:05,181 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:05,320 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:05,460 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:05,599 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:05,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:05,885 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:06,026 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:06,165 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:06,306 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:06,450 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:06,588 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:06,729 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:06,869 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,148 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,288 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,428 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,568 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,707 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,848 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:07,988 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e/status?logs=false "HTTP/1.1 200 OK"
+2024-10-07 13:32:08,027 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68bc2268-2ecd-4306-9bfe-a348879a3c4e "HTTP/1.1 200 OK"
+2024-10-07 13:32:08,027 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/nPPlsoSntEdM17w-IMZwV.png
+2024-10-07 13:32:08,027 - INFO - Image link: https://fal.media/files/lion/nPPlsoSntEdM17w-IMZwV.png
+2024-10-07 13:32:11,514 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-07 13:32:11,514 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-07 13:32:22,652 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 13:32:26,666 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 13:32:31,285 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 13:32:31,289 - INFO - Image query: A photorealistic image set in a bright, modern pediatric clinic. A pediatrician, a woman in her mid-30s wearing a colorful scrubs top, is kneeling beside a small examination table where a toddler, around 2 years old, is sitting. The toddler, with curly hair and a curious expression, is holding a colorful toy while looking at the pediatrician. The doctor is gently explaining the new immunization schedule, pointing to a colorful chart on the wall that illustrates the updated vaccine schedule with images of the MMRV and RSV vaccines. Nearby, a nurse, a man in his late 20s, is preparing a syringe with a friendly smile, indicating readiness for the vaccination. The room is filled with bright, cheerful colors, with playful decorations on the walls, creating a welcoming atmosphere. Soft natural light streams in through a window, casting warm shadows and enhancing the sense of care and attention. The composition captures a medium close-up angle, focusing on the interaction between the pediatrician and the toddler, highlighting the importance of communication and education in pediatric healthcare. The overall mood conveys a sense of hope and proactive healthcare, reflecting the critical nature of updated immunization practices in safeguarding children's health.
+2024-10-07 13:32:31,411 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-07 13:32:31,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:31,593 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:31,736 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:31,876 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:32,018 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:32,157 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:32,300 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:32,442 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:32,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:32,722 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:32,863 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,142 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,282 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,423 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,563 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,705 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,846 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 13:32:33,988 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b/status?logs=false "HTTP/1.1 200 OK"
+2024-10-07 13:32:34,044 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/ac31cb7a-403d-4d26-8c9f-a34fdc4abd0b "HTTP/1.1 200 OK"
+2024-10-07 13:32:34,044 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/e6jB2B5QMpUoe-rH56j_K.png
+2024-10-07 13:32:34,044 - INFO - Image link: https://fal.media/files/koala/e6jB2B5QMpUoe-rH56j_K.png
+2024-10-07 13:32:36,842 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-07 13:32:36,843 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-07 13:32:36,843 - INFO - Sending 2 log entries to Firebase.
+2024-10-07 13:32:40,176 - INFO - Received 2 document IDs from Peerr.
+2024-10-07 13:32:40,700 - INFO - Logged data to llm collection with FirestoreID: 74f981572d303a31211d144acc5da50a.
+2024-10-07 13:32:40,843 - INFO - Logged data to llm collection with FirestoreID: be9898f3da62dbd0a6d685ccdc7bdb08.
