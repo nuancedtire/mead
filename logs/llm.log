@@ -5193,3 +5193,42 @@ On the walls, digital screens display vibrant infographics about appointment sta
 2024-10-07 09:56:28,355 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-07 09:56:28,355 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-07 09:56:28,356 - INFO - No valid log entries generated.
+2024-10-07 10:27:24,753 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-07 10:27:24,757 - INFO - Extracted 106 link records from llm.
+2024-10-07 10:27:24,989 - INFO - Extracted 110 link records from combined_news.
+2024-10-07 10:27:24,990 - INFO - Unique links to process: 4
+2024-10-07 10:27:24,990 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-07 10:27:34,740 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 10:27:37,182 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 10:27:39,806 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 10:27:39,814 - INFO - Image query: A photorealistic image depicting a modern healthcare setting in a remote area, showcasing a community mental health team in action. In the foreground, a diverse group of healthcare professionals, including a middle-aged female nurse and a young male physiotherapist, are gathered around a tablet displaying the Cambric Morse electronic patient record app. The nurse, wearing scrubs and a name badge, is pointing at the screen with a look of enthusiasm, while the physiotherapist, dressed in casual healthcare attire, nods in agreement, reflecting a collaborative atmosphere. 
+
+In the background, a scenic view of the Orkney landscape is visible through a large window, emphasizing the remote setting. The room is equipped with medical supplies and a whiteboard filled with notes, symbolizing ongoing patient care discussions. Soft, natural lighting floods the space, creating a warm and inviting environment. The composition captures a medium shot, focusing on the interaction between the healthcare professionals, highlighting the transformative impact of digital tools on patient care. The overall mood conveys optimism and empowerment, illustrating the shift towards enhanced productivity and improved patient outcomes in remote healthcare settings.
+2024-10-07 10:27:40,135 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-07 10:27:40,176 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:40,317 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:40,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:40,599 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:40,741 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:40,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:41,024 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:41,164 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:41,305 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:41,445 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:41,585 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:41,726 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:41,866 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:42,010 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:42,152 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:42,292 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:42,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:42,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-07 10:27:42,717 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27/status?logs=false "HTTP/1.1 200 OK"
+2024-10-07 10:27:42,756 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbf69711-d6fa-432d-9181-826d9a801e27 "HTTP/1.1 200 OK"
+2024-10-07 10:27:42,756 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/xZWmrGPjS5Ata3fnEZOeC.png
+2024-10-07 10:27:42,756 - INFO - Image link: https://fal.media/files/zebra/xZWmrGPjS5Ata3fnEZOeC.png
+2024-10-07 10:27:42,757 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-07 10:27:42,757 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-07 10:27:42,757 - INFO - Sending 1 log entries to Firebase.
+2024-10-07 10:27:45,848 - INFO - Received 1 document IDs from Peerr.
+2024-10-07 10:27:45,981 - INFO - Logged data to llm collection with FirestoreID: 4518f56b3edf459b4cc33fec58a8cfbf.
