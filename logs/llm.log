@@ -5860,3 +5860,45 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 11:55:30,238 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-08 11:55:30,238 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-08 11:55:30,238 - INFO - No valid log entries generated.
+2024-10-08 12:44:20,040 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 12:44:20,044 - INFO - Extracted 117 link records from llm.
+2024-10-08 12:44:20,260 - INFO - Extracted 122 link records from combined_news.
+2024-10-08 12:44:20,260 - INFO - Unique links to process: 5
+2024-10-08 12:44:25,907 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-08 12:44:25,908 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 12:44:51,820 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 12:44:54,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 12:45:03,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 12:45:03,399 - INFO - Image query: A photorealistic image set in a modern healthcare innovation lab. In the foreground, a diverse group of healthcare professionals, including a middle-aged female surgeon in scrubs, a young male data scientist in a lab coat, and an elderly male regulatory expert in business attire, are gathered around a sleek, high-tech table displaying a holographic interface showcasing various AI healthcare applications. The surgeon is pointing at a 3D model of a surgical tool enhanced by AI, while the data scientist takes notes on a digital tablet, and the regulatory expert observes thoughtfully. The background features large windows with a view of a bustling city, symbolizing progress and innovation. Bright, natural light floods the room, creating an atmosphere of optimism and collaboration. The color palette includes cool blues and whites, reflecting a clean, technological environment. The composition captures a dynamic angle, emphasizing the interaction among the professionals and the cutting-edge technology, conveying a sense of urgency and excitement about the future of AI in healthcare. The overall mood is one of innovation, collaboration, and a commitment to safety in the integration of AI technologies.
+2024-10-08 12:45:03,687 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-08 12:45:03,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:03,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:04,049 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:04,185 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:04,324 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:04,463 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:04,679 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:04,811 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:04,943 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:05,076 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:05,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:05,342 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:05,475 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:05,610 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:05,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:05,877 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:06,010 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:06,143 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:06,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 12:45:06,409 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40/status?logs=false "HTTP/1.1 200 OK"
+2024-10-08 12:45:06,441 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c07bbd67-2d50-4fc4-b754-056be9b53d40 "HTTP/1.1 200 OK"
+2024-10-08 12:45:06,441 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/U-8BS40RpEl6vsVY-TVgs.png
+2024-10-08 12:45:06,441 - INFO - Image link: https://fal.media/files/penguin/U-8BS40RpEl6vsVY-TVgs.png
+2024-10-08 12:45:06,442 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html
+2024-10-08 12:45:16,606 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-08 12:45:16,607 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 12:45:19,730 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-08 12:45:19,730 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 12:45:19,730 - INFO - Sending 1 log entries to Firebase.
+2024-10-08 12:45:22,420 - INFO - Received 1 document IDs from Peerr.
+2024-10-08 12:45:22,551 - INFO - Logged data to llm collection with FirestoreID: 1cbded3f4a35df92b54eeeba99cd8a0d.
