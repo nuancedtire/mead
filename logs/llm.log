@@ -5574,3 +5574,14 @@ In the background, a scenic view of the Orkney landscape is visible through a la
 2024-10-08 01:01:49,837 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-08 01:01:49,837 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-08 01:01:49,837 - INFO - No valid log entries generated.
+2024-10-08 04:17:36,882 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 04:17:36,886 - INFO - Extracted 111 link records from llm.
+2024-10-08 04:17:37,457 - INFO - Extracted 114 link records from combined_news.
+2024-10-08 04:17:37,457 - INFO - Unique links to process: 3
+2024-10-08 04:17:41,311 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-08 04:17:41,312 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 04:17:46,332 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-08 04:17:46,332 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 04:17:51,700 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-08 04:17:51,701 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 04:17:51,701 - INFO - No valid log entries generated.
