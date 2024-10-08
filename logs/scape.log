@@ -9273,3 +9273,48 @@
 2024-10-08 12:44:11,648 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
 2024-10-08 12:44:11,648 - INFO - No new data to update.
 2024-10-08 12:44:11,649 - INFO - Medscape script completed.
+2024-10-08 13:14:27,112 - INFO - Medscape script started.
+2024-10-08 13:14:27,113 - INFO - Connection to Medscape established.
+2024-10-08 13:14:27,192 - INFO - Request sent to Medscape API.
+2024-10-08 13:14:27,708 - INFO - Response received from Medscape API.
+2024-10-08 13:14:27,709 - INFO - Response data decoded into dictionary.
+2024-10-08 13:14:27,711 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-08 13:14:28,333 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-08 13:14:37,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:14:37,909 - INFO - Found source link: https://adc.bmj.com/content/archdischild/early/2024/09/27/archdischild-2024-326951.full.pdf
+2024-10-08 13:14:37,909 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-08 13:14:38,031 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-08 13:14:44,977 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:14:44,978 - INFO - Found source link: https://academic.oup.com/jcem/advance-article/doi/10.1210/clinem/dgae682/7808449?login=false
+2024-10-08 13:14:44,979 - INFO - Processing item: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-08 13:14:45,098 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-08 13:14:45,099 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-08 13:14:45,464 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-08 13:14:45,464 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-08 13:14:45,592 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-08 13:14:45,592 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-08 13:14:45,960 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-08 13:14:45,960 - INFO - Processing item: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-08 13:14:46,072 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-08 13:14:46,073 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-08 13:14:46,452 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-08 13:14:46,452 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-08 13:14:46,572 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-08 13:14:46,572 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-08 13:14:46,945 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-08 13:14:46,946 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-08 13:14:47,063 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-08 13:14:47,064 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-08 13:14:47,437 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-08 13:14:47,437 - INFO - Processing item: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-08 13:14:47,542 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-08 13:14:47,542 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-08 13:14:47,728 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-08 13:14:47,729 - INFO - Processing item: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-08 13:14:47,914 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-08 13:14:47,914 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-08 13:14:48,027 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-08 13:14:48,027 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-08 13:14:48,135 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-08 13:14:48,264 - INFO - Successfully updated Firestore with 2 items.
+2024-10-08 13:14:48,264 - INFO - Medscape script completed.

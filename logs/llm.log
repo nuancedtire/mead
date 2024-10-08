@@ -5902,3 +5902,69 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 12:45:19,730 - INFO - Sending 1 log entries to Firebase.
 2024-10-08 12:45:22,420 - INFO - Received 1 document IDs from Peerr.
 2024-10-08 12:45:22,551 - INFO - Logged data to llm collection with FirestoreID: 1cbded3f4a35df92b54eeeba99cd8a0d.
+2024-10-08 13:14:57,171 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 13:14:57,175 - INFO - Extracted 118 link records from llm.
+2024-10-08 13:14:57,395 - INFO - Extracted 124 link records from combined_news.
+2024-10-08 13:14:57,395 - INFO - Unique links to process: 6
+2024-10-08 13:14:57,395 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 13:14:57,395 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html
+2024-10-08 13:14:57,396 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 13:15:13,323 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:15:20,021 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:15:23,026 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:15:23,030 - INFO - Image query: A photorealistic image set in a modern medical examination room, featuring a female endocrinologist in a white lab coat, intently examining an ultrasound image displayed on a monitor. The doctor, in her late 30s, has shoulder-length dark hair and wears glasses, showcasing a focused expression as she analyzes the ultrasound results of a thyroid nodule. In the foreground, a high-resolution ultrasound machine is visible, with a probe resting on a nearby table, indicating recent use. The room is bright and well-lit, with natural light streaming in through a window, creating a calm yet professional atmosphere. On the wall, a detailed anatomical poster of the thyroid gland is displayed, emphasizing the subject of the examination. The composition captures a medium close-up angle, focusing on the doctor’s engaged demeanor and the ultrasound screen, highlighting the importance of ultrasound in diagnosing thyroid nodules. The overall mood conveys a sense of diligence and professionalism, reflecting the critical nature of accurate diagnosis and management in thyroid health.
+2024-10-08 13:15:23,309 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-08 13:15:23,352 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:23,495 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:23,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:23,776 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:23,918 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:24,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:24,202 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:24,342 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:24,485 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:24,627 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:24,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:24,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:25,049 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:25,192 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:25,336 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:25,481 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:25,624 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:25,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:25,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2/status?logs=false "HTTP/1.1 200 OK"
+2024-10-08 13:15:25,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f8556591-ed4c-4d8c-8edb-60c6bb69c8b2 "HTTP/1.1 200 OK"
+2024-10-08 13:15:25,953 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/MSqaTFc6c8cu5sLgnx147.png
+2024-10-08 13:15:25,953 - INFO - Image link: https://fal.media/files/tiger/MSqaTFc6c8cu5sLgnx147.png
+2024-10-08 13:15:25,953 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 13:15:37,369 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:15:45,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:15:48,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 13:15:48,433 - INFO - Image query: A photorealistic image set in a bright, modern prenatal clinic. In the foreground, a pregnant woman in her early 30s, with a visibly rounded belly, sits on an examination table, looking thoughtfully at a chart in her hands that displays maternal health statistics. She has a concerned yet determined expression, reflecting her awareness of the implications of maternal obesity. A healthcare professional, a middle-aged woman in a white lab coat, stands beside her, pointing to the chart while engaging in a supportive conversation. The doctor’s face shows empathy and encouragement, emphasizing the importance of weight management. In the background, a colorful mural depicting healthy fruits and vegetables adorns the wall, symbolizing nutrition and wellness. Soft, natural light streams through a window, creating a warm and inviting atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the mother and healthcare provider, highlighting the critical conversation about maternal health and its impact on child well-being. The overall mood conveys a sense of hope and urgency, reflecting the importance of proactive health measures for expectant mothers.
+2024-10-08 13:15:48,830 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-08 13:15:48,867 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,004 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,144 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,281 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,559 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,697 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,837 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:49,980 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:50,120 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:50,265 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:50,404 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:50,542 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:50,680 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:50,819 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:50,957 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:51,094 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:51,232 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 13:15:51,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad/status?logs=false "HTTP/1.1 200 OK"
+2024-10-08 13:15:51,408 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9643f498-3744-4fe0-9334-e89cb3d5cbad "HTTP/1.1 200 OK"
+2024-10-08 13:15:51,409 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/MkmkAHPS9PJD_Wh6sA4Ky.png
+2024-10-08 13:15:51,409 - INFO - Image link: https://fal.media/files/tiger/MkmkAHPS9PJD_Wh6sA4Ky.png
+2024-10-08 13:15:51,409 - INFO - Sending 2 log entries to Firebase.
+2024-10-08 13:15:55,053 - INFO - Received 2 document IDs from Peerr.
+2024-10-08 13:15:55,174 - INFO - Logged data to llm collection with FirestoreID: aad4a7b03e725929b1cf06e50f608273.
+2024-10-08 13:15:55,539 - INFO - Logged data to llm collection with FirestoreID: f058300adc129919ca29ede5ad9851f5.
