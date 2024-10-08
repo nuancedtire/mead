@@ -5726,3 +5726,42 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 09:56:30,560 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-08 09:56:30,560 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-08 09:56:30,560 - INFO - No valid log entries generated.
+2024-10-08 10:26:03,851 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 10:26:03,854 - INFO - Extracted 114 link records from llm.
+2024-10-08 10:26:04,084 - INFO - Extracted 119 link records from combined_news.
+2024-10-08 10:26:04,085 - INFO - Unique links to process: 5
+2024-10-08 10:26:04,085 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 10:26:19,953 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 10:26:30,813 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 10:26:34,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 10:26:34,436 - INFO - Image query: A photorealistic image set in a modern surgical operating room, showcasing a state-of-the-art robotic surgical system, specifically the da Vinci robot, positioned prominently in the center. A team of diverse surgeons, including a male and female surgeon in surgical scrubs and masks, are engaged in a robotic-assisted procedure, their expressions focused and determined. The lead surgeon, a middle-aged woman, is skillfully maneuvering the robotic controls, while a younger male surgeon observes intently, taking notes on a digital tablet. Bright, sterile lighting illuminates the room, highlighting the advanced technology and surgical instruments neatly arranged on nearby tables. Monitors displaying real-time surgical data and patient vitals are visible in the background, emphasizing the high-tech environment. The composition captures a dynamic angle, focusing on the interaction between the surgeons and the robotic system, symbolizing the innovative shift towards robotic-assisted surgeries in the NHS. The overall mood conveys a sense of progress and excitement, reflecting the transformative potential of robotics in enhancing surgical efficiency and patient care.
+2024-10-08 10:26:34,592 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-08 10:26:34,635 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:34,798 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:34,938 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:35,077 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:35,217 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:35,357 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:35,498 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:35,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:35,777 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:35,918 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:36,058 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:36,199 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:36,338 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:36,477 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:36,617 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:36,758 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:36,898 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:37,039 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:37,177 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:26:37,319 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146/status?logs=false "HTTP/1.1 200 OK"
+2024-10-08 10:26:37,357 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2075d7fc-1dc8-40b0-8ffe-9d4f8eeee146 "HTTP/1.1 200 OK"
+2024-10-08 10:26:37,358 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/zIdS7_QqW4U6VNSy4_pPD.png
+2024-10-08 10:26:37,358 - INFO - Image link: https://fal.media/files/koala/zIdS7_QqW4U6VNSy4_pPD.png
+2024-10-08 10:26:37,358 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html
+2024-10-08 10:26:37,359 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 10:26:37,359 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 10:26:37,359 - INFO - Sending 1 log entries to Firebase.
+2024-10-08 10:26:40,472 - INFO - Received 1 document IDs from Peerr.
+2024-10-08 10:26:40,587 - INFO - Logged data to llm collection with FirestoreID: 52567ec8c0cd1ecc61be2a0dec8cfcfd.
