@@ -5765,3 +5765,37 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 10:26:37,359 - INFO - Sending 1 log entries to Firebase.
 2024-10-08 10:26:40,472 - INFO - Received 1 document IDs from Peerr.
 2024-10-08 10:26:40,587 - INFO - Logged data to llm collection with FirestoreID: 52567ec8c0cd1ecc61be2a0dec8cfcfd.
+2024-10-08 10:45:11,674 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 10:45:11,679 - INFO - Extracted 115 link records from llm.
+2024-10-08 10:45:12,261 - INFO - Extracted 120 link records from combined_news.
+2024-10-08 10:45:12,261 - INFO - Unique links to process: 5
+2024-10-08 10:45:12,261 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 10:45:33,962 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 10:45:37,521 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 10:45:42,834 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 10:45:42,839 - INFO - Image query: A photorealistic image depicting a modern healthcare innovation hub within a bustling NHS hospital. In the foreground, a diverse group of healthcare professionals, including a middle-aged female cardiologist in a white coat, a young male data analyst in smart casual attire, and an elderly male patient in a hospital gown, are gathered around a high-tech digital display showcasing real-time data on pulse field ablation (PFA) for atrial fibrillation. The cardiologist gestures towards the screen, explaining the procedure with enthusiasm, while the patient listens intently, a look of hope on his face. In the background, a nurse is seen assisting a patient with a colonoscopy, with advanced AI technology integrated into the equipment, symbolizing the COLODETECT study. The room is bright and filled with natural light, with sleek, modern furnishings and digital screens displaying health statistics and connectivity maps. The color palette features calming blues and greens, emphasizing a sense of innovation and care. The composition captures a dynamic angle, focusing on the interaction between the professionals and the patient, highlighting the transformative impact of technology in healthcare. The overall mood conveys optimism and urgency, reflecting the critical advancements in NHS healthcare technology and the importance of safeguarding digital infrastructure.
+2024-10-08 10:45:43,068 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-08 10:45:43,133 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:43,297 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:43,466 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:43,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:44,006 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:44,172 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:44,338 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:44,505 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:44,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:44,836 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:45,001 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:45,168 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:45,334 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:45,500 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 10:45:45,669 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3/status?logs=false "HTTP/1.1 200 OK"
+2024-10-08 10:45:45,738 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e6949025-6433-4928-a809-84a17015a3a3 "HTTP/1.1 200 OK"
+2024-10-08 10:45:45,738 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/ILW1xolAiiUPd0X38nskD.png
+2024-10-08 10:45:45,739 - INFO - Image link: https://fal.media/files/kangaroo/ILW1xolAiiUPd0X38nskD.png
+2024-10-08 10:45:45,739 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html
+2024-10-08 10:45:45,739 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 10:45:45,739 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 10:45:45,740 - INFO - Sending 1 log entries to Firebase.
+2024-10-08 10:45:48,991 - INFO - Received 1 document IDs from Peerr.
+2024-10-08 10:45:49,207 - INFO - Logged data to llm collection with FirestoreID: 2b3747e1ba1eee125f2f29e9fce4d04e.
