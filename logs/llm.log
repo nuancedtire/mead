@@ -6071,3 +6071,43 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 17:21:55,963 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-08 17:21:55,963 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-08 17:21:55,963 - INFO - No valid log entries generated.
+2024-10-08 17:40:56,599 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 17:40:56,602 - INFO - Extracted 120 link records from llm.
+2024-10-08 17:40:56,848 - INFO - Extracted 124 link records from combined_news.
+2024-10-08 17:40:56,848 - INFO - Unique links to process: 4
+2024-10-08 17:40:56,848 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 17:42:08,411 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 17:42:27,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 17:42:32,244 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 17:42:32,248 - INFO - Image query: A photorealistic image set in a state-of-the-art laboratory at a cancer research facility. In the foreground, a diverse group of three researchers—two women and one man—are gathered around a high-tech microscope, intently observing slides that depict cancer cells. The woman on the left, with curly hair and wearing a lab coat, points at the microscope, her expression a mix of excitement and curiosity. The man, with glasses and a thoughtful demeanor, takes notes on a digital tablet, while the woman on the right, with straight hair tied back, adjusts the microscope's focus. 
+
+In the background, a large digital screen displays a vivid, colorful representation of alveolar macrophages interacting with disseminated cancer cells, illustrating the natural immune mechanism at work. The lab is brightly lit with fluorescent lights, creating a sterile yet vibrant atmosphere. Various lab equipment, such as petri dishes and pipettes, are neatly arranged on the counters, emphasizing the meticulous nature of their research. 
+
+The composition captures a medium-wide angle, focusing on the collaborative effort of the researchers and the dynamic interaction between immune cells and cancer cells. The overall mood conveys a sense of hope and urgency, reflecting the groundbreaking nature of their findings in the fight against metastatic cancer.
+2024-10-08 17:42:32,399 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-08 17:42:32,438 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:32,578 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:32,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:32,855 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:32,992 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:33,350 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:33,582 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:33,721 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:33,859 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:33,996 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:34,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:34,405 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:34,544 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:34,682 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:34,821 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:34,962 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:35,189 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 17:42:35,329 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602/status?logs=false "HTTP/1.1 200 OK"
+2024-10-08 17:42:35,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c9740ce-e2d9-4686-b9a1-03e1b29bf602 "HTTP/1.1 200 OK"
+2024-10-08 17:42:35,367 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/HYY3cWz48DVQ9xO7dSvyM.png
+2024-10-08 17:42:35,367 - INFO - Image link: https://fal.media/files/penguin/HYY3cWz48DVQ9xO7dSvyM.png
+2024-10-08 17:42:35,367 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 17:42:35,367 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 17:42:35,368 - INFO - Sending 1 log entries to Firebase.
+2024-10-08 17:42:38,801 - INFO - Received 1 document IDs from Peerr.
+2024-10-08 17:42:38,933 - INFO - Logged data to llm collection with FirestoreID: 62d44d705dd53b0b1da03e7ec96aa515.
