@@ -6119,3 +6119,11 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-08 17:56:05,399 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-08 17:56:05,399 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-08 17:56:05,399 - INFO - No valid log entries generated.
+2024-10-08 18:29:22,538 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 18:29:22,542 - INFO - Extracted 121 link records from llm.
+2024-10-08 18:29:22,777 - INFO - Extracted 124 link records from combined_news.
+2024-10-08 18:29:22,777 - INFO - Unique links to process: 3
+2024-10-08 18:29:22,777 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 18:29:22,777 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 18:29:22,777 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 18:29:22,777 - INFO - No valid log entries generated.
