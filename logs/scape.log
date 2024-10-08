@@ -8916,3 +8916,42 @@
 2024-10-08 09:25:54,317 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
 2024-10-08 09:25:54,317 - INFO - No new data to update.
 2024-10-08 09:25:54,317 - INFO - Medscape script completed.
+2024-10-08 09:43:08,142 - INFO - Medscape script started.
+2024-10-08 09:43:08,143 - INFO - Connection to Medscape established.
+2024-10-08 09:43:08,220 - INFO - Request sent to Medscape API.
+2024-10-08 09:43:08,680 - INFO - Response received from Medscape API.
+2024-10-08 09:43:08,681 - INFO - Response data decoded into dictionary.
+2024-10-08 09:43:08,681 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-08 09:43:09,261 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-08 09:43:09,262 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-08 09:43:09,372 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-08 09:43:09,372 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-08 09:43:09,742 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-08 09:43:09,743 - INFO - Processing item: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-08 09:43:09,841 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-08 09:43:09,841 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-08 09:43:10,249 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-08 09:43:10,249 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-08 09:43:10,346 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-08 09:43:10,347 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-08 09:43:10,723 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-08 09:43:10,723 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-08 09:43:10,826 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-08 09:43:10,826 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-08 09:43:11,202 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-08 09:43:11,203 - INFO - Processing item: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-08 09:43:11,307 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-08 09:43:11,307 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-08 09:43:11,685 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-08 09:43:11,686 - INFO - Processing item: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-08 09:43:11,787 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-08 09:43:11,787 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-08 09:43:12,157 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-08 09:43:12,157 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-08 09:43:12,264 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/oral-glucose-tolerance-test-best-dysglycaemia-screen-cv-2024a1000hpc
+2024-10-08 09:43:12,265 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-08 09:43:12,355 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-screening-prevent-diabetic-foot-complications-2024a1000hgh
+2024-10-08 09:43:12,355 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-08 09:43:12,449 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/mood-swings-found-be-causal-risk-factors-gynaecological-2024a1000hmw
+2024-10-08 09:43:12,449 - INFO - No new data to update.
+2024-10-08 09:43:12,449 - INFO - Medscape script completed.
