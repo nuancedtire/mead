@@ -6032,3 +6032,12 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 15:44:00,266 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-08 15:44:00,266 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-08 15:44:00,266 - INFO - No valid log entries generated.
+2024-10-08 15:56:43,710 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 15:56:43,713 - INFO - Extracted 120 link records from llm.
+2024-10-08 15:56:44,086 - INFO - Extracted 124 link records from combined_news.
+2024-10-08 15:56:44,086 - INFO - Unique links to process: 4
+2024-10-08 15:56:44,087 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 15:56:44,087 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html
+2024-10-08 15:56:44,087 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 15:56:44,087 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 15:56:44,087 - INFO - No valid log entries generated.
