@@ -5817,3 +5817,37 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 11:23:06,158 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-08 11:23:06,158 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-08 11:23:06,158 - INFO - No valid log entries generated.
+2024-10-08 11:41:23,629 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 11:41:23,633 - INFO - Extracted 116 link records from llm.
+2024-10-08 11:41:24,296 - INFO - Extracted 121 link records from combined_news.
+2024-10-08 11:41:24,297 - INFO - Unique links to process: 5
+2024-10-08 11:41:24,297 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 11:41:24,297 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html
+2024-10-08 11:41:24,297 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 11:41:40,587 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 11:41:44,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 11:41:48,341 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 11:41:48,345 - INFO - Image query: A photorealistic image set in a bright, modern prenatal care clinic. A pregnant woman in her third trimester, radiating health and vitality, sits comfortably on an examination table, her hand resting gently on her belly. A healthcare provider, a middle-aged female doctor in a white coat, stands beside her, holding a tablet displaying graphs and data from the MAVIDOS trial. The doctor is smiling warmly, engaging the patient in conversation about the importance of vitamin D supplementation during pregnancy. Sunlight streams through a large window, illuminating the room and creating a warm, inviting atmosphere. On the wall, a colorful educational poster illustrates the skeletal development of children, emphasizing the connection between prenatal nutrition and bone health. The composition captures a medium close-up angle, focusing on the interaction between the doctor and the patient, highlighting the significance of prenatal care and the potential impact of vitamin D on children's bone health. The overall mood conveys optimism and empowerment, reflecting the importance of informed prenatal choices for future generations.
+2024-10-08 11:41:48,577 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-08 11:41:48,641 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:48,807 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:48,976 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:49,142 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:49,306 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:49,472 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:49,640 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:49,807 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:49,973 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:50,139 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:50,306 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:50,669 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:50,835 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:51,001 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-08 11:41:51,165 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f/status?logs=false "HTTP/1.1 200 OK"
+2024-10-08 11:41:51,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/505bdf7a-46c6-4150-8110-ddc8f1558a0f "HTTP/1.1 200 OK"
+2024-10-08 11:41:51,230 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/6NFuC4e4AAOzsHVrl-u5E.png
+2024-10-08 11:41:51,230 - INFO - Image link: https://fal.media/files/panda/6NFuC4e4AAOzsHVrl-u5E.png
+2024-10-08 11:41:51,231 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 11:41:51,231 - INFO - Sending 1 log entries to Firebase.
+2024-10-08 11:41:54,397 - INFO - Received 1 document IDs from Peerr.
+2024-10-08 11:41:54,616 - INFO - Logged data to llm collection with FirestoreID: db780b39ed5541ff581948d9e9836d6e.
