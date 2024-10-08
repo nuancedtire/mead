@@ -5968,3 +5968,13 @@ The composition captures a medium-wide angle, focusing on the interactions among
 2024-10-08 13:15:55,053 - INFO - Received 2 document IDs from Peerr.
 2024-10-08 13:15:55,174 - INFO - Logged data to llm collection with FirestoreID: aad4a7b03e725929b1cf06e50f608273.
 2024-10-08 13:15:55,539 - INFO - Logged data to llm collection with FirestoreID: f058300adc129919ca29ede5ad9851f5.
+2024-10-08 13:36:49,789 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-08 13:36:49,792 - INFO - Extracted 120 link records from llm.
+2024-10-08 13:36:50,052 - INFO - Extracted 124 link records from combined_news.
+2024-10-08 13:36:50,052 - INFO - Unique links to process: 4
+2024-10-08 13:36:50,052 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-08 13:36:57,664 - INFO - No article found for link https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html.
+2024-10-08 13:36:57,665 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/scientists-discover-that-special-immune-cells-stop-metastatic-cancer-302269007.html
+2024-10-08 13:36:57,665 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-08 13:36:57,665 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-08 13:36:57,665 - INFO - No valid log entries generated.
