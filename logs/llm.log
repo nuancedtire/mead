@@ -6512,3 +6512,61 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 13:16:52,917 - INFO - Sending 1 log entries to Firebase.
 2024-10-09 13:16:56,093 - INFO - Received 1 document IDs from Peerr.
 2024-10-09 13:16:56,317 - INFO - Logged data to llm collection with FirestoreID: 842980bd39930f7330cb783c57ea1489.
+2024-10-09 13:39:30,883 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 13:39:30,886 - INFO - Extracted 127 link records from llm.
+2024-10-09 13:39:31,493 - INFO - Extracted 132 link records from combined_news.
+2024-10-09 13:39:31,493 - INFO - Unique links to process: 5
+2024-10-09 13:39:31,493 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 13:39:50,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:39:55,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:39:59,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:39:59,293 - INFO - Image query: A photorealistic image set in a modern biotechnology laboratory bustling with activity. In the foreground, a diverse group of scientists, including a middle-aged Asian woman in a lab coat and safety goggles, is gathered around a high-tech workstation, examining a 3D model of a molecular structure displayed on a large screen. The woman points at the screen, her expression animated and engaged, while a young Caucasian male scientist takes notes on a digital tablet. In the background, shelves filled with laboratory equipment, glassware, and research papers create a sense of organized chaos typical of a cutting-edge research environment. Bright, sterile lighting illuminates the space, enhancing the vibrant colors of the lab equipment and the scientists' attire. A large window reveals a view of Tokyo's skyline, symbolizing the global reach and ambition of the new venture. The composition captures a dynamic angle, focusing on the collaborative spirit and innovation at the heart of Ciconia Bioventures Inc., conveying a mood of excitement and hope for the future of drug discovery in Japan.
+2024-10-09 13:39:59,517 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-09 13:39:59,582 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:39:59,740 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:39:59,901 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:00,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:00,226 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:00,387 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:00,547 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:00,894 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:01,053 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:01,213 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:01,372 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:01,535 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:01,694 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:01,853 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:02,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:40:02,175 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff/status?logs=false "HTTP/1.1 200 OK"
+2024-10-09 13:40:02,234 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a82bc3fe-6360-4428-b02f-537dfe20c5ff "HTTP/1.1 200 OK"
+2024-10-09 13:40:02,235 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/KAnJzO8_D0PKQwz61ZYkA.png
+2024-10-09 13:40:02,235 - INFO - Image link: https://fal.media/files/monkey/KAnJzO8_D0PKQwz61ZYkA.png
+2024-10-09 13:40:02,236 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 13:40:50,756 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:40:59,452 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:41:02,930 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:41:02,937 - INFO - Image query: A photorealistic image set in a modern laboratory focused on gene therapy research. In the foreground, a diverse team of scientists, including a middle-aged Asian female researcher and a young Black male researcher, are engaged in a discussion over a high-tech workstation displaying complex genetic data and molecular structures on large screens. The female researcher is pointing at a digital model of the AAV (adeno-associated virus) vector, while the male researcher takes notes, his expression reflecting curiosity and excitement. In the background, laboratory equipment such as centrifuges and pipettes are neatly arranged, emphasizing a cutting-edge research environment. The room is brightly lit with fluorescent lights, creating a sterile yet vibrant atmosphere. A large poster on the wall illustrates the brain with highlighted areas affected by frontotemporal dementia, subtly reinforcing the focus of their research. The composition captures a dynamic angle, showcasing the collaborative spirit of scientific discovery, with an emphasis on the hope and potential of gene therapy in treating neurodegenerative diseases. The overall mood conveys optimism and urgency, reflecting the critical nature of advancing treatments for conditions like FTD.
+2024-10-09 13:41:03,132 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-09 13:41:03,197 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:03,362 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:03,525 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:03,693 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:03,857 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:04,022 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:04,292 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:04,455 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:04,717 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:04,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:05,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:05,251 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:05,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:05,588 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:41:05,754 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488/status?logs=false "HTTP/1.1 200 OK"
+2024-10-09 13:41:05,818 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cbdef044-1016-4b85-a92b-270873246488 "HTTP/1.1 200 OK"
+2024-10-09 13:41:05,818 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/FdPI28vKNQjHublhvywJg.png
+2024-10-09 13:41:05,818 - INFO - Image link: https://fal.media/files/monkey/FdPI28vKNQjHublhvywJg.png
+2024-10-09 13:41:05,819 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 13:41:05,819 - INFO - Sending 2 log entries to Firebase.
+2024-10-09 13:41:09,126 - INFO - Received 2 document IDs from Peerr.
+2024-10-09 13:41:09,358 - INFO - Logged data to llm collection with FirestoreID: 401f146297faa3524c3cc748b297eff8.
+2024-10-09 13:41:10,069 - INFO - Logged data to llm collection with FirestoreID: b7d981f3b85aa2f2baa8c979dcfaa834.
