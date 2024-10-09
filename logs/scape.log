@@ -10079,3 +10079,42 @@
 2024-10-08 23:22:19,307 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
 2024-10-08 23:22:19,307 - INFO - No new data to update.
 2024-10-08 23:22:19,307 - INFO - Medscape script completed.
+2024-10-09 01:01:04,933 - INFO - Medscape script started.
+2024-10-09 01:01:04,933 - INFO - Connection to Medscape established.
+2024-10-09 01:01:05,044 - INFO - Request sent to Medscape API.
+2024-10-09 01:01:05,428 - INFO - Response received from Medscape API.
+2024-10-09 01:01:05,429 - INFO - Response data decoded into dictionary.
+2024-10-09 01:01:05,429 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-09 01:01:06,039 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-09 01:01:06,039 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-09 01:01:06,148 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-09 01:01:06,148 - INFO - Processing item: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-09 01:01:06,517 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-09 01:01:06,517 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-09 01:01:06,643 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-09 01:01:06,643 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-09 01:01:07,003 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-09 01:01:07,003 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-09 01:01:07,129 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-09 01:01:07,129 - INFO - Processing item: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-09 01:01:07,490 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-09 01:01:07,491 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-09 01:01:07,608 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-09 01:01:07,608 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-09 01:01:07,975 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-09 01:01:07,975 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-09 01:01:08,087 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/what-do-clinicians-need-know-about-vaping-2024a1000ghg
+2024-10-09 01:01:08,088 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-09 01:01:08,586 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/brain-fog-fuzzy-term-can-be-rich-clues-2024a1000hw7
+2024-10-09 01:01:08,587 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-09 01:01:08,708 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/flavonoid-rich-foods-halt-non-alcoholic-fatty-liver-disease-2024a1000hu4
+2024-10-09 01:01:08,708 - INFO - Processing item: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-09 01:01:09,070 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/home-based-phototherapy-psoriasis-effective-office-based-2024a1000i1m
+2024-10-09 01:01:09,070 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-09 01:01:09,181 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/migrating-during-adolescence-may-increase-psychosis-risk-2024a1000i1k
+2024-10-09 01:01:09,181 - INFO - Processing item: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-09 01:01:09,549 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/patients-lack-knowledge-antibiotic-risks-drives-expectations-2024a1000i0h
+2024-10-09 01:01:09,549 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-09 01:01:09,661 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/low-frequency-ventilation-may-be-protective-during-2024a1000hsw
+2024-10-09 01:01:09,662 - INFO - No new data to update.
+2024-10-09 01:01:09,662 - INFO - Medscape script completed.
