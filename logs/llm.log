@@ -6430,3 +6430,48 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 11:55:25,318 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
 2024-10-09 11:55:25,318 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-09 11:55:25,318 - INFO - No valid log entries generated.
+2024-10-09 12:46:19,563 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 12:46:19,566 - INFO - Extracted 125 link records from llm.
+2024-10-09 12:46:19,930 - INFO - Extracted 131 link records from combined_news.
+2024-10-09 12:46:19,931 - INFO - Unique links to process: 6
+2024-10-09 12:46:22,226 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-09 12:46:22,227 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 12:46:22,227 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/joint-venture-company-established-for-incubation-of-early-drug-discovery-programs-investment-from-takeda-astellas-and-sumitomo-mitsui-banking-302270829.html
+2024-10-09 12:46:28,875 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-09 12:46:28,875 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 12:46:37,426 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 12:46:41,014 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 12:46:44,929 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 12:46:44,934 - INFO - Image query: A photorealistic image set in a modern telehealth consultation environment. A middle-aged female doctor, Dr. Rachel Ward, is seated at a sleek desk with a high-resolution computer screen displaying a virtual consultation interface. She is wearing a professional attire, with a stethoscope draped around her neck, and is engaged in a video call with a patient whose image is visible on the screen. The doctor has a focused yet approachable expression, indicating her attentiveness to the patient's concerns. The room is well-lit with soft, warm lighting, creating a welcoming atmosphere. On the desk, there are medical textbooks and a notepad with handwritten notes, symbolizing her dedication to patient care. A wall-mounted digital clock shows the time, emphasizing the efficiency of virtual appointments. In the background, a poster highlights the benefits of telehealth, subtly reinforcing the theme of digital healthcare transformation. The composition captures a medium close-up angle, focusing on the interaction between the doctor and the virtual patient, while also showcasing the technology that facilitates modern healthcare. The overall mood conveys a sense of innovation and urgency, reflecting the critical need for accessible and safe GP services in the evolving landscape of healthcare.
+2024-10-09 12:46:45,413 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-09 12:46:45,443 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:45,570 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:45,698 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:45,827 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:45,958 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,087 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,217 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,347 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,477 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,736 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,863 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:46,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:47,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:47,254 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:47,385 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:47,519 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:47,651 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:47,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:47,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:48,039 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 12:46:48,171 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8/status?logs=false "HTTP/1.1 200 OK"
+2024-10-09 12:46:48,198 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9616f35b-14ec-4d3a-8692-26c56b28aff8 "HTTP/1.1 200 OK"
+2024-10-09 12:46:48,199 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/mDw85gC8s8oaN0lmhTjfe.png
+2024-10-09 12:46:48,199 - INFO - Image link: https://fal.media/files/kangaroo/mDw85gC8s8oaN0lmhTjfe.png
+2024-10-09 12:46:48,200 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
+2024-10-09 12:46:59,440 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-09 12:46:59,440 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 12:46:59,441 - INFO - Sending 1 log entries to Firebase.
+2024-10-09 12:47:02,521 - INFO - Received 1 document IDs from Peerr.
+2024-10-09 12:47:03,174 - INFO - Logged data to llm collection with FirestoreID: 9883e41317040fcb43918f8c135140ae.
