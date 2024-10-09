@@ -6475,3 +6475,40 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 12:46:59,441 - INFO - Sending 1 log entries to Firebase.
 2024-10-09 12:47:02,521 - INFO - Received 1 document IDs from Peerr.
 2024-10-09 12:47:03,174 - INFO - Logged data to llm collection with FirestoreID: 9883e41317040fcb43918f8c135140ae.
+2024-10-09 13:16:25,438 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 13:16:25,442 - INFO - Extracted 126 link records from llm.
+2024-10-09 13:16:26,046 - INFO - Extracted 132 link records from combined_news.
+2024-10-09 13:16:26,046 - INFO - Unique links to process: 6
+2024-10-09 13:16:26,046 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 13:16:26,047 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/joint-venture-company-established-for-incubation-of-early-drug-discovery-programs-investment-from-takeda-astellas-and-sumitomo-mitsui-banking-302270829.html
+2024-10-09 13:16:26,047 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 13:16:42,306 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:16:45,401 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:16:49,473 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 13:16:49,480 - INFO - Image query: A photorealistic image set in a modern hospital consultation room. A diverse group of three healthcare professionals—two doctors (one male, one female) and a nurse—are gathered around a digital tablet displaying graphs and data related to cardiovascular and renal health in type 2 diabetes patients. The male doctor, in a white coat, points to the screen with a focused expression, while the female doctor, also in a white coat, takes notes with a pen, showing engagement and collaboration. The nurse, dressed in scrubs, stands beside them, looking thoughtfully at the tablet. The room is bright and airy, with large windows allowing natural light to flood in, creating a positive and energetic atmosphere. Medical charts and anatomical posters related to the heart and kidneys adorn the walls, emphasizing the discussion's focus. A stethoscope and a blood pressure monitor are visible on a nearby table, symbolizing ongoing patient care. The composition captures a medium shot, highlighting the teamwork and dedication of healthcare professionals in improving treatment strategies for type 2 diabetes patients. The overall mood conveys a sense of hope and innovation, reflecting the importance of new drug therapies in managing cardiovascular and renal health.
+2024-10-09 13:16:50,166 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-09 13:16:50,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:50,394 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:50,558 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:50,721 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:50,884 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:51,045 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:51,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:51,372 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:51,535 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:51,697 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:51,863 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:52,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:52,198 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:52,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:52,526 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:52,688 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 13:16:52,853 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306/status?logs=false "HTTP/1.1 200 OK"
+2024-10-09 13:16:52,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a4cc3f85-14b9-47aa-a28e-ecf961bec306 "HTTP/1.1 200 OK"
+2024-10-09 13:16:52,916 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/7YME7ueJ69zUHtI9vdokr.png
+2024-10-09 13:16:52,916 - INFO - Image link: https://fal.media/files/zebra/7YME7ueJ69zUHtI9vdokr.png
+2024-10-09 13:16:52,917 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
+2024-10-09 13:16:52,917 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 13:16:52,917 - INFO - Sending 1 log entries to Firebase.
+2024-10-09 13:16:56,093 - INFO - Received 1 document IDs from Peerr.
+2024-10-09 13:16:56,317 - INFO - Logged data to llm collection with FirestoreID: 842980bd39930f7330cb783c57ea1489.
