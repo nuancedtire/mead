@@ -6205,3 +6205,44 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 06:20:23,792 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-09 06:20:23,792 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-09 06:20:23,792 - INFO - No valid log entries generated.
+2024-10-09 08:18:29,044 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 08:18:29,047 - INFO - Extracted 121 link records from llm.
+2024-10-09 08:18:29,343 - INFO - Extracted 125 link records from combined_news.
+2024-10-09 08:18:29,344 - INFO - Unique links to process: 4
+2024-10-09 08:18:32,652 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-09 08:18:32,653 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 08:18:35,182 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-09 08:18:35,183 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 08:18:45,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 08:18:55,449 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 08:18:58,886 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 08:18:58,891 - INFO - Image query: A photorealistic image depicting a modern hospital's digital health command center. In the foreground, a diverse group of healthcare professionals, including a middle-aged female doctor in scrubs, a young male nurse, and an elderly male consultant, are gathered around a large touchscreen display. The screen showcases a colorful, interactive interface displaying patient test results and analytics from multiple trusts, with graphs and charts illustrating data trends. The expressions on their faces are a mix of concentration and excitement, indicating the significance of the information being shared. The background features sleek, high-tech medical equipment and monitors, with soft blue and white lighting creating a clean and professional atmosphere. The composition captures a wide-angle view, emphasizing the collaborative environment and the advanced technology that enhances patient care. The overall mood conveys a sense of innovation and optimism about the future of healthcare, highlighting the transformative impact of Clinisys ICE OpenNet on clinical workflows and patient outcomes.
+2024-10-09 08:18:59,074 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-09 08:18:59,118 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:18:59,260 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:18:59,410 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:18:59,551 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:18:59,693 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:18:59,835 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:18:59,977 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:00,118 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:00,261 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:00,403 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:00,548 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:00,689 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:00,831 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:00,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:01,120 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:01,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:01,403 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:01,543 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:01,685 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 08:19:01,827 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3/status?logs=false "HTTP/1.1 200 OK"
+2024-10-09 08:19:01,866 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5a27cba8-a4ac-4673-be6f-9fee00a486f3 "HTTP/1.1 200 OK"
+2024-10-09 08:19:01,866 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/a6di5UIzUWp9b3LsD5RV0.png
+2024-10-09 08:19:01,866 - INFO - Image link: https://fal.media/files/monkey/a6di5UIzUWp9b3LsD5RV0.png
+2024-10-09 08:19:04,348 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-09 08:19:04,348 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 08:19:04,348 - INFO - Sending 1 log entries to Firebase.
+2024-10-09 08:19:07,786 - INFO - Received 1 document IDs from Peerr.
+2024-10-09 08:19:07,914 - INFO - Logged data to llm collection with FirestoreID: db7dc369545c1977e253f0b716232a50.
