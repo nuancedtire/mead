@@ -6340,3 +6340,43 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 09:55:03,839 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
 2024-10-09 09:55:03,839 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-09 09:55:03,839 - INFO - No valid log entries generated.
+2024-10-09 10:26:38,320 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 10:26:38,323 - INFO - Extracted 124 link records from llm.
+2024-10-09 10:26:38,570 - INFO - Extracted 130 link records from combined_news.
+2024-10-09 10:26:38,570 - INFO - Unique links to process: 6
+2024-10-09 10:26:38,570 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 10:26:38,570 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/joint-venture-company-established-for-incubation-of-early-drug-discovery-programs-investment-from-takeda-astellas-and-sumitomo-mitsui-banking-302270829.html
+2024-10-09 10:26:38,570 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 10:26:47,054 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 10:26:50,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 10:26:53,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-09 10:26:53,315 - INFO - Image query: A photorealistic image set in a cozy, modern living room designed for new parents. A young mother, around 30 years old, sits comfortably on a plush sofa, cradling her newborn baby in her arms. She has a gentle, relieved expression as she interacts with a tablet in her lap, displaying the SilverCloud platform. Soft, natural light streams in through a nearby window, illuminating the room and creating a warm atmosphere. On a side table, a small potted plant adds a touch of greenery, symbolizing growth and hope. In the background, a framed photo of the mother with her partner and baby captures a moment of joy, emphasizing family support. The composition focuses on the mother and baby, highlighting the importance of accessible mental health resources for new parents. The overall mood conveys a sense of comfort and empowerment, reflecting the positive impact of digital mental health support in easing the challenges of parenthood.
+2024-10-09 10:26:53,505 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-09 10:26:53,545 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:53,684 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:53,822 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:53,960 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:54,101 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:54,239 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:54,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:54,520 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:54,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:54,804 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:54,943 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:55,083 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:55,225 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:55,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:55,505 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:55,644 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:55,783 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:55,922 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:56,062 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-09 10:26:56,203 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73/status?logs=false "HTTP/1.1 200 OK"
+2024-10-09 10:26:56,243 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/63a5b929-8856-497e-87ef-0a69d8f0eb73 "HTTP/1.1 200 OK"
+2024-10-09 10:26:56,243 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/cS00-3LHS2i7e1OuBApjA.png
+2024-10-09 10:26:56,243 - INFO - Image link: https://fal.media/files/panda/cS00-3LHS2i7e1OuBApjA.png
+2024-10-09 10:26:56,244 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
+2024-10-09 10:26:56,244 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 10:26:56,244 - INFO - Sending 1 log entries to Firebase.
+2024-10-09 10:26:59,356 - INFO - Received 1 document IDs from Peerr.
+2024-10-09 10:26:59,463 - INFO - Logged data to llm collection with FirestoreID: 8d7815e07bb8adc4e173c4a5340824c9.
