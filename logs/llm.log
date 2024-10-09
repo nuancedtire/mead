@@ -6330,3 +6330,13 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 09:41:43,269 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
 2024-10-09 09:41:43,269 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-09 09:41:43,269 - INFO - No valid log entries generated.
+2024-10-09 09:55:03,529 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 09:55:03,532 - INFO - Extracted 124 link records from llm.
+2024-10-09 09:55:03,838 - INFO - Extracted 129 link records from combined_news.
+2024-10-09 09:55:03,838 - INFO - Unique links to process: 5
+2024-10-09 09:55:03,838 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 09:55:03,839 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/joint-venture-company-established-for-incubation-of-early-drug-discovery-programs-investment-from-takeda-astellas-and-sumitomo-mitsui-banking-302270829.html
+2024-10-09 09:55:03,839 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 09:55:03,839 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
+2024-10-09 09:55:03,839 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 09:55:03,839 - INFO - No valid log entries generated.
