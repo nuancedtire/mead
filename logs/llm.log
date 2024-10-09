@@ -6634,3 +6634,14 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 16:29:50,259 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-09 16:29:50,259 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-09 16:29:50,259 - INFO - No valid log entries generated.
+2024-10-09 16:48:36,713 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 16:48:36,716 - INFO - Extracted 129 link records from llm.
+2024-10-09 16:48:36,953 - INFO - Extracted 132 link records from combined_news.
+2024-10-09 16:48:36,953 - INFO - Unique links to process: 3
+2024-10-09 16:48:38,850 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-09 16:48:38,851 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 16:48:40,995 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-09 16:48:40,995 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 16:48:45,902 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-09 16:48:45,903 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 16:48:45,903 - INFO - No valid log entries generated.
