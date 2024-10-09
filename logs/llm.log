@@ -6380,3 +6380,13 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-09 10:26:56,244 - INFO - Sending 1 log entries to Firebase.
 2024-10-09 10:26:59,356 - INFO - Received 1 document IDs from Peerr.
 2024-10-09 10:26:59,463 - INFO - Logged data to llm collection with FirestoreID: 8d7815e07bb8adc4e173c4a5340824c9.
+2024-10-09 10:45:42,303 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-09 10:45:42,307 - INFO - Extracted 125 link records from llm.
+2024-10-09 10:45:42,571 - INFO - Extracted 130 link records from combined_news.
+2024-10-09 10:45:42,571 - INFO - Unique links to process: 5
+2024-10-09 10:45:42,572 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-09 10:45:42,572 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/joint-venture-company-established-for-incubation-of-early-drug-discovery-programs-investment-from-takeda-astellas-and-sumitomo-mitsui-banking-302270829.html
+2024-10-09 10:45:42,572 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-09 10:45:42,572 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-and-aviadobio-announce-exclusive-option-and-license-agreement-for-gene-therapy-avb-101-targeting-frontotemporal-dementia-and-other-indications-302270158.html
+2024-10-09 10:45:42,572 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-09 10:45:42,572 - INFO - No valid log entries generated.
