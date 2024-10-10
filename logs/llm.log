@@ -7137,3 +7137,11 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 13:17:40,239 - INFO - Received 2 document IDs from Peerr.
 2024-10-10 13:17:40,466 - INFO - Logged data to llm collection with FirestoreID: 46688efe2618bfd0572324bfde5efeb8.
 2024-10-10 13:17:41,164 - INFO - Logged data to llm collection with FirestoreID: 7f1e2d8d7cc5ee2b4abf4fb47e7af5e2.
+2024-10-10 13:38:56,449 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 13:38:56,452 - INFO - Extracted 138 link records from llm.
+2024-10-10 13:38:57,070 - INFO - Extracted 141 link records from combined_news.
+2024-10-10 13:38:57,070 - INFO - Unique links to process: 3
+2024-10-10 13:38:57,070 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 13:38:57,070 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 13:38:57,070 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 13:38:57,071 - INFO - No valid log entries generated.
