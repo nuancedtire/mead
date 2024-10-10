@@ -6895,3 +6895,38 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 09:56:11,376 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-10 09:56:11,376 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-10 09:56:11,376 - INFO - No valid log entries generated.
+2024-10-10 10:26:26,671 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 10:26:26,674 - INFO - Extracted 132 link records from llm.
+2024-10-10 10:26:27,295 - INFO - Extracted 137 link records from combined_news.
+2024-10-10 10:26:27,296 - INFO - Unique links to process: 5
+2024-10-10 10:26:27,296 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 10:26:43,263 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 10:26:45,426 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 10:26:48,737 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 10:26:48,742 - INFO - Image query: A photorealistic image set in a modern hospital research lab, showcasing a diverse team of healthcare professionals engaged in a collaborative discussion. In the foreground, a middle-aged female oncologist with glasses and a lab coat points at a large digital screen displaying intricate AI-generated imaging of cancer cells, her expression focused and determined. Beside her, a young male researcher, wearing a casual shirt and a lab coat, takes notes on a tablet, while an elderly male doctor, with a thoughtful demeanor, observes the screen closely. In the background, advanced medical equipment, including a state-of-the-art scanner and various high-tech devices, are visible, symbolizing the integration of technology in cancer care. The lab is brightly lit with natural light streaming through large windows, creating an atmosphere of innovation and hope. The color palette features cool blues and whites, reflecting a clinical yet optimistic environment. The composition captures a dynamic angle, emphasizing the teamwork and urgency in advancing cancer diagnosis and treatment through technology. The overall mood conveys excitement and determination, highlighting the potential of AI and health tech to transform cancer care in the UK.
+2024-10-10 10:26:48,972 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-10 10:26:49,047 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:49,317 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:49,482 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:49,646 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:49,819 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:49,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:50,160 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:50,324 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:50,489 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:50,656 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:50,825 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:50,990 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:51,156 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:51,320 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:51,485 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:26:51,650 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc/status?logs=false "HTTP/1.1 200 OK"
+2024-10-10 10:26:51,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6aceb08d-5ae2-479d-b834-a1e07098fbbc "HTTP/1.1 200 OK"
+2024-10-10 10:26:51,715 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/VO9dcLTh_Af6JMcOhgKP6.png
+2024-10-10 10:26:51,715 - INFO - Image link: https://fal.media/files/koala/VO9dcLTh_Af6JMcOhgKP6.png
+2024-10-10 10:26:51,716 - INFO - Skipping recently failed link: https://medicalxpress.com/news/2024-10-mounjaro-weight-loss-treatment-nhs.html
+2024-10-10 10:26:51,716 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 10:26:51,716 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 10:26:51,716 - INFO - Sending 1 log entries to Firebase.
+2024-10-10 10:26:54,567 - INFO - Received 1 document IDs from Peerr.
+2024-10-10 10:26:54,790 - INFO - Logged data to llm collection with FirestoreID: 384d29481ce0e8542c5b11a7ba6c8ad9.
