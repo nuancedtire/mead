@@ -1918,3 +1918,9 @@
 2024-10-10 09:26:17,444 - INFO - Processed first article
 2024-10-10 09:26:18,105 - INFO - Data saved to Firestore. Total items: 1.
 2024-10-10 09:26:18,106 - INFO - Scraping completed.
+2024-10-10 09:42:57,699 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-10-10 09:42:57,888 - INFO - Successfully fetched webpage. Content length: 102228
+2024-10-10 09:42:57,921 - INFO - Processed item: Virtual ward startup Doccla raises £35m - 2024-09-03 00:00:00
+2024-10-10 09:42:57,922 - INFO - Processed first article
+2024-10-10 09:42:58,126 - INFO - Data saved to Firestore. Total items: 1.
+2024-10-10 09:42:58,126 - INFO - Scraping completed.
