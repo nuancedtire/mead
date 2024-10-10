@@ -7312,3 +7312,11 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 21:22:15,664 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-10-10 21:22:15,664 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-10 21:22:15,665 - INFO - No valid log entries generated.
+2024-10-10 22:20:57,288 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 22:20:57,291 - INFO - Extracted 139 link records from llm.
+2024-10-10 22:20:57,588 - INFO - Extracted 142 link records from combined_news.
+2024-10-10 22:20:57,589 - INFO - Unique links to process: 3
+2024-10-10 22:20:57,589 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 22:20:57,589 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 22:20:57,589 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 22:20:57,589 - INFO - No valid log entries generated.
