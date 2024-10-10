@@ -6939,3 +6939,41 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 10:45:09,117 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-10 10:45:09,117 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-10 10:45:09,117 - INFO - No valid log entries generated.
+2024-10-10 10:58:01,521 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 10:58:01,525 - INFO - Extracted 133 link records from llm.
+2024-10-10 10:58:01,794 - INFO - Extracted 138 link records from combined_news.
+2024-10-10 10:58:01,795 - INFO - Unique links to process: 5
+2024-10-10 10:58:01,795 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 10:58:01,795 - INFO - Skipping recently failed link: https://medicalxpress.com/news/2024-10-mounjaro-weight-loss-treatment-nhs.html
+2024-10-10 10:58:01,795 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 10:58:32,681 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 10:58:36,478 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 10:58:40,641 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 10:58:40,646 - INFO - Image query: A photorealistic image set in a modern hospital environment showcasing a healthcare worker wearing the Apogee+ Power Suit. The worker, a middle-aged female nurse with a focused expression, is lifting a heavy medical supply box with ease, demonstrating the enhanced lifting capacity of the exoskeleton. The suit is sleek and futuristic, with visible mechanical components that highlight its advanced technology. In the background, a busy hospital corridor is visible, with other healthcare professionals engaged in various tasks, symbolizing the dynamic nature of healthcare labor. Soft, natural light streams through large windows, illuminating the scene and creating a sense of optimism and innovation. On a nearby table, a digital tablet displays AI-driven diagnostic data, subtly referencing the advancements in cancer diagnostics. The composition captures a medium shot, emphasizing the nurse's interaction with the exoskeleton while also showcasing the bustling hospital environment. The overall mood conveys a sense of progress and transformation in healthcare, reflecting the potential of AI-driven technologies to enhance labor efficiency and patient care.
+2024-10-10 10:58:40,798 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-10 10:58:40,837 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:40,976 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:41,116 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:41,255 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:41,396 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:41,535 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:41,681 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:41,822 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:41,961 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:42,100 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:42,244 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:42,384 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:42,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:42,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:42,813 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:42,955 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:43,096 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:43,235 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 10:58:43,381 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596/status?logs=false "HTTP/1.1 200 OK"
+2024-10-10 10:58:43,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e966eeb3-58bb-46e7-a77f-103a0b21e596 "HTTP/1.1 200 OK"
+2024-10-10 10:58:43,418 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/esO5RFYLN62klqIwjvjK8.png
+2024-10-10 10:58:43,419 - INFO - Image link: https://fal.media/files/rabbit/esO5RFYLN62klqIwjvjK8.png
+2024-10-10 10:58:43,419 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 10:58:43,419 - INFO - Sending 1 log entries to Firebase.
+2024-10-10 10:58:46,666 - INFO - Received 1 document IDs from Peerr.
+2024-10-10 10:58:46,791 - INFO - Logged data to llm collection with FirestoreID: 9032d68e4ba657b3cf76f685e2ce8b74.
