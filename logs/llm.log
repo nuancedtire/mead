@@ -6930,3 +6930,12 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 10:26:51,716 - INFO - Sending 1 log entries to Firebase.
 2024-10-10 10:26:54,567 - INFO - Received 1 document IDs from Peerr.
 2024-10-10 10:26:54,790 - INFO - Logged data to llm collection with FirestoreID: 384d29481ce0e8542c5b11a7ba6c8ad9.
+2024-10-10 10:45:08,724 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 10:45:08,728 - INFO - Extracted 133 link records from llm.
+2024-10-10 10:45:09,116 - INFO - Extracted 137 link records from combined_news.
+2024-10-10 10:45:09,117 - INFO - Unique links to process: 4
+2024-10-10 10:45:09,117 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 10:45:09,117 - INFO - Skipping recently failed link: https://medicalxpress.com/news/2024-10-mounjaro-weight-loss-treatment-nhs.html
+2024-10-10 10:45:09,117 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 10:45:09,117 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 10:45:09,117 - INFO - No valid log entries generated.

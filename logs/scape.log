@@ -11577,3 +11577,32 @@
 2024-10-10 10:26:15,516 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
 2024-10-10 10:26:15,517 - INFO - No new data to update.
 2024-10-10 10:26:15,517 - INFO - Medscape script completed.
+2024-10-10 10:44:55,492 - INFO - Medscape script started.
+2024-10-10 10:44:55,493 - INFO - Connection to Medscape established.
+2024-10-10 10:44:55,708 - INFO - Request sent to Medscape API.
+2024-10-10 10:44:56,106 - INFO - Response received from Medscape API.
+2024-10-10 10:44:56,107 - INFO - Response data decoded into dictionary.
+2024-10-10 10:44:56,107 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-10 10:44:56,766 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-10 10:44:56,766 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/difficulty-assessing-treatment-efficacy-2024a1000i9p
+2024-10-10 10:44:56,883 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/difficulty-assessing-treatment-efficacy-2024a1000i9p
+2024-10-10 10:44:56,883 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-10 10:44:57,314 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-10 10:44:57,315 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-10 10:44:57,438 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-10 10:44:57,439 - INFO - Processing item: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-10 10:44:57,858 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-10 10:44:57,858 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-10 10:44:57,989 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-10 10:44:57,989 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-10 10:44:58,393 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-10 10:44:58,393 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-10 10:44:58,537 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-10 10:44:58,537 - INFO - Processing item: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-10 10:44:58,944 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-10 10:44:58,944 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-10 10:44:59,081 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/screening-inflammatory-rheumatic-diseases-pays-2024a1000hzz
+2024-10-10 10:44:59,081 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-10 10:44:59,484 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multicomponent-interventions-alter-prevention-paradigm-2024a1000hxp
+2024-10-10 10:44:59,484 - INFO - No new data to update.
+2024-10-10 10:44:59,484 - INFO - Medscape script completed.
