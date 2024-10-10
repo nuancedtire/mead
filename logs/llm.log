@@ -6747,3 +6747,40 @@ The composition captures a medium-wide angle, focusing on the collaborative effo
 2024-10-10 04:17:14,139 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-10 04:17:14,139 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-10 04:17:14,139 - INFO - No valid log entries generated.
+2024-10-10 06:20:24,154 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 06:20:24,157 - INFO - Extracted 129 link records from llm.
+2024-10-10 06:20:24,736 - INFO - Extracted 133 link records from combined_news.
+2024-10-10 06:20:24,736 - INFO - Unique links to process: 4
+2024-10-10 06:20:24,737 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 06:20:24,737 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 06:20:46,699 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 06:20:50,157 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 06:20:53,364 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 06:20:53,369 - INFO - Image query: A photorealistic image set in a modern clinical research facility. In the foreground, a diverse group of healthcare professionals, including a middle-aged female oncologist in a white lab coat, a young male clinical researcher, and an elderly male patient, are gathered around a sleek conference table. The oncologist is animatedly discussing the new treatment option, pointing to a digital tablet displaying a detailed chart of the trial design and patient outcomes. The patient, appearing hopeful yet contemplative, listens intently, his expression reflecting a mix of optimism and concern about his condition. 
+
+In the background, a large window allows natural light to flood the room, illuminating a wall-mounted screen that showcases a 3D model of a pancreas, symbolizing the focus on pancreatic cancer. Medical equipment, such as a laptop and a blood pressure monitor, are neatly arranged on the table, indicating an active research environment. The color palette features soft blues and whites, creating a clean and professional atmosphere. The composition captures a medium shot, emphasizing the interaction among the team and the patient, highlighting the collaborative effort in advancing treatment options for pancreatic cancer. The overall mood conveys a sense of hope and urgency, reflecting the significance of the new treatment and its potential impact on patient lives.
+2024-10-10 06:20:54,016 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-10 06:20:54,084 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:54,252 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:54,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:54,590 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:54,764 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:54,933 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:55,102 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:55,270 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:55,438 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:55,606 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:55,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:55,943 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:56,111 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:56,281 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:56,450 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:56,620 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 06:20:56,790 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b/status?logs=false "HTTP/1.1 200 OK"
+2024-10-10 06:20:56,859 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/25232671-d665-48f8-ac78-e93cb67ad37b "HTTP/1.1 200 OK"
+2024-10-10 06:20:56,860 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/Q2SzI8AaNWoWPOIYxv_I2.png
+2024-10-10 06:20:56,860 - INFO - Image link: https://fal.media/files/penguin/Q2SzI8AaNWoWPOIYxv_I2.png
+2024-10-10 06:20:56,861 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 06:20:56,861 - INFO - Sending 1 log entries to Firebase.
+2024-10-10 06:21:00,094 - INFO - Received 1 document IDs from Peerr.
+2024-10-10 06:21:00,318 - INFO - Logged data to llm collection with FirestoreID: a9135eac8d2eea35f972edc6d18173fb.
