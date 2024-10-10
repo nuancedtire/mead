@@ -7241,3 +7241,14 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 16:29:48,696 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-10 16:29:48,696 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-10 16:29:48,696 - INFO - No valid log entries generated.
+2024-10-10 16:48:10,851 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 16:48:10,854 - INFO - Extracted 139 link records from llm.
+2024-10-10 16:48:11,428 - INFO - Extracted 142 link records from combined_news.
+2024-10-10 16:48:11,428 - INFO - Unique links to process: 3
+2024-10-10 16:48:15,840 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-10 16:48:15,841 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 16:48:22,593 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-10 16:48:22,594 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 16:48:25,075 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-10 16:48:25,076 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 16:48:25,076 - INFO - No valid log entries generated.
