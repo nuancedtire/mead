@@ -7073,3 +7073,67 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 12:47:25,257 - INFO - Received 2 document IDs from Peerr.
 2024-10-10 12:47:25,763 - INFO - Logged data to llm collection with FirestoreID: 2fe2b194bc02eafbeb84d528caf8351b.
 2024-10-10 12:47:25,898 - INFO - Logged data to llm collection with FirestoreID: 553d52ef08204acfbaf3971a3521ec20.
+2024-10-10 13:16:44,428 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 13:16:44,432 - INFO - Extracted 136 link records from llm.
+2024-10-10 13:16:45,086 - INFO - Extracted 141 link records from combined_news.
+2024-10-10 13:16:45,086 - INFO - Unique links to process: 5
+2024-10-10 13:16:45,087 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 13:17:03,182 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 13:17:07,922 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 13:17:12,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 13:17:12,433 - INFO - Image query: A photorealistic image depicting a diverse group of individuals in a cozy, well-lit living room setting, engaged in a discussion about at-home STI testing. In the foreground, a trans woman and a trans man sit on a comfortable sofa, both holding mail-in STI testing kits with expressions of curiosity and empowerment. The trans woman has colorful hair and is wearing a stylish outfit, while the trans man has a thoughtful look, dressed casually. Nearby, a non-binary individual is seated on a plush armchair, attentively listening, with a laptop open on a coffee table displaying information about STI testing. The room is adorned with plants and warm lighting, creating an inviting atmosphere. On the walls, framed posters promote sexual health awareness, subtly emphasizing inclusivity and accessibility in healthcare. The composition captures a medium shot, focusing on the engaged expressions and the kits, highlighting the importance of at-home STI testing in reaching underserved populations. The overall mood conveys a sense of hope and community, reflecting the transformative potential of accessible sexual health services.
+2024-10-10 13:17:12,759 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-10 13:17:12,823 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:12,990 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:13,151 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:13,313 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:13,476 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:13,641 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:13,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:13,983 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:14,145 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:14,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:14,471 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:14,634 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:14,797 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:14,960 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:15,122 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:15,285 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:15,447 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:15,612 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34/status?logs=false "HTTP/1.1 200 OK"
+2024-10-10 13:17:15,674 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb91fc9f-a2b3-414e-b524-f0a5d4045c34 "HTTP/1.1 200 OK"
+2024-10-10 13:17:15,675 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/QKnrUSDky8xidhNZyg5zV.png
+2024-10-10 13:17:15,675 - INFO - Image link: https://fal.media/files/rabbit/QKnrUSDky8xidhNZyg5zV.png
+2024-10-10 13:17:15,676 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 13:17:24,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 13:17:27,741 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 13:17:33,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 13:17:33,157 - INFO - Image query: A photorealistic image set in a pediatric clinic. A concerned pediatrician, a middle-aged woman in a white lab coat, is sitting at a small, colorful examination table, engaging with a young mother in her early 30s. The mother, with a worried expression, holds her infant, swaddled in a soft blanket, cradled in her arms. The pediatrician leans forward, her hands gently resting on the table, as she discusses the implications of antibiotic use in neonates. In the background, a wall is adorned with cheerful, educational posters about child health and development, including illustrations of lungs and skin, subtly hinting at asthma and dermatitis. The room is bright and welcoming, filled with natural light streaming through a window, creating a warm atmosphere. A stethoscope and a small bottle of antibiotic medication are visible on the table, symbolizing the topic of discussion. The composition captures a medium close-up angle, focusing on the empathetic interaction between the pediatrician and the mother, highlighting the importance of careful consideration in prescribing antibiotics for infants. The overall mood conveys a sense of urgency and care, reflecting the critical nature of understanding the long-term impacts of early antibiotic exposure on children's health.
+2024-10-10 13:17:33,348 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-10 13:17:33,411 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:33,578 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:33,744 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:33,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:34,083 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:34,452 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:34,670 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:35,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:35,248 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:35,411 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:35,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:35,739 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:35,903 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:36,064 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:36,238 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:36,406 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:36,567 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:36,730 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 13:17:36,895 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a/status?logs=false "HTTP/1.1 200 OK"
+2024-10-10 13:17:36,958 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/15d0a219-141a-4935-ac8d-3ddb3e18605a "HTTP/1.1 200 OK"
+2024-10-10 13:17:36,958 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/g04gxdqf-zuBgJzN2JnAL.png
+2024-10-10 13:17:36,958 - INFO - Image link: https://fal.media/files/tiger/g04gxdqf-zuBgJzN2JnAL.png
+2024-10-10 13:17:36,959 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 13:17:36,959 - INFO - Sending 2 log entries to Firebase.
+2024-10-10 13:17:40,239 - INFO - Received 2 document IDs from Peerr.
+2024-10-10 13:17:40,466 - INFO - Logged data to llm collection with FirestoreID: 46688efe2618bfd0572324bfde5efeb8.
+2024-10-10 13:17:41,164 - INFO - Logged data to llm collection with FirestoreID: 7f1e2d8d7cc5ee2b4abf4fb47e7af5e2.
