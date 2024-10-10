@@ -6868,3 +6868,12 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 08:19:38,249 - INFO - Received 2 document IDs from Peerr.
 2024-10-10 08:19:38,398 - INFO - Logged data to llm collection with FirestoreID: 6d6138bb6087af8e1b66ee2e513b7cdf.
 2024-10-10 08:19:38,866 - INFO - Logged data to llm collection with FirestoreID: aa3798c27ba01c94b867f8ad521c5f70.
+2024-10-10 09:26:21,002 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 09:26:21,005 - INFO - Extracted 132 link records from llm.
+2024-10-10 09:26:21,493 - INFO - Extracted 136 link records from combined_news.
+2024-10-10 09:26:21,493 - INFO - Unique links to process: 4
+2024-10-10 09:26:21,493 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 09:26:21,493 - INFO - Skipping recently failed link: https://medicalxpress.com/news/2024-10-mounjaro-weight-loss-treatment-nhs.html
+2024-10-10 09:26:21,493 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 09:26:21,494 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 09:26:21,494 - INFO - No valid log entries generated.
