@@ -7153,3 +7153,43 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-10 13:55:12,253 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-10 13:55:12,253 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-10 13:55:12,253 - INFO - No valid log entries generated.
+2024-10-10 14:23:13,244 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-10 14:23:13,247 - INFO - Extracted 138 link records from llm.
+2024-10-10 14:23:13,609 - INFO - Extracted 142 link records from combined_news.
+2024-10-10 14:23:13,610 - INFO - Unique links to process: 4
+2024-10-10 14:23:13,610 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-10 14:23:27,699 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 14:23:31,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 14:23:36,004 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-10 14:23:36,009 - INFO - Image query: A photorealistic image set in a modern healthcare facility, featuring a diverse group of medical professionals engaged in a discussion around a large digital screen displaying statistical graphs related to cancer incidence in multiple sclerosis patients. The scene includes a middle-aged female doctor, wearing a white coat, pointing at the screen with a focused expression, while a young male nurse takes notes on a tablet. In the background, a middle-aged male oncologist observes thoughtfully, arms crossed, reflecting on the data. The room is brightly lit with natural light streaming through large windows, creating a vibrant atmosphere. On a nearby table, medical journals and a model of the human anatomy are visible, symbolizing ongoing research and education. The composition captures a medium-wide angle, emphasizing collaboration and the urgency of addressing cancer risks in MS patients. The overall mood conveys a sense of determination and hope, highlighting the importance of increased screening and preventive care in managing health risks associated with multiple sclerosis.
+2024-10-10 14:23:36,147 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-10 14:23:36,177 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:36,302 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:36,431 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:36,560 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:36,687 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:36,811 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:36,938 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,063 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,188 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,313 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,440 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,565 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,692 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,819 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:37,943 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:38,226 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:38,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:38,478 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:38,605 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:38,729 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:38,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-10 14:23:38,981 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1/status?logs=false "HTTP/1.1 200 OK"
+2024-10-10 14:23:39,004 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/66f27681-438b-4c59-be18-51335fbe8bb1 "HTTP/1.1 200 OK"
+2024-10-10 14:23:39,004 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/eOZinCdJHuVuZ0x_z-4sG.png
+2024-10-10 14:23:39,004 - INFO - Image link: https://fal.media/files/kangaroo/eOZinCdJHuVuZ0x_z-4sG.png
+2024-10-10 14:23:39,005 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-10 14:23:39,005 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-10 14:23:39,005 - INFO - Sending 1 log entries to Firebase.
+2024-10-10 14:23:42,335 - INFO - Received 1 document IDs from Peerr.
+2024-10-10 14:23:42,488 - INFO - Logged data to llm collection with FirestoreID: 3d94d2b0c2dacf330233c26ae76f57e2.
