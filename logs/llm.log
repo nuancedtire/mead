@@ -7467,3 +7467,13 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-11 09:27:17,374 - INFO - Received 2 document IDs from Peerr.
 2024-10-11 09:27:17,605 - INFO - Logged data to llm collection with FirestoreID: 27d5a26d8f501b291cd34b6463efd624.
 2024-10-11 09:27:18,280 - INFO - Logged data to llm collection with FirestoreID: b3e7690e3299b5fc2295eaad5c94df92.
+2024-10-11 09:42:21,979 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 09:42:21,982 - INFO - Extracted 142 link records from llm.
+2024-10-11 09:42:22,369 - INFO - Extracted 147 link records from combined_news.
+2024-10-11 09:42:22,369 - INFO - Unique links to process: 5
+2024-10-11 09:42:22,370 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 09:42:22,370 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 09:42:22,370 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-11 09:42:22,370 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 09:42:22,370 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 09:42:22,370 - INFO - No valid log entries generated.
