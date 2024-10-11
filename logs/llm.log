@@ -7570,3 +7570,13 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-11 11:41:06,068 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-11 11:41:06,068 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-11 11:41:06,068 - INFO - No valid log entries generated.
+2024-10-11 11:55:16,611 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 11:55:16,614 - INFO - Extracted 143 link records from llm.
+2024-10-11 11:55:16,896 - INFO - Extracted 148 link records from combined_news.
+2024-10-11 11:55:16,896 - INFO - Unique links to process: 5
+2024-10-11 11:55:16,897 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 11:55:16,897 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 11:55:16,897 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-11 11:55:16,897 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 11:55:16,897 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 11:55:16,897 - INFO - No valid log entries generated.
