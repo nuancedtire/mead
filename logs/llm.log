@@ -7487,3 +7487,46 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-11 09:55:18,419 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-11 09:55:18,419 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-11 09:55:18,419 - INFO - No valid log entries generated.
+2024-10-11 10:25:18,623 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 10:25:18,627 - INFO - Extracted 142 link records from llm.
+2024-10-11 10:25:18,896 - INFO - Extracted 148 link records from combined_news.
+2024-10-11 10:25:18,897 - INFO - Unique links to process: 6
+2024-10-11 10:25:18,897 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 10:25:26,090 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 10:25:33,964 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 10:25:37,412 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 10:25:37,418 - INFO - Image query: A photorealistic image depicting a bustling NHS research facility, showcasing the transformative impact of a £30 million investment. In the foreground, a diverse group of healthcare professionals, including a middle-aged female researcher in a lab coat and a young male technician, are gathered around a state-of-the-art MRI scanner, examining images displayed on a large monitor. Their expressions are focused and collaborative, symbolizing teamwork in advancing medical technology. 
+
+In the background, a mobile research vehicle is parked outside, with the doors open, revealing a setup for patient trials, emphasizing accessibility and outreach to underserved communities. Nearby, construction workers are seen erecting a modular building, illustrating the expansion of research capabilities in smaller hospitals. 
+
+The setting is bright and well-lit, with natural light streaming through large windows, creating a vibrant atmosphere of innovation and hope. The color palette features blues and whites, typical of medical environments, with splashes of green from plants, symbolizing growth and renewal. The composition captures a dynamic angle, highlighting the interaction between technology and healthcare professionals, while conveying a sense of urgency and optimism about the future of clinical research and patient care.
+2024-10-11 10:25:37,554 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 10:25:37,590 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:37,727 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:37,861 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:37,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:38,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:38,269 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:38,406 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:38,542 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:38,677 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:38,812 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:38,948 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:39,084 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:39,223 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:39,357 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:39,495 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:39,630 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:39,764 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:40,095 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 10:25:40,238 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 10:25:40,272 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3b18d13a-24b2-4295-887a-09a467c34db3 "HTTP/1.1 200 OK"
+2024-10-11 10:25:40,272 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/V3vDNTt7ATa-JojV6kTuc.png
+2024-10-11 10:25:40,272 - INFO - Image link: https://fal.media/files/monkey/V3vDNTt7ATa-JojV6kTuc.png
+2024-10-11 10:25:40,273 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 10:25:40,273 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-11 10:25:40,273 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 10:25:40,274 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 10:25:40,274 - INFO - Sending 1 log entries to Firebase.
+2024-10-11 10:25:43,466 - INFO - Received 1 document IDs from Peerr.
+2024-10-11 10:25:43,585 - INFO - Logged data to llm collection with FirestoreID: 167ed97142bce8177b32e1e6dae6546d.
