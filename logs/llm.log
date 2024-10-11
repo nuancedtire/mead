@@ -7662,3 +7662,43 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-11 13:14:51,003 - INFO - Sending 1 log entries to Firebase.
 2024-10-11 13:14:54,003 - INFO - Received 1 document IDs from Peerr.
 2024-10-11 13:14:54,218 - INFO - Logged data to llm collection with FirestoreID: e2080fec809ffa87fd737ee65c2e6036.
+2024-10-11 13:35:00,840 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 13:35:00,843 - INFO - Extracted 145 link records from llm.
+2024-10-11 13:35:01,200 - INFO - Extracted 150 link records from combined_news.
+2024-10-11 13:35:01,200 - INFO - Unique links to process: 5
+2024-10-11 13:35:01,200 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 13:35:06,644 - INFO - No article found for link https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html.
+2024-10-11 13:35:06,645 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 13:35:27,537 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:35:31,730 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:35:34,929 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:35:34,933 - INFO - Image query: A photorealistic image set in a bright, modern prenatal care clinic. A pregnant woman in her third trimester, around 30 years old, sits comfortably on an examination table, her expression a mix of curiosity and concern as she listens to her healthcare provider. The provider, a middle-aged female doctor in a white coat, stands beside her, holding a clipboard with charts and graphs illustrating maternal folate levels and congenital heart disease (CHD) risks. The doctor gestures towards the charts, emphasizing the importance of balanced folate intake during pregnancy. The room is filled with natural light streaming through large windows, creating a warm and inviting atmosphere. On the wall, a colorful educational poster depicts a healthy heart and fetal development, subtly reinforcing the topic of the discussion. The composition captures a medium close-up angle, focusing on the engaged interaction between the doctor and patient, highlighting the significance of informed prenatal care. The overall mood conveys a sense of urgency and care, reflecting the critical nature of maternal nutrition in fetal health.
+2024-10-11 13:35:35,115 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 13:35:35,156 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:35,296 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:35,435 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:35,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:35,713 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:35,853 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:35,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:36,137 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:36,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:36,420 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:36,563 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:36,700 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:36,838 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:36,979 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:37,119 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:37,257 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:37,398 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:37,537 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:37,677 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:35:37,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 13:35:37,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45d2d0e5-2961-4dff-82d7-22a1cecc0c68 "HTTP/1.1 200 OK"
+2024-10-11 13:35:37,855 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/TuP3xe_4JxS9ZY4kYupui.png
+2024-10-11 13:35:37,855 - INFO - Image link: https://fal.media/files/koala/TuP3xe_4JxS9ZY4kYupui.png
+2024-10-11 13:35:37,855 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 13:35:37,856 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 13:35:37,856 - INFO - Sending 1 log entries to Firebase.
+2024-10-11 13:35:40,976 - INFO - Received 1 document IDs from Peerr.
+2024-10-11 13:35:41,100 - INFO - Logged data to llm collection with FirestoreID: 4f2c37e5ba676969c33ae4215f820d91.
