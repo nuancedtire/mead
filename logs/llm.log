@@ -7711,3 +7711,73 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-11 13:55:10,012 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-11 13:55:10,012 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-11 13:55:10,012 - INFO - No valid log entries generated.
+2024-10-11 14:23:30,005 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 14:23:30,009 - INFO - Extracted 146 link records from llm.
+2024-10-11 14:23:30,383 - INFO - Extracted 151 link records from combined_news.
+2024-10-11 14:23:30,384 - INFO - Unique links to process: 5
+2024-10-11 14:23:44,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 14:23:47,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 14:23:54,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 14:23:54,060 - INFO - Image query: A photorealistic image set in a modern dermatology clinic. A middle-aged female dermatologist, wearing a white lab coat and glasses, is seated at a sleek desk, reviewing patient charts on a tablet. She has a focused expression, indicating deep thought about treatment options for severe hand eczema. In front of her, a young adult male patient, around 30 years old, is seated in a comfortable chair, showing visible signs of concern as he gestures towards his hands, which are slightly red and irritated. The room is well-lit with bright, natural light streaming through a large window, illuminating the space and creating a welcoming atmosphere. On the desk, there are medical pamphlets about alitretinoin and light therapy, alongside a small model of human skin, symbolizing the discussion on eczema treatments. The walls are adorned with framed images of healthy skin and dermatological conditions, subtly emphasizing the focus on skin health. The composition captures a medium close-up angle, highlighting the interaction between the doctor and patient, reflecting the importance of discussing effective treatment options for hand eczema. The overall mood conveys a sense of urgency and hope, illustrating the potential shift in treatment approaches for patients with limited access to phototherapy.
+2024-10-11 14:23:54,195 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 14:23:54,216 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:54,336 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:54,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:54,579 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:54,703 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:54,929 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,054 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,177 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,296 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,537 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,656 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,783 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:55,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,026 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,150 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,270 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,391 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,516 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,637 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,759 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:56,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,122 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,243 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,362 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,480 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,604 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,728 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,847 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:57,966 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,086 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,205 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,326 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,446 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,574 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,694 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,819 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:58,939 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,059 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,183 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,302 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,420 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,542 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,781 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:23:59,901 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:24:00,020 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:24:00,138 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:24:00,260 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 14:24:00,382 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 14:24:00,400 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/27614bae-ebd3-4d07-bd76-f82be0a7efba "HTTP/1.1 200 OK"
+2024-10-11 14:24:00,400 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/vCCfiRNHnIduZJj03e1am.png
+2024-10-11 14:24:00,400 - INFO - Image link: https://fal.media/files/elephant/vCCfiRNHnIduZJj03e1am.png
+2024-10-11 14:24:00,401 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 14:24:00,401 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 14:24:00,401 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 14:24:00,402 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 14:24:00,402 - INFO - Sending 1 log entries to Firebase.
+2024-10-11 14:24:03,823 - INFO - Received 1 document IDs from Peerr.
+2024-10-11 14:24:03,975 - INFO - Logged data to llm collection with FirestoreID: 0b41d7e35b1bbe628f18f5064f294491.
