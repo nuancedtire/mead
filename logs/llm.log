@@ -7914,3 +7914,38 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-11 21:24:15,670 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-10-11 21:24:15,670 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-11 21:24:15,670 - INFO - No valid log entries generated.
+2024-10-11 22:20:33,742 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 22:20:33,746 - INFO - Extracted 147 link records from llm.
+2024-10-11 22:20:34,422 - INFO - Extracted 151 link records from combined_news.
+2024-10-11 22:20:34,423 - INFO - Unique links to process: 4
+2024-10-11 22:20:34,424 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 22:21:17,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 22:21:21,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 22:21:23,859 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 22:21:23,864 - INFO - Image query: A photorealistic image set in a modern conference hall during the IMS World Congress on Menopause. In the foreground, a confident female researcher in a professional outfit stands at a podium, passionately presenting data on VEOZA™ (fezolinetant) to an engaged audience of healthcare professionals. The researcher, with shoulder-length dark hair and glasses, gestures towards a large screen displaying graphs and key findings from the SKYLIGHT and DAYLIGHT studies, highlighting improved sleep, work productivity, and quality of life for women. The audience, a diverse group of women and men in business attire, leans forward, visibly intrigued and taking notes. The background features banners and posters showcasing menopause-related topics, creating an atmosphere of innovation and collaboration. Soft, focused lighting illuminates the speaker, while the audience is bathed in a warm glow, emphasizing the importance of the discussion. The composition captures a medium shot, focusing on the dynamic interaction between the researcher and the audience, conveying a sense of hope and progress in menopause management. The overall mood is one of excitement and anticipation, reflecting the potential impact of fezolinetant on women's health.
+2024-10-11 22:21:24,091 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 22:21:24,152 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:24,314 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:24,473 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:24,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:24,795 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:24,956 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:25,117 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:25,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:25,436 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:25,596 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:25,761 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:25,920 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:26,083 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:26,244 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:26,406 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:26,566 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 22:21:26,728 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 22:21:26,785 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/70b09e2a-a1e1-4ed7-bc49-2372da5c4131 "HTTP/1.1 200 OK"
+2024-10-11 22:21:26,786 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/IcN0h5D-O5MTTZ2pazZQQ.png
+2024-10-11 22:21:26,786 - INFO - Image link: https://fal.media/files/zebra/IcN0h5D-O5MTTZ2pazZQQ.png
+2024-10-11 22:21:26,787 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 22:21:26,787 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 22:21:26,787 - INFO - Sending 1 log entries to Firebase.
+2024-10-11 22:21:30,163 - INFO - Received 1 document IDs from Peerr.
+2024-10-11 22:21:30,409 - INFO - Logged data to llm collection with FirestoreID: 324cc0d189b3802c39637d27beeb34ab.
