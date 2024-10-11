@@ -7702,3 +7702,12 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-11 13:35:37,856 - INFO - Sending 1 log entries to Firebase.
 2024-10-11 13:35:40,976 - INFO - Received 1 document IDs from Peerr.
 2024-10-11 13:35:41,100 - INFO - Logged data to llm collection with FirestoreID: 4f2c37e5ba676969c33ae4215f820d91.
+2024-10-11 13:55:09,530 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 13:55:09,533 - INFO - Extracted 146 link records from llm.
+2024-10-11 13:55:10,011 - INFO - Extracted 150 link records from combined_news.
+2024-10-11 13:55:10,011 - INFO - Unique links to process: 4
+2024-10-11 13:55:10,012 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 13:55:10,012 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 13:55:10,012 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 13:55:10,012 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 13:55:10,012 - INFO - No valid log entries generated.
