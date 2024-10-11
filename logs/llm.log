@@ -7401,3 +7401,69 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-11 08:19:35,560 - INFO - Sending 1 log entries to Firebase.
 2024-10-11 08:19:38,724 - INFO - Received 1 document IDs from Peerr.
 2024-10-11 08:19:38,949 - INFO - Logged data to llm collection with FirestoreID: 827e60ca258f30b6243fd4f741b8a6cf.
+2024-10-11 09:26:07,914 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 09:26:07,917 - INFO - Extracted 140 link records from llm.
+2024-10-11 09:26:08,517 - INFO - Extracted 147 link records from combined_news.
+2024-10-11 09:26:08,517 - INFO - Unique links to process: 7
+2024-10-11 09:26:08,517 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 09:26:19,164 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:26:22,820 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:26:27,377 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:26:27,382 - INFO - Image query: A photorealistic image set in a modern pharmaceutical research lab. In the foreground, a focused female scientist in a lab coat examines a vial of dasiglucagon, her expression a mix of determination and concern. She is surrounded by high-tech laboratory equipment, including a microscope, a computer displaying data graphs, and a pen injector prominently placed on the table, symbolizing the innovative treatment. The background features shelves filled with medical research books and a large window allowing natural light to illuminate the space, creating a bright and hopeful atmosphere. The walls are adorned with posters showcasing the molecular structure of glucagon and infographics about congenital hyperinsulinism, emphasizing the significance of the research. The composition captures a medium close-up angle, focusing on the scientist's intense gaze and the vial, highlighting the urgency and importance of overcoming FDA hurdles for pediatric care. The overall mood conveys a sense of hope and resilience in the face of challenges, reflecting Zealand Pharma's commitment to providing essential treatments for newborns with CHI.
+2024-10-11 09:26:27,608 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 09:26:27,670 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:27,831 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:27,992 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:28,155 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:28,316 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:28,480 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:28,640 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:28,800 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:28,965 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:29,126 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:29,290 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:29,450 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:29,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:29,775 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:29,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:30,101 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:26:30,270 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 09:26:30,330 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8724daf-3801-4060-b9b9-f00c5b3c2d32 "HTTP/1.1 200 OK"
+2024-10-11 09:26:30,330 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/c3Og4F2oqvf0oNvvu_Uc3.png
+2024-10-11 09:26:30,330 - INFO - Image link: https://fal.media/files/zebra/c3Og4F2oqvf0oNvvu_Uc3.png
+2024-10-11 09:26:32,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:26:32,516 - INFO - No article found for link https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html.
+2024-10-11 09:26:32,517 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 09:26:38,775 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:26:38,779 - INFO - No article found for link https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7.
+2024-10-11 09:26:38,780 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-11 09:26:38,780 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 09:27:03,117 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:27:06,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:27:11,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 09:27:11,188 - INFO - Image query: A photorealistic image set in a modern oncology treatment room. A diverse group of three healthcare professionals—two women (one Black and one Caucasian) and one Hispanic man—are gathered around a sleek, high-tech conference table. They are engaged in a serious discussion, with the Black woman, a medical oncologist in a white coat, pointing at a digital tablet displaying graphs and data from the INAVO120 study. The Hispanic man, a clinical researcher, leans in with a thoughtful expression, while the Caucasian woman, a nurse practitioner, takes notes on a notepad, her brow furrowed in concentration. The room is bright and airy, with large windows allowing natural light to flood in, creating a hopeful atmosphere. On the walls, there are framed posters of breast cancer awareness and treatment advancements, subtly emphasizing the significance of the new combination therapy. The composition captures a medium shot, focusing on the dynamic interaction among the professionals, highlighting the collaborative effort in advancing treatment strategies for PIK3CA-mutant breast cancer. The overall mood conveys a sense of optimism and urgency, reflecting the transformative potential of the newly approved therapy in oncology.
+2024-10-11 09:27:11,396 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 09:27:11,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:11,619 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:11,781 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:11,944 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:12,106 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:12,270 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:12,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:12,596 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:12,759 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:12,922 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:13,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:13,246 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:13,409 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:13,574 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:13,737 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 09:27:13,900 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 09:27:13,961 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/21d65985-f79a-43ad-9fae-edec317c5832 "HTTP/1.1 200 OK"
+2024-10-11 09:27:13,962 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/_MZeE-6QaMh61yZqnH8V4.png
+2024-10-11 09:27:13,962 - INFO - Image link: https://fal.media/files/rabbit/_MZeE-6QaMh61yZqnH8V4.png
+2024-10-11 09:27:13,962 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 09:27:13,963 - INFO - Sending 2 log entries to Firebase.
+2024-10-11 09:27:17,374 - INFO - Received 2 document IDs from Peerr.
+2024-10-11 09:27:17,605 - INFO - Logged data to llm collection with FirestoreID: 27d5a26d8f501b291cd34b6463efd624.
+2024-10-11 09:27:18,280 - INFO - Logged data to llm collection with FirestoreID: b3e7690e3299b5fc2295eaad5c94df92.
