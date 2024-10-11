@@ -12523,3 +12523,34 @@
 2024-10-11 06:20:00,088 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
 2024-10-11 06:20:00,089 - INFO - No new data to update.
 2024-10-11 06:20:00,089 - INFO - Medscape script completed.
+2024-10-11 08:18:33,930 - INFO - Medscape script started.
+2024-10-11 08:18:33,931 - INFO - Connection to Medscape established.
+2024-10-11 08:18:33,956 - INFO - Request sent to Medscape API.
+2024-10-11 08:18:34,592 - INFO - Response received from Medscape API.
+2024-10-11 08:18:34,592 - INFO - Response data decoded into dictionary.
+2024-10-11 08:18:34,593 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multiple-sclerosis-carries-small-increase-cancer-risk-2024a1000ifl
+2024-10-11 08:18:35,574 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multiple-sclerosis-carries-small-increase-cancer-risk-2024a1000ifl
+2024-10-11 08:18:35,575 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/antibiotics-early-life-linked-childhood-atopy-2024a1000ibs
+2024-10-11 08:18:35,752 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/antibiotics-early-life-linked-childhood-atopy-2024a1000ibs
+2024-10-11 08:18:35,752 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/home-sti-testing-highlights-new-patient-target-2024a1000idh
+2024-10-11 08:18:36,467 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/home-sti-testing-highlights-new-patient-target-2024a1000idh
+2024-10-11 08:18:36,467 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-11 08:18:36,647 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-11 08:18:36,647 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/difficulty-assessing-treatment-efficacy-2024a1000i9p
+2024-10-11 08:18:37,368 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/difficulty-assessing-treatment-efficacy-2024a1000i9p
+2024-10-11 08:18:37,368 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-11 08:18:37,546 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/maternal-obesity-early-pregnancy-linked-infections-offspring-2024a1000i7n
+2024-10-11 08:18:37,547 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-11 08:18:38,248 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/ultrasound-alone-can-diagnose-most-thyroid-nodules-2024a1000i8s
+2024-10-11 08:18:38,248 - INFO - Processing item: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-11 08:18:38,441 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/vitamin-d-pregnancy-results-stronger-bones-kids-2024a1000ic6
+2024-10-11 08:18:38,441 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-11 08:18:39,142 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/crc-detected-screening-carries-lower-recurrence-risk-than-2024a1000i2b
+2024-10-11 08:18:39,142 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-11 08:18:39,332 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/paediatric-immunisation-schedules-united-kingdom-have-2024a1000i3i
+2024-10-11 08:18:39,332 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-11 08:18:40,022 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/vaccination-update-rsv-shingles-chickenpox-hpv-and-covid-19-2024a1000gqm
+2024-10-11 08:18:40,023 - INFO - Processing item: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-11 08:18:40,217 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/study-describes-skin-conditions-down-syndrome-2024a1000i8w
+2024-10-11 08:18:40,217 - INFO - No new data to update.
+2024-10-11 08:18:40,218 - INFO - Medscape script completed.

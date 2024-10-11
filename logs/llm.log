@@ -7363,3 +7363,41 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-11 06:20:09,020 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-11 06:20:09,020 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-11 06:20:09,020 - INFO - No valid log entries generated.
+2024-10-11 08:18:52,197 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 08:18:52,202 - INFO - Extracted 139 link records from llm.
+2024-10-11 08:18:52,844 - INFO - Extracted 143 link records from combined_news.
+2024-10-11 08:18:52,844 - INFO - Unique links to process: 4
+2024-10-11 08:18:58,786 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-11 08:18:58,787 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 08:19:08,919 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-11 08:19:08,919 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 08:19:20,677 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 08:19:25,142 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 08:19:27,941 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 08:19:27,946 - INFO - Image query: A photorealistic image set in a modern conference hall during a healthcare summit. A diverse group of healthcare leaders, including a South Asian woman in a professional outfit and a Black woman in a smart blazer, stand at the forefront, passionately discussing the Equity Charter. They are surrounded by a backdrop of large screens displaying the 10 principles of equity in digital health, with vibrant graphics symbolizing diversity and inclusion. The audience, a mix of individuals from various ethnic backgrounds, listens intently, reflecting engagement and interest. The lighting is bright and focused on the speakers, creating an atmosphere of hope and determination. In the foreground, a tablet rests on a table, displaying a digital version of the Equity Charter, symbolizing the integration of technology and equity. The composition captures a wide-angle view, emphasizing the collective effort and commitment to addressing racism and promoting equity in digital health. The overall mood conveys urgency and inspiration, highlighting the importance of collaboration and actionable steps in achieving equitable health outcomes.
+2024-10-11 08:19:28,469 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 08:19:28,538 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:28,703 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:28,868 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:29,035 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:29,200 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:29,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:29,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:29,697 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:29,861 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:30,026 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:30,194 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:30,360 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:30,526 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:30,692 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:30,858 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:31,022 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 08:19:31,190 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 08:19:31,253 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8fc2e6e5-bf93-43e1-a708-5cd0b4714cb0 "HTTP/1.1 200 OK"
+2024-10-11 08:19:31,253 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/b8GKAQGASOFca2C_VlmKK.png
+2024-10-11 08:19:31,253 - INFO - Image link: https://fal.media/files/tiger/b8GKAQGASOFca2C_VlmKK.png
+2024-10-11 08:19:35,560 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-11 08:19:35,560 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 08:19:35,560 - INFO - Sending 1 log entries to Firebase.
+2024-10-11 08:19:38,724 - INFO - Received 1 document IDs from Peerr.
+2024-10-11 08:19:38,949 - INFO - Logged data to llm collection with FirestoreID: 827e60ca258f30b6243fd4f741b8a6cf.
