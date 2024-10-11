@@ -7625,3 +7625,40 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-11 12:46:27,174 - INFO - Sending 1 log entries to Firebase.
 2024-10-11 12:46:30,488 - INFO - Received 1 document IDs from Peerr.
 2024-10-11 12:46:30,648 - INFO - Logged data to llm collection with FirestoreID: 79384e3c381e5024ed889053b854ff44.
+2024-10-11 13:14:11,934 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 13:14:11,938 - INFO - Extracted 144 link records from llm.
+2024-10-11 13:14:12,555 - INFO - Extracted 150 link records from combined_news.
+2024-10-11 13:14:12,556 - INFO - Unique links to process: 6
+2024-10-11 13:14:12,556 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 13:14:12,556 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 13:14:12,556 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-11 13:14:12,556 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 13:14:30,628 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:14:38,115 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:14:47,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:14:47,693 - INFO - Image query: A photorealistic image set in a pediatric allergist's office. A concerned mother, in her mid-30s, sits beside her young daughter, around 8 years old, who is holding a colorful allergy-friendly snack. The mother has a worried expression, reflecting the psychological distress associated with managing her child's food allergies. The daughter looks slightly anxious, glancing at a chart on the wall that illustrates common food allergens. The doctor, a middle-aged woman in a white coat, stands nearby, holding a clipboard and engaging with the mother, showing empathy and concern. A mental health screening poster is visible on the wall, emphasizing the importance of psychological assessments in allergy management. The room is bright and welcoming, with soft natural light streaming through the window, creating a warm atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the doctor and the mother, highlighting the need for integrated mental health support in food allergy care. The overall mood conveys urgency and compassion, reflecting the critical importance of addressing both physical and mental health in patients with food allergies.
+2024-10-11 13:14:48,070 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-11 13:14:48,134 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:48,298 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:48,463 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:48,631 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:48,794 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:48,959 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:49,280 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:49,447 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:49,614 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:49,781 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:49,946 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:50,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:50,275 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:50,440 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:50,604 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:50,771 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-11 13:14:50,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84/status?logs=false "HTTP/1.1 200 OK"
+2024-10-11 13:14:51,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f5dba344-ccf5-4572-b6f8-033d18798c84 "HTTP/1.1 200 OK"
+2024-10-11 13:14:51,002 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/5YG0tlTtM7tltWs4zWxn9.png
+2024-10-11 13:14:51,002 - INFO - Image link: https://fal.media/files/tiger/5YG0tlTtM7tltWs4zWxn9.png
+2024-10-11 13:14:51,003 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 13:14:51,003 - INFO - Sending 1 log entries to Firebase.
+2024-10-11 13:14:54,003 - INFO - Received 1 document IDs from Peerr.
+2024-10-11 13:14:54,218 - INFO - Logged data to llm collection with FirestoreID: e2080fec809ffa87fd737ee65c2e6036.
