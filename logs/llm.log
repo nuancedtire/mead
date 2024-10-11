@@ -7835,3 +7835,15 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-11 16:29:49,044 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-11 16:29:49,044 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-11 16:29:49,044 - INFO - No valid log entries generated.
+2024-10-11 16:48:07,357 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-11 16:48:07,361 - INFO - Extracted 147 link records from llm.
+2024-10-11 16:48:07,985 - INFO - Extracted 151 link records from combined_news.
+2024-10-11 16:48:07,986 - INFO - Unique links to process: 4
+2024-10-11 16:48:13,100 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-11 16:48:13,100 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-11 16:48:13,100 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/astellas-to-present-veoza-fezolinetant-data-at-ims-world-congress-on-menopause-302272089.html
+2024-10-11 16:48:23,350 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-11 16:48:23,350 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-11 16:48:28,475 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-11 16:48:28,476 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-11 16:48:28,476 - INFO - No valid log entries generated.
