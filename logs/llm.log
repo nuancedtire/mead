@@ -8060,3 +8060,11 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-12 23:16:49,058 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-10-12 23:16:49,059 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-12 23:16:49,059 - INFO - No valid log entries generated.
+2024-10-13 01:12:11,545 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-13 01:12:11,548 - INFO - Extracted 148 link records from llm.
+2024-10-13 01:12:11,917 - INFO - Extracted 151 link records from combined_news.
+2024-10-13 01:12:11,917 - INFO - Unique links to process: 3
+2024-10-13 01:12:11,918 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-13 01:12:11,918 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-13 01:12:11,918 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-13 01:12:11,918 - INFO - No valid log entries generated.
