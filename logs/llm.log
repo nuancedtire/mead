@@ -8299,3 +8299,43 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-14 09:57:17,460 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-14 09:57:17,460 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-14 09:57:17,460 - INFO - No valid log entries generated.
+2024-10-14 10:27:27,548 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-14 10:27:27,562 - INFO - Extracted 150 link records from llm.
+2024-10-14 10:27:27,853 - INFO - Extracted 156 link records from combined_news.
+2024-10-14 10:27:27,854 - INFO - Unique links to process: 6
+2024-10-14 10:27:27,854 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-14 10:27:27,854 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sunvozertinib-granted-breakthrough-therapy-designation-by-china-cde-for-the-first-line-treatment-of-non-small-cell-lung-cancer-with-egfr-exon-20-insertion-mutations-302274540.html
+2024-10-14 10:27:27,854 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-14 10:27:27,854 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-14 10:28:13,169 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 10:28:17,134 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 10:28:24,141 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 10:28:24,146 - INFO - Image query: A photorealistic image set in a modern office environment, showcasing a diverse group of four professionals engaged in a dynamic discussion around a sleek conference table. The group includes a middle-aged woman of South Asian descent, a young Black man, a Caucasian woman in her 30s, and an older man of Hispanic descent, all dressed in smart business attire. They are surrounded by high-tech gadgets, medical device prototypes, and laptops displaying regulatory documents. A large screen in the background shows a vibrant infographic illustrating the MedTech Accelerator initiative, with key figures like £4.2 million and £30,000 prominently featured. The lighting is bright and inviting, with sunlight streaming through large windows, creating an atmosphere of innovation and collaboration. The composition captures a medium wide-angle view, emphasizing the teamwork and urgency of the moment, as the professionals lean in, exchanging ideas with expressions of determination and enthusiasm. The overall mood conveys a sense of hope and potential, reflecting the transformative impact of the MARRS initiative on the UK MedTech landscape and its promise for advancing healthcare solutions.
+2024-10-14 10:28:24,437 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-14 10:28:24,475 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:24,612 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:24,749 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:24,885 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,025 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,161 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,297 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,572 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,710 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,847 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:25,984 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:26,122 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:26,257 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:26,423 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:26,569 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:26,707 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:26,845 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:26,981 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 10:28:27,119 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd/status?logs=false "HTTP/1.1 200 OK"
+2024-10-14 10:28:27,155 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/36541273-e42e-483c-8d1f-00928cda61fd "HTTP/1.1 200 OK"
+2024-10-14 10:28:27,155 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/pD7zZIm5ZRmJ655cJ9oIR.png
+2024-10-14 10:28:27,155 - INFO - Image link: https://fal.media/files/lion/pD7zZIm5ZRmJ655cJ9oIR.png
+2024-10-14 10:28:27,156 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-14 10:28:27,156 - INFO - Sending 1 log entries to Firebase.
+2024-10-14 10:28:30,553 - INFO - Received 1 document IDs from Peerr.
+2024-10-14 10:28:30,685 - INFO - Logged data to llm collection with FirestoreID: b71c736514d64495d83f44fea1234fc6.
