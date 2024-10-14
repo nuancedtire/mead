@@ -8523,3 +8523,12 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-14 13:34:42,519 - INFO - Received 2 document IDs from Peerr.
 2024-10-14 13:34:42,729 - INFO - Logged data to llm collection with FirestoreID: a59f1c6e0fcc9d12cf8ec73e5931a17a.
 2024-10-14 13:34:43,450 - INFO - Logged data to llm collection with FirestoreID: eb9d6ddeb780b281218317101f53cfb2.
+2024-10-14 13:54:58,844 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-14 13:54:58,847 - INFO - Extracted 155 link records from llm.
+2024-10-14 13:54:59,250 - INFO - Extracted 159 link records from combined_news.
+2024-10-14 13:54:59,251 - INFO - Unique links to process: 4
+2024-10-14 13:54:59,251 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-14 13:54:59,251 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-14 13:54:59,251 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-14 13:54:59,251 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-14 13:54:59,251 - INFO - No valid log entries generated.
