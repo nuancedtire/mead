@@ -14475,3 +14475,34 @@
 2024-10-14 12:47:33,601 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/difficulty-assessing-treatment-efficacy-2024a1000i9p
 2024-10-14 12:47:33,601 - INFO - No new data to update.
 2024-10-14 12:47:33,602 - INFO - Medscape script completed.
+2024-10-14 13:32:04,224 - INFO - Medscape script started.
+2024-10-14 13:32:04,224 - INFO - Connection to Medscape established.
+2024-10-14 13:32:04,252 - INFO - Request sent to Medscape API.
+2024-10-14 13:32:04,717 - INFO - Response received from Medscape API.
+2024-10-14 13:32:04,718 - INFO - Response data decoded into dictionary.
+2024-10-14 13:32:04,718 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-14 13:32:05,729 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-14 13:32:10,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 13:32:10,660 - INFO - Found source link: https://academic.oup.com/oncolo/advance-article/doi/10.1093/oncolo/oyae239/7808452
+2024-10-14 13:32:10,660 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-14 13:32:10,826 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-14 13:32:17,846 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 13:32:17,848 - INFO - Found source link: https://heart.bmj.com/content/110/21/1277
+2024-10-14 13:32:17,848 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/drug-bests-phototherapy-severe-hand-eczema-2024a1000ii0
+2024-10-14 13:32:18,021 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/drug-bests-phototherapy-severe-hand-eczema-2024a1000ii0
+2024-10-14 13:32:18,021 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/checking-food-allergy-add-mental-health-screen-too-2024a1000ih6
+2024-10-14 13:32:18,722 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/checking-food-allergy-add-mental-health-screen-too-2024a1000ih6
+2024-10-14 13:32:18,722 - INFO - Processing item: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-14 13:32:18,909 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-14 13:32:18,909 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multiple-sclerosis-carries-small-increase-cancer-risk-2024a1000ifl
+2024-10-14 13:32:19,597 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multiple-sclerosis-carries-small-increase-cancer-risk-2024a1000ifl
+2024-10-14 13:32:19,598 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/antibiotics-early-life-linked-childhood-atopy-2024a1000ibs
+2024-10-14 13:32:19,791 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/antibiotics-early-life-linked-childhood-atopy-2024a1000ibs
+2024-10-14 13:32:19,791 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/home-sti-testing-highlights-new-patient-target-2024a1000idh
+2024-10-14 13:32:20,484 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/home-sti-testing-highlights-new-patient-target-2024a1000idh
+2024-10-14 13:32:20,485 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-14 13:32:20,674 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-14 13:32:20,674 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/difficulty-assessing-treatment-efficacy-2024a1000i9p
+2024-10-14 13:32:21,359 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/difficulty-assessing-treatment-efficacy-2024a1000i9p
+2024-10-14 13:32:21,580 - INFO - Successfully updated Firestore with 2 items.
+2024-10-14 13:32:21,580 - INFO - Medscape script completed.
