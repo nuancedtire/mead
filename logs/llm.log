@@ -8269,3 +8269,13 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-14 08:22:00,006 - INFO - Received 2 document IDs from Peerr.
 2024-10-14 08:22:00,236 - INFO - Logged data to llm collection with FirestoreID: 09ef650fb24571cc48f72631da3d8d46.
 2024-10-14 08:22:00,949 - INFO - Logged data to llm collection with FirestoreID: 4e891bd3889964e9876a508cb0f9abdc.
+2024-10-14 09:27:24,391 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-14 09:27:24,394 - INFO - Extracted 150 link records from llm.
+2024-10-14 09:27:24,755 - INFO - Extracted 155 link records from combined_news.
+2024-10-14 09:27:24,755 - INFO - Unique links to process: 5
+2024-10-14 09:27:24,755 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-14 09:27:24,755 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sunvozertinib-granted-breakthrough-therapy-designation-by-china-cde-for-the-first-line-treatment-of-non-small-cell-lung-cancer-with-egfr-exon-20-insertion-mutations-302274540.html
+2024-10-14 09:27:24,755 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-14 09:27:24,756 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-14 09:27:24,756 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-14 09:27:24,756 - INFO - No valid log entries generated.
