@@ -2139,3 +2139,8 @@
 2024-10-14 15:43:08,676 - INFO - Search phrase found and content trimmed.
 2024-10-14 15:43:09,874 - INFO - Data saved to Firestore. Total items: 5.
 2024-10-14 15:43:09,874 - INFO - Sifted script completed.
+2024-10-14 15:56:05,346 - INFO - Sifted script started.
+2024-10-14 15:56:08,362 - INFO - Successfully fetched data from URL.
+2024-10-14 15:56:08,362 - WARNING - Search phrase not found. Using original content.
+2024-10-14 15:56:09,276 - INFO - Data saved to Firestore. Total items: 5.
+2024-10-14 15:56:09,276 - INFO - Sifted script completed.
