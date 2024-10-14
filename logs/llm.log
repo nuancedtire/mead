@@ -8199,3 +8199,73 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-14 06:20:52,783 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-14 06:20:52,783 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-14 06:20:52,783 - INFO - No valid log entries generated.
+2024-10-14 08:19:36,532 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-14 08:19:36,536 - INFO - Extracted 148 link records from llm.
+2024-10-14 08:19:37,154 - INFO - Extracted 155 link records from combined_news.
+2024-10-14 08:19:37,155 - INFO - Unique links to process: 7
+2024-10-14 08:20:00,554 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:20:04,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:20:11,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:20:11,072 - INFO - Image query: A photorealistic image set in a modern hospital boardroom. A diverse group of healthcare executives, including a middle-aged female CEO in a tailored suit and a middle-aged male CFO in glasses, are engaged in a serious discussion around a large conference table. The CEO is gesturing towards a digital presentation screen displaying graphs and procurement data, while the CFO takes notes, looking concerned. The room is well-lit with large windows showing a view of the hospital outside, symbolizing transparency. On the table, there are documents, a laptop, and a tablet, indicating ongoing discussions about procurement processes. The atmosphere is tense yet professional, reflecting the high stakes of the legal battles over healthcare procurement. The composition captures a medium shot, focusing on the executives' expressions of determination and concern, emphasizing the importance of fairness and transparency in healthcare procurement. The overall mood conveys urgency and seriousness, highlighting the critical nature of governance in healthcare decision-making.
+2024-10-14 08:20:11,314 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-14 08:20:11,380 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:11,547 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:11,712 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:11,877 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:12,043 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:12,207 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:12,372 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:12,536 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:12,701 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:12,865 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:13,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:13,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:13,360 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:13,530 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:13,695 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:13,860 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:20:14,026 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e/status?logs=false "HTTP/1.1 200 OK"
+2024-10-14 08:20:14,093 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/64b0c7cb-81d7-488f-8e54-93c1d839908e "HTTP/1.1 200 OK"
+2024-10-14 08:20:14,093 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/pbesODt-b7mm5f8iwY5rM.png
+2024-10-14 08:20:14,093 - INFO - Image link: https://fal.media/files/panda/pbesODt-b7mm5f8iwY5rM.png
+2024-10-14 08:20:17,371 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-14 08:20:17,372 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-14 08:20:19,966 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:20:19,972 - INFO - No article found for link https://www.prnewswire.com/news-releases/sunvozertinib-granted-breakthrough-therapy-designation-by-china-cde-for-the-first-line-treatment-of-non-small-cell-lung-cancer-with-egfr-exon-20-insertion-mutations-302274540.html.
+2024-10-14 08:20:19,974 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/sunvozertinib-granted-breakthrough-therapy-designation-by-china-cde-for-the-first-line-treatment-of-non-small-cell-lung-cancer-with-egfr-exon-20-insertion-mutations-302274540.html
+2024-10-14 08:21:23,299 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:21:28,441 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:21:34,815 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:21:34,820 - INFO - Image query: A photorealistic image set in a modern medical conference hall during UEG Week 2024. In the foreground, a diverse group of researchers, including a middle-aged female scientist of Asian descent and a young male researcher of African descent, stand beside a large digital presentation screen displaying vibrant graphics of the ReCET procedure and its effects on insulin therapy for type 2 diabetes. The female scientist, wearing a lab coat, gestures enthusiastically towards the screen, while the male researcher takes notes on a tablet, both displaying expressions of excitement and determination. In the background, an audience of healthcare professionals, including doctors and nurses, attentively watches the presentation, some taking notes, others engaged in discussion. The hall is brightly lit with modern lighting fixtures, and the color palette features blues and greens, symbolizing health and innovation. The composition captures a wide-angle view, emphasizing the collaborative atmosphere of scientific discovery and the potential impact of the new treatment on diabetes management. The overall mood conveys hope and enthusiasm for advancements in healthcare, reflecting the significance of this groundbreaking procedure.
+2024-10-14 08:21:35,023 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-14 08:21:35,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:35,250 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:35,412 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:35,574 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:35,740 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:35,902 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:36,065 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:36,228 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:36,393 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:36,555 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:36,718 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:36,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:37,046 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:37,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:37,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:37,537 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-14 08:21:37,701 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683/status?logs=false "HTTP/1.1 200 OK"
+2024-10-14 08:21:37,762 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a5572f93-86f7-4ca9-9900-8cb58df67683 "HTTP/1.1 200 OK"
+2024-10-14 08:21:37,762 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/4TJsAr_AjwMDSCEFX6LPu.png
+2024-10-14 08:21:37,762 - INFO - Image link: https://fal.media/files/zebra/4TJsAr_AjwMDSCEFX6LPu.png
+2024-10-14 08:21:46,313 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-14 08:21:46,321 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-14 08:21:46,321 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-14 08:21:53,758 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-14 08:21:53,759 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-14 08:21:56,563 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-14 08:21:56,563 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-14 08:21:56,563 - INFO - Sending 2 log entries to Firebase.
+2024-10-14 08:22:00,006 - INFO - Received 2 document IDs from Peerr.
+2024-10-14 08:22:00,236 - INFO - Logged data to llm collection with FirestoreID: 09ef650fb24571cc48f72631da3d8d46.
+2024-10-14 08:22:00,949 - INFO - Logged data to llm collection with FirestoreID: 4e891bd3889964e9876a508cb0f9abdc.
