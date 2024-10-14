@@ -8541,3 +8541,12 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-14 14:24:11,635 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-14 14:24:11,636 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-14 14:24:11,636 - INFO - No valid log entries generated.
+2024-10-14 14:44:56,635 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-14 14:44:56,639 - INFO - Extracted 155 link records from llm.
+2024-10-14 14:44:56,995 - INFO - Extracted 159 link records from combined_news.
+2024-10-14 14:44:56,995 - INFO - Unique links to process: 4
+2024-10-14 14:44:56,996 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-14 14:44:56,996 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-14 14:44:56,996 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-14 14:44:56,996 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-14 14:44:56,996 - INFO - No valid log entries generated.
