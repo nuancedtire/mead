@@ -8369,3 +8369,13 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-14 11:23:06,505 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-14 11:23:06,505 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-14 11:23:06,505 - INFO - No valid log entries generated.
+2024-10-14 11:41:04,984 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-14 11:41:04,988 - INFO - Extracted 151 link records from llm.
+2024-10-14 11:41:05,607 - INFO - Extracted 156 link records from combined_news.
+2024-10-14 11:41:05,607 - INFO - Unique links to process: 5
+2024-10-14 11:41:05,607 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-14 11:41:05,607 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sunvozertinib-granted-breakthrough-therapy-designation-by-china-cde-for-the-first-line-treatment-of-non-small-cell-lung-cancer-with-egfr-exon-20-insertion-mutations-302274540.html
+2024-10-14 11:41:05,608 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-14 11:41:05,608 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-14 11:41:05,608 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-14 11:41:05,608 - INFO - No valid log entries generated.
