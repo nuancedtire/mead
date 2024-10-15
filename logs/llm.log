@@ -9116,3 +9116,80 @@ The composition captures a medium shot, focusing on the collaborative effort of 
 2024-10-15 11:55:34,068 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
 2024-10-15 11:55:34,068 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-15 11:55:34,068 - INFO - No valid log entries generated.
+2024-10-15 12:47:47,427 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-15 12:47:47,431 - INFO - Extracted 162 link records from llm.
+2024-10-15 12:47:48,169 - INFO - Extracted 169 link records from combined_news.
+2024-10-15 12:47:48,170 - INFO - Unique links to process: 7
+2024-10-15 12:47:51,196 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-15 12:47:51,197 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-15 12:48:05,900 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 12:48:09,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 12:48:13,660 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 12:48:13,666 - INFO - Image query: A photorealistic image set in a modern biotechnology laboratory. In the foreground, a diverse team of three scientists—two women and one man—are gathered around a high-tech workstation displaying complex data on a large screen. One scientist, a middle-aged woman of Asian descent, is pointing at the screen with an expression of excitement and determination, while a younger Black male scientist takes notes on a digital tablet, his brow furrowed in concentration. The third scientist, a Caucasian woman with glasses, is adjusting a microscope, symbolizing the hands-on research aspect. The lab is filled with advanced equipment, including petri dishes, centrifuges, and bioreactors, all meticulously organized. Bright, sterile lighting illuminates the space, creating a sense of innovation and hope. In the background, a large window reveals a view of Cambridge, with its historic architecture contrasting with the cutting-edge technology inside. The composition captures a dynamic angle, emphasizing collaboration and the potential of AI in rejuvenating cells. The overall mood conveys optimism and urgency, reflecting the groundbreaking nature of Shift Bioscience's mission to combat age-related diseases through AI advancements.
+2024-10-15 12:48:13,885 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-15 12:48:13,951 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:14,114 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:14,279 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:14,442 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:14,604 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:14,765 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:14,934 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:15,095 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:15,258 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:15,419 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:15,582 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:15,745 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:15,905 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:16,067 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:16,230 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:16,394 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:16,555 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c/status?logs=false "HTTP/1.1 200 OK"
+2024-10-15 12:48:16,618 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b14f2fcf-7d6e-4f5c-a568-8b3c5059e55c "HTTP/1.1 200 OK"
+2024-10-15 12:48:16,618 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/jBzGDxvlq8xjEge66_QBt.png
+2024-10-15 12:48:16,618 - INFO - Image link: https://fal.media/files/monkey/jBzGDxvlq8xjEge66_QBt.png
+2024-10-15 12:48:21,388 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-15 12:48:21,388 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-15 12:48:23,652 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-15 12:48:23,653 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-15 12:48:23,653 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
+2024-10-15 12:48:49,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 12:48:53,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 12:48:58,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 12:48:58,148 - INFO - Image query: A photorealistic image set in a modern hospital boardroom. A diverse group of healthcare leaders, including a middle-aged woman of South Asian descent, a young Black man, and an older Caucasian man, are gathered around a sleek conference table, engaged in a serious discussion. The woman, dressed in a professional blazer, gestures towards a large digital screen displaying graphs and statistics related to digital healthcare transformation. The expressions on their faces reflect concern and determination as they address the financial constraints hindering progress. In the background, a large window allows natural light to flood the room, illuminating the contemporary design and high-tech equipment, such as laptops and tablets scattered across the table. A whiteboard filled with notes and diagrams about digital strategies stands nearby, symbolizing the brainstorming process. The composition captures a wide-angle perspective, emphasizing the collaborative atmosphere and the urgency of addressing funding barriers in healthcare. The overall mood conveys a sense of hope and resolve, highlighting the critical need for innovation and government support in overcoming obstacles to digital transformation in healthcare.
+2024-10-15 12:48:58,356 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-15 12:48:58,430 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:58,599 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:58,766 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:58,932 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:59,101 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:59,268 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:59,435 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:59,601 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:59,767 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:48:59,933 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:00,098 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:00,263 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:00,428 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:00,597 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:00,762 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:00,930 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:01,100 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:01,266 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:01,437 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:01,603 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:01,771 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:01,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:02,104 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:02,269 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:02,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:02,599 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 12:49:02,764 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c/status?logs=false "HTTP/1.1 200 OK"
+2024-10-15 12:49:02,829 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0fc2ae6a-ef6b-4a7e-adc9-af477586f64c "HTTP/1.1 200 OK"
+2024-10-15 12:49:02,829 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/AZvpkbR3RNI9DTrNzhBVp.png
+2024-10-15 12:49:02,830 - INFO - Image link: https://fal.media/files/penguin/AZvpkbR3RNI9DTrNzhBVp.png
+2024-10-15 12:49:05,053 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-15 12:49:05,054 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-15 12:49:05,054 - INFO - Sending 2 log entries to Firebase.
+2024-10-15 12:49:08,513 - INFO - Received 2 document IDs from Peerr.
+2024-10-15 12:49:08,747 - INFO - Logged data to llm collection with FirestoreID: 1bc77b615ef0faaa0ba2067bbe30ccd6.
+2024-10-15 12:49:09,433 - INFO - Logged data to llm collection with FirestoreID: d486078cf780ec62421e51e7b011adef.
