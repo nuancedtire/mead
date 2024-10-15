@@ -15231,3 +15231,32 @@
 2024-10-15 10:59:45,067 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
 2024-10-15 10:59:45,068 - INFO - No new data to update.
 2024-10-15 10:59:45,068 - INFO - Medscape script completed.
+2024-10-15 11:22:13,958 - INFO - Medscape script started.
+2024-10-15 11:22:13,958 - INFO - Connection to Medscape established.
+2024-10-15 11:22:13,990 - INFO - Request sent to Medscape API.
+2024-10-15 11:22:14,333 - INFO - Response received from Medscape API.
+2024-10-15 11:22:14,334 - INFO - Response data decoded into dictionary.
+2024-10-15 11:22:14,334 - INFO - Processing item: https://www.medscape.com/viewarticle/fear-cancer-recurrence-can-persist-childhood-survivors-2024a1000isy
+2024-10-15 11:22:14,866 - INFO - Fetching URL: http://r.jina.ai/medscape.com/viewarticle/fear-cancer-recurrence-can-persist-childhood-survivors-2024a1000isy
+2024-10-15 11:22:23,833 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 11:22:23,843 - INFO - Found source link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2824358?utm_campaign=articlePDF&utm_medium=articlePDFlink&utm_source=articlePDF&utm_content=jamanetworkopen.2024.36144#google_vignette
+2024-10-15 11:22:23,844 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-15 11:22:23,954 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-15 11:22:23,954 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-15 11:22:24,311 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-15 11:22:24,311 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/drug-bests-phototherapy-severe-hand-eczema-2024a1000ii0
+2024-10-15 11:22:24,442 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/drug-bests-phototherapy-severe-hand-eczema-2024a1000ii0
+2024-10-15 11:22:24,442 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/checking-food-allergy-add-mental-health-screen-too-2024a1000ih6
+2024-10-15 11:22:24,780 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/checking-food-allergy-add-mental-health-screen-too-2024a1000ih6
+2024-10-15 11:22:24,780 - INFO - Processing item: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-15 11:22:24,938 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/maternal-serum-folate-levels-during-pregnancy-linked-2024a1000ij7
+2024-10-15 11:22:24,938 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/multiple-sclerosis-carries-small-increase-cancer-risk-2024a1000ifl
+2024-10-15 11:22:25,253 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/multiple-sclerosis-carries-small-increase-cancer-risk-2024a1000ifl
+2024-10-15 11:22:25,253 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/antibiotics-early-life-linked-childhood-atopy-2024a1000ibs
+2024-10-15 11:22:25,417 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/antibiotics-early-life-linked-childhood-atopy-2024a1000ibs
+2024-10-15 11:22:25,417 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/home-sti-testing-highlights-new-patient-target-2024a1000idh
+2024-10-15 11:22:25,735 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/home-sti-testing-highlights-new-patient-target-2024a1000idh
+2024-10-15 11:22:25,736 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-15 11:22:25,895 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/newer-t2d-drugs-benefit-kidneys-heart-regardless-statin-use-2024a1000ibw
+2024-10-15 11:22:26,228 - INFO - Successfully updated Firestore with 1 items.
+2024-10-15 11:22:26,228 - INFO - Medscape script completed.
