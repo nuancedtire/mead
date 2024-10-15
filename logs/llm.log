@@ -9484,3 +9484,12 @@ The composition captures a medium shot, focusing on the collaborative effort of 
 2024-10-15 22:21:48,865 - INFO - Sending 1 log entries to Firebase.
 2024-10-15 22:21:52,221 - INFO - Received 1 document IDs from Peerr.
 2024-10-15 22:21:52,346 - INFO - Logged data to llm collection with FirestoreID: 91723b9c08adebe79cdd8fbad8836ff0.
+2024-10-15 23:22:52,829 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-15 23:22:52,832 - INFO - Extracted 167 link records from llm.
+2024-10-15 23:22:53,108 - INFO - Extracted 171 link records from combined_news.
+2024-10-15 23:22:53,108 - INFO - Unique links to process: 4
+2024-10-15 23:22:53,109 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-15 23:22:53,109 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-15 23:22:53,109 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-15 23:22:53,109 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-15 23:22:53,109 - INFO - No valid log entries generated.
