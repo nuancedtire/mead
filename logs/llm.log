@@ -9356,3 +9356,17 @@ The composition captures a medium shot, focusing on the collaborative effort of 
 2024-10-15 16:30:55,915 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
 2024-10-15 16:30:55,915 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-15 16:30:55,915 - INFO - No valid log entries generated.
+2024-10-15 16:49:31,747 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-15 16:49:31,751 - INFO - Extracted 166 link records from llm.
+2024-10-15 16:49:32,108 - INFO - Extracted 171 link records from combined_news.
+2024-10-15 16:49:32,108 - INFO - Unique links to process: 5
+2024-10-15 16:49:42,778 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-15 16:49:42,779 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-15 16:49:47,781 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-15 16:49:47,781 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-15 16:49:51,825 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-15 16:49:51,825 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-15 16:49:51,825 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
+2024-10-15 16:49:54,762 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-15 16:49:54,763 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-15 16:49:54,763 - INFO - No valid log entries generated.
