@@ -2680,3 +2680,10 @@
 2024-10-15 09:43:01,543 - INFO - Processed first article
 2024-10-15 09:43:01,741 - INFO - Data saved to Firestore. Total items: 1.
 2024-10-15 09:43:01,741 - INFO - Scraping completed.
+2024-10-15 09:56:27,710 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-10-15 09:56:27,850 - INFO - Successfully fetched webpage. Content length: 103956
+2024-10-15 09:56:27,880 - WARNING - Error parsing date: time data '5 mins ago' does not match format '%d %b %Y'. Using current date.
+2024-10-15 09:56:27,880 - INFO - Processed item: Startup funding sunk in third quarter but fintech and health tech ride high - 2024-10-15 09:56:27
+2024-10-15 09:56:27,881 - INFO - Processed first article
+2024-10-15 09:56:28,866 - INFO - Data saved to Firestore. Total items: 1.
+2024-10-15 09:56:28,866 - INFO - Scraping completed.

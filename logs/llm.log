@@ -8886,3 +8886,40 @@ The composition captures a medium shot, focusing on the collaborative effort of 
 2024-10-15 09:43:05,038 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
 2024-10-15 09:43:05,038 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-15 09:43:05,038 - INFO - No valid log entries generated.
+2024-10-15 09:56:33,163 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-15 09:56:33,166 - INFO - Extracted 158 link records from llm.
+2024-10-15 09:56:33,800 - INFO - Extracted 164 link records from combined_news.
+2024-10-15 09:56:33,801 - INFO - Unique links to process: 6
+2024-10-15 09:56:33,801 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-15 09:56:33,801 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-15 09:56:33,801 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-15 09:56:33,801 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
+2024-10-15 09:57:02,482 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 09:57:10,884 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 09:57:17,953 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 09:57:17,958 - INFO - Image query: A photorealistic image set in a modern co-working space bustling with activity. In the foreground, a diverse group of young entrepreneurs, including a Black woman and a South Asian man, are engaged in a lively discussion around a sleek glass table, with laptops and digital tablets open in front of them. The woman gestures animatedly, showcasing a graph on her tablet that illustrates the recent trends in startup funding, while the man takes notes, his expression focused and thoughtful. In the background, a large screen displays a dynamic infographic highlighting the growth of fintech and health tech investments, with vibrant colors and bold statistics. The space is filled with natural light streaming through large windows, creating an energetic and optimistic atmosphere. Potted plants add a touch of greenery, symbolizing growth and innovation. The composition captures a wide-angle perspective, emphasizing collaboration and the entrepreneurial spirit, while the overall mood conveys a sense of resilience and opportunity amidst market challenges.
+2024-10-15 09:57:18,642 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-15 09:57:18,706 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:18,870 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:19,038 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:19,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:19,376 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:19,545 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:19,713 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:19,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:20,044 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:20,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:20,377 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:20,543 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:20,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:20,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:21,048 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:21,212 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 09:57:21,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995/status?logs=false "HTTP/1.1 200 OK"
+2024-10-15 09:57:21,443 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b59029d-9038-4da0-b3d3-ce7f47255995 "HTTP/1.1 200 OK"
+2024-10-15 09:57:21,443 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/AYi2XeZnB0NlbrQIjsyzV.png
+2024-10-15 09:57:21,444 - INFO - Image link: https://fal.media/files/zebra/AYi2XeZnB0NlbrQIjsyzV.png
+2024-10-15 09:57:21,444 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-15 09:57:21,444 - INFO - Sending 1 log entries to Firebase.
+2024-10-15 09:57:24,607 - INFO - Received 1 document IDs from Peerr.
+2024-10-15 09:57:24,815 - INFO - Logged data to llm collection with FirestoreID: ccef2dbd02a4efdfed8185ececdf15e1.
