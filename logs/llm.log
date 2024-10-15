@@ -9391,3 +9391,13 @@ The composition captures a medium shot, focusing on the collaborative effort of 
 2024-10-15 17:43:12,695 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
 2024-10-15 17:43:12,695 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-15 17:43:12,695 - INFO - No valid log entries generated.
+2024-10-15 17:56:34,610 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-15 17:56:34,613 - INFO - Extracted 166 link records from llm.
+2024-10-15 17:56:35,271 - INFO - Extracted 171 link records from combined_news.
+2024-10-15 17:56:35,271 - INFO - Unique links to process: 5
+2024-10-15 17:56:35,272 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-15 17:56:35,272 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-15 17:56:35,272 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-15 17:56:35,272 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/ptc-therapeutics-announces-fda-target-regulatory-action-date-for-sepiapterin-and-lancet-publication-of-phase-3-trial-results-302275590.html
+2024-10-15 17:56:35,272 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-15 17:56:35,272 - INFO - No valid log entries generated.
