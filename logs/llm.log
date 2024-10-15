@@ -8733,3 +8733,46 @@ The setting is bright and well-lit, with natural light streaming through large w
 2024-10-15 06:19:59,787 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-15 06:19:59,787 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-15 06:19:59,787 - INFO - No valid log entries generated.
+2024-10-15 08:19:12,266 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-15 08:19:12,270 - INFO - Extracted 155 link records from llm.
+2024-10-15 08:19:12,543 - INFO - Extracted 160 link records from combined_news.
+2024-10-15 08:19:12,543 - INFO - Unique links to process: 5
+2024-10-15 08:19:15,092 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-15 08:19:15,093 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-15 08:19:26,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 08:19:34,176 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 08:19:38,857 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-15 08:19:38,862 - INFO - Image query: A photorealistic image set in a modern hospital room at Aintree University Hospital. A diverse group of healthcare professionals, including a middle-aged female nurse and a young male doctor, are gathered around a tablet displaying the Melo app interface. The nurse, wearing scrubs and a name badge, points to the screen with an expression of curiosity and engagement, while the doctor, in a white coat, leans in closely, taking notes on a clipboard. In the background, a patient with dementia, an elderly woman in a comfortable hospital bed, is observed through a glass partition, her expression calm and relaxed, suggesting a positive environment. The room is well-lit with bright, natural light streaming through large windows, creating a welcoming atmosphere. On the walls, posters about dementia care and technology integration are visible, emphasizing the innovative approach being taken. The composition captures a medium shot, focusing on the interaction between the healthcare professionals and the technology, highlighting the potential of the Melo app to transform dementia care. The overall mood conveys a sense of hope and progress, reflecting the importance of integrating technology in improving patient management and care.
+2024-10-15 08:19:39,211 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-15 08:19:39,249 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:39,386 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:39,522 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:39,659 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:39,796 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:39,932 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:40,067 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:40,201 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:40,337 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:40,473 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:40,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:40,743 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:40,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:41,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:41,150 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:41,286 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:41,423 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:41,565 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:41,702 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-15 08:19:41,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15/status?logs=false "HTTP/1.1 200 OK"
+2024-10-15 08:19:41,877 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/dd674921-77f8-4c13-91ec-e46ac0a38b15 "HTTP/1.1 200 OK"
+2024-10-15 08:19:41,877 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/EMQ5MtC81VKP3luW-iW4l.png
+2024-10-15 08:19:41,877 - INFO - Image link: https://fal.media/files/tiger/EMQ5MtC81VKP3luW-iW4l.png
+2024-10-15 08:19:47,116 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-15 08:19:47,117 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-15 08:19:51,531 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-15 08:19:51,531 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-15 08:19:54,055 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-15 08:19:54,056 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-15 08:19:54,056 - INFO - Sending 1 log entries to Firebase.
+2024-10-15 08:19:57,276 - INFO - Received 1 document IDs from Peerr.
+2024-10-15 08:19:57,399 - INFO - Logged data to llm collection with FirestoreID: 1db0bff3cf08fc436ff9d2b2defce600.
