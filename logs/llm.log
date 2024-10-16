@@ -9985,3 +9985,15 @@ In the background, a large screen displays a digital dashboard of the CQC's prov
 2024-10-16 13:39:21,384 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
 2024-10-16 13:39:21,384 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 13:39:21,384 - INFO - No valid log entries generated.
+2024-10-16 13:55:32,648 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 13:55:32,651 - INFO - Extracted 176 link records from llm.
+2024-10-16 13:55:33,294 - INFO - Extracted 183 link records from combined_news.
+2024-10-16 13:55:33,294 - INFO - Unique links to process: 7
+2024-10-16 13:55:33,294 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 13:55:33,295 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 13:55:33,295 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 13:55:33,295 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 13:55:33,295 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 13:55:33,295 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
+2024-10-16 13:55:33,295 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 13:55:33,295 - INFO - No valid log entries generated.
