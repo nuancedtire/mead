@@ -9670,3 +9670,15 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-16 09:28:38,994 - INFO - Sending 1 log entries to Firebase.
 2024-10-16 09:28:42,163 - INFO - Received 1 document IDs from Peerr.
 2024-10-16 09:28:42,299 - INFO - Logged data to llm collection with FirestoreID: 4331df6a36c05f9b6187b0218a7ac9a0.
+2024-10-16 09:43:32,247 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 09:43:32,250 - INFO - Extracted 170 link records from llm.
+2024-10-16 09:43:32,605 - INFO - Extracted 177 link records from combined_news.
+2024-10-16 09:43:32,605 - INFO - Unique links to process: 7
+2024-10-16 09:43:32,606 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 09:43:32,606 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 09:43:32,606 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 09:43:32,606 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 09:43:32,606 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 09:43:32,606 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 09:43:32,606 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/pfizer-rounds-out-haemophilia-portfolio-fda-approval
+2024-10-16 09:43:32,606 - INFO - No valid log entries generated.
