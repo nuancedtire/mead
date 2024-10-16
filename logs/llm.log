@@ -10201,3 +10201,17 @@ In the background, a large screen displays a digital dashboard of the CQC's prov
 2024-10-16 20:23:53,000 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-16 20:23:53,000 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 20:23:53,001 - INFO - No valid log entries generated.
+2024-10-16 21:22:08,105 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 21:22:08,109 - INFO - Extracted 177 link records from llm.
+2024-10-16 21:22:08,388 - INFO - Extracted 183 link records from combined_news.
+2024-10-16 21:22:08,389 - INFO - Unique links to process: 6
+2024-10-16 21:22:21,639 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-16 21:22:21,640 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 21:22:21,640 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 21:22:21,640 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 21:22:30,080 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-16 21:22:30,080 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 21:22:41,880 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-16 21:22:41,880 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 21:22:41,880 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 21:22:41,881 - INFO - No valid log entries generated.
