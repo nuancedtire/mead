@@ -9850,3 +9850,53 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-16 11:55:59,951 - INFO - Sending 1 log entries to Firebase.
 2024-10-16 11:56:03,243 - INFO - Received 1 document IDs from Peerr.
 2024-10-16 11:56:03,375 - INFO - Logged data to llm collection with FirestoreID: 0bfef85beab9d330ac63ea12b7a52387.
+2024-10-16 12:47:05,583 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 12:47:05,586 - INFO - Extracted 173 link records from llm.
+2024-10-16 12:47:05,888 - INFO - Extracted 181 link records from combined_news.
+2024-10-16 12:47:05,888 - INFO - Unique links to process: 8
+2024-10-16 12:47:09,442 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-16 12:47:09,442 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 12:47:09,442 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 12:47:09,442 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 12:47:15,389 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-16 12:47:15,390 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 12:47:31,788 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-16 12:47:31,788 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 12:48:02,177 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 12:48:05,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 12:48:13,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 12:48:13,612 - INFO - Image query: A photorealistic image set in a modern healthcare office environment. In the foreground, a diverse group of healthcare professionals, including a middle-aged Black woman in scrubs, a young South Asian man in a suit, and a Caucasian woman in a lab coat, are gathered around a sleek conference table. They are engaged in a focused discussion, with laptops open and documents spread out, showcasing charts and graphs related to IT systems. The expressions on their faces reflect a mix of concern and determination as they brainstorm solutions to the challenges posed by the CQC's regulatory platform. 
+
+In the background, a large screen displays a digital dashboard of the CQC's provider portal, highlighting issues like "Document Upload Errors" and "Password Reset Challenges" in bold graphics. The room is brightly lit with natural light streaming through large windows, creating a vibrant yet serious atmosphere. The color palette features calming blues and greens, symbolizing hope and progress in healthcare regulation. The composition captures a dynamic angle, emphasizing teamwork and collaboration, while conveying a sense of urgency and commitment to improving healthcare systems. The overall mood reflects a proactive approach to overcoming obstacles in healthcare regulation, underscoring the importance of restoring trust and efficiency.
+2024-10-16 12:48:13,764 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-16 12:48:13,800 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:13,931 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:14,064 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:14,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:14,329 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:14,463 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:14,597 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:14,730 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:14,866 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,039 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,173 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,305 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,440 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,705 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,839 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:15,973 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:16,106 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:16,240 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 12:48:16,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 12:48:16,403 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/11793861-2a94-4417-b971-086852bccd7f "HTTP/1.1 200 OK"
+2024-10-16 12:48:16,403 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/5K9gqpimJPQ2Or09C0Cq3.png
+2024-10-16 12:48:16,404 - INFO - Image link: https://fal.media/files/elephant/5K9gqpimJPQ2Or09C0Cq3.png
+2024-10-16 12:48:25,420 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 12:48:25,424 - INFO - No article found for link https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj.
+2024-10-16 12:48:25,425 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
+2024-10-16 12:48:27,942 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-16 12:48:27,942 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 12:48:27,942 - INFO - Sending 1 log entries to Firebase.
+2024-10-16 12:48:31,224 - INFO - Received 1 document IDs from Peerr.
+2024-10-16 12:48:31,344 - INFO - Logged data to llm collection with FirestoreID: 89cb741ae12b5ed18a3be725cd7df4c8.
