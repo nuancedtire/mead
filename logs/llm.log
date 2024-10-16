@@ -10227,3 +10227,45 @@ In the background, a large screen displays a digital dashboard of the CQC's prov
 2024-10-16 22:21:02,674 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-10-16 22:21:02,675 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 22:21:02,675 - INFO - No valid log entries generated.
+2024-10-16 23:22:44,139 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 23:22:44,143 - INFO - Extracted 177 link records from llm.
+2024-10-16 23:22:44,525 - INFO - Extracted 183 link records from combined_news.
+2024-10-16 23:22:44,526 - INFO - Unique links to process: 6
+2024-10-16 23:22:44,526 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 23:22:56,027 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 23:22:56,044 - INFO - No article found for link https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication.
+2024-10-16 23:22:56,044 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 23:23:14,480 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 23:23:18,804 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 23:23:22,555 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 23:23:22,563 - INFO - Image query: A photorealistic image set in a modern clinical research facility. In the foreground, a diverse group of medical professionals, including a female physician in a white lab coat and a male researcher in scrubs, are gathered around a high-tech medical device resembling the ReCET™ System. The device, sleek and futuristic, is positioned on a stainless steel table, with glowing indicators suggesting it is powered on. The physician is pointing at a digital screen displaying data related to glucose metabolism, while the researcher takes notes, both showing expressions of focused determination and hope. In the background, a large window allows natural light to flood the room, illuminating a poster on the wall that outlines the ReCET Clinical Study, emphasizing its innovative approach to treating type 2 diabetes. The color palette is bright and clinical, with whites and blues dominating, creating a clean and professional atmosphere. The composition captures a medium shot, highlighting the collaborative spirit of medical research and the potential for groundbreaking advancements in diabetes treatment. The overall mood conveys optimism and urgency, reflecting the transformative potential of the ReCET System for millions living with type 2 diabetes.
+2024-10-16 23:23:22,721 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-16 23:23:22,753 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:22,885 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,015 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,145 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,274 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,404 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,534 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,665 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,797 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:23,928 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:24,058 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:24,189 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:24,320 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:24,607 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:24,737 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:24,871 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:25,000 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:25,131 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:25,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 23:23:25,391 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 23:23:25,420 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/917d049b-5fa8-46c2-b446-da917789d024 "HTTP/1.1 200 OK"
+2024-10-16 23:23:25,421 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/4XfDzg5v-NUKsbySsJ0HU.png
+2024-10-16 23:23:25,421 - INFO - Image link: https://fal.media/files/zebra/4XfDzg5v-NUKsbySsJ0HU.png
+2024-10-16 23:23:25,422 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 23:23:25,422 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 23:23:25,422 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 23:23:25,422 - INFO - Sending 1 log entries to Firebase.
+2024-10-16 23:23:28,694 - INFO - Received 1 document IDs from Peerr.
+2024-10-16 23:23:28,859 - INFO - Logged data to llm collection with FirestoreID: 4cc05b2e0be92c2027fe8587790eefdf.
