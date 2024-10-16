@@ -9626,3 +9626,47 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-16 08:20:32,423 - INFO - Sending 1 log entries to Firebase.
 2024-10-16 08:20:35,595 - INFO - Received 1 document IDs from Peerr.
 2024-10-16 08:20:35,743 - INFO - Logged data to llm collection with FirestoreID: f040b1af15d39511e9532417dc3db949.
+2024-10-16 09:26:43,298 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 09:26:43,302 - INFO - Extracted 169 link records from llm.
+2024-10-16 09:26:43,568 - INFO - Extracted 177 link records from combined_news.
+2024-10-16 09:26:43,569 - INFO - Unique links to process: 8
+2024-10-16 09:26:43,569 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 09:26:43,569 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 09:28:24,807 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 09:28:28,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 09:28:36,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 09:28:36,009 - INFO - Image query: A photorealistic image set in a bright, welcoming pediatric examination room. A compassionate primary care physician, a middle-aged woman in a white coat, is kneeling beside a small child, around 3 years old, who is sitting on an examination table. The child, with a concerned yet curious expression, is holding a colorful growth chart that the doctor is pointing to, illustrating the child's growth trajectory. The physician's face reflects empathy and attentiveness as she engages with the child, emphasizing the importance of monitoring growth. Nearby, a wall-mounted height chart and a shelf filled with children's books and toys create a nurturing environment. Soft, natural light streams through a window, illuminating the scene and casting gentle shadows. The composition captures a medium close-up angle, focusing on the interaction between the doctor and child, highlighting the critical nature of recognizing and managing faltering growth in children. The overall mood conveys a sense of care, urgency, and hope, reflecting the importance of early detection and support in pediatric healthcare.
+2024-10-16 09:28:36,134 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-16 09:28:36,167 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:36,299 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:36,431 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:36,565 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:36,698 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:36,831 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:36,963 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:37,095 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:37,228 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:37,362 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:37,496 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:37,629 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:37,763 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:37,896 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,161 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,294 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,425 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,562 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,693 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,829 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 09:28:38,961 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 09:28:38,992 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/19db88f4-e578-459c-8106-3588b7e71e0b "HTTP/1.1 200 OK"
+2024-10-16 09:28:38,993 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/N7JSFF_blvWtGs4qGAlwb.png
+2024-10-16 09:28:38,993 - INFO - Image link: https://fal.media/files/monkey/N7JSFF_blvWtGs4qGAlwb.png
+2024-10-16 09:28:38,994 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 09:28:38,994 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 09:28:38,994 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 09:28:38,994 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 09:28:38,994 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/pfizer-rounds-out-haemophilia-portfolio-fda-approval
+2024-10-16 09:28:38,994 - INFO - Sending 1 log entries to Firebase.
+2024-10-16 09:28:42,163 - INFO - Received 1 document IDs from Peerr.
+2024-10-16 09:28:42,299 - INFO - Logged data to llm collection with FirestoreID: 4331df6a36c05f9b6187b0218a7ac9a0.
