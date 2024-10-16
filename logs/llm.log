@@ -10177,3 +10177,16 @@ In the background, a large screen displays a digital dashboard of the CQC's prov
 2024-10-16 18:29:43,941 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-16 18:29:43,942 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 18:29:43,942 - INFO - No valid log entries generated.
+2024-10-16 19:18:19,949 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 19:18:19,952 - INFO - Extracted 177 link records from llm.
+2024-10-16 19:18:20,607 - INFO - Extracted 183 link records from combined_news.
+2024-10-16 19:18:20,608 - INFO - Unique links to process: 6
+2024-10-16 19:18:20,608 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 19:18:24,601 - INFO - No article found for link https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication.
+2024-10-16 19:18:24,602 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 19:18:32,330 - INFO - No article found for link https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html.
+2024-10-16 19:18:32,331 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 19:18:32,331 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 19:18:32,331 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 19:18:32,331 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 19:18:32,331 - INFO - No valid log entries generated.
