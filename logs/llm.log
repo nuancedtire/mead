@@ -9777,3 +9777,14 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-16 10:45:26,946 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-16 10:45:26,946 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 10:45:26,946 - INFO - No valid log entries generated.
+2024-10-16 10:58:06,361 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 10:58:06,365 - INFO - Extracted 172 link records from llm.
+2024-10-16 10:58:06,660 - INFO - Extracted 178 link records from combined_news.
+2024-10-16 10:58:06,660 - INFO - Unique links to process: 6
+2024-10-16 10:58:06,660 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 10:58:06,661 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 10:58:06,661 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 10:58:06,661 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 10:58:06,661 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 10:58:06,661 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 10:58:06,661 - INFO - No valid log entries generated.
