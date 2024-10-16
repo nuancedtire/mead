@@ -9694,3 +9694,75 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-16 09:56:46,869 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 09:56:46,869 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/pfizer-rounds-out-haemophilia-portfolio-fda-approval
 2024-10-16 09:56:46,869 - INFO - No valid log entries generated.
+2024-10-16 10:26:00,994 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 10:26:00,997 - INFO - Extracted 170 link records from llm.
+2024-10-16 10:26:01,402 - INFO - Extracted 178 link records from combined_news.
+2024-10-16 10:26:01,402 - INFO - Unique links to process: 8
+2024-10-16 10:26:01,402 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 10:26:10,244 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 10:26:10,264 - INFO - No article found for link https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication.
+2024-10-16 10:26:10,265 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 10:26:14,377 - INFO - No article found for link https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html.
+2024-10-16 10:26:14,377 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 10:26:14,377 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 10:26:14,378 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 10:26:36,201 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 10:26:40,985 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 10:26:49,072 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 10:26:49,076 - INFO - Image query: A photorealistic image depicting a modern living room transformed into a virtual care environment. In the foreground, a middle-aged woman sits comfortably on a couch, wearing a cozy sweater, with a blood pressure cuff on her arm and a pulse oximeter clipped to her finger. She looks at a tablet in her lap, displaying vital signs and a video call with a healthcare professional, who appears on the screen, offering guidance and support. The room is bright and inviting, with natural light streaming through a window adorned with light curtains, casting soft shadows. In the background, a small table holds a few medical devices, such as a digital thermometer and a medication organizer, symbolizing the integration of healthcare technology into home settings. A family photo hangs on the wall, emphasizing the comfort of being in a familiar environment. The composition captures a medium close-up angle, focusing on the woman's expression of relief and empowerment, reflecting the positive impact of virtual wards on patient care. The overall mood conveys hope and innovation, highlighting the future of healthcare where patients can recover at home with professional support.
+2024-10-16 10:26:49,234 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-16 10:26:49,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:49,415 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:49,556 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:49,699 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:49,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:49,983 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:50,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:50,265 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:50,406 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:50,548 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:50,688 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:50,831 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:50,973 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:51,116 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:51,258 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:51,399 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:51,542 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:51,683 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:26:51,825 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 10:26:51,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e2bdb242-dbab-46ca-91fe-f0f336fa183c "HTTP/1.1 200 OK"
+2024-10-16 10:26:51,879 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/-_dYh3m_hjlbyse_KEGHH.png
+2024-10-16 10:26:51,879 - INFO - Image link: https://fal.media/files/rabbit/-_dYh3m_hjlbyse_KEGHH.png
+2024-10-16 10:26:51,880 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 10:27:13,427 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 10:27:16,807 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 10:27:23,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 10:27:23,910 - INFO - Image query: A photorealistic image set in a modern medical office, showcasing a healthcare professional, a middle-aged female doctor in a white lab coat, discussing treatment options with a young male patient, around 15 years old, who has haemophilia. The doctor is seated at a sleek desk, leaning slightly forward with a tablet in hand displaying information about Hympavzi. The patient, looking hopeful yet curious, is seated across from her, with a slight smile, indicating engagement in the conversation. A model of a human blood vessel is displayed on the desk, symbolizing the focus on haemophilia care. The room is brightly lit with natural light streaming through large windows, creating a warm and inviting atmosphere. On the wall, a poster illustrates the mechanism of action of anti-TFPI antibodies, subtly emphasizing the innovative treatment. The composition captures a medium close-up angle, focusing on the dynamic interaction between the doctor and patient, highlighting the significance of the new FDA-approved treatment in revolutionizing haemophilia care. The overall mood conveys a sense of optimism and progress in managing haemophilia, reflecting the transformative impact of Hympavzi on patient outcomes.
+2024-10-16 10:27:24,034 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-16 10:27:24,077 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:24,217 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:24,356 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:24,496 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:24,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:24,776 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:24,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:25,058 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:25,197 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:25,336 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:25,476 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:25,615 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:25,756 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:25,895 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:26,033 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:26,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:26,313 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:26,453 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:26,594 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 10:27:26,732 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 10:27:26,770 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/722f813e-d679-4898-bd80-bb76641065d7 "HTTP/1.1 200 OK"
+2024-10-16 10:27:26,770 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/-Yad4ZNsoNgrde71WVxjt.png
+2024-10-16 10:27:26,770 - INFO - Image link: https://fal.media/files/koala/-Yad4ZNsoNgrde71WVxjt.png
+2024-10-16 10:27:26,771 - INFO - Sending 2 log entries to Firebase.
+2024-10-16 10:27:29,919 - INFO - Received 2 document IDs from Peerr.
+2024-10-16 10:27:30,049 - INFO - Logged data to llm collection with FirestoreID: 8f0762aa6b29d45f0245dfe4e1a13aeb.
+2024-10-16 10:27:30,409 - INFO - Logged data to llm collection with FirestoreID: ea498d38218b31d7e8822746172d41db.
