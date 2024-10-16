@@ -10009,3 +10009,18 @@ In the background, a large screen displays a digital dashboard of the CQC's prov
 2024-10-16 14:23:28,900 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
 2024-10-16 14:23:28,900 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 14:23:28,900 - INFO - No valid log entries generated.
+2024-10-16 14:44:37,177 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 14:44:37,181 - INFO - Extracted 176 link records from llm.
+2024-10-16 14:44:37,473 - INFO - Extracted 183 link records from combined_news.
+2024-10-16 14:44:37,474 - INFO - Unique links to process: 7
+2024-10-16 14:44:37,474 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 14:44:43,709 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 14:44:43,727 - INFO - No article found for link https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication.
+2024-10-16 14:44:43,727 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 14:44:47,487 - INFO - No article found for link https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html.
+2024-10-16 14:44:47,488 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 14:44:47,488 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 14:44:47,489 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 14:44:47,489 - INFO - Skipping recently failed link: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
+2024-10-16 14:44:47,489 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 14:44:47,489 - INFO - No valid log entries generated.
