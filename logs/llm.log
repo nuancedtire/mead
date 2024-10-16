@@ -9810,3 +9810,43 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-16 11:41:09,634 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-16 11:41:09,635 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 11:41:09,635 - INFO - No valid log entries generated.
+2024-10-16 11:55:29,489 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 11:55:29,493 - INFO - Extracted 172 link records from llm.
+2024-10-16 11:55:29,770 - INFO - Extracted 179 link records from combined_news.
+2024-10-16 11:55:29,770 - INFO - Unique links to process: 7
+2024-10-16 11:55:41,597 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 11:55:47,775 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 11:55:57,077 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 11:55:57,083 - INFO - Image query: A photorealistic image set in a modern oncology clinic. A diverse group of healthcare professionals, including a middle-aged female oncologist in a white coat, a young male nurse in scrubs, and an elderly male patient in a hospital gown, are gathered around a digital tablet displaying a detailed chart of lung cancer treatment options. The oncologist points to the screen, explaining the benefits of targeted therapies like alectinib and pembrolizumab, while the nurse stands attentively, ready to assist. The patient, appearing hopeful yet contemplative, listens intently, reflecting the importance of informed decision-making in post-surgical care. The clinic is bright and welcoming, with large windows allowing natural light to flood the room, creating a positive atmosphere. Medical posters on the walls depict lung anatomy and cancer treatment pathways, subtly reinforcing the focus on lung cancer management. The composition captures a medium shot, emphasizing the collaborative interaction among the healthcare team and the patient, highlighting the transformative potential of targeted therapies in improving outcomes for lung cancer patients. The overall mood conveys optimism and a sense of urgency, reflecting the critical advancements in cancer treatment.
+2024-10-16 11:55:57,346 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-16 11:55:57,387 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:57,525 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:57,665 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:57,804 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:57,945 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:58,086 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:58,226 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:58,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:58,511 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:58,651 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:58,791 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:58,930 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:59,069 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:59,207 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:59,350 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:59,490 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:59,630 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:59,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 11:55:59,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 11:55:59,949 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/17226c0a-9455-4e69-aa07-eb183e95f487 "HTTP/1.1 200 OK"
+2024-10-16 11:55:59,950 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/EOPS274N5GyQPJP4u7BBm.png
+2024-10-16 11:55:59,950 - INFO - Image link: https://fal.media/files/koala/EOPS274N5GyQPJP4u7BBm.png
+2024-10-16 11:55:59,951 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 11:55:59,951 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 11:55:59,951 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 11:55:59,951 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 11:55:59,951 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 11:55:59,951 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 11:55:59,951 - INFO - Sending 1 log entries to Firebase.
+2024-10-16 11:56:03,243 - INFO - Received 1 document IDs from Peerr.
+2024-10-16 11:56:03,375 - INFO - Logged data to llm collection with FirestoreID: 0bfef85beab9d330ac63ea12b7a52387.
