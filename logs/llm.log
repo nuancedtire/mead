@@ -9524,3 +9524,52 @@ The composition captures a medium shot, focusing on the collaborative effort of 
 2024-10-16 04:17:40,597 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-16 04:17:40,597 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-16 04:17:40,597 - INFO - No valid log entries generated.
+2024-10-16 06:19:52,615 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-16 06:19:52,618 - INFO - Extracted 167 link records from llm.
+2024-10-16 06:19:53,021 - INFO - Extracted 175 link records from combined_news.
+2024-10-16 06:19:53,022 - INFO - Unique links to process: 8
+2024-10-16 06:19:53,022 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-16 06:20:03,272 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 06:20:03,289 - INFO - No article found for link https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication.
+2024-10-16 06:20:03,289 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-16 06:20:08,095 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 06:20:08,100 - INFO - No article found for link https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html.
+2024-10-16 06:20:08,101 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/endogenex-announces-first-patient-enrolled-in-the-recet-clinical-study-302275170.html
+2024-10-16 06:20:08,101 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-16 06:20:08,101 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-16 06:21:21,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 06:21:25,037 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 06:21:30,472 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 06:21:30,476 - INFO - Image query: A photorealistic image set in a modern, sleek conference room filled with natural light. In the foreground, a diverse group of five professionals—two women and three men—are engaged in a dynamic discussion around a large glass table. One woman, of Asian descent, is presenting data on a digital tablet, her expression animated and confident. The other participants, including a middle-aged Black man and a young Caucasian woman, are leaning in, showing interest and curiosity. Behind them, a large screen displays a colorful infographic illustrating the surge in biotech investments, with graphs and statistics highlighting growth trends. The room is adorned with contemporary art and plants, creating a vibrant yet professional atmosphere. The lighting is bright and inviting, emphasizing the optimism surrounding biotech innovation. The composition captures a medium shot, focusing on the interaction and collaboration among the professionals, symbolizing the collaborative spirit driving investments in European biotech startups. The overall mood conveys excitement and forward-thinking, reflecting the transformative potential of these investments in the healthcare landscape.
+2024-10-16 06:21:30,621 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-16 06:21:30,647 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:30,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:30,906 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,032 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,160 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,288 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,416 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,543 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,669 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,799 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:31,927 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,053 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,180 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,442 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,569 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,698 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,827 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:32,955 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:33,084 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-16 06:21:33,238 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802/status?logs=false "HTTP/1.1 200 OK"
+2024-10-16 06:21:33,266 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2350f426-46ff-4c95-a513-48306bf3b802 "HTTP/1.1 200 OK"
+2024-10-16 06:21:33,266 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/RafHGBMi9kwkbW9zdEb2M.png
+2024-10-16 06:21:33,266 - INFO - Image link: https://fal.media/files/panda/RafHGBMi9kwkbW9zdEb2M.png
+2024-10-16 06:21:33,267 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-16 06:21:39,948 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-16 06:21:39,952 - INFO - No article found for link https://pharmaphorum.com/news/pfizer-rounds-out-haemophilia-portfolio-fda-approval.
+2024-10-16 06:21:39,952 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/pfizer-rounds-out-haemophilia-portfolio-fda-approval
+2024-10-16 06:21:39,953 - INFO - Sending 1 log entries to Firebase.
+2024-10-16 06:21:43,151 - INFO - Received 1 document IDs from Peerr.
+2024-10-16 06:21:43,329 - INFO - Logged data to llm collection with FirestoreID: 8cfb81691c6a19c5083feded31b1c920.
