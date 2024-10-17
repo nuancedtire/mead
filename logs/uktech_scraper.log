@@ -3166,3 +3166,9 @@
 2024-10-17 10:58:32,072 - INFO - Processed first article
 2024-10-17 10:58:32,284 - INFO - Data saved to Firestore. Total items: 1.
 2024-10-17 10:58:32,285 - INFO - Scraping completed.
+2024-10-17 11:21:53,828 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-10-17 11:21:53,913 - INFO - Successfully fetched webpage. Content length: 103960
+2024-10-17 11:21:53,943 - INFO - Processed item: Gen AI startup trying to ‘reverse ageing process’ raises £12m - 2024-10-15 00:00:00
+2024-10-17 11:21:53,943 - INFO - Processed first article
+2024-10-17 11:21:54,522 - INFO - Data saved to Firestore. Total items: 1.
+2024-10-17 11:21:54,522 - INFO - Scraping completed.
