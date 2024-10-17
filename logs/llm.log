@@ -10612,3 +10612,53 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-17 11:55:33,105 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
 2024-10-17 11:55:33,105 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-17 11:55:33,106 - INFO - No valid log entries generated.
+2024-10-17 12:47:11,271 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 12:47:11,275 - INFO - Extracted 184 link records from llm.
+2024-10-17 12:47:11,713 - INFO - Extracted 191 link records from combined_news.
+2024-10-17 12:47:11,714 - INFO - Unique links to process: 7
+2024-10-17 12:47:16,092 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-17 12:47:16,092 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 12:47:26,752 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 12:47:26,770 - INFO - No article found for link https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication.
+2024-10-17 12:47:26,771 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 12:47:46,435 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 12:47:52,330 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 12:47:56,612 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 12:47:56,617 - INFO - Image query: A photorealistic image depicting a vibrant conference hall bustling with activity during the Digital Health Rewired 2025 event. In the foreground, a diverse group of healthcare professionals, including a middle-aged Black woman in a smart blazer and a young Asian man in a suit, engage in animated discussions, holding digital tablets and smartphones, showcasing the integration of technology in healthcare. In the background, a large digital screen displays the event logo and highlights key speakers, including Dr. Alec Price-Forbes and Helen Balsdon, with their names and titles illuminated in bright colors. The hall is filled with attendees, some seated and others standing, all focused on the stage where a speaker is passionately presenting about digital transformation in the NHS. The lighting is bright and inviting, with a modern color palette of blues and greens, symbolizing innovation and progress. The atmosphere is energetic and hopeful, reflecting the excitement around the future of digital health and the potential for positive change in patient care. The composition captures a wide-angle view, emphasizing the scale of the event and the collaborative spirit of the healthcare community coming together to embrace digital advancements.
+2024-10-17 12:47:56,859 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-17 12:47:56,879 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:56,996 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,117 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,237 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,355 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,476 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,595 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,713 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,832 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:57,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,071 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,191 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,427 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,544 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,662 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,783 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:58,902 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:59,020 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:59,140 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:59,258 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:59,377 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 12:47:59,495 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228/status?logs=false "HTTP/1.1 200 OK"
+2024-10-17 12:47:59,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d3859965-1a07-4949-bae6-65397b81b228 "HTTP/1.1 200 OK"
+2024-10-17 12:47:59,512 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/Kk9Gn_XtV0Ry3rfk-isC6.png
+2024-10-17 12:47:59,512 - INFO - Image link: https://fal.media/files/zebra/Kk9Gn_XtV0Ry3rfk-isC6.png
+2024-10-17 12:48:05,313 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-17 12:48:05,313 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 12:48:07,559 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-17 12:48:07,560 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 12:48:07,560 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 12:48:19,382 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-17 12:48:19,383 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 12:48:19,383 - INFO - Sending 1 log entries to Firebase.
+2024-10-17 12:48:22,616 - INFO - Received 1 document IDs from Peerr.
+2024-10-17 12:48:22,765 - INFO - Logged data to llm collection with FirestoreID: 5bb72101ceb3c4b9a08f6ba266722ff6.
