@@ -10478,3 +10478,47 @@ The composition captures a medium shot angle, highlighting the collaborative spi
 2024-10-17 09:56:31,311 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
 2024-10-17 09:56:31,311 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-17 09:56:31,311 - INFO - No valid log entries generated.
+2024-10-17 10:25:59,688 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 10:25:59,691 - INFO - Extracted 182 link records from llm.
+2024-10-17 10:26:00,102 - INFO - Extracted 189 link records from combined_news.
+2024-10-17 10:26:00,103 - INFO - Unique links to process: 7
+2024-10-17 10:26:00,103 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 10:26:00,103 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 10:26:12,843 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 10:26:16,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 10:26:18,149 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 10:26:18,155 - INFO - Image query: A photorealistic image set in a modern, bright office space dedicated to mental health support. In the foreground, a diverse group of three individuals—two women and one man—are engaged in a discussion around a sleek, round table. One woman, in her 30s with curly hair, is holding a smartphone displaying a mental health app, while the other woman, in her 40s with straight hair, leans in with a look of curiosity and interest. The man, in his 50s with glasses, gestures animatedly, emphasizing the importance of digital tools in mental health care. The table is adorned with tablets and brochures showcasing various mental health apps, symbolizing the digital resources available. In the background, a large window allows natural light to flood the room, creating an inviting atmosphere. On the wall, a digital screen displays vibrant graphics related to mental health statistics and the benefits of digital innovation. The composition captures a medium shot, focusing on the engaged interaction among the individuals, highlighting the transformative potential of digital mental health support. The overall mood conveys optimism and collaboration, reflecting the significant shift towards integrating technology in mental health care in Northern Ireland.
+2024-10-17 10:26:18,250 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-17 10:26:18,271 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:18,389 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:18,506 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:18,625 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:18,746 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:18,865 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:18,983 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,102 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,219 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,344 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,464 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,582 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,704 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,823 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:19,941 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,061 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,179 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,297 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,415 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,532 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,651 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 10:26:20,887 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78/status?logs=false "HTTP/1.1 200 OK"
+2024-10-17 10:26:20,903 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b0b6a57a-d827-4371-846d-8f00a9618a78 "HTTP/1.1 200 OK"
+2024-10-17 10:26:20,903 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/FdZjlxmjOeZY4-PdY6IPf.png
+2024-10-17 10:26:20,903 - INFO - Image link: https://fal.media/files/kangaroo/FdZjlxmjOeZY4-PdY6IPf.png
+2024-10-17 10:26:20,904 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 10:26:20,904 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 10:26:20,904 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 10:26:20,904 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 10:26:20,904 - INFO - Sending 1 log entries to Firebase.
+2024-10-17 10:26:23,960 - INFO - Received 1 document IDs from Peerr.
+2024-10-17 10:26:24,114 - INFO - Logged data to llm collection with FirestoreID: 5789439063fc39a19a5fa187b47a5e23.
