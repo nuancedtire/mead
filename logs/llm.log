@@ -10769,3 +10769,14 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-17 14:24:36,741 - INFO - Sending 1 log entries to Firebase.
 2024-10-17 14:24:39,914 - INFO - Received 1 document IDs from Peerr.
 2024-10-17 14:24:40,059 - INFO - Logged data to llm collection with FirestoreID: c5a4e2eb420d10f4d5b4620ea6bef47b.
+2024-10-17 14:43:46,388 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 14:43:46,392 - INFO - Extracted 187 link records from llm.
+2024-10-17 14:43:46,674 - INFO - Extracted 193 link records from combined_news.
+2024-10-17 14:43:46,675 - INFO - Unique links to process: 6
+2024-10-17 14:43:46,675 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 14:43:46,675 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 14:43:46,675 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 14:43:46,675 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 14:43:46,675 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 14:43:46,675 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 14:43:46,675 - INFO - No valid log entries generated.
