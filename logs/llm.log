@@ -10293,3 +10293,14 @@ In the background, a large screen displays a digital dashboard of the CQC's prov
 2024-10-17 02:48:01,310 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-10-17 02:48:01,310 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-17 02:48:01,310 - INFO - No valid log entries generated.
+2024-10-17 04:17:38,626 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 04:17:38,630 - INFO - Extracted 178 link records from llm.
+2024-10-17 04:17:39,054 - INFO - Extracted 183 link records from combined_news.
+2024-10-17 04:17:39,055 - INFO - Unique links to process: 5
+2024-10-17 04:17:39,055 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 04:17:43,567 - INFO - No article found for link https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication.
+2024-10-17 04:17:43,568 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 04:17:43,568 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 04:17:43,568 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 04:17:43,568 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 04:17:43,568 - INFO - No valid log entries generated.
