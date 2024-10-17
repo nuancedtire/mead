@@ -10386,3 +10386,73 @@ In the background, a large screen displays a digital dashboard of the CQC's prov
 2024-10-17 08:22:09,125 - INFO - Received 2 document IDs from Peerr.
 2024-10-17 08:22:09,364 - INFO - Logged data to llm collection with FirestoreID: 5826fdf464c3b4984bf61cd4066ac092.
 2024-10-17 08:22:10,181 - INFO - Logged data to llm collection with FirestoreID: cd66741785ecb6f9f457083401f2bc26.
+2024-10-17 09:26:20,493 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 09:26:20,497 - INFO - Extracted 180 link records from llm.
+2024-10-17 09:26:21,148 - INFO - Extracted 188 link records from combined_news.
+2024-10-17 09:26:21,148 - INFO - Unique links to process: 8
+2024-10-17 09:26:21,148 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 09:26:21,148 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 09:26:48,211 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 09:26:52,035 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 09:26:54,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 09:26:54,027 - INFO - Image query: A photorealistic image set in a modern research laboratory focused on Alzheimer's treatment. In the foreground, a diverse group of scientists, including a middle-aged female researcher with glasses and a young male researcher of Asian descent, are engaged in a discussion around a high-tech laboratory table cluttered with vials and research papers. The female researcher is pointing at a digital tablet displaying molecular structures of amyloid-beta, while the male researcher listens intently, taking notes. In the background, a large window reveals a bright, sunny day outside, symbolizing hope and new beginnings. Shelves lined with scientific journals and models of the human brain are visible, emphasizing the focus on Alzheimer's research. The lighting is bright and clinical, with a slight blue tint that conveys a sense of innovation and urgency. The composition captures a medium shot, highlighting the collaboration and determination of the researchers as they work towards a breakthrough in Alzheimer's treatment with lecanemab. The overall mood reflects optimism and the potential for significant advancements in healthcare.
+2024-10-17 09:26:54,425 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-17 09:26:54,487 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:54,650 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:54,812 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:54,975 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:55,137 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:55,299 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:55,462 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:55,623 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:55,784 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:55,948 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:56,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:56,271 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:56,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:56,595 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:56,757 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:56,918 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:26:57,080 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3/status?logs=false "HTTP/1.1 200 OK"
+2024-10-17 09:26:57,140 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/47f3d171-0b07-4efa-87e1-0f84c97b5cd3 "HTTP/1.1 200 OK"
+2024-10-17 09:26:57,141 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/JqiZwKAnDF51nyuUuV9zc.png
+2024-10-17 09:26:57,141 - INFO - Image link: https://fal.media/files/rabbit/JqiZwKAnDF51nyuUuV9zc.png
+2024-10-17 09:26:57,142 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 09:26:57,142 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 09:27:08,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 09:27:08,034 - INFO - No article found for link https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html.
+2024-10-17 09:27:08,035 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 09:27:48,349 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 09:27:52,144 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 09:27:54,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 09:27:54,510 - INFO - Image query: A photorealistic image set in a modern pediatric research laboratory. In the foreground, a diverse group of three researchers—a middle-aged female scientist with glasses, a young male researcher with a lab coat, and a middle-aged male researcher with a beard—are gathered around a high-tech laboratory bench. They are examining a digital tablet displaying colorful graphs and images related to gene therapy research. The female scientist points at the screen with an expression of excitement and determination, while the male researchers look on with interest and curiosity. 
+
+In the background, laboratory equipment such as centrifuges, microscopes, and petri dishes filled with samples are visible, emphasizing the advanced scientific environment. A large window allows natural light to flood the room, creating a bright and optimistic atmosphere. On a nearby wall, a poster illustrates the molecular structure of Omega-3 and Omega-6 fatty acids, visually representing the therapy's focus. 
+
+The composition captures a medium shot angle, highlighting the collaborative spirit of scientific discovery. The overall mood conveys hope and innovation, reflecting the potential impact of gene therapy on childhood obesity and related health issues.
+2024-10-17 09:27:54,703 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-17 09:27:54,767 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:54,929 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:55,091 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:55,252 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:55,413 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:55,575 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:55,737 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:55,899 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:56,062 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:56,224 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:56,389 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:56,552 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:56,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:56,876 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:57,040 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:57,202 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 09:27:57,367 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b/status?logs=false "HTTP/1.1 200 OK"
+2024-10-17 09:27:57,431 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d5de52fc-07cb-4eb1-a637-4a531ceb212b "HTTP/1.1 200 OK"
+2024-10-17 09:27:57,432 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/-wiEEzQdNRxXnrtbDM2Bs.png
+2024-10-17 09:27:57,432 - INFO - Image link: https://fal.media/files/penguin/-wiEEzQdNRxXnrtbDM2Bs.png
+2024-10-17 09:27:57,432 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 09:27:57,432 - INFO - Sending 2 log entries to Firebase.
+2024-10-17 09:28:00,711 - INFO - Received 2 document IDs from Peerr.
+2024-10-17 09:28:00,955 - INFO - Logged data to llm collection with FirestoreID: 3a7cf4cac40e9cd50f85b124e9b19e25.
+2024-10-17 09:28:01,753 - INFO - Logged data to llm collection with FirestoreID: e5815239040a47aaadd89d2f288c3482.
