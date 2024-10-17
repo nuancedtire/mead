@@ -10662,3 +10662,45 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-17 12:48:19,383 - INFO - Sending 1 log entries to Firebase.
 2024-10-17 12:48:22,616 - INFO - Received 1 document IDs from Peerr.
 2024-10-17 12:48:22,765 - INFO - Logged data to llm collection with FirestoreID: 5bb72101ceb3c4b9a08f6ba266722ff6.
+2024-10-17 13:17:02,152 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 13:17:02,155 - INFO - Extracted 185 link records from llm.
+2024-10-17 13:17:02,452 - INFO - Extracted 192 link records from combined_news.
+2024-10-17 13:17:02,452 - INFO - Unique links to process: 7
+2024-10-17 13:17:02,453 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 13:17:02,453 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 13:17:02,453 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 13:17:02,453 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 13:17:02,453 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 13:17:24,812 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 13:17:28,433 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 13:17:31,299 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 13:17:31,303 - INFO - Image query: A photorealistic image set in a vibrant urban environment, showcasing a diverse group of three young men engaged in a discussion at an outdoor café. One man, of South Asian descent, is animatedly speaking, gesturing with his hands to emphasize a point about health messaging. The second man, a Black individual, listens intently, nodding in agreement, while the third man, of Caucasian descent, is looking down at his smartphone, possibly reviewing health information. The café is bustling with activity, with colorful banners promoting health awareness in the background, subtly hinting at the topic of mpox and preventive behaviors. The sunlight casts warm tones across the scene, creating an inviting atmosphere. The composition captures a medium shot, focusing on the expressions of the men, reflecting a sense of urgency and camaraderie in discussing important health behaviors. The overall mood conveys a sense of community engagement and the importance of targeted health messaging in influencing protective behaviors among high-risk groups.
+2024-10-17 13:17:31,434 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-17 13:17:31,466 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:31,597 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:31,730 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:31,862 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:31,994 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:32,128 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:32,260 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:32,393 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:32,526 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:32,657 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:32,792 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:32,926 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,059 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,191 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,323 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,455 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,590 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,725 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,857 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:33,989 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 13:17:34,122 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a/status?logs=false "HTTP/1.1 200 OK"
+2024-10-17 13:17:34,152 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4e5c141e-b026-4854-8bbd-fba8543ec68a "HTTP/1.1 200 OK"
+2024-10-17 13:17:34,152 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/Zp-LZxkX3_0pDdrQvzeYn.png
+2024-10-17 13:17:34,153 - INFO - Image link: https://fal.media/files/lion/Zp-LZxkX3_0pDdrQvzeYn.png
+2024-10-17 13:17:34,153 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 13:17:34,153 - INFO - Sending 1 log entries to Firebase.
+2024-10-17 13:17:37,562 - INFO - Received 1 document IDs from Peerr.
+2024-10-17 13:17:37,682 - INFO - Logged data to llm collection with FirestoreID: b0cd967317164b6823e4ffaaf4e75d48.
