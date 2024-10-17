@@ -10456,3 +10456,14 @@ The composition captures a medium shot angle, highlighting the collaborative spi
 2024-10-17 09:28:00,711 - INFO - Received 2 document IDs from Peerr.
 2024-10-17 09:28:00,955 - INFO - Logged data to llm collection with FirestoreID: 3a7cf4cac40e9cd50f85b124e9b19e25.
 2024-10-17 09:28:01,753 - INFO - Logged data to llm collection with FirestoreID: e5815239040a47aaadd89d2f288c3482.
+2024-10-17 09:43:13,995 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 09:43:13,999 - INFO - Extracted 182 link records from llm.
+2024-10-17 09:43:14,292 - INFO - Extracted 188 link records from combined_news.
+2024-10-17 09:43:14,293 - INFO - Unique links to process: 6
+2024-10-17 09:43:14,293 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 09:43:14,293 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 09:43:14,293 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 09:43:14,293 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 09:43:14,293 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 09:43:14,293 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 09:43:14,294 - INFO - No valid log entries generated.
