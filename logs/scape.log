@@ -17616,3 +17616,36 @@
 2024-10-17 13:16:53,335 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/checking-food-allergy-add-mental-health-screen-too-2024a1000ih6
 2024-10-17 13:16:53,683 - INFO - Successfully updated Firestore with 1 items.
 2024-10-17 13:16:53,683 - INFO - Medscape script completed.
+2024-10-17 13:39:53,168 - INFO - Medscape script started.
+2024-10-17 13:39:53,168 - INFO - Connection to Medscape established.
+2024-10-17 13:39:53,188 - INFO - Request sent to Medscape API.
+2024-10-17 13:39:53,927 - INFO - Response received from Medscape API.
+2024-10-17 13:39:53,929 - INFO - Response data decoded into dictionary.
+2024-10-17 13:39:53,929 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-17 13:39:54,904 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-17 13:39:54,905 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/esc-2024-spotlight-new-guidelines-and-consensus-statement-2024a1000ivk
+2024-10-17 13:39:55,077 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/esc-2024-spotlight-new-guidelines-and-consensus-statement-2024a1000ivk
+2024-10-17 13:39:55,078 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-varies-among-uk-ethnic-groups-2024a1000irq
+2024-10-17 13:39:55,784 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-varies-among-uk-ethnic-groups-2024a1000irq
+2024-10-17 13:39:55,784 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/one-year-omnipod-5-performs-well-uk-adults-t1d-2024a1000irw
+2024-10-17 13:39:55,960 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/one-year-omnipod-5-performs-well-uk-adults-t1d-2024a1000irw
+2024-10-17 13:39:55,960 - INFO - Processing item: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
+2024-10-17 13:39:56,666 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
+2024-10-17 13:39:56,666 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/faltering-growth-infants-and-children-recognition-assessment-2024a1000ico
+2024-10-17 13:39:56,825 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/faltering-growth-infants-and-children-recognition-assessment-2024a1000ico
+2024-10-17 13:39:56,825 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-diabetes-protect-against-post-bariatric-hypoglycaemia-2024a1000ioq
+2024-10-17 13:39:57,546 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-diabetes-protect-against-post-bariatric-hypoglycaemia-2024a1000ioq
+2024-10-17 13:39:57,546 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/what-you-need-know-about-mpox-pregnancy-lactation-2024a1000imh
+2024-10-17 13:39:57,716 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/what-you-need-know-about-mpox-pregnancy-lactation-2024a1000imh
+2024-10-17 13:39:57,716 - INFO - Processing item: https://www.medscape.com/viewarticle/fear-cancer-recurrence-can-persist-childhood-survivors-2024a1000isy
+2024-10-17 13:39:58,433 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/fear-cancer-recurrence-can-persist-childhood-survivors-2024a1000isy
+2024-10-17 13:39:58,444 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-17 13:39:58,618 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-17 13:39:58,618 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-17 13:39:59,327 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-17 13:39:59,327 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/drug-bests-phototherapy-severe-hand-eczema-2024a1000ii0
+2024-10-17 13:39:59,490 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/drug-bests-phototherapy-severe-hand-eczema-2024a1000ii0
+2024-10-17 13:39:59,490 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/checking-food-allergy-add-mental-health-screen-too-2024a1000ih6
+2024-10-17 13:40:00,209 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/checking-food-allergy-add-mental-health-screen-too-2024a1000ih6
+2024-10-17 13:40:00,209 - INFO - No new data to update.
+2024-10-17 13:40:00,209 - INFO - Medscape script completed.
