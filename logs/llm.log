@@ -10835,3 +10835,48 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-17 16:32:28,980 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
 2024-10-17 16:32:28,980 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-17 16:32:28,980 - INFO - No valid log entries generated.
+2024-10-17 16:56:18,995 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 16:56:18,998 - INFO - Extracted 187 link records from llm.
+2024-10-17 16:56:19,278 - INFO - Extracted 193 link records from combined_news.
+2024-10-17 16:56:19,279 - INFO - Unique links to process: 6
+2024-10-17 16:56:24,134 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-17 16:56:24,134 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 16:56:41,432 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 16:56:44,799 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 16:56:48,564 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 16:56:48,568 - INFO - Image query: A photorealistic image set in a modern clinical trial facility. A diverse group of healthcare professionals, including a middle-aged female doctor in a white lab coat and a young male researcher in a smart casual outfit, are gathered around a sleek conference table. They are engaged in a focused discussion, with the doctor pointing towards a digital tablet displaying a 3D model of nasal anatomy and a graph illustrating the reduction in nasal polyp size. The expressions on their faces reflect a mix of excitement and determination, emphasizing the significance of the findings. In the background, a large window allows natural light to flood the room, creating a bright and optimistic atmosphere. Medical charts and research papers are scattered across the table, alongside a syringe symbolizing the innovative injection treatment. The composition captures a medium shot, highlighting the collaborative spirit of medical research and the potential breakthrough in treating chronic rhinosinusitis with nasal polyps. The overall mood conveys hope and urgency, reflecting the transformative impact that depemokimab could have on patient care.
+2024-10-17 16:56:48,695 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-17 16:56:48,729 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:48,862 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:48,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:49,129 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:49,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:49,398 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:49,532 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:49,665 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:49,800 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:49,932 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,065 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,197 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,329 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,461 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,592 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,725 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,860 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:50,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:51,127 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:51,265 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 16:56:51,400 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6/status?logs=false "HTTP/1.1 200 OK"
+2024-10-17 16:56:51,435 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/80b859dc-6721-4018-af83-cc8e1c0dcef6 "HTTP/1.1 200 OK"
+2024-10-17 16:56:51,435 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/tVK5grc1Xl4e-eVefD5IK.png
+2024-10-17 16:56:51,435 - INFO - Image link: https://fal.media/files/panda/tVK5grc1Xl4e-eVefD5IK.png
+2024-10-17 16:56:56,189 - INFO - No article found for link https://doi.org/10.1016/j.drudis.2024.104207.
+2024-10-17 16:56:56,189 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 16:57:01,506 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-17 16:57:01,507 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 16:57:01,507 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 16:57:04,993 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-17 16:57:04,994 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 16:57:04,994 - INFO - Sending 1 log entries to Firebase.
+2024-10-17 16:57:07,865 - INFO - Received 1 document IDs from Peerr.
+2024-10-17 16:57:07,993 - INFO - Logged data to llm collection with FirestoreID: 13897c795ebf714b757b6229001075c0.
