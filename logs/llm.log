@@ -10727,3 +10727,45 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-17 13:55:20,401 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
 2024-10-17 13:55:20,401 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-17 13:55:20,401 - INFO - No valid log entries generated.
+2024-10-17 14:24:03,461 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-17 14:24:03,464 - INFO - Extracted 186 link records from llm.
+2024-10-17 14:24:03,759 - INFO - Extracted 193 link records from combined_news.
+2024-10-17 14:24:03,760 - INFO - Unique links to process: 7
+2024-10-17 14:24:03,760 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-17 14:24:03,760 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/gsk-asthma-hope-depemokimab-works-second-indication
+2024-10-17 14:24:03,760 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-17 14:24:03,760 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-17 14:24:03,760 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/sonires-hifu-therapy-system-designated-as-breakthrough-device-by-fda-302277187.html
+2024-10-17 14:24:25,655 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 14:24:30,499 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 14:24:33,884 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-17 14:24:33,889 - INFO - Image query: A photorealistic image set in a pediatric clinic, showcasing a compassionate interaction between a pediatric neurologist and a concerned parent. The doctor, a middle-aged woman in a white lab coat, is seated at a small, colorful consultation table, leaning forward with a supportive expression. She is discussing treatment options with a young mother, who appears to be in her late 20s, holding her infant child, approximately 18 months old, in her arms. The baby has a curious expression, with bright eyes, symbolizing hope and resilience. On the table, there are visual aids, including a chart illustrating the ketogenic diet and its benefits, alongside a small plate of ketogenic-friendly foods like avocados and nuts, emphasizing the dietary aspect of the treatment. The room is filled with soft, natural light streaming through a window adorned with cheerful curtains, creating a warm and inviting atmosphere. The walls are decorated with playful, child-friendly artwork, enhancing the pediatric setting. The composition captures a medium close-up angle, focusing on the empathetic exchange between the doctor and the mother, highlighting the importance of exploring treatment options for early-life epilepsy. The overall mood conveys a sense of hope and collaboration, reflecting the critical nature of finding effective solutions for young patients with drug-resistant epilepsy.
+2024-10-17 14:24:34,013 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-17 14:24:34,044 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:34,179 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:34,311 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:34,444 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:34,575 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:34,709 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:34,842 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:34,974 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:35,106 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:35,237 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:35,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:35,508 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:35,642 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:35,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:35,909 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:36,042 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:36,175 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:36,308 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:36,440 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:36,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-17 14:24:36,705 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475/status?logs=false "HTTP/1.1 200 OK"
+2024-10-17 14:24:36,740 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c6621b70-7476-43a3-83d0-3a206a067475 "HTTP/1.1 200 OK"
+2024-10-17 14:24:36,740 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/Pqy4_D-O3hCYhfk0c3Dw-.png
+2024-10-17 14:24:36,741 - INFO - Image link: https://fal.media/files/rabbit/Pqy4_D-O3hCYhfk0c3Dw-.png
+2024-10-17 14:24:36,741 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-17 14:24:36,741 - INFO - Sending 1 log entries to Firebase.
+2024-10-17 14:24:39,914 - INFO - Received 1 document IDs from Peerr.
+2024-10-17 14:24:40,059 - INFO - Logged data to llm collection with FirestoreID: c5a4e2eb420d10f4d5b4620ea6bef47b.
