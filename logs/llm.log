@@ -11282,3 +11282,62 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-18 13:38:18,303 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
 2024-10-18 13:38:18,303 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-18 13:38:18,303 - INFO - No valid log entries generated.
+2024-10-18 13:55:19,747 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-18 13:55:19,751 - INFO - Extracted 195 link records from llm.
+2024-10-18 13:55:20,038 - INFO - Extracted 202 link records from combined_news.
+2024-10-18 13:55:20,039 - INFO - Unique links to process: 7
+2024-10-18 13:55:20,039 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-18 13:55:49,521 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 13:55:51,764 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 13:55:53,854 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 13:55:53,859 - INFO - Image query: A photorealistic image set in a modern, cozy living room. A young woman in her late 20s, with a thoughtful expression, sits on a plush sofa, holding a smartphone displaying the CONNECTPlus app interface. The app screen is visible, showcasing vibrant icons related to women's health topics such as cervical screening and contraception. Sunlight streams through a nearby window, illuminating the room and creating a warm, inviting atmosphere. On a coffee table in front of her, there are health-related books and a steaming cup of herbal tea, symbolizing self-care and wellness. In the background, a wall is adorned with framed inspirational quotes about women's empowerment and health. The composition captures a medium close-up angle, focusing on the woman’s engaged demeanor as she interacts with the app, reflecting a sense of empowerment and the importance of accessible health information. The overall mood conveys optimism and a sense of control, highlighting the potential impact of the CONNECTPlus app in promoting health inclusivity and equality for women.
+2024-10-18 13:55:54,256 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-18 13:55:54,292 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:54,431 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:54,721 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:54,861 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:54,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:55,130 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:55,266 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:55,401 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:55,537 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:55,675 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:55,809 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:55,944 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:56,078 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:56,215 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:56,352 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:56,488 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:56,624 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:56,761 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:56,896 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,031 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,167 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,302 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,443 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,580 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,850 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:57,985 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:58,121 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:58,257 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:58,394 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:58,533 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:58,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:58,806 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:58,942 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:59,083 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:59,224 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:59,359 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:55:59,495 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2/status?logs=false "HTTP/1.1 200 OK"
+2024-10-18 13:55:59,529 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9e2ffbbb-d582-4b6e-a4af-0d4eac52aad2 "HTTP/1.1 200 OK"
+2024-10-18 13:55:59,529 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/dldbqznWTKPGRulOLT3a1.png
+2024-10-18 13:55:59,530 - INFO - Image link: https://fal.media/files/koala/dldbqznWTKPGRulOLT3a1.png
+2024-10-18 13:55:59,530 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-18 13:55:59,530 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-18 13:55:59,531 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html
+2024-10-18 13:55:59,531 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
+2024-10-18 13:55:59,531 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-18 13:55:59,531 - INFO - Sending 1 log entries to Firebase.
+2024-10-18 13:56:03,093 - INFO - Received 1 document IDs from Peerr.
+2024-10-18 13:56:03,223 - INFO - Logged data to llm collection with FirestoreID: 0f98eff1dc5d3e675aeb5a0993558719.
