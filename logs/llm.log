@@ -11216,3 +11216,56 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-18 12:46:35,549 - INFO - Sending 1 log entries to Firebase.
 2024-10-18 12:46:38,688 - INFO - Received 1 document IDs from Peerr.
 2024-10-18 12:46:38,843 - INFO - Logged data to llm collection with FirestoreID: 3e00c5442ad914bd63eb5fa0a4842490.
+2024-10-18 13:16:02,585 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-18 13:16:02,588 - INFO - Extracted 194 link records from llm.
+2024-10-18 13:16:02,881 - INFO - Extracted 201 link records from combined_news.
+2024-10-18 13:16:02,881 - INFO - Unique links to process: 7
+2024-10-18 13:16:02,882 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-18 13:16:02,882 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-18 13:16:02,882 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-18 13:16:22,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 13:16:25,704 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 13:16:28,350 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 13:16:28,355 - INFO - Image query: A photorealistic image set in a modern school counseling office. A concerned school counselor, a middle-aged woman with glasses and a warm smile, sits at a desk cluttered with educational materials and mental health resources. Across from her, a 14-year-old boy with a worried expression fidgets with his hands, indicating he is grappling with serious issues. The counselor leans slightly forward, showing empathy and engagement, as she listens intently to the boy. On the wall behind them, a colorful poster illustrates the effects of substance use on mental health, featuring images of nitrous oxide canisters and volatile solvents, subtly highlighting the topic of the discussion. The room is well-lit with soft, natural light streaming through a window, creating a welcoming yet serious atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the counselor and the adolescent, emphasizing the importance of open dialogue about mental health and substance use. The overall mood conveys a sense of urgency and care, reflecting the critical need for education and support regarding adolescent mental health risks associated with substance use.
+2024-10-18 13:16:28,496 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-18 13:16:28,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:28,668 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:28,804 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:28,940 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:29,075 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:29,214 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:29,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:29,488 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:29,625 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:29,761 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:29,897 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,033 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,168 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,304 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,440 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,852 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:30,992 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:31,129 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:31,266 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:31,402 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:31,539 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:31,675 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:31,813 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:31,949 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:32,086 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:32,223 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:32,359 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:32,494 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:32,629 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 13:16:32,768 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9/status?logs=false "HTTP/1.1 200 OK"
+2024-10-18 13:16:32,803 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fb00a9cd-f86e-4730-ab1c-a73bd33120e9 "HTTP/1.1 200 OK"
+2024-10-18 13:16:32,804 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/J3RaYig5Wdt7RxkpFZynz.png
+2024-10-18 13:16:32,804 - INFO - Image link: https://fal.media/files/elephant/J3RaYig5Wdt7RxkpFZynz.png
+2024-10-18 13:16:32,805 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html
+2024-10-18 13:16:32,805 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
+2024-10-18 13:16:32,805 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-18 13:16:32,805 - INFO - Sending 1 log entries to Firebase.
+2024-10-18 13:16:36,242 - INFO - Received 1 document IDs from Peerr.
+2024-10-18 13:16:36,351 - INFO - Logged data to llm collection with FirestoreID: 9a75cf6d0db4b6d7313cf9bf8b8bb2fa.
