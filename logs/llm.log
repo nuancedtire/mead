@@ -11174,3 +11174,45 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-18 11:55:23,407 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
 2024-10-18 11:55:23,408 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-18 11:55:23,408 - INFO - No valid log entries generated.
+2024-10-18 12:46:18,493 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-18 12:46:18,497 - INFO - Extracted 193 link records from llm.
+2024-10-18 12:46:18,964 - INFO - Extracted 200 link records from combined_news.
+2024-10-18 12:46:18,965 - INFO - Unique links to process: 7
+2024-10-18 12:46:18,965 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-18 12:46:28,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 12:46:30,421 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 12:46:32,689 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 12:46:32,694 - INFO - Image query: A photorealistic image set in a modern data security office. In the foreground, a diverse team of three professionals—a middle-aged Black woman in a smart blazer, a young South Asian man in a casual shirt, and a middle-aged Caucasian man in glasses—are gathered around a sleek conference table, intently discussing a digital tablet displaying data security protocols. The woman points to the screen, her expression focused and determined, while the man beside her takes notes, looking engaged. The third professional leans back in his chair, arms crossed, reflecting a thoughtful demeanor. Behind them, a large wall-mounted screen displays a digital lock symbol and a flowchart illustrating strict data access protocols, emphasizing security measures. The room is well-lit with bright LED lights, creating a professional atmosphere, and the color palette features cool blues and whites, symbolizing trust and technology. The composition captures a medium shot, focusing on the collaborative effort to ensure data integrity and security in medical research. The overall mood conveys a sense of vigilance and commitment to protecting patient data, reflecting the importance of ethical practices in healthcare research.
+2024-10-18 12:46:32,850 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-18 12:46:32,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,007 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,134 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,264 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,391 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,518 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,645 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:33,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,034 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,162 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,290 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,417 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,543 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,801 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:34,929 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:35,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:35,188 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:35,323 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 12:46:35,451 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c/status?logs=false "HTTP/1.1 200 OK"
+2024-10-18 12:46:35,547 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9c6c2b31-a1b3-459d-a509-65cf18020f2c "HTTP/1.1 200 OK"
+2024-10-18 12:46:35,548 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/sf3J7OlgxO4mxb38Pfgsx.png
+2024-10-18 12:46:35,548 - INFO - Image link: https://fal.media/files/rabbit/sf3J7OlgxO4mxb38Pfgsx.png
+2024-10-18 12:46:35,548 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-18 12:46:35,549 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-18 12:46:35,549 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html
+2024-10-18 12:46:35,549 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
+2024-10-18 12:46:35,549 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-18 12:46:35,549 - INFO - Sending 1 log entries to Firebase.
+2024-10-18 12:46:38,688 - INFO - Received 1 document IDs from Peerr.
+2024-10-18 12:46:38,843 - INFO - Logged data to llm collection with FirestoreID: 3e00c5442ad914bd63eb5fa0a4842490.
