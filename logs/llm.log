@@ -11341,3 +11341,41 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-18 13:55:59,531 - INFO - Sending 1 log entries to Firebase.
 2024-10-18 13:56:03,093 - INFO - Received 1 document IDs from Peerr.
 2024-10-18 13:56:03,223 - INFO - Logged data to llm collection with FirestoreID: 0f98eff1dc5d3e675aeb5a0993558719.
+2024-10-18 14:23:13,767 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-18 14:23:13,771 - INFO - Extracted 196 link records from llm.
+2024-10-18 14:23:14,418 - INFO - Extracted 203 link records from combined_news.
+2024-10-18 14:23:14,419 - INFO - Unique links to process: 7
+2024-10-18 14:23:14,419 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-18 14:23:14,419 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-18 14:23:14,419 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-18 14:23:14,419 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html
+2024-10-18 14:23:14,419 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
+2024-10-18 14:23:29,690 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 14:23:33,364 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 14:23:36,037 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 14:23:36,041 - INFO - Image query: A photorealistic image set in a modern dental clinic. A female dentist in a white coat, with a focused expression, examines an elderly female patient, around 75 years old, who is seated in a dental chair. The patient appears slightly anxious, her hands clasped in her lap, as she listens intently to the dentist's explanation about the risks associated with osteoporosis treatments. The dentist holds a dental mirror and probe, symbolizing a thorough examination, while a dental X-ray image of a jaw is displayed on a screen in the background, highlighting the topic of osteonecrosis of the jaw (ONJ). The room is bright and well-lit, with soft, warm lighting creating a reassuring atmosphere. On a nearby table, there are brochures about osteoporosis treatments and their risks, subtly emphasizing the importance of patient education. The composition captures a medium close-up angle, focusing on the interaction between the dentist and patient, showcasing the critical conversation about the balance of benefits and risks in osteoporosis treatment. The overall mood conveys a sense of care and urgency, reflecting the importance of informed decision-making in healthcare.
+2024-10-18 14:23:36,297 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-18 14:23:36,358 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:36,522 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:36,682 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:36,843 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:37,004 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:37,164 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:37,327 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:37,490 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:37,649 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:37,812 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:37,971 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:38,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:38,296 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:38,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:38,617 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:38,781 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:23:38,940 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480/status?logs=false "HTTP/1.1 200 OK"
+2024-10-18 14:23:39,000 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/434fe2ff-8ab5-44bd-b16c-bdad9c64b480 "HTTP/1.1 200 OK"
+2024-10-18 14:23:39,001 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/gpuFGWKETD_z5voe8yftS.png
+2024-10-18 14:23:39,001 - INFO - Image link: https://fal.media/files/monkey/gpuFGWKETD_z5voe8yftS.png
+2024-10-18 14:23:39,001 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-18 14:23:39,002 - INFO - Sending 1 log entries to Firebase.
+2024-10-18 14:23:42,500 - INFO - Received 1 document IDs from Peerr.
+2024-10-18 14:23:42,718 - INFO - Logged data to llm collection with FirestoreID: db2572664817c133e6786e604e2bc9b8.
