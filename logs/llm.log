@@ -11379,3 +11379,53 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-18 14:23:39,002 - INFO - Sending 1 log entries to Firebase.
 2024-10-18 14:23:42,500 - INFO - Received 1 document IDs from Peerr.
 2024-10-18 14:23:42,718 - INFO - Logged data to llm collection with FirestoreID: db2572664817c133e6786e604e2bc9b8.
+2024-10-18 14:44:01,121 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-18 14:44:01,125 - INFO - Extracted 197 link records from llm.
+2024-10-18 14:44:01,429 - INFO - Extracted 203 link records from combined_news.
+2024-10-18 14:44:01,430 - INFO - Unique links to process: 6
+2024-10-18 14:44:09,517 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-18 14:44:09,518 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-18 14:44:30,039 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 14:44:32,397 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 14:44:34,560 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-18 14:44:34,565 - INFO - Image query: A photorealistic image set in a modern pharmaceutical research lab. In the foreground, a diverse group of three researchers—a middle-aged Asian female scientist, a young Black male scientist, and a Caucasian female scientist in her 40s—are gathered around a sleek, high-tech laboratory table cluttered with vials, pipettes, and a laptop displaying complex data graphs related to idiopathic pulmonary fibrosis (IPF). The Asian scientist is pointing at the laptop screen, her expression focused and determined, while the Black scientist takes notes, looking intrigued. The Caucasian scientist is examining a vial of medication, her brow furrowed in contemplation. Behind them, large windows allow natural light to flood the room, illuminating a whiteboard filled with diagrams and notes about drug trials and inhaled therapies. The atmosphere is one of urgency and collaboration, with a sense of hope amidst the challenges of drug development. The composition captures a medium shot, emphasizing the teamwork and dedication required in the fight against IPF. The overall mood conveys a blend of determination and cautious optimism, reflecting the ongoing struggle and potential future directions in IPF treatment.
+2024-10-18 14:44:34,802 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-18 14:44:34,836 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:34,973 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:35,111 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:35,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:35,382 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:35,518 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:35,652 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:35,790 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:35,929 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:36,064 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:36,198 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:36,332 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:36,468 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:36,604 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:36,739 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:36,875 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,148 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,284 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,559 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,696 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,832 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:37,969 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:38,103 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:38,239 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-18 14:44:38,378 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7/status?logs=false "HTTP/1.1 200 OK"
+2024-10-18 14:44:38,411 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2137297f-958c-4fc3-94cf-d3c0a2157bc7 "HTTP/1.1 200 OK"
+2024-10-18 14:44:38,412 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/PXD3HPUsz7ogopCTBZbrR.png
+2024-10-18 14:44:38,412 - INFO - Image link: https://fal.media/files/penguin/PXD3HPUsz7ogopCTBZbrR.png
+2024-10-18 14:44:44,857 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-18 14:44:44,857 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-18 14:44:44,858 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html
+2024-10-18 14:44:44,858 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
+2024-10-18 14:44:54,177 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-18 14:44:54,178 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-18 14:44:54,178 - INFO - Sending 1 log entries to Firebase.
+2024-10-18 14:44:57,637 - INFO - Received 1 document IDs from Peerr.
+2024-10-18 14:44:57,753 - INFO - Logged data to llm collection with FirestoreID: 70b833ec7d4bb8e5c9b1a312ddbdb4a0.
