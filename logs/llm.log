@@ -11269,3 +11269,16 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-18 13:16:32,805 - INFO - Sending 1 log entries to Firebase.
 2024-10-18 13:16:36,242 - INFO - Received 1 document IDs from Peerr.
 2024-10-18 13:16:36,351 - INFO - Logged data to llm collection with FirestoreID: 9a75cf6d0db4b6d7313cf9bf8b8bb2fa.
+2024-10-18 13:38:08,873 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-18 13:38:08,876 - INFO - Extracted 195 link records from llm.
+2024-10-18 13:38:09,249 - INFO - Extracted 201 link records from combined_news.
+2024-10-18 13:38:09,250 - INFO - Unique links to process: 6
+2024-10-18 13:38:09,250 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-18 13:38:09,250 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.drudis.2024.104207
+2024-10-18 13:38:09,250 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-18 13:38:13,024 - INFO - No article found for link https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html.
+2024-10-18 13:38:13,024 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html
+2024-10-18 13:38:18,303 - INFO - No article found for link https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html.
+2024-10-18 13:38:18,303 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.prnewswire.com/news-releases/national-kidney-foundation-innovation-fund-invests-in-revalia-bio-to-advance-innovative-kidney-disease-therapeutics-302279794.html
+2024-10-18 13:38:18,303 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-18 13:38:18,303 - INFO - No valid log entries generated.
