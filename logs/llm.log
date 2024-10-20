@@ -11794,3 +11794,41 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-20 11:15:58,910 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/mitsubishi-tanabe-pharma-america-unveils-new-als-research-findings-at-neals-2024-annual-meeting-302278438.html
 2024-10-20 11:15:58,910 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-20 11:15:58,910 - INFO - No valid log entries generated.
+2024-10-20 13:22:06,475 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-20 13:22:06,479 - INFO - Extracted 199 link records from llm.
+2024-10-20 13:22:07,165 - INFO - Extracted 203 link records from combined_news.
+2024-10-20 13:22:07,166 - INFO - Unique links to process: 4
+2024-10-20 13:22:15,635 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-20 13:22:15,635 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-20 13:22:28,537 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-20 13:22:28,538 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-20 13:23:11,241 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-20 13:23:14,001 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-20 13:23:15,892 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-20 13:23:15,896 - INFO - Image query: A photorealistic image set in a modern conference hall during a medical symposium. In the foreground, a diverse group of researchers and healthcare professionals, including a middle-aged Asian female scientist in a lab coat, a young Black male researcher, and an elderly Caucasian doctor, are engaged in an animated discussion. They are gathered around a large digital display showcasing a colorful infographic about ALS research and the RADICAVA ORS® studies. The scientists' expressions are a mix of excitement and curiosity, reflecting the groundbreaking nature of the studies being presented. In the background, attendees are seated, attentively listening to a speaker at a podium, with a large banner displaying "NEALS 2024 Annual Meeting" prominently featured. The lighting is bright and focused, creating an atmosphere of innovation and hope. The color palette includes blues and greens, symbolizing health and progress. The composition captures a wide-angle perspective, emphasizing the collaborative spirit of the event and the potential for transformative advancements in ALS management. The overall mood conveys optimism and urgency, highlighting the significance of the research being discussed.
+2024-10-20 13:23:16,128 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-20 13:23:16,199 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:16,363 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:16,530 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:16,697 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:16,862 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:17,027 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:17,194 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:17,360 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:17,535 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:17,700 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:17,866 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:18,035 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:18,207 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:18,375 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:18,542 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:18,708 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-20 13:23:18,874 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144/status?logs=false "HTTP/1.1 200 OK"
+2024-10-20 13:23:18,942 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cd48805-2ffa-4102-a077-c1e45e52f144 "HTTP/1.1 200 OK"
+2024-10-20 13:23:18,942 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/AEVJeMC3RF__g6RV5yAkJ.png
+2024-10-20 13:23:18,942 - INFO - Image link: https://fal.media/files/rabbit/AEVJeMC3RF__g6RV5yAkJ.png
+2024-10-20 13:23:37,318 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-20 13:23:37,318 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-20 13:23:37,318 - INFO - Sending 1 log entries to Firebase.
+2024-10-20 13:23:40,585 - INFO - Received 1 document IDs from Peerr.
+2024-10-20 13:23:40,838 - INFO - Logged data to llm collection with FirestoreID: a790f09b562ba6b803e43057a8ec7f7c.
