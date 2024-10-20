@@ -11832,3 +11832,11 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-20 13:23:37,318 - INFO - Sending 1 log entries to Firebase.
 2024-10-20 13:23:40,585 - INFO - Received 1 document IDs from Peerr.
 2024-10-20 13:23:40,838 - INFO - Logged data to llm collection with FirestoreID: a790f09b562ba6b803e43057a8ec7f7c.
+2024-10-20 15:17:49,159 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-20 15:17:49,162 - INFO - Extracted 200 link records from llm.
+2024-10-20 15:17:49,452 - INFO - Extracted 203 link records from combined_news.
+2024-10-20 15:17:49,453 - INFO - Unique links to process: 3
+2024-10-20 15:17:49,453 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-20 15:17:49,453 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-20 15:17:49,453 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-20 15:17:49,453 - INFO - No valid log entries generated.
