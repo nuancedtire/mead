@@ -19614,3 +19614,38 @@
 2024-10-20 04:19:07,409 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
 2024-10-20 04:19:07,409 - INFO - No new data to update.
 2024-10-20 04:19:07,409 - INFO - Medscape script completed.
+2024-10-20 08:20:20,976 - INFO - Medscape script started.
+2024-10-20 08:20:20,977 - INFO - Connection to Medscape established.
+2024-10-20 08:20:21,103 - INFO - Request sent to Medscape API.
+2024-10-20 08:20:21,549 - INFO - Response received from Medscape API.
+2024-10-20 08:20:21,550 - INFO - Response data decoded into dictionary.
+2024-10-20 08:20:21,555 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-20 08:20:22,211 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-20 08:20:22,211 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-20 08:20:22,326 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-20 08:20:22,327 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/keto-diet-no-better-than-meds-early-life-epilepsy-2024a1000irc
+2024-10-20 08:20:22,758 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/keto-diet-no-better-than-meds-early-life-epilepsy-2024a1000irc
+2024-10-20 08:20:22,758 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-20 08:20:22,877 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-20 08:20:22,877 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/esc-2024-spotlight-new-guidelines-and-consensus-statement-2024a1000ivk
+2024-10-20 08:20:23,301 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/esc-2024-spotlight-new-guidelines-and-consensus-statement-2024a1000ivk
+2024-10-20 08:20:23,301 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-varies-among-uk-ethnic-groups-2024a1000irq
+2024-10-20 08:20:23,428 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-varies-among-uk-ethnic-groups-2024a1000irq
+2024-10-20 08:20:23,428 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/one-year-omnipod-5-performs-well-uk-adults-t1d-2024a1000irw
+2024-10-20 08:20:23,840 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/one-year-omnipod-5-performs-well-uk-adults-t1d-2024a1000irw
+2024-10-20 08:20:23,840 - INFO - Processing item: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
+2024-10-20 08:20:23,952 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/genetic-link-found-between-hs-and-cardiometabolic-disease-2024a1000ivj
+2024-10-20 08:20:23,953 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/faltering-growth-infants-and-children-recognition-assessment-2024a1000ico
+2024-10-20 08:20:24,380 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/faltering-growth-infants-and-children-recognition-assessment-2024a1000ico
+2024-10-20 08:20:24,380 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-diabetes-protect-against-post-bariatric-hypoglycaemia-2024a1000ioq
+2024-10-20 08:20:24,509 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-diabetes-protect-against-post-bariatric-hypoglycaemia-2024a1000ioq
+2024-10-20 08:20:24,509 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/what-you-need-know-about-mpox-pregnancy-lactation-2024a1000imh
+2024-10-20 08:20:24,920 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/what-you-need-know-about-mpox-pregnancy-lactation-2024a1000imh
+2024-10-20 08:20:24,920 - INFO - Processing item: https://www.medscape.com/viewarticle/fear-cancer-recurrence-can-persist-childhood-survivors-2024a1000isy
+2024-10-20 08:20:25,044 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/fear-cancer-recurrence-can-persist-childhood-survivors-2024a1000isy
+2024-10-20 08:20:25,044 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-20 08:20:25,243 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/early-onset-colorectal-cancer-united-kingdom-increasing-2024a1000ik4
+2024-10-20 08:20:25,243 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-20 08:20:25,436 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/more-statins-would-benefit-elderly-even-absent-heart-disease-2024a1000ikq
+2024-10-20 08:20:25,436 - INFO - No new data to update.
+2024-10-20 08:20:25,436 - INFO - Medscape script completed.
