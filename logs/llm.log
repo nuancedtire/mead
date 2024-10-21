@@ -12233,3 +12233,13 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-21 13:33:49,020 - INFO - Received 2 document IDs from Peerr.
 2024-10-21 13:33:49,154 - INFO - Logged data to llm collection with FirestoreID: 5a77b00a851d0df8d49d3c1cd4c5defe.
 2024-10-21 13:33:49,531 - INFO - Logged data to llm collection with FirestoreID: d539e65c0d20c2868178c96d53a2d913.
+2024-10-21 13:55:53,266 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-21 13:55:53,270 - INFO - Extracted 207 link records from llm.
+2024-10-21 13:55:53,700 - INFO - Extracted 212 link records from combined_news.
+2024-10-21 13:55:53,701 - INFO - Unique links to process: 5
+2024-10-21 13:55:53,701 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-21 13:55:53,701 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/electronic-prescription-service-now-live-in-every-welsh-health-board/
+2024-10-21 13:55:53,701 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-21 13:55:53,701 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-21 13:55:53,701 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-21 13:55:53,701 - INFO - No valid log entries generated.
