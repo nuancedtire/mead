@@ -12040,3 +12040,46 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-21 09:56:38,238 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-21 09:56:38,238 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-21 09:56:38,238 - INFO - No valid log entries generated.
+2024-10-21 10:29:17,341 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-21 10:29:17,345 - INFO - Extracted 203 link records from llm.
+2024-10-21 10:29:17,730 - INFO - Extracted 208 link records from combined_news.
+2024-10-21 10:29:17,730 - INFO - Unique links to process: 5
+2024-10-21 10:29:17,730 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-21 10:29:17,731 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-21 10:29:17,731 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-21 10:29:34,127 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 10:29:37,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 10:29:40,624 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 10:29:40,628 - INFO - Image query: A photorealistic image depicting a modern healthcare strategy meeting in a bright, contemporary conference room. In the foreground, a diverse group of healthcare professionals, including a middle-aged female doctor in a white coat, a young male nurse in scrubs, and an elderly male public health official in a suit, are engaged in a dynamic discussion around a sleek, oval table. The doctor is pointing at a digital tablet displaying a colorful infographic about the NHS's 10 Year Health Plan, while the nurse takes notes, and the official nods thoughtfully. Behind them, a large screen displays the Change.NHS.uk logo and key points of the health plan, such as "Hospital to Community Care" and "Digital Transformation." The room is filled with natural light streaming through large windows, creating an optimistic atmosphere. On the walls, posters illustrate concepts of digital health, wearables, and patient empowerment. The composition captures a medium-wide angle, emphasizing collaboration and innovation, with a focus on the engaged expressions of the professionals, reflecting the urgency and importance of shaping the future of the NHS. The overall mood conveys a sense of hope and proactive change in healthcare delivery.
+2024-10-21 10:29:40,936 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-21 10:29:40,965 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:41,094 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:41,222 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:41,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:41,480 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:41,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:41,735 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:41,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,082 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,214 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,344 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,472 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,602 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,735 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,862 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:42,990 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:43,120 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:43,249 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:43,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:43,510 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:43,639 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:43,767 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:43,895 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 10:29:44,028 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04/status?logs=false "HTTP/1.1 200 OK"
+2024-10-21 10:29:44,055 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8ae4e4d2-a2a5-4304-ac23-471e7fda5c04 "HTTP/1.1 200 OK"
+2024-10-21 10:29:44,056 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/2FJZThOd2hz74DTkHdNvW.png
+2024-10-21 10:29:44,056 - INFO - Image link: https://fal.media/files/tiger/2FJZThOd2hz74DTkHdNvW.png
+2024-10-21 10:29:44,057 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-21 10:29:44,057 - INFO - Sending 1 log entries to Firebase.
+2024-10-21 10:29:47,089 - INFO - Received 1 document IDs from Peerr.
+2024-10-21 10:29:47,240 - INFO - Logged data to llm collection with FirestoreID: c41419b7c15b9743d3717c9a1f07bb2a.
