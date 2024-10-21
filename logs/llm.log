@@ -12243,3 +12243,13 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-21 13:55:53,701 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-21 13:55:53,701 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-21 13:55:53,701 - INFO - No valid log entries generated.
+2024-10-21 14:24:11,521 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-21 14:24:11,524 - INFO - Extracted 207 link records from llm.
+2024-10-21 14:24:11,905 - INFO - Extracted 212 link records from combined_news.
+2024-10-21 14:24:11,906 - INFO - Unique links to process: 5
+2024-10-21 14:24:11,906 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-21 14:24:11,906 - INFO - Skipping recently failed link: https://www.digitalhealth.net/2024/10/electronic-prescription-service-now-live-in-every-welsh-health-board/
+2024-10-21 14:24:11,906 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-21 14:24:11,906 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-21 14:24:11,906 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-21 14:24:11,906 - INFO - No valid log entries generated.
