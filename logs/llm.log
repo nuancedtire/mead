@@ -12011,3 +12011,14 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-21 08:22:16,335 - INFO - Logged data to llm collection with FirestoreID: 0d6f585a181103e49efa21ed37b25751.
 2024-10-21 08:22:16,681 - INFO - Logged data to llm collection with FirestoreID: 27c3c5d402d8f04b6d092c63a28a4a6f.
 2024-10-21 08:22:16,825 - INFO - Logged data to llm collection with FirestoreID: 3825957dfed02fd35a57bec198f3bc84.
+2024-10-21 09:27:50,231 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-21 09:27:50,234 - INFO - Extracted 203 link records from llm.
+2024-10-21 09:27:50,683 - INFO - Extracted 207 link records from combined_news.
+2024-10-21 09:27:50,684 - INFO - Unique links to process: 4
+2024-10-21 09:27:50,687 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-21 09:27:50,687 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-21 09:27:53,187 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-21 09:27:53,188 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-21 09:27:55,692 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-21 09:27:55,692 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-21 09:27:55,692 - INFO - No valid log entries generated.
