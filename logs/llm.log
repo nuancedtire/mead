@@ -11894,3 +11894,14 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-21 02:52:24,180 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-21 02:52:24,180 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-21 02:52:24,180 - INFO - No valid log entries generated.
+2024-10-21 04:18:12,380 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-21 04:18:12,384 - INFO - Extracted 200 link records from llm.
+2024-10-21 04:18:12,749 - INFO - Extracted 203 link records from combined_news.
+2024-10-21 04:18:12,750 - INFO - Unique links to process: 3
+2024-10-21 04:18:20,620 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-21 04:18:20,621 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-21 04:18:28,928 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-21 04:18:28,929 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-21 04:18:33,281 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-21 04:18:33,282 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-21 04:18:33,282 - INFO - No valid log entries generated.
