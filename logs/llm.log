@@ -12119,3 +12119,46 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-21 11:55:28,974 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-21 11:55:28,974 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-21 11:55:28,974 - INFO - No valid log entries generated.
+2024-10-21 12:48:03,137 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-21 12:48:03,141 - INFO - Extracted 204 link records from llm.
+2024-10-21 12:48:03,436 - INFO - Extracted 210 link records from combined_news.
+2024-10-21 12:48:03,437 - INFO - Unique links to process: 6
+2024-10-21 12:48:06,334 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-21 12:48:06,335 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-21 12:48:15,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 12:48:15,802 - INFO - No article found for link https://www.digitalhealth.net/2024/10/electronic-prescription-service-now-live-in-every-welsh-health-board/.
+2024-10-21 12:48:15,802 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.digitalhealth.net/2024/10/electronic-prescription-service-now-live-in-every-welsh-health-board/
+2024-10-21 12:48:31,993 - INFO - No article found for link https://www.firstwordpharma.com/story/5904790.
+2024-10-21 12:48:31,994 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5904790
+2024-10-21 12:49:35,067 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 12:49:45,606 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 12:49:48,384 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-21 12:49:48,389 - INFO - Image query: A photorealistic image set in a diverse healthcare clinic, showcasing a compassionate interaction between a healthcare professional and a young Black child, around 8 years old, who has atopic dermatitis. The child is seated on an examination table, their skin displaying visible signs of AD with violaceous hues and patches. The healthcare professional, a middle-aged Asian woman in a white lab coat, kneels beside the child, gently examining their skin with a focused yet empathetic expression. The room is bright and welcoming, adorned with colorful educational posters about skin health and diversity in dermatological conditions. A stethoscope and medical tools are neatly arranged on a nearby counter, symbolizing a thorough examination. Soft, natural light streams through a window, creating a warm atmosphere that conveys care and understanding. The composition captures a medium close-up angle, emphasizing the connection between the healthcare provider and the child, highlighting the importance of culturally sensitive care in managing atopic dermatitis. The overall mood reflects hope and determination to address healthcare disparities and improve patient outcomes for those affected by AD globally.
+2024-10-21 12:49:48,688 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-21 12:49:48,729 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:48,869 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,010 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,151 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,293 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,434 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:49,997 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:50,137 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:50,278 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:50,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:50,558 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:50,701 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:50,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:50,980 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:51,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-21 12:49:51,265 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0/status?logs=false "HTTP/1.1 200 OK"
+2024-10-21 12:49:51,303 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1b810dbe-1983-47dc-8ad0-cac9bad86fd0 "HTTP/1.1 200 OK"
+2024-10-21 12:49:51,303 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/gwEWkxpGAxhEKYJsT7M1b.png
+2024-10-21 12:49:51,303 - INFO - Image link: https://fal.media/files/kangaroo/gwEWkxpGAxhEKYJsT7M1b.png
+2024-10-21 12:49:51,304 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-21 12:49:51,304 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-21 12:49:51,304 - INFO - Sending 1 log entries to Firebase.
+2024-10-21 12:49:54,463 - INFO - Received 1 document IDs from Peerr.
+2024-10-21 12:49:54,657 - INFO - Logged data to llm collection with FirestoreID: 34818690662736681c106b06d3bc3320.
