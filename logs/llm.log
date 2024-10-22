@@ -12842,3 +12842,21 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-22 16:51:09,890 - INFO - Sending 1 log entries to Firebase.
 2024-10-22 16:51:13,110 - INFO - Received 1 document IDs from Peerr.
 2024-10-22 16:51:13,266 - INFO - Logged data to llm collection with FirestoreID: 6bb53a29bb707e68d8b113011fc187b1.
+2024-10-22 23:26:51,849 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 23:26:51,853 - INFO - Extracted 216 link records from llm.
+2024-10-22 23:26:52,276 - INFO - Extracted 222 link records from combined_news.
+2024-10-22 23:26:52,277 - INFO - Unique links to process: 6
+2024-10-22 23:26:55,261 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-22 23:26:55,262 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 23:27:04,486 - INFO - No article found for link https://www.firstwordpharma.com/story/5904790.
+2024-10-22 23:27:04,486 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 23:27:07,523 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-22 23:27:07,524 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 23:27:17,829 - INFO - No article found for link https://www.firstwordpharma.com/story/5905003.
+2024-10-22 23:27:17,829 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 23:27:31,044 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 23:27:31,060 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-22 23:27:31,060 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 23:27:39,815 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-22 23:27:39,815 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 23:27:39,815 - INFO - No valid log entries generated.
