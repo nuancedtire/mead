@@ -12578,3 +12578,45 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-22 11:55:06,193 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-22 11:55:06,193 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-22 11:55:06,193 - INFO - No valid log entries generated.
+2024-10-22 12:47:13,803 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 12:47:13,807 - INFO - Extracted 212 link records from llm.
+2024-10-22 12:47:14,499 - INFO - Extracted 220 link records from combined_news.
+2024-10-22 12:47:14,499 - INFO - Unique links to process: 8
+2024-10-22 12:47:14,499 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 12:47:14,500 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 12:47:17,750 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 12:47:17,771 - INFO - No article found for link https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody.
+2024-10-22 12:47:17,771 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody
+2024-10-22 12:47:17,771 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 12:47:36,184 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 12:47:40,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 12:47:42,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 12:47:42,496 - INFO - Image query: A photorealistic image set in a modern radiology department. A diverse team of healthcare professionals, including a middle-aged female radiologist in a white coat and a young male radiographer, are gathered around a large digital screen displaying X-ray images of a fractured bone. The radiologist points at the screen, discussing findings with the radiographer, who is taking notes on a tablet. The atmosphere is focused and collaborative, with a sense of urgency as they analyze the images. In the background, a sleek AI interface is visible on another monitor, showcasing the AI tools—TechCare Alert, BoneView, RBfracture, and Rayvolve—highlighting their role in fracture detection. The room is brightly lit with overhead lights and natural light streaming through a window, creating a clean and professional environment. The composition captures a medium shot, emphasizing the teamwork and technology integration in improving patient care. The overall mood conveys a sense of innovation and hope, reflecting the potential of AI in enhancing diagnostic accuracy and alleviating staffing pressures in radiology.
+2024-10-22 12:47:43,120 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-22 12:47:43,187 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:43,353 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:43,522 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:43,690 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:43,856 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:44,024 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:44,222 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:44,400 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:44,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:44,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:44,912 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:45,077 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:45,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:45,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 12:47:45,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698/status?logs=false "HTTP/1.1 200 OK"
+2024-10-22 12:47:45,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b877970c-189a-477b-88ea-9afeed43f698 "HTTP/1.1 200 OK"
+2024-10-22 12:47:45,978 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/pRl00QHc04_BZUgJx7xSz.png
+2024-10-22 12:47:45,978 - INFO - Image link: https://fal.media/files/penguin/pRl00QHc04_BZUgJx7xSz.png
+2024-10-22 12:47:59,043 - INFO - No article found for link https://www.firstwordpharma.com/story/5905003.
+2024-10-22 12:47:59,043 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 12:48:05,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 12:48:05,510 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-22 12:48:05,510 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 12:48:05,510 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 12:48:05,511 - INFO - Sending 1 log entries to Firebase.
+2024-10-22 12:48:08,929 - INFO - Received 1 document IDs from Peerr.
+2024-10-22 12:48:09,143 - INFO - Logged data to llm collection with FirestoreID: be70444299eaf266389d96d571896678.
