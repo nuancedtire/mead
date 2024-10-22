@@ -21114,3 +21114,34 @@
 2024-10-22 13:57:20,422 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/one-year-omnipod-5-performs-well-uk-adults-t1d-2024a1000irw
 2024-10-22 13:57:20,422 - INFO - No new data to update.
 2024-10-22 13:57:20,422 - INFO - Medscape script completed.
+2024-10-22 14:24:47,405 - INFO - Medscape script started.
+2024-10-22 14:24:47,405 - INFO - Connection to Medscape established.
+2024-10-22 14:24:47,425 - INFO - Request sent to Medscape API.
+2024-10-22 14:24:48,120 - INFO - Response received from Medscape API.
+2024-10-22 14:24:48,121 - INFO - Response data decoded into dictionary.
+2024-10-22 14:24:48,122 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-22 14:24:49,096 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-22 14:24:49,096 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-22 14:24:49,276 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-22 14:24:49,276 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-22 14:24:49,978 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-22 14:24:49,978 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-22 14:24:50,166 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-22 14:24:50,166 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-22 14:24:50,852 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-22 14:24:50,852 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-22 14:24:51,046 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-22 14:24:51,047 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-22 14:24:51,731 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-22 14:24:51,731 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/keto-diet-no-better-than-meds-early-life-epilepsy-2024a1000irc
+2024-10-22 14:24:51,935 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/keto-diet-no-better-than-meds-early-life-epilepsy-2024a1000irc
+2024-10-22 14:24:51,935 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-22 14:24:52,608 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-22 14:24:52,609 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/esc-2024-spotlight-new-guidelines-and-consensus-statement-2024a1000ivk
+2024-10-22 14:24:52,813 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/esc-2024-spotlight-new-guidelines-and-consensus-statement-2024a1000ivk
+2024-10-22 14:24:52,813 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-varies-among-uk-ethnic-groups-2024a1000irq
+2024-10-22 14:24:53,128 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/cardiovascular-risk-varies-among-uk-ethnic-groups-2024a1000irq
+2024-10-22 14:24:53,129 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/one-year-omnipod-5-performs-well-uk-adults-t1d-2024a1000irw
+2024-10-22 14:24:53,294 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/one-year-omnipod-5-performs-well-uk-adults-t1d-2024a1000irw
+2024-10-22 14:24:53,295 - INFO - No new data to update.
+2024-10-22 14:24:53,295 - INFO - Medscape script completed.
