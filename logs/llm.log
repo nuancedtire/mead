@@ -12439,3 +12439,49 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-22 09:56:20,826 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-22 09:56:20,826 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-22 09:56:20,826 - INFO - No valid log entries generated.
+2024-10-22 10:26:05,756 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 10:26:05,760 - INFO - Extracted 210 link records from llm.
+2024-10-22 10:26:06,055 - INFO - Extracted 218 link records from combined_news.
+2024-10-22 10:26:06,056 - INFO - Unique links to process: 8
+2024-10-22 10:26:08,695 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-22 10:26:08,696 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 10:26:14,604 - INFO - No article found for link https://www.firstwordpharma.com/story/5904790.
+2024-10-22 10:26:14,605 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 10:26:14,605 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody
+2024-10-22 10:26:16,916 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-22 10:26:16,917 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 10:26:16,917 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 10:26:16,917 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 10:26:32,045 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 10:26:36,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 10:26:39,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 10:26:39,281 - INFO - Image query: A photorealistic image set in a bustling emergency department in Northern Ireland. In the foreground, a diverse group of healthcare professionals, including a middle-aged female doctor of Asian descent and a young male nurse of African descent, are engaged in a conversation with a middle-aged male patient who appears anxious and is of Middle Eastern descent. The doctor holds a sleek, handheld translation device, displaying a bright screen with text in multiple languages, symbolizing the bridging of language barriers. The nurse stands beside her, nodding in agreement, while the patient looks relieved and attentive, indicating a clear understanding of the medical advice being communicated. 
+
+In the background, a busy reception area is visible, with other patients and staff interacting, showcasing the dynamic environment of the healthcare setting. The lighting is bright and clinical, with natural light streaming through large windows, creating a welcoming atmosphere. The color palette features cool blues and whites typical of medical environments, with pops of color from the staff's scrubs. The composition captures a medium shot that emphasizes the interaction between the healthcare team and the patient, highlighting the importance of effective communication in healthcare. The overall mood conveys a sense of hope and progress, reflecting the transformative impact of technology on patient care and communication in diverse communities.
+2024-10-22 10:26:39,701 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-22 10:26:39,745 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:39,887 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:40,028 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:40,171 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:40,315 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:40,455 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:40,600 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:40,741 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:40,885 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:41,033 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:41,181 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:41,321 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:41,460 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:41,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:41,747 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:41,892 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:42,036 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:26:42,431 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b/status?logs=false "HTTP/1.1 200 OK"
+2024-10-22 10:26:42,470 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cc431233-2170-47d8-b704-c754cf4d6d2b "HTTP/1.1 200 OK"
+2024-10-22 10:26:42,470 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/hHUivTaHAvBf2zYx9M9S1.png
+2024-10-22 10:26:42,470 - INFO - Image link: https://fal.media/files/lion/hHUivTaHAvBf2zYx9M9S1.png
+2024-10-22 10:26:45,420 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-22 10:26:45,420 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 10:26:45,420 - INFO - Sending 1 log entries to Firebase.
+2024-10-22 10:26:48,545 - INFO - Received 1 document IDs from Peerr.
+2024-10-22 10:26:49,045 - INFO - Logged data to llm collection with FirestoreID: dfe48ef69307d2ca5d1536c2d7a74e0d.
