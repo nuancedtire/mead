@@ -12485,3 +12485,48 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-22 10:26:45,420 - INFO - Sending 1 log entries to Firebase.
 2024-10-22 10:26:48,545 - INFO - Received 1 document IDs from Peerr.
 2024-10-22 10:26:49,045 - INFO - Logged data to llm collection with FirestoreID: dfe48ef69307d2ca5d1536c2d7a74e0d.
+2024-10-22 10:45:25,564 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 10:45:25,567 - INFO - Extracted 211 link records from llm.
+2024-10-22 10:45:26,246 - INFO - Extracted 219 link records from combined_news.
+2024-10-22 10:45:26,246 - INFO - Unique links to process: 8
+2024-10-22 10:45:26,248 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 10:45:26,248 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 10:45:43,620 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 10:45:55,142 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 10:45:58,439 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 10:45:58,444 - INFO - Image query: A photorealistic image depicting a modern healthcare innovation hub. In the foreground, a diverse group of healthcare professionals, including a middle-aged female doctor in scrubs, a young male nurse in a lab coat, and a tech-savvy woman in business attire, are gathered around a sleek, high-tech digital tablet displaying a colorful dashboard of healthcare data and analytics. They are engaged in an animated discussion, pointing at the screen with expressions of excitement and curiosity. In the background, a large window reveals a bustling cityscape, symbolizing the integration of technology and healthcare. The room is filled with advanced medical equipment, such as telehealth stations and digital diagnostic tools, showcasing the latest innovations in healthcare delivery. Soft, natural lighting floods the space, creating a bright and optimistic atmosphere. The composition captures a dynamic angle, emphasizing collaboration and the transformative power of digital health solutions. The overall mood conveys a sense of hope and progress, reflecting the impact of digital innovations on patient care and healthcare practices.
+2024-10-22 10:45:58,718 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-22 10:45:58,780 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:45:58,939 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:45:59,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:45:59,279 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:45:59,446 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:45:59,616 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:45:59,780 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:45:59,950 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:00,242 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:00,403 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:00,701 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:00,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:01,070 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:01,237 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:01,399 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:01,560 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:01,718 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:01,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:02,041 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:02,205 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:02,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:02,545 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 10:46:02,833 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54/status?logs=false "HTTP/1.1 200 OK"
+2024-10-22 10:46:02,890 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/373b5320-d559-4cd0-b962-c937db91be54 "HTTP/1.1 200 OK"
+2024-10-22 10:46:02,891 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/4_cAx4_bBvw6e-Ba15tc-.png
+2024-10-22 10:46:02,891 - INFO - Image link: https://fal.media/files/panda/4_cAx4_bBvw6e-Ba15tc-.png
+2024-10-22 10:46:02,892 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody
+2024-10-22 10:46:02,892 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 10:46:02,892 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 10:46:02,892 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 10:46:02,892 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 10:46:02,892 - INFO - Sending 1 log entries to Firebase.
+2024-10-22 10:46:05,989 - INFO - Received 1 document IDs from Peerr.
+2024-10-22 10:46:06,239 - INFO - Logged data to llm collection with FirestoreID: 3a4464abba8f81df5d9d137ddbd636da.
