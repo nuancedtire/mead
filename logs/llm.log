@@ -12381,3 +12381,37 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-22 08:20:45,198 - INFO - Sending 1 log entries to Firebase.
 2024-10-22 08:20:48,693 - INFO - Received 1 document IDs from Peerr.
 2024-10-22 08:20:48,950 - INFO - Logged data to llm collection with FirestoreID: 8b7fad5e7cab895a843a428dad0aa359.
+2024-10-22 09:26:18,928 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 09:26:18,931 - INFO - Extracted 209 link records from llm.
+2024-10-22 09:26:20,320 - INFO - Extracted 217 link records from combined_news.
+2024-10-22 09:26:20,321 - INFO - Unique links to process: 8
+2024-10-22 09:26:20,321 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 09:26:20,321 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 09:26:20,321 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody
+2024-10-22 09:26:20,321 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 09:26:30,087 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 09:26:32,469 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 09:26:35,037 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 09:26:35,042 - INFO - Image query: A photorealistic image set in a modern urgent care facility. A diverse team of healthcare professionals, including a middle-aged female radiologist and a young male radiographer, are gathered around a digital workstation displaying X-ray images of a human limb. The radiologist, wearing a white coat and glasses, points at the screen with a look of concentration, while the radiographer, dressed in scrubs, takes notes on a tablet, showcasing a collaborative environment. The room is well-lit with bright overhead lights, and the walls are adorned with medical posters illustrating bone anatomy and fracture types. A sleek AI interface is visible on the screen, highlighting fracture detection algorithms, symbolizing the integration of technology in healthcare. The composition captures a medium shot angle, focusing on the engaged interaction between the professionals and the advanced technology, emphasizing the potential of AI in improving diagnostic accuracy. The overall mood conveys a sense of innovation and urgency, reflecting the critical need to reduce missed fractures in urgent care settings.
+2024-10-22 09:26:35,493 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-22 09:26:35,919 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:36,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:36,270 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:36,450 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:36,617 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:36,783 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:36,949 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:37,121 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:37,368 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:37,546 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:37,725 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 09:26:38,109 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7/status?logs=false "HTTP/1.1 200 OK"
+2024-10-22 09:26:38,277 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/5815ddc6-b0f2-49fa-ac82-a866b83f71d7 "HTTP/1.1 200 OK"
+2024-10-22 09:26:38,277 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/RpMXiaDpGrwaL1NQ47N1L.png
+2024-10-22 09:26:38,277 - INFO - Image link: https://fal.media/files/tiger/RpMXiaDpGrwaL1NQ47N1L.png
+2024-10-22 09:26:38,278 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 09:26:38,278 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 09:26:38,278 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 09:26:38,278 - INFO - Sending 1 log entries to Firebase.
+2024-10-22 09:26:41,537 - INFO - Received 1 document IDs from Peerr.
+2024-10-22 09:26:41,766 - INFO - Logged data to llm collection with FirestoreID: ad4859ac47157351b90f04ad4bb91449.
