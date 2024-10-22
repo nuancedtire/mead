@@ -12688,3 +12688,15 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-22 13:18:34,877 - INFO - Received 2 document IDs from Peerr.
 2024-10-22 13:18:35,366 - INFO - Logged data to llm collection with FirestoreID: e83b8fb18843f9f2b691f67b0e942206.
 2024-10-22 13:18:35,476 - INFO - Logged data to llm collection with FirestoreID: ec44b8b63a583d32013dfb89046fbac9.
+2024-10-22 13:44:25,057 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 13:44:25,061 - INFO - Extracted 215 link records from llm.
+2024-10-22 13:44:25,368 - INFO - Extracted 222 link records from combined_news.
+2024-10-22 13:44:25,369 - INFO - Unique links to process: 7
+2024-10-22 13:44:25,369 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 13:44:25,369 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 13:44:25,369 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody
+2024-10-22 13:44:25,369 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 13:44:25,369 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 13:44:25,370 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 13:44:25,370 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 13:44:25,370 - INFO - No valid log entries generated.
