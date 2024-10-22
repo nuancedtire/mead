@@ -12724,3 +12724,19 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-22 14:25:03,566 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-22 14:25:03,566 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-22 14:25:03,566 - INFO - No valid log entries generated.
+2024-10-22 14:43:51,587 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 14:43:51,590 - INFO - Extracted 215 link records from llm.
+2024-10-22 14:43:51,956 - INFO - Extracted 222 link records from combined_news.
+2024-10-22 14:43:51,957 - INFO - Unique links to process: 7
+2024-10-22 14:44:02,888 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-22 14:44:02,889 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 14:44:14,623 - INFO - No article found for link https://www.firstwordpharma.com/story/5904790.
+2024-10-22 14:44:14,624 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 14:44:14,624 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody
+2024-10-22 14:44:22,989 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-22 14:44:22,989 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 14:44:22,989 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 14:44:22,989 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 14:44:33,337 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-22 14:44:33,337 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 14:44:33,337 - INFO - No valid log entries generated.
