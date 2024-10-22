@@ -12273,3 +12273,40 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-21 14:58:16,918 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
 2024-10-21 14:58:16,918 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-21 14:58:16,919 - INFO - No valid log entries generated.
+2024-10-22 01:03:12,170 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 01:03:12,174 - INFO - Extracted 207 link records from llm.
+2024-10-22 01:03:12,465 - INFO - Extracted 212 link records from combined_news.
+2024-10-22 01:03:12,466 - INFO - Unique links to process: 5
+2024-10-22 01:03:14,478 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-22 01:03:14,479 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 01:03:23,946 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 01:03:27,409 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 01:03:29,808 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 01:03:29,813 - INFO - Image query: A photorealistic image set in a modern pharmacy bustling with activity. In the foreground, a friendly pharmacist in a white lab coat is interacting with a middle-aged woman, who is holding her smartphone displaying a digital prescription. The pharmacist is smiling and pointing to a computer screen that shows a digital prescription interface, symbolizing the Electronic Prescription Service (EPS). Behind them, shelves are stocked with various medications, and a digital display board highlights the benefits of EPS, such as "Fast, Accurate, Paperless." The lighting is bright and inviting, with natural light streaming through large windows, creating a warm atmosphere. In the background, other customers are seen engaging with pharmacy staff, showcasing the efficiency of the service. The composition captures a medium shot, focusing on the positive interaction between the pharmacist and the patient, emphasizing the transformative impact of technology on healthcare. The overall mood conveys a sense of innovation and progress in patient care, reflecting the excitement surrounding the EPS rollout in Wales.
+2024-10-22 01:03:29,987 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-22 01:03:30,031 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:30,172 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:30,318 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:30,460 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:30,806 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:30,966 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:31,317 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:31,475 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:31,770 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:31,922 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:32,197 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:32,337 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 01:03:32,480 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70/status?logs=false "HTTP/1.1 200 OK"
+2024-10-22 01:03:32,762 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3da63174-5666-42eb-bd68-ddacde0c5a70 "HTTP/1.1 200 OK"
+2024-10-22 01:03:32,763 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/7YMShKW-gVyVOQqa9QIA6.png
+2024-10-22 01:03:32,763 - INFO - Image link: https://fal.media/files/elephant/7YMShKW-gVyVOQqa9QIA6.png
+2024-10-22 01:03:39,890 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 01:03:39,896 - INFO - No article found for link https://www.firstwordpharma.com/story/5904790.
+2024-10-22 01:03:39,897 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 01:03:44,697 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-22 01:03:44,698 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 01:03:52,399 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-22 01:03:52,399 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 01:03:52,399 - INFO - Sending 1 log entries to Firebase.
+2024-10-22 01:03:55,636 - INFO - Received 1 document IDs from Peerr.
+2024-10-22 01:03:56,125 - INFO - Logged data to llm collection with FirestoreID: 15da1d540646705663b993ea35214bf2.
