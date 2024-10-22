@@ -12800,3 +12800,45 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-22 16:30:51,544 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-22 16:30:51,544 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-22 16:30:51,544 - INFO - No valid log entries generated.
+2024-10-22 16:50:29,278 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 16:50:29,282 - INFO - Extracted 215 link records from llm.
+2024-10-22 16:50:29,713 - INFO - Extracted 222 link records from combined_news.
+2024-10-22 16:50:29,714 - INFO - Unique links to process: 7
+2024-10-22 16:50:29,714 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 16:50:29,714 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 16:50:42,783 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 16:50:46,983 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 16:50:49,334 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-22 16:50:49,339 - INFO - Image query: A photorealistic image set in a modern medical clinic. In the foreground, a young adult male patient, around 15 years old, sits comfortably in a sleek examination chair, looking hopeful yet curious. He holds a portable injection pen labeled "Alhemo" in his right hand, examining it closely. A compassionate healthcare professional, a middle-aged female nurse in scrubs, stands beside him, gently explaining the device with a warm smile. The nurse points to a digital tablet displaying a graph illustrating the 86% reduction in treated bleeds from the Explorer7 trial, emphasizing the treatment's effectiveness. The background features a well-organized medical space with posters about haemophilia care and a shelf stocked with medical supplies. Soft, natural light streams through a window, creating a bright and inviting atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the patient and nurse, highlighting the transformative potential of concizumab in haemophilia care. The overall mood conveys optimism and innovation, reflecting the significant advancements in treatment options for patients with haemophilia.
+2024-10-22 16:50:49,577 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-22 16:50:49,614 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:49,746 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:49,876 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:50,215 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:50,347 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:50,478 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:50,606 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:50,741 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:50,868 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:50,998 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:51,131 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:51,263 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:51,390 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:51,521 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:51,723 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:51,856 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:51,991 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:52,121 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-22 16:50:52,258 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d/status?logs=false "HTTP/1.1 200 OK"
+2024-10-22 16:50:52,285 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d98ff66c-7149-4d98-872f-6e8ac5ae9f4d "HTTP/1.1 200 OK"
+2024-10-22 16:50:52,286 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/Kph9oZuxL4hglTEgpTPGp.png
+2024-10-22 16:50:52,286 - INFO - Image link: https://fal.media/files/panda/Kph9oZuxL4hglTEgpTPGp.png
+2024-10-22 16:50:52,286 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 16:51:00,490 - INFO - No article found for link https://www.firstwordpharma.com/story/5905003.
+2024-10-22 16:51:00,490 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 16:51:09,889 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-22 16:51:09,890 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 16:51:09,890 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 16:51:09,890 - INFO - Sending 1 log entries to Firebase.
+2024-10-22 16:51:13,110 - INFO - Received 1 document IDs from Peerr.
+2024-10-22 16:51:13,266 - INFO - Logged data to llm collection with FirestoreID: 6bb53a29bb707e68d8b113011fc187b1.
