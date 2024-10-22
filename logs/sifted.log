@@ -3070,3 +3070,9 @@
 2024-10-22 06:19:43,712 - WARNING - Search phrase not found. Using original content.
 2024-10-22 06:19:44,359 - INFO - Data saved to Firestore. Total items: 5.
 2024-10-22 06:19:44,359 - INFO - Sifted script completed.
+2024-10-22 08:18:47,705 - INFO - Sifted script started.
+2024-10-22 08:18:51,966 - INFO - Successfully fetched data from URL.
+2024-10-22 08:18:51,967 - INFO - Search phrase found and content trimmed.
+2024-10-22 08:18:51,967 - WARNING - No titles, links, or dates found in the content. Possible webpage structure change.
+2024-10-22 08:18:53,049 - INFO - Data saved to Firestore. Total items: 0.
+2024-10-22 08:18:53,050 - INFO - Sifted script completed.
