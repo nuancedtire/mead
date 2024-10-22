@@ -12415,3 +12415,15 @@ In the background, a wall-mounted display shows a colorful infographic about the
 2024-10-22 09:26:38,278 - INFO - Sending 1 log entries to Firebase.
 2024-10-22 09:26:41,537 - INFO - Received 1 document IDs from Peerr.
 2024-10-22 09:26:41,766 - INFO - Logged data to llm collection with FirestoreID: ad4859ac47157351b90f04ad4bb91449.
+2024-10-22 09:43:00,431 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-22 09:43:00,434 - INFO - Extracted 210 link records from llm.
+2024-10-22 09:43:00,725 - INFO - Extracted 217 link records from combined_news.
+2024-10-22 09:43:00,726 - INFO - Unique links to process: 7
+2024-10-22 09:43:00,726 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-22 09:43:00,726 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-22 09:43:00,726 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novo-nordisk-closes-eu-okay-haemophilia-antibody
+2024-10-22 09:43:00,726 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-22 09:43:00,726 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-22 09:43:00,727 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-22 09:43:00,727 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-22 09:43:00,727 - INFO - No valid log entries generated.
