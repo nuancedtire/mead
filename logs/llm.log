@@ -13426,3 +13426,12 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-23 13:40:22,549 - INFO - Sending 1 log entries to Firebase.
 2024-10-23 13:40:25,943 - INFO - Received 1 document IDs from Peerr.
 2024-10-23 13:40:26,113 - INFO - Logged data to llm collection with FirestoreID: cb8f678bd76eb378fd5d89ad4384dc71.
+2024-10-23 13:55:30,003 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-23 13:55:30,006 - INFO - Extracted 227 link records from llm.
+2024-10-23 13:55:30,341 - INFO - Extracted 231 link records from combined_news.
+2024-10-23 13:55:30,342 - INFO - Unique links to process: 4
+2024-10-23 13:55:30,342 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-23 13:55:30,342 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-23 13:55:30,342 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-23 13:55:30,342 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-23 13:55:30,342 - INFO - No valid log entries generated.
