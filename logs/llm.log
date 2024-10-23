@@ -13382,3 +13382,47 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-23 13:18:13,229 - INFO - Received 2 document IDs from Peerr.
 2024-10-23 13:18:13,377 - INFO - Logged data to llm collection with FirestoreID: 18d9a4f210f3d3d3aee38226927f18e1.
 2024-10-23 13:18:13,732 - INFO - Logged data to llm collection with FirestoreID: ce8ed85c45b679014bec621b6af96829.
+2024-10-23 13:38:56,225 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-23 13:38:56,229 - INFO - Extracted 226 link records from llm.
+2024-10-23 13:38:56,678 - INFO - Extracted 231 link records from combined_news.
+2024-10-23 13:38:56,679 - INFO - Unique links to process: 5
+2024-10-23 13:38:56,679 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-23 13:39:07,116 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-23 13:39:07,117 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-23 13:39:54,319 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:39:59,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:40:03,443 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:40:03,447 - INFO - Image query: A photorealistic image set in a modern ophthalmology clinic. In the foreground, a middle-aged female ophthalmologist, wearing a white lab coat and safety glasses, is attentively examining a digital retinal scan on a high-resolution monitor. Her expression is one of focused determination, reflecting the significance of her work in vision restoration. Beside her, a middle-aged male patient, around 50 years old, sits in an examination chair, his face illuminated by the soft glow of the monitor, displaying a mixture of hope and curiosity. The room is bright and well-organized, with medical equipment such as an optical coherence tomography (OCT) machine and various eye examination tools visible in the background. Natural light streams in through a large window, creating a warm and inviting atmosphere. On the wall, a poster illustrates the anatomy of the human eye, subtly emphasizing the topic of retinal health and the innovative optogenetics therapy. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the potential breakthrough in treating severe vision loss. The overall mood conveys a sense of optimism and urgency, reflecting the transformative possibilities of MCO-010 in ophthalmology.
+2024-10-23 13:40:03,556 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-23 13:40:03,575 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:03,694 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:03,814 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:03,932 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,053 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,176 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,295 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,413 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,650 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,771 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:04,892 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,128 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,500 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,620 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,739 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,858 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:05,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:40:06,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af/status?logs=false "HTTP/1.1 200 OK"
+2024-10-23 13:40:06,113 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e9fce6ca-4105-4865-8c00-fbee3910a4af "HTTP/1.1 200 OK"
+2024-10-23 13:40:06,114 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/qhbyA7a41ywRfzhLu9C32.png
+2024-10-23 13:40:06,114 - INFO - Image link: https://fal.media/files/rabbit/qhbyA7a41ywRfzhLu9C32.png
+2024-10-23 13:40:20,072 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-23 13:40:20,073 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-23 13:40:22,549 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-23 13:40:22,549 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-23 13:40:22,549 - INFO - Sending 1 log entries to Firebase.
+2024-10-23 13:40:25,943 - INFO - Received 1 document IDs from Peerr.
+2024-10-23 13:40:26,113 - INFO - Logged data to llm collection with FirestoreID: cb8f678bd76eb378fd5d89ad4384dc71.

@@ -21829,3 +21829,32 @@
 2024-10-23 13:17:03,296 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
 2024-10-23 13:17:03,688 - INFO - Successfully updated Firestore with 2 items.
 2024-10-23 13:17:03,688 - INFO - Medscape script completed.
+2024-10-23 13:38:42,791 - INFO - Medscape script started.
+2024-10-23 13:38:42,792 - INFO - Connection to Medscape established.
+2024-10-23 13:38:42,839 - INFO - Request sent to Medscape API.
+2024-10-23 13:38:43,157 - INFO - Response received from Medscape API.
+2024-10-23 13:38:43,158 - INFO - Response data decoded into dictionary.
+2024-10-23 13:38:43,158 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-23 13:38:43,838 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-23 13:38:43,838 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-23 13:38:44,157 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-23 13:38:44,157 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-23 13:38:44,386 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-23 13:38:44,386 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-23 13:38:44,699 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-23 13:38:44,700 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-23 13:38:44,937 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-23 13:38:44,997 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-23 13:38:45,233 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-23 13:38:45,234 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-23 13:38:45,537 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-23 13:38:45,537 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-23 13:38:45,786 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-23 13:38:45,786 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-23 13:38:46,080 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-23 13:38:46,080 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/keto-diet-no-better-than-meds-early-life-epilepsy-2024a1000irc
+2024-10-23 13:38:46,319 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/keto-diet-no-better-than-meds-early-life-epilepsy-2024a1000irc
+2024-10-23 13:38:46,319 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-23 13:38:46,633 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/did-targeted-mpox-messaging-avert-infections-2024a1000iuo
+2024-10-23 13:38:46,634 - INFO - No new data to update.
+2024-10-23 13:38:46,634 - INFO - Medscape script completed.
