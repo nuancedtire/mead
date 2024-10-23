@@ -13605,3 +13605,12 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-23 22:22:25,192 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-10-23 22:22:25,193 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-23 22:22:25,193 - INFO - No valid log entries generated.
+2024-10-23 23:21:58,790 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-23 23:21:58,794 - INFO - Extracted 228 link records from llm.
+2024-10-23 23:21:59,494 - INFO - Extracted 232 link records from combined_news.
+2024-10-23 23:21:59,495 - INFO - Unique links to process: 4
+2024-10-23 23:21:59,495 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-23 23:21:59,495 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-23 23:21:59,495 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-23 23:21:59,495 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-23 23:21:59,495 - INFO - No valid log entries generated.
