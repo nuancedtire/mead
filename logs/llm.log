@@ -13548,3 +13548,28 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-23 18:29:29,001 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-23 18:29:29,001 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-23 18:29:29,001 - INFO - No valid log entries generated.
+2024-10-23 19:17:58,788 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-23 19:17:58,792 - INFO - Extracted 227 link records from llm.
+2024-10-23 19:17:59,084 - INFO - Extracted 232 link records from combined_news.
+2024-10-23 19:17:59,084 - INFO - Unique links to process: 5
+2024-10-23 19:17:59,085 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-23 19:17:59,085 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-23 19:18:16,206 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 19:18:19,880 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 19:18:22,579 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 19:18:22,583 - INFO - Image query: A photorealistic image set in a modern oncology research lab. In the foreground, a diverse group of three medical professionals—a middle-aged female oncologist in a white lab coat, a young male geneticist in a blue scrubs, and an elderly male researcher with glasses—are gathered around a high-tech workstation displaying a large screen filled with colorful genetic data and charts related to AML and MDS. The oncologist is pointing at the screen, discussing findings with an engaged expression, while the geneticist takes notes on a digital tablet. The elderly researcher looks thoughtfully at the data, symbolizing collaboration in precision medicine. In the background, lab equipment like centrifuges and microscopes are visible, along with shelves filled with blood and bone marrow sample vials, emphasizing the focus on genetic testing. Bright, sterile lighting illuminates the room, creating a sense of hope and innovation. The composition captures a medium shot, highlighting the teamwork and dedication to redefining cancer treatment through personalized approaches. The overall mood conveys urgency and optimism, reflecting the transformative potential of the myeloMATCH trial in improving patient outcomes for aggressive blood cancers.
+2024-10-23 19:18:23,035 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-23 19:18:23,070 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/49a69ef3-b96a-4812-88fd-7452b01f9771/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 19:18:23,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/49a69ef3-b96a-4812-88fd-7452b01f9771/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 19:18:23,352 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/49a69ef3-b96a-4812-88fd-7452b01f9771/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 19:18:25,168 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/49a69ef3-b96a-4812-88fd-7452b01f9771/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 19:18:25,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/49a69ef3-b96a-4812-88fd-7452b01f9771/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 19:18:25,672 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/49a69ef3-b96a-4812-88fd-7452b01f9771/status?logs=false "HTTP/1.1 200 OK"
+2024-10-23 19:18:25,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/49a69ef3-b96a-4812-88fd-7452b01f9771 "HTTP/1.1 200 OK"
+2024-10-23 19:18:25,716 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/jdsMAqji55bhj-5kuhpDf.png
+2024-10-23 19:18:25,716 - INFO - Image link: https://fal.media/files/panda/jdsMAqji55bhj-5kuhpDf.png
+2024-10-23 19:18:25,716 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-23 19:18:25,717 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-23 19:18:25,717 - INFO - Sending 1 log entries to Firebase.
+2024-10-23 19:18:28,884 - INFO - Received 1 document IDs from Peerr.
+2024-10-23 19:18:29,405 - INFO - Logged data to llm collection with FirestoreID: a33cf613ee60ab554d8853cde80fd990.
