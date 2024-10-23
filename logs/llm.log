@@ -12882,3 +12882,21 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-23 02:47:19,420 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-23 02:47:19,420 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-23 02:47:19,420 - INFO - No valid log entries generated.
+2024-10-23 04:17:50,440 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-23 04:17:50,444 - INFO - Extracted 216 link records from llm.
+2024-10-23 04:17:50,737 - INFO - Extracted 222 link records from combined_news.
+2024-10-23 04:17:50,738 - INFO - Unique links to process: 6
+2024-10-23 04:17:53,535 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-23 04:17:53,536 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-23 04:18:02,830 - INFO - No article found for link https://www.firstwordpharma.com/story/5904790.
+2024-10-23 04:18:02,830 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5904790
+2024-10-23 04:18:05,207 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-23 04:18:05,207 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-23 04:18:10,815 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 04:18:10,831 - INFO - No article found for link https://www.firstwordpharma.com/story/5905003.
+2024-10-23 04:18:10,832 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905003
+2024-10-23 04:18:16,644 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-23 04:18:16,644 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-23 04:18:22,770 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-23 04:18:22,770 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-23 04:18:22,770 - INFO - No valid log entries generated.
