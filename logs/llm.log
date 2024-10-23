@@ -13120,3 +13120,44 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-23 09:55:55,192 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-23 09:55:55,192 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-23 09:55:55,192 - INFO - No valid log entries generated.
+2024-10-23 10:26:02,408 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-23 10:26:02,411 - INFO - Extracted 221 link records from llm.
+2024-10-23 10:26:02,816 - INFO - Extracted 228 link records from combined_news.
+2024-10-23 10:26:02,817 - INFO - Unique links to process: 7
+2024-10-23 10:26:02,817 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-23 10:26:02,817 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5904790
+2024-10-23 10:26:02,817 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-23 10:26:14,265 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 10:26:17,459 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 10:26:20,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 10:26:20,147 - INFO - Image query: A photorealistic image set in a modern healthcare conference room. In the foreground, two professionals, a middle-aged Black woman in business attire and a middle-aged White man in a smart casual outfit, are engaged in a dynamic discussion. The woman is animatedly gesturing with one hand while holding a tablet in the other, showcasing digital solutions for clinical coordination. The man, with a thoughtful expression, leans slightly forward, indicating active listening. Behind them, a large screen displays a colorful infographic illustrating the benefits of clinical coordination, with icons representing patient care, communication, and digital innovation. The room is well-lit with bright overhead lights and large windows allowing natural light to flood in, creating an inviting atmosphere. A round table is cluttered with laptops, notepads, and coffee cups, symbolizing a collaborative environment. The composition captures a medium shot, focusing on the interaction between the two professionals, highlighting the importance of communication and teamwork in transforming patient care. The overall mood conveys a sense of optimism and urgency, reflecting the potential impact of digital innovation on the NHS and patient experiences.
+2024-10-23 10:26:20,445 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-23 10:26:20,473 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:20,601 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:20,728 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:20,857 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:20,985 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:21,115 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:21,242 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:21,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:21,498 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:21,627 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:21,755 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:21,883 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:22,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:22,141 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:22,271 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:22,400 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:22,526 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:22,753 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:22,879 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 10:26:23,007 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab/status?logs=false "HTTP/1.1 200 OK"
+2024-10-23 10:26:23,034 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c1a5098b-7ca2-412d-91f2-a817d522e1ab "HTTP/1.1 200 OK"
+2024-10-23 10:26:23,034 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/aukXg3PKs1zlYX_IJ-lDU.png
+2024-10-23 10:26:23,034 - INFO - Image link: https://fal.media/files/monkey/aukXg3PKs1zlYX_IJ-lDU.png
+2024-10-23 10:26:23,035 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-23 10:26:23,035 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-23 10:26:23,035 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-23 10:26:23,035 - INFO - Sending 1 log entries to Firebase.
+2024-10-23 10:26:26,273 - INFO - Received 1 document IDs from Peerr.
+2024-10-23 10:26:26,439 - INFO - Logged data to llm collection with FirestoreID: 87c6dc1874cc20f9eef041f9a3812485.
