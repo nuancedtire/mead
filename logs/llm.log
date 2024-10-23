@@ -13313,3 +13313,72 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-23 12:48:35,149 - INFO - Received 2 document IDs from Peerr.
 2024-10-23 12:48:35,298 - INFO - Logged data to llm collection with FirestoreID: 24b7e22ccbb504bbaca0cfb9e34c1553.
 2024-10-23 12:48:35,723 - INFO - Logged data to llm collection with FirestoreID: 7890e64ad8fc62c26d20ed64bb2a7fa6.
+2024-10-23 13:17:12,606 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-23 13:17:12,610 - INFO - Extracted 224 link records from llm.
+2024-10-23 13:17:12,949 - INFO - Extracted 231 link records from combined_news.
+2024-10-23 13:17:12,949 - INFO - Unique links to process: 7
+2024-10-23 13:17:12,950 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-23 13:17:30,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:17:38,305 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:17:40,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:17:40,887 - INFO - Image query: A photorealistic image set in a modern healthcare clinic, featuring a young adult woman, approximately 30 years old, sitting on an examination table, looking concerned as she discusses her health with a compassionate healthcare provider, a middle-aged male doctor in a white coat. The doctor, with a stethoscope around his neck, is leaning slightly forward, holding a tablet displaying data on diabetes and sleep disorders, emphasizing the importance of sleep in managing type 2 diabetes. The room is bright and airy, with natural light streaming through a window, creating a warm atmosphere. On the wall, a poster illustrates the human sleep cycle and its connection to metabolic health, subtly reinforcing the topic of sleep disorders. The composition captures a medium close-up angle, focusing on the engaged interaction between the doctor and the patient, highlighting the critical conversation about the hidden challenges of sleep disorders in diabetes management. The overall mood conveys a sense of urgency and care, reflecting the importance of addressing sleep issues in the context of type 2 diabetes.
+2024-10-23 13:17:41,021 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-23 13:17:41,058 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:41,193 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:41,326 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:41,459 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:41,590 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:41,723 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:41,903 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,042 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,176 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,444 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,710 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,844 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:42,976 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:43,108 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:43,244 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:43,378 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:43,510 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:17:43,642 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1/status?logs=false "HTTP/1.1 200 OK"
+2024-10-23 13:17:43,673 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/458b1c14-a543-4ab2-bb1e-a40d4fb2f5b1 "HTTP/1.1 200 OK"
+2024-10-23 13:17:43,674 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/puFAugBvH4tjTT7m6Nx_l.png
+2024-10-23 13:17:43,674 - INFO - Image link: https://fal.media/files/elephant/puFAugBvH4tjTT7m6Nx_l.png
+2024-10-23 13:17:43,675 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-23 13:17:43,675 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905003
+2024-10-23 13:18:00,147 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:18:04,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:18:07,242 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 13:18:07,247 - INFO - Image query: A photorealistic image set in a pediatric hospital ward. In the foreground, a concerned mother, in her early 30s, cradles her infant in her arms, who is wrapped in a soft, colorful blanket. The mother’s expression is a mix of worry and determination, reflecting her protective instincts. Beside her, a compassionate pediatric nurse, wearing scrubs and a face mask, gently checks the infant’s vital signs with a digital thermometer, showcasing the attentive care provided. The background features a bright, well-lit hospital room with cheerful wall decorations, including cartoon animals and educational posters about health. A small window allows natural light to stream in, creating a warm and hopeful atmosphere. On a nearby table, a chart displays statistics about pediatric COVID-19 hospitalizations, subtly emphasizing the study's findings. The composition captures a medium close-up angle, focusing on the intimate interaction between the mother and nurse, highlighting the urgency and importance of protecting vulnerable children from COVID-19. The overall mood conveys a sense of care, urgency, and hope, reflecting the critical nature of maternal immunization and healthcare support for at-risk pediatric populations.
+2024-10-23 13:18:07,355 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-23 13:18:07,392 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:07,531 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:07,667 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:07,805 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:07,944 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:08,081 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:08,218 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:08,354 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:08,489 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:08,627 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:08,766 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:08,905 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,043 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,180 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,317 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,589 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,725 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,860 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-23 13:18:09,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41/status?logs=false "HTTP/1.1 200 OK"
+2024-10-23 13:18:10,029 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/2d6bc4ba-716e-4692-8f9b-b9d3db900f41 "HTTP/1.1 200 OK"
+2024-10-23 13:18:10,030 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/4xdH8qhegIWAM-5vB3iTl.png
+2024-10-23 13:18:10,030 - INFO - Image link: https://fal.media/files/zebra/4xdH8qhegIWAM-5vB3iTl.png
+2024-10-23 13:18:10,031 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-23 13:18:10,031 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-23 13:18:10,031 - INFO - Sending 2 log entries to Firebase.
+2024-10-23 13:18:13,229 - INFO - Received 2 document IDs from Peerr.
+2024-10-23 13:18:13,377 - INFO - Logged data to llm collection with FirestoreID: 18d9a4f210f3d3d3aee38226927f18e1.
+2024-10-23 13:18:13,732 - INFO - Logged data to llm collection with FirestoreID: ce8ed85c45b679014bec621b6af96829.
