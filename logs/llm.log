@@ -13815,3 +13815,13 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-24 10:26:34,609 - INFO - Sending 1 log entries to Firebase.
 2024-10-24 10:26:37,346 - INFO - Received 1 document IDs from Peerr.
 2024-10-24 10:26:37,524 - INFO - Logged data to llm collection with FirestoreID: 70461036a319dd5ead457334bcc11867.
+2024-10-24 10:45:15,872 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-24 10:45:15,876 - INFO - Extracted 232 link records from llm.
+2024-10-24 10:45:16,567 - INFO - Extracted 237 link records from combined_news.
+2024-10-24 10:45:16,568 - INFO - Unique links to process: 5
+2024-10-24 10:45:16,568 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-24 10:45:16,568 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/lillys-alzheimers-drug-gets-uk-nod-no-nhs-funding
+2024-10-24 10:45:16,568 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-24 10:45:16,568 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-24 10:45:16,568 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-24 10:45:16,568 - INFO - No valid log entries generated.

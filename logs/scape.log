@@ -22561,3 +22561,28 @@
 2024-10-24 10:26:05,589 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
 2024-10-24 10:26:05,589 - INFO - No new data to update.
 2024-10-24 10:26:05,589 - INFO - Medscape script completed.
+2024-10-24 10:44:59,613 - INFO - Medscape script started.
+2024-10-24 10:44:59,613 - INFO - Connection to Medscape established.
+2024-10-24 10:44:59,827 - INFO - Request sent to Medscape API.
+2024-10-24 10:45:00,507 - INFO - Response received from Medscape API.
+2024-10-24 10:45:00,508 - INFO - Response data decoded into dictionary.
+2024-10-24 10:45:00,508 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-24 10:45:01,495 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-24 10:45:01,495 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-24 10:45:01,684 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-24 10:45:01,684 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-24 10:45:02,343 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-24 10:45:02,344 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-24 10:45:02,533 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-24 10:45:02,534 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-24 10:45:03,203 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-24 10:45:03,204 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-24 10:45:03,399 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-24 10:45:03,399 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-24 10:45:04,060 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-24 10:45:04,060 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-24 10:45:04,250 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/osteonecrosis-risk-rises-osteoporosis-treatment-2024a1000ix5
+2024-10-24 10:45:04,250 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-24 10:45:04,915 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
+2024-10-24 10:45:04,915 - INFO - No new data to update.
+2024-10-24 10:45:04,915 - INFO - Medscape script completed.
