@@ -22749,3 +22749,32 @@
 2024-10-24 13:32:20,454 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
 2024-10-24 13:32:20,657 - INFO - Successfully updated Firestore with 4 items.
 2024-10-24 13:32:20,657 - INFO - Medscape script completed.
+2024-10-24 13:45:46,131 - INFO - Medscape script started.
+2024-10-24 13:45:46,131 - INFO - Connection to Medscape established.
+2024-10-24 13:45:46,151 - INFO - Request sent to Medscape API.
+2024-10-24 13:45:46,915 - INFO - Response received from Medscape API.
+2024-10-24 13:45:46,916 - INFO - Response data decoded into dictionary.
+2024-10-24 13:45:46,916 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-24 13:45:47,892 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-24 13:45:47,892 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-24 13:45:48,065 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-24 13:45:48,065 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-24 13:45:48,803 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-24 13:45:48,803 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-24 13:45:48,991 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-24 13:45:48,991 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-24 13:45:49,717 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-24 13:45:49,717 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-24 13:45:49,892 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-24 13:45:49,892 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-24 13:45:50,585 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-24 13:45:50,585 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-24 13:45:50,791 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-24 13:45:50,791 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-24 13:45:51,463 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-24 13:45:51,464 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-24 13:45:51,658 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-24 13:45:51,658 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-24 13:45:52,364 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-24 13:45:52,364 - INFO - No new data to update.
+2024-10-24 13:45:52,364 - INFO - Medscape script completed.
