@@ -22711,3 +22711,41 @@
 2024-10-24 12:47:03,064 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/volatile-agents-nitrous-oxide-teen-mental-health-risks-2024a1000iy2
 2024-10-24 12:47:03,064 - INFO - No new data to update.
 2024-10-24 12:47:03,064 - INFO - Medscape script completed.
+2024-10-24 13:31:00,397 - INFO - Medscape script started.
+2024-10-24 13:31:00,398 - INFO - Connection to Medscape established.
+2024-10-24 13:31:00,424 - INFO - Request sent to Medscape API.
+2024-10-24 13:31:01,085 - INFO - Response received from Medscape API.
+2024-10-24 13:31:01,086 - INFO - Response data decoded into dictionary.
+2024-10-24 13:31:01,086 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-24 13:31:02,094 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-24 13:31:09,205 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 13:31:09,215 - INFO - Found source link: https://www.guidelineslive.co.uk/
+2024-10-24 13:31:09,216 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-24 13:31:09,396 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-24 13:31:41,850 - ERROR - Error fetching data from http://r.jina.ai/medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-24 13:32:06,920 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 13:32:06,922 - INFO - Found source link: https://www.guidelineslive.co.uk/
+2024-10-24 13:32:06,922 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-24 13:32:07,101 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-24 13:32:11,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 13:32:11,075 - INFO - Found source link: https://www.guidelineslive.co.uk/
+2024-10-24 13:32:11,075 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-24 13:32:11,255 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-24 13:32:16,843 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 13:32:16,845 - INFO - Found source link: https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(23)01523-4.pdf
+2024-10-24 13:32:16,846 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-24 13:32:17,028 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-24 13:32:17,028 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-24 13:32:17,759 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-24 13:32:17,760 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-24 13:32:17,932 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-24 13:32:17,932 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-24 13:32:18,647 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-24 13:32:18,647 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-24 13:32:19,547 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-24 13:32:19,548 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-24 13:32:19,728 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-24 13:32:19,728 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-24 13:32:20,454 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/top-tips-atopic-dermatitis-skin-colour-2024a1000h28
+2024-10-24 13:32:20,657 - INFO - Successfully updated Firestore with 4 items.
+2024-10-24 13:32:20,657 - INFO - Medscape script completed.
