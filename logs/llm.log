@@ -13623,3 +13623,16 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-24 01:02:10,071 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-24 01:02:10,071 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-24 01:02:10,071 - INFO - No valid log entries generated.
+2024-10-24 02:47:02,445 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-24 02:47:02,449 - INFO - Extracted 228 link records from llm.
+2024-10-24 02:47:02,751 - INFO - Extracted 232 link records from combined_news.
+2024-10-24 02:47:02,752 - INFO - Unique links to process: 4
+2024-10-24 02:47:05,853 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-24 02:47:05,853 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-24 02:47:22,328 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-24 02:47:22,329 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-24 02:47:47,824 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-24 02:47:47,824 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-24 02:47:49,469 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-24 02:47:49,469 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-24 02:47:49,469 - INFO - No valid log entries generated.
