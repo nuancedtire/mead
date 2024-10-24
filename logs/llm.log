@@ -14251,3 +14251,46 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-24 16:29:47,426 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-24 16:29:47,426 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-24 16:29:47,426 - INFO - No valid log entries generated.
+2024-10-24 16:49:38,476 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-24 16:49:38,480 - INFO - Extracted 237 link records from llm.
+2024-10-24 16:49:38,789 - INFO - Extracted 245 link records from combined_news.
+2024-10-24 16:49:38,790 - INFO - Unique links to process: 8
+2024-10-24 16:49:51,777 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-24 16:49:51,778 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-24 16:50:07,176 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 16:50:11,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 16:50:15,069 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 16:50:15,073 - INFO - Image query: A photorealistic image set in a modern healthcare conference room. In the foreground, a middle-aged man, Peter Almond, sits at a round table, his expression a mix of concern and determination as he speaks passionately about his experience with Alzheimer's. He is dressed in a casual sweater, with a slight tremor in his hands, emphasizing the personal impact of the disease. Across from him, a diverse group of healthcare professionals, including a woman in a lab coat and a man in a suit, listen intently, their expressions reflecting a mix of empathy and contemplation. On the table, a laptop displays a graph showing the rising costs of dementia care, while a brochure about Kisunla (donanemab) lies open, highlighting its benefits and costs. The room is well-lit with bright overhead lights, creating a professional yet warm atmosphere. Large windows in the background reveal a cloudy sky, symbolizing uncertainty. The composition captures a medium shot, focusing on the emotional exchange and the critical discussion about the balance between innovation and affordability in Alzheimer's treatment. The overall mood conveys urgency and hope, reflecting the ongoing debate over public funding for groundbreaking medical treatments.
+2024-10-24 16:50:15,223 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-24 16:50:15,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:15,399 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:15,538 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:15,678 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:15,816 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:15,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:16,091 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:16,227 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:16,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:16,501 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:16,640 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:16,775 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:16,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:17,058 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:17,200 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:17,337 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:17,480 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:17,618 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:17,757 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 16:50:17,895 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c/status?logs=false "HTTP/1.1 200 OK"
+2024-10-24 16:50:17,930 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/796894ff-3e1c-4b50-bc71-b6c99389ad5c "HTTP/1.1 200 OK"
+2024-10-24 16:50:17,931 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/g6sosH8j_38OYUMkhjbx7.png
+2024-10-24 16:50:17,931 - INFO - Image link: https://fal.media/files/koala/g6sosH8j_38OYUMkhjbx7.png
+2024-10-24 16:50:17,931 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-24 16:50:17,932 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-24 16:50:17,932 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-24 16:50:17,932 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-24 16:50:17,932 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-24 16:50:17,932 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-24 16:50:17,932 - INFO - Sending 1 log entries to Firebase.
+2024-10-24 16:50:21,148 - INFO - Received 1 document IDs from Peerr.
+2024-10-24 16:50:21,277 - INFO - Logged data to llm collection with FirestoreID: 46304c6f8527fbd7230e6460ec547bf5.
