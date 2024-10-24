@@ -13998,3 +13998,39 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-24 11:55:22,160 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-24 11:55:22,160 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-24 11:55:22,161 - INFO - No valid log entries generated.
+2024-10-24 12:47:15,872 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-24 12:47:15,876 - INFO - Extracted 233 link records from llm.
+2024-10-24 12:47:16,184 - INFO - Extracted 239 link records from combined_news.
+2024-10-24 12:47:16,185 - INFO - Unique links to process: 6
+2024-10-24 12:47:21,197 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-24 12:47:21,198 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-24 12:47:29,198 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 12:47:29,217 - INFO - No article found for link https://pharmaphorum.com/news/lillys-alzheimers-drug-gets-uk-nod-no-nhs-funding.
+2024-10-24 12:47:29,217 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/lillys-alzheimers-drug-gets-uk-nod-no-nhs-funding
+2024-10-24 12:47:29,217 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-24 12:47:47,612 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 12:47:51,751 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 12:47:55,060 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 12:47:55,065 - INFO - Image query: A photorealistic image depicting a dynamic conference setting at the NEC in Birmingham, showcasing a large audience engaged in a presentation about the NHS App. In the foreground, Professor Joe Harrison stands confidently at a sleek podium, gesturing towards a large screen displaying the NHS App interface and its innovative features. The audience, a diverse group of healthcare professionals, is captivated, with expressions of curiosity and excitement. Bright, modern lighting illuminates the space, creating an energetic atmosphere. The background features banners with the NHS logo and digital health themes, while a few attendees take notes on tablets and laptops, symbolizing the integration of technology in healthcare. The composition captures a wide-angle view, emphasizing the scale of the event and the importance of digital transformation in healthcare. The overall mood conveys enthusiasm and forward-thinking, reflecting the pivotal role of digital innovation in shaping the future of the NHS.
+2024-10-24 12:47:55,325 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-24 12:47:55,359 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:55,522 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:55,660 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:55,795 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:55,931 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:56,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:56,945 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:57,187 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:57,322 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:57,459 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:57,603 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:57,742 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-24 12:47:57,878 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4/status?logs=false "HTTP/1.1 200 OK"
+2024-10-24 12:47:57,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/bf550f36-981d-4e02-be3a-eed1bbb6a6e4 "HTTP/1.1 200 OK"
+2024-10-24 12:47:57,910 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/xO2p_TCrF26W995BZI4x7.png
+2024-10-24 12:47:57,911 - INFO - Image link: https://fal.media/files/elephant/xO2p_TCrF26W995BZI4x7.png
+2024-10-24 12:47:57,912 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-24 12:47:57,912 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-24 12:47:57,912 - INFO - Sending 1 log entries to Firebase.
+2024-10-24 12:48:01,132 - INFO - Received 1 document IDs from Peerr.
+2024-10-24 12:48:01,647 - INFO - Logged data to llm collection with FirestoreID: aafac3ffe10b40115c2bd0c373538bd8.
