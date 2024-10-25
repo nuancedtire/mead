@@ -23845,3 +23845,34 @@
 2024-10-25 13:38:19,485 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
 2024-10-25 13:38:19,485 - INFO - No new data to update.
 2024-10-25 13:38:19,485 - INFO - Medscape script completed.
+2024-10-25 13:55:08,709 - INFO - Medscape script started.
+2024-10-25 13:55:08,710 - INFO - Connection to Medscape established.
+2024-10-25 13:55:08,805 - INFO - Request sent to Medscape API.
+2024-10-25 13:55:09,128 - INFO - Response received from Medscape API.
+2024-10-25 13:55:09,129 - INFO - Response data decoded into dictionary.
+2024-10-25 13:55:09,129 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-25 13:55:09,670 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-25 13:55:09,670 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-25 13:55:09,782 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-25 13:55:09,782 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 13:55:10,150 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 13:55:10,150 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 13:55:10,267 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 13:55:10,267 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 13:55:10,626 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 13:55:10,626 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-25 13:55:10,745 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-25 13:55:10,745 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-25 13:55:11,102 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-25 13:55:11,102 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-25 13:55:11,219 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-25 13:55:11,219 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-25 13:55:11,580 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-25 13:55:11,580 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-25 13:55:11,690 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-25 13:55:11,690 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-25 13:55:12,058 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-25 13:55:12,059 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-25 13:55:12,173 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-25 13:55:12,174 - INFO - No new data to update.
+2024-10-25 13:55:12,174 - INFO - Medscape script completed.
