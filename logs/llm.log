@@ -14935,3 +14935,45 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-25 13:55:21,306 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-25 13:55:21,306 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-25 13:55:21,306 - INFO - No valid log entries generated.
+2024-10-25 14:23:57,353 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-25 14:23:57,357 - INFO - Extracted 245 link records from llm.
+2024-10-25 14:23:57,661 - INFO - Extracted 253 link records from combined_news.
+2024-10-25 14:23:57,662 - INFO - Unique links to process: 8
+2024-10-25 14:23:57,663 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-25 14:23:57,663 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 14:23:57,663 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-25 14:23:57,663 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 14:23:57,663 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 14:23:57,663 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-25 14:24:08,558 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 14:24:12,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 14:24:16,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 14:24:16,081 - INFO - Image query: A photorealistic image set in a pediatric examination room. A concerned pediatrician, a woman in her 30s with brown hair tied back, is gently examining a 5-month-old premature infant lying on an examination table. The infant has a visible erythematous, scaly rash on their arms and torso, showcasing the severity of the condition. The pediatrician is wearing a white coat and is focused intently on the infant, using a penlight to assess the rash closely. Nearby, a nurse, a middle-aged man with glasses, is preparing a syringe with zinc supplementation, symbolizing the treatment approach. The room is bright and colorful, adorned with cheerful wall decals of animals, creating a comforting environment for children. A chart on the wall displays normal zinc levels, subtly emphasizing the importance of zinc in infant health. The composition captures a medium close-up angle, focusing on the interaction between the pediatrician and the infant, highlighting the urgency and care involved in diagnosing and treating unusual rashes in vulnerable patients. The overall mood conveys a sense of hope and determination, reflecting the critical nature of recognizing zinc deficiency in infants.
+2024-10-25 14:24:16,397 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-25 14:24:16,438 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:16,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:16,719 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:16,858 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:16,997 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:17,137 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:17,277 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:17,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:17,557 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:17,697 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:17,836 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:17,974 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:18,112 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:18,252 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:18,391 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:18,529 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:18,670 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:18,808 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:18,950 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 14:24:19,089 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9/status?logs=false "HTTP/1.1 200 OK"
+2024-10-25 14:24:19,126 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/651a44c7-256e-4b19-b884-a4a103245fd9 "HTTP/1.1 200 OK"
+2024-10-25 14:24:19,127 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/Ge-XcPeZOSTKkOuAyJWgF.png
+2024-10-25 14:24:19,127 - INFO - Image link: https://fal.media/files/panda/Ge-XcPeZOSTKkOuAyJWgF.png
+2024-10-25 14:24:19,128 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-25 14:24:19,128 - INFO - Sending 1 log entries to Firebase.
+2024-10-25 14:24:22,483 - INFO - Received 1 document IDs from Peerr.
+2024-10-25 14:24:22,608 - INFO - Logged data to llm collection with FirestoreID: d4bb649584106190ce3236a8974ff43d.
