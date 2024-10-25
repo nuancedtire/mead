@@ -23781,3 +23781,36 @@
 2024-10-25 12:46:33,839 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
 2024-10-25 12:46:33,840 - INFO - No new data to update.
 2024-10-25 12:46:33,840 - INFO - Medscape script completed.
+2024-10-25 13:16:22,554 - INFO - Medscape script started.
+2024-10-25 13:16:22,555 - INFO - Connection to Medscape established.
+2024-10-25 13:16:22,577 - INFO - Request sent to Medscape API.
+2024-10-25 13:16:23,236 - INFO - Response received from Medscape API.
+2024-10-25 13:16:23,237 - INFO - Response data decoded into dictionary.
+2024-10-25 13:16:23,237 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-25 13:16:24,332 - INFO - Fetching URL: http://r.jina.ai/medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-25 13:16:30,960 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 13:16:30,970 - INFO - Found source link: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(24)00389-4/fulltext
+2024-10-25 13:16:30,971 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-25 13:16:31,150 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-25 13:16:31,151 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 13:16:31,893 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 13:16:31,893 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 13:16:32,062 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 13:16:32,062 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 13:16:32,974 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 13:16:32,974 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-25 13:16:33,156 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-25 13:16:33,156 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-25 13:16:33,888 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-vulnerable-children-make-most-paediatric-covid-2024a1000j53
+2024-10-25 13:16:33,888 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-25 13:16:34,074 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-disorders-common-among-people-type-2-diabetes-2024a1000jbq
+2024-10-25 13:16:34,074 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-25 13:16:34,810 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-groups-advise-tiered-management-ckd-t2d-2024a1000j4u
+2024-10-25 13:16:34,810 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-25 13:16:34,986 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/increasingly-popular-hormonal-contraceptive-linked-breast-2024a1000izb
+2024-10-25 13:16:34,987 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-25 13:16:35,717 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/does-intake-processed-foods-lead-breast-cancer-2024a1000iwq
+2024-10-25 13:16:35,717 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-25 13:16:35,894 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/which-febrile-infants-are-lower-risk-invasive-bacterial-2024a1000j1a
+2024-10-25 13:16:36,659 - INFO - Successfully updated Firestore with 1 items.
+2024-10-25 13:16:36,659 - INFO - Medscape script completed.

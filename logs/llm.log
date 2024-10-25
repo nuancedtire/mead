@@ -14873,3 +14873,41 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-25 12:47:53,472 - INFO - Sending 1 log entries to Firebase.
 2024-10-25 12:47:56,997 - INFO - Received 1 document IDs from Peerr.
 2024-10-25 12:47:57,114 - INFO - Logged data to llm collection with FirestoreID: ea3f09ce8f0a76243ae00a5f99c62f9f.
+2024-10-25 13:16:48,724 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-25 13:16:48,728 - INFO - Extracted 244 link records from llm.
+2024-10-25 13:16:49,490 - INFO - Extracted 252 link records from combined_news.
+2024-10-25 13:16:49,491 - INFO - Unique links to process: 8
+2024-10-25 13:16:49,491 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-25 13:17:05,396 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 13:17:07,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 13:17:11,062 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 13:17:11,066 - INFO - Image query: A photorealistic image set in a modern medical office. A middle-aged female doctor, wearing a white lab coat, stands beside a large window, holding a clipboard with charts and data on alcohol consumption and dementia risk. She has a concerned yet thoughtful expression as she looks towards a middle-aged male patient, seated in a comfortable chair, who appears contemplative and slightly anxious. The patient, dressed casually, is resting his hands on his knees, reflecting on the discussion. On the desk nearby, an open medical textbook and a glass of water symbolize the importance of informed choices. The room is illuminated with soft, natural light, creating a warm atmosphere that contrasts with the serious topic at hand. A wall-mounted chart displays statistics related to alcohol consumption and dementia, subtly emphasizing the study's findings. The composition captures a medium shot, focusing on the interaction between the doctor and patient, highlighting the urgency of reevaluating alcohol consumption guidelines for brain health. The overall mood conveys a blend of concern and professionalism, reflecting the critical nature of the conversation about alcohol's impact on cognitive health.
+2024-10-25 13:17:11,298 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-25 13:17:11,363 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:11,528 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:11,693 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:11,895 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:12,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:12,227 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:12,392 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:12,559 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:12,724 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:12,889 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:13,055 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:13,222 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:13,389 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:13,554 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:13,720 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 13:17:13,884 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96/status?logs=false "HTTP/1.1 200 OK"
+2024-10-25 13:17:13,950 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/68194c0e-a524-46ec-bbc8-7db114ee2c96 "HTTP/1.1 200 OK"
+2024-10-25 13:17:13,950 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/G6Zfzl-14My_R7-0dq9JD.png
+2024-10-25 13:17:13,950 - INFO - Image link: https://fal.media/files/tiger/G6Zfzl-14My_R7-0dq9JD.png
+2024-10-25 13:17:13,951 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 13:17:13,951 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-25 13:17:13,952 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 13:17:13,952 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 13:17:13,952 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-25 13:17:13,952 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-25 13:17:13,952 - INFO - Sending 1 log entries to Firebase.
+2024-10-25 13:17:17,581 - INFO - Received 1 document IDs from Peerr.
+2024-10-25 13:17:17,795 - INFO - Logged data to llm collection with FirestoreID: 471f64a66958363e01f829de211dca85.
