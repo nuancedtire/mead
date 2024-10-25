@@ -14821,3 +14821,55 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-25 11:55:24,590 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-25 11:55:24,590 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-25 11:55:24,590 - INFO - No valid log entries generated.
+2024-10-25 12:46:42,658 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-25 12:46:42,662 - INFO - Extracted 243 link records from llm.
+2024-10-25 12:46:42,967 - INFO - Extracted 251 link records from combined_news.
+2024-10-25 12:46:42,968 - INFO - Unique links to process: 8
+2024-10-25 12:46:54,304 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-25 12:46:54,304 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-25 12:47:03,028 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 12:47:03,046 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-10-25 12:47:03,047 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 12:47:07,521 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-25 12:47:07,522 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-25 12:47:11,212 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 12:47:11,217 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-10-25 12:47:11,218 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 12:47:14,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 12:47:14,508 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-10-25 12:47:14,508 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 12:47:25,212 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-25 12:47:25,212 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-25 12:47:30,443 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-25 12:47:30,443 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-25 12:47:42,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 12:47:48,177 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 12:47:50,702 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 12:47:50,707 - INFO - Image query: A photorealistic image set in a modern hospital's cardiology department. In the foreground, a diverse group of healthcare professionals, including a middle-aged Asian male doctor in a white coat and a young Black female nurse, are gathered around a high-tech ECG machine displaying a colorful waveform on its screen. The doctor points at the screen, discussing the data with the nurse, who looks intrigued and engaged. In the background, a large window allows natural light to flood the room, illuminating a patient lying on a hospital bed, connected to various monitoring devices, with a calm expression, symbolizing hope and care. The walls are adorned with medical charts and posters about heart health, subtly emphasizing the focus on cardiac care. The composition captures a dynamic angle, highlighting the collaboration between the medical team and the advanced technology, while conveying a sense of urgency and optimism about the future of heart health through AI. The overall mood is one of innovation and dedication, reflecting the transformative potential of AI in improving patient outcomes and resource management in the NHS.
+2024-10-25 12:47:50,850 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-25 12:47:50,883 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,018 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,149 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,282 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,414 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,546 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,678 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,841 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:51,975 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:52,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:52,244 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:52,376 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:52,507 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:52,639 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:52,771 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:52,902 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:53,038 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:53,173 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:53,306 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 12:47:53,439 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277/status?logs=false "HTTP/1.1 200 OK"
+2024-10-25 12:47:53,470 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e1051692-8f75-457d-b8e2-05128a654277 "HTTP/1.1 200 OK"
+2024-10-25 12:47:53,471 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/jHlgJkdLH21F2OsPBDmbq.png
+2024-10-25 12:47:53,471 - INFO - Image link: https://fal.media/files/lion/jHlgJkdLH21F2OsPBDmbq.png
+2024-10-25 12:47:53,472 - INFO - Sending 1 log entries to Firebase.
+2024-10-25 12:47:56,997 - INFO - Received 1 document IDs from Peerr.
+2024-10-25 12:47:57,114 - INFO - Logged data to llm collection with FirestoreID: ea3f09ce8f0a76243ae00a5f99c62f9f.
