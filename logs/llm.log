@@ -14468,3 +14468,76 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-25 04:19:47,405 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-25 04:19:47,405 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-25 04:19:47,405 - INFO - No valid log entries generated.
+2024-10-25 06:20:07,808 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-25 06:20:07,812 - INFO - Extracted 238 link records from llm.
+2024-10-25 06:20:08,118 - INFO - Extracted 248 link records from combined_news.
+2024-10-25 06:20:08,119 - INFO - Unique links to process: 10
+2024-10-25 06:20:08,119 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-25 06:20:17,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:20:20,793 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:20:23,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:20:23,551 - INFO - Image query: A photorealistic image set in a modern hospital room designed for patient care. In the foreground, a middle-aged neurologist in a white coat stands beside a hospital bed, attentively discussing treatment options with an elderly female patient, approximately 75 years old, who is sitting up in bed with a look of hope and curiosity. The patient has a gentle smile, and her hands are resting on a sleek infusion pump that is discreetly attached to her arm, symbolizing the new Vyalev therapy. The room is bright and welcoming, with soft natural light streaming through a large window, illuminating the space and casting gentle shadows. On the bedside table, there are informational brochures about Parkinson’s disease and the new treatment, alongside a glass of water and a small potted plant, adding a touch of warmth. In the background, a digital display shows vital signs, emphasizing the advanced medical technology in use. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the excitement and optimism surrounding this breakthrough in Parkinson’s care. The overall mood conveys a sense of hope and innovation, reflecting the transformative potential of Vyalev for patients with advanced Parkinson's disease.
+2024-10-25 06:20:23,760 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-25 06:20:23,797 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:23,932 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:24,069 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:24,206 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:24,341 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:24,561 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:24,696 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:24,832 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:24,967 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:25,102 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:25,239 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:25,375 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:25,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:25,650 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:25,787 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:25,921 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:26,058 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:26,197 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:26,336 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb/status?logs=false "HTTP/1.1 200 OK"
+2024-10-25 06:20:26,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/84e0dab1-4cd9-4d56-9487-eedcf950c3eb "HTTP/1.1 200 OK"
+2024-10-25 06:20:26,371 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/bh37Rr7rMBOAUsqshzN7H.png
+2024-10-25 06:20:26,371 - INFO - Image link: https://fal.media/files/panda/bh37Rr7rMBOAUsqshzN7H.png
+2024-10-25 06:20:26,372 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-25 06:20:26,372 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-25 06:20:32,535 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:20:35,334 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:20:38,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:20:38,390 - INFO - Image query: A photorealistic image set in a modern oncology treatment room. A diverse group of healthcare professionals, including a middle-aged female oncologist in a white lab coat, a young male nurse in scrubs, and an elderly male patient around 65 years old, are gathered around a treatment chair. The oncologist is explaining the new subcutaneous regimen with a confident and hopeful expression, while the patient listens intently, showing a mix of curiosity and cautious optimism. The nurse stands beside the patient, preparing a syringe with the new formulation of DARZALEX, symbolizing the innovative treatment approach. The room is bright and well-organized, with medical charts and a digital display showing treatment protocols on the wall. Soft natural light streams through a window, creating a warm atmosphere that contrasts with the seriousness of the discussion. The composition captures a medium close-up angle, focusing on the interaction between the oncologist and the patient, highlighting the transformative potential of the new treatment regimen for multiple myeloma. The overall mood conveys a sense of hope and urgency, reflecting the significant advancements in cancer care and the importance of personalized treatment strategies.
+2024-10-25 06:20:38,484 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-25 06:20:38,519 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:38,654 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:38,786 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:38,920 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:39,052 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:39,183 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:39,316 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:39,449 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:39,625 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:39,758 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:39,890 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,023 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,155 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,287 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,551 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,684 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,815 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:40,946 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-25 06:20:41,081 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90/status?logs=false "HTTP/1.1 200 OK"
+2024-10-25 06:20:41,111 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/72a9e36a-990e-4f23-8255-85fb52a2fc90 "HTTP/1.1 200 OK"
+2024-10-25 06:20:41,112 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/kC8nDFMDH5sAt6YZpo8d3.png
+2024-10-25 06:20:41,112 - INFO - Image link: https://fal.media/files/panda/kC8nDFMDH5sAt6YZpo8d3.png
+2024-10-25 06:20:45,207 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-25 06:20:45,213 - INFO - No article found for link https://www.clinicaltrialsarena.com/news/luna-diabetes-trials-automated-wearable-insulin-pump-2/.
+2024-10-25 06:20:45,213 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.clinicaltrialsarena.com/news/luna-diabetes-trials-automated-wearable-insulin-pump-2/
+2024-10-25 06:20:45,213 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-25 06:20:45,213 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-25 06:20:45,213 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-25 06:20:45,213 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-25 06:20:45,214 - INFO - Sending 2 log entries to Firebase.
+2024-10-25 06:20:48,245 - INFO - Received 2 document IDs from Peerr.
+2024-10-25 06:20:48,785 - INFO - Logged data to llm collection with FirestoreID: 3b230189fe648bfc49610cfda81e91d6.
+2024-10-25 06:20:48,911 - INFO - Logged data to llm collection with FirestoreID: 84c1aed96bc0da3053f3081bcaf1c516.
