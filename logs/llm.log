@@ -15444,3 +15444,22 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-27 11:14:30,576 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-27 11:14:30,576 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-27 11:14:30,576 - INFO - No valid log entries generated.
+2024-10-27 13:21:52,470 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-27 13:21:52,473 - INFO - Extracted 246 link records from llm.
+2024-10-27 13:21:53,187 - INFO - Extracted 253 link records from combined_news.
+2024-10-27 13:21:53,187 - INFO - Unique links to process: 7
+2024-10-27 13:21:56,755 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-27 13:21:56,756 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-27 13:21:59,105 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-10-27 13:21:59,105 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-27 13:22:01,014 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-27 13:22:01,015 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-27 13:22:03,918 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-10-27 13:22:03,918 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-27 13:22:06,762 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-10-27 13:22:06,763 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-27 13:22:12,346 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-27 13:22:12,346 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-27 13:22:18,754 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-27 13:22:18,754 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-27 13:22:18,754 - INFO - No valid log entries generated.
