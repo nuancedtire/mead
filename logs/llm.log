@@ -16010,3 +16010,74 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-28 13:33:43,300 - INFO - Sending 1 log entries to Firebase.
 2024-10-28 13:33:46,650 - INFO - Received 1 document IDs from Peerr.
 2024-10-28 13:33:46,813 - INFO - Logged data to llm collection with FirestoreID: 2af9a2bd2f3f1b15405ae82c19dde7a1.
+2024-10-28 13:55:38,024 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-28 13:55:38,027 - INFO - Extracted 252 link records from llm.
+2024-10-28 13:55:38,347 - INFO - Extracted 262 link records from combined_news.
+2024-10-28 13:55:38,348 - INFO - Unique links to process: 10
+2024-10-28 13:55:49,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 13:55:52,488 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 13:55:55,781 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 13:55:55,785 - INFO - Image query: A photorealistic image set in a modern NHS hospital conference room. A diverse group of five healthcare professionals, including a middle-aged female project manager, a young male IT specialist, an elderly male doctor, a middle-aged female nurse, and a young female data analyst, are gathered around a sleek, oval conference table. They are engaged in a dynamic discussion, with laptops and digital tablets open in front of them, displaying graphs and EPR interfaces. The project manager, with a focused expression, points at a digital screen displaying a flowchart of the EPR implementation process, while the IT specialist takes notes. The doctor leans in, showing interest, and the nurse nods in agreement, indicating collaboration and teamwork. The room is brightly lit with large windows allowing natural light to flood in, creating an atmosphere of innovation and urgency. On the wall, a large digital display showcases the NHS logo alongside the text "Tiger Teams Initiative," symbolizing the importance of this new approach. The composition captures a medium shot angle, emphasizing the collaborative spirit and the critical nature of the EPR rollout initiative. The overall mood conveys excitement and determination, reflecting the potential impact of the tiger teams on enhancing digital capabilities in healthcare.
+2024-10-28 13:55:55,932 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-28 13:55:55,970 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:56,108 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:56,244 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:56,381 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:56,518 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:56,655 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:56,792 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:56,930 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:57,069 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:57,204 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:57,340 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:57,476 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:57,614 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:57,752 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:57,888 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:58,026 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:58,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:58,301 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:58,439 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:55:58,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1/status?logs=false "HTTP/1.1 200 OK"
+2024-10-28 13:55:58,612 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a93d4249-30f0-4207-967b-fe56d0e98fb1 "HTTP/1.1 200 OK"
+2024-10-28 13:55:58,612 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/KhWtGqHJxDVPcrNxWChsH.png
+2024-10-28 13:55:58,612 - INFO - Image link: https://fal.media/files/zebra/KhWtGqHJxDVPcrNxWChsH.png
+2024-10-28 13:55:58,613 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-28 13:56:07,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 13:56:10,469 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 13:56:13,084 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 13:56:13,088 - INFO - Image query: A photorealistic image set in a modern oncology research lab. In the foreground, a diverse team of three medical researchers—two women (one of Asian descent and one of Black descent) and one Caucasian male—are gathered around a high-tech laboratory table cluttered with test tubes, molecular models, and a laptop displaying complex data graphs. The male researcher, wearing a lab coat and safety goggles, points to a molecular structure on the screen, while the two women lean in, their expressions focused and engaged, indicating a collaborative discussion about gastric cancer subtypes. In the background, a large window allows natural light to flood the room, illuminating shelves filled with scientific journals and research papers on gastric cancer. A poster on the wall highlights the molecular subgroups of gastric cancer, featuring colorful diagrams and key terms like "Claudin 18.2" and "HER2." The composition captures a dynamic angle, emphasizing teamwork and innovation in cancer research. The overall mood conveys a sense of urgency and hope, reflecting the transformative potential of personalized medicine and targeted therapies in improving patient outcomes for gastric cancer.
+2024-10-28 13:56:13,214 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-28 13:56:13,255 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:13,396 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:13,534 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:13,674 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:13,815 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:13,957 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:14,096 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:14,236 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:14,375 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:14,514 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:14,655 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:14,795 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:14,935 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:15,074 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:15,212 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:15,352 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:15,491 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:15,632 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 13:56:15,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651/status?logs=false "HTTP/1.1 200 OK"
+2024-10-28 13:56:15,812 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/0e18adb4-a1c7-4ec1-a5c4-ace97d87f651 "HTTP/1.1 200 OK"
+2024-10-28 13:56:15,813 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/96QnHO7Tn4XoGiQt_dMLn.png
+2024-10-28 13:56:15,813 - INFO - Image link: https://fal.media/files/rabbit/96QnHO7Tn4XoGiQt_dMLn.png
+2024-10-28 13:56:15,813 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-28 13:56:15,813 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-28 13:56:15,813 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-28 13:56:15,814 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-28 13:56:15,814 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-28 13:56:15,814 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-28 13:56:15,814 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-28 13:56:15,814 - INFO - Sending 2 log entries to Firebase.
+2024-10-28 13:56:19,285 - INFO - Received 2 document IDs from Peerr.
+2024-10-28 13:56:19,430 - INFO - Logged data to llm collection with FirestoreID: 06b88a448e26aed168c46bcfb17cf8bd.
+2024-10-28 13:56:19,785 - INFO - Logged data to llm collection with FirestoreID: 30f47db1b40dc217f34d7755c039c846.
