@@ -15864,3 +15864,50 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-28 10:59:41,929 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-28 10:59:41,929 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-28 10:59:41,929 - INFO - No valid log entries generated.
+2024-10-28 11:23:10,531 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-28 11:23:10,534 - INFO - Extracted 250 link records from llm.
+2024-10-28 11:23:10,826 - INFO - Extracted 260 link records from combined_news.
+2024-10-28 11:23:10,827 - INFO - Unique links to process: 10
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: https://www.cancernetwork.com/view/different-treatment-algorithms-for-gastric-cancers-may-improve-outcomes
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-28 11:23:10,828 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-28 11:23:22,446 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 11:23:25,231 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 11:23:27,284 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-28 11:23:27,288 - INFO - Image query: A photorealistic image set in a modern hospital room, featuring a middle-aged female cardiologist in a white lab coat, attentively reviewing data on a tablet. She stands beside a hospital bed where an elderly male patient, around 75 years old, is comfortably resting. The patient has a cardiac implantable electronic device (CIED) visible on his chest, symbolizing the use of remote monitoring tools. The room is bright and well-organized, with medical equipment such as a heart monitor displaying vital signs in the background. A large window allows natural light to flood the space, creating a warm and hopeful atmosphere. The cardiologist's expression is focused and determined, reflecting her commitment to patient care and the innovative technologies at her disposal. The composition captures a medium shot, emphasizing the interaction between the doctor and patient, while also showcasing the advanced medical technology that represents the future of heart failure management. The overall mood conveys optimism and urgency, highlighting the potential impact of remote monitoring tools on reducing hospitalizations and improving healthcare outcomes in the NHS.
+2024-10-28 11:23:27,422 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-28 11:23:27,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:27,592 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:27,727 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:27,861 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:27,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:28,125 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:28,261 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:28,398 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:28,530 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:28,661 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:28,808 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:28,940 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:29,072 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:29,207 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:29,342 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:29,478 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:29,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:29,744 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:29,876 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:30,010 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:30,143 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:30,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-28 11:23:30,409 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99/status?logs=false "HTTP/1.1 200 OK"
+2024-10-28 11:23:30,440 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c593993d-21a7-4dfa-a9b0-56501bf83b99 "HTTP/1.1 200 OK"
+2024-10-28 11:23:30,441 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/xR-kO9iYQCykwZmgJE-tT.png
+2024-10-28 11:23:30,441 - INFO - Image link: https://fal.media/files/lion/xR-kO9iYQCykwZmgJE-tT.png
+2024-10-28 11:23:30,441 - INFO - Sending 1 log entries to Firebase.
+2024-10-28 11:23:33,636 - INFO - Received 1 document IDs from Peerr.
+2024-10-28 11:23:33,781 - INFO - Logged data to llm collection with FirestoreID: fe76d0285b6e6a6c59cd87bea0f3da07.
