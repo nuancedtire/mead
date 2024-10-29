@@ -16389,3 +16389,85 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-29 06:20:58,477 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-29 06:20:58,477 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-29 06:20:58,477 - INFO - No valid log entries generated.
+2024-10-29 08:19:34,261 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-29 08:19:34,264 - INFO - Extracted 254 link records from llm.
+2024-10-29 08:19:34,996 - INFO - Extracted 265 link records from combined_news.
+2024-10-29 08:19:34,996 - INFO - Unique links to process: 11
+2024-10-29 08:19:39,485 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-29 08:19:39,485 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-29 08:19:56,551 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:03,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:06,832 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:06,837 - INFO - Image query: A photorealistic image set in a modern diabetes clinic. A young female endocrinologist in a white lab coat stands beside a consultation table, holding a tablet displaying glucose monitoring data. She is engaged in conversation with a middle-aged male patient, who appears to be in his 40s, seated across from her. The patient looks concerned yet curious, with a slight furrow in his brow as he listens intently. On the table, there are various diabetes management tools, including a blood glucose meter and a box of insulin pens, symbolizing the complexity of diabetes care. The room is bright and airy, with large windows allowing natural light to illuminate the space, creating a warm and inviting atmosphere. A poster on the wall illustrates the mechanisms of action for GLP-1RAs and SGLT2 inhibitors, subtly highlighting the topic of off-label drug use in type 1 diabetes. The composition captures a medium close-up angle, focusing on the dynamic interaction between the doctor and patient, emphasizing the importance of discussing the risks and benefits of off-label medications. The overall mood conveys a sense of urgency and care, reflecting the critical nature of informed decision-making in diabetes management.
+2024-10-29 08:20:07,179 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-29 08:20:07,234 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:07,393 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:07,548 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:07,702 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:07,858 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:08,018 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:08,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:08,329 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:08,484 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:08,639 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:08,796 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:08,950 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:09,107 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:09,263 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:09,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:09,580 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:09,736 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:09,890 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c/status?logs=false "HTTP/1.1 200 OK"
+2024-10-29 08:20:09,946 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d1a8f8b6-7a98-4869-8d2d-b73594dc1c7c "HTTP/1.1 200 OK"
+2024-10-29 08:20:09,946 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/nHSdh6C19TjvPnD8xybbi.png
+2024-10-29 08:20:09,947 - INFO - Image link: https://fal.media/files/tiger/nHSdh6C19TjvPnD8xybbi.png
+2024-10-29 08:20:13,312 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:13,318 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-10-29 08:20:13,319 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-29 08:20:15,784 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-29 08:20:15,785 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-29 08:20:20,553 - INFO - No article found for link https://www.firstwordpharma.com/story/5906990.
+2024-10-29 08:20:20,554 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5906990
+2024-10-29 08:20:23,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:24,000 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-10-29 08:20:24,000 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-29 08:20:27,656 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:27,660 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-10-29 08:20:27,660 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-29 08:20:31,513 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:31,518 - INFO - No article found for link https://pharmaphorum.com/news/astellas-pulls-geographic-atrophy-drug-filing-eu.
+2024-10-29 08:20:31,518 - WARNING - Skipping entry due to missing or invalid log entry for link: https://pharmaphorum.com/news/astellas-pulls-geographic-atrophy-drug-filing-eu
+2024-10-29 08:20:47,622 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:51,683 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:54,379 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 08:20:54,384 - INFO - Image query: A photorealistic image set in a modern gastroenterology clinic. A middle-aged female gastroenterologist, wearing a white lab coat and glasses, stands beside a sleek examination table, discussing treatment options with a middle-aged male patient who appears to be in his late 50s. The patient, with a thoughtful expression, is seated on the examination table, dressed in a casual shirt, and is looking up at the doctor, indicating engagement in the conversation. A digital tablet displaying medical data is in the doctor's hand, while a poster on the wall illustrates the liver anatomy, subtly emphasizing the focus on liver health and hepatic encephalopathy. The room is brightly lit with natural light streaming through a large window, creating a welcoming atmosphere. Medical equipment, such as a blood pressure monitor and a model of the liver, is neatly arranged on a nearby counter. The composition captures a medium close-up angle, focusing on the interaction between the doctor and patient, highlighting the importance of discussing innovative treatment options like rifaximin for managing hepatic encephalopathy. The overall mood conveys a sense of hope and professionalism, reflecting the potential impact of rifaximin in improving patient outcomes.
+2024-10-29 08:20:54,573 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-29 08:20:54,629 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:54,787 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:54,942 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:55,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:55,255 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:55,412 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:55,568 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:55,724 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:55,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:56,039 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:56,195 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:56,350 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:56,505 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:56,663 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:56,820 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:56,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:57,136 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 08:20:57,294 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2/status?logs=false "HTTP/1.1 200 OK"
+2024-10-29 08:20:57,348 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1dfeb420-5fb9-4212-ab37-2dae070a21e2 "HTTP/1.1 200 OK"
+2024-10-29 08:20:57,348 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/PmoYs45OSoMCGF95kheE3.png
+2024-10-29 08:20:57,348 - INFO - Image link: https://fal.media/files/zebra/PmoYs45OSoMCGF95kheE3.png
+2024-10-29 08:21:08,457 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-29 08:21:08,457 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-29 08:21:11,630 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-29 08:21:11,630 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-29 08:21:11,630 - INFO - Sending 2 log entries to Firebase.
+2024-10-29 08:21:14,962 - INFO - Received 2 document IDs from Peerr.
+2024-10-29 08:21:15,195 - INFO - Logged data to llm collection with FirestoreID: 159ddfcb301514113a9bb74a265ca068.
+2024-10-29 08:21:15,897 - INFO - Logged data to llm collection with FirestoreID: cb647da90c85e79cc8d627a5114affe6.

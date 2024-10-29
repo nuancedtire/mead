@@ -4008,3 +4008,9 @@
 2024-10-29 06:20:40,768 - INFO - Search phrase found and content trimmed.
 2024-10-29 06:20:41,538 - INFO - Data saved to Firestore. Total items: 1.
 2024-10-29 06:20:41,538 - INFO - Sifted script completed.
+2024-10-29 08:19:03,250 - INFO - Sifted script started.
+2024-10-29 08:19:08,842 - INFO - Successfully fetched data from URL.
+2024-10-29 08:19:08,842 - INFO - Search phrase found and content trimmed.
+2024-10-29 08:19:08,842 - WARNING - No titles, links, or dates found in the content. Possible webpage structure change.
+2024-10-29 08:19:09,925 - INFO - Data saved to Firestore. Total items: 0.
+2024-10-29 08:19:09,925 - INFO - Sifted script completed.
