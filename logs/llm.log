@@ -16697,3 +16697,50 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-29 11:22:15,715 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-29 11:22:15,715 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-29 11:22:15,715 - INFO - No valid log entries generated.
+2024-10-29 11:42:14,983 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-29 11:42:14,987 - INFO - Extracted 260 link records from llm.
+2024-10-29 11:42:15,471 - INFO - Extracted 270 link records from combined_news.
+2024-10-29 11:42:15,472 - INFO - Unique links to process: 10
+2024-10-29 11:42:15,472 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-29 11:42:15,472 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-29 11:42:15,472 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-29 11:42:15,472 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-29 11:42:15,472 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-29 11:42:33,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 11:42:38,566 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 11:42:41,405 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 11:42:41,409 - INFO - Image query: A photorealistic image set in a modern healthcare environment, showcasing a diverse group of healthcare professionals engaged in a collaborative meeting. In the foreground, a middle-aged female doctor with glasses and a lab coat is animatedly discussing a digital tablet displaying data analytics, while a young male nurse in scrubs nods in agreement. Behind them, a large screen on the wall shows a visual representation of AI technology in healthcare, with graphs and statistics highlighting time savings and error reductions. The room is bright and well-lit, with large windows allowing natural light to flood in, creating an atmosphere of innovation and teamwork. On a nearby table, a sleek laptop is open, displaying the interface of the new AI assistant tool, symbolizing the integration of technology in patient care. The composition captures a dynamic angle, focusing on the engaged expressions of the healthcare professionals, emphasizing the excitement and potential of AI in transforming healthcare practices. The overall mood conveys optimism and forward-thinking, reflecting the significant impact of these technological advancements on patient care and administrative efficiency.
+2024-10-29 11:42:41,869 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-29 11:42:41,889 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,010 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,129 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,248 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,367 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,486 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,726 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,844 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:42,961 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,078 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,196 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,319 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,437 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,557 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,674 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,792 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:43,913 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:44,031 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:44,149 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:44,268 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:44,387 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-29 11:42:44,504 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f/status?logs=false "HTTP/1.1 200 OK"
+2024-10-29 11:42:44,520 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c79fbb73-5a47-4d0c-9173-bb9de75ae71f "HTTP/1.1 200 OK"
+2024-10-29 11:42:44,520 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/Q7gMq2mW-KYwO4fvUcNGH.png
+2024-10-29 11:42:44,520 - INFO - Image link: https://fal.media/files/panda/Q7gMq2mW-KYwO4fvUcNGH.png
+2024-10-29 11:42:44,521 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-29 11:42:44,521 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/astellas-pulls-geographic-atrophy-drug-filing-eu
+2024-10-29 11:42:44,521 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-29 11:42:44,521 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-29 11:42:44,521 - INFO - Sending 1 log entries to Firebase.
+2024-10-29 11:42:47,793 - INFO - Received 1 document IDs from Peerr.
+2024-10-29 11:42:47,956 - INFO - Logged data to llm collection with FirestoreID: aedb18c3db7c6b2cc8a0aa14414c4ae4.
