@@ -17421,3 +17421,50 @@ In the background, a busy reception area is visible, with other patients and sta
 2024-10-30 08:22:33,500 - INFO - Logged data to llm collection with FirestoreID: 87ca2810ef69fb8175662bcb5c0b5a8c.
 2024-10-30 08:22:33,930 - INFO - Logged data to llm collection with FirestoreID: 9fe42fa9e2bb7f6fab8c2e38a2f2ad30.
 2024-10-30 08:22:34,081 - INFO - Logged data to llm collection with FirestoreID: d3f81f30e11bbebb4115b8c43fd5368e.
+2024-10-30 09:26:43,305 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-30 09:26:43,308 - INFO - Extracted 270 link records from llm.
+2024-10-30 09:26:43,942 - INFO - Extracted 279 link records from combined_news.
+2024-10-30 09:26:43,943 - INFO - Unique links to process: 9
+2024-10-30 09:26:43,943 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-30 09:26:43,943 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-30 09:26:43,943 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-30 09:26:43,943 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-30 09:26:43,943 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-30 09:26:58,144 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 09:27:01,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 09:27:04,481 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 09:27:04,487 - INFO - Image query: A photorealistic image set in a modern maternity clinic. A diverse group of healthcare professionals, including a female obstetrician in a white coat and a male nurse in scrubs, are gathered around a high-tech digital display showing data analytics related to maternity care outcomes. The obstetrician, with a focused expression, points at the screen while discussing insights with the nurse, who is taking notes on a tablet. In the foreground, a pregnant woman, around 30 years old, sits comfortably in a consultation chair, looking engaged and empowered as she listens to the discussion. Soft, warm lighting fills the room, creating a welcoming atmosphere, while a large window allows natural light to illuminate the space. On the walls, posters depict healthy pregnancy practices and the benefits of AI in healthcare. The composition captures a medium shot, emphasizing the collaborative environment and the integration of technology in maternity care. The overall mood conveys optimism and innovation, highlighting the potential of AI to enhance maternity outcomes and empower women in their healthcare decisions.
+2024-10-30 09:27:04,727 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-30 09:27:04,745 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:04,864 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:04,982 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,098 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,217 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,334 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,491 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,729 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,847 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:05,964 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,083 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,201 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,320 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,437 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,554 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,673 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,792 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:06,909 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:07,027 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:07,145 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:07,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 09:27:07,381 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7/status?logs=false "HTTP/1.1 200 OK"
+2024-10-30 09:27:07,399 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/f9804a86-1447-404d-84ab-27bcbc5196f7 "HTTP/1.1 200 OK"
+2024-10-30 09:27:07,399 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/mD-kO8RbN-4Q4X8JEsinl.png
+2024-10-30 09:27:07,400 - INFO - Image link: https://fal.media/files/panda/mD-kO8RbN-4Q4X8JEsinl.png
+2024-10-30 09:27:07,400 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-30 09:27:07,400 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-30 09:27:12,228 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-30 09:27:12,229 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-30 09:27:12,229 - INFO - Sending 1 log entries to Firebase.
+2024-10-30 09:27:15,439 - INFO - Received 1 document IDs from Peerr.
+2024-10-30 09:27:15,608 - INFO - Logged data to llm collection with FirestoreID: b17ce4e3db7206bb529ee957af63fc3e.
