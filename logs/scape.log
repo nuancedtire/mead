@@ -27196,3 +27196,34 @@
 2024-10-30 04:18:00,018 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
 2024-10-30 04:18:00,018 - INFO - No new data to update.
 2024-10-30 04:18:00,018 - INFO - Medscape script completed.
+2024-10-30 06:24:42,687 - INFO - Medscape script started.
+2024-10-30 06:24:42,687 - INFO - Connection to Medscape established.
+2024-10-30 06:24:42,848 - INFO - Request sent to Medscape API.
+2024-10-30 06:24:43,526 - INFO - Response received from Medscape API.
+2024-10-30 06:24:43,527 - INFO - Response data decoded into dictionary.
+2024-10-30 06:24:43,527 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/early-t2d-diagnosis-heightens-risks-complications-death-2024a1000jm3
+2024-10-30 06:24:44,505 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/early-t2d-diagnosis-heightens-risks-complications-death-2024a1000jm3
+2024-10-30 06:24:44,536 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/breast-cancer-may-increase-risk-type-2-diabetes-2024a1000jhu
+2024-10-30 06:24:44,715 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/breast-cancer-may-increase-risk-type-2-diabetes-2024a1000jhu
+2024-10-30 06:24:44,715 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/omega-3-supplementation-may-increase-risk-profuse-post-2024a1000jlg
+2024-10-30 06:24:45,366 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/omega-3-supplementation-may-increase-risk-profuse-post-2024a1000jlg
+2024-10-30 06:24:45,367 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/dietary-nitrate-may-prevent-restenosis-2024a1000jfu
+2024-10-30 06:24:45,542 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/dietary-nitrate-may-prevent-restenosis-2024a1000jfu
+2024-10-30 06:24:45,542 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/explore-breadth-and-depth-general-practice-guidelines-live-2024a1000iwu
+2024-10-30 06:24:46,197 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/explore-breadth-and-depth-general-practice-guidelines-live-2024a1000iwu
+2024-10-30 06:24:46,197 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-rash-defies-most-likely-diagnoses-2024a1000jfh
+2024-10-30 06:24:46,373 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-rash-defies-most-likely-diagnoses-2024a1000jfh
+2024-10-30 06:24:46,373 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-30 06:24:47,021 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-30 06:24:47,021 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-30 06:24:47,201 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-30 06:24:47,201 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-30 06:24:47,830 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-30 06:24:47,830 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-30 06:24:48,029 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-30 06:24:48,029 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-30 06:24:48,658 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-30 06:24:48,658 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-30 06:24:48,847 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-30 06:24:48,847 - INFO - No new data to update.
+2024-10-30 06:24:48,847 - INFO - Medscape script completed.
