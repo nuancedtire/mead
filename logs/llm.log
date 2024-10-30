@@ -17720,3 +17720,46 @@ In the background, large windows reveal a bustling cityscape, symbolizing the co
 2024-10-30 12:49:15,986 - INFO - Sending 1 log entries to Firebase.
 2024-10-30 12:49:19,275 - INFO - Received 1 document IDs from Peerr.
 2024-10-30 12:49:19,428 - INFO - Logged data to llm collection with FirestoreID: 74474bf22c1afad4d365d7784769e35a.
+2024-10-30 13:31:45,556 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-30 13:31:45,560 - INFO - Extracted 275 link records from llm.
+2024-10-30 13:31:45,878 - INFO - Extracted 284 link records from combined_news.
+2024-10-30 13:31:45,879 - INFO - Unique links to process: 9
+2024-10-30 13:31:45,879 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-30 13:31:45,879 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-30 13:31:45,880 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-30 13:31:56,493 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:32:01,396 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:32:04,854 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:32:04,858 - INFO - Image query: A photorealistic image set in a modern healthcare clinic, featuring a diverse group of individuals engaged in a discussion about smoking habits. In the foreground, a young adult woman with shoulder-length brown hair, dressed casually, holds a vape pen in one hand and a cigarette in the other, looking contemplative as she listens to a healthcare professional. The healthcare professional, a middle-aged man in a white lab coat, stands beside her, pointing to a digital tablet displaying statistics on smoking trends. Behind them, a large poster on the wall graphically illustrates the decline in smoking prevalence alongside the rise in non-daily smoking, using bold colors and clear visuals to emphasize the message. The room is bright and inviting, with natural light streaming through large windows, creating a warm atmosphere. The composition captures a medium shot, focusing on the interaction between the woman and the healthcare professional, highlighting the importance of communication and education regarding the risks of non-daily smoking. The overall mood conveys a sense of urgency and concern, reflecting the need for awareness and support for smokers in recognizing the dangers of their habits.
+2024-10-30 13:32:05,092 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-30 13:32:05,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:05,254 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:05,385 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:05,515 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:05,648 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:05,778 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:05,908 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:06,038 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:06,172 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:06,305 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:06,435 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:06,567 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:06,697 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:06,827 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:07,155 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:07,288 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:07,442 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:07,578 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-30 13:32:07,717 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f/status?logs=false "HTTP/1.1 200 OK"
+2024-10-30 13:32:07,747 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/20e5d77f-146b-40fe-bc46-36a093f0358f "HTTP/1.1 200 OK"
+2024-10-30 13:32:07,747 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/XyXkAqzsTnxL0m9Vyml3j.png
+2024-10-30 13:32:07,748 - INFO - Image link: https://fal.media/files/elephant/XyXkAqzsTnxL0m9Vyml3j.png
+2024-10-30 13:32:07,748 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-30 13:32:07,748 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-30 13:32:07,748 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-30 13:32:07,749 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-30 13:32:12,945 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-30 13:32:12,945 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-30 13:32:12,945 - INFO - Sending 1 log entries to Firebase.
+2024-10-30 13:32:16,168 - INFO - Received 1 document IDs from Peerr.
+2024-10-30 13:32:16,290 - INFO - Logged data to llm collection with FirestoreID: 90b6c1df8520ce742e4898d0857922e1.
