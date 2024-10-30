@@ -28319,3 +28319,42 @@
 2024-10-30 22:21:19,256 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
 2024-10-30 22:21:19,256 - INFO - No new data to update.
 2024-10-30 22:21:19,256 - INFO - Medscape script completed.
+2024-10-30 23:22:36,912 - INFO - Medscape script started.
+2024-10-30 23:22:36,913 - INFO - Connection to Medscape established.
+2024-10-30 23:22:36,932 - INFO - Request sent to Medscape API.
+2024-10-30 23:22:37,575 - INFO - Response received from Medscape API.
+2024-10-30 23:22:37,575 - INFO - Response data decoded into dictionary.
+2024-10-30 23:22:37,575 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-guidelines-address-inpatient-diabetes-technology-use-2024a1000jmb
+2024-10-30 23:22:38,526 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-guidelines-address-inpatient-diabetes-technology-use-2024a1000jmb
+2024-10-30 23:22:38,529 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/non-daily-cigarette-smokers-united-kingdom-less-motivated-2024a1000jm1
+2024-10-30 23:22:38,699 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/non-daily-cigarette-smokers-united-kingdom-less-motivated-2024a1000jm1
+2024-10-30 23:22:38,700 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/esmo-2024-which-clinical-trials-might-change-practice-2024a1000jba
+2024-10-30 23:22:39,365 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/esmo-2024-which-clinical-trials-might-change-practice-2024a1000jba
+2024-10-30 23:22:39,365 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/early-t2d-diagnosis-heightens-risks-complications-death-2024a1000jm3
+2024-10-30 23:22:39,524 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/early-t2d-diagnosis-heightens-risks-complications-death-2024a1000jm3
+2024-10-30 23:22:39,525 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/breast-cancer-may-increase-risk-type-2-diabetes-2024a1000jhu
+2024-10-30 23:22:40,204 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/breast-cancer-may-increase-risk-type-2-diabetes-2024a1000jhu
+2024-10-30 23:22:40,205 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/omega-3-supplementation-may-increase-risk-profuse-post-2024a1000jlg
+2024-10-30 23:22:40,367 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/omega-3-supplementation-may-increase-risk-profuse-post-2024a1000jlg
+2024-10-30 23:22:40,367 - INFO - Processing item: https://www.medscape.com/viewarticle/opioids-may-harm-reproductive-bone-adrenal-hormone-health-2024a1000jr3
+2024-10-30 23:22:41,037 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/opioids-may-harm-reproductive-bone-adrenal-hormone-health-2024a1000jr3
+2024-10-30 23:22:41,037 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/dietary-nitrate-may-prevent-restenosis-2024a1000jfu
+2024-10-30 23:22:41,200 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/dietary-nitrate-may-prevent-restenosis-2024a1000jfu
+2024-10-30 23:22:41,201 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/explore-breadth-and-depth-general-practice-guidelines-live-2024a1000iwu
+2024-10-30 23:22:41,864 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/explore-breadth-and-depth-general-practice-guidelines-live-2024a1000iwu
+2024-10-30 23:22:41,864 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-rash-defies-most-likely-diagnoses-2024a1000jfh
+2024-10-30 23:22:42,030 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-rash-defies-most-likely-diagnoses-2024a1000jfh
+2024-10-30 23:22:42,030 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-30 23:22:42,676 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-30 23:22:42,676 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-30 23:22:42,860 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-30 23:22:42,860 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-30 23:22:43,154 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-30 23:22:43,155 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-30 23:22:43,441 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-30 23:22:43,441 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-30 23:22:43,600 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-30 23:22:43,605 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-30 23:22:43,756 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/it-time-give-trycyclics-another-chance-ibd-2024a1000jbo
+2024-10-30 23:22:43,757 - INFO - No new data to update.
+2024-10-30 23:22:43,757 - INFO - Medscape script completed.
