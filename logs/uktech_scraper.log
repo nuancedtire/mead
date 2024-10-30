@@ -5248,3 +5248,9 @@
 2024-10-30 18:30:25,705 - INFO - Processed first article
 2024-10-30 18:30:26,331 - INFO - Data saved to Firestore. Total items: 1.
 2024-10-30 18:30:26,331 - INFO - Scraping completed.
+2024-10-30 19:19:13,715 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-10-30 19:19:13,895 - INFO - Successfully fetched webpage. Content length: 101488
+2024-10-30 19:19:13,924 - INFO - Processed item: Octopus-backed health tech Semble raises £11.6m Series B - 2024-10-29 00:00:00
+2024-10-30 19:19:13,924 - INFO - Processed first article
+2024-10-30 19:19:14,246 - INFO - Data saved to Firestore. Total items: 1.
+2024-10-30 19:19:14,247 - INFO - Scraping completed.
