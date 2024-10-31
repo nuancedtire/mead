@@ -18388,3 +18388,45 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-31 10:58:46,365 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-31 10:58:46,365 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-31 10:58:46,365 - INFO - No valid log entries generated.
+2024-10-31 11:21:29,821 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 11:21:29,826 - INFO - Extracted 282 link records from llm.
+2024-10-31 11:21:30,612 - INFO - Extracted 292 link records from combined_news.
+2024-10-31 11:21:30,613 - INFO - Unique links to process: 10
+2024-10-31 11:21:30,613 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 11:21:30,613 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novartis-gets-fda-okay-frontline-use-scemblix-cml
+2024-10-31 11:21:30,614 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 11:21:30,614 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 11:21:41,404 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 11:21:48,348 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 11:21:50,667 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 11:21:50,672 - INFO - Image query: A photorealistic image set in a modern therapy room designed for mental health treatment. In the foreground, a young adult woman, around 30 years old, sits comfortably in a plush armchair, her expression a mix of curiosity and relief as she interacts with a large screen displaying a vibrant, computer-generated avatar that resembles a friendly, approachable figure. The avatar is animated, appearing to speak to her, symbolizing the innovative AVATAR therapy. The room is softly lit with warm tones, creating a calming atmosphere, and features a bookshelf filled with mental health resources and art that promotes wellness. A therapist, a middle-aged man in a casual yet professional outfit, observes from a nearby desk, taking notes and smiling encouragingly, indicating support and engagement in the therapy process. The composition captures a medium shot, focusing on the interaction between the woman and the avatar, highlighting the transformative potential of digital avatars in treating psychosis. The overall mood conveys hope and innovation, reflecting the groundbreaking nature of this therapy and its implications for mental health treatment.
+2024-10-31 11:21:51,065 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-31 11:21:51,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:51,282 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:51,439 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:51,594 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:51,751 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:51,909 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:52,066 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:52,222 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:52,381 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:52,539 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:52,696 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:52,855 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:53,012 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:53,168 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:53,327 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:53,483 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:53,640 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 11:21:53,800 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88/status?logs=false "HTTP/1.1 200 OK"
+2024-10-31 11:21:53,905 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3bd2a38a-8b4d-4fcc-8026-1b3c30728c88 "HTTP/1.1 200 OK"
+2024-10-31 11:21:53,905 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/Hq-6wvsteuWwRFP5c4jP8.png
+2024-10-31 11:21:53,905 - INFO - Image link: https://fal.media/files/panda/Hq-6wvsteuWwRFP5c4jP8.png
+2024-10-31 11:21:53,906 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 11:21:53,906 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 11:21:53,907 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 11:21:53,907 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 11:21:53,907 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 11:21:53,907 - INFO - Sending 1 log entries to Firebase.
+2024-10-31 11:21:57,123 - INFO - Received 1 document IDs from Peerr.
+2024-10-31 11:21:58,016 - INFO - Logged data to llm collection with FirestoreID: 7b2e08d9c72fc112a8e926f381fba4c3.
