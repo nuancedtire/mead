@@ -28923,3 +28923,34 @@
 2024-10-31 13:38:41,572 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
 2024-10-31 13:38:41,572 - INFO - No new data to update.
 2024-10-31 13:38:41,572 - INFO - Medscape script completed.
+2024-10-31 13:55:31,451 - INFO - Medscape script started.
+2024-10-31 13:55:31,451 - INFO - Connection to Medscape established.
+2024-10-31 13:55:31,521 - INFO - Request sent to Medscape API.
+2024-10-31 13:55:31,892 - INFO - Response received from Medscape API.
+2024-10-31 13:55:31,893 - INFO - Response data decoded into dictionary.
+2024-10-31 13:55:31,893 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/british-guidelines-address-inpatient-diabetes-technology-use-2024a1000jmb
+2024-10-31 13:55:32,474 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/british-guidelines-address-inpatient-diabetes-technology-use-2024a1000jmb
+2024-10-31 13:55:32,475 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/non-daily-cigarette-smokers-united-kingdom-less-motivated-2024a1000jm1
+2024-10-31 13:55:32,586 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/non-daily-cigarette-smokers-united-kingdom-less-motivated-2024a1000jm1
+2024-10-31 13:55:32,586 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/esmo-2024-which-clinical-trials-might-change-practice-2024a1000jba
+2024-10-31 13:55:32,959 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/esmo-2024-which-clinical-trials-might-change-practice-2024a1000jba
+2024-10-31 13:55:32,959 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/early-t2d-diagnosis-heightens-risks-complications-death-2024a1000jm3
+2024-10-31 13:55:33,071 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/early-t2d-diagnosis-heightens-risks-complications-death-2024a1000jm3
+2024-10-31 13:55:33,071 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/breast-cancer-may-increase-risk-type-2-diabetes-2024a1000jhu
+2024-10-31 13:55:33,439 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/breast-cancer-may-increase-risk-type-2-diabetes-2024a1000jhu
+2024-10-31 13:55:33,441 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/omega-3-supplementation-may-increase-risk-profuse-post-2024a1000jlg
+2024-10-31 13:55:33,552 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/omega-3-supplementation-may-increase-risk-profuse-post-2024a1000jlg
+2024-10-31 13:55:33,553 - INFO - Processing item: https://www.medscape.com/viewarticle/opioids-may-harm-reproductive-bone-adrenal-hormone-health-2024a1000jr3
+2024-10-31 13:55:33,922 - INFO - Link already exists in Firestore, skipping: https://www.medscape.com/viewarticle/opioids-may-harm-reproductive-bone-adrenal-hormone-health-2024a1000jr3
+2024-10-31 13:55:33,922 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/dietary-nitrate-may-prevent-restenosis-2024a1000jfu
+2024-10-31 13:55:34,032 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/dietary-nitrate-may-prevent-restenosis-2024a1000jfu
+2024-10-31 13:55:34,032 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/explore-breadth-and-depth-general-practice-guidelines-live-2024a1000iwu
+2024-10-31 13:55:34,388 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/explore-breadth-and-depth-general-practice-guidelines-live-2024a1000iwu
+2024-10-31 13:55:34,388 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/infants-rash-defies-most-likely-diagnoses-2024a1000jfh
+2024-10-31 13:55:34,514 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/infants-rash-defies-most-likely-diagnoses-2024a1000jfh
+2024-10-31 13:55:34,514 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-31 13:55:34,869 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/no-amount-alcohol-safe-brain-health-2024a1000jfe
+2024-10-31 13:55:34,870 - INFO - Processing item: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-31 13:55:34,989 - INFO - Link already exists in Firestore, skipping: https://www.medscape.co.uk/viewarticle/sleep-experts-call-return-permanent-standard-time-2024a1000jbj
+2024-10-31 13:55:34,989 - INFO - No new data to update.
+2024-10-31 13:55:34,989 - INFO - Medscape script completed.

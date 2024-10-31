@@ -18609,3 +18609,17 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-31 13:39:21,566 - INFO - Sending 1 log entries to Firebase.
 2024-10-31 13:39:24,809 - INFO - Received 1 document IDs from Peerr.
 2024-10-31 13:39:25,021 - INFO - Logged data to llm collection with FirestoreID: fbf15acab6822444eee2d42857877c71.
+2024-10-31 13:55:44,622 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 13:55:44,625 - INFO - Extracted 286 link records from llm.
+2024-10-31 13:55:44,978 - INFO - Extracted 295 link records from combined_news.
+2024-10-31 13:55:44,978 - INFO - Unique links to process: 9
+2024-10-31 13:55:44,979 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 13:55:44,979 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novartis-gets-fda-okay-frontline-use-scemblix-cml
+2024-10-31 13:55:44,979 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 13:55:44,979 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 13:55:44,979 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 13:55:44,979 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 13:55:44,979 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 13:55:44,980 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 13:55:44,980 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 13:55:44,980 - INFO - No valid log entries generated.
