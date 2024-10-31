@@ -18101,3 +18101,27 @@ In the background, a wall-mounted screen displays a digital dashboard with real-
 2024-10-31 01:03:47,143 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-31 01:03:47,143 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-31 01:03:47,143 - INFO - No valid log entries generated.
+2024-10-31 02:51:15,080 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 02:51:15,083 - INFO - Extracted 278 link records from llm.
+2024-10-31 02:51:15,507 - INFO - Extracted 286 link records from combined_news.
+2024-10-31 02:51:15,508 - INFO - Unique links to process: 8
+2024-10-31 02:51:17,390 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-31 02:51:17,390 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 02:51:22,904 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 02:51:22,922 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-10-31 02:51:22,923 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 02:51:26,287 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-31 02:51:26,288 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 02:51:31,800 - INFO - No article found for link https://www.firstwordpharma.com/story/5906990.
+2024-10-31 02:51:31,800 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 02:51:35,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 02:51:35,745 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-10-31 02:51:35,745 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 02:51:40,424 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 02:51:40,430 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-10-31 02:51:40,431 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 02:51:47,626 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-31 02:51:47,627 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 02:51:49,913 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-31 02:51:49,914 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 02:51:49,914 - INFO - No valid log entries generated.
