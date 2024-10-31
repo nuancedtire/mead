@@ -18836,3 +18836,16 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-31 16:51:21,471 - INFO - Sending 1 log entries to Firebase.
 2024-10-31 16:51:24,700 - INFO - Received 1 document IDs from Peerr.
 2024-10-31 16:51:24,912 - INFO - Logged data to llm collection with FirestoreID: 3e00c46ea3b9eb36e1e0e85a9f31ce5a.
+2024-10-31 17:23:13,097 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 17:23:13,101 - INFO - Extracted 289 link records from llm.
+2024-10-31 17:23:13,448 - INFO - Extracted 297 link records from combined_news.
+2024-10-31 17:23:13,449 - INFO - Unique links to process: 8
+2024-10-31 17:23:13,449 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 17:23:13,449 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 17:23:13,449 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 17:23:13,450 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 17:23:13,450 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 17:23:13,450 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 17:23:13,450 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 17:23:13,450 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 17:23:13,450 - INFO - No valid log entries generated.
