@@ -18324,3 +18324,53 @@ In the background, shelves filled with medical supplies and research materials, 
 2024-10-31 10:26:43,061 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-31 10:26:43,061 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-31 10:26:43,061 - INFO - No valid log entries generated.
+2024-10-31 10:45:55,881 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 10:45:55,885 - INFO - Extracted 281 link records from llm.
+2024-10-31 10:45:56,590 - INFO - Extracted 291 link records from combined_news.
+2024-10-31 10:45:56,591 - INFO - Unique links to process: 10
+2024-10-31 10:45:56,592 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 10:45:56,592 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novartis-gets-fda-okay-frontline-use-scemblix-cml
+2024-10-31 10:45:56,592 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 10:46:05,555 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 10:46:07,822 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 10:46:10,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 10:46:10,315 - INFO - Image query: A photorealistic image set in a modern surgical operating room, showcasing advanced technology and a sense of innovation. In the foreground, a diverse surgical team, including a male surgeon in scrubs and a surgical cap, is intently focused on a digital display that shows a 3D model of surgical instruments, symbolizing the concept of digital twins. The surgeon, with a look of concentration, points at the screen while a female surgical nurse beside him takes notes, her expression reflecting engagement and curiosity. 
+
+In the background, a sleek surgical tray is organized with various instruments, each labeled and tracked by a sophisticated AI system, with subtle glowing indicators showing their status. The room is brightly lit with overhead surgical lights, casting a sterile yet vibrant atmosphere. The walls are adorned with high-tech monitors displaying real-time data and analytics related to the surgery, emphasizing the integration of AI in the operating room. 
+
+The composition captures a medium shot, focusing on the interaction between the team and the technology, highlighting the importance of precision and safety in surgical procedures. The overall mood conveys a sense of hope and progress, reflecting the transformative potential of AI-driven solutions in enhancing patient safety and minimizing surgical errors.
+2024-10-31 10:46:10,796 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-31 10:46:10,857 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:11,015 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:11,327 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:11,487 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:11,649 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:11,809 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:11,968 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:12,125 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:12,285 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:12,446 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:12,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:13,040 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:13,201 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:13,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:13,522 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:13,680 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:13,841 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:14,000 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:14,160 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:14,321 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:14,479 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 10:46:14,636 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5/status?logs=false "HTTP/1.1 200 OK"
+2024-10-31 10:46:14,693 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fa58f3fa-6986-4e39-a583-57367ace28d5 "HTTP/1.1 200 OK"
+2024-10-31 10:46:14,694 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/9GLFj_o8WOFQaKYD6QGbB.png
+2024-10-31 10:46:14,694 - INFO - Image link: https://fal.media/files/elephant/9GLFj_o8WOFQaKYD6QGbB.png
+2024-10-31 10:46:14,695 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 10:46:14,695 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 10:46:14,695 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 10:46:14,695 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 10:46:14,696 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 10:46:14,696 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 10:46:14,696 - INFO - Sending 1 log entries to Firebase.
+2024-10-31 10:46:18,021 - INFO - Received 1 document IDs from Peerr.
+2024-10-31 10:46:18,890 - INFO - Logged data to llm collection with FirestoreID: 5e7e573eac7193345158b9a26f13501b.

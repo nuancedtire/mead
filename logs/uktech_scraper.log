@@ -5332,3 +5332,10 @@
 2024-10-31 10:26:39,600 - INFO - Processed first article
 2024-10-31 10:26:39,808 - INFO - Data saved to Firestore. Total items: 1.
 2024-10-31 10:26:39,809 - INFO - Scraping completed.
+2024-10-31 10:45:51,306 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-10-31 10:45:52,183 - INFO - Successfully fetched webpage. Content length: 100281
+2024-10-31 10:45:52,211 - WARNING - Error parsing date: time data '2 mins ago' does not match format '%d %b %Y'. Using current date.
+2024-10-31 10:45:52,212 - INFO - Processed item: AI surgery startup Scalpel raises £3.8m - 2024-10-31 10:45:52
+2024-10-31 10:45:52,212 - INFO - Processed first article
+2024-10-31 10:45:52,504 - INFO - Data saved to Firestore. Total items: 1.
+2024-10-31 10:45:52,504 - INFO - Scraping completed.
