@@ -18785,3 +18785,54 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-31 16:31:10,867 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-31 16:31:10,867 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-31 16:31:10,867 - INFO - No valid log entries generated.
+2024-10-31 16:50:06,396 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 16:50:06,400 - INFO - Extracted 288 link records from llm.
+2024-10-31 16:50:07,121 - INFO - Extracted 297 link records from combined_news.
+2024-10-31 16:50:07,122 - INFO - Unique links to process: 9
+2024-10-31 16:50:09,231 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-10-31 16:50:09,231 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 16:50:27,983 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 16:50:36,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 16:50:38,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 16:50:38,781 - INFO - Image query: A photorealistic image set in a modern oncology clinic. A diverse group of three healthcare professionals—two women and one man—are gathered around a sleek conference table. One woman, a middle-aged oncologist in a white lab coat, is presenting data on a digital tablet, her expression animated and engaged. The second woman, a young nurse with a stethoscope around her neck, leans in with a look of curiosity, while the man, an older pharmacist, takes notes with a focused expression. Behind them, a large screen displays a colorful infographic highlighting the key findings from the ASC4FIRST trial, including graphs showing the efficacy of Scemblix compared to traditional TKIs. The room is bright and airy, with large windows allowing natural light to flood in, creating a hopeful atmosphere. The composition captures a medium shot, emphasizing the collaborative spirit of the discussion and the excitement surrounding the potential of Scemblix as a frontline therapy for chronic myeloid leukemia. The overall mood conveys optimism and urgency, reflecting the transformative impact of new treatments in oncology.
+2024-10-31 16:50:39,319 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-31 16:50:39,376 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:39,535 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:39,694 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:39,865 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:40,023 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:40,181 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:40,338 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:40,497 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:40,655 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:40,812 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:40,972 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:41,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:41,291 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:41,451 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:41,610 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:41,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 16:50:41,926 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef/status?logs=false "HTTP/1.1 200 OK"
+2024-10-31 16:50:41,982 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/8b5599b5-453d-46c1-a1e9-9537ef41d1ef "HTTP/1.1 200 OK"
+2024-10-31 16:50:41,982 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/KRJX6vT-X3NnPPz9CLJ9S.png
+2024-10-31 16:50:41,982 - INFO - Image link: https://fal.media/files/kangaroo/KRJX6vT-X3NnPPz9CLJ9S.png
+2024-10-31 16:50:50,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 16:50:50,784 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-10-31 16:50:50,784 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 16:50:54,235 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-10-31 16:50:54,236 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 16:50:59,943 - INFO - No article found for link https://www.firstwordpharma.com/story/5906990.
+2024-10-31 16:50:59,943 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 16:51:03,744 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 16:51:03,749 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-10-31 16:51:03,749 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 16:51:07,828 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 16:51:07,833 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-10-31 16:51:07,833 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 16:51:14,585 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-10-31 16:51:14,586 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 16:51:21,471 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-10-31 16:51:21,471 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 16:51:21,471 - INFO - Sending 1 log entries to Firebase.
+2024-10-31 16:51:24,700 - INFO - Received 1 document IDs from Peerr.
+2024-10-31 16:51:24,912 - INFO - Logged data to llm collection with FirestoreID: 3e00c46ea3b9eb36e1e0e85a9f31ce5a.
