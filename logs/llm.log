@@ -18568,3 +18568,44 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-31 13:16:44,619 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-31 13:16:44,619 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-31 13:16:44,619 - INFO - No valid log entries generated.
+2024-10-31 13:38:53,211 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 13:38:53,215 - INFO - Extracted 285 link records from llm.
+2024-10-31 13:38:53,946 - INFO - Extracted 295 link records from combined_news.
+2024-10-31 13:38:53,947 - INFO - Unique links to process: 10
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novartis-gets-fda-okay-frontline-use-scemblix-cml
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 13:38:53,947 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 13:39:07,358 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 13:39:15,697 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 13:39:18,570 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 13:39:18,575 - INFO - Image query: A photorealistic image set in a modern NHS clinic waiting room. In the foreground, a middle-aged woman, around 45 years old, sits on a comfortable chair, holding her smartphone with the Sleepio app open, displaying its user-friendly interface. Her expression is a mix of hope and frustration, reflecting her desire for access to digital therapy for insomnia. In the background, a young healthcare professional in scrubs stands at a reception desk, engaged in a conversation with an elderly man, indicating a discussion about treatment options. The waiting room is bright and airy, with large windows allowing natural light to flood in, creating a welcoming atmosphere. On the walls, informational posters about mental health and sleep hygiene are visible, subtly emphasizing the importance of addressing insomnia. The composition captures a medium shot, focusing on the woman’s interaction with her phone while the healthcare professional and the elderly man are slightly blurred, highlighting the contrast between the potential of digital therapy and the current limitations in access. The overall mood conveys a sense of urgency and hope, reflecting the critical conversation around the availability of digital CBT for insomnia within the NHS.
+2024-10-31 13:39:18,886 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-31 13:39:18,946 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:19,104 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:19,261 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:19,417 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:19,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:19,735 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:19,890 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:20,047 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:20,204 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:20,361 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:20,518 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:20,704 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:20,862 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:21,018 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:21,178 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:21,334 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 13:39:21,508 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0/status?logs=false "HTTP/1.1 200 OK"
+2024-10-31 13:39:21,565 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/b8781e76-7d59-4e0b-af23-2a9988b5eda0 "HTTP/1.1 200 OK"
+2024-10-31 13:39:21,565 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/NGzCXgEgDHIqZDtpj_VNq.png
+2024-10-31 13:39:21,566 - INFO - Image link: https://fal.media/files/monkey/NGzCXgEgDHIqZDtpj_VNq.png
+2024-10-31 13:39:21,566 - INFO - Sending 1 log entries to Firebase.
+2024-10-31 13:39:24,809 - INFO - Received 1 document IDs from Peerr.
+2024-10-31 13:39:25,021 - INFO - Logged data to llm collection with FirestoreID: fbf15acab6822444eee2d42857877c71.
