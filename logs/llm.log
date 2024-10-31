@@ -18623,3 +18623,81 @@ The composition captures a medium shot, focusing on the interaction between the 
 2024-10-31 13:55:44,980 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-10-31 13:55:44,980 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-10-31 13:55:44,980 - INFO - No valid log entries generated.
+2024-10-31 14:24:13,993 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-10-31 14:24:13,997 - INFO - Extracted 286 link records from llm.
+2024-10-31 14:24:14,496 - INFO - Extracted 297 link records from combined_news.
+2024-10-31 14:24:14,497 - INFO - Unique links to process: 11
+2024-10-31 14:24:27,841 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 14:24:31,845 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 14:24:34,333 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 14:24:34,340 - INFO - Image query: A photorealistic image set in a modern hospital ward, showcasing a diverse group of healthcare professionals engaged in a discussion around a patient’s bedside. In the foreground, a middle-aged female doctor in scrubs holds a tablet displaying patient data, her expression focused and determined. Beside her, a young male nurse takes notes, while an elderly male physician with glasses gestures towards a chart on the wall that outlines stroke management protocols. The patient, a middle-aged man recovering from a stroke, is seated on the hospital bed, looking attentive and hopeful. The room is bright and airy, with natural light streaming through large windows, creating a sense of optimism. Medical equipment, such as a heart monitor and IV stand, is visible in the background, symbolizing the acute care setting. The composition captures a medium shot that emphasizes the collaborative effort of the healthcare team, highlighting the importance of timely anticoagulation therapy post-stroke for atrial fibrillation patients. The overall mood conveys a sense of urgency and hope, reflecting the potential shift in practice towards early intervention for better patient outcomes.
+2024-10-31 14:24:34,881 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-31 14:24:34,902 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,020 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,137 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,257 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,494 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,613 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,734 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:35,971 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,090 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,212 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,331 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,573 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,691 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,808 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:36,928 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:37,047 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:37,164 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:37,284 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:24:37,402 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b/status?logs=false "HTTP/1.1 200 OK"
+2024-10-31 14:24:37,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4f18f633-63fa-4695-9247-eaac2303377b "HTTP/1.1 200 OK"
+2024-10-31 14:24:37,419 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/XOYAb6VD3vCk5Nj-j8O6i.png
+2024-10-31 14:24:37,419 - INFO - Image link: https://fal.media/files/monkey/XOYAb6VD3vCk5Nj-j8O6i.png
+2024-10-31 14:24:37,419 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-10-31 14:24:53,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 14:24:57,638 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 14:25:00,115 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 14:25:00,120 - INFO - Image query: A photorealistic image set in a cozy bedroom during the transition from night to dawn. A middle-aged woman, around 40 years old, is sitting up in bed, looking at her alarm clock with a concerned expression. The clock shows 6:00 AM, indicating the morning after the spring daylight saving time change. Soft morning light filters through sheer curtains, casting a gentle glow in the room, which is decorated with calming colors and a few potted plants on the windowsill. Beside her, a man in his early 40s is still asleep, slightly turned away, with a peaceful expression. A bedside table holds a glass of water and a sleep mask, symbolizing the struggle with sleep patterns. The composition captures a medium close-up angle, focusing on the woman's expression of concern and contemplation about the impact of daylight saving time on sleep. The overall mood conveys a sense of introspection and the importance of sleep health, reflecting the subtle yet significant effects of DST changes on individuals' well-being.
+2024-10-31 14:25:00,187 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-10-31 14:25:00,213 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:00,336 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:00,453 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:00,570 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:00,688 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:00,808 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:00,930 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,050 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,168 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,288 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,404 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,525 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,643 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,763 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:01,883 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,005 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,241 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,360 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,478 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,597 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,715 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-10-31 14:25:02,832 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5/status?logs=false "HTTP/1.1 200 OK"
+2024-10-31 14:25:02,850 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/035f358f-c074-4211-93db-60e95f6435a5 "HTTP/1.1 200 OK"
+2024-10-31 14:25:02,850 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/hlMsf36s3QAYQmzOXk4iu.png
+2024-10-31 14:25:02,850 - INFO - Image link: https://fal.media/files/elephant/hlMsf36s3QAYQmzOXk4iu.png
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: https://pharmaphorum.com/news/novartis-gets-fda-okay-frontline-use-scemblix-cml
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-10-31 14:25:02,851 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-10-31 14:25:02,851 - INFO - Sending 2 log entries to Firebase.
+2024-10-31 14:25:05,916 - INFO - Received 2 document IDs from Peerr.
+2024-10-31 14:25:06,080 - INFO - Logged data to llm collection with FirestoreID: 087684cc66270c5a5309bb80f06ca91e.
+2024-10-31 14:25:06,489 - INFO - Logged data to llm collection with FirestoreID: 11b839eaf40f44792939d787d513afb6.
