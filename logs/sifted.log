@@ -4669,3 +4669,9 @@
 2024-11-01 19:19:58,093 - WARNING - Search phrase not found. Using original content.
 2024-11-01 19:19:58,831 - INFO - Data saved to Firestore. Total items: 5.
 2024-11-01 19:19:58,831 - INFO - Sifted script completed.
+2024-11-01 20:23:42,390 - INFO - Sifted script started.
+2024-11-01 20:23:48,795 - INFO - Successfully fetched data from URL.
+2024-11-01 20:23:48,796 - INFO - Search phrase found and content trimmed.
+2024-11-01 20:23:48,796 - WARNING - No titles, links, or dates found in the content. Possible webpage structure change.
+2024-11-01 20:23:49,418 - INFO - Data saved to Firestore. Total items: 0.
+2024-11-01 20:23:49,418 - INFO - Sifted script completed.
