@@ -19388,3 +19388,46 @@ In the background, a colorful mural depicting children playing and enjoying life
 2024-11-01 10:58:41,539 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-01 10:58:41,539 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-01 10:58:41,539 - INFO - No valid log entries generated.
+2024-11-01 11:21:34,986 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-01 11:21:34,990 - INFO - Extracted 297 link records from llm.
+2024-11-01 11:21:35,322 - INFO - Extracted 306 link records from combined_news.
+2024-11-01 11:21:35,323 - INFO - Unique links to process: 9
+2024-11-01 11:21:35,323 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-01 11:21:35,323 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-01 11:21:35,323 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-01 11:21:35,323 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-01 11:21:35,323 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-01 11:21:35,324 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-01 11:21:35,324 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-01 11:21:35,324 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-01 11:21:47,189 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 11:21:51,517 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 11:21:56,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 11:21:56,436 - INFO - Image query: A photorealistic image depicting a bustling emergency department at Hampshire Hospitals NHS Foundation Trust. The scene captures a diverse team of healthcare professionals, including a middle-aged female doctor in scrubs and a young male nurse, both engaged in a discussion while reviewing a digital tablet displaying patient data. In the background, a large digital screen shows real-time patient status updates and A&E activity metrics, symbolizing the Miya Emergency system's impact. The emergency room is filled with patients in various stages of care, with some being attended to by other staff members, showcasing a dynamic and efficient workflow. Bright, clinical lighting illuminates the space, creating a sense of urgency and activity. The color palette features cool blues and whites, typical of modern medical environments, while the expressions on the healthcare workers' faces reflect focus and determination. The composition is a wide-angle shot that captures the entire scene, emphasizing the transformative nature of digital technology in emergency care. The overall mood conveys a sense of innovation and hope, highlighting the importance of modernizing clinical operations for improved patient outcomes.
+2024-11-01 11:21:56,594 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-01 11:21:56,635 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:56,773 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:56,913 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:57,052 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:57,191 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:57,331 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:57,471 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:57,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:57,751 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:57,889 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:58,029 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:58,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:58,314 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:58,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:58,593 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:58,733 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:58,871 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:59,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:59,150 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 11:21:59,290 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb/status?logs=false "HTTP/1.1 200 OK"
+2024-11-01 11:21:59,326 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d9cab2f-4986-483b-a67d-3e655d113ccb "HTTP/1.1 200 OK"
+2024-11-01 11:21:59,327 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/7uTOClfLDNzJcWEfZko6S.png
+2024-11-01 11:21:59,327 - INFO - Image link: https://fal.media/files/koala/7uTOClfLDNzJcWEfZko6S.png
+2024-11-01 11:21:59,328 - INFO - Sending 1 log entries to Firebase.
+2024-11-01 11:22:03,365 - INFO - Received 1 document IDs from Peerr.
+2024-11-01 11:22:03,894 - INFO - Logged data to llm collection with FirestoreID: e9be245a76f4f131d22cdaef1adabc24.
