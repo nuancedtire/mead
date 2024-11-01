@@ -19547,3 +19547,69 @@ In the background, a colorful mural depicting children playing and enjoying life
 2024-11-01 13:55:45,140 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-01 13:55:45,140 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-01 13:55:45,140 - INFO - No valid log entries generated.
+2024-11-01 14:23:49,904 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-01 14:23:49,908 - INFO - Extracted 299 link records from llm.
+2024-11-01 14:23:50,628 - INFO - Extracted 309 link records from combined_news.
+2024-11-01 14:23:50,629 - INFO - Unique links to process: 10
+2024-11-01 14:23:50,629 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-01 14:23:50,629 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-01 14:24:10,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 14:24:13,855 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 14:24:16,159 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 14:24:16,163 - INFO - Image query: A photorealistic image set in a modern psychiatric office. A middle-aged female psychiatrist, wearing a professional outfit and glasses, sits across from a young adult male patient, around 25 years old, who appears contemplative and slightly anxious. The psychiatrist leans forward, her expression empathetic and engaged, as she takes notes on a digital tablet. The patient has a furrowed brow, indicating he is reflecting on his feelings and experiences related to depression and personality traits. A comfortable couch is positioned in the background, adorned with soft cushions, creating a welcoming atmosphere. On the wall, a large poster illustrates the brain with highlighted areas related to mood disorders, subtly emphasizing the connection between personality traits and depression. The room is brightly lit with natural light streaming through a large window, casting gentle shadows that enhance the warmth of the space. The composition captures a medium close-up angle, focusing on the interaction between the psychiatrist and patient, highlighting the importance of understanding personality traits in managing depression. The overall mood conveys a sense of hope and seriousness, reflecting the critical nature of integrating personality assessments into mental health treatment strategies.
+2024-11-01 14:24:16,387 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-01 14:24:16,448 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:16,609 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:16,767 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:16,926 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:17,091 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:17,249 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:17,408 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:17,568 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:17,728 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:17,887 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:18,046 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:18,204 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:18,363 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:18,524 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:18,683 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:18,843 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:19,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6/status?logs=false "HTTP/1.1 200 OK"
+2024-11-01 14:24:19,061 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/597d3eb9-a825-47f8-965e-3fb5c07472d6 "HTTP/1.1 200 OK"
+2024-11-01 14:24:19,061 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/-EOJ1H99w8f0Sd7HwmP1I.png
+2024-11-01 14:24:19,061 - INFO - Image link: https://fal.media/files/kangaroo/-EOJ1H99w8f0Sd7HwmP1I.png
+2024-11-01 14:24:19,062 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-01 14:24:37,757 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 14:24:42,201 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 14:24:44,858 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 14:24:44,862 - INFO - Image query: A photorealistic image set in a busy urban clinic waiting room. In the foreground, a concerned young woman in her late 20s sits on a chair, visibly scratching her arm, with a worried expression on her face. She is dressed casually, wearing a light sweater, and has a small bag beside her. In the background, a healthcare professional, a middle-aged male doctor in a white coat, is seen discussing with an elderly woman at the reception desk, pointing towards a health pamphlet about scabies. The waiting room is filled with diverse patients, some reading magazines, others looking at their phones, creating a sense of urgency and concern about the rising scabies cases. The walls are adorned with informative posters about skin health, including one specifically highlighting scabies symptoms and prevention. The lighting is bright and clinical, emphasizing the seriousness of the situation. The composition captures a medium-wide angle, focusing on the interaction between the patients and healthcare providers, highlighting the importance of awareness and prompt treatment in combating the scabies outbreak. The overall mood conveys urgency and the need for community awareness regarding skin health issues.
+2024-11-01 14:24:45,057 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-01 14:24:45,121 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:45,282 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:45,442 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:45,602 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:45,763 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:45,925 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:46,084 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:46,243 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:46,403 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:46,567 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:46,727 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:46,888 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:47,050 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:47,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:47,369 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:47,529 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-01 14:24:47,690 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df/status?logs=false "HTTP/1.1 200 OK"
+2024-11-01 14:24:47,748 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc8b7315-132f-445f-8fba-aee06b1129df "HTTP/1.1 200 OK"
+2024-11-01 14:24:47,748 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/qHCbYYrz9H87BzeJ_mEaM.png
+2024-11-01 14:24:47,748 - INFO - Image link: https://fal.media/files/panda/qHCbYYrz9H87BzeJ_mEaM.png
+2024-11-01 14:24:47,748 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-01 14:24:47,748 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-01 14:24:47,748 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-01 14:24:47,748 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-01 14:24:47,748 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-01 14:24:47,748 - INFO - Sending 2 log entries to Firebase.
+2024-11-01 14:24:51,084 - INFO - Received 2 document IDs from Peerr.
+2024-11-01 14:24:51,313 - INFO - Logged data to llm collection with FirestoreID: 6248ddfa97c5e3772ded4ef1595d702f.
+2024-11-01 14:24:51,992 - INFO - Logged data to llm collection with FirestoreID: 91a24c60bf12c88390228ddf3d8e767c.
