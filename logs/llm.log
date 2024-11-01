@@ -19362,3 +19362,16 @@ In the background, a colorful mural depicting children playing and enjoying life
 2024-11-01 10:27:52,796 - INFO - Sending 1 log entries to Firebase.
 2024-11-01 10:27:55,941 - INFO - Received 1 document IDs from Peerr.
 2024-11-01 10:27:56,141 - INFO - Logged data to llm collection with FirestoreID: d2bac7f9c235e45b92f961944b82bc51.
+2024-11-01 10:45:49,373 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-01 10:45:49,377 - INFO - Extracted 297 link records from llm.
+2024-11-01 10:45:49,862 - INFO - Extracted 305 link records from combined_news.
+2024-11-01 10:45:49,863 - INFO - Unique links to process: 8
+2024-11-01 10:45:49,863 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-01 10:45:49,863 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-01 10:45:49,863 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-01 10:45:49,863 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-01 10:45:49,863 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-01 10:45:49,863 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-01 10:45:49,864 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-01 10:45:49,864 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-01 10:45:49,864 - INFO - No valid log entries generated.
