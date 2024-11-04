@@ -20613,3 +20613,103 @@ In the background, a colorful mural depicting children playing and enjoying life
 2024-11-04 13:55:47,678 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-04 13:55:47,678 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-04 13:55:47,678 - INFO - No valid log entries generated.
+2024-11-04 14:25:03,191 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-04 14:25:03,194 - INFO - Extracted 306 link records from llm.
+2024-11-04 14:25:03,622 - INFO - Extracted 318 link records from combined_news.
+2024-11-04 14:25:03,623 - INFO - Unique links to process: 12
+2024-11-04 14:25:03,623 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-04 14:25:14,164 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:25:19,474 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:25:22,218 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:25:22,223 - INFO - Image query: A photorealistic image set in a modern healthcare setting, showcasing a nurse demonstrating the use of a sleek, ergonomic autoinjector device to an elderly female patient, around 75 years old, who is seated comfortably in a well-lit examination room. The nurse, dressed in scrubs, holds the autoinjector with a reassuring smile, while the patient looks on with a mixture of curiosity and hope. A small table nearby holds a brochure about Alzheimer's treatment options, and a poster on the wall illustrates the brain with highlighted areas affected by Alzheimer's disease, emphasizing the significance of innovative treatments. The room is bright and inviting, with soft natural light streaming through a window, creating a warm atmosphere. The composition captures a medium close-up angle, focusing on the interaction between the nurse and patient, highlighting the potential of at-home treatment for Alzheimer's. The overall mood conveys optimism and a sense of empowerment, reflecting the transformative impact of the new subcutaneous injection on patient care and adherence.
+2024-11-04 14:25:22,372 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-04 14:25:22,412 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:22,547 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:22,687 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:22,825 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:22,964 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:23,101 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:23,237 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:23,374 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:23,511 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:23,650 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:23,786 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:23,923 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:24,059 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:24,196 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:24,334 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:24,471 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:24,608 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:24,744 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:24,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:25,098 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:25,234 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:25,443 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:25,580 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a/status?logs=false "HTTP/1.1 200 OK"
+2024-11-04 14:25:25,614 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/48c02e50-4a16-4bff-8ebb-5db82950780a "HTTP/1.1 200 OK"
+2024-11-04 14:25:25,615 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/8ZBoNM3t83wE83mggqw6Z.png
+2024-11-04 14:25:25,615 - INFO - Image link: https://fal.media/files/lion/8ZBoNM3t83wE83mggqw6Z.png
+2024-11-04 14:25:35,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:25:45,579 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:25:48,945 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:25:48,951 - INFO - Image query: A photorealistic image set in a bright, inviting pediatric consultation room. A compassionate psychiatrist, a middle-aged woman with glasses and a warm smile, sits on a colorful chair across from a young boy, around 8 years old, who appears anxious yet curious. The boy, with short dark hair and wearing a casual t-shirt, fidgets with a small toy in his hands, reflecting his discomfort. The psychiatrist leans slightly forward, her body language open and reassuring, as she engages the child in conversation. On the table between them, a plate with a variety of colorful, healthy foods is displayed, symbolizing the focus on improving eating behaviors. The room is decorated with cheerful artwork and educational posters about nutrition and mental health, creating a supportive atmosphere. Soft, natural light streams in through a window, casting gentle shadows and enhancing the warmth of the scene. The composition captures a medium close-up angle, emphasizing the connection between the psychiatrist and the child, highlighting the importance of a multidisciplinary approach in managing avoidant/restrictive food intake disorder (ARFID). The overall mood conveys hope and understanding, reflecting the potential benefits of integrating psychiatric care into treatment plans for children with ARFID.
+2024-11-04 14:25:49,073 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-04 14:25:49,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:49,248 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:49,383 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:49,520 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:49,658 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:49,795 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:49,933 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:50,071 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:50,207 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:50,342 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:50,481 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:50,617 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:50,756 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:50,892 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:51,029 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:51,166 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:51,301 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:51,437 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:51,574 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:25:51,713 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4/status?logs=false "HTTP/1.1 200 OK"
+2024-11-04 14:25:51,751 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c5417ecf-aa98-42e3-90f5-dceb17e33cf4 "HTTP/1.1 200 OK"
+2024-11-04 14:25:51,751 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/d5a_smwBeH5CQ3E2Zwo6t.png
+2024-11-04 14:25:51,751 - INFO - Image link: https://fal.media/files/elephant/d5a_smwBeH5CQ3E2Zwo6t.png
+2024-11-04 14:25:51,752 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-04 14:25:51,752 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-04 14:26:19,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:26:23,754 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:26:27,801 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 14:26:27,805 - INFO - Image query: A photorealistic image depicting a busy urban street in a European city, such as Rome, under a hazy sky filled with smog. In the foreground, a diverse group of people, including a middle-aged woman wearing a mask and a young child holding her hand, walk along the sidewalk, their expressions reflecting concern for their health. Nearby, a healthcare professional in a white coat stands with a clipboard, observing the scene with a serious expression, symbolizing the role of healthcare in addressing air quality issues. In the background, cars emit visible exhaust fumes, and a digital billboard displays air quality index readings, emphasizing the pollution levels. The lighting is dim and overcast, casting a somber tone over the scene, while the color palette features muted grays and browns to reflect the impact of air pollution. The composition captures a wide-angle view, highlighting the contrast between the bustling city life and the underlying health risks posed by air pollution, conveying a sense of urgency and the need for advocacy for cleaner air.
+2024-11-04 14:26:28,132 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-04 14:26:28,171 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:28,309 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:28,445 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:28,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:28,717 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:28,853 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:28,989 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:29,124 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:29,261 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:29,399 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:29,537 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:29,675 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:29,813 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:29,949 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:30,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:30,223 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:30,360 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:30,497 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:30,633 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:30,769 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-04 14:26:30,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894/status?logs=false "HTTP/1.1 200 OK"
+2024-11-04 14:26:30,942 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a0651814-c21d-4cf5-9a7f-b0099aac2894 "HTTP/1.1 200 OK"
+2024-11-04 14:26:30,942 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/ZhDC5EhsWdnLQBxqSwlVn.png
+2024-11-04 14:26:30,942 - INFO - Image link: https://fal.media/files/rabbit/ZhDC5EhsWdnLQBxqSwlVn.png
+2024-11-04 14:26:30,943 - INFO - Sending 3 log entries to Firebase.
+2024-11-04 14:26:34,497 - INFO - Received 3 document IDs from Peerr.
+2024-11-04 14:26:34,644 - INFO - Logged data to llm collection with FirestoreID: 1583029a32f5ec69bf6ba84df82438bd.
+2024-11-04 14:26:34,995 - INFO - Logged data to llm collection with FirestoreID: 170769b41147ce4004610a5e93685cea.
+2024-11-04 14:26:35,145 - INFO - Logged data to llm collection with FirestoreID: 79f5269cb3870f3b4f41d2b076773f43.
