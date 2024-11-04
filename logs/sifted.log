@@ -4910,3 +4910,9 @@
 2024-11-04 15:44:59,748 - INFO - Search phrase found and content trimmed.
 2024-11-04 15:45:00,410 - INFO - Data saved to Firestore. Total items: 5.
 2024-11-04 15:45:00,410 - INFO - Sifted script completed.
+2024-11-04 15:58:00,660 - INFO - Sifted script started.
+2024-11-04 15:58:05,199 - INFO - Successfully fetched data from URL.
+2024-11-04 15:58:05,200 - INFO - Search phrase found and content trimmed.
+2024-11-04 15:58:05,200 - WARNING - No titles, links, or dates found in the content. Possible webpage structure change.
+2024-11-04 15:58:06,228 - INFO - Data saved to Firestore. Total items: 0.
+2024-11-04 15:58:06,228 - INFO - Sifted script completed.
