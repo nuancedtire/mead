@@ -20317,3 +20317,24 @@ In the background, a colorful mural depicting children playing and enjoying life
 2024-11-04 06:22:25,406 - INFO - Sending 1 log entries to Firebase.
 2024-11-04 06:22:28,456 - INFO - Received 1 document IDs from Peerr.
 2024-11-04 06:22:29,114 - INFO - Logged data to llm collection with FirestoreID: ea25585540276c2a1e034b9e76c81c4b.
+2024-11-04 08:19:35,624 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-04 08:19:35,627 - INFO - Extracted 302 link records from llm.
+2024-11-04 08:19:35,964 - INFO - Extracted 310 link records from combined_news.
+2024-11-04 08:19:35,965 - INFO - Unique links to process: 8
+2024-11-04 08:19:45,006 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-04 08:19:45,006 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-04 08:19:49,140 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-04 08:19:49,140 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-04 08:19:51,477 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-04 08:19:51,478 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-04 08:20:09,070 - INFO - No article found for link https://www.firstwordpharma.com/story/5906990.
+2024-11-04 08:20:09,071 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5906990
+2024-11-04 08:20:13,826 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-04 08:20:13,826 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-04 08:20:16,936 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-04 08:20:16,937 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-04 08:20:22,078 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-11-04 08:20:22,079 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-11-04 08:20:25,888 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-04 08:20:25,889 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-04 08:20:25,889 - INFO - No valid log entries generated.
