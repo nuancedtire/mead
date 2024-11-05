@@ -21531,3 +21531,74 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-05 13:55:39,965 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-05 13:55:39,965 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-05 13:55:39,965 - INFO - No valid log entries generated.
+2024-11-05 14:24:08,016 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-05 14:24:08,020 - INFO - Extracted 317 link records from llm.
+2024-11-05 14:24:08,514 - INFO - Extracted 328 link records from combined_news.
+2024-11-05 14:24:08,515 - INFO - Unique links to process: 11
+2024-11-05 14:24:08,515 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-05 14:24:21,402 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 14:24:25,351 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 14:24:29,446 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 14:24:29,450 - INFO - Image query: A photorealistic image set in a cozy, softly lit postpartum recovery room. In the foreground, a young mother in her late 20s, with a gentle expression, sits on a comfortable bed, cradling her newborn baby wrapped in a soft blanket. She looks contemplative, gazing out the window, reflecting on her postpartum experience. Beside her, a small table holds a few personal items: a bottle of water, a journal with a pen, and a framed photo of her and her partner, symbolizing her family life. In the background, a healthcare provider, a compassionate female nurse in scrubs, leans against the wall, observing the mother with a supportive demeanor. The nurse holds a clipboard, suggesting she is ready to engage in a conversation about postpartum health. The room is adorned with calming colors—soft blues and greens—creating a serene atmosphere. Natural light filters through sheer curtains, casting a warm glow that enhances the intimate setting. The composition captures a medium shot, focusing on the emotional connection between the mother and her baby, while subtly highlighting the presence of healthcare support. The overall mood conveys a sense of care and the importance of addressing the sexual health needs of new mothers, reflecting the challenges they face during the postpartum period.
+2024-11-05 14:24:29,590 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-05 14:24:29,621 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:29,749 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:29,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:30,012 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:30,140 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:30,272 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:30,404 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:30,842 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:30,972 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:31,100 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:31,228 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:31,357 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:31,483 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:31,611 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:31,739 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:31,875 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:32,015 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:32,142 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd/status?logs=false "HTTP/1.1 200 OK"
+2024-11-05 14:24:32,170 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/31b5d205-a1dd-4a9f-9594-0ba93b9c97cd "HTTP/1.1 200 OK"
+2024-11-05 14:24:32,171 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/sKPdRIzcQph2FHnPChY1W.png
+2024-11-05 14:24:32,171 - INFO - Image link: https://fal.media/files/monkey/sKPdRIzcQph2FHnPChY1W.png
+2024-11-05 14:24:32,172 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-05 14:24:52,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 14:24:56,201 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 14:24:59,493 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 14:24:59,498 - INFO - Image query: A photorealistic image set in a cozy kitchen during the morning light. A middle-aged woman, around 50 years old, stands at a kitchen counter, looking thoughtfully at a pill bottle of levothyroxine in her hand. She has a concerned expression, reflecting the burden of adhering to fasting instructions. A plate with a half-eaten breakfast sits nearby, indicating her struggle between taking her medication and enjoying her meal. The kitchen is warmly lit with sunlight streaming through a window, casting soft shadows and creating a welcoming atmosphere. On the counter, a clock shows the time approaching breakfast, emphasizing the urgency of her decision. In the background, a calendar hangs on the wall, marked with reminders for medication and appointments, symbolizing the challenges of managing health. The composition captures a medium close-up angle, focusing on the woman's contemplative expression and the juxtaposition of her medication and breakfast, highlighting the impact of fasting requirements on patient adherence and quality of life. The overall mood conveys a sense of conflict and reflection, underscoring the need for patient-centered approaches in medication management.
+2024-11-05 14:24:59,725 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-05 14:24:59,754 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:24:59,881 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,009 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,137 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,264 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,394 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,521 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,648 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,776 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:00,903 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:01,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:01,160 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:01,287 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:01,574 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:01,701 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:01,829 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:01,957 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:02,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:02,215 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 14:25:02,344 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7/status?logs=false "HTTP/1.1 200 OK"
+2024-11-05 14:25:02,370 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/45c6ee96-2325-4e3d-a32c-0a7fe90317d7 "HTTP/1.1 200 OK"
+2024-11-05 14:25:02,370 - INFO - Successfully generated image with Fal AI: https://fal.media/files/panda/3r3BcFnPOled-8Onf0KcU.png
+2024-11-05 14:25:02,371 - INFO - Image link: https://fal.media/files/panda/3r3BcFnPOled-8Onf0KcU.png
+2024-11-05 14:25:02,371 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-05 14:25:02,371 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-05 14:25:02,371 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-05 14:25:02,371 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-05 14:25:02,371 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-05 14:25:02,371 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-05 14:25:02,371 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-05 14:25:02,371 - INFO - Sending 2 log entries to Firebase.
+2024-11-05 14:25:05,651 - INFO - Received 2 document IDs from Peerr.
+2024-11-05 14:25:05,812 - INFO - Logged data to llm collection with FirestoreID: 3e4fca01866ccb11728ef399ded46dce.
+2024-11-05 14:25:06,296 - INFO - Logged data to llm collection with FirestoreID: 67678f113dbb7dc4151e4c4a0bd29bf9.
