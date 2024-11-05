@@ -21283,3 +21283,43 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-05 10:59:27,468 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-05 10:59:27,468 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-05 10:59:27,468 - INFO - No valid log entries generated.
+2024-11-05 11:21:38,753 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-05 11:21:38,757 - INFO - Extracted 313 link records from llm.
+2024-11-05 11:21:39,608 - INFO - Extracted 324 link records from combined_news.
+2024-11-05 11:21:39,609 - INFO - Unique links to process: 11
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/new-select-trial-analysis-with-semaglutide-2-4-mg-showed-a-significant-reduction-in-hospital-admissions-in-adults-with-known-heart-disease-and-obesity-or-overweight-302294828.html
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-05 11:21:39,611 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-05 11:21:39,612 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-05 11:21:51,929 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 11:21:55,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 11:21:58,232 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 11:21:58,237 - INFO - Image query: A photorealistic image set in a community center during a health outreach event. In the foreground, a diverse group of elderly individuals, including a Caucasian woman with gray hair, an African American man with glasses, and a Hispanic woman, are gathered around a table where a friendly healthcare worker, a middle-aged woman in a blue NHS polo shirt, is demonstrating how to use a tablet. The elderly participants exhibit a range of expressions from curiosity to confusion, highlighting the challenges they face with digital tools. The background features a banner that reads "Digital Health for All" and informational pamphlets scattered on the table. Soft, warm lighting fills the room, creating an inviting atmosphere. The composition captures a medium shot, focusing on the interaction between the healthcare worker and the elderly individuals, emphasizing the importance of inclusivity in digital health initiatives. The overall mood conveys a sense of urgency and community support, reflecting the need to bridge the digital divide for older adults.
+2024-11-05 11:21:58,619 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-05 11:21:58,869 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:21:59,028 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:21:59,189 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:21:59,350 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:21:59,508 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:21:59,667 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:00,079 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:00,236 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:00,398 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:00,555 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:00,712 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:00,869 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:01,030 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:01,192 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:22:01,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b/status?logs=false "HTTP/1.1 200 OK"
+2024-11-05 11:22:01,408 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/455a5c40-edcc-4b8b-ab84-2a2668813e4b "HTTP/1.1 200 OK"
+2024-11-05 11:22:01,409 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/EEvMIQWIAjH31fPcZLKsC.png
+2024-11-05 11:22:01,409 - INFO - Image link: https://fal.media/files/elephant/EEvMIQWIAjH31fPcZLKsC.png
+2024-11-05 11:22:01,410 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-05 11:22:01,410 - INFO - Sending 1 log entries to Firebase.
+2024-11-05 11:22:04,602 - INFO - Received 1 document IDs from Peerr.
+2024-11-05 11:22:04,810 - INFO - Logged data to llm collection with FirestoreID: d2b3c216f7f5a8c149f1098a4d5f430c.
