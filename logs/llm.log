@@ -21323,3 +21323,69 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-05 11:22:01,410 - INFO - Sending 1 log entries to Firebase.
 2024-11-05 11:22:04,602 - INFO - Received 1 document IDs from Peerr.
 2024-11-05 11:22:04,810 - INFO - Logged data to llm collection with FirestoreID: d2b3c216f7f5a8c149f1098a4d5f430c.
+2024-11-05 11:41:46,829 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-05 11:41:46,833 - INFO - Extracted 314 link records from llm.
+2024-11-05 11:41:47,569 - INFO - Extracted 325 link records from combined_news.
+2024-11-05 11:41:47,571 - INFO - Unique links to process: 11
+2024-11-05 11:42:10,044 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 11:42:15,473 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 11:42:21,670 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 11:42:21,674 - INFO - Image query: A photorealistic image capturing a modern medical classroom setting where a diverse group of medical students, both male and female, are intently watching a large screen displaying a live C-section surgery. The students, dressed in scrubs, exhibit a mix of curiosity and concentration, with some taking notes while others engage in discussion. In the foreground, a female instructor, mid-30s, stands beside the screen, pointing towards the live feed with a confident expression, facilitating the learning experience. The surgical team, visible on the screen, is composed of a surgeon in a blue surgical gown and a nurse, both focused on the procedure, showcasing the real-time interaction aspect of the training. The classroom is bright and well-equipped, with anatomical models and medical textbooks on the tables, emphasizing the educational environment. Soft, natural light filters through large windows, creating an inviting atmosphere. The composition is a medium-wide shot, highlighting the engagement of the students with the live surgery, symbolizing the future of medical education through innovative technology. The overall mood conveys excitement and the transformative potential of livestreaming in training, reflecting a new era in healthcare education.
+2024-11-05 11:42:21,985 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-05 11:42:22,046 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:22,206 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:22,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:22,523 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:22,682 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:22,854 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:23,014 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:23,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:23,333 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:23,490 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:23,648 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:23,805 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:23,964 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:24,122 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:24,280 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:24,441 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:24,601 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:24,759 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:24,916 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:25,076 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:25,236 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:25,396 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:25,554 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:25,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:25,873 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:26,033 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:26,192 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:26,349 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:26,507 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:26,664 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:26,822 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:26,979 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:27,136 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:27,295 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:27,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:27,612 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:27,770 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:27,927 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:28,084 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:28,241 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 11:42:28,401 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186/status?logs=false "HTTP/1.1 200 OK"
+2024-11-05 11:42:28,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/6756dd83-a81b-47a8-9e3e-9c70d82f1186 "HTTP/1.1 200 OK"
+2024-11-05 11:42:28,458 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/aAQg7zx6nk2bzy8EVll70.png
+2024-11-05 11:42:28,458 - INFO - Image link: https://fal.media/files/rabbit/aAQg7zx6nk2bzy8EVll70.png
+2024-11-05 11:42:28,459 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-05 11:42:28,459 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-05 11:42:28,459 - INFO - Skipping recently failed link: https://www.prnewswire.com/news-releases/new-select-trial-analysis-with-semaglutide-2-4-mg-showed-a-significant-reduction-in-hospital-admissions-in-adults-with-known-heart-disease-and-obesity-or-overweight-302294828.html
+2024-11-05 11:42:28,459 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-05 11:42:28,459 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-05 11:42:28,459 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-05 11:42:28,460 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-05 11:42:28,460 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-05 11:42:28,460 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-05 11:42:28,460 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-05 11:42:28,460 - INFO - Sending 1 log entries to Firebase.
+2024-11-05 11:42:31,538 - INFO - Received 1 document IDs from Peerr.
+2024-11-05 11:42:31,768 - INFO - Logged data to llm collection with FirestoreID: 09ff5347436c16ad836cfb551ad0389d.
