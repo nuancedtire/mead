@@ -21404,3 +21404,58 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-05 11:55:56,654 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-05 11:55:56,654 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-05 11:55:56,654 - INFO - No valid log entries generated.
+2024-11-05 12:44:06,838 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-05 12:44:06,842 - INFO - Extracted 315 link records from llm.
+2024-11-05 12:44:07,625 - INFO - Extracted 325 link records from combined_news.
+2024-11-05 12:44:07,627 - INFO - Unique links to process: 10
+2024-11-05 12:44:11,813 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-05 12:44:11,813 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-05 12:44:15,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:44:15,787 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-05 12:44:15,787 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-05 12:45:04,198 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:45:07,775 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:45:11,392 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:45:11,396 - INFO - Image query: A photorealistic image set in a modern hospital ward. A diverse group of healthcare professionals, including a middle-aged female cardiologist in a white coat, a young male nurse in scrubs, and an elderly male patient with visible signs of obesity, are engaged in a discussion near the patient's bed. The patient, sitting up with a thoughtful expression, is surrounded by medical equipment such as a heart monitor displaying vital signs and an IV stand. The doctor is pointing towards a digital tablet displaying graphs and statistics related to the SELECT trial, while the nurse stands attentively, ready to assist. The room is brightly lit, with large windows allowing natural light to illuminate the space, creating a hopeful atmosphere. On the wall, a poster illustrating heart health and obesity management is visible, reinforcing the topic of cardiovascular risk. The composition captures a medium close-up angle, focusing on the collaborative interaction among the healthcare team and the patient, emphasizing the importance of innovative treatments like semaglutide in reducing hospital admissions and improving health outcomes. The overall mood conveys a sense of optimism and urgency, reflecting the critical nature of managing cardiovascular risk in patients with obesity.
+2024-11-05 12:45:11,605 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-05 12:45:11,664 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:11,825 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:11,986 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:12,146 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:12,304 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:12,464 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:12,624 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:12,782 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:12,945 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:13,103 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:13,261 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:13,421 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:13,578 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:13,736 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:13,896 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:14,054 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 12:45:14,255 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9/status?logs=false "HTTP/1.1 200 OK"
+2024-11-05 12:45:14,311 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/4a06e250-fb55-4840-b21a-49aaff4ae0f9 "HTTP/1.1 200 OK"
+2024-11-05 12:45:14,311 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/aO0AOhmVHNO741tvLDOLz.png
+2024-11-05 12:45:14,312 - INFO - Image link: https://fal.media/files/penguin/aO0AOhmVHNO741tvLDOLz.png
+2024-11-05 12:45:16,343 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-05 12:45:16,343 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-05 12:45:26,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:45:26,783 - INFO - No article found for link https://www.firstwordpharma.com/story/5909264.
+2024-11-05 12:45:26,783 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5909264
+2024-11-05 12:45:54,015 - INFO - No article found for link https://www.firstwordpharma.com/story/5906990.
+2024-11-05 12:45:54,015 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5906990
+2024-11-05 12:46:06,819 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:46:06,824 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-05 12:46:06,824 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-05 12:46:10,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:46:10,801 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-05 12:46:10,802 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-05 12:46:18,551 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:46:18,555 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-11-05 12:46:18,556 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-11-05 12:46:20,697 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-05 12:46:20,698 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-05 12:46:20,698 - INFO - Sending 1 log entries to Firebase.
+2024-11-05 12:46:23,805 - INFO - Received 1 document IDs from Peerr.
+2024-11-05 12:46:24,053 - INFO - Logged data to llm collection with FirestoreID: 67aea35d722786d2c3f3a11f6c814886.
