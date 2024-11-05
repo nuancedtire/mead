@@ -21757,3 +21757,47 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-05 17:23:34,663 - INFO - Sending 1 log entries to Firebase.
 2024-11-05 17:23:38,457 - INFO - Received 1 document IDs from Peerr.
 2024-11-05 17:23:38,584 - INFO - Logged data to llm collection with FirestoreID: ec9b15771227a23d80094ef75272db72.
+2024-11-05 17:43:30,700 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-05 17:43:30,704 - INFO - Extracted 320 link records from llm.
+2024-11-05 17:43:31,029 - INFO - Extracted 330 link records from combined_news.
+2024-11-05 17:43:31,031 - INFO - Unique links to process: 10
+2024-11-05 17:43:31,031 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-05 17:43:40,516 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 17:43:47,569 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 17:43:50,574 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 17:43:50,579 - INFO - Image query: A photorealistic image set in a modern, sleek office environment, showcasing a diverse team of professionals engaged in a brainstorming session. In the foreground, Ali Parsa, a middle-aged man with a confident demeanor, stands at a whiteboard filled with diagrams and notes about AI in healthcare. He is dressed in a smart casual outfit, exuding a sense of determination and innovation. Surrounding him are a mix of younger scientists and tech experts, including a woman of South Asian descent and a man of African descent, all focused and taking notes. The atmosphere is vibrant, with natural light streaming through large windows, illuminating the room filled with high-tech gadgets and screens displaying data analytics and AI models. In the background, a digital screen showcases the logo of Quadrivia, symbolizing the new venture's ambitions. The composition captures a dynamic angle, emphasizing collaboration and forward-thinking, while the overall mood conveys a sense of hope and resilience in the face of past challenges, reflecting the transformative potential of AI in healthcare.
+2024-11-05 17:43:50,828 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-05 17:43:50,866 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,137 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,274 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,410 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,548 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,684 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,821 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:51,958 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:52,094 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:52,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:52,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:52,505 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:52,641 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:52,778 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:52,914 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:53,051 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:53,189 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:53,327 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-05 17:43:53,463 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5/status?logs=false "HTTP/1.1 200 OK"
+2024-11-05 17:43:53,498 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/e0206b32-17a1-45fb-b09c-e78398cd99e5 "HTTP/1.1 200 OK"
+2024-11-05 17:43:53,498 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/CTlPkZONx-ENGUfdbUb3W.png
+2024-11-05 17:43:53,498 - INFO - Image link: https://fal.media/files/kangaroo/CTlPkZONx-ENGUfdbUb3W.png
+2024-11-05 17:43:53,499 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-05 17:43:53,499 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-05 17:43:53,499 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-05 17:43:53,499 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-05 17:43:53,499 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-05 17:43:53,499 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-05 17:43:53,499 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-05 17:43:53,500 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-05 17:43:53,500 - INFO - Sending 1 log entries to Firebase.
+2024-11-05 17:43:56,893 - INFO - Received 1 document IDs from Peerr.
+2024-11-05 17:43:57,016 - INFO - Logged data to llm collection with FirestoreID: 1bab7e0172d25dd23bde3fc7e7c19456.
