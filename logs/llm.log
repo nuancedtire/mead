@@ -22093,3 +22093,49 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-06 08:23:12,320 - INFO - Logged data to llm collection with FirestoreID: 35bf30c9fa52ee2e22a62dd502b554b9.
 2024-11-06 08:23:12,466 - INFO - Logged data to llm collection with FirestoreID: 8f3f5ebbd69716b9cd8cfa0b9a9b06be.
 2024-11-06 08:23:12,829 - INFO - Logged data to llm collection with FirestoreID: c35b139fbeed58f15957cb4b45b9d70e.
+2024-11-06 09:28:10,856 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-06 09:28:10,860 - INFO - Extracted 324 link records from llm.
+2024-11-06 09:28:11,268 - INFO - Extracted 334 link records from combined_news.
+2024-11-06 09:28:11,269 - INFO - Unique links to process: 10
+2024-11-06 09:28:11,269 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-06 09:28:11,270 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-06 09:28:11,270 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-06 09:29:32,147 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 09:29:41,462 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 09:29:46,087 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 09:29:46,092 - INFO - Image query: A photorealistic image set in a modern primary care clinic. A middle-aged female doctor, wearing a white coat, is seated at a desk with a laptop open in front of her, engaged in a conversation with an elderly female patient, around 75 years old, who is sitting across from her. The patient has a thoughtful expression, indicating she is considering her future care options. The doctor is leaning slightly forward, with a compassionate look, as she gestures towards a printed document on the desk, symbolizing the Mini Mental State Examination. Nearby, a family member, a middle-aged man, is attentively listening, reflecting the importance of involving carers in discussions. The room is bright and welcoming, with natural light streaming through a window adorned with plants, creating a warm atmosphere. On the wall, a poster illustrates the brain and highlights dementia care, subtly reinforcing the topic. The composition captures a medium close-up angle, focusing on the empathetic interaction between the doctor, patient, and family member, emphasizing the proactive and multifaceted approach to dementia care. The overall mood conveys a sense of hope and urgency, reflecting the critical need for comprehensive support in navigating the dementia journey.
+2024-11-06 09:29:46,448 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-06 09:29:46,482 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:46,615 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:46,748 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:46,880 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,013 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,145 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,408 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,540 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,673 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,803 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:47,936 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,068 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,203 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,334 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,464 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,596 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,726 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,862 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 09:29:48,996 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7/status?logs=false "HTTP/1.1 200 OK"
+2024-11-06 09:29:49,028 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d33ed6e5-6966-4aaf-a012-5193681b39f7 "HTTP/1.1 200 OK"
+2024-11-06 09:29:49,029 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/Bpuf6WOdE1klua5vTZvdv.png
+2024-11-06 09:29:49,029 - INFO - Image link: https://fal.media/files/tiger/Bpuf6WOdE1klua5vTZvdv.png
+2024-11-06 09:29:49,029 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-06 09:29:49,029 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-06 09:29:49,029 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-06 09:29:49,030 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-06 09:29:54,188 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-11-06 09:29:54,189 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-11-06 09:30:01,265 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-06 09:30:01,266 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-06 09:30:01,266 - INFO - Sending 1 log entries to Firebase.
+2024-11-06 09:30:04,562 - INFO - Received 1 document IDs from Peerr.
+2024-11-06 09:30:04,700 - INFO - Logged data to llm collection with FirestoreID: 80d6ca4fbc8cbc21e87e22ed5302b319.
