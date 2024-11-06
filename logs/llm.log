@@ -22324,3 +22324,55 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-06 13:15:37,025 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-06 13:15:37,026 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-06 13:15:37,027 - INFO - No valid log entries generated.
+2024-11-06 13:36:28,818 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-06 13:36:28,822 - INFO - Extracted 326 link records from llm.
+2024-11-06 13:36:29,247 - INFO - Extracted 336 link records from combined_news.
+2024-11-06 13:36:29,248 - INFO - Unique links to process: 10
+2024-11-06 13:36:41,588 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 13:36:46,250 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 13:36:52,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 13:36:52,392 - INFO - Image query: A photorealistic image depicting a high-tech laboratory setting where scientists are engaged in genomic research. In the foreground, a diverse group of researchers, including a middle-aged South Asian woman and a young Black man, are intently examining a large computer screen displaying complex genomic sequences and data analytics. The woman is wearing a lab coat and safety goggles, pointing at the screen with a look of concentration, while the man takes notes on a digital tablet, showcasing collaboration and innovation. 
+
+In the background, advanced laboratory equipment, such as a sleek Oxford Nanopore sequencer, is visible, with glowing screens and intricate machinery that symbolize cutting-edge technology. The lab is brightly lit with a modern design, featuring glass walls that allow for transparency and openness in scientific inquiry. 
+
+The color palette includes cool blues and whites, evoking a sense of cleanliness and precision, while the lighting is bright and focused, highlighting the urgency and importance of the research being conducted. The composition captures a dynamic angle, emphasizing the teamwork and dedication of the scientists as they work to harness genomic technology for pandemic preparedness. The overall mood conveys optimism and determination, reflecting the critical nature of advancing healthcare through innovation and collaboration.
+2024-11-06 13:36:52,545 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-06 13:36:52,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:52,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:52,846 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:52,980 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:53,113 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:53,244 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:53,379 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:53,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:53,647 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:53,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:53,912 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,044 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,174 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,305 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,436 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,571 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,704 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,834 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:54,964 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:55,096 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 13:36:55,228 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f/status?logs=false "HTTP/1.1 200 OK"
+2024-11-06 13:36:55,395 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/10783fa8-1c6c-4325-af56-b8dd2f0da97f "HTTP/1.1 200 OK"
+2024-11-06 13:36:55,395 - INFO - Successfully generated image with Fal AI: https://fal.media/files/zebra/rZQo9SBZE_MoB3qpyz4lD.png
+2024-11-06 13:36:55,396 - INFO - Image link: https://fal.media/files/zebra/rZQo9SBZE_MoB3qpyz4lD.png
+2024-11-06 13:36:55,396 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-06 13:36:55,396 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-06 13:36:55,397 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-06 13:36:55,397 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-06 13:36:55,397 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-06 13:36:55,397 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-06 13:36:55,397 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-06 13:37:01,250 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 13:37:01,255 - INFO - No article found for link https://www.firstwordpharma.com/story/5905002.
+2024-11-06 13:37:01,255 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5905002
+2024-11-06 13:37:03,835 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-06 13:37:03,836 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-06 13:37:03,836 - INFO - Sending 1 log entries to Firebase.
+2024-11-06 13:37:06,507 - INFO - Received 1 document IDs from Peerr.
+2024-11-06 13:37:06,664 - INFO - Logged data to llm collection with FirestoreID: 06a419a3908e7bdacc979b98d11e16ff.
