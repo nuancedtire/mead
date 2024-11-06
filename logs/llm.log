@@ -22717,3 +22717,51 @@ The color palette includes cool blues and whites, evoking a sense of cleanliness
 2024-11-06 19:19:21,985 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-06 19:19:21,985 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-06 19:19:21,985 - INFO - No valid log entries generated.
+2024-11-06 20:24:21,416 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-06 20:24:21,420 - INFO - Extracted 331 link records from llm.
+2024-11-06 20:24:22,191 - INFO - Extracted 341 link records from combined_news.
+2024-11-06 20:24:22,192 - INFO - Unique links to process: 10
+2024-11-06 20:24:22,194 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-06 20:24:22,195 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-06 20:24:37,053 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 20:24:41,860 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 20:24:44,979 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 20:24:44,984 - INFO - Image query: A photorealistic image set in a bright, modern kitchen. A pregnant woman in her early 30s, with a warm smile, is preparing a healthy meal, surrounded by fresh fruits and vegetables, symbolizing a balanced diet. She is wearing a comfortable, casual outfit, with her hands gently resting on her baby bump, conveying a sense of nurturing and care. On the kitchen counter, a bowl filled with colorful fruits, such as berries and apples, contrasts with a small, empty bowl that once held sugary snacks, indicating a shift towards healthier choices. Sunlight streams through a window, illuminating the scene and creating a cheerful atmosphere. In the background, a toddler, around 2 years old, is playing with building blocks, representing the early childhood aspect of the study. The composition captures a medium shot, focusing on the mother and child, highlighting the importance of early-life dietary practices and their potential long-term health benefits. The overall mood is hopeful and positive, reflecting the significance of nutrition in shaping future health outcomes.
+2024-11-06 20:24:45,296 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-06 20:24:45,355 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:45,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:45,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:45,830 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:45,991 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:46,149 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:46,306 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:46,466 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:46,628 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:46,785 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:46,943 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:47,100 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:47,257 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:47,419 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:47,577 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:47,738 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:47,897 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:48,053 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:48,211 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:48,368 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:48,527 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:48,688 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:48,845 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 20:24:49,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189/status?logs=false "HTTP/1.1 200 OK"
+2024-11-06 20:24:49,060 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/957edebf-1d5d-4177-af57-19dd0a399189 "HTTP/1.1 200 OK"
+2024-11-06 20:24:49,060 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/dgC_EnmyEPNhGhniV21M5.png
+2024-11-06 20:24:49,061 - INFO - Image link: https://fal.media/files/lion/dgC_EnmyEPNhGhniV21M5.png
+2024-11-06 20:24:49,061 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-06 20:24:49,061 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-06 20:24:49,062 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-06 20:24:49,062 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-06 20:24:49,062 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-06 20:24:49,062 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-06 20:24:49,062 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-06 20:24:49,062 - INFO - Sending 1 log entries to Firebase.
+2024-11-06 20:24:52,437 - INFO - Received 1 document IDs from Peerr.
+2024-11-06 20:24:52,645 - INFO - Logged data to llm collection with FirestoreID: 74c16d7bc6c9baa7e8197b825c6e0ae8.
