@@ -22209,3 +22209,52 @@ In the background, shelves filled with laboratory equipment and vials create a s
 2024-11-06 10:58:43,516 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-06 10:58:43,516 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-06 10:58:43,516 - INFO - No valid log entries generated.
+2024-11-06 11:21:26,913 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-06 11:21:26,917 - INFO - Extracted 325 link records from llm.
+2024-11-06 11:21:27,254 - INFO - Extracted 335 link records from combined_news.
+2024-11-06 11:21:27,255 - INFO - Unique links to process: 10
+2024-11-06 11:21:27,255 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-06 11:21:27,255 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-06 11:21:27,255 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-06 11:21:41,542 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 11:21:46,660 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 11:21:50,543 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-06 11:21:50,548 - INFO - Image query: A photorealistic image set in a modern radiology department, showcasing a state-of-the-art workstation where a radiologist, a middle-aged woman in scrubs, is intently analyzing a chest X-ray on a large digital screen. The screen displays a detailed chest X-ray with highlighted areas indicating potential issues, symbolizing the use of AI in diagnostics. Beside her, a sleek monitor shows the interface of the Qure.ai's qXR tool, with graphs and data analytics that emphasize efficiency and urgency. The room is well-lit with bright fluorescent lights, and the walls are adorned with medical posters about cancer awareness. In the background, a large window reveals a bustling hospital corridor, hinting at the high demand for radiology services. The composition captures a medium shot, focusing on the radiologist's concentrated expression as she interacts with the AI tool, reflecting the transformative impact of technology on cancer diagnostics. The overall mood conveys a sense of urgency and hope, highlighting the potential of AI to significantly reduce wait times and improve patient outcomes in healthcare.
+2024-11-06 11:21:50,792 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-06 11:21:50,826 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:50,964 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:51,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:51,236 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:51,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:51,506 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:51,639 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:51,773 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:51,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,042 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,176 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,312 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,447 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,581 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,716 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,856 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:52,992 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:53,127 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:53,261 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:53,398 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:53,534 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:53,668 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:53,808 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:53,942 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-06 11:21:54,076 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341/status?logs=false "HTTP/1.1 200 OK"
+2024-11-06 11:21:54,109 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/098d0078-7d8d-4f3c-8b18-3e615f379341 "HTTP/1.1 200 OK"
+2024-11-06 11:21:54,110 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/zXP-wegkGI7fiykNhR00A.png
+2024-11-06 11:21:54,110 - INFO - Image link: https://fal.media/files/rabbit/zXP-wegkGI7fiykNhR00A.png
+2024-11-06 11:21:54,111 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-06 11:21:54,111 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-06 11:21:54,111 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-06 11:21:54,111 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-06 11:21:54,111 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-06 11:21:54,111 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-06 11:21:54,112 - INFO - Sending 1 log entries to Firebase.
+2024-11-06 11:21:57,331 - INFO - Received 1 document IDs from Peerr.
+2024-11-06 11:21:57,457 - INFO - Logged data to llm collection with FirestoreID: 8b19df650df0a3d582584ec71325f7ec.
