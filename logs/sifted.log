@@ -5441,3 +5441,8 @@
 2024-11-07 15:56:21,321 - INFO - Search phrase found and content trimmed.
 2024-11-07 15:56:21,985 - INFO - Data saved to Firestore. Total items: 5.
 2024-11-07 15:56:21,986 - INFO - Sifted script completed.
+2024-11-07 16:29:58,433 - INFO - Sifted script started.
+2024-11-07 16:30:00,108 - INFO - Successfully fetched data from URL.
+2024-11-07 16:30:00,108 - WARNING - Search phrase not found. Using original content.
+2024-11-07 16:30:00,772 - INFO - Data saved to Firestore. Total items: 5.
+2024-11-07 16:30:00,772 - INFO - Sifted script completed.
