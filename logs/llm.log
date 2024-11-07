@@ -23080,3 +23080,19 @@ The color palette includes cool blues and whites, evoking a sense of cleanliness
 2024-11-07 10:26:18,784 - INFO - Sending 1 log entries to Firebase.
 2024-11-07 10:26:21,889 - INFO - Received 1 document IDs from Peerr.
 2024-11-07 10:26:22,006 - INFO - Logged data to llm collection with FirestoreID: b4634888952fff4718bbcd003407d045.
+2024-11-07 10:44:39,651 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-07 10:44:39,655 - INFO - Extracted 335 link records from llm.
+2024-11-07 10:44:39,992 - INFO - Extracted 346 link records from combined_news.
+2024-11-07 10:44:39,993 - INFO - Unique links to process: 11
+2024-11-07 10:44:39,993 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-07 10:44:39,993 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-07 10:44:39,993 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-07 10:44:39,993 - INFO - Skipping recently failed link: https://www.pharmaceutical-technology.com/news/ema-alvotech-advanz-maa/
+2024-11-07 10:44:39,993 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-07 10:44:39,994 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-07 10:44:39,994 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-07 10:44:39,994 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-07 10:44:39,994 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-07 10:44:39,994 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-07 10:44:39,994 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-07 10:44:39,994 - INFO - No valid log entries generated.
