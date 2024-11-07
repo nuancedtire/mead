@@ -23272,3 +23272,49 @@ The color palette includes cool blues and whites, evoking a sense of cleanliness
 2024-11-07 13:13:32,428 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-07 13:13:32,428 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-07 13:13:32,428 - INFO - No valid log entries generated.
+2024-11-07 13:34:17,129 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-07 13:34:17,134 - INFO - Extracted 337 link records from llm.
+2024-11-07 13:34:17,482 - INFO - Extracted 348 link records from combined_news.
+2024-11-07 13:34:17,483 - INFO - Unique links to process: 11
+2024-11-07 13:34:17,483 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-07 13:34:22,368 - INFO - No article found for link https://doi.org/10.1136/thorax-2024-BTSabstracts.181.
+2024-11-07 13:34:22,368 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-07 13:34:22,368 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-07 13:34:34,141 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 13:34:37,415 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 13:34:42,446 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 13:34:42,451 - INFO - Image query: A photorealistic image set in a modern pharmaceutical research lab. In the foreground, a diverse group of three scientists—two women (one of Asian descent and one of Black descent) and one Caucasian male—are gathered around a sleek, high-tech laboratory table. They are intently examining a digital tablet displaying data and graphs related to AVT05, with expressions of excitement and determination. Behind them, shelves filled with laboratory equipment, vials, and research papers create a backdrop of innovation and discovery. A large window allows natural light to flood the space, illuminating the scientists and casting soft reflections on the polished surfaces. On the wall, a poster showcases the structure of the biosimilar molecule, emphasizing the scientific breakthrough. The composition captures a dynamic angle, focusing on the collaborative spirit of the team as they discuss the potential impact of AVT05 on chronic inflammatory conditions. The overall mood conveys optimism and urgency, reflecting the significance of this development in enhancing treatment accessibility and affordability for patients.
+2024-11-07 13:34:42,701 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-07 13:34:42,738 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:42,875 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,010 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,146 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,283 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,418 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,553 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,690 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,827 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:43,961 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:44,097 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:44,235 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:44,385 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:44,518 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:44,652 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:44,788 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:44,928 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:45,063 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:45,199 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:34:45,335 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62/status?logs=false "HTTP/1.1 200 OK"
+2024-11-07 13:34:45,371 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3868a573-f100-4168-8e6c-5c1f0ade2e62 "HTTP/1.1 200 OK"
+2024-11-07 13:34:45,372 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/pRrGBYVOU_wTvBwEyLi4z.png
+2024-11-07 13:34:45,372 - INFO - Image link: https://fal.media/files/penguin/pRrGBYVOU_wTvBwEyLi4z.png
+2024-11-07 13:34:45,373 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-07 13:34:45,373 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-07 13:34:45,374 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-07 13:34:45,374 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-07 13:34:45,374 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-07 13:34:45,374 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-07 13:34:45,375 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-07 13:34:45,375 - INFO - Sending 1 log entries to Firebase.
+2024-11-07 13:34:48,541 - INFO - Received 1 document IDs from Peerr.
+2024-11-07 13:34:48,665 - INFO - Logged data to llm collection with FirestoreID: 59745a333a9cd9debf90bb5d398ab944.
