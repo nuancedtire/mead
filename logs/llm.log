@@ -23112,3 +23112,52 @@ The color palette includes cool blues and whites, evoking a sense of cleanliness
 2024-11-07 10:57:33,628 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
 2024-11-07 10:57:33,628 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-07 10:57:33,628 - INFO - No valid log entries generated.
+2024-11-07 11:21:59,460 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-07 11:21:59,463 - INFO - Extracted 335 link records from llm.
+2024-11-07 11:21:59,802 - INFO - Extracted 347 link records from combined_news.
+2024-11-07 11:21:59,803 - INFO - Unique links to process: 12
+2024-11-07 11:21:59,803 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-07 11:21:59,803 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-07 11:21:59,803 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-07 11:21:59,804 - INFO - Skipping recently failed link: https://www.pharmaceutical-technology.com/news/ema-alvotech-advanz-maa/
+2024-11-07 11:21:59,804 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-07 11:22:16,518 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 11:22:20,180 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 11:22:25,462 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 11:22:25,467 - INFO - Image query: A photorealistic image depicting a modern, inviting digital workspace designed for young people. In the foreground, a diverse group of three teenagers, two girls and a boy, aged around 15-17, are gathered around a sleek laptop, engaged in a video call on the Tellmi app. The girl on the left, with curly hair and glasses, is smiling as she types, while the boy in the center, with short hair and a thoughtful expression, is leaning in, listening intently. The girl on the right, with straight hair and a relaxed demeanor, is holding a smartphone, showing a supportive message from a counselor. The background features a cozy room with soft lighting, colorful posters promoting mental health awareness, and a comfortable seating area filled with cushions. A large window allows natural light to flood the space, creating a warm and welcoming atmosphere. The composition captures a medium shot, focusing on the teenagers’ expressions of connection and support, emphasizing the importance of digital solutions in mental health care for youth. The overall mood is hopeful and encouraging, reflecting the positive impact of the Tellmi app on young people's mental well-being.
+2024-11-07 11:22:25,611 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-07 11:22:25,647 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:25,783 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:26,157 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:26,292 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:26,426 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:26,566 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:26,700 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:26,837 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:26,974 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:27,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:27,247 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:27,385 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:27,524 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:27,663 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:27,803 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:27,939 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:28,078 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:28,213 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:28,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:28,486 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:28,625 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:28,760 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 11:22:28,898 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879/status?logs=false "HTTP/1.1 200 OK"
+2024-11-07 11:22:28,933 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/fc706483-fc55-468e-9f84-5459690ac879 "HTTP/1.1 200 OK"
+2024-11-07 11:22:28,933 - INFO - Successfully generated image with Fal AI: https://fal.media/files/tiger/5SVXwkCn4aU9be5HlAKs3.png
+2024-11-07 11:22:28,933 - INFO - Image link: https://fal.media/files/tiger/5SVXwkCn4aU9be5HlAKs3.png
+2024-11-07 11:22:28,934 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-07 11:22:28,934 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-07 11:22:28,934 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-07 11:22:28,934 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-07 11:22:28,934 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-07 11:22:28,934 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-07 11:22:28,934 - INFO - Sending 1 log entries to Firebase.
+2024-11-07 11:22:32,242 - INFO - Received 1 document IDs from Peerr.
+2024-11-07 11:22:32,397 - INFO - Logged data to llm collection with FirestoreID: 7c5d47d7d6c822960e8e6a5eda0c5b32.
