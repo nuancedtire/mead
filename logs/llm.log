@@ -23318,3 +23318,45 @@ The color palette includes cool blues and whites, evoking a sense of cleanliness
 2024-11-07 13:34:45,375 - INFO - Sending 1 log entries to Firebase.
 2024-11-07 13:34:48,541 - INFO - Received 1 document IDs from Peerr.
 2024-11-07 13:34:48,665 - INFO - Logged data to llm collection with FirestoreID: 59745a333a9cd9debf90bb5d398ab944.
+2024-11-07 13:55:42,861 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-07 13:55:42,865 - INFO - Extracted 338 link records from llm.
+2024-11-07 13:55:43,618 - INFO - Extracted 349 link records from combined_news.
+2024-11-07 13:55:43,619 - INFO - Unique links to process: 11
+2024-11-07 13:55:43,619 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-07 13:55:43,620 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-07 13:55:43,620 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-07 13:55:43,620 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-07 13:55:43,620 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-07 13:55:43,620 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-07 13:55:43,620 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-07 13:55:43,620 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-07 13:55:54,158 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 13:55:56,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 13:56:00,554 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-07 13:56:00,559 - INFO - Image query: A photorealistic image set in a modern care home environment. In the foreground, a compassionate nurse, a middle-aged woman with short brown hair, is attentively observing an elderly female resident, around 80 years old, who is seated comfortably in a cozy armchair. The resident's face is illuminated by soft, natural light streaming through a nearby window, showcasing a range of subtle facial expressions that convey discomfort. The nurse holds a tablet displaying the PainChek app interface, which features a visual representation of facial recognition technology assessing pain levels. In the background, a serene common area is visible, with other residents engaged in activities, such as reading or chatting, emphasizing the community aspect of the care home. The walls are adorned with cheerful artwork, and potted plants add a touch of warmth to the space. The composition captures a medium close-up angle, focusing on the interaction between the nurse and the resident, highlighting the importance of innovative technology in enhancing patient care and pain management. The overall mood conveys a sense of hope and progress, reflecting the transformative potential of facial recognition technology in improving the quality of life for residents in care homes.
+2024-11-07 13:56:01,031 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-07 13:56:01,090 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:01,246 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:01,407 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:01,563 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:01,723 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:01,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:02,039 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:02,196 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:02,355 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:02,511 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:02,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:02,831 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:02,989 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:03,147 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:03,304 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:03,462 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-07 13:56:03,620 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07/status?logs=false "HTTP/1.1 200 OK"
+2024-11-07 13:56:03,675 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/3f048f48-53fb-485f-8ae3-39d37fdbca07 "HTTP/1.1 200 OK"
+2024-11-07 13:56:03,675 - INFO - Successfully generated image with Fal AI: https://fal.media/files/penguin/MfV2UhjFGydKFceecSMiX.png
+2024-11-07 13:56:03,676 - INFO - Image link: https://fal.media/files/penguin/MfV2UhjFGydKFceecSMiX.png
+2024-11-07 13:56:03,677 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5905002
+2024-11-07 13:56:03,677 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-07 13:56:03,677 - INFO - Sending 1 log entries to Firebase.
+2024-11-07 13:56:06,317 - INFO - Received 1 document IDs from Peerr.
+2024-11-07 13:56:06,520 - INFO - Logged data to llm collection with FirestoreID: ca9db410f3cca82899fdecc308f94443.
