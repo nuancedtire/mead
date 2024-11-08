@@ -24191,3 +24191,15 @@ The composition captures a medium-wide angle, highlighting the teamwork and cutt
 2024-11-08 12:39:47,759 - INFO - Received 2 document IDs from Peerr.
 2024-11-08 12:39:47,963 - INFO - Logged data to llm collection with FirestoreID: 8b29c6b2b6c608a4434275f6d4a59dec.
 2024-11-08 12:39:48,747 - INFO - Logged data to llm collection with FirestoreID: 9fb122b2570b14d6175a2091d3082431.
+2024-11-08 13:25:29,218 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-08 13:25:29,222 - INFO - Extracted 351 link records from llm.
+2024-11-08 13:25:29,615 - INFO - Extracted 358 link records from combined_news.
+2024-11-08 13:25:29,616 - INFO - Unique links to process: 7
+2024-11-08 13:25:29,617 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-08 13:25:29,617 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-08 13:25:29,617 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-08 13:25:29,617 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-08 13:25:29,617 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-08 13:25:29,617 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-08 13:25:29,617 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-08 13:25:29,617 - INFO - No valid log entries generated.
