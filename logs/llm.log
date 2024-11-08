@@ -24070,3 +24070,46 @@ The composition captures a medium shot, emphasizing the collaborative spirit of 
 2024-11-08 10:44:54,016 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
 2024-11-08 10:44:54,016 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-08 10:44:54,016 - INFO - No valid log entries generated.
+2024-11-08 11:17:16,503 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-08 11:17:16,507 - INFO - Extracted 348 link records from llm.
+2024-11-08 11:17:16,878 - INFO - Extracted 358 link records from combined_news.
+2024-11-08 11:17:16,879 - INFO - Unique links to process: 10
+2024-11-08 11:17:16,879 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-08 11:17:31,867 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-08 11:17:36,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-08 11:17:39,583 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-08 11:17:39,587 - INFO - Image query: A photorealistic image depicting a modern living room setting where an elderly woman, around 75 years old, is seated comfortably on a couch, using a tablet to access the new app designed for unpaid carers. She has a look of concentration and relief as she navigates through her health records. Beside her, a middle-aged man, her son, stands with a supportive expression, pointing at the screen, symbolizing the collaborative care aspect. In the background, a smart speaker (like an Alexa) and a fitness tracker are visible on a side table, illustrating the app's integration with technology. The room is bright and inviting, with natural light streaming through a window, creating a warm atmosphere. Family photos adorn the walls, emphasizing the importance of care and connection. The composition captures a medium shot, focusing on the interaction between the mother and son, highlighting the emotional support and empowerment that the app provides to unpaid carers. The overall mood conveys hope and innovation, reflecting the transformative potential of technology in caregiving.
+2024-11-08 11:17:39,750 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-08 11:17:39,790 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:39,932 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:40,071 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:40,210 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:40,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:40,493 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:40,634 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:40,776 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:40,920 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:41,063 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:41,203 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:41,343 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:41,483 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:41,629 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:41,768 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:41,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:42,048 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:42,188 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-08 11:17:42,328 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013/status?logs=false "HTTP/1.1 200 OK"
+2024-11-08 11:17:42,366 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/c940039f-be19-4534-a7b2-190c482fb013 "HTTP/1.1 200 OK"
+2024-11-08 11:17:42,366 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/3Rh_FEaRisKLZC4KVwZqL.png
+2024-11-08 11:17:42,367 - INFO - Image link: https://fal.media/files/monkey/3Rh_FEaRisKLZC4KVwZqL.png
+2024-11-08 11:17:42,367 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-08 11:17:42,367 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-08 11:17:42,367 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-08 11:17:42,367 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5909264
+2024-11-08 11:17:42,368 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5906990
+2024-11-08 11:17:42,368 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-08 11:17:42,368 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-08 11:17:42,368 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-08 11:17:42,368 - INFO - Sending 1 log entries to Firebase.
+2024-11-08 11:17:45,699 - INFO - Received 1 document IDs from Peerr.
+2024-11-08 11:17:45,831 - INFO - Logged data to llm collection with FirestoreID: 2143bb0961c9dc77e83779e384345d34.
