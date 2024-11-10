@@ -6923,3 +6923,9 @@
 2024-11-10 01:46:56,806 - INFO - Processed first article
 2024-11-10 01:46:56,978 - INFO - Data saved to Firestore. Total items: 1.
 2024-11-10 01:46:56,978 - INFO - Scraping completed.
+2024-11-10 06:29:30,132 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-11-10 06:29:30,358 - INFO - Successfully fetched webpage. Content length: 100471
+2024-11-10 06:29:30,390 - INFO - Processed item: BFB Labs founder: Diversity attracts diversity - 2024-11-01 00:00:00
+2024-11-10 06:29:30,390 - INFO - Processed first article
+2024-11-10 06:29:30,978 - INFO - Data saved to Firestore. Total items: 1.
+2024-11-10 06:29:30,978 - INFO - Scraping completed.
