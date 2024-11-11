@@ -25093,3 +25093,53 @@ The composition captures a medium-wide angle, highlighting the teamwork and cutt
 2024-11-11 14:21:58,819 - INFO - Logged data to llm collection with FirestoreID: 69a72c0605feb44be9eb44aba616254d.
 2024-11-11 14:21:58,964 - INFO - Logged data to llm collection with FirestoreID: b7d46de88a8d876b5e0073ba8d25a5f6.
 2024-11-11 14:21:59,326 - INFO - Logged data to llm collection with FirestoreID: dc7e9bb680337258947c77916ce48e54.
+2024-11-11 15:21:34,853 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-11 15:21:34,857 - INFO - Extracted 364 link records from llm.
+2024-11-11 15:21:35,656 - INFO - Extracted 372 link records from combined_news.
+2024-11-11 15:21:35,657 - INFO - Unique links to process: 8
+2024-11-11 15:21:40,068 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-11 15:21:40,068 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-11 15:21:43,237 - INFO - No article found for link https://doi.org/10.1136/thorax-2024-BTSabstracts.181.
+2024-11-11 15:21:43,237 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-11 15:21:54,111 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-11 15:21:54,128 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-11 15:21:54,129 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-11 15:21:56,305 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-11 15:21:56,305 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-11 15:22:03,187 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-11 15:22:03,192 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-11 15:22:03,193 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-11 15:22:08,420 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-11 15:22:08,425 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-11 15:22:08,426 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-11 15:22:19,607 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-11 15:22:24,093 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-11 15:22:26,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-11 15:22:26,773 - INFO - Image query: A photorealistic image set in a modern hospital environment, showcasing a diverse group of healthcare professionals engaged in a digital prehabilitation session. In the foreground, a middle-aged female physiotherapist, wearing scrubs and a name badge, is demonstrating exercises on a tablet to a group of patients seated in comfortable chairs. The patients, a mix of genders and ethnicities, appear engaged and motivated, with expressions of determination and hope. Behind them, a large screen displays animated graphics illustrating the benefits of digital prehab, such as faster recovery and improved quality of life. The room is bright and airy, with natural light streaming through large windows, creating a welcoming atmosphere. Medical equipment and exercise mats are neatly arranged around the space, emphasizing the focus on rehabilitation. The composition captures a wide-angle view, highlighting the collaborative and innovative spirit of the digital prehab initiative. The overall mood conveys optimism and progress, reflecting the transformative potential of technology in patient care and recovery within the NHS.
+2024-11-11 15:22:27,221 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-11 15:22:27,281 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:27,443 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:27,606 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:27,767 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:27,931 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:28,088 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:28,248 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:28,407 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:28,565 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:28,724 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:28,882 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:29,042 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:29,209 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:29,373 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:29,532 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:29,692 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:29,859 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-11 15:22:30,019 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1/status?logs=false "HTTP/1.1 200 OK"
+2024-11-11 15:22:30,077 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1cb96de9-46d4-45a9-8878-d16e4cbc4cb1 "HTTP/1.1 200 OK"
+2024-11-11 15:22:30,077 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/an9YJ-bgLlMSFsQwwEmPn.png
+2024-11-11 15:22:30,078 - INFO - Image link: https://fal.media/files/monkey/an9YJ-bgLlMSFsQwwEmPn.png
+2024-11-11 15:22:36,587 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-11 15:22:36,588 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-11 15:22:36,588 - INFO - Sending 1 log entries to Firebase.
+2024-11-11 15:22:39,915 - INFO - Received 1 document IDs from Peerr.
+2024-11-11 15:22:40,132 - INFO - Logged data to llm collection with FirestoreID: e5279c5d8ceaf9f230118e7512848252.
