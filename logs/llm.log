@@ -24666,3 +24666,22 @@ The composition captures a medium-wide angle, highlighting the teamwork and cutt
 2024-11-10 21:16:45,704 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
 2024-11-10 21:16:45,704 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-10 21:16:45,704 - INFO - No valid log entries generated.
+2024-11-11 01:05:56,875 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-11 01:05:56,879 - INFO - Extracted 355 link records from llm.
+2024-11-11 01:05:57,245 - INFO - Extracted 362 link records from combined_news.
+2024-11-11 01:05:57,246 - INFO - Unique links to process: 7
+2024-11-11 01:06:08,528 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-11 01:06:08,528 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-11 01:06:11,226 - INFO - No article found for link https://doi.org/10.1136/thorax-2024-BTSabstracts.181.
+2024-11-11 01:06:11,227 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-11 01:06:18,798 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-11 01:06:18,799 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-11 01:06:20,954 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-11 01:06:20,954 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-11 01:06:24,724 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-11 01:06:24,724 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-11 01:06:29,729 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-11 01:06:29,730 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-11 01:06:34,591 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-11 01:06:34,591 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-11 01:06:34,591 - INFO - No valid log entries generated.
