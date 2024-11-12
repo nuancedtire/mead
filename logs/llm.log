@@ -25683,3 +25683,53 @@ The composition captures a dynamic angle, focusing on the physician's hands as s
 2024-11-12 14:22:31,932 - INFO - Logged data to llm collection with FirestoreID: 2a2747780c081f366532106778ee159b.
 2024-11-12 14:22:32,388 - INFO - Logged data to llm collection with FirestoreID: 78e35b27f8967e0c415a0fdf08456547.
 2024-11-12 14:22:32,551 - INFO - Logged data to llm collection with FirestoreID: 90df4a5eb53e9e36c808a9793b006dc2.
+2024-11-12 15:21:45,542 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-12 15:21:45,546 - INFO - Extracted 376 link records from llm.
+2024-11-12 15:21:46,004 - INFO - Extracted 384 link records from combined_news.
+2024-11-12 15:21:46,006 - INFO - Unique links to process: 8
+2024-11-12 15:21:51,898 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-12 15:21:51,899 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-12 15:21:54,832 - INFO - No article found for link https://doi.org/10.1136/thorax-2024-BTSabstracts.181.
+2024-11-12 15:21:54,833 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-12 15:21:58,562 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-12 15:21:58,580 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-12 15:21:58,580 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-12 15:22:00,925 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-12 15:22:00,926 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-12 15:22:05,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-12 15:22:05,715 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-12 15:22:05,715 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-12 15:22:15,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-12 15:22:15,586 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-12 15:22:15,587 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-12 15:22:20,235 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-12 15:22:20,235 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-12 15:22:38,953 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-12 15:22:44,854 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-12 15:22:47,887 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-12 15:22:47,891 - INFO - Image query: A photorealistic image set in a modern healthcare clinic, featuring a diverse group of healthcare professionals engaged in a discussion around a conference table. The scene includes a middle-aged male doctor in a white coat, a female nurse with a stethoscope, and a young male psychologist, all looking thoughtfully at a digital tablet displaying data on mental health and diabetes care. The doctor points to a graph illustrating the disparity in antidepressant prescriptions, while the nurse takes notes, and the psychologist leans in, showing concern. In the background, a large window allows natural light to flood the room, creating a warm and inviting atmosphere. On the walls, posters promoting mental health awareness and diabetes management are visible, emphasizing the importance of integrated care. The composition captures a medium shot, focusing on the engaged expressions of the professionals, highlighting the urgency and importance of addressing mental health in type 2 diabetes management. The overall mood conveys a sense of collaboration and determination to improve healthcare equity.
+2024-11-12 15:22:48,170 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-12 15:22:48,200 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:48,332 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:48,459 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:48,585 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:48,717 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:48,844 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:48,973 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:49,096 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:49,596 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:49,809 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:49,939 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:50,127 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:50,258 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:50,386 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:50,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:50,642 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:50,773 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-12 15:22:50,914 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace/status?logs=false "HTTP/1.1 200 OK"
+2024-11-12 15:22:50,937 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cb6a2394-3256-448f-bd7e-d064efeeaace "HTTP/1.1 200 OK"
+2024-11-12 15:22:50,937 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/q-4vzDu-tUEmUsllAMTjW.png
+2024-11-12 15:22:50,937 - INFO - Image link: https://fal.media/files/koala/q-4vzDu-tUEmUsllAMTjW.png
+2024-11-12 15:22:50,938 - INFO - Sending 1 log entries to Firebase.
+2024-11-12 15:22:54,284 - INFO - Received 1 document IDs from Peerr.
+2024-11-12 15:22:54,462 - INFO - Logged data to llm collection with FirestoreID: f31977d4bf8b18fe1dd988aff9d52088.
