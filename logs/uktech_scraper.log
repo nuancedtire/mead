@@ -7094,3 +7094,10 @@
 2024-11-12 12:39:04,869 - INFO - Processed first article
 2024-11-12 12:39:05,476 - INFO - Data saved to Firestore. Total items: 1.
 2024-11-12 12:39:05,476 - INFO - Scraping completed.
+2024-11-12 13:26:59,932 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-11-12 13:27:00,176 - INFO - Successfully fetched webpage. Content length: 100635
+2024-11-12 13:27:00,204 - WARNING - Error parsing date: time data '3 mins ago' does not match format '%d %b %Y'. Using current date.
+2024-11-12 13:27:00,205 - INFO - Processed item: Life science firm tackling ALS with UCL tech raises £79m - 2024-11-12 13:27:00
+2024-11-12 13:27:00,205 - INFO - Processed first article
+2024-11-12 13:27:00,766 - INFO - Data saved to Firestore. Total items: 1.
+2024-11-12 13:27:00,767 - INFO - Scraping completed.
