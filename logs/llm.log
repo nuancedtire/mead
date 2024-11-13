@@ -25837,3 +25837,55 @@ The composition captures a dynamic angle, focusing on the physician's hands as s
 2024-11-13 03:20:13,043 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
 2024-11-13 03:20:13,043 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-13 03:20:13,043 - INFO - No valid log entries generated.
+2024-11-13 06:21:11,378 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-13 06:21:11,382 - INFO - Extracted 377 link records from llm.
+2024-11-13 06:21:11,748 - INFO - Extracted 385 link records from combined_news.
+2024-11-13 06:21:11,749 - INFO - Unique links to process: 8
+2024-11-13 06:21:14,714 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-13 06:21:14,715 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-13 06:21:19,140 - INFO - No article found for link https://doi.org/10.1136/thorax-2024-BTSabstracts.181.
+2024-11-13 06:21:19,141 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-13 06:21:23,628 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 06:21:23,645 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-13 06:21:23,646 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-13 06:21:32,071 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 06:21:35,578 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 06:21:38,798 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 06:21:38,803 - INFO - Image query: A photorealistic image set in a bright, cheerful day care environment. In the foreground, a diverse group of young children, aged 2 to 5 years, are engaged in playful activities, such as building blocks and drawing, showcasing their joyful expressions. A caregiver, a middle-aged woman with a warm smile, is kneeling beside them, encouraging their creativity and interaction. The room is filled with colorful decorations, educational posters, and soft toys, creating a nurturing atmosphere. Sunlight streams through large windows, illuminating the space and casting playful shadows on the floor. In the background, a chart on the wall subtly illustrates the concept of health and wellness, hinting at the protective factors against type 1 diabetes. The composition captures a wide-angle view, emphasizing the lively interaction among the children and caregiver, while conveying a sense of safety, community, and the potential benefits of day care attendance for young children's health. The overall mood is optimistic and inviting, reflecting the importance of early childhood care in promoting health outcomes.
+2024-11-13 06:21:38,941 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-13 06:21:38,982 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:39,118 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:39,253 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:39,389 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:39,525 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:39,664 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:39,801 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:39,938 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:40,074 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:40,213 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:40,351 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:40,490 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:40,626 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:40,763 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:40,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:41,043 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:41,180 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:41,318 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:41,454 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-13 06:21:41,593 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015/status?logs=false "HTTP/1.1 200 OK"
+2024-11-13 06:21:41,629 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/9b9cbbbf-ff63-4e16-9a9b-c8ee717b6015 "HTTP/1.1 200 OK"
+2024-11-13 06:21:41,629 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/g3Ab1e0NL1MZDeN6u0IuU.png
+2024-11-13 06:21:41,630 - INFO - Image link: https://fal.media/files/monkey/g3Ab1e0NL1MZDeN6u0IuU.png
+2024-11-13 06:22:01,708 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-13 06:22:01,708 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-13 06:22:06,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 06:22:06,495 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-13 06:22:06,495 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-13 06:22:11,718 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 06:22:11,722 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-13 06:22:11,723 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-13 06:22:13,640 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-13 06:22:13,640 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-13 06:22:13,641 - INFO - Sending 1 log entries to Firebase.
+2024-11-13 06:22:16,721 - INFO - Received 1 document IDs from Peerr.
+2024-11-13 06:22:16,844 - INFO - Logged data to llm collection with FirestoreID: 665765632f750aac46f7e79140322cb4.
