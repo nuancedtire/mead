@@ -26268,3 +26268,20 @@ The composition captures a dynamic angle, focusing on the physician's hands as s
 2024-11-13 15:23:53,434 - INFO - Logged data to llm collection with FirestoreID: 7535a992917cf45acabf199ae055c61b.
 2024-11-13 15:23:54,105 - INFO - Logged data to llm collection with FirestoreID: 780b5c2b805b0e72d8bdf8f851aca156.
 2024-11-13 15:23:54,326 - INFO - Logged data to llm collection with FirestoreID: 95eca6a2b567d8375a5ec5f29a7a3f39.
+2024-11-13 16:25:42,882 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-13 16:25:42,886 - INFO - Extracted 388 link records from llm.
+2024-11-13 16:25:43,365 - INFO - Extracted 395 link records from combined_news.
+2024-11-13 16:25:43,367 - INFO - Unique links to process: 7
+2024-11-13 16:25:43,367 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-13 16:25:43,367 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-13 16:25:43,367 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-13 16:25:43,367 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-13 16:25:47,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 16:25:47,599 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-13 16:25:47,600 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-13 16:25:53,785 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-13 16:25:53,790 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-13 16:25:53,791 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-13 16:25:56,260 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-13 16:25:56,261 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-13 16:25:56,261 - INFO - No valid log entries generated.
