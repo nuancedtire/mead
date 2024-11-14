@@ -26572,3 +26572,45 @@ The composition captures a dynamic angle, focusing on the physician's hands as s
 2024-11-14 11:18:30,674 - INFO - Sending 1 log entries to Firebase.
 2024-11-14 11:18:33,668 - INFO - Received 1 document IDs from Peerr.
 2024-11-14 11:18:33,893 - INFO - Logged data to llm collection with FirestoreID: 782989dd1f253b1932761490bceea5fa.
+2024-11-14 12:40:00,610 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-14 12:40:00,614 - INFO - Extracted 393 link records from llm.
+2024-11-14 12:40:00,969 - INFO - Extracted 402 link records from combined_news.
+2024-11-14 12:40:00,970 - INFO - Unique links to process: 9
+2024-11-14 12:40:00,971 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-14 12:40:53,878 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:40:59,114 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:41:05,512 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 12:41:05,516 - INFO - Image query: A photorealistic image depicting a modern healthcare innovation hub. In the foreground, a diverse group of healthcare professionals, including a middle-aged female doctor in a white coat, a young male nurse in scrubs, and an elderly male patient in a wheelchair, are engaged in a discussion around a digital tablet displaying the Roczen platform interface. The doctor points to the screen, illustrating personalized health plans, while the nurse takes notes, showcasing collaboration in patient management. In the background, a large digital display shows real-time data analytics related to hospital operations, including tracking equipment like wheelchairs and stretchers. The room is bright and airy, with large windows allowing natural light to flood in, creating an optimistic atmosphere. The color palette features calming blues and greens, symbolizing health and innovation. The composition captures a medium shot, focusing on the interaction between the professionals and the patient, emphasizing the transformative impact of digital health innovations on patient care and operational efficiency. The overall mood conveys excitement and hope, reflecting the positive changes in healthcare through technology.
+2024-11-14 12:41:05,667 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-14 12:41:05,705 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:05,842 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:05,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:06,116 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:06,260 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:06,398 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:06,537 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:06,677 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:06,813 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:06,950 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:07,085 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:07,224 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:07,362 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:07,499 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:07,638 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:07,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:07,910 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:08,045 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 12:41:08,182 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400/status?logs=false "HTTP/1.1 200 OK"
+2024-11-14 12:41:08,219 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/cab8808f-fd3a-47ff-b420-a32070145400 "HTTP/1.1 200 OK"
+2024-11-14 12:41:08,220 - INFO - Successfully generated image with Fal AI: https://fal.media/files/monkey/15WiJykKsjuvLFaFxUOWb.png
+2024-11-14 12:41:08,220 - INFO - Image link: https://fal.media/files/monkey/15WiJykKsjuvLFaFxUOWb.png
+2024-11-14 12:41:08,220 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-14 12:41:08,221 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-14 12:41:08,221 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-14 12:41:08,221 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-14 12:41:08,221 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-14 12:41:08,221 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.jinf.2024.106328
+2024-11-14 12:41:08,221 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-14 12:41:08,221 - INFO - Sending 1 log entries to Firebase.
+2024-11-14 12:41:11,204 - INFO - Received 1 document IDs from Peerr.
+2024-11-14 12:41:11,339 - INFO - Logged data to llm collection with FirestoreID: 232d295d5fa0e12b524d1f5b1d0142d1.
