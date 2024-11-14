@@ -26483,3 +26483,52 @@ The composition captures a dynamic angle, focusing on the physician's hands as s
 2024-11-14 09:24:10,581 - INFO - Logged data to llm collection with FirestoreID: 2da440ff73dc13b8f31aa7ae0e282998.
 2024-11-14 09:24:10,991 - INFO - Logged data to llm collection with FirestoreID: 3a667fa02b6884ed6084d769164e5681.
 2024-11-14 09:24:11,149 - INFO - Logged data to llm collection with FirestoreID: 8c9dea79b19e553e64fbbd449ff110f6.
+2024-11-14 10:22:23,013 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-14 10:22:23,017 - INFO - Extracted 391 link records from llm.
+2024-11-14 10:22:23,383 - INFO - Extracted 400 link records from combined_news.
+2024-11-14 10:22:23,384 - INFO - Unique links to process: 9
+2024-11-14 10:22:23,384 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-14 10:22:23,384 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-14 10:22:23,384 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-14 10:22:23,384 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-14 10:22:35,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:22:38,386 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:22:41,830 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:22:41,835 - INFO - Image query: A photorealistic image set in a modern conference hall bustling with activity during a healthcare technology event. In the foreground, Dr. Charlotte Refsum, a middle-aged woman with short brown hair and glasses, stands confidently at a podium, passionately addressing an audience. She wears a professional blazer and gestures expressively, emphasizing her points about digital care records. Beside her, Markus Bolton, a tall man with salt-and-pepper hair, leans slightly forward, engaged and ready to contribute, dressed in a smart suit. The audience, a diverse group of healthcare professionals, is seated in rows, some taking notes on digital devices, others engaged in discussion. The backdrop features a large screen displaying the event title "Digital Health Rewired 2025" with vibrant graphics symbolizing technology and innovation. The lighting is bright and focused on the speakers, creating an energetic atmosphere. The color palette includes blues and greens, reflecting a modern, tech-savvy environment. The composition captures a wide-angle view, showcasing the dynamic interaction between the speakers and the audience, highlighting the importance of digital transformation in healthcare. The overall mood conveys excitement and anticipation for the future of healthcare through technology.
+2024-11-14 10:22:41,983 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-14 10:22:42,022 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:42,163 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:42,301 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:42,438 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:42,576 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:42,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:42,856 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:42,993 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:43,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:43,271 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:43,409 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:43,546 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:43,687 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:43,843 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:43,983 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:44,120 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:44,259 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:44,397 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-14 10:22:44,533 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63/status?logs=false "HTTP/1.1 200 OK"
+2024-11-14 10:22:44,572 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/28d41b4e-2af8-4d9b-a062-d5c252075d63 "HTTP/1.1 200 OK"
+2024-11-14 10:22:44,572 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/Q3ixqeUjFx-FOEk8md6Zk.png
+2024-11-14 10:22:44,572 - INFO - Image link: https://fal.media/files/koala/Q3ixqeUjFx-FOEk8md6Zk.png
+2024-11-14 10:22:51,765 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:22:51,771 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-14 10:22:51,772 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-14 10:22:55,678 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:22:55,682 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-14 10:22:55,683 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-14 10:23:02,104 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-14 10:23:02,109 - INFO - No article found for link https://doi.org/10.1016/j.jinf.2024.106328.
+2024-11-14 10:23:02,110 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.jinf.2024.106328
+2024-11-14 10:23:07,926 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-14 10:23:07,926 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-14 10:23:07,926 - INFO - Sending 1 log entries to Firebase.
+2024-11-14 10:23:11,108 - INFO - Received 1 document IDs from Peerr.
+2024-11-14 10:23:11,229 - INFO - Logged data to llm collection with FirestoreID: 8e2665a5329e18241f0c9dfb06d41644.
