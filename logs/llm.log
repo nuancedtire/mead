@@ -26889,3 +26889,29 @@ In the background, a colorful informational poster about STIs and safe sex pract
 2024-11-15 03:28:43,945 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.jinf.2024.106328
 2024-11-15 03:28:43,945 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-15 03:28:43,945 - INFO - No valid log entries generated.
+2024-11-15 06:25:04,734 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-15 06:25:04,738 - INFO - Extracted 398 link records from llm.
+2024-11-15 06:25:05,549 - INFO - Extracted 406 link records from combined_news.
+2024-11-15 06:25:05,550 - INFO - Unique links to process: 8
+2024-11-15 06:25:07,741 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-15 06:25:07,742 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-15 06:25:16,995 - INFO - No article found for link https://doi.org/10.1136/thorax-2024-BTSabstracts.181.
+2024-11-15 06:25:16,995 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-15 06:25:23,067 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 06:25:23,084 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-15 06:25:23,085 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-15 06:25:32,365 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-15 06:25:32,366 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-15 06:25:40,400 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 06:25:40,405 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-15 06:25:40,405 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-15 06:25:44,167 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 06:25:44,171 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-15 06:25:44,172 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-15 06:25:59,627 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 06:25:59,631 - INFO - No article found for link https://doi.org/10.1016/j.jinf.2024.106328.
+2024-11-15 06:25:59,632 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.jinf.2024.106328
+2024-11-15 06:26:02,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 06:26:02,778 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-15 06:26:02,778 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-15 06:26:02,778 - INFO - No valid log entries generated.
