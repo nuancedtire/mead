@@ -7513,3 +7513,9 @@
 2024-11-17 18:24:38,587 - INFO - Processed first article
 2024-11-17 18:24:39,183 - INFO - Data saved to Firestore. Total items: 1.
 2024-11-17 18:24:39,183 - INFO - Scraping completed.
+2024-11-17 21:18:21,559 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-11-17 21:18:21,894 - INFO - Successfully fetched webpage. Content length: 100312
+2024-11-17 21:18:21,922 - INFO - Processed item: AI-driven running app Coopah gains £1.5m funding - 2024-11-13 00:00:00
+2024-11-17 21:18:21,922 - INFO - Processed first article
+2024-11-17 21:18:22,332 - INFO - Data saved to Firestore. Total items: 1.
+2024-11-17 21:18:22,332 - INFO - Scraping completed.
