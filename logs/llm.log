@@ -27725,3 +27725,45 @@ The composition captures a wide-angle view of the bustling hospital corridor, wi
 2024-11-18 06:23:57,206 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-11-18 06:23:57,207 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-18 06:23:57,207 - INFO - No valid log entries generated.
+2024-11-18 09:24:36,443 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-18 09:24:36,447 - INFO - Extracted 408 link records from llm.
+2024-11-18 09:24:36,916 - INFO - Extracted 417 link records from combined_news.
+2024-11-18 09:24:36,917 - INFO - Unique links to process: 9
+2024-11-18 09:24:36,918 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-18 09:24:36,918 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-18 09:24:36,918 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-18 09:24:36,918 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-18 09:24:36,918 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-18 09:24:36,918 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-18 09:24:36,918 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.jinf.2024.106328
+2024-11-18 09:24:47,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 09:24:50,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 09:24:53,245 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 09:24:53,249 - INFO - Image query: A photorealistic image set in a modern community healthcare clinic. A healthcare professional, a middle-aged woman wearing scrubs and safety glasses, is operating an optical coherence tomography (OCT) machine, which is sleek and high-tech, with a digital display showing a detailed scan of an eye. In front of her, a middle-aged male patient, around 50 years old, sits comfortably in an examination chair, looking curious and engaged as he watches the screen. The room is bright and welcoming, with natural light streaming through large windows, illuminating medical charts and eye care posters on the walls. A small table nearby holds pamphlets about diabetic retinopathy and eye health. The composition captures a medium close-up angle, focusing on the interaction between the healthcare professional and the patient, emphasizing the importance of early detection and community-based care. The overall mood conveys a sense of hope and innovation, reflecting the potential impact of digital eye screening on patient outcomes and healthcare efficiency.
+2024-11-18 09:24:53,501 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-18 09:24:53,536 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:53,673 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:53,806 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:53,944 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:54,081 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:54,218 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:54,355 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:54,497 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:54,644 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:54,779 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:54,912 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:55,052 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:55,185 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:55,319 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:55,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:55,595 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:55,733 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:55,875 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 09:24:56,028 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced/status?logs=false "HTTP/1.1 200 OK"
+2024-11-18 09:24:56,064 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/da6f3954-7c73-42ce-817e-20c6399cbced "HTTP/1.1 200 OK"
+2024-11-18 09:24:56,064 - INFO - Successfully generated image with Fal AI: https://fal.media/files/koala/hDj9ojdM3hzm7C1X0WnGz.png
+2024-11-18 09:24:56,064 - INFO - Image link: https://fal.media/files/koala/hDj9ojdM3hzm7C1X0WnGz.png
+2024-11-18 09:24:56,065 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-18 09:24:56,065 - INFO - Sending 1 log entries to Firebase.
+2024-11-18 09:24:59,352 - INFO - Received 1 document IDs from Peerr.
+2024-11-18 09:24:59,491 - INFO - Logged data to llm collection with FirestoreID: d54128f5aad8f8358da319212ac73157.
