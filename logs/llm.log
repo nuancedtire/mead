@@ -27922,3 +27922,44 @@ The composition captures a wide-angle view of the bustling hospital corridor, wi
 2024-11-18 11:19:52,154 - INFO - Sending 1 log entries to Firebase.
 2024-11-18 11:19:55,400 - INFO - Received 1 document IDs from Peerr.
 2024-11-18 11:19:55,542 - INFO - Logged data to llm collection with FirestoreID: 1649a53ea589e075e785dd65048037d4.
+2024-11-18 12:42:04,956 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-18 12:42:04,961 - INFO - Extracted 412 link records from llm.
+2024-11-18 12:42:05,771 - INFO - Extracted 422 link records from combined_news.
+2024-11-18 12:42:05,772 - INFO - Unique links to process: 10
+2024-11-18 12:42:05,772 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-18 12:42:05,772 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-18 12:42:05,772 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-18 12:42:05,773 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-18 12:42:05,773 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-18 12:42:05,773 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-18 12:42:15,293 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 12:42:18,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 12:42:21,996 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 12:42:22,001 - INFO - Image query: A photorealistic image set in a modern corporate boardroom at Oxford Biomedica. The focus is on a diverse group of five professionals engaged in a strategic discussion around a sleek, oval conference table. At the head of the table, a middle-aged man, Colin Bond, exuding confidence in a tailored suit, gestures thoughtfully while presenting a report on a digital tablet. His expression is focused and determined, symbolizing leadership and vision. The other attendees, including a middle-aged woman with glasses, a young Asian man, and two older professionals, listen intently, showcasing a mix of curiosity and concern about the future of gene therapy. The room is well-lit with large windows allowing natural light to flood in, illuminating a large screen displaying graphs and data related to gene therapy advancements. A whiteboard in the background features handwritten notes and diagrams, emphasizing the innovative spirit of the company. The composition captures a medium shot angle, focusing on the dynamic interaction among the team members, highlighting the importance of leadership and strategic planning in the biotech sector. The overall mood conveys a sense of urgency and hope, reflecting the challenges and potential for growth in the field of gene therapy.
+2024-11-18 12:42:22,305 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-18 12:42:22,364 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:22,519 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:22,677 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:22,841 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:23,002 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:23,160 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:23,320 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:23,477 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:23,634 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:23,793 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:23,950 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:24,108 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:24,267 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:24,428 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:24,589 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:24,746 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 12:42:24,904 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed/status?logs=false "HTTP/1.1 200 OK"
+2024-11-18 12:42:24,961 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/273d8439-0051-45a9-86da-7eb3c932b1ed "HTTP/1.1 200 OK"
+2024-11-18 12:42:24,961 - INFO - Successfully generated image with Fal AI: https://fal.media/files/elephant/n7qQo76AUUxStEi-Tx_I1.png
+2024-11-18 12:42:24,961 - INFO - Image link: https://fal.media/files/elephant/n7qQo76AUUxStEi-Tx_I1.png
+2024-11-18 12:42:24,962 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.jinf.2024.106328
+2024-11-18 12:42:24,962 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5913270
+2024-11-18 12:42:24,962 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-18 12:42:24,962 - INFO - Sending 1 log entries to Firebase.
+2024-11-18 12:42:27,632 - INFO - Received 1 document IDs from Peerr.
+2024-11-18 12:42:27,821 - INFO - Logged data to llm collection with FirestoreID: b2f0f16223ae6e6b944a2568cae227f6.
