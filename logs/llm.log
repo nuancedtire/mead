@@ -28123,3 +28123,45 @@ The composition captures a wide-angle view of the bustling hospital corridor, wi
 2024-11-18 15:25:14,802 - INFO - Sending 1 log entries to Firebase.
 2024-11-18 15:25:17,956 - INFO - Received 1 document IDs from Peerr.
 2024-11-18 15:25:18,200 - INFO - Logged data to llm collection with FirestoreID: fd84fe1d040e67d7d669980a43956813.
+2024-11-18 16:27:45,642 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-18 16:27:45,646 - INFO - Extracted 417 link records from llm.
+2024-11-18 16:27:46,018 - INFO - Extracted 427 link records from combined_news.
+2024-11-18 16:27:46,020 - INFO - Unique links to process: 10
+2024-11-18 16:27:46,020 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-18 16:27:46,020 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-18 16:27:46,020 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-18 16:28:06,200 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 16:28:09,268 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 16:28:12,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-18 16:28:12,034 - INFO - Image query: A photorealistic image set in a modern clinical research office. A diverse group of healthcare professionals, including a middle-aged female physician in a white coat, a young male data analyst in business casual attire, and an elderly male researcher with glasses, are gathered around a sleek conference table. They are engaged in a lively discussion, with a laptop open in front of them displaying the TrialGPT interface, showcasing patient summaries and trial listings. The physician is pointing at the screen, her expression animated and excited, while the analyst takes notes on a digital tablet, and the researcher nods thoughtfully. The room is bright and airy, with large windows allowing natural light to flood in, creating a vibrant atmosphere. On the walls, posters of clinical trial statistics and AI technology are visible, emphasizing the theme of innovation in medical research. The composition captures a dynamic angle, focusing on the interaction among the team, highlighting the collaborative spirit of integrating AI into clinical practice. The overall mood conveys enthusiasm and optimism about the future of clinical trial recruitment through AI advancements.
+2024-11-18 16:28:12,226 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-18 16:28:12,276 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:12,425 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:12,576 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:12,725 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:12,873 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:13,022 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:13,172 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:13,328 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:13,481 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:13,633 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:13,782 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:13,935 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:14,086 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:14,236 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:14,390 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:14,539 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:14,691 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-18 16:28:14,842 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f/status?logs=false "HTTP/1.1 200 OK"
+2024-11-18 16:28:14,890 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/d8c79cdd-8bf7-4912-86f0-0596663e186f "HTTP/1.1 200 OK"
+2024-11-18 16:28:14,890 - INFO - Successfully generated image with Fal AI: https://fal.media/files/lion/UoaK_bqIDtVSnyoJITzOc.png
+2024-11-18 16:28:14,891 - INFO - Image link: https://fal.media/files/lion/UoaK_bqIDtVSnyoJITzOc.png
+2024-11-18 16:28:14,891 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-18 16:28:14,891 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-18 16:28:14,891 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-18 16:28:14,891 - INFO - Skipping recently failed link: https://doi.org/10.1016/j.jinf.2024.106328
+2024-11-18 16:28:14,891 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5913270
+2024-11-18 16:28:14,892 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-18 16:28:14,892 - INFO - Sending 1 log entries to Firebase.
+2024-11-18 16:28:18,099 - INFO - Received 1 document IDs from Peerr.
+2024-11-18 16:28:18,231 - INFO - Logged data to llm collection with FirestoreID: 5da520599351b218ae1eba2152ccbd6b.
