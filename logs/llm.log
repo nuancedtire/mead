@@ -28355,3 +28355,62 @@ The composition captures a wide-angle view of the bustling hospital corridor, wi
 2024-11-19 06:23:42,813 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
 2024-11-19 06:23:42,813 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-19 06:23:42,813 - INFO - No valid log entries generated.
+2024-11-19 09:23:43,612 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-19 09:23:43,619 - INFO - Extracted 420 link records from llm.
+2024-11-19 09:23:44,409 - INFO - Extracted 433 link records from combined_news.
+2024-11-19 09:23:44,410 - INFO - Unique links to process: 13
+2024-11-19 09:23:56,640 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:24:02,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:24:06,961 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:24:06,966 - INFO - Image query: A photorealistic image set in a modern pediatric clinic. A young adolescent, around 14 years old, is seated comfortably in a bright, inviting consultation room, wearing a casual t-shirt and jeans. They are interacting with a sleek tablet displaying the ORBIT program interface, which features colorful animations and engaging videos. The child’s expression is one of curiosity and engagement, reflecting hope and interest in the digital therapy. Nearby, a healthcare professional, a compassionate female clinician in a professional outfit, leans over the child’s shoulder, pointing at the tablet screen with a warm smile, indicating guidance and support. On the table beside them, a small, futuristic-looking wearable device representing Neupulse is visible, symbolizing the innovative treatment options available. The room is filled with natural light streaming through large windows, creating a cheerful atmosphere. Brightly colored posters on the walls depict positive messages about mental health and technology in medicine. The composition captures a medium close-up angle, focusing on the interaction between the clinician and the child, emphasizing the potential of digital therapies in transforming treatment for Tourette syndrome and chronic tics. The overall mood conveys optimism and innovation, highlighting the importance of accessibility in healthcare solutions.
+2024-11-19 09:24:07,579 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-19 09:24:07,638 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:07,833 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:07,998 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:08,539 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:09,051 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:09,468 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:09,627 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:09,962 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:10,132 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969/status?logs=false "HTTP/1.1 200 OK"
+2024-11-19 09:24:10,194 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a40e41a2-a25c-4f35-8a89-27797b0cf969 "HTTP/1.1 200 OK"
+2024-11-19 09:24:10,195 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/-TtBTuTl6peJsq2TNzVYe.png
+2024-11-19 09:24:10,195 - INFO - Image link: https://fal.media/files/kangaroo/-TtBTuTl6peJsq2TNzVYe.png
+2024-11-19 09:24:10,196 - INFO - Skipping recently failed link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-19 09:24:10,196 - INFO - Skipping recently failed link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-19 09:24:33,970 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:24:41,720 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:24:45,807 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:24:45,812 - INFO - Image query: A photorealistic image set in a modern pharmaceutical research lab. A diverse group of scientists, including a middle-aged Asian female researcher in a lab coat, a young Black male researcher, and a Caucasian female scientist, are gathered around a sleek, high-tech laboratory table. They are intently examining a digital tablet displaying data and graphs related to the Phase III trial results of rifasutenizol (TNP-2198). The expressions on their faces reflect excitement and determination, emphasizing the significance of their findings. In the background, shelves filled with laboratory equipment, vials, and research papers create a dynamic and busy atmosphere. Bright, sterile lighting illuminates the space, highlighting the advanced technology and the collaborative spirit of scientific discovery. A large window allows natural light to filter in, casting soft shadows and creating a sense of optimism. The composition captures a medium shot angle, focusing on the interaction among the researchers as they discuss the potential impact of rifasutenizol on H. pylori treatment. The overall mood conveys a sense of innovation and hope, reflecting the groundbreaking nature of this new drug in the fight against antibiotic-resistant infections.
+2024-11-19 09:24:46,051 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-19 09:24:46,110 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1ab700fd-e872-45d3-84fa-81bee4381e5d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:46,486 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1ab700fd-e872-45d3-84fa-81bee4381e5d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:46,714 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1ab700fd-e872-45d3-84fa-81bee4381e5d/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:24:50,594 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1ab700fd-e872-45d3-84fa-81bee4381e5d/status?logs=false "HTTP/1.1 200 OK"
+2024-11-19 09:24:50,665 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/1ab700fd-e872-45d3-84fa-81bee4381e5d "HTTP/1.1 200 OK"
+2024-11-19 09:24:50,665 - INFO - Successfully generated image with Fal AI: https://fal.media/files/kangaroo/8JwPHnmeMQknz_g83yJ0G.png
+2024-11-19 09:24:50,665 - INFO - Image link: https://fal.media/files/kangaroo/8JwPHnmeMQknz_g83yJ0G.png
+2024-11-19 09:24:50,665 - INFO - Skipping recently failed link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-19 09:24:50,665 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-19 09:25:08,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:25:16,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:25:19,858 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 09:25:19,863 - INFO - Image query: A photorealistic image set in a modern pharmaceutical research lab. A diverse group of scientists, including a middle-aged Asian female researcher in a lab coat and safety goggles, stands around a sleek, high-tech workstation. They are intently examining a digital display showing molecular structures and data related to Libevitug, the anti-PreS1 human monoclonal antibody. The atmosphere is filled with a sense of excitement and urgency, as the researchers discuss their findings. In the background, shelves filled with laboratory equipment and vials create a busy yet organized environment. Bright, focused lighting illuminates the scene, highlighting the scientists' expressions of determination and hope. A large poster on the wall depicts the hepatitis D virus structure, emphasizing the significance of their work. The composition captures a medium-wide angle, showcasing the collaborative effort in the lab, while conveying the importance of the breakthrough therapy designation and its potential impact on chronic hepatitis D treatment. The overall mood is one of optimism and innovation, reflecting the critical advancements in medical research for viral hepatitis.
+2024-11-19 09:25:20,244 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-19 09:25:20,327 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:20,493 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:20,650 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:21,081 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:21,262 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:21,421 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:21,724 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:22,231 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 09:25:23,171 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712/status?logs=false "HTTP/1.1 200 OK"
+2024-11-19 09:25:23,229 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/7d04d700-5ab8-424c-9bb5-9b517a51b712 "HTTP/1.1 200 OK"
+2024-11-19 09:25:23,229 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/hRY9q7G_dMNR07uQU_-3m.png
+2024-11-19 09:25:23,230 - INFO - Image link: https://fal.media/files/rabbit/hRY9q7G_dMNR07uQU_-3m.png
+2024-11-19 09:25:23,230 - INFO - Sending 3 log entries to Firebase.
+2024-11-19 09:25:26,434 - INFO - Received 3 document IDs from Peerr.
+2024-11-19 09:25:26,671 - INFO - Logged data to llm collection with FirestoreID: 0c67fa6fbc19bf60b901d9eb377b9b20.
+2024-11-19 09:25:27,322 - INFO - Logged data to llm collection with FirestoreID: 47e5e9c3ba5b299b9a072209e60c0c48.
+2024-11-19 09:25:27,537 - INFO - Logged data to llm collection with FirestoreID: 949acea0400654c32d9dbea1d07a96ba.
