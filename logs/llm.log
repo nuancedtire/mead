@@ -28261,3 +28261,57 @@ The composition captures a wide-angle view of the bustling hospital corridor, wi
 2024-11-18 22:22:18,164 - INFO - Skipping recently failed link: https://www.firstwordpharma.com/story/5913270
 2024-11-18 22:22:18,164 - INFO - Skipping recently failed link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
 2024-11-18 22:22:18,164 - INFO - No valid log entries generated.
+2024-11-19 01:09:19,791 - WARNING - 'Source Link' not found. Using 'Link' as source link.
+2024-11-19 01:09:19,795 - INFO - Extracted 419 link records from llm.
+2024-11-19 01:09:20,343 - INFO - Extracted 429 link records from combined_news.
+2024-11-19 01:09:20,344 - INFO - Unique links to process: 10
+2024-11-19 01:09:27,313 - INFO - No article found for link https://doi.org/10.1016/S2213-8587(24)00201-8.
+2024-11-19 01:09:27,313 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/S2213-8587(24)00201-8
+2024-11-19 01:09:32,309 - INFO - No article found for link https://doi.org/10.1136/thorax-2024-BTSabstracts.181.
+2024-11-19 01:09:32,310 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1136/thorax-2024-BTSabstracts.181
+2024-11-19 01:09:36,670 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 01:09:36,688 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo.
+2024-11-19 01:09:36,689 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/diagnosis-and-management-masld-formerly-nafld-and-managing-2024a1000jeo
+2024-11-19 01:09:38,627 - INFO - No article found for link http://dx.doi.org/10.1016/S1474-4422(24)00320-X.
+2024-11-19 01:09:38,628 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1474-4422(24)00320-X
+2024-11-19 01:09:51,535 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 01:09:54,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 01:09:57,604 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 01:09:57,608 - INFO - Image query: A photorealistic image set in a modern pediatric clinic. A young girl, around 12 years old, with a thoughtful expression, is seated on an examination table, wearing a colorful t-shirt. She is interacting with a sleek, futuristic wearable device on her wrist, symbolizing the Neupulse technology. A compassionate healthcare professional, a middle-aged woman in a lab coat, stands beside her, pointing to a digital tablet displaying the ORBIT program interface, which features engaging graphics and therapy modules. The room is bright and inviting, with colorful artwork on the walls depicting various activities and emotions, creating a supportive atmosphere. Soft natural light streams through a window, illuminating the scene and casting gentle shadows. The composition captures a medium shot, focusing on the interaction between the girl and the healthcare professional, emphasizing the hope and innovation brought by digital therapies for tic disorders. The overall mood conveys optimism and empowerment, reflecting the potential of these technologies to transform treatment access and improve quality of life for young individuals with chronic tic disorders.
+2024-11-19 01:09:57,703 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/dev "HTTP/1.1 200 OK"
+2024-11-19 01:09:57,904 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:58,026 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:58,432 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:58,550 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:58,675 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:58,816 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:58,934 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:59,052 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:59,169 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:59,305 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:59,501 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:59,620 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:59,738 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:09:59,907 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:10:00,026 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:10:00,147 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:10:00,305 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 202 Accepted"
+2024-11-19 01:10:00,422 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5/status?logs=false "HTTP/1.1 200 OK"
+2024-11-19 01:10:00,451 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/a869c157-6c24-4e68-ac82-e7b1932e68a5 "HTTP/1.1 200 OK"
+2024-11-19 01:10:00,452 - INFO - Successfully generated image with Fal AI: https://fal.media/files/rabbit/zBxgGIOfA2gPTqd9fEiLx.png
+2024-11-19 01:10:00,452 - INFO - Image link: https://fal.media/files/rabbit/zBxgGIOfA2gPTqd9fEiLx.png
+2024-11-19 01:10:14,267 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 01:10:14,271 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2.
+2024-11-19 01:10:14,271 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/investigations-bowel-conditions-fit-and-faecal-calprotectin-2024a1000jf2
+2024-11-19 01:10:19,093 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-19 01:10:19,097 - INFO - No article found for link https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3.
+2024-11-19 01:10:19,098 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.medscape.co.uk/viewarticle/reflux-and-related-disorders-children-dr-david-capehorns-2024a1000jf3
+2024-11-19 01:10:21,661 - INFO - No article found for link https://doi.org/10.1016/j.jinf.2024.106328.
+2024-11-19 01:10:21,661 - WARNING - Skipping entry due to missing or invalid log entry for link: https://doi.org/10.1016/j.jinf.2024.106328
+2024-11-19 01:10:52,484 - INFO - No article found for link https://www.firstwordpharma.com/story/5913270.
+2024-11-19 01:10:52,484 - WARNING - Skipping entry due to missing or invalid log entry for link: https://www.firstwordpharma.com/story/5913270
+2024-11-19 01:10:54,572 - INFO - No article found for link http://dx.doi.org/10.1016/S1470-2045(24)00402-9.
+2024-11-19 01:10:54,573 - WARNING - Skipping entry due to missing or invalid log entry for link: http://dx.doi.org/10.1016/S1470-2045(24)00402-9
+2024-11-19 01:10:54,573 - INFO - Sending 1 log entries to Firebase.
+2024-11-19 01:10:57,820 - INFO - Received 1 document IDs from Peerr.
+2024-11-19 01:10:57,997 - INFO - Logged data to llm collection with FirestoreID: 8b72bb496aae117f1cd9f9a51f1fed4b.
