@@ -8458,3 +8458,9 @@
 2024-12-03 12:42:21,101 - INFO - Processed first article
 2024-12-03 12:42:21,297 - INFO - Data saved to Firestore. Total items: 1.
 2024-12-03 12:42:21,297 - INFO - Scraping completed.
+2024-12-03 13:33:03,225 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-12-03 13:33:03,279 - INFO - Successfully fetched webpage. Content length: 100252
+2024-12-03 13:33:03,306 - INFO - Processed item: Loss-making biotech group appoints ex-Sandoz CFO to board - 2024-11-18 00:00:00
+2024-12-03 13:33:03,306 - INFO - Processed first article
+2024-12-03 13:33:03,472 - INFO - Data saved to Firestore. Total items: 1.
+2024-12-03 13:33:03,473 - INFO - Scraping completed.
