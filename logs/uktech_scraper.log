@@ -8764,3 +8764,9 @@
 2024-12-06 18:32:39,615 - INFO - Processed first article
 2024-12-06 18:32:39,968 - INFO - Data saved to Firestore. Total items: 1.
 2024-12-06 18:32:39,968 - INFO - Scraping completed.
+2024-12-27 00:31:39,408 - INFO - Starting scrape for https://www.uktech.news/medtech
+2024-12-27 00:31:39,643 - INFO - Successfully fetched webpage. Content length: 99720
+2024-12-27 00:31:39,671 - INFO - Processed item: Edinburgh health tech spinout Concinnity genetics raises £3m - 2024-12-16 00:00:00
+2024-12-27 00:31:39,671 - INFO - Processed first article
+2024-12-27 00:31:40,172 - INFO - Data saved to Firestore. Total items: 1.
+2024-12-27 00:31:40,172 - INFO - Scraping completed.
